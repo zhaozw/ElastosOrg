@@ -1,0 +1,3 @@
+[submodule "gerrit_src"]
+	path = gerrit_src
+	url = https://gerrit.googlesource.com/gerrit
