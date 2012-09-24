@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>1.0</version>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>hudson.model.Computer.Configure:elastos</permission>
+    <permission>hudson.model.Computer.Connect:elastos</permission>
+    <permission>hudson.model.Computer.Create:elastos</permission>
+    <permission>hudson.model.Computer.Delete:elastos</permission>
+    <permission>hudson.model.Computer.Disconnect:elastos</permission>
+    <permission>hudson.model.Hudson.Administer:elastos</permission>
+    <permission>hudson.model.Hudson.Read:elastos</permission>
+    <permission>hudson.model.Hudson.RunScripts:elastos</permission>
+    <permission>hudson.model.Item.Build:elastos</permission>
+    <permission>hudson.model.Item.Cancel:elastos</permission>
+    <permission>hudson.model.Item.Configure:elastos</permission>
+    <permission>hudson.model.Item.Create:elastos</permission>
+    <permission>hudson.model.Item.Delete:elastos</permission>
+    <permission>hudson.model.Item.Read:elastos</permission>
+    <permission>hudson.model.Item.Workspace:elastos</permission>
+    <permission>hudson.model.Run.Delete:elastos</permission>
+    <permission>hudson.model.Run.Update:elastos</permission>
+    <permission>hudson.model.View.Configure:elastos</permission>
+    <permission>hudson.model.View.Create:elastos</permission>
+    <permission>hudson.model.View.Delete:elastos</permission>
+    <permission>hudson.model.View.Read:elastos</permission>
+    <permission>hudson.scm.SCM.Tag:elastos</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULLNAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <slaves/>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views/>
+  <slaveAgentPort>0</slaveAgentPort>
+  <label></label>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>

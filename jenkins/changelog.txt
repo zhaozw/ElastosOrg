@@ -1,0 +1,56 @@
+============ CHANGELOG =============
+
+Version 1.481-0      2012-09-11
+* Update Jenkins to 1.481
+* Update Git Plugin to 1.1.23
+
+Version 1.477-0      2012-08-13
+* Update Jenkins to 1.477
+* Update Git Plugin to 1.1.22
+
+Version 1.476-0      2012-08-01
+* Update Jenkins to 1.476
+
+Version 1.475-0      2012-07-26
+* Update Jenkins to 1.475
+* Update Git Plugin to 1.1.21
+* Update Tomcat to 7.0.29
+* Changed Tomcat server to run as 'tomcat' user when
+it is installed as root
+
+Version 1.472-0      2012-06-25
+* Update Jenkins to 1.472
+* Update Tomcat to 7.0.28
+
+Version 1.471-0      2012-06-20
+* Update Jenkins to 1.471
+
+Version 1.470-0      2012-06-18
+* Update Jenkins to 1.470
+* Update Jenkins Git Plugin to 1.1.19
+* Update JDK to 1.6.0_33
+
+Version 1.467-0      2012-06-07
+* Update Jenkins to 1.467
+
+Version 1.465-0      2012-05-22
+* Update Jenkins to 1.465
+* Include Git 1.7.9
+* Add Jenkins Git Plugin 1.1.18 
+
+Version 1.464-0      2012-05-17
+* Update Jenkins to 1.464
+
+Version 2012.4-0      2012-05-09
+* Update Jenkins to 1.463
+
+Version 1.462-0      2012-05-01
+* Update Jenkins to 1.462
+
+Version 1.461-0      2012-04-27
+* Update Jenkins to 1.461
+
+Version 1.460-0      2012-04-18
+* Initial release, bundles Apache Tomcat 7.0.27 and 
+Jenkins 1.460 (and JDK 1.6.0_27 on Linux and Windows) 
+

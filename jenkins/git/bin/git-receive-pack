@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/jenkins/scripts/setenv.sh
+
+exec /opt/jenkins/git/bin/.origin/git-receive-pack "$@"

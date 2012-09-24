@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATH="/opt/jenkins/git/bin:/opt/jenkins/perl/bin:/opt/jenkins/java/bin:/opt/jenkins/common/bin:$PATH"
+
+exec /bin/bash --noprofile --norc
+                    

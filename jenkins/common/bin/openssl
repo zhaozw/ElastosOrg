@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/opt/jenkins/common/lib:$LD_LIBRARY_PATH"	   
+DYLD_LIBRARY_PATH="/opt/jenkins/common/lib:$DYLD_LIBRARY_PATH"	   
+OPENSSL_CONF="/opt/jenkins/common/openssl/openssl.cnf"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export OPENSSL_CONF
+exec /opt/jenkins/common/bin/openssl.bin "$@"

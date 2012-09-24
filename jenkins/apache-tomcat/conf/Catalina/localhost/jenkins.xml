@@ -1,0 +1,4 @@
+<Context>
+  <Environment name="JENKINS_HOME" value="/opt/jenkins/apps/jenkins/jenkins_home" type="java.lang.String"/>
+</Context>
+
