@@ -274,3 +274,17 @@
 192.168.4.29 - - [24/Sep/2012:11:10:12 +0800] "GET /wordpress/wp-content/themes/twentyeleven/images/comment-bubble.png HTTP/1.1" 200 925
 192.168.4.29 - - [24/Sep/2012:11:10:13 +0800] "GET /favicon.ico HTTP/1.1" 404 209
 127.0.0.1 - - [24/Sep/2012:11:10:30 +0800] "OPTIONS * HTTP/1.0" 200 -
+127.0.0.1 - - [24/Sep/2012:11:12:43 +0800] "HEAD /redmine HTTP/1.1" 200 -
+127.0.0.1 - - [24/Sep/2012:11:12:43 +0800] "HEAD /redmine HTTP/1.1" 200 -
+192.168.4.29 - - [24/Sep/2012:11:13:21 +0800] "GET /mediawiki HTTP/1.1" 301 237
+192.168.4.29 - - [24/Sep/2012:11:13:21 +0800] "GET /mediawiki/ HTTP/1.1" 301 -
+192.168.4.29 - - [24/Sep/2012:11:13:21 +0800] "GET /mediawiki/index.php/Main_Page HTTP/1.1" 200 13250
+192.168.4.29 - - [24/Sep/2012:11:13:22 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&* HTTP/1.1" 200 454
+192.168.4.29 - - [24/Sep/2012:11:13:22 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&only=styles&skin=vector&* HTTP/1.1" 200 63240
+192.168.4.29 - - [24/Sep/2012:11:13:22 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* HTTP/1.1" 200 11062
+192.168.4.29 - - [24/Sep/2012:11:13:22 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki&only=scripts&skin=vector&version=20120830T222535Z HTTP/1.1" 200 156291
+192.168.4.29 - - [24/Sep/2012:11:13:23 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=jquery.client%2Ccookie%2CmessageBox%2CmwExtension%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.page.startup%7Cmediawiki.util&skin=vector&version=20120924T031205Z&* HTTP/1.1" 200 29581
+192.168.4.29 - - [24/Sep/2012:11:13:24 +0800] "GET /mediawiki/skins/common/images/wiki.png HTTP/1.1" 200 24482
+192.168.4.29 - - [24/Sep/2012:11:13:24 +0800] "GET /mediawiki/skins/common/images/poweredby_mediawiki_88x31.png HTTP/1.1" 200 3605
+192.168.4.29 - - [24/Sep/2012:11:13:24 +0800] "GET /mediawiki/load.php?debug=false&lang=en&modules=jquery.checkboxShiftClick%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%7Cmediawiki.page.ready%7Cmediawiki.user&skin=vector&version=20120924T031205Z&* HTTP/1.1" 200 10670
+192.168.4.29 - - [24/Sep/2012:11:13:25 +0800] "GET /favicon.ico HTTP/1.1" 404 209
