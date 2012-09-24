@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/redmine/scripts/setenv.sh
+
+exec /opt/redmine/common/bin/.xmllint.bin  "$@"

@@ -1,0 +1,22 @@
+=head2 Mon Sep 17 05:16:55 2012: C<Module> L<Git|Git>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/git/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

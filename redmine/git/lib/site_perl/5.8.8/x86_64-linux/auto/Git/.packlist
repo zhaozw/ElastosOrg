@@ -1,0 +1,16 @@
+/opt/redmine/git/lib/site_perl/5.8.8/Error.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/I18N.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/SVN/Editor.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/SVN/Fetcher.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/SVN/Memoize/YAML.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/SVN/Prompt.pm
+/opt/redmine/git/lib/site_perl/5.8.8/Git/SVN/Ra.pm
+/opt/redmine/git/share/man/man3/Git.3
+/opt/redmine/git/share/man/man3/Git::I18N.3
+/opt/redmine/git/share/man/man3/Git::SVN::Editor.3
+/opt/redmine/git/share/man/man3/Git::SVN::Fetcher.3
+/opt/redmine/git/share/man/man3/Git::SVN::Memoize::YAML.3
+/opt/redmine/git/share/man/man3/Git::SVN::Prompt.3
+/opt/redmine/git/share/man/man3/Git::SVN::Ra.3
+/opt/redmine/git/share/man/man3/private-Error.3

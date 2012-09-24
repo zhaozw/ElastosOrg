@@ -1,0 +1,28 @@
+120924 09:52:51 mysqld_safe Starting mysqld.bin daemon with databases from /opt/redmine/mysql/data
+120924  9:52:51 [Note] Plugin 'FEDERATED' is disabled.
+120924  9:52:51 InnoDB: The InnoDB memory heap is disabled
+120924  9:52:51 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+120924  9:52:51 InnoDB: Compressed tables use zlib 1.2.3
+120924  9:52:51 InnoDB: Using Linux native AIO
+120924  9:52:51 InnoDB: Initializing buffer pool, size = 128.0M
+120924  9:52:51 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file ./ibdata1 did not exist:
+InnoDB: a new database to be created!
+120924  9:52:51  InnoDB: Setting file ./ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+120924  9:52:51  InnoDB: Log file ./ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+120924  9:52:51  InnoDB: Log file ./ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file ./ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+120924  9:52:52  InnoDB: Waiting for the background threads to start
+120924  9:52:53 InnoDB: 1.1.8 started; log sequence number 0
+120924  9:52:53 [Note] Event Scheduler: Loaded 0 events
+120924  9:52:53 [Note] /opt/redmine/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.5.21'  socket: '/opt/redmine/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)

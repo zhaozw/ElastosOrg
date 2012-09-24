@@ -1,0 +1,6 @@
+/opt/redmine/perl/bin/shasum
+/opt/redmine/perl/lib/site_perl/5.8.8/x86_64-linux/Digest/SHA.pm
+/opt/redmine/perl/lib/site_perl/5.8.8/x86_64-linux/auto/Digest/SHA/SHA.bs
+/opt/redmine/perl/lib/site_perl/5.8.8/x86_64-linux/auto/Digest/SHA/SHA.so
+/opt/redmine/perl/man/man1/shasum.1
+/opt/redmine/perl/man/man3/Digest::SHA.3

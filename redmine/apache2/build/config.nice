@@ -1,0 +1,30 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="gcc"; export CC
+CFLAGS="-I/opt/redmine/common/include -m64 -fPIC -I/bitnami/rubystack-linux-x64/output/ImageMagick/include/ImageMagick"; export CFLAGS
+CPPFLAGS="-I/opt/redmine/common/include"; export CPPFLAGS
+LDFLAGS="-L/opt/redmine/common/lib -liconv"; export LDFLAGS
+"./configure" \
+"--prefix=/opt/redmine/apache2" \
+"--enable-so" \
+"--enable-mods-shared=most" \
+"--disable-auth_dbm" \
+"--without-berkeley-db" \
+"--with-included-apr" \
+"--enable-deflate" \
+"--enable-ssl" \
+"--with-ssl=/opt/redmine/common" \
+"--enable-proxy" \
+"--enable-proxy-http" \
+"--enable-proxy-balancer" \
+"--enable-rewrite" \
+"--with-ldap" \
+"--enable-authnz-ldap" \
+"--enable-ldap" \
+"CC=gcc" \
+"CFLAGS=-I/opt/redmine/common/include -m64 -fPIC -I/bitnami/rubystack-linux-x64/output/ImageMagick/include/ImageMagick" \
+"LDFLAGS=-L/opt/redmine/common/lib -liconv" \
+"CPPFLAGS=-I/opt/redmine/common/include" \
+"$@"

@@ -1,0 +1,9 @@
+#!/bin/sh
+LD_LIBRARY_PATH=/opt/redmine/mysql/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+case "$@" in
+  *--no-defaults*)
+    exec $0.bin "$@"
+    exit
+esac
+exec $0.bin --defaults-file=/opt/redmine/mysql/my.cnf "$@"

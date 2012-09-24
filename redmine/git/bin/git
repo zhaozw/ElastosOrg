@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/redmine/scripts/setenv.sh
+
+exec /opt/redmine/git/bin/.origin/git "$@"

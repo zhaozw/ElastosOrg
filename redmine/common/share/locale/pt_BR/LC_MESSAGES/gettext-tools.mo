@@ -1,0 +1,41 @@
+√û¬ï¿Ä¿Ä¿Ä¿ÄA¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä$¿Ä¿ÄY¿Ä¿Ä¿Ä,¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¬ê¿Ä¿Ä¿Ä¿Ä¿Ä¬ë¿Ä¿Ä,¿Ä¿Ä¿Ä¬ô¿Ä¿Ä ¿Ä¿Ä¿Ä√Ü¿Ä¿Ä3¿Ä¿Ä¿Ä√ß¿Ä¿Ä/¿Ä¿Ä¿Ä¿Ä¿Ä+¿Ä¿Ä¿ÄK¿Ä¿ÄT¿Ä¿Ä¿Äw¿Ä¿Ä.¿Ä¿Ä¿Ä√å¿Ä¿Ä4¿Ä¿Ä¿Ä√ª¿Ä¿Ä?¿Ä¿Ä¿Ä0¿Ä¿Ä!¿Ä¿Ä¿Äp¿Ä¿Ä¿Ä¿Ä¿Ä¬í¿Ä¿Ä&¿Ä¿Ä¿Ä¬ö¿Ä¿Ä¿Ä¿Ä¿Ä√Å¿Ä¿Ä¿Ä¿Ä¿Ä√ñ¿Ä¿Ä¿Ä¿Ä¿Ä√¶¿Ä¿Ä>¿Ä¿Ä¿Ä¿Ä¿Ä<¿Ä¿Ä¿ÄC¿Ä¿Ä8¿Ä¿Ä¿Ä¬Ä¿Ä¿Ä6¿Ä¿Ä¿Ä¬π¿Ä¿Ä<¿Ä¿Ä¿Ä√∞¿Ä¿Ä:¿Ä¿Ä¿Ä-	¿Ä¿Ä$¿Ä¿Ä¿Äh	¿Ä¿Ä¿Ä¿Ä¿Ä¬ç	¿Ä¿Ä*¿Ä¿Ä¿Ä¬¨	¿Ä¿Ä;¿Ä¿Ä¿Ä√ó	¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä0
+¿Ä¿Ä¿Ä¿Ä¿ÄM
+¿Ä¿Ä¿Ä¿Ä¿Äg
+¿Ä¿Ä$¿Ä¿Ä¿Ä¬Å
+¿Ä¿Ä$¿Ä¿Ä¿Ä¬¶
+¿Ä¿Ä¿Ä¿Ä¿Ä√ã
+¿Ä¿Ä¿Ä¿Ä¿Ä√§
+¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä.¿Ä¿Ä¿Ä!¿Ä¿Ä"¿Ä¿Ä¿ÄP¿Ä¿Ä#¿Ä¿Ä¿Äs¿Ä¿Ä*¿Ä¿Ä¿Ä¬ó¿Ä¿Ä¿Ä¿Ä¿Ä√Ç¿Ä¿Ä5¿Ä¿Ä¿Ä√ü¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿ÄG¿Ä¿Ä¿Ä,¿Ä¿Ä¿Ä¿Ä¿Ät¿Ä¿Ä¿Ä¿Ä¿Ä¬ç¿Ä¿Ä¿Ä¿Ä¿Ä¬®¿Ä¿Ä¿Ä¿Ä¿Ä¬Ω¿Ä¿Ä¿Ä¿Ä¿Ä√ì¿Ä¿Ä¿Ä¿Ä¿Ä√§¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä7
+¿Ä¿Ä¿Ä¿Ä¿ÄK
+¿Ä¿Ä¿Ä¿Ä¿Ä`
+¿Ä¿Ä¿Ä¿Ä¿Ä|
+¿Ä¿Ä¿Ä¿Ä¿Ä¬ã
+¿Ä¿Ä+¿Ä¿Ä¿Ä¬õ
+¿Ä¿Ä*¿Ä¿Ä¿Ä√á
+¿Ä¿Ä'¿Ä¿Ä¿Ä√≤
+¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä-¿Ä¿Ä8¿Ä¿Ä¿ÄG¿Ä¿Ä!¿Ä¿Ä¿Ä¬Ä¿Ä¿Ä1¿Ä¿Ä¿Ä¬¢¿Ä¿Ä√Ö¿Ä¿Ä√î¿Ä¿Ä¿Ä¿Ä¿Ä¬ö¿Ä¿Ä-¿Ä¿Ä¿Ä¬£¿Ä¿Ä!¿Ä¿Ä¿Ä√ë¿Ä¿Ä5¿Ä¿Ä¿Ä√≥¿Ä¿Ä/¿Ä¿Ä¿Ä)¿Ä¿Ä*¿Ä¿Ä¿ÄY¿Ä¿Äe¿Ä¿Ä¿Ä¬Ñ¿Ä¿ÄC¿Ä¿Ä¿Ä√™¿Ä¿Ä9¿Ä¿Ä¿Ä.¿Ä¿ÄM¿Ä¿Ä¿Äh¿Ä¿Ä¿Ä¿Ä¿Ä¬∂¿Ä¿Ä¿Ä¿Ä¿Ä√ñ¿Ä¿Ä+¿Ä¿Ä¿Ä√û¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä'¿Ä¿Ä¿Ä¿Ä¿Ä8¿Ä¿Ä'¿Ä¿Ä¿ÄW¿Ä¿Ä(¿Ä¿Ä¿Ä¿Ä¿Ä'¿Ä¿Ä¿Ä¬®¿Ä¿Ä(¿Ä¿Ä¿Ä√ê¿Ä¿Ä+¿Ä¿Ä¿Ä√π¿Ä¿Ä,¿Ä¿Ä¿Ä%¿Ä¿Ä0¿Ä¿Ä¿ÄR¿Ä¿Ä.¿Ä¿Ä¿Ä¬É¿Ä¿Ä6¿Ä¿Ä¿Ä¬≤¿Ä¿ÄM¿Ä¿Ä¿Ä√©¿Ä¿Ä¿Ä¿Ä¿Ä7¿Ä¿Ä!¿Ä¿Ä¿ÄW¿Ä¿Ä¿Ä¿Ä¿Äy¿Ä¿Ä¿Ä¿Ä¿Ä¬ì¿Ä¿Ä¿Ä¿Ä¿Ä¬´¿Ä¿Ä*¿Ä¿Ä¿Ä√ã¿Ä¿Ä¿Ä¿Ä¿Ä√∂¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä%¿Ä¿Ä¿Ä%¿Ä¿Ä0¿Ä¿Ä¿ÄK¿Ä¿Ä(¿Ä¿Ä¿Ä|¿Ä¿Ä7¿Ä¿Ä¿Ä¬•¿Ä¿Ä4¿Ä¿Ä¿Ä√ù¿Ä¿Ä.¿Ä¿Ä¿Ä¿Ä¿Ä9¿Ä¿Ä¿ÄA¿Ä¿Ä¿Ä¿Ä¿Ä{¿Ä¿ÄJ¿Ä¿Ä¿Ä¬ì¿Ä¿Ä¿Ä¿Ä¿Ä√û¿Ä¿Ä¿Ä¿Ä¿Ä√ª¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä8¿Ä¿Ä¿Ä¿Ä¿ÄQ¿Ä¿Ä#¿Ä¿Ä¿Äf¿Ä¿Ä¿Ä¿Ä¿Ä¬ä¿Ä¿Ä¿Ä¿Ä¿Ä¬®¿Ä¿Ä&¿Ä¿Ä¿Ä√à¿Ä¿Ä"¿Ä¿Ä¿Ä√Ø¿Ä¿Ä ¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä3¿Ä¿Ä¿Ä¿Ä¿ÄB¿Ä¿Ä3¿Ä¿Ä¿ÄO¿Ä¿Ä0¿Ä¿Ä¿Ä¬É¿Ä¿Ä2¿Ä¿Ä¿Ä¬¥¿Ä¿Ä¿Ä¿Ä¿Ä√ß¿Ä¿Ä¿Ä¿Ä¿Ä√Ω¿Ä¿Ä<¿Ä¿Ä¿Ä¿Ä¿Ä&¿Ä¿Ä¿ÄY¿Ä¿Ä7¿Ä¿Ä¿Ä¬Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä>¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä;¿Ä¿Ä¿Ä)¿Ä¿Ä¿Ä:¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä2¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä&¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä?¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä4¿Ä¿Ä¿Ä#¿Ä¿Ä¿Ä5¿Ä¿Ä¿ÄA¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä"¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä8¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä<¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä6¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä-¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä1¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä ¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä/¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä
+¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä%¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä$¿Ä¿Ä¿Ä+¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä*¿Ä¿Ä¿Ä(¿Ä¿Ä¿Ä=¿Ä¿Ä¿Ä'¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä	¿Ä¿Ä¿Ä.¿Ä¿Ä¿Ä@¿Ä¿Ä¿Ä,¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä3¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä0¿Ä¿Ä¿Ä9¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä!¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä7¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä¿Ä done.
+¿Ä%d translated message¿Ä%d translated messages¿Ä%s and %s are mutually exclusive¿Ä%s: warning: source file contains fuzzy translation¿Ä%s:%d: warning: unterminated character constant¿Ä%s:%d: warning: unterminated string literal¿Ä%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.
+¿Ä, %d fuzzy translation¿Ä, %d fuzzy translations¿Ä, %d untranslated message¿Ä, %d untranslated messages¿Ä--join-existing cannot be used when output is written to stdout¿Ä...but this definition is similar¿Ä<stdin>¿ÄTry `%s --help' for more information.
+¿ÄUnknown system error¿ÄWritten by %s.
+¿Ä`domain %s' directive ignored¿Ä`msgid' and `msgid_plural' entries do not both begin with '\n'¿Ä`msgid' and `msgid_plural' entries do not both end with '\n'¿Ä`msgid' and `msgstr' entries do not both begin with '\n'¿Ä`msgid' and `msgstr' entries do not both end with '\n'¿Ä`msgid' and `msgstr[%u]' entries do not both begin with '\n'¿Ä`msgid' and `msgstr[%u]' entries do not both end with '\n'¿Äat least two files must be specified¿Äcannot create output file "%s"¿Ädomain name "%s" not suitable as file name¿Ädomain name "%s" not suitable as file name: will use prefix¿Äduplicate message definition¿Äempty `msgstr' entry ignored¿Äend-of-file within string¿Äend-of-line within string¿Äerror while opening "%s" for reading¿Äerror while opening "%s" for writing¿Äerror while reading "%s"¿Äerror while writing "%s" file¿Äexactly 2 input files required¿Äfile "%s" contains a not NUL terminated string¿Äfile "%s" is not in GNU .mo format¿Äfirst plural form has nonzero index¿Äfound %d fatal error¿Äfound %d fatal errors¿Äfuzzy `msgstr' entry ignored¿Äimpossible selection criteria specified (%d < n < %d)¿Äinconsistent use of #~¿Äinternationalized messages should not contain the `\%c' escape sequence¿Äinvalid control sequence¿Äinvalid multibyte sequence¿Äkeyword "%s" unknown¿Älanguage `%s' unknown¿Ämemory exhausted¿Ämissing `msgid_plural' section¿Ämissing `msgstr' section¿Ämissing `msgstr[]' section¿Äno input file given¿Äno input files given¿Äplural form has wrong index¿Ästandard input¿Ästandard output¿Äthis file may not contain domain directives¿Äthis message is used but not defined in %s¿Äthis message is used but not defined...¿Ätoo many arguments¿Ätoo many errors, aborting¿Äwarning: file `%s' extension `%s' is unknown; will try C¿Äwarning: this message is not used¿Äxgettext cannot work without keywords to look for¿ÄProject-Id-Version: GNU gettext 0.10.36
+Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org
+POT-Creation-Date: 2010-06-04 01:57+0200
+PO-Revision-Date: 2001-04-03 08:25+02:00
+Last-Translator: Fl√°vio Bruno Leitner <flavio@conectiva.com.br>
+Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>
+Language: pt_BR
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=(n > 1);
+¿Ä feito.
+¿Ä%d mensagem traduzida¿Ä%d mensagens traduzidas¿Ä%s e %s s√£o mutuamente exclusivos¿Ä%s: aviso: arquivo fonte cont√©m tradu√ß√µes aproximadas¿Ä%s:%d: aviso: caractere constante indeterminado¿Ä%s:%d: aviso: string literal indeterminada¿Ä%sLido %ld antigas + %ld refer√™ncia, concatenadas %ld, aproximadas %ld, perdidas %ld, obsoletas %ld.
+¿Ä, %d tradu√ß√£o aproximada (fuzzy)¿Ä, %d tradu√ß√µes aproximadas (fuzzy)¿Ä, %d mensagem n√£o traduzida¿Ä, %d mensagens n√£o traduzidas¿Ä--join-existing n√£o pode ser usado enquanto a sa√≠da √© escrita na sa√≠da padr√£o¿Ä...mas esta defini√ß√£o √© similar¿Ä<stdin>¿ÄTente `%s --help' para maiores informa√ß√µes
+¿ÄErro de sistema desconhecido¿ÄEscrito por %s.
+¿Ä`domain %s': diretiva ignorada¿Ä`msgid' e `msgstr' n√£o come√ßam com '\n'¿Ä`msgid' e `msgstr' n√£o terminam com '\n'¿Ä`msgid' e `msgstr' n√£o come√ßam com '\n'¿Ä`msgid' e `msgstr' n√£o terminam com '\n'¿Ä`msgid' e `msgstr[%u]' n√£o come√ßam com '\n'¿Ä`msgid' e `msgstr[%u]' n√£o terminam com '\n'¿Äpelo menos dois arquivos devem ser especificados¿Än√£o foi poss√≠vel criar o arquivo de sa√≠da "%s"¿Änome do dom√≠nio "%s" n√£o √© v√°lido como nome de arquivo¿Änome do dom√≠nio "%s" n√£o √© v√°lido como nome de arquivo: ser√° usado um prefixo¿Ädefini√ß√£o duplicada de mensagem¿Ä`msgstr' vazia: mensagem ignorada¿Äfim de arquivo sem string¿Äfim de linha sem string¿Äerro ao abrir "%s" para leitura¿Äerro ao abrir o arquivo "%s" para grava√ß√£o¿Äerro ao ler "%s"¿Äerro ao gravar o arquivo "%s"¿Äs√£o necess√°rios 2 arquivos de entrada¿Äarquivo "%s" cont√©m string n√£o terminada em NULL¿Äarquivo "%s" n√£o est√° no formato GNU .mo¿Äprimeira forma em plural tem o √≠ndice diferente de zero¿Äencontrado %d erro fatal¿Äencontrados %d erros fatais¿Ä`msgstr' aproximada (fuzzy): mensagem ignorada¿Äcrit√©rio de sele√ß√£o especificado imposs√≠vel (%d < n < %d)¿Äuso inconsistente de #~¿Ämensagens internacionalizadas n√£o devem conter o caractere de escape `\%c'¿Äseq√º√™ncia de controle ilegal¿Äsequ√™ncia multibyte inv√°lido¿Äpalavra chave "%s" desconhecida¿Äidioma `%s' desconhecido¿ÄMem√≥ria insuficiente¿Äse√ß√£o `msgid_plural' n√£o localizada¿Äse√ß√£o `msgstr' n√£o localizada¿Äse√ß√£o `msgstr[]' n√£o localizada¿Än√£o foi informado o arquivo de entrada¿Äarquivos de entrada n√£o informados¿Äforma plural tem o √≠ndice errado¿Äentrada padr√£o¿Äsa√≠da padr√£o¿Äeste arquivo parece n√£o conter diretivas de dom√≠nio¿Äesta mensagem √© utilizada mas n√£o definida em %s¿Äesta mensagem √© utilizada, mas n√£o foi definida...¿Äexcesso de par√¢metros¿Äexcesso de erros - finalizando¿Äaviso: arquivo `%s' extens√£o `%s' √© desconhecida; tentarei C¿Äaten√ß√£o: esta mensagem n√£o √© utilizada¿Äxgettext n√£o pode funcionar sem as teclas para procurar¿Ä

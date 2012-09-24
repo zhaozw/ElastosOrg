@@ -1,0 +1,626 @@
+!<arch>
+/               1347873017  0     0     0       1802      `
+јАјАјАbјАјАNјАјАNјАјАbјАјАbјАјАbјАјАbјАјА¬¶јАјА¬¶јАјА¬¶јАјА"JјАјА"JјАјА"JјАјА"JјАјА"JјАјА"JјАјА"JјАјА"JјАјА76јАјА@rјАјАF¬ґјАјАNZјАјАNZјАјАU√ЊјАјАU√ЊјАјА]jјАјАf&јАјАmјАјАsVјАјАsVјАјАsVјАјА~"јАјА~"јАјА~"јАјА~"јАјА¬З¬ЃјАјА¬З¬ЃјАјА¬ПZјАјА¬ПZјАјА¬Ц¬ЦјАјА¬Ц¬ЦјАјА¬Э¬≤јАјА¬Э¬≤јАјА¬¶√ЦјАјА¬¶√ЦјАјА¬≠¬ЇјАјА¬≥√ґјАјА¬≥√ґјАјА¬љjјАјА¬љjјАјА¬љjјАјА¬љjјАјА¬љjјАјА¬љjјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАјА”ЊјАw√ЪјАw√ЪјАw√ЪјАw√ЪјАw√ЪјАw√ЪјАw√ЪјАw√ЪјА¬Г6јА¬Г6јА¬Г6јА¬Г6јА¬М¬КјА¬М¬КјА¬Ц&јА¬Ц&јА¬°√ҐјА¬°√ҐјА¬і¬ЃјА¬ї
+јА¬ї
+јА¬ЮјА¬ЮјА…ВјА…ВјА√СјА√ЭJјА√©¬ОјА√ЊbјАVјА¬ЪјА√ОјА-¬Ґset_fieldtype_argјАfield_argјАset_field_foreјАfield_foreјАset_field_backјАfield_backјАset_current_fieldјАcurrent_fieldјАfield_indexјА_nc_Default_FieldјА_nc_Make_ArgumentјА_nc_Copy_ArgumentјА_nc_Free_ArgumentјА_nc_Copy_TypeјА_nc_Free_TypeјАnew_fieldјАfree_fieldјАdup_fieldјАset_fieldtype_choiceјАlink_fieldtypeјАfield_infoјАdynamic_field_infoјАset_field_justјАfield_justјАlink_fieldјАset_max_fieldјАmove_fieldјА_nc_Default_FieldTypeјАnew_fieldtypeјАfree_fieldtypeјАset_field_optsјАfield_optsјАfield_opts_onјАfield_opts_offјАset_field_padјАfield_padјАset_new_pageјАnew_pageјАset_field_statusјАfield_statusјАset_field_typeјАfield_typeјАset_field_userptrјАfield_userptrјАpos_form_cursorјАdata_behindјАdata_aheadјА_nc_Default_FormјАnew_formјАfree_formјАset_form_fieldsјАform_fieldsјАfield_countјА_nc_get_fieldbufferјА_nc_Position_Form_CursorјА_nc_Refresh_Current_FieldјА_nc_Synchronize_AttributesјА_nc_Synchronize_OptionsјА_nc_Set_Current_FieldјА_nc_Internal_ValidationјА_nc_First_Active_FieldјА_nc_Set_Form_PageјАform_driverјАset_field_bufferјАfield_bufferјАset_field_initјАfield_initјАset_field_termјАfield_termјАset_form_initјАform_initјАset_form_termјАform_termјАset_form_optsјАform_optsјАform_opts_onјАform_opts_offјАset_form_pageјАform_pageјАpost_formјАunpost_formјАform_request_nameјАform_request_by_nameјАscale_formјАset_form_subјАform_subјАset_form_userptrјАform_userptrјАset_form_winјАform_winјАTYPE_ALNUMјАTYPE_ALPHAјАTYPE_ENUMјА_nc_fty_genericјАTYPE_INTEGERјАTYPE_IPV4јАTYPE_NUMERICјАTYPE_REGEXPјАfld_arg.o/      1347872993  0     0     100644  1752      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†H¬Г}√ЄјАtPH¬Г}√∞јАtIH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛU√ЄH¬ЛE√∞H¬ЙB H¬ЛU√ЄH¬ЛE√®H¬ЙB(H¬ЛU√ЄH¬ЛE√†H¬ЙB0√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ЬјАјАјАјА√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√Ь√Њ√њ√њ√њ¬ЛE√Ь√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@`√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ЖјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬єјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјА¬ЖјАјАјАјАјАјАјА3јАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_arg.cјАset_fieldtype_argјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАfield_argјА_nc_Default_FieldјА\јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њpјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬†јАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЖјАјАјАјАјАјАјАfld_attr.o/     1347872993  0     0     100644  2312      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њ¬Г}√іјАt¬ЛE√і¬∞јА;E√іt√ЂWH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬Г}√ЄјАt+H¬ЛE√Є¬Л@(;E√іtH¬ЛU√Є¬ЛE√і¬ЙB(H¬Л}√Є√®јАјАјАјА¬ЙE√∞√Ђ√ЗE√∞јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬Л@(¬∞јА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њ¬Г}√іјАt¬ЛE√і¬∞јА;E√іt√ЂWH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬Г}√ЄјАt+H¬ЛE√Є¬Л@,;E√іtH¬ЛU√Є¬ЛE√і¬ЙB,H¬Л}√Є√®јАјАјАјА¬ЙE√∞√Ђ√ЗE√∞јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬Л@,¬∞јА√Й√ГјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ОјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА4јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА¬ОјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјА4јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјА√АјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјА¬ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ОјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАCјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА^јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАoјАјАјАјАјА¬ОјАјАјАјАјАјАјА4јАјАјАјАјАјАјАzјАјАјАјАјА√ВјАјАјАјАјАјАјА¬ОјАјАјАјАјАјАјА¬ЙјАјАјАјАјАPјАјАјАјАјАјА4јАјАјАјАјАјАјАјАfld_attr.cјАset_field_foreјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА_nc_Synchronize_AttributesјА__errno_locationјАfield_foreјАset_field_backјАfield_backјАјАјАјАјА:јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њoјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬®јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЉјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ1јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њBјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬ОјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА√ВјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАfld_current.o/  1347872993  0     0     100644  2664      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞√ЗE√ђјАјАјАјАH¬Г}√ЄјАtH¬Г}√∞јАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√®√Њ√њ√њ√њ√©јАјАH¬ЛE√∞H¬Л@PH;E√ЄuH¬ЛE√∞¬Л@0¬Г√†¬Г√Єu√Ђ√®јАјАјАјА√ЗјА√і√њ√њ√њ√ЗE√®√і√њ√њ√њ√©√ШјАјАH¬ЛE√Є¬ЈјА¬Г√∞¬Г√†¬Е√Аt!H¬ЛU√ЄH¬ЛE√∞H¬ЙBHH¬ЛU√ЄH¬ЛE√∞¬Ј@ f¬ЙB√©¬ЦјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√ЗE√ђ√ї√њ√њ√њ√©|јАјАH¬ЛE√ЄH¬Л@HH;E√∞¬ДjјАјАH¬Л}√Є√®јАјАјАјА¬Д√Аu√ЗE√ђ√≥√њ√њ√њ√©QјАјАH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxxјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@x√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬ЛE√∞H¬ЛU√Є¬Ј@ f;B¬Д¬ЮјАјАјАH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxhјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@h√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬ЛU√∞H¬ЛE√∞¬њp H¬Л}√Є√®јАјАјАјА¬ЙE√ђH¬Г}√ЄјАtMH¬ЛE√ЄH¬Гx`јАtBH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@`√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬Й√ЂH¬Лu√∞H¬Л}√Є√®јАјАјАјА¬ЙE√ђH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxpјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@p√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬Л}√Є√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√ђ¬Й¬ЙE√®¬ЛE√®√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@H√Й√ГUH¬Й√•H¬Й}√ЄH¬Г}√ЄјАtH¬ЛE√ЄH¬ГxPјАt
+H¬ЛE√Є¬њ@"¬ЙE√і√Ђ√ЗE√і√њ√њ√њ√њ¬ЛE√і√Й√ГјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬µјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`	јАјАјАјАјАјА√АјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА 
+јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА√НјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА7јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ҐјАјАјАјАјАOјАјАјАјАјАјА3јАјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√БјАјАјАјАјА¬ВјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfld_current.cјАset_current_fieldјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјА_nc_Internal_ValidationјА_nc_Set_Form_PageјА_nc_Set_Current_FieldјА_nc_Refresh_Current_FieldјАcurrent_fieldјА_nc_Default_FormјАfield_indexјАјАјАјА&јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ\јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ХјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ФјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√®јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ6јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ;јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАfld_def.o/      1347872993  0     0     100644  5296      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(	јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•SH¬Г√ђ8H¬Й}√∞H¬Йu√®H¬ЙU√†H√ЗE√ШјАјАјАјАH¬Г}√∞јА¬Д¬±јАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√А¬Д¬ЯјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аth¬њјАјАјА√®јАјАјАјАH¬ЙE√РH¬Г}√РјАtCH¬Л]√РH¬ЛU√†H¬Лu√®H¬ЛE√∞H¬Лx√®јАјАјАјАH¬ЙH¬Л]√РH¬ЛU√†H¬Лu√®H¬ЛE√∞H¬Лx√®јАјАјАјАH¬ЙCH¬ЛE√РH¬ЙE√И√ЂAH¬ЛE√†H¬ЛU√†¬Л√њ¬Й√Ђ)H¬ЛE√∞H¬Л}√®H¬Л@ √њ√РH¬ЙE√ШH¬ЛE√ШH¬Е√АuH¬ЛE√†H¬ЛU√†¬Л√њ¬ЙH¬ЛE√ШH¬ЙE√ИH¬ЛE√ИH¬Г√Д8[√Й√ГUH¬Й√•SH¬Г√ђ8H¬Й}√∞H¬Йu√®H¬ЙU√†H√ЗE√ШјАјАјАјАH¬Г}√∞јА¬Д√ЕјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√А¬Д¬≥јАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аtg¬њјАјАјА√®јАјАјАјАH¬ЙE√РH¬Г}√РјАtBH¬Л]√РH¬ЛU√†H¬ЛE√®H¬Л}√∞H¬Л0√®јАјАјАјАH¬ЙH¬Л]√РH¬ЛU√†H¬ЛE√®H¬ЛpH¬Л}√∞√®јАјАјАјАH¬ЙCH¬ЛE√РH¬ЙE√И√ЂVH¬ЛE√†H¬ЛU√†¬Л√њ¬Й√Ђ>H¬ЛE√∞H¬Гx(јАt+H¬ЛE√∞H¬Л}√®H¬Л@(√њ√РH¬ЙE√ШH¬ЛE√ШH¬Е√АuH¬ЛE√†H¬ЛU√†¬Л√њ¬Й√ЂH¬ЛE√®H¬ЙE√ШH¬ЛE√ШH¬ЙE√ИH¬ЛE√ИH¬Г√Д8[√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Йu√∞H¬Г}√ЄјАtiH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt[H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt4H¬ЛU√∞H¬ЛE√ЄH¬ЛxH¬Л2√®јАјАјАјАH¬ЛE√∞H¬ЛpH¬ЛE√ЄH¬Лx√®јАјАјАјАH¬Л}√∞√®јАјАјАјА√ЂH¬ЛE√ЄH¬Гx0јАtH¬ЛE√ЄH¬Л}√∞H¬Л@0√њ√Р√Й√ГUH¬Й√•SH¬Г√ђH¬Й}√∞H¬Йu√®√ЗE√§јАјАјАјАH¬ЛU√∞H¬ЛE√®H¬Л@XH¬ЙBXH¬Л]√∞H¬НU√§H¬ЛE√®H¬Лp`H¬ЛE√®H¬ЛxX√®јАјАјАјАH¬ЙC`¬Г}√§јАt6H¬ЛE√∞H¬Лp`H¬ЛE√∞H¬ЛxX√®јАјАјАјАH¬ЛE√∞H√З@XјАјАјАјАH¬ЛE√∞H√З@`јАјАјАјА√ЗE√†јАјАјАјА√ЂH¬ЛE√∞H¬ГxXјАtH¬ЛE√∞H¬Л@XH√њ@√ЗE√†јАјАјА¬ЛE√†H¬Г√Д[√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ГxXјАt!H¬ЛE√ЄH¬Л@XH√њHH¬ЛE√ЄH¬Лp`H¬ЛE√ЄH¬ЛxX√®јАјАјАјА√Й√ГUH¬Й√•SH¬Г√ђX¬Й}√і¬Йu√∞¬ЙU√ђ¬ЙM√®D¬ЙE√§D¬ЙM√†H√ЗE√ШјАјАјАјА√ЗE√Ф√Њ√њ√њ√њ¬Г}√іјА¬ОIјАјА¬Г}√∞јА¬О?јАјА¬Г}√ђјА¬И5јАјА¬Г}√®јА¬И+јАјА¬Г}√§јА¬И!јАјА¬Г}√†јА¬ИјАјА√ЗE√Ф√њ√њ√њ√њ¬њxјАјАјА√®јАјАјАјАH¬ЙE√ШH¬ЛE√ШH¬Е√А¬Д√µјАјАH¬ЛE√ШH¬ЛјАјАјАјАH¬ЙH¬ЛјАјАјАјАH¬ЙPH¬ЛјАјАјАјАH¬ЙPH¬ЛјАјАјАјАH¬ЙPH¬ЛјАјАјАјАH¬ЙP H¬ЛјАјАјАјАH¬ЙP(H¬ЛјАјАјАјАH¬ЙP0H¬ЛјАјАјАјАH¬ЙP8H¬ЛјАјАјАјАH¬ЙP@H¬ЛјАјАјАјАH¬ЙPHH¬ЛјАјАјАјАH¬ЙPPH¬ЛјАјАјАјАH¬ЙPXH¬ЛјАјАјАјАH¬ЙP`H¬ЛјАјАјАјАH¬ЙPhH¬ЛјАјАјАјАH¬ЙPpH¬ЛUЎЛE√іf¬ЙBH¬ЛUЎЛE√∞f¬ЙBH¬ЛUЎЛE√§E√і¬ЙBH¬ЛUЎЛE√∞¬ЙBH¬ЛUЎЛE√ђf¬ЙBH¬ЛUЎЛE√®f¬ЙBH¬ЛUЎЛE√§¬ЙBH¬ЛUЎЛE√†f¬ЙBH¬ЛU√ШH¬ЛE√ШH¬ЙBHH¬Л}√ШH¬Н5јАјАјАјА√®јАјАјАјА¬Д√А¬Д√СјАјАјАH¬ЛE√ШH¬ЛUЎЛ@¬ѓB¬НPH¬ЛE√Ш¬њ@√њ√А¬ѓ√ВH¬ШH¬ЙE√ИH¬Л]√ШH¬Л}√И√®јАјАјАјАH¬ЙChH¬ЛChH¬Е√А¬Д¬ОјАјАјАH¬ЛE√ШH¬ЛUЎЛ@¬ѓB¬ЙE¬Љ√ЗE√ДјАјАјАјАH¬ЛE√Ш¬њ@;E√Д|^H¬ЛUЎЛE¬Љ√њ√А¬ѓE√ДH¬ШHBhH¬ЙE¬∞√ЗE√АјАјАјАјА¬ЛE√А;E¬Љ}¬ЛE√АHc√ИH¬ЛU¬∞¬ґјАјАјАјА¬ИH¬НE√А√њјА√Ђ№ЛE√АHc√ИH¬ЛU¬∞¬ґјАјАјАјА¬ИH¬НE√Д√њјА√Ђ¬ХH¬ЛE√ШH¬ЙE¬®√Ђ%H¬Г}√ШјАt	H¬Л}√Ш√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE‘ЙH√ЗE¬®јАјАјАјАH¬ЛE¬®H¬Г√ДX[√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√ђ√Њ√њ√њ√њ√©¬ҐјАјАјАH¬ЛE√ЄH¬ГxPјАt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√ђ√Љ√њ√њ√њ√©¬АјАјАјАH¬ЛE√ЄH¬Л@HH;E√ЄuH¬ЛE√ЄH¬ГxhјАtCH¬ЛE√ЄH¬Лxh√®јАјАјАјА√Ђ4H¬ЛE√ЄH¬ЙE√∞H¬ЛE√∞H¬Л@HH;E√ЄtH¬ЛE√∞H¬Л@HH¬ЙE√∞√Ђ√§H¬ЛE√∞H¬ЛU√ЄH¬ЛRHH¬ЙPHH¬Л}√Є√®јАјАјАјАH¬Л}√Є√®јАјАјАјА√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјА√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ђјАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА\јАјАјАјАјАјАјА¬ВјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјА¬≠јАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјА:јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА¬ѓјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјА√СјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rodataјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√ХјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАmјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬≤јАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА√ХјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјАјАјАјАјАјАјАјА√ђјАјАјАјАјАјАјАMјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАcјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјА√ђјАјАјАјАјАјАјАјАјАјАјАјАјАјА|јАјАјАјАјА√ђјАјАјАјАјАјА¬ВјАјАјАјАјАјАјА¬ОјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬УјАјАјАјАјАnјАјАјАјАјАјА¬≠јАјАјАјАјАјАјА¬°јАјАјАјАјАјАјАјАјАјАјА:јАјАјАјАјАјАјА¬ѓјАјАјАјАјАUјАјАјАјАјАјА¬ѓјАјАјАјАјАјА¬єјАјАјАјАјАјАјАјАјАјАјА√СјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_def.cјАdefault_fieldјАblank.0јАzeros.1јА_nc_Default_FieldјА_nc_Make_ArgumentјА_GLOBAL_OFFSET_TABLE_јАmallocјА_nc_Copy_ArgumentјА_nc_Free_ArgumentјАfreeјА_nc_Copy_TypeјА_nc_Free_TypeјАnew_fieldјАfree_fieldјА__errno_locationјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њrјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ОјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ:јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ]јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њyјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ/јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њDјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њMјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ѓјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ОјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њOјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√КјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√¶јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√їјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјА2јАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјА=јАјАјАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјА^јАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАiјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАtјАјАјАјАјАјАјАјАјАјАјАјАdјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАlјАјАјАјАјАјАјА√≤јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЈјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ1јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЯјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬їјАјАјАјАјАјАјАјАјАјАјАјА√љ√њ√њ√њ√њ√њ√њ√њ√†јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√•јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ:јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њrјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬±јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЇјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ђјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА√ђјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАnјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_dup.o/      1347872993  0     0     100644  2304      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•SH¬Г√ђ8H¬Й}√∞¬Йu√ђ¬ЙU√®H√ЗE√†јАјАјАјА√ЗE√Ь√Њ√њ√њ√њH¬Г}√∞јА¬Д5јАјА¬Г}√ђјА¬И+јАјА¬Г}√®јА¬И!јАјА√ЗE√Ь√њ√њ√њ√њ¬њxјАјАјА√®јАјАјАјАH¬ЙE√†H¬ЛE√†H¬Е√А¬Д√њјАјАH¬ЛU√†H¬ЛјАјАјАјАH¬ЛјАH¬ЛH¬Й
+H¬ЛHH¬ЙJH¬ЛHH¬ЙJH¬ЛHH¬ЙJH¬ЛH H¬ЙJ H¬ЛH(H¬ЙJ(H¬ЛH0H¬ЙJ0H¬ЛH8H¬ЙJ8H¬ЛH@H¬ЙJ@H¬ЛHHH¬ЙJHH¬ЛHPH¬ЙJPH¬ЛHXH¬ЙJXH¬ЛH`H¬ЙJ`H¬ЛHhH¬ЙJhH¬Л@pH¬ЙBpH¬ЛU√†¬ЛE√ђf¬ЙBH¬ЛU√†¬ЛE√®f¬ЙBH¬ЛU√†H¬ЛE√†H¬ЙBHH¬ЛU√†H¬ЛE√∞¬Ј@f¬ЙBH¬ЛU√†H¬ЛE√∞¬Ј@f¬ЙBH¬ЛU√†H¬ЛE√∞¬Л@¬ЙBH¬ЛU√†H¬ЛE√∞¬Л@¬ЙBH¬ЛU√†H¬ЛE√∞¬Л@¬ЙBH¬ЛU√†H¬ЛE√∞¬Л@¬ЙBH¬ЛU√†H¬ЛE√∞¬Ј@f¬ЙBH¬ЛU√†H¬ЛE√∞¬Ј@f¬ЙBH¬ЛU√†H¬ЛE√∞¬Л@(¬ЙB(H¬ЛU√†H¬ЛE√∞¬Л@,¬ЙB,H¬ЛU√†H¬ЛE√∞¬Л@$¬ЙB$H¬ЛU√†H¬ЛE√∞¬Л@0¬ЙB0H¬ЛU√†H¬ЛE√∞H¬Л@pH¬ЙBpH¬Лu√∞H¬Л}√†√®јАјАјАјА¬Д√А¬Д¬ДјАјАјАH¬ЛE√†H¬ЛU√†¬Л@¬ѓB¬НPH¬ЛE√†¬њ@√њ√А¬ѓ√ВH¬ШH¬ЙE√ИH¬Л]√†H¬Л}√И√®јАјАјАјАH¬ЙChH¬ЛChH¬Е√АtEH√ЗE√РјАјАјАјАH¬ЛE√РH;E√Иs)H¬ЛU√†H¬ЛE√РH¬ЛJhH√БH¬ЛU√∞H¬ЛE√РHBh¬ґјА¬ИH¬НE√РH√њјА√Ђ√НH¬ЛE√†H¬ЙE√А√Ђ%H¬Г}√†јАt	H¬Л}√†√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE№ЙH√ЗE√АјАјАјАјАH¬ЛE√АH¬Г√Д8[√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ТјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ТјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА"јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ТјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_dup.cјАdup_fieldјА_GLOBAL_OFFSET_TABLE_јАmallocјА_nc_Default_FieldјА_nc_Copy_TypeјАfree_fieldјА__errno_locationјАјАјАNјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ТјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њnјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њsјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_ftchoice.o/ 1347872993  0     0     100644  1544      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬Г}√ЄјАtH¬Г}√∞јАtH¬Г}√®јАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√§√Њ√њ√њ√њ√Ђ;H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛU√ЄH¬ЛE√∞H¬ЙBHH¬ЛU√ЄH¬ЛE√®H¬ЙBP√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√§јАјАјАјА¬ЛE√§√Й√ГјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјА%јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_ftchoice.cјАset_fieldtype_choiceјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАјАјАјАјА*јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њgјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_ftlink.o/   1347872993  0     0     100644  1896      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H√ЗE√®јАјАјАјАH¬Г}√ЄјА¬Д.јАјАH¬Г}√∞јА¬Д#јАјА¬њXјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јА¬Д√љјАјАјАH¬ЛM√®H¬ЛјАјАјАјАH¬ЛH¬ЛH¬ЙH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛB H¬ЙA H¬ЛB(H¬ЙA(H¬ЛB0H¬ЙA0H¬ЛB8H¬ЙA8H¬ЛB@H¬ЙA@H¬ЛBHH¬ЙAHH¬ЛBPH¬ЙAPH¬ЛU√®H¬ЛE√®¬ЈјА¬Г√Иf¬ЙH¬ЛE√Є¬ЈјА¬Г√†¬Е√АuH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЂH¬ЛE√®H¬ЛU√®¬Ј¬Г√Кf¬ЙH¬ЛE√Є¬ЈјА¬Г√†¬Е√АuH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЂH¬ЛE√®H¬ЛU√®¬Ј¬Г√Кf¬ЙH¬ЛU√®H¬ЛE√ЄH¬ЙBH¬ЛU√®H¬ЛE√∞H¬ЙBH¬ЛE√ЄH√њ@H¬ЛE√∞H√њ@√Ђ√®јАјАјАјА√ЗјА√њ√њ√њ√њ√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њH¬ЛE√®√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАbјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАbјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬§јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬§јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√≤јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАaјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАbјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА:јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_ftlink.cјАlink_fieldtypeјА_GLOBAL_OFFSET_TABLE_јАmallocјА_nc_Default_FieldTypeјА__errno_locationјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њNјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њEјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њRјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_info.o/     1347872994  0     0     100644  1896      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†L¬ЙE√ШL¬ЙM√РH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√М√Њ√њ√њ√њ√©¬ПјАјАјАH¬Г}√∞јАtH¬ЛE√∞H¬ЛU√Є¬њR¬ЙH¬Г}√®јАtH¬ЛE√®H¬ЛU√Є¬њR¬ЙH¬Г}√†јАtH¬ЛE√†H¬ЛU√Є¬њR¬ЙH¬Г}√ШјАtH¬ЛE√ШH¬ЛU√Є¬њR¬ЙH¬Г}√РјАt
+H¬ЛE√РH¬ЛU√Є¬ЛR¬ЙH¬Г}јАtH¬ЛEH¬ЛU√Є¬њR¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√МјАјАјАјА¬ЛE√М√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†H¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√Ь√Њ√њ√њ√њ√ЂNH¬Г}√∞јАt
+H¬ЛE√∞H¬ЛU√Є¬ЛR¬ЙH¬Г}√®јАt
+H¬ЛE√®H¬ЛU√Є¬ЛR¬ЙH¬Г}√†јАt
+H¬ЛE√†H¬ЛU√Є¬ЛR¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ЬјАјАјАјА¬ЛE√Ь√Й√ГјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ТјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА¬ЖјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАQјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ТјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјА√ТјАјАјАјАјАјАјА¬ЖјАјАјАјАјАјАјАјАfld_info.cјАfield_infoјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАdynamic_field_infoјАјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЉјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≤јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њBјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ТјАјАјАјАјАјАјАfld_just.o/     1347872994  0     0     100644  1840      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њ¬Г}√іјАt¬Г}√іt¬Г}√іt¬Г}√іt√ЂRH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬ЛE√Є¬њ@;E√іtH¬ЛU√Є¬ЛE√іf¬ЙBH¬Л}√Є√®јАјАјАјА¬ЙE√∞√Ђ√ЗE√∞јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬њ@√Й√ГјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬СјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАzјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬СјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАCјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА^јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАoјАјАјАјАјА¬СјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfld_just.cјАset_field_justјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА_nc_Synchronize_AttributesјА__errno_locationјАfield_justјАјАјАјАјАјАјАBјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њrјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ГјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЂјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬СјАјАјАјАјАјАјАfld_link.o/     1347872994  0     0     100644  2176      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ0H¬Й}√Є¬Йu√і¬ЙU√∞H√ЗE√®јАјАјАјА√ЗE√§√Њ√њ√њ√њH¬Г}√ЄјА¬Д√ЧјАјА¬Г}√іјА¬И√НјАјА¬Г}√∞јА¬И√ГјАјА√ЗE√§√њ√њ√њ√њ¬њxјАјАјА√®јАјАјАјАH¬ЙE√®H¬ЛE√®H¬Е√А¬Д¬°јАјАH¬ЛU√®H¬ЛјАјАјАјАH¬ЛјАH¬ЛH¬Й
+H¬ЛHH¬ЙJH¬ЛHH¬ЙJH¬ЛHH¬ЙJH¬ЛH H¬ЙJ H¬ЛH(H¬ЙJ(H¬ЛH0H¬ЙJ0H¬ЛH8H¬ЙJ8H¬ЛH@H¬ЙJ@H¬ЛHHH¬ЙJHH¬ЛHPH¬ЙJPH¬ЛHXH¬ЙJXH¬ЛH`H¬ЙJ`H¬ЛHhH¬ЙJhH¬Л@pH¬ЙBpH¬ЛU√®¬ЛE√іf¬ЙBH¬ЛU√®¬ЛE√∞f¬ЙBH¬ЛU√®H¬ЛE√ЄH¬Л@HH¬ЙBHH¬ЛU√ЄH¬ЛE√®H¬ЙBHH¬ЛU√®H¬ЛE√ЄH¬Л@hH¬ЙBhH¬ЛU√®H¬ЛE√Є¬Ј@f¬ЙBH¬ЛU√®H¬ЛE√Є¬Ј@f¬ЙBH¬ЛU√®H¬ЛE√Є¬Л@¬ЙBH¬ЛU√®H¬ЛE√Є¬Ј@f¬ЙBH¬ЛU√®H¬ЛE√Є¬Л@¬ЙBH¬ЛU√®H¬ЛE√Є¬Л@¬ЙBH¬ЛU√®H¬ЛE√Є¬Л@¬ЙBH¬ЛU√®H¬ЛE√Є¬Ј@f¬ЙBH¬ЛU√®H¬ЛE√Є¬Л@(¬ЙB(H¬ЛU√®H¬ЛE√Є¬Л@,¬ЙB,H¬ЛU√®H¬ЛE√Є¬Л@$¬ЙB$H¬ЛU√®H¬ЛE√Є¬Л@0¬ЙB0H¬ЛU√®H¬ЛE√ЄH¬Л@pH¬ЙBpH¬Лu√ЄH¬Л}√®√®јАјАјАјА¬Д√Аt
+H¬ЛE√®H¬ЙE√Ш√Ђ%H¬Г}√®јАt	H¬Л}√®√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√§¬ЙH√ЗE√ШјАјАјАјАH¬ЛE√Ш√Й√ГјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАxјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЇјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_link.cјАlink_fieldјА_GLOBAL_OFFSET_TABLE_јАmallocјА_nc_Default_FieldјА_nc_Copy_TypeјАfree_fieldјА__errno_locationјАMјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√±јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_max.o/      1347872994  0     0     100644  1696      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√іH¬Г}√ЄјАt¬Г}√іјАx√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√ђ√Њ√њ√њ√њ√©√ХјАјАјАH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Є¬ФE√≥¬Г}√іјА~:¬А}√≥јАtH¬ЛE√Є¬Л@;E√і¬А}√≥јАu"H¬ЛE√Є¬Л@;E√і√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√ђ√Њ√њ√њ√њ√ЂzH¬ЛU√Є¬ЛE√і¬ЙBH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√Јf¬ЙH¬ЛE√Є¬Л@0%јАјАјА¬Е√Аu=¬Г}√іјАt&¬А}√≥јАtH¬ЛE√Є¬Л@;E√і|¬А}√≥јАuH¬ЛE√Є¬Л@;E√і|√ЂH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЪјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА/јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_max.cјАset_max_fieldјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ}јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√єјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_move.o/     1347872994  0     0     100644  1560      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і¬ЙU√∞H¬Г}√ЄјАt¬Г}√іјАx¬Г}√∞јАx√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√ђ√Њ√њ√њ√њ√ЂGH¬ЛE√ЄH¬ГxPјАt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√ђ√Љ√њ√њ√њ√Ђ(H¬ЛU√Є¬ЛE√іf¬ЙBH¬ЛU√Є¬ЛE√∞f¬ЙB√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ЗјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ЗјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЗјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_move.cјАmove_fieldјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАјАјА(јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њGјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њqјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_newftyp.o/  1347872994  0     0     100644  2704      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H√ЗE√®јАјАјАјАH¬Г}√ЄјАuH¬Г}√∞јАu√©¬ЉјАјАјА¬њXјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јА¬Д¬ЦјАјАјАH¬ЛU√®H¬ЛјАјАјАјАH¬ЙH¬ЛјАјАјАјАH¬ЙBH¬ЛјАјАјАјАH¬ЙBH¬ЛјАјАјАјАH¬ЙBH¬ЛјАјАјАјАH¬ЙB H¬ЛјАјАјАјАH¬ЙB(H¬ЛјАјАјАјАH¬ЙB0H¬ЛјАјАјАјАH¬ЙB8H¬ЛјАјАјАјАH¬ЙB@H¬ЛјАјАјАјАH¬ЙBHH¬ЛјАјАјАјАH¬ЙBPH¬ЛU√®H¬ЛE√ЄH¬ЙB8H¬ЛU√®H¬ЛE√∞H¬ЙB@√Ђ√®јАјАјАјА√ЗјА√њ√њ√њ√њ√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√і√Њ√њ√њ√њ√©¬ШјАјАјАH¬ЛE√ЄH¬ГxјАt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√і√Љ√њ√њ√њ√ЂyH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√і√Љ√њ√њ√њ√ЂWH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt.H¬ЛE√ЄH¬ГxјАtH¬ЛE√ЄH¬Л@H√њHH¬ЛE√ЄH¬ГxјАtH¬ЛE√ЄH¬Л@H√њHH¬Л}√Є√®јАјАјАјА√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√іјАјАјАјА¬ЛE√і√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА√ЗјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАH
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`
+јАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА¬ШјАјАјАјАјАјА
+јАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјА¬ЗјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА7јАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАEјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА[јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАbјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјА√ЄјАјАјАјАјАјАјА√ЗјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfld_newftyp.cјАdefault_fieldtypeјА_nc_Default_FieldTypeјАnew_fieldtypeјА_GLOBAL_OFFSET_TABLE_јАmallocјА__errno_locationјАfree_fieldtypeјАfreeјАјА1јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њKјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАkјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬БјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјА¬МјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјА¬ЧјАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјА¬ҐјАјАјАјАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА¬≠јАјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјА√ЫјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√®јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ.јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њPјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬§јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬©јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАfld_opts.o/     1347872994  0     0     100644  2384      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њH¬НE√і¬Б √њјАјА¬ЛE√і%јА√Љ√њ√њ¬Е√Аu6¬ЛE√і¬ЙE√ђH¬ЛE√ЄH¬ЙE√†H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√†H¬Л}√†H¬Й}√Є¬Лu√ђ√®јАјАјАјА¬ЙE√∞√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬Л@0%√њјАјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њH¬НE√і¬Б √њјАјА¬ЛE√і%јА√Љ√њ√њ¬Е√Аu=H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬ЛU√Є¬ЛE√і¬Лr0	√ЖH¬Л}√Є√®јАјАјАјА¬ЙE√∞√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њH¬НE√і¬Б √њјАјА¬ЛE√і%јА√Љ√њ√њ¬Е√Аu?H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬ЛU√Є¬ЛE√і√Ј–Й√Ж#r0H¬Л}√Є√®јАјАјАјА¬ЙE√∞√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА7јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАxјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАzјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ЪјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬КјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјА¬ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАCјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА[јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАlјАјАјАјАјАqјАјАјАјАјАјАјА7јАјАјАјАјАјАјАwјАјАјАјАјА¬®јАјАјАјАјАјАјАxјАјАјАјАјАјАјА¬ЕјАјАјАјАјА јАјАјАјАјАјАzјАјАјАјАјАјАјАјАfld_opts.cјАset_field_optsјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА_nc_Synchronize_OptionsјА__errno_locationјАfield_optsјАfield_opts_onјАfield_opts_offјАјАјАјАјАDјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ[јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њcјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЛјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√¶јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ^јАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ДјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬МјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАfld_pad.o/      1347872994  0     0     100644  1904      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і√ЗE√∞√Њ√њ√њ√њH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√Є√®јАјАјАјАH¬ЙKE√і¬ґ√АH¬НјАH¬Л¬Ј%јА@јАјА¬Е√Аt+H¬ЛE√Є¬Л@$;E√іtH¬ЛU√Є¬ЛE√і¬ЙB$H¬Л}√Є√®јАјАјАјА¬ЙE√∞√Ђ√ЗE√∞јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√∞¬Й√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬Л@$√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ЧјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА2јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√ЙјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАxјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА¬ЕјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЧјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА/јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАAјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА{јАјАјАјАјА¬ЧјАјАјАјАјАјАјА2јАјАјАјАјАјАјАјАfld_pad.cјАset_field_padјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА__ctype_b_locјА_nc_Synchronize_AttributesјА__errno_locationјАfield_padјАјАјАјА(јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ<јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њxјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЙјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬±јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЧјАјАјАјАјАјАјАfld_page.o/     1347872994  0     0     100644  1792      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є@¬Иu√ЈH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬ЛE√ЄH¬ГxPјАt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√∞√Љ√њ√њ√њ√Ђ<¬А}√ЈјАtH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й√ЂH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√їf¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√∞јАјАјАјА¬ЛE√∞√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬ЈјА√Б√®¬Г√†¬ґ√А√Й√ГјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА[јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА/јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАAјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјА¬ХјАјАјАјАјАјАјА;јАјАјАјАјАјАјАјАfld_page.cјАset_new_pageјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА__errno_locationјАnew_pageјАјАјАјАјАјА"јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њAјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ѓјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАјАјАјАfld_stat.o/     1347872994  0     0     100644  1760      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є@¬Иu√ЈH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√Є¬А}√ЈјАtH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й√ЂH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√Њf¬Й√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√Є¬ЈјА¬Г√†¬Е√Аt	√ЗE√іјАјАјА√Ђ√ЗE√іјАјАјАјА¬ЛE√і√Й√ГјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАLјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬љјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАcјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАEјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАјАqјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАfld_stat.cјАset_field_statusјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА__errno_locationјАfield_statusјАјАјАјАјАјА"јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЛјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАјАјАјАfld_type.o/     1347872994  0     0     100644  2280      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•SH¬Б√ђјАјАH¬Й¬љ8√њ√њ√њH¬Й¬ХP√њ√њ√њH¬Й¬НX√њ√њ√њL¬Й¬Е`√њ√њ√њL¬Й¬Нh√њ√њ√њ¬ґ√АH¬Й¬ЕјА√њ√њ√њH¬Л¬ХјА√њ√њ√њH¬Н¬ХјАјАјАјАH¬Н;јАјАјАH¬Й¬ХјА√њ√њ√њH)¬ЕјА√њ√њ√њH¬НE√ѓH¬Л¬ХјА√њ√њ√њ√њ√Ґ)x√±)p√°)h√С)`√Б)X¬±)P¬°)H¬С)@¬БH¬Й¬µ0√њ√њ√њ«Е√њ√њ√њ√њ√њ√њ√њ«Е√њ√њ√њјАјАјАјА«Е√њ√њ√њјАјАјА«Е√њ√њ√њ0јАјАјАH¬НEH¬Й¬Е√њ√њ√њH¬Н¬Х@√њ√њ√њH¬Й¬Х √њ√њ√њH¬Л¬Е8√њ√њ√њH¬Й¬Е√Є√Њ√њ√њH¬Г¬љ8√њ√њ√њјАuH¬ЛјАјАјАјАH¬ЛјАH¬Й¬Е√Є√Њ√њ√њH¬Л¬Х√Є√Њ√њ√њH¬Й¬Х8√њ√њ√њH¬Л¬љ8√њ√њ√њ√®јАјАјАјАH¬Л¬Х8√њ√њ√њH¬Л¬Е0√њ√њ√њH¬ЙBXH¬Л¬Э8√њ√њ√њH¬Н¬Х√њ√њ√њH¬Н¬µ√њ√њ√њH¬Л¬Е8√њ√њ√њH¬ЛxX√®јАјАјАјАH¬ЙC`¬Г¬љ√њ√њ√њјАt;H¬Л¬Е8√њ√њ√њH¬Лp`H¬Л¬Е8√њ√њ√њH¬ЛxX√®јАјАјАјАH¬Л¬Е8√њ√њ√њH√З@XјАјАјАјАH¬Л¬Е8√њ√њ√њH√З@`јАјАјАјА√Ђ'«Е√њ√њ√њјАјАјАјАH¬Л¬Е8√њ√њ√њH¬ГxXјАtH¬Л¬Е8√њ√њ√њH¬Л@XH√њ@√®јАјАјАјАH¬Й¬Л¬Е√њ√њ√њ¬ЙH¬Б√ДјАјА[√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@X√Й√ГјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ХјАјАјАA¬ЖC
+H¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬≤јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА¬СјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ХјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАCјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАQјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАcјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАuјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЖјАјАјАјАјА√ХјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfld_type.cјАset_field_typeјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА_nc_Free_TypeјА_nc_Make_ArgumentјА_nc_Free_ArgumentјА__errno_locationјАfield_typeјАјАјАјАјАјАјАјА√≠јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њHјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њpјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЉјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ѓјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ХјАјАјАјАјАјАfld_user.o/     1347872994  0     0     100644  1704      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙBp√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@p√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАWјАјАјАјАјАOјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfld_user.cјАset_field_userptrјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FieldјА__errno_locationјАfield_userptrјАјАјАјА"јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ>јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАfrm_cursor.o/   1347872995  0     0     100644  1536      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАu	√ЗE√і√Њ√њ√њ√њ√Ђ#H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аu	√ЗE√і√є√њ√њ√њ√ЂH¬Л}√Є√®јАјАјАјА¬ЙE√і√®јАјАјАјАH¬Й¬ЛE√і¬Й√Й√ГјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЪјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјА^јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАMјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_cursor.cјАpos_form_cursorјА_GLOBAL_OFFSET_TABLE_јА_nc_Position_Form_CursorјА__errno_locationјАјАјА8јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ@јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_data.o/     1347872995  0     0     100644  2360      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Й}√Є√ЖE√ЈјАH¬Г}√ЄјАtZH¬ЛE√Є¬ЈјА¬Г√†¬Е√АtLH¬ЛE√ЄH¬ГxHјАtAH¬ЛE√ЄH¬Л@HH¬ЙE√®H¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√ЄtH¬ЛE√Є¬ГxјА¬ХE√Ј√ЂH¬ЛE√Є¬ГxјА¬ХE√Ј¬ґE√Ј√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√Є√ЖE√ЈјАH¬Г}√ЄјА¬ДaјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√А¬ДOјАјАH¬ЛE√ЄH¬ГxHјА¬Д@јАјА√ЖE√ІјАH¬ЛE√ЄH¬Л@HH¬ЙE√®H¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√Є¬Е¬УјАјАјАH¬ЛU√ЄH¬ЛE√®¬њ@B¬ЙE√†H¬ЛE√®¬Л@;E√†¬О√ТјАјАјАH¬ЛE√®¬ЛU√†¬Л@)–ЙE√ЬH¬ЛE√®¬њ@;E√ЬH¬ЛE√®¬њ@¬ЙE√Ь√ЖE√І¬ЛU√†H¬ЛE√ЄH¬Лx8¬ЊјАјАјАјА√®јАјАјАјАH¬ЛE√®¬ЛP$¬Лu√ЬH¬ЛE√ЄH¬Лx8√®¬ҐјАјАјА¬Д√АtH¬ЛE√®¬њPH¬НE√†√Ђ¬Е√ЖE√Ј√ЂaH¬ЛU√ЄH¬ЛE√®¬њ@B¬ЙE√†H¬ЛE√®¬Л@;E√†~C√ЖE√І¬Лu√†H¬ЛE√ЄH¬Лx8¬ЇјАјАјАјА√®јАјАјАјАH¬НE√†√њјАH¬ЛE√®¬ЛP$H¬ЛE√®¬њpH¬ЛE√ЄH¬Лx8√®/јАјАјА¬Д√Аu¬µ√ЖE√Ј¬А}√ІјАtH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ґE√Ј√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√Є¬Йu√і¬ЙU√∞√ЖE√ѓH¬Г}√ЄјАtH¬ЛE√Є¬њјА¬ЙE√Ш√Ђ√ЗE√Ш√њ√њ√њ√њ¬ЛEЎЙE√®H¬Г}√ЄјАt
+H¬ЛE√Є¬њ@¬ЙE√Ф√Ђ√ЗE√Ф√њ√њ√њ√њ¬ЛE‘ЙE√§√ЗE√†јАјАјАјА¬ЛE√†;E√і}B¬ЛE√†¬ЛU√§¬Лu√®H¬Л}√Є√®јАјАјАјА¬Г√Є√њt)H¬Л}√Є√®јАјАјАјА¬ИE√Я¬ЊE√Я¬ґ√Р¬ґE√∞9√Вt√ЖE√ѓјА√ЂH¬НE√†√њјА√Ђ¬ґ¬ґE√ѓ√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА¬ВјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА¬ЃјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬£јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАxјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАRјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√µјАјАјАјАјАјА¬ЃјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјАјАјА%јАјАјАјАјАsјАјАјАјАјАјАјА¬ВјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_data.cјАOnly_PaddingјАdata_behindјАdata_aheadјА_GLOBAL_OFFSET_TABLE_јАwmoveјАwinchјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬†јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЂјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њkјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њyјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА√µјАјАјАјАјАјАfrm_def.o/      1347872995  0     0     100644  5656      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Й}√ЄH¬Йu√∞H¬Г}√∞јАuH¬ЛM√ЄH¬ЛU√ЄH¬ЛE√ЄH¬ЙB@H¬ЙA8H¬ЙE√†√©¬∞јАјАјАH¬ЛE√∞H¬ЙE√®H¬ЙE√†H¬ЛE√®H¬ЛU√Є¬Ј@f;B|&H¬ЛE√®H¬ЛU√Є¬Ј@f;Bu2H¬ЛE√®H¬ЛU√Є¬Ј@f;B|√ЂH¬ЛE√®H¬Л@8H¬ЙE√®H¬ЛE√®H;E√∞u¬≤H√ЗE√∞јАјАјАјАH¬ЛU√ЄH¬ЛE√®H¬ЙB8H¬ЛU√ЄH¬ЛE√®H¬Л@@H¬ЙB@H¬ЛE√ЄH¬ЛP8H¬ЛE√ЄH¬ЙB@H¬ЛE√ЄH¬ЛP@H¬ЛE√ЄH¬ЙB8H¬ЛE√®H;E√∞uH¬ЛE√ЄH¬ЙE√†H¬ЛE√†√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Гx@јА¬Д¬ШјАјАјАH¬ЛE√ЄH¬Л@@H¬ЙE√∞H¬ЛE√∞H¬Г8јАt*H¬ЛE√∞H¬ЛјАH¬Л@PH;E√ЄuH¬ЛE√∞H¬ЛјАH√З@PјАјАјАјАH¬НE√∞H¬ГјА√Ђ√МH¬ЛU√ЄH¬ЛE√Єf√З@јАјАf√ЗBјАјАH¬ЛU√ЄH¬ЛE√Єf√З@√њ√њf√ЗB√њ√њH¬ЛE√ЄH√З@@јАјАјАјАH¬ЛE√ЄH¬ГxPјАt
+H¬ЛE√ЄH¬ЛxP√®јАјАјАјАH¬ЛE√ЄH√З@PјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЛU√ЄH¬ЛE√∞H¬ЙB@H¬ЛE√Єf√З@јАјАH¬ЛE√Єf√З@јАјАH¬Г}√∞јАu√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ДјАјАјАјА√©¬іјАјА√ЗE√§јАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђH¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Г<јА¬Д¬ИјАјАјА¬ЛE√ђH¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬ЛH¬ГxPјАt√®јАјАјАјА√ЗјА√Љ√њ√њ√њ√ЗE√Д√Љ√њ√њ√њ√©WјАјА¬Г}√ђјАt!¬ЛE√ђH¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬ЈјА¬Г√†¬Е√Аu√ЂH¬НE√§√њјА¬ЛE√ђH¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬ЛH¬ЛE√ЄH¬ЙBPH¬НE√ђ√њјА√©\√њ√њ√њ¬Г}√ђјАt
+¬ЛE√ђf¬Е√Аx√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√Д√Њ√њ√њ√њ√©√ЫјАјА¬ЛE√§H¬ШH¬Н<√ЕјАјАјАјА√®јАјАјАјАH¬ЙE√РH¬ЛE√РH¬Е√АtH¬ЛU√ЄH¬ЛE√РH¬ЙBP√Ђ√®јАјАјАјА√ЗјА√њ√њ√њ√њ√ЗE√Д√њ√њ√њ√њ√©¬ЧјАјА√ЗE√®јАјАјАјА¬ЛE√®;E√ђ¬Н√їјАјАјА¬Г}√®јАuH¬ЛU–ЛE√®f¬Й√Ђ>¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬ЈјА¬Г√†¬Е√АtH¬ЛU–ЛE√®√њ√Иf¬ЙBH¬НE√РH¬ГјАH¬ЛU–ЛE√®f¬Й¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬њH¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬њ@¬Н¬ЙE√†¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬њH¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬њ@¬Н¬ЙE√ЬH¬ЛE√Є¬њ@;E√†}H¬ЛU√Є¬ЛE√†f¬ЙBH¬ЛE√Є¬њ@;E√Ь}H¬ЛU√Є¬ЛE√Ьf¬ЙBH¬НE√®√њјА√©√є√Њ√њ√њH¬ЛU–ЛE√ђ√њ√Иf¬ЙBH¬ЛU√Є¬ЛE√ђf¬ЙBH¬ЛU√Є¬ЛE√§f¬ЙB√ЗE√§јАјАјАјАH¬ЛE√Є¬њ@;E√§¬О<јАјАH√ЗE√ИјАјАјАјАH¬ЛM√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛAP¬њ¬ЙE√®H¬ЛM√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛAP¬њD;E√®|e¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬ЛE√®f¬ЙB"¬ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л¬ЛE√§f¬ЙB H¬Лu»ЛE√®H¬ШH¬Н√ЕјАјАјАјАH¬ЛE√∞H¬Л<√®√ї√њ√њH¬ЙE√ИH¬НE√®√њјА√©|√њ√њ√њH¬Г}√ИјАtJH¬ЛU√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛRPH¬ЛE√И¬Ј@"f¬ЙDH¬ЛU√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛRPH¬ЛE√ИH¬Л@@¬Ј@"f¬ЙD√Ђ8H¬ЛM√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛAPf√ЗDјАјАH¬ЛM√Є¬ЛE√§H¬ШH¬Н√ЕјАјАјАјАH¬ЛAPf√ЗDјАјАH¬НE√§√њјА√©¬≥√Њ√њ√њ√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ДјАјАјАјА¬ЛE√Д√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є√ЗE√і√њ√њ√њ√њH√ЗE√®јАјАјАјАH¬ЛјАјАјАјАH¬Г8јА¬Д4јАјАH¬ЛјАјАјАјАH¬ЛјАH¬Гx јА¬ДјАјАH¬ЛјАјАјАјАH¬Г8јАtH¬ЛјАјАјАјАH¬ЛјА¬АxјА¬Е√ЊјАјАјА¬њ¬АјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јА¬Д√•јАјАјАH¬ЛE√®H¬ЛјАјАјАјАH¬ЛH¬Л
+H¬ЙH¬ЛJH¬ЙHH¬ЛJH¬ЙHH¬ЛJH¬ЙHH¬ЛJ H¬ЙH H¬ЛJ(H¬ЙH(H¬ЛJ0H¬ЙH0H¬ЛJ8H¬ЙH8H¬ЛJ@H¬ЙH@H¬ЛJHH¬ЙHHH¬ЛJPH¬ЙHPH¬ЛJXH¬ЙHXH¬ЛJ`H¬ЙH`H¬ЛJhH¬ЙHhH¬ЛJpH¬ЙHpH¬ЛRxH¬ЙPxH¬ЛU√®H¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙB(H¬ЛU√®H¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙB0H¬Лu√ЄH¬Л}√®√®4јАјАјА¬ЙE√і¬Г}√іјАtH¬Л}√®√®јАјАјАјАH√ЗE√®јАјАјАјАH¬Г}√®јАu
+√®јАјАјАјАH¬Й¬ЛE√і¬ЙH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Лu√∞H¬Л}√Є√®b√Ї√њ√њ¬ЙE√ђ¬Г}√ђјАu;H¬ЛE√Єf¬ГxјА~H¬ЛE√Єf√З@јАјАH¬Л}√Є¬Њ¬П√ї√њ√®јАјАјАјА√ЂH¬ЛE√Єf√З@√њ√њH¬ЛE√ЄH√З@HјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√і√Њ√њ√њ√њ√Ђ^H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√љ√њ√њ√њ√ЗE√і√љ√њ√њ√њ√Ђ<H¬Л}√Є√®√є√њ√њH¬ЛE√ЄH¬ГxPјАt
+H¬ЛE√ЄH¬ЛxP√®јАјАјАјАH¬Л}√Є√®јАјАјАјА√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√іјАјАјАјА¬ЛE√і√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√†√Њ√њ√њ√њ√ЂjH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√љ√њ√њ√њ√ЗE√†√љ√њ√њ√њ√ЂHH¬ЛE√ЄH¬Л@@H¬ЙE√®H¬Л}√Є√®x√Є√њ√њH¬Лu√∞H¬Л}√Є√®¬°√Њ√њ√њ¬ЙE√§¬Г}√§јАt
+H¬Лu√®H¬Л}√Є√®
+√є√њ√њ√®јАјАјАјАH¬Й¬ЛE√§¬Й¬ЙE√†¬ЛE√†√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@@√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬њ@√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√¶јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА¬µјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАzјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАfјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА¬КјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјА¬ЪјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`	јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®	јАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАpјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА√±јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√¶јАјАјАјАјАјАјА1јАјАјАјАјА√¶јАјАјАјАјАјАјА¬µјАјАјАјАјАјАјАCјАјАјАјАјА¬ЫјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјАјАјАјАјАјАјАfјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАcјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАtјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬КјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ПјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ІјАјАјАјАјА¬ҐјАјАјАјАјАјАzјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬≥јАјАјАјАјА¬ВјАјАјАјАјАјА¬КјАјАјАјАјАјАјА¬љјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЙјАјАјАјАјАјАјАјАјАјАјА¬ЪјАјАјАјАјАјАјА√ЩјАјАјАјАјА¬¶јАјАјАјАјАјА3јАјАјАјАјАјАјА√•јАјАјАјАјА√ЩјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfrm_def.cјАdefault_formјАInsert_Field_By_PositionјАDisconnect_FieldsјАConnect_FieldsјАAssociate_FieldsјА_nc_Default_FormјА_GLOBAL_OFFSET_TABLE_јАfreeјА__errno_locationјАmallocјАnew_formјАSPјАfree_formјАform_driverјАset_form_fieldsјАform_fieldsјАfield_countјАјАјАјАјАјАјАјА¬ЙјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√УјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ0јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ђјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√РјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√∞јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬МјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√АјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√СјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√¶јАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≥јАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ$јАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬∞јАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЙјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ґјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њaјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЦјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЄјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√®јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√±јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ґјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ$јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њFјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ТјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√АјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≥јАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√¶јАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЫјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА¬ҐјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬¶јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА√ЩјАјАјАјАјАјАfrm_driver.o/   1347872995  0     0     100644  41952     `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАgјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬Г}√∞јАtH¬ЛE√∞¬њјА¬ЙE√М√Ђ√ЗE√М√њ√њ√њ√њ¬ЛEћЙE√§H¬Г}√∞јАt
+H¬ЛE√∞¬њ@¬ЙE√И√Ђ√ЗE√И√њ√њ√њ√њ¬ЛE»ЙE√†H¬Г}√∞јАtH¬ЛE√∞¬њ@¬ЙE√Д√њE√Д√Ђ√ЗE√Д√њ√њ√њ√њ¬ЛEƒЙE√ђH¬Г}√∞јАtH¬ЛE√∞¬њ@¬ЙE√А√њE√А√Ђ√ЗE√А√њ√њ√њ√њ¬ЛE	E√®√ЗE√ШјАјАјАјАH¬ЛE√ЄH¬Л@hH¬ЙE–ЛE√Ш;E√®}W¬Лu√ђH¬Л}√Р√®\јАјАјАH¬Й√ВH¬ЛE√Р)¬Й–ЙE№ЛE№Е√А~!¬Лu√ШH¬Л}√∞¬ЇјАјАјАјА√®јАјАјАјА¬ЛU√ЬH¬Лu√РH¬Л}√∞√®јАјАјАјАH¬НE√Ш√њјА¬ЛE√ђHc√РH¬НE√РHл°ЛU√†¬Лu√§H¬Л}√∞√®јАјАјАјА√Й√ГUH¬Й√•H¬Й}√Є¬Йu√і¬ЛE√іH¬ШHE√ЄH¬ЙE√®H¬ЛE√®H;E√ЄvH¬ЛE√®H√њ√И¬ЊјА%√њјАјАјА¬Г√Є u	H¬НE√®H√њ√Ђ√ЩH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЙU√®√ЗE√†јАјАјАјАH¬ЛE√ЄH¬Л@8H¬ЙE√ИH¬ЛE√∞¬Л@$¬ЙE√§H¬ЛE√®H¬ЙE√ШH¬Г}√ИјАtH¬ЛE√И¬њ@¬ЙE√А√њE√А√Ђ√ЗE√А√њ√њ√њ√њ¬ЛE	E√Р√ЗE√ФјАјАјАјА¬ЛE√Ф;E√Р}IH¬ЛE√∞¬Л@;E√Ф~=¬Лu√ФH¬Л}»ЇјАјАјАјА√®јАјАјАјАH¬ЛE√∞¬ЛP¬ЛE√†H¬ШH¬Й√ЖHu√ШH¬Л}√И√®јАјАјАјА¬Й√ВH¬НE√†H¬НE√Ф√њјАлѓЛE√†Hc√ИH¬ЛU√Ш¬ґјАјАјАјА¬И¬Г}√§ tE√ЗE√ДјАјАјАјА¬ЛE√Д;E√†}6H¬ЛE√Ш¬ЊјА¬Й√АH¬ґ–ЛE√§%√њјАјАјАH9√Вu
+H¬ЛU√Ш¬ґјАјАјАјА¬ИH¬НE√Д√њјАH¬НE√ШH√њјА√Ђ√В√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЛPhH¬Лu√∞H¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬ГƒАH¬Й}√Є¬Йu√і√ЖE√≥јАH¬Г}√ЄјА¬ДјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√А¬Д
+јАјАH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Є¬ФE√≤H¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB¬ЙE√ђH¬ЛE√Є¬Л@¬ЙE√§H¬ЛE√Є¬Л@¬ЙE√†H¬ЛE√ЄH¬Л@hH¬ЙE√ШH¬ЛE√ЄH¬Л@PH¬ЙE√А√ЖE¬ЧјАH¬Г}√АјАt H¬ЛE√А¬ЈјА¬Г√†¬Е√АtH¬ЛE√АH¬Л@HH;E√Єu√ЖE¬Ч¬ґE¬Ч¬ИE¬њ¬А}¬њјАt	H¬Л}√А√®yјАјА¬А}√≤јА¬Д¬БјАјАјАH¬ЛE√Є¬њ@¬ѓE√і¬ЙE√МH¬ЛE√Є¬ГxјАt-H¬ЛM√ЄH¬ЛE√Є¬ЛP¬ЛA)–ЛUћЙU¬М¬ЙE¬Р¬ЛM¬М9M¬Р~¬ЛE¬М¬ЙE¬Р¬ЛU¬Р¬ЙU√МH¬ЛM√ЄH¬ЛU√Є¬ЛE√МB¬ЙAH¬ЛE√ЄH¬ЛU√Є¬Л@;B¬Е¬ШјАјАјАH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√Јf¬Й√©¬ВјАјАјАH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬ѓE√і¬ЙE√МH¬ЛE√Є¬ГxјАt-H¬ЛM√ЄH¬ЛE√Є¬ЛP¬ЛA)–ЛUћЙU¬Д¬ЙE¬И¬ЛM¬Д9M¬И~¬ЛE¬Д¬ЙE¬И¬ЛU¬И¬ЙU√МH¬ЛM√ЄH¬ЛU√Є¬ЛE√МB¬ЙAH¬ЛE√ЄH¬ЛU√Є¬Л@;BuH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√Јf¬ЙH¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB¬ЙE√®H¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB¬НPH¬ЛE√Є¬њ@√њ√А¬ѓ√ВHc√Є√®јАјАјАјАH¬ЙE√РH¬Г}√РјАu_H¬ЛU√Є¬ЛE√§¬ЙBH¬ЛU√Є¬ЛE√†¬ЙB¬А}√≤јАtH¬ЛE√ЄH¬ЛU√Є¬Л@;Bu¬А}√≤јА¬Е√ЃјАјАH¬ЛE√ЄH¬ЛU√Є¬Л@;Bu√©√ЩјАјАH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й√©√ГјАјА√ЖE√≥H¬ЛU√ЄH¬ЛE√РH¬ЙBh√ЗE¬ЄјАјАјАјАH¬ЛE√Є¬њ@;E¬Є¬М¬ЂјАјАјАH¬ЛM√ЄH¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB√њ√А¬ѓE¬ЄH¬ШHAhH¬ЙE¬†¬ЛE√ђ√њ√А¬ѓE¬ЄH¬ШHE√ШH¬ЙE¬®√ЗE¬іјАјАјАјА¬ЛE¬і;E√ђ}#¬ЛE¬іHc√∞H¬ЛM¬†¬ЛE¬іHc√РH¬ЛE¬®¬ґ¬ИH¬НE¬і√њјА√Ђ’ЛE¬і;E√®}¬ЛE¬іHc√ИH¬ЛU¬†¬ґјАјАјАјА¬ИH¬НE¬і√њјА√Ђ№ЛE√®Hc√ИH¬ЛU¬†¬ґјАјАјАјА¬ИH¬НE¬Є√њјА√©D√њ√њ√њ¬А}¬њјА¬Д	јАјА¬А}√≥јА¬Д√њјАјАјАH¬ЛE√Є¬ЛpH¬ЛE√Є¬Лx√®јАјАјАјАH¬ЙE¬ШH¬Г}¬ШјА¬Д√ЩјАјАјАH¬ЛE√АH¬Гx8јАt
+H¬ЛE√АH¬Лx8√®јАјАјАјАH¬ЛU√АH¬ЛE¬ШH¬ЙB8H¬ЛU√ЄH¬ЛE√Є¬Л@,¬Лr$	√ЖH¬ЛE√АH¬Лx8√®јАјАјАјАH¬ЛE√АH¬Гx8јАtH¬ЛE√АH¬ЛP8H¬ЛE√Є¬Л@(¬ЙBH¬ЛE√АH¬Лx8√®јАјАјАјАH¬ЛE√АH¬Лp8H¬Л}√Є√®c√є√њ√њH¬ЛE√АH¬Гx8јАtH¬ЛE√АH¬Л@8¬њ@¬ЙE¬А√њE¬А√Ђ√ЗE¬А√њ√њ√њ√њH¬ЛE√АH¬Лx8¬єјАјАјАјА¬ЛU¬А¬ЊјАјАјАјА√®јАјАјАјАH¬ЛEPH¬ЛEpH¬ЛE√АH¬Лx8√®јАјАјАјА√Ђ√ЖE√≥јА¬А}√≥јАtoH¬Л}√Ш√®јАјАјАјАH¬ЛE√ЄH¬Л@HH;E√Є¬Д¬ЉјАјАјАH¬ЛE√ЄH¬Л@HH¬ЙE¬ШH¬ЛE¬ШH;E√Є¬Д¬ҐјАјАјАH¬ЛU¬ШH¬ЛE√ЄH¬Л@hH¬ЙBhH¬ЛU¬ШH¬ЛE√Є¬Л@¬ЙBH¬ЛU¬ШH¬ЛE√Є¬Л@¬ЙBH¬ЛE¬ШH¬Л@HH¬ЙE¬Ш√Ђ¬ЄH¬ЛU√Є¬ЛE√§¬ЙBH¬ЛU√Є¬ЛE√†¬ЙBH¬ЛU√ЄH¬ЛE√ШH¬ЙBh¬А}√≤јАtH¬ЛE√ЄH¬ЛU√Є¬Л@;Bu¬А}√≤јАu#H¬ЛE√ЄH¬ЛU√Є¬Л@;Bu√ЂH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬ЙH¬Л}√Р√®јАјАјАјА¬ґE√≥√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є¬ЈјА¬Г√†¬Е√АtNH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√ѓf¬ЙH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√И f¬ЙH¬ЛE√ЄH¬ЛpHH¬Л}√Є√®I√Ї√њ√њH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√і¬ЙU√∞H¬Г}√ЄјАt^H¬ЛE√Є¬њ@;E√іQH¬ЛE√Є¬њPH¬ЛE√Є¬њ@¬Н;E√і~9H¬ЛE√Є¬њ@;E√∞,H¬ЛE√Є¬њPH¬ЛE√Є¬њ@¬Н;E√∞~√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА√Ђ√®јАјАјАјА√ЗјА√≥√њ√њ√њ√ЗE√ђ√≥√њ√њ√њ¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Г}√ЄјАu√ЗE√§√Њ√њ√њ√њ√© јАјАH¬ЛE√ЄH¬Гx8јАtH¬ЛE√ЄH¬ГxHјАu√ЗE√§√њ√њ√њ√њ√©√ЊјАјАјАH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√ЄH¬Л@0H¬ЙE√ШH¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√ШH¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√ШH¬ЛE√ШH¬ЙE√®H¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√∞¬Л@0¬Г√†¬Е√Аt$H¬ЛE√∞H¬ЛU√∞¬њR9PH¬ЛE√∞H¬ЛU√∞¬њR9P√ЂFH¬ЛE√∞¬њPH¬ЛE√ЄPH¬ЛE√Є¬Й√С+HH¬ЛE√∞¬њPH¬ЛE√ЄPH¬ЛE√Є¬Й√Ц+pH¬Л}√®¬Й√К√®јАјАјАјАH¬Л}√®√®јАјАјАјА√Ђ
+H¬ЛE√ЄH¬Лx8√®јАјАјАјА√ЗE√§јАјАјАјА¬ЛE√§√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√Ш√Њ√њ√њ√њ√©√БјАјАH¬ЛE√ЄH¬Гx8јАtH¬ЛE√ЄH¬ГxHјАu√®јАјАјАјА√ЗјА√њ√њ√њ√њ√ЗE√Ш√њ√њ√њ√њ√©¬ФјАјАH¬ЛE√ЄH¬Л@HH¬ЙE√®H¬ЛE√ЄH¬Л@0H¬ЙE√РH¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√РH¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√РH¬ЛE√РH¬ЙE√∞H¬ЛE√®¬Л@0¬Г√†¬Е√А¬Д√ЯјАјАH¬ЛE√®H¬ЛU√®¬њR9PH¬ЛE√®H¬ЛU√®¬њR9P√©¬ЂјАјАH¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√Є¬Е¬ЊјАјАјАH¬ЛE√ЄH¬ЛU√Є¬Л@;B}H¬ЛE√ЄH¬ЛU√Є¬ЛR¬ЙP√Ђ2H¬ЛM√ЄH¬ЛU√ЄH¬ЛE√®¬њ@B9A|H¬Лu√ЄH¬ЛM√ЄH¬ЛE√®¬њP¬ЛA)√Р√њ	FH¬ЛE√®¬њHH¬ЛE√®¬њpH¬ЛE√Є¬ЛxL¬ЛU√∞H¬ЛE√ЄL¬ЛX8√ЗD$јАјАјАјАH¬ЛE√®¬њPH¬ЛE√®¬њ@¬Н√њ»ЙD$H¬ЛE√®¬њ@¬Й$A¬Й√ЙA¬Й√∞¬Й√є¬ЇјАјАјАјАL¬Й√ЦL¬Й√Я√®јАјАјАјА√©√ЗјАјАH¬ЛE√®H¬ЛU√®¬њR9P¬О
+јАјАH¬ЛU√ЄH¬ЛE√®¬њ@B¬ЙE√§H¬ЛE√ЄH¬ЛU√Є¬Л@;B}H¬ЛU√ЄH¬ЛE√Є¬Л@¬ЙBH¬ЛU√®H¬ЛE√®¬ЈјА¬Г√Иf¬ЙH¬ЛE√Є¬Л@;E√§|+H¬Лu√ЄH¬ЛM√ЄH¬ЛE√®¬њP¬ЛA)√Р√њ	FH¬ЛU√®H¬ЛE√®¬ЈјА¬Г√Иf¬ЙH¬ЛE√®¬ЈјА¬Г√†¬Е√Аt+H¬ЛE√Є¬Л@¬ЙE√†H¬ЛE√®¬њ@E√†¬ЙE√ЬH¬ЛU√®H¬ЛE√®¬ЈјА¬Г√†√љf¬Й√ЂtH¬ЛE√Є¬Л@¬ЙE√†¬ЛE√†;E√§}¬Лu√†H¬ЛE√ЄH¬Лx8√®јАјАјАјА¬Д√Аt√ЂH¬НE√†√њјА√ЂЏЛE√†¬ЙE№ЛE√Ь;E√§}6¬Лu√ЬH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬Д√Аu√Ђ H¬НE√Ь√њјА√Ђ√ЪH¬ЛE√Є¬Л@¬ЙE√†H¬ЛE√®¬њ@E√†¬ЙE№ЛE√Ь;E√†¬Д¬БјАјАјАH¬ЛE√®¬њHH¬ЛE√®¬њ@¬Й√ВU√†H¬ЛE√Є¬Й√Ц+p¬Л}√†L¬ЛU√∞H¬ЛE√ЄL¬ЛX8√ЗD$јАјАјАјАH¬ЛE√®¬њPH¬ЛE√®¬њ@¬Н√њ»ЙD$H¬ЛE√®¬њ@¬Й√ВU√ЬH¬ЛE√Є+P¬Й√Р√њ»Й$A¬Й√ЙA¬Й√∞¬єјАјАјАјА¬Й√ЇL¬Й√ЦL¬Й√Я√®јАјАјАјАH¬Л}√∞√®јАјАјАјА√Ђ
+H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Гx8јАtH¬ЛE√ЄH¬Л@8¬њ@¬ЙE√М√њE√М√Ђ√ЗE√М√њ√њ√њ√њH¬ЛE√ЄH¬Лx8¬єјАјАјАјА¬ЛUћЊјАјАјАјА√®јАјАјАјАH¬Л}√Є√®јАјАјАјА¬ЙEЎЛE√Ш√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞√ЗE√†јАјАјАјАH¬ЛE√ЄH¬ЛU√Є¬Л@¬Й√Ж¬ѓrH¬ЛE√ЄH¬Лxh√®¬ЯјАјАјАH¬ЙE√®H¬ЛE√ЄH¬ЛU√Є¬Л@¬Й√Ж¬ѓrH¬ЛE√ЄH¬Лxh√®¬Є√≤√њ√њH¬Й√ВH¬ЛE√®)¬Й–ЙE√§¬Г}√§јА~gH¬ЛE√Є¬њ@¬ЙE№Г}√Ьt¬Г}√Ьt!√Ђ-H¬ЛE√Є¬њ@¬Й√В+U√§¬Й√Р√Б√Є√Б√®¬Н√С√Є¬ЙE√†√ЂH¬ЛE√Є¬њ@+E√§¬ЙE√†¬ЛU√†H¬Л}√∞¬ЊјАјАјАјА√®јАјАјАјА¬ЛU√§H¬Лu√®H¬Л}√∞√®јАјАјАјА√Й√ГUH¬Й√•H¬Й}√Є¬Йu√іH¬ЛE√ЄH¬ЙE√®¬ЛE√іH¬ШHE√ЄH¬ЙE√†H¬ЛE√®H;E√†sH¬ЛE√®¬ЊјА%√њјАјАјА¬Г√Є u	H¬НE√®H√њјА√Ђ√ЬH¬ЛE√®H;E√†u
+H¬ЛE√ЄH¬ЙE√Ш√ЂH¬ЛE√®H¬ЙE√ШH¬ЛE√Ш√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЛU√Є¬Л@¬Й√Ж¬ѓrH¬ЛE√ЄH¬Лxh√®l√њ√њ√њH¬ЙE√®H¬ЛE√ЄH¬ЛU√Є¬Л@¬Й√Ж¬ѓrH¬ЛE√ЄH¬Лxh√®¬Е√±√њ√њH¬Й√ВH¬ЛE√®)¬Й–ЙE√§¬Г}√§јА~#H¬Л}√∞¬ЇјАјАјАјА¬ЊјАјАјАјА√®јАјАјАјА¬ЛU√§H¬Лu√®H¬Л}√∞√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®¬ЙM√§L¬ЙE√ШH¬Г}√®јА¬Д¬ЧјАјАјАH¬ЛE√®¬ЈјА¬Г√†¬Е√Аte√ЖE√УјАH¬ЛM√ШD¬ЛM√§H¬ЛE√®H¬ЛPH¬Лu√∞H¬Л}√ЄL¬ЛD¬Й√Й√®¬•√њ√њ√њ¬Д√Аu-H¬ЛE√ШH¬ЛHD¬ЛM√§H¬ЛE√®H¬ЛPH¬Лu√∞H¬Л}√ЄI¬Й√ИD¬Й√Й√®z√њ√њ√њ¬Д√Аu√Ђ√ЖE√У¬ґE”ЙE√Ф√ЂHH¬ЛE√®H¬Гx@јАtH¬ЛE√®H¬ЛuЎЛ}√§H¬Л@@√њ√Р¬ґ	E√Ф√Ђ$√®јАјАјАјАH¬ЙKE√§¬ґ√АH¬НјАH¬Л¬Ј√С√®¬Г√∞¬Г√†¬ЙE‘ЛE√Ф√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√Є@¬Иu√ЈH¬Г}√ЄјАu√ЗE√Ь√њ√њ√њ√њ√©¬ЫјАјАH¬ЛE√ЄH¬Л@PH¬Л@0H¬ЙE√РH¬ЛE√ЄH¬Л@PH¬Гx0јАu4H¬ЛE√ЄH¬Л@PH¬Л@(H¬ЙE√РH¬ЛE√ЄH¬Л@PH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√РH¬ЛE√РH¬ЙE√†H¬ЛE√Є¬њPH¬ЛE√Є¬њHH¬ЛE√ЄD¬њHH¬ЛE√Є¬њpH¬Л}√†A¬Й√РD¬Й√К√®јАјАјАјАH¬ЙE√®H¬Г}√®јАu√ЗE√Ь√њ√њ√њ√њ√©√єјАјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√Аt0H¬ЛU√ЄH¬ЛE√Є¬Л@,¬Лr$	√ЖH¬Л}√®√®јАјАјАјАH¬Г}√®јАt%H¬ЛE√®H¬ЛU√Є¬ЛR(¬ЙP√ЂH¬Г}√®јАtH¬ЛE√®H¬ЛU√†¬ЛR¬ЙPH¬Л}√®√®јАјАјАјА¬А}√ЈјАu~H¬ЛE√Є¬Л@0¬Г√†¬Е√Аt_H¬ЛE√Єf¬ГxјАtGH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Єu0H¬ЛE√ЄH¬ЛU√Є¬њR9PuH¬ЛE√Є¬Л@0%јАјАјА¬Е√АtH¬Лu√®H¬Л}√Є√®√Т√ї√њ√њ√Ђ
+H¬Лu√®H¬Л}√Є√®¬ґ√≠√њ√њH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√љf¬ЙH¬Л}√®√®јАјАјАјАH¬Л}√®√®јАјАјАјА√ЗE√ЬјАјАјАјА¬ЛE√Ь√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є√ЗE√ђјАјАјАјАH¬Г}√ЄјАu√ЗE√®√Њ√њ√њ√њ√©mјАјАH¬ЛE√ЄH¬Л@PH¬ЙE√∞H¬Е√А¬ДAјАјАH¬ЛE√ЄH¬ГxPјА¬Д2јАјАH¬ЛE√ЄH¬Л@P¬ЈјА¬Г√†¬Е√А¬ДјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√А¬Д
+јАјАH¬ЛM√ЄH¬ЛE√ЄH¬ЛPP¬ЈA f;B¬Е√∞јАјАјАH¬ЛE√∞H¬Л@HH;E√Є¬Е√НјАјАјАH¬Лu√∞H¬ЛM√∞H¬ЛU√∞H¬ЛE√∞√З@јАјАјАјА√ЗBјАјАјАјА√ЗAјАјАјАјА√ЗFјАјАјАјАH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√АtVH¬ЛE√Єf¬ГxјАtKH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Єu4H¬ЛE√ЄH¬ЛU√Є¬њR9Pu#H¬ЛE√Є¬Л@0%јАјАјА¬Е√АtH¬ЛE√∞H¬Лp8H¬Л}√Є√®¬Х√ї√њ√њ√ЂH¬ЛE√∞H¬Лp8H¬Л}√Є√®;√ђ√њ√њH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬Л}√∞√®јАјАјАјА¬ЙE√ђ√ЂH¬Л}√Є¬ЊјАјАјАјА√®√Д√Љ√њ√њ¬ЙE√ђH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬Й¬ЛE√ђ¬ЙE√®¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є√ЗE√ђјАјАјАјАH¬Г}√ЄјАu	√ЗE√§√Њ√њ√њ√њ√Ђ\H¬ЛE√ЄH¬ГxHјАu	√ЗE√§√њ√њ√њ√њ√ЂHH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√∞H;E√Єt,H¬Л}√∞√®√Њ√њ√њ¬ЙE√®¬Г}√®јАt¬Г}√ђјАu¬ЛE√®¬ЙE√ђH¬ЛE√∞H¬Л@HH¬ЙE√∞√Ђ ЛE√ђ¬ЙE√§¬ЛE√§√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√Є√ЗE√ђјАјАјАјАH¬Г}√ЄјАu√ЗE√Ь√Њ√њ√њ√њ√©LјАјАH¬ЛE√ЄH¬Л@PH¬ЙE√∞H¬Е√А¬Д1јАјАH¬ЛE√ЄH¬ГxPјА¬Д"јАјАH¬ЛE√ЄH¬Л@P¬ЈјА¬Г√†¬Е√А¬ДјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√А¬Д√ЇјАјАH¬ЛM√ЄH¬ЛE√ЄH¬ЛPP¬ЈA f;B¬Е√†јАјАH¬ЛE√∞H¬Л@HH;E√Є¬Е¬љјАјАH¬Л}√∞√®¬•√≤√њ√њH¬ЛU√ЄH¬ЛE√Є¬Л@,¬Лr$	√ЖH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛE√∞H¬Гx8јАtH¬ЛE√∞H¬ЛP8H¬ЛE√Є¬Л@(¬ЙBH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛE√∞¬ЛPH¬ЛE√∞¬ЛpH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√АtoH¬ЛE√Єf¬ГxјАtNH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Єu7H¬ЛE√ЄH¬ЛU√Є¬њR9Pu&H¬ЛE√Є¬Л@0%јАјАјА¬Е√АtH¬ЛE√∞H¬Лp8H¬Л}√Є√®G√є√њ√њ√©√ЉјАјАјАH¬ЛE√∞H¬Лp8H¬Л}√Є√®√™√©√њ√њ√©√¶јАјАјАH¬ЛE√∞H¬Л@0H¬ЙE√РH¬ЛE√∞H¬Гx0јАu,H¬ЛE√∞H¬Л@(H¬ЙE√РH¬ЛE√∞H¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√РH¬ЛE√РH¬ЙE√†H¬ЛE√Є¬њPH¬ЛE√Є¬њHH¬Лu√†H¬ЛE√∞H¬Лx8√ЗD$јАјАјАјАH¬ЛE√Є¬њ@√њ»ЙD$H¬ЛE√Є¬њ@√њ»Й$A¬Й√СA¬Й»єјАјАјАјА¬ЇјАјАјАјА√®јАјАјАјАH¬Л}√†√®јАјАјАјАH¬ЛE√∞H¬Лp8H¬Л}√Є√®,√©√њ√њH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬Л}√∞√®јАјАјАјА√ЂH¬Л}√Є¬ЊјАјАјАјА√®¬Є√є√њ√њ¬ЙE√ђ¬ЛE√ђ¬ЙE№ЛE√Ь√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√Є¬Йu√і√ЗE√ЬјАјАјАјАH¬Г}√ЄјАu√ЗE√Р√Њ√њ√њ√њ√©¬ЕјАјАH¬ЛE√Є¬Л@0¬ЙE√∞¬ЛE√і3E√∞¬ЙE√ђH¬ЛU√Є¬ЛE√і¬ЙB0H¬ЛE√ЄH¬Л@PH¬ЙE√†H¬Г}√†јА¬Д¬ІјАјАјАH¬ЛE√†¬ЈјА¬Г√†¬Е√А¬Д¬ХјАјАјАH¬ЛE√†H¬Л@HH;E√ЄuH¬ЛU√Є¬ЛE√∞¬ЙB0√ЗE√Р√≤√њ√њ√њ√©јАјАH¬ЛE√†H¬ЛU√Є¬Ј@f;B u_¬ЛE√ђ¬Г√†¬Е√Аt0¬ЛE√і¬Г√†¬Е√АtH¬Л}√Є¬ЊјАјАјАјА√®√£√Є√њ√њ¬ЙE√Ь√Ђ8H¬Л}√Є¬ЊјАјАјА√®√Р√Є√њ√њ¬ЙE√Ь√Ђ%¬ЛE√ђ¬Г√†¬Е√Аt¬ЛE√і¬Г√†¬Е√АtH¬Л}√Є¬ЊјАјАјАјА√®¬©√Є√њ√њ¬ЙE№ЛE√ђ%јАјАјА¬Е√А¬Д¬ФјАјАH¬ЛE√Є¬њPH¬ЛE√Є¬ЛH¬Н
+¬Г√Є¬ФE√Ы√ЗE√ФјАјАјАјА¬ЛE√і%јАјАјА¬Е√А¬Д¬¶јАјАјАH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Ґ√Јf¬Й¬А}√ЫјА¬Д;јАјАH¬ЛE√Є¬њPH¬ЛE√Є;P¬Е&јАјАH¬ЛE√Єf¬ГxјА¬ДјАјАH¬ЛE√ЄH¬ГxPјА¬ДјАјАH¬ЛE√ЄH¬Л@P¬ЈјА¬Г√†¬Е√А¬Д√≤јАјАјАH¬ЛE√Є¬Л@0¬Г√†¬Е√А¬Д√†јАјАјАH¬ЛM√ЄH¬ЛE√ЄH¬ЛPP¬ЈA f;B¬Е√ЖјАјАјАH¬Л}√Є¬ЊјАјАјАјА√®√Ж√Ј√њ√њ¬ЙE√Ф√©¬∞јАјАјАH¬ЛE√Є¬ГxјАt2¬А}√ЫјАtH¬ЛE√ЄH¬ЛU√Є¬Л@;B|¬А}√ЫјА¬Е¬ЖјАјАјАH¬ЛE√ЄH¬ЛU√Є¬Л@;B|√ЂtH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й¬А}√ЫјАt]H¬ЛE√Єf¬ГxјАtRH¬ЛE√ЄH¬ГxPјАtGH¬ЛE√ЄH¬Л@P¬ЈјА¬Г√†¬Е√Аt5H¬ЛE√Є¬Л@0¬Г√†¬Е√Аt'H¬ЛM√ЄH¬ЛE√ЄH¬ЛPP¬ЈA f;BuH¬Л}√Є¬ЊјАјАјАјА√®√Ј√њ√њ¬ЙE‘Г}√ФјАt¬ЛE‘ЙE№ЛE№ЙE–ЛE√Р√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√ЄH¬Йu√∞H¬Г}√ЄјАt"H¬Г}√∞јАtH¬ЛE√ЄH¬ГxHјАtH¬ЛE√∞H¬Л@PH;E√Єu√Ђ√ЗE√Ь√Њ√њ√њ√њ√©'јАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√ЗE√Ь√ї√њ√њ√њ√©
+јАјАH¬ЛE√ЄH¬Гx@јАu√ЗE√Ь√µ√њ√њ√њ√©√ґјАјАH¬ЛE√ЄH¬Л@HH¬ЙE√®H¬ЛE√®H;E√∞uH¬ЛE√Є¬ЈјА¬Г√†¬Е√А¬Е¬ЫјАјАH¬ЛE√ЄH¬Гx8јА¬ДјАјАH¬ЛE√®¬Л@0¬Г√†¬Е√А¬Д
+јАјАH¬ЛE√®H¬Л@PH¬ЛU√®¬Ј@f;B ¬Е√≥јАјАјАH¬Л}√Є√®јАјАјАјАH¬ЛE√®¬Л@0¬Г√†¬Е√А¬Д¬њјАјАјАH¬ЛE√®H¬ЛU√®¬њR9P~3H¬ЛE√Є¬ГxјАuH¬ЛE√®H¬ЛU√®¬Ј¬Г√Ґ√љf¬Й√©¬ОјАјАјАH¬ЛE√®H¬ЛU√®¬Ј¬Г√Кf¬Й√Ђ{H¬ЛE√®f¬ГxјАtpH¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√ЄuYH¬ЛE√®H¬ЛU√®¬њR9PuHH¬ЛE√®¬Л@0%јАјАјА¬Е√Аt8H¬Лu√®H¬Л}√Є√®0√І√њ√њH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лp8H¬Л}√®√®¬®√≤√њ√њH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH√З@8јАјАјАјАH¬ЛE√∞H¬ЙE√®H¬ЛE√®¬Л@0¬Г√†¬Е√Аt$H¬ЛE√®H¬ЛU√®¬њR9PH¬ЛE√®H¬ЛU√®¬њR9P√ЂH¬ЛE√®¬ЛpH¬ЛE√®¬Лx√®јАјАјАјАH¬ЙE√†√©¬ЙјАјАјАH¬ЛE√®¬њ@¬ЙE√ШH¬ЛE√®¬њ@¬ЙE√ФH¬ЛE√®¬њ@¬ЙE√РH¬ЛE√®¬њ@¬ЙE√МH¬ЛE√ЄH¬Л@0H¬ЙE√АH¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√АH¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√АD¬ЛEЎЛM‘ЛU–Лu√МH¬Л}√А√®јАјАјАјАH¬ЙE√†H¬Г}√†јАu√ЗE√Ь√њ√њ√њ√њ√©¬ЃјАјАH¬ЛE√ЄH¬ЛU√®H¬ЙPHH¬ЛE√ЄH¬Гx8јАt
+H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛU√ЄH¬ЛE√†H¬ЙB8H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√ѓf¬ЙH¬ЛU√®H¬ЛE√®¬Л@,¬Лr$	√ЖH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Гx8јАtH¬ЛE√ЄH¬ЛP8H¬ЛE√®¬Л@(¬ЙBH¬ЛE√®¬Л@0¬Г√†¬Е√Аt$H¬ЛE√®H¬ЛU√®¬њR9PH¬ЛE√®H¬ЛU√®¬њR9P√Ђ H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лp8H¬Л}√®√®¬Є√Ґ√њ√њ√ЂnH¬ЛE√®f¬ГxјАtcH¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√ЄuLH¬ЛE√®H¬ЛU√®¬њR9Pu;H¬ЛE√®¬Л@0%јАјАјА¬Е√Аt+H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лp8H¬Л}√®√®¬Ь√±√њ√њH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Гx8јАtH¬ЛE√ЄH¬Л@8¬њ@¬ЙE¬Љ√њE¬Љ√Ђ√ЗE¬Љ√њ√њ√њ√њH¬ЛE√ЄH¬Лx8¬єјАјАјАјА¬ЛU¬Љ¬ЊјАјАјАјА√®јАјАјАјАH¬Лu√ЄH¬ЛM√ЄH¬ЛU√ЄH¬ЛE√Є√З@јАјАјАјА√ЗBјАјАјАјА√ЗAјАјАјАјА√ЗFјАјАјАјА√ЗE√ЬјАјАјАјА¬ЛE√Ь√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞√ЗE√ђјАјАјАH¬ЛM√ЄH¬ЛU√Є¬ЛE√ђB¬ЙA¬ЛQH¬ЛE√∞;P¬Е¬іјАјАјАH¬ЛE√Є√њ@H¬ЛU√∞¬Л@;B¬Е¬ТјАјАјАH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√Єt&H¬Л}√∞¬ЊјАјАјА√®√≤√£√њ√њ¬Д√АtH¬ЛE√Є√З@јАјАјАјА√ЗE√®јАјАјАјА√ЂgH¬ЛE√Є√њHH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√ЄuH¬Л}√∞¬ЊјАјАјА√®¬Ѓ√£√њ√њ¬Д√Аt	√ЗE√®јАјАјАјА√Ђ.H¬ЛM√ЄH¬ЛE√Є¬ЛU√ђ¬Л@)–ЙA√ЗE√®√і√њ√њ√њ√ЂH¬ЛE√Є√З@јАјАјАјА√ЗE√®јАјАјАјА¬ЛE√®√Й√ГUH¬Й√•H¬Й}√Є√ЗE√іјАјАјАH¬ЛE√Є¬Л@¬ЙE√∞H¬ЛM√ЄH¬ЛE√Є¬ЛU√і¬Л@)–ЙA¬ЛA¬Е√Аy;H¬ЛE√Є√њH¬ГxјАyH¬ЛE√Є√њ@H¬ЛU√Є¬ЛE√∞¬ЙB√ЗE√ђ√і√њ√њ√њ√ЂH¬ЛU√ЄH¬ЛE√ЄH¬Л@H¬Л@√њ»ЙB√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√Є√њ@H¬ЛU√∞¬Л@;BuBH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√ЄtH¬Л}√∞¬ЊјАјАјА√®¬§√Ґ√њ√њ¬Д√Аt	√ЗE√ђјАјАјАјА√Ђ"H¬ЛE√Є√њH√ЗE√ђ√і√њ√њ√њ√ЂH¬ЛE√Є√З@јАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√Є√њH¬ГxјАyH¬ЛE√Є√њ@√ЗE√і√і√њ√њ√њ√ЂH¬ЛE√Є√З@јАјАјАјА√ЗE√іјАјАјАјА¬ЛE√і√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√ЄH¬ЛpHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШH¬Й√ВHVhH¬ЛE√Є¬Л@H¬ШH¬НH¬ЙE√®H¬Л}√Є√®!√І√њ√њH¬ЛE√∞H¬ЛU√∞¬Л@¬Й√Б¬ѓJH¬ЛU√®H¬ЛE√∞H¬Л@h)¬Й–Й√О)√ЖH¬Л}√®√®√КјАјАјАH¬ЙE√†H¬ЛE√∞H¬ЛU√∞¬Л@¬Й√Б¬ѓJH¬ЛU√†H¬ЛE√∞H¬Л@h)¬Й–Й√О)√ЖH¬Л}√†√®√Б√≠√њ√њH¬ЙE√ШH¬Лu√ШH¬Л}√Є√®јАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•SH¬Й}√∞H¬Йu√®H¬ЛE√∞H¬Л@HH¬ЙE√†H¬ЛU√®H¬ЛE√†H¬Л@h)¬Й–ЙE√ЬH¬ЛM√∞H¬ЛE√†H¬ЙE–ЛE√ЬH¬Л]–Щ√Ј{¬ЙAH¬ЛM√∞H¬ЛE√†¬њPH¬ЛE√∞¬ѓP¬ЛE√Ь)–ЙAH¬ЛE√†H¬ЛU√∞¬Л@;B}H¬ЛE√∞√З@јАјАјАјА[√Й√ГUH¬Й√•H¬Й}√Є¬Йu√іH¬ЛE√ЄH¬ЙE√®¬ЛE√іH¬ШHE√®H¬ЙE√†H¬ЛE√®H;E√†sH¬ЛE√®¬ЊјА%√њјАјАјА¬Г√Є t	H¬НE√®H√њјА√Ђ√ЬH¬ЛE√®H;E√†u
+H¬ЛE√ЄH¬ЙE√Ш√ЂH¬ЛE√®H¬ЙE√ШH¬ЛE√Ш√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√ЄH¬ЛpHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШH¬Й√ВHVhH¬ЛE√Є¬Л@H¬ШH¬НH¬ЙE√®√ЖE√ЧјАH¬Л}√Є√®i√•√њ√њH¬ЛU√®H¬ЛE√∞H¬Л@h¬Й√Ц)√ЖH¬ЛE√∞H¬Лxh√®¬З√Ю√њ√њH¬ЙE√†H¬ЛE√†H;E√®u√ЖE√ЧH¬ЛU√†H¬ЛE√∞H¬Л@h¬Й√Ц)√ЖH¬ЛE√∞H¬Лxh√®`јАјАјАH¬ЙEЎА}√ЧјАtBH¬ЛU√ШH¬ЛE√∞H¬Л@h¬Й√Ц)√ЖH¬ЛE√∞H¬Лxh√®1√Ю√њ√њH¬ЙE√†H¬ЛU√†H¬ЛE√∞H¬Л@h¬Й√Ц)√ЖH¬ЛE√∞H¬Лxh√®јАјАјАH¬ЙE√ШH¬Лu√ШH¬Л}√Є√®√Њ√њ√њ¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√Є¬Йu√і¬ЛE√іH¬ШHE√ЄH¬ЙE√®H¬ЛE√®H;E√ЄvH¬ЛE√®H√њ√И¬ЊјА%√њјАјАјА¬Г√Є t	H¬НE√®H√њ√Ђ√ЩH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®W√§√њ√њH¬ЛE√∞H¬ЛU√∞¬Л@¬Й√Ж¬ѓrH¬ЛE√∞H¬Лxh√®9√Ђ√њ√њH¬Й√ЖH¬Л}√Є√®¬Д√љ√њ√њ¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®√§√њ√њH¬ЛE√∞H¬ЛU√∞¬Л@¬Й√Ж¬ѓrH¬ЛE√∞H¬Лxh√®"√Э√њ√њH¬ЙE√®H¬ЛM√∞H¬ЛE√∞H¬ЛU√∞¬Л@¬ѓBH¬ШHAhH;E√®uH¬НE√®H√њH¬Лu√®H¬Л}√Є√®√љ√њ√њ¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®¬И√£√њ√њH¬ЛE√∞¬ЛpH¬ЛE√ЄH¬ЛxHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШH¬ЛWhH¬Н<√®W√™√њ√њH¬Й√ЖH¬Л}√Є√®¬Ґ√Љ√њ√њ¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®#√£√њ√њH¬ЛE√ЄH¬ЛpHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШHFhH¬ЙE√†H¬ЛE√∞¬ЛpH¬Л}√†√®)√Ь√њ√њH¬ЙE√®H¬ЛE√∞¬Л@H¬ШHE√†H;E√®uH¬НE√®H√њH¬Лu√®H¬Л}√Є√®√Љ√њ√њ¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√Є√ЗE√іјАјАјАH¬ЛE√Є¬Л@¬ЙE√∞H¬ЛM√ЄH¬ЛE√Є¬ЛU√і¬Л@)–ЙA¬ЛA¬Е√АyH¬ЛU√Є¬ЛE√∞¬ЙB√ЗE√ђ√і√њ√њ√њ√Ђ√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є√ЗE√іјАјАјАH¬ЛE√Є¬Л@¬ЙE√∞H¬ЛM√ЄH¬ЛU√Є¬ЛE√іB¬ЙA¬ЛQH¬ЛE√ЄH¬Л@H;P|QH¬ЛE√ЄH¬Л@HH¬ЙE√®H¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√ЄuH¬Л}√®¬ЊјАјАјА√®¬Є√Ь√њ√њ¬Д√Аt	√ЗE√§јАјАјАјА√ЂH¬ЛU√Є¬ЛE√∞¬ЙB√ЗE√§√і√њ√њ√њ√Ђ√ЗE√§јАјАјАјА¬ЛE√§√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√Є√њH¬ГxјАyH¬ЛE√Є√њ@√ЗE√і√і√њ√њ√њ√Ђ√ЗE√іјАјАјАјА¬ЛE√і√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√Є√њ@H¬ЛU√∞¬Л@;BuBH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√ЄtH¬Л}√∞¬ЊјАјАјА√®√Ь√њ√њ¬Д√Аt	√ЗE√ђјАјАјАјА√ЂH¬ЛE√Є√њH√ЗE√ђ√і√њ√њ√њ√Ђ√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Й}√Є¬Йu√іH¬ЛE√ЄH¬Л@HH¬ЙE√®√ЗE√§√і√њ√њ√њ¬ЛE√і¬Щ¬Й√Р3E√і¬ЙE√†H¬НE√†)¬Г}√іјА~qH¬ЛU√Є¬ЛE√†¬Лr√ЖH¬ЛM√®H¬ЛE√®¬њP¬ЛA)√Р9√Ж~H¬ЛM√®H¬ЛE√®¬њP¬ЛA)–Й√ВH¬ЛE√Є+P¬Й–ЙE√†¬Г}√†јА~tH¬ЛM√ЄH¬ЛU√Є¬ЛE√†B¬ЙAH¬ЛM√ЄH¬ЛU√Є¬ЛE√†B¬ЙA√ЗE√§јАјАјАјА√ЂIH¬ЛE√Є¬Л@;E√†}
+H¬ЛE√Є¬Л@¬ЙE√†¬Г}√†јА~-H¬ЛM√ЄH¬ЛE√Є¬ЛU√†¬Л@)–ЙAH¬ЛM√ЄH¬ЛE√Є¬ЛU√†¬Л@)–ЙA√ЗE√§јАјАјАјА¬ЛE√§√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞√ЗE√ђ√і√њ√њ√њH¬ЛE√∞H¬Л@H¬њPH¬ЛE√∞H¬Л@H¬ЛH¬Н
+¬Г√Єt,H¬Л}√∞H¬ЛE√Є√њ–ЙE√ђ¬Г}√ђјАuH¬ЛE√∞H¬ЛPHH¬ЛE√∞H¬Л@H¬ЈјА¬Г√Иf¬Й¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є¬ЊјАјАјА√®¬К√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є¬Њ√њ√њ√њ√њ√®n√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њpH¬Л}√Є√®K√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬НP¬Й√Р√Б√Є√Б√®¬Н¬Й√Ж√С√ЊH¬Л}√Є√®√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬Й√Ж√Ј√ЮH¬Л}√Є√®√ѓ√љ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬НP¬Й√Р√Б√Є√Б√®¬Н√С√Є¬Й√Ж√Ј√ЮH¬Л}√Є√®¬Є√љ√њ√њ√Й√ГUH¬Й√•H¬Й}√Є¬Йu√іH¬ЛE√ЄH¬Л@HH¬ЙE√®√ЗE√§√і√њ√њ√њ¬ЛE√і¬Щ¬Й√Р3E√і¬ЙE√†H¬НE√†)¬Г}√іјА~qH¬ЛU√Є¬ЛE√†¬Лr√ЖH¬ЛM√®H¬ЛE√®¬њP¬ЛA)√Р9√Ж~H¬ЛM√®H¬ЛE√®¬њP¬ЛA)–Й√ВH¬ЛE√Є+P¬Й–ЙE√†¬Г}√†јА~tH¬ЛM√ЄH¬ЛU√Є¬ЛE√†B¬ЙAH¬ЛM√ЄH¬ЛU√Є¬ЛE√†B¬ЙA√ЗE√§јАјАјАјА√ЂIH¬ЛE√Є¬Л@;E√†}
+H¬ЛE√Є¬Л@¬ЙE√†¬Г}√†јА~-H¬ЛM√ЄH¬ЛE√Є¬ЛU√†¬Л@)–ЙAH¬ЛM√ЄH¬ЛE√Є¬ЛU√†¬Л@)–ЙA√ЗE√§јАјАјАјА¬ЛE√§√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬Л@H¬њPH¬ЛE√∞H¬Л@H¬ЛH¬Н
+¬Г√ЄuH¬Л}√∞H¬ЛE√Є√њ–ЙE√ђ√Ђ√ЗE√ђ√і√њ√њ√њ¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є¬ЊјАјАјА√®¬І√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є¬Њ√њ√њ√њ√њ√®¬Л√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њpH¬Л}√Є√®h√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬НP¬Й√Р√Б√Є√Б√®¬Н¬Й√Ж√С√ЊH¬Л}√Є√®3√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬Й√Ж√Ј√ЮH¬Л}√Є√®√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬њ@¬НP¬Й√Р√Б√Є√Б√®¬Н√С√Є¬Й√Ж√Ј√ЮH¬Л}√Є√®√Х√љ√њ√њ√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√Є¬Йu√іH¬ЙU√®¬ЙM√§H¬ЛE√ЄH¬Л@HH¬ЙE√ШH¬ЛU√ШH¬ЛEЎЛ@¬ѓE√іH¬ШHBhH¬ЙE√РH¬ЛEЎЛpH¬Л}√Р√®¬Ю√Х√њ√њH¬Й√ВH¬ЛE√Р)¬Й–ЙE√МH¬ЛEЎЛUћЛ@)–ЙE»ЛE√§√њ	E√Д√ЗE¬і√і√њ√њ√њ¬ЛE√И;E√Д|a¬Лu√іH¬ЛE√ЄH¬Лx8¬ЇјАјАјАјА√®јАјАјАјА¬ЛU√§H¬Лu√®H¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЛU√§¬Лu√іH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8¬ЇјАјАјАH¬Н5јАјАјАјА√®јАјАјАјА√ЗE¬∞јАјАјАјА√©eјАјАH¬ЛEЎЛ@√њ√И;E√іuEH¬ЛE√Ш¬ЈјА¬Г√†¬Е√Аt7H¬Л}ЎЊјАјАјА√®a√Ц√њ√њ¬Д√Аu√ЗE¬∞√њ√њ√њ√њ√©+јАјАH¬ЛU√ШH¬ЛEЎЛ@¬ѓE√іH¬ШHBhH¬ЙE√РH¬ЛEЎЛ@√њ√И;E√і¬О√ЇјАјАјА¬Лu√ДH¬ЛEЎЛ@H¬ШH¬Й√ВHU–ЛE√ДH¬ШH¬Й√ЧH)√З√®F√Ґ√њ√њH¬Й√ВH¬ЛE–Й√Ц)√ЖH¬Л}√Р√®u√ґ√њ√њH¬ЙE¬ЄH¬ЛU¬ЄH¬ЛE√Р)¬Й–ЙE√МH¬ЛMЎЛE»ЛU√М¬ЛA)–ЙE»ЛM√ИH¬ЛU¬Є¬Лu√і√њ√ЖH¬Л}√Є√®H√Њ√њ√њ¬ЙE¬і¬Г}¬іјАu~¬ЛUћЛu√іH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬Лu√іH¬ЛE√ЄH¬Лx8¬ЇјАјАјАјА√®јАјАјАјА¬ЛU√§H¬Лu√®H¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЛU√§¬Лu√іH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8¬ЇјАјАјАH¬Н5јАјАјАјА√®јАјАјАјА√ЗE¬∞јАјАјАјА√Ђ¬ЛE¬і¬ЙE¬∞¬ЛE¬∞√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞√ЗE√ђ√і√њ√њ√њH¬ЛE√∞¬ЛP√њ√КH¬ЛE√Є;P¬ФE√ЂH¬ЛE√∞¬Л@0¬Г√†¬Е√А¬Д¬ХјАјАH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√Є¬ДzјАјАH¬Л}√Є√®¬ГјАјА¬Д√А¬ЕiјАјА¬А}√ЂјАtH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√©PјАјА¬А}√ЂјАtH¬Л}√∞¬ЊјАјАјА√®¬Б√Ф√њ√њ¬Д√Аu√ЗE√М√њ√њ√њ√њ√©9јАјАH¬ЛE√ЄH¬ЛpHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШHFhH¬ЙE√†H¬Лu√∞H¬Л}√Є√®√Ф√њ√њH¬ЛE√∞¬ЛpH¬Л}√†√®¬µ√і√њ√њH¬ЙE√ШH¬ЛU√ШH¬ЛE√†)¬Й–ЙE√РH¬ЛE√∞¬ЛU–Л@)–ЙE‘Г}√РјА~u¬ЛM√ФH¬ЛU√ШH¬ЛE√Є¬Лp√њ√ЖH¬Л}√Є√®¬Г√Љ√њ√њ¬ЙE√ђ¬Г}√ђјАu\¬ЛU√РH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√Є¬Л@;E√Р|H¬ЛE√Є√њ@H¬ЛM√ЄH¬ЛE√Є¬ЛU–Л@)–ЙA√ЗE√МјАјАјАјА√ЂZ√ЗE√МјАјАјАјА√ЂQ¬Г}√ђјАtEH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬Лu√∞H¬Л}√Є√®'√У√њ√њ√ЗE√ђ√і√њ√њ√њ√Ђ√ЗE√ђјАјАјАјА¬ЛE√ђ¬ЙEћЛE√М√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬Л@H¬ЛP√њ√КH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА%√њјАјАјА¬ЙE√іH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјА√ЖE√≥јАH¬ЛE√ЄH¬Л@H¬Л@$;E√іt¬Г}√і t√Ђ√ЖE√≥¬ґE√≥√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞√ЗE√ђ√і√њ√њ√њH¬Н:јАјАH9E√Єu:H¬ЛE√∞¬Л@ ¬Г√†¬Е√Аt,H¬ЛE√∞¬ГxјАu"H¬ЛE√∞¬ГxјАuH¬Лu√∞H¬Н=pјАјА√®¬ЕјАјА¬ЙE√ђ√©¬ЙјАјАјАH¬Н¬ЗјАјАјАH9E√ЄuFH¬ЛE√∞¬Л@ ¬Г√†¬Е√Аt)H¬ЛE√∞¬ГxјАuH¬ЛE√∞¬ГxјАuH¬Лu√∞H¬Н=јАјА√®>јАјА¬ЙE√ђ√ЂEH¬Л}√∞H¬ЛE√Є√њ–ЙE√ђ√Ђ6H¬ЛE√∞H¬Л@H¬Л@0¬Г√†¬Е√Аt$H¬Л}√∞H¬ЛE√Є√њ–ЙE√ђ¬Г}√ђјАuH¬ЛE√∞H¬ЛU√∞¬Ј¬Г√Кf¬Й¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√∞¬ЛP√њ√КH¬ЛE√Є;P¬ФE√ЯH¬ЛE√Є¬ЈјА¬Г√†¬Е√А¬ДјАјА¬А}√ЯјА¬Д¬ТјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√АtH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√Єt√ЂkH¬ЛE√Є¬Л@ ¬Г√†¬Е√Аu√ЗE√Ш√і√њ√њ√њ√©јАјАH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬Лu√ЄH¬Н=√ЯјАјА√®јАјА¬ЙE√Ш√©.јАјА¬А}√ЯјАtH¬Л}√∞¬ЊјАјАјА√®√Ф√Р√њ√њ¬Д√Аu√ЗE√Ш√њ√њ√њ√њ√©
+јАјАH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√Є√њ@H¬ЛE√Є√З@јАјАјАјАH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬Й√ЗE√ШјАјАјАјА√©¬≥јАјА¬А}√ЯјАtYH¬ЛE√∞¬ЈјА¬Г√†¬Е√АtH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√Єt√Ђ2H¬ЛE√Є¬Л@ ¬Г√†¬Е√Аu√ЗE√Ш√і√њ√њ√њ√©lјАјАH¬Лu√ЄH¬Н=јАјА√®AјАјА¬ЙE√Ш√©TјАјА√ЖE√ЧјА¬А}√ЯјАuH¬Л}√Є√®FјАјА¬Д√Аt√ЖE√Ч¬ґE„ИEёА}√ЮјАuH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЗE√Ш√і√њ√њ√њ√©јАјА¬А}√ЮјАuH¬Л}√∞¬ЊјАјАјА√®¬Є√П√њ√њ¬Д√Аu√ЗE√Ш√њ√њ√њ√њ√©√ЃјАјАјАH¬ЛE√ЄH¬ЛpHH¬ЛM√ЄH¬ЛE√ЄH¬ЛPH¬ЛA¬ѓBH¬ШH¬Й√ВHVhH¬ЛE√Є¬Л@H¬ШH¬НH¬ЙE√®H¬ЛM√∞H¬ЛE√Є¬ЛP¬ЛA¬Й√Ж)√ЦH¬Л}√®√®√Ц√Н√њ√њH¬ЙE√†H¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√Є√њ@H¬ЛE√Є√З@јАјАјАјАH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8¬ЊјАјАјА√®јАјАјАјАH¬ЛU√†H¬ЛE√®)√ВH¬Лu√®H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬Й√ЗE√ШјАјАјАјА¬ЛE√Ш√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®√Ч√У√њ√њH¬ЛM√∞H¬ЛE√∞¬ЛP√њ√КH¬ЛE√∞¬Л@¬ѓ√ВH¬ШHAhH¬ЙE√®H¬ЛE√∞¬ЛpH¬Л}√®√®√°√М√њ√њH¬ЙE√†H¬ЛE√†H;E√®¬Ф√А¬ґ√А√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞√ЗE√ђ√і√њ√њ√њH¬ЛE√∞H¬ЛP`H¬ЛE√∞H¬Л@XH¬Лu√∞H¬Л}√ЄI¬Й–є јАјАјАH¬Й√В√®:√Ы√њ√њ¬Д√АtxH¬Л}√Є√®√И√Ї√њ√њ¬ИE√Ђ¬А}√ЂјАu'H¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√ЄuOH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√Ђ?¬А}√ЂјАuH¬Л}√∞¬ЊјАјАјА√®¬Ј√Н√њ√њ¬Д√Аu	√ЗE√ђ√њ√њ√њ√њ√ЂH¬ЛE√ЄH¬Лx8¬Њ јАјАјА√®јАјАјАјАH¬Л}√Є√®n√Є√њ√њ¬ЙE√ђ¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞√ЗE√ђ√і√њ√њ√њH¬ЛE√∞H¬ЛP`H¬ЛE√∞H¬Л@XH¬Лu√∞H¬Л}√ЄI¬Й–є јАјАјАH¬Й√В√®r√Ъ√њ√њ¬Д√А¬Д¬†јАјАјА√ЖE√™јАH¬ЛE√ЄH¬ЛU√∞¬ЛR√њ√К9PtH¬Л}√Є√®d√Њ√њ√њ¬Д√Аt√ЖE√™¬ґE√™¬ИE√ЂH¬ЛE√∞¬њPH¬ЛE√∞¬ЛH¬Н
+¬Г√Єt[¬А}√ЂјАuH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЂE¬А}√ЂјАuH¬Л}√∞¬ЊјАјАјА√®√Й√М√њ√њ¬Д√Аu	√ЗE√ђ√њ√њ√њ√њ√Ђ$H¬ЛE√Є√З@јАјАјАјАH¬ЛE√ЄH¬Лx8¬ЊјАјАјА√®јАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬ЛE√Є¬ГxјАuH¬ЛE√Є¬ГxјАu√ЗE√И√і√њ√њ√њ√©√ЬјАјАH¬ЛE√Є√њH¬ГxјА¬Й¬ЬјАјАH¬ЛE√Є¬Л@¬ЙE√МH¬ЛE√Є√њ@H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√ЗE√И√і√њ√њ√њ√©¬†јАјАH¬ЛM√∞H¬ЛE√Є¬ЛP√њ√КH¬ЛE√∞¬Л@¬ѓ√ВH¬ШHAhH¬ЙE√†H¬ЛM√∞H¬ЛE√ЄH¬ЛU√∞¬Л@¬ѓBH¬ШHAhH¬ЙE√®H¬Л}√Є√®√†√Р√њ√њH¬ЛE√∞¬ЛpH¬Л}√†√®√К√њ√њH¬ЙE√ШH¬ЛE√∞¬ЛpH¬Л}√®√®√Ј√Й√њ√њH¬ЙE√РH¬ЛU√РH¬ЛE√®¬Й√Ц)√ЖH¬ЛE√∞¬њHH¬ЛU√ШH¬ЛE√†)¬Й√Р)I√И9√Ж~√ЗE√И√і√њ√њ√њ√©√љјАјАјАH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8¬Њ√њ√њ√њ√њ√®јАјАјАјАH¬Лu√ШH¬Л}√Є√®¬°√©√њ√њH¬ЛE√Є¬Л@;E√МuP¬Г}√МјА~JH¬ЛU√ЄH¬ЛE√Є¬Л@√њ»ЙBH¬ЛU√ЄH¬ЛE√∞¬Л@√њ»ЙBH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА√Ђ`H¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛU√РH¬ЛE√®)√ВH¬Лu√®H¬ЛE√ЄH¬Лx8√®јАјАјАјА√Ђ(H¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА√ЗE√ИјАјАјАјА¬ЛE√И√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є√З@јАјАјАјАH¬ЛE√ЄH¬Лx8¬Њ√њ√њ√њ√њ√®јАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•SH¬Г√ђ8H¬Й}√∞H¬ЛE√∞H¬Л@HH¬ЙE√®H¬ЛE√∞H¬ЛpHH¬ЛM√∞H¬ЛE√∞H¬ЛPH¬ЛA¬ѓBH¬ШHFhH¬ЙE√†H¬ЛE√®¬Л@H¬ШHE√†H¬ЙE√ШH¬ЛE√∞¬Л@H¬ШHE√†H¬ЙE√РH¬Л}√∞√®√©√О√њ√њH¬ЛE√Р¬ЊјА%√њјАјАјА¬Г√Є u√ЗE√Д√і√њ√њ√њ√©√ЖјАјАјАH¬ЛE√∞¬ЛpH¬Л}√†√®√њ√©√њ√њH¬Й√ЖH¬Л}√∞√®√®√њ√њH¬ЛE√∞¬ЛPH¬ЛE√∞¬ЛpH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛE√∞H¬Лx8√®јАјАјАјАH¬ЛU√ШH¬ЛE–Й√Ц)√ЖH¬Л}√Р√®J√®√њ√њH¬ЙE√ИH¬ЛU√ШH¬ЛE»Й√Ц)√ЖH¬Л}√И√®Z√Х√њ√њH¬ЙE√ИH¬ЛE√ИH;E√Рt?H¬ЛE√И¬ЊјА%√њјАјАјА¬Г√Є t.H¬Л]√ИH¬ЛU√ШH¬ЛE»Й√Ц)√ЖH¬Л}√И√®]√З√њ√њ¬Й√Ъ)√ВH¬Лu√ИH¬ЛE√∞H¬Лx8√®јАјАјАјА√ЗE√ДјАјАјАјА¬ЛE√ДH¬Г√Д8[√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є¬ЛPH¬ЛE√Є¬ЛpH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛU√ЄH¬ЛE√Є√З@јАјАјАјА√ЗBјАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬Й¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√їf¬Й¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†H¬Г}√∞јАtH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЗE√ЬјАјАјАјА√©¬АјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√АtZ√ЖE√ЫјАH¬ЛU√†H¬Лu√®H¬ЛE√∞H¬Л@H¬Л}√ЄH¬Л
+H¬Й√≤H¬Й√Ж√®¬У√њ√њ√њ¬Д√Аu#H¬ЛE√†H¬ЛHH¬ЛU√®H¬ЛE√∞H¬ЛpH¬Л}√Є√®r√њ√њ√њ¬Д√Аu√Ђ√ЖE√Ы¬ґEџЙE√Ь√ЂH¬ЛE√∞H¬Лu√†H¬Л}√®H¬Л@H√њ√Р¬ґ	E№ЛE√Ь√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†H¬Г}√∞јАtH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu√ЗE√ЬјАјАјАјА√©¬АјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√АtZ√ЖE√ЫјАH¬ЛU√†H¬Лu√®H¬ЛE√∞H¬Л@H¬Л}√ЄH¬Л
+H¬Й√≤H¬Й√Ж√®¬У√њ√њ√њ¬Д√Аu#H¬ЛE√†H¬ЛHH¬ЛU√®H¬ЛE√∞H¬ЛpH¬Л}√Є√®r√њ√њ√њ¬Д√Аu√Ђ√ЖE√Ы¬ґEџЙE√Ь√ЂH¬ЛE√∞H¬Лu√†H¬Л}√®H¬Л@P√њ√Р¬ґ	E№ЛE√Ь√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®s√Л√њ√њH¬ЛE√∞H¬ЛH`H¬ЛU√∞H¬ЛE√∞H¬ЛpXH¬Л}√Є√®F√Њ√њ√њ¬Д√Аt	√ЗE√ђјАјАјАјА√Ђ√ЗE√ђ√і√њ√њ√њ¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®√Л√њ√њH¬ЛE√∞H¬ЛH`H¬ЛU√∞H¬ЛE√∞H¬ЛpXH¬Л}√Є√®¬≠√Њ√њ√њ¬Д√Аt	√ЗE√ђјАјАјАјА√Ђ√ЗE√ђ√і√њ√њ√њ¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬ЙM√†H¬Г}√∞јА¬Д√ЦјАјАјАH¬ЛE√®¬Л@0¬Г√Аt;H¬ЛE√®H¬Л@hH¬ЙE√ШH¬ЛE√Ш¬ЊјА%√њјАјАјА¬Г√Є u	H¬НE√ШH√њјА√Ђ√¶H¬ЛEЎА8јАu√ЗE√ФјАјАјА√©¬ФјАјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√АtZ√ЖE√УјАH¬ЛU√†H¬Лu√®H¬ЛE√∞H¬Л@H¬Л}√ЄH¬Л
+H¬Й√≤H¬Й√Ж√®`√њ√њ√њ¬Д√Аu#H¬ЛE√†H¬ЛHH¬ЛU√®H¬ЛE√∞H¬ЛpH¬Л}√Є√®?√њ√њ√њ¬Д√Аu√Ђ√ЖE√У¬ґE”ЙE√Ф√Ђ,H¬ЛE√∞H¬Гx8јАtH¬ЛE√∞H¬Лu√†H¬Л}√®H¬Л@8√њ√Р¬ґ	E√Ф√Ђ√ЗE√ФјАјАјА¬ЛE√Ф√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬Л@HH¬ЙE√∞H¬Л}√Є√®√А√Й√њ√њH¬ЛE√Є¬ЈјА¬Г√† ¬Е√АuH¬ЛE√∞¬Л@0%јАјАјА¬Е√АuUH¬ЛE√∞H¬ЛH`H¬ЛU√∞H¬ЛE√∞H¬ЛpXH¬Л}√Є√®¬Я√Њ√њ√њ¬Д√Аu	√ЗE√ђјАјАјАјА√Ђ2H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√Яf¬ЙH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬Л}√∞√®}√Х√њ√њ√ЗE√ђјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є√®јАјАјАјА¬Д√Аt	√ЗE√іјАјАјАјА√Ђ√ЗE√і√≥√њ√њ√њ¬ЛE√і√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH√Б√†HF@H¬ЙE√∞H¬ЛE√∞H¬Л8√®√∞јАјАјАH¬ЙE√®H¬ЛE√∞H¬ЛјАH;E√®¬Е√ХјАјАјАH¬ЛE√®¬Л@0¬Г√†¬Г√Є¬Д√ВјАјАјАH¬ЛU√ЄH¬ЛE√®H¬њ@"H√Б√†HB@H¬ЙE√†H¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њH√Б√†HF@H¬ЙE√ШH¬ЛE√†H;E√∞tH¬ЛE√†H¬Г√АH¬ЙE√Р√ЂH¬ЛE√ШH¬ЙE√РH¬ЛE√РH¬ЙE√†H¬ЛE√†H¬ЛјА¬Л@0¬Г√†¬Е√Аt√ЂH¬ЛE√†H¬ЛјАH;E√®t√Ђ¬ґH¬ЛE√†H¬ЛјАH¬ЙE√®H¬ЛE√∞H¬ЛјАH;E√®uH¬ЛE√®¬Л@0¬Г√†¬Е√АuH¬ЛE√ШH¬ЛјАH¬ЙE√®H¬ЛE√®√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬Л@PH¬ЙE√∞H¬ЛU√∞H¬ЛE√ЄH¬њ@"H√Б√†HB@H¬ЙE√®H¬Лu√∞H¬ЛM√∞H¬ЛE√∞H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њH√Б√†HF@H¬ЙE√†H¬Лu√∞H¬ЛM√∞H¬ЛE√∞H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH√Б√†HF@H¬ЙE√ШH¬ЛE√®H;E√ШtH¬ЛE√®H¬Г√АH¬ЙE√Р√ЂH¬ЛE√†H¬ЙE√РH¬ЛE√РH¬ЙE√®H¬ЛE√®H¬ЛјА¬Л@0¬Г√†¬Г√Єu√ЂH¬ЛE√®H¬ЛјАH;E√Єt√Ђ¬µH¬ЛE√®H¬ЛјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬ЛE√Є¬њ@¬ЙE√ђH¬ЛE√Є¬њ@¬ЙE√®H¬Л}√∞√®√АјАјАјАH¬ЙE√∞H¬ЛE√∞¬њ@;E√ђuH¬ЛE√∞¬њ@;E√®t√Ђ√ЧH¬ЛE√∞¬њ@;E√ђtNH¬ЛE√∞¬њ@¬ЙE√ђH¬ЛE√∞¬њ@;E√ђuH¬ЛE√∞¬њ@;E√®~H¬Л}√∞√®eјАјАјАH¬ЙE√∞√Ђ√ЧH¬ЛE√∞¬њ@;E√ђt
+H¬Л}√∞√®
+јАјАјАH¬ЙE√∞H¬ЛE√∞√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬ЛE√∞H¬Л@8H¬ЙE√∞H¬ЛE√∞¬Л@0¬Г√†¬Г√Єu√ЂH¬ЛE√∞H;E√Єt√Ђ√ЧH¬ЛE√∞√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬ЛE√∞H¬Л@@H¬ЙE√∞H¬ЛE√∞¬Л@0¬Г√†¬Г√Єu√ЂH¬ЛE√∞H;E√Єt√Ђ√ЧH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬ЛE√Є¬њ@¬ЙE√ђH¬ЛE√Є¬њ@¬ЙE√®H¬Л}√∞√®O√њ√њ√њH¬ЙE√∞H¬ЛE√∞¬њ@;E√ђuH¬ЛE√∞¬њ@;E√®t√Ђ√ЧH¬ЛE√∞¬њ@;E√ђtNH¬ЛE√∞¬њ@¬ЙE√ђH¬ЛE√∞¬њ@;E√ђuH¬ЛE√∞¬њ@;E√®}H¬Л}√∞√®√і√Њ√њ√њH¬ЙE√∞√Ђ√ЧH¬ЛE√∞¬њ@;E√ђt
+H¬Л}√∞√®√њ√њ√њH¬ЙE√∞H¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Л}√∞√®јАјАјАјА¬Д√Аu√ЗE√ђ√≥√њ√њ√њ√©¬СјАјАјАH¬Г}√∞јАt;H¬ЛE√∞H¬ГxxјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@x√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Л}√∞H¬ЛE√Є√њ–ЙE√ђH¬Г}√∞јАt;H¬ЛE√∞H¬ГxpјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@p√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬Й¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®d√Љ√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®јАјАјАH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬Л@PH¬ЙE√∞H¬ЛU√∞H¬ЛE√ЄH¬њ@"H√Б√†HB@H¬ЙE√®H¬Лu√∞H¬ЛM√∞H¬ЛE√∞H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њH√Б√†HF@H¬ЙE√†H¬Лu√∞H¬ЛM√∞H¬ЛE√∞H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH√Б√†HF@H¬ЙE√ШH¬ЛE√®H;E√†tH¬ЛE√®H¬Г√®H¬ЙE√Р√ЂH¬ЛE√ШH¬ЙE√РH¬ЛE√РH¬ЙE√®H¬ЛE√®H¬ЛјА¬Л@0¬Г√†¬Г√Єu√ЂH¬ЛE√®H¬ЛјАH;E√Єt√Ђ¬µH¬ЛE√®H¬ЛјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH¬Н√ЕјАјАјАјАH¬ЛF@H¬Л<√®
+√ї√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њH¬Н√ЕјАјАјАјАH¬ЛF@H¬Л<√®¬Н√Њ√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®'√Љ√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®?√Љ√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH¬Н√ЕјАјАјАјАH¬ЛF@H¬Л<√®¬Ѓ√ї√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Лu√ЄH¬ЛM√ЄH¬ЛE√ЄH¬њ@H¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH¬Н√ЕјАјАјАјАH¬ЛF@H¬Л<√®¬Ы√ї√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®јАјАјАH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Л}√∞√®I√ї√њ√њH¬ЙE√∞H¬ЛE√∞H¬ЛU√Є¬Ј@f;Bt√Ђ√ЯH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®јАјАјАH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Л}√∞√®¬®√Ї√њ√њH¬ЙE√∞H¬ЛE√∞H¬ЛU√Є¬Ј@f;Bt√Ђ√ЯH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®¬љ√є√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЛxH√®√И√Ї√њ√њH¬Й√ЖH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√Є¬Йu√іH¬ЙU√®√ЗE√§јАјАјАјАH¬ЛE√Є¬њ@;E√і¬Д√ЄјАјАјАH¬ЛE√ЄH¬Л@0H¬ЙE√АH¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√АH¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√АH¬Л}√А√®јАјАјАјАH¬ЛU√Є¬ЛE√іf¬ЙBH¬Лu√ЄH¬ЛM√Є¬ЛE√іH¬ШH¬Н√ЕјАјАјАјАH¬ЛAPH¬њDH¬Н√ЕјАјАјАјАH¬ЛF@H¬ЛH¬ЙE√РH¬ЙE√ШH¬ЛE–Л@0¬Г√†¬Е√АtH¬Л}–ЊјАјАјАјА√®¬Ж√И√њ√њ¬ЙE√§¬Г}√§јАt¬ЛE√§¬ЙE√М√ЂCH¬ЛE√РH¬Л@8H¬ЙE√РH¬ЛE√РH;E√Шt√Ђ¬їH¬Г}√®јАtH¬Лu√®H¬Л}√Є√®јАјАјАјА¬ЙE√§√ЂH¬Л}√Є√®9√Љ√њ√њ¬ЙE√§¬ЛE√§¬ЙEћЛE√М√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Л}√∞√®јАјАјАјА¬Д√Аu√ЗE√ђ√≥√њ√њ√њ√©јАјАH¬Г}√∞јАt;H¬ЛE√∞H¬ГxxјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@x√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Г}√∞јАt;H¬ЛE√∞H¬ГxhјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@h√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Л}√∞H¬ЛE√Є√њ–ЙE√ђH¬Г}√∞јАt;H¬ЛE√∞H¬Гx`јАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@`√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Г}√∞јАt;H¬ЛE√∞H¬ГxpјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@p√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬Й¬ЛE√ђ√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є√®јАјАјА¬Й√ЖH¬Л}√Є¬ЇјАјАјАјА√®јАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√Є¬њP√њ√ВH¬ЛE√Є¬њ@¬ЙE√і¬Й–Щ√Ј}√і¬Й√Р√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є√®јАјАјА¬Й√ЖH¬Л}√Є¬ЇјАјАјАјА√®јАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√Єf¬ГxјАtH¬ЛE√Є¬њ@¬ЙE√і√њM√і√ЂH¬ЛE√Є¬њ@¬ЙE√і√њM√і¬ЛE√і√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Л}√Є¬ЇјАјАјАјА¬ЊјАјАјАјА√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√Є¬њ@¬Нp√њH¬Л}√Є¬ЇјАјАјАјА√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ0H¬Й}√Є¬Йu√іH¬ЛE√ЄH¬Л@HH¬ЙE√®√ЗE√§√і√њ√њ√њH¬ЛE√®¬Л@0¬Г√†¬Е√А¬Д√ЭјАјАH¬ЛE√®¬Л@0¬Г√†¬Е√А¬Д√ЛјАјАH¬ЛE√®¬Л@0¬Г√† ¬Е√Аt=H¬ЛE√Є¬ГxјАu3H¬ЛE√Є¬ГxјАu)H¬ЛE√Є¬ЈјА¬Г√† ¬Е√АuH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аu
+H¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt¬Лu√іH¬ЛE√ЄH¬Лx8√®јАјАјАјА√©¬НјАјАјАH¬Л}√Є√®√ѓ√£√њ√њ¬ИE√£¬А}√£јАu<H¬ЛE√®¬њPH¬ЛE√®¬ЛH¬Н
+¬Г√ЄuH¬ЛE√®¬ЈјА¬Г√†¬Е√Аu√®јАјАјАјА√ЗјА√і√њ√њ√њ√ЗE√Ь√і√њ√њ√њ√©јАјА¬А}√£јАu)H¬Л}√®¬ЊјАјАјА√®…ґ√њ√њ¬Д√Аu√®јАјАјАјА√ЗјА√њ√њ√њ√њ√ЗE√Ь√њ√њ√њ√њ√©√∞јАјАјА¬Лu√іH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬Л}√Є√®t√°√њ√њ¬ЙE√§¬Г}√§јА¬Е¬ЇјАјАјА√ЖE√ЫјАH¬ЛE√®¬ЛP√њ√КH¬ЛE√Є;PuH¬ЛE√®¬ЛP√њ√КH¬ЛE√Є;Pu√ЖE√Ы¬ґEџИE√£H¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬Й¬А}√£јАt1H¬ЛE√®¬ЈјА¬Г√†¬Е√Аu#H¬ЛE√®¬Л@0¬Г√†@¬Е√АtH¬Лu√ЄH¬Н=√Ј√њ√њ√®=√ґ√њ√њ¬ЙE√§√Ђ?¬А}√£јАt)H¬ЛE√®¬ЈјА¬Г√†¬Е√АtH¬Л}√®¬ЊјАјАјА√®√Ђ¬µ√њ√њ¬Д√Аu	√ЗE√§√њ√њ√њ√њ√ЂH¬Л}√Є√®g√С√њ√њ√ЗE√§јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√§¬Й¬ЙE№ЛE√Ь√Й√ГUH¬Й√•SH¬Б√ђ¬ШјАјАјАH¬Й}√®¬Йu√§H√ЗE√ШјАјАјАјА√ЗE√Ф√Є√њ√њ√њH¬Г}√®јАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ«Еx√њ√њ√њ√Њ√њ√њ√њ√©-јАјАH¬ЛE√®H¬Гx@јАu√®јАјАјАјА√ЗјА√µ√њ√њ√њ«Еx√њ√њ√њ√µ√њ√њ√њ√©јАјА¬Б}√§¬П√ї√њu+H¬Л]√®H¬Л}√®√®јАјАјАјАH¬ЙCH√®јАјАјАјА√ЗјАјАјАјАјА«Еx√њ√њ√њјАјАјАјА√©√ФјАјАH¬ЛE√®¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√ї√њ√њ√њ«Еx√њ√њ√њ√ї√њ√њ√њ√©¬ђјАјАH¬ЛE√®¬ЈјА¬Г√†¬Е√Аu√®јАјАјАјА√ЗјА√є√њ√њ√њ«Еx√њ√њ√њ√є√њ√њ√њ√©¬ДјАјА¬Б}√§√њјАјА~F¬Б}√§8јАјА=¬ЛE√§H¬ШH¬Й√ВH√Б√ҐH¬НјАјАјАјА¬Ј;E√§u!¬ЛE√§H¬ШH¬Й√ВH√Б√ҐH¬НјАјАјАјАH-јА јАјАH¬НH¬ЙE√ШH¬Г}√ШјА¬Д¬ПјАјАјАH√ЗE√И	јАјАјАH¬ЛEЎЛјА√Б√ЄH¬Ш%√њ√њјАјАH¬ЙE√АH¬ЛE√АH;E√ИsH¬ЛE√ШH¬ГxјАu√ЗE√Ф√њ√њ√њ√њ√©√СјАјАH¬ЛE√АH¬Н√ЕјАјАјАјАH¬НјАјАјАјАH¬ЛH¬ЙE¬ЄH¬Г}¬ЄјАtH¬Лu√®H¬ЛE√ШH¬ЛxH¬ЛE¬Є√њ–ЙE√Ф√©¬ХјАјАH¬ЛE√ШH¬Л}√®H¬Л@√њ–ЙE√Ф√©јАјА¬Б}√§¬ЩјАјА¬ЕјАјАH¬ЛE√®H¬Л@(H¬Й¬Еp√њ√њ√њH¬ЛE√®H¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬Й¬Еp√њ√њ√њH¬Л¬Еp√њ√њ√њH¬ЙE¬ЄH¬ЛE√®H¬Л@0H¬Й¬Еh√њ√њ√њH¬ЛE√®H¬Гx0јАuH¬ЛE¬ЄH¬Й¬Еh√њ√њ√њH¬Л¬Еh√њ√њ√њH¬ЙE√АH¬Н}¬Р√®јАјАјАјАH¬ЛE¬†¬Г√†H¬Е√А¬ДsјАјА¬ЛU¬Ф¬Лu¬ШH¬Л}¬Є√®јАјАјАјА¬Д√А¬Д\јАјА¬ЛE¬Ш¬ЙE¬М¬ЛE¬Ф¬ЙE¬И√ЗE√Ф√і√њ√њ√њH¬НU¬ИH¬Нu¬МH¬ЛјАјАјАјА¬єјАјАјАјАH¬Л8√®јАјАјАјА¬Д√А¬Д¬ЮјАјАH¬ЛE√А¬њ@;E¬М~jH¬ЛE¬†¬Г√†H¬Е√АtH¬Л}√®¬ЊјАјА√®јАјАјАјА¬ЙE√Ф√©oјАјАH¬ЛE¬†¬Г√†H¬Е√АtH¬Л}√®¬ЊјАјА√®јАјАјАјА¬ЙE√Ф√©MјАјАH¬ЛE¬†¬Г√†H¬Е√А¬Д=јАјАH¬Л}√®¬ЊјАјА√®јАјАјАјА¬ЙE√Ф√©'јАјАH¬ЛE√А¬њPH¬ЛE√А¬њ@¬Н;E¬М}jH¬ЛE¬†¬Г√†H¬Е√АtH¬Л}√®¬ЊјАјА√®јАјАјАјА¬ЙE√Ф√©√≠јАјАH¬ЛE¬†¬Г√†H¬Е√АtH¬Л}√®¬ЊјАјАјА√®јАјАјАјА¬ЙE√Ф√©√ЛјАјАH¬ЛE¬†¬Г√†H¬Е√А¬Д¬їјАјАH¬Л}√®¬ЊјАјА√®јАјАјАјА¬ЙE√Ф√©¬•јАјА¬ЛU¬Ф¬Лu¬ШH¬Л}√А√®јАјАјАјА¬Д√А¬Д¬ОјАјА¬ЛE¬Ш¬ЙE¬М¬ЛE¬Ф¬ЙE¬ИH¬НU¬ИH¬Нu¬МH¬Л}9јАјАјАјА√®јАјАјАјА¬Д√А¬ДdјАјАH¬ЛM√®H¬ЛE√®H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAP¬њ¬ЙE¬АH¬ЛM√®H¬ЛE√®H¬њ@H¬Н√ЕјАјАјАјАH¬ЛAP¬њD¬Й¬Е|√њ√њ√њ¬ЛE¬А¬ЙE¬Д¬ЛE¬Д;¬Е|√њ√њ√њ¬ПјАјАH¬ЛM√®¬ЛE¬ДH¬ШH¬Н√ЕјАјАјАјАH¬ЛA@H¬ЛH¬ЙE√ИH¬ЛE»Л@0¬Г√†¬Г√Єu[¬ЛU¬И¬Лu¬МH¬Л}√И√®√Ґ¬ґ√њ√њ¬Е√АuHH¬Лu√ИH¬Л}√®√®јАјАјАјА¬ЙE‘Г}√ФјАuH¬Л}√®√®јАјАјАјА¬ЙE‘Г}√ФјА¬Е¬†јАјАјАH¬ЛE¬†¬Г√†H¬Е√А¬Д¬РјАјАјА√ЗE√Ф√Є√њ√њ√њ√©¬ДјАјАјАH¬НE¬Д√њјА√©_√њ√њ√њ√ЗE√Ф√і√њ√њ√њ√Ђp¬ЛE√§¬∞јА¬Е√Аug√®јАјАјАјАH¬ЙKE√§¬ґ√АH¬НјАH¬Л¬Ј%јА@јАјА¬Е√АtEH¬ЛE√®H¬Л@HH¬ЛP`¬ЛM√§H¬ЛE√®H¬Л@HL¬ЛHXH¬ЛE√®H¬ЛpHH¬Л}√®I¬Й√РL¬Й√Ки™љ√њ√њ¬Д√Аt¬Лu√§H¬Л}√®√®¬Й√Є√њ√њ¬ЙE√ФH¬Л}√®√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE‘Й¬Й¬Еx√њ√њ√њ¬Л¬Еx√њ√њ√њH¬БƒШјАјАјА[√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√Є¬Йu√іH¬ЙU√®√ЗE√ЬјАјАјАјАH¬Г}√ЄјАtH¬Г}√®јАt¬Г}√іјАxH¬ЛE√Є¬њ@;E√і|√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√М√Њ√њ√њ√њ√©hјАјАH¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB¬ЙE√ФH¬ЛE√Є¬ЈјА¬Г√†¬Е√АtwH¬Л}√®√®јАјАјАјА¬ЙE–ЛE√Р;E√Фvc¬ЛU‘ЛE–Й√Б)√СH¬ЛE√Є¬њPH¬ЛE√ЄPH¬ЛE√Є¬њ@¬ѓ¬ЙEƒЙ»ЇјАјАјАјА√ЈuƒЙEƒЛu√Д√њ√ЖH¬Л}√Є√®o¬ѓ√њ√њ¬Д√Аu√®јАјАјАјА√ЗјА√њ√њ√њ√њ√ЗE√М√њ√њ√њ√њ√©√ЧјАјАјА¬ЛE–ЙE√ФH¬ЛM√ЄH¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB√њ√А¬ѓE√іH¬ШHAhH¬ЙE√†√ЗE√ШјАјАјАјА¬ЛE√Ш;E√ФsM¬ЛU√ШH¬ЛE√®¬А<јАu#¬ЛE√Ш;E√Фs8¬ЛEЎЙ√БH¬ЛU√†¬ґјАјАјАјА¬ИH¬НE√Ш√њјА√ЂЁЛM√ШH¬Лu√†¬ЛU√ШH¬ЛE√®¬ґ¬И1H¬НE√Ш√њјАлЂГ}√іјАu<H¬Л}√ЄиЫЊ√њ√њ¬ЙE–Г}√РјАt¬Г}√ЬјАu¬ЛE–ЙE√ЬH¬Л}√Є√®√А√њ√њ¬ЙE–Г}√РјАt¬Г}√ЬјАu¬ЛE–ЙE√Ь√®јАјАјАјАH¬Й¬ЛE№Й¬ЙEћЛE√М√Й√ГUH¬Й√•H¬Й}√Є¬Йu√іH√ЗE√®јАјАјАјАH¬Г}√ЄјАt6¬Г}√іјАx0H¬ЛE√Є¬њ@;E√і|#H¬ЛM√ЄH¬ЛE√ЄH¬ЛU√Є¬Л@¬ѓB√њ√А¬ѓE√іH¬ШHAhH¬ЙE√®H¬ЛE√®√Й√Г јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјА"јАјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјАјАјАјАјАјАјА%јАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјАјАјАјАјАјАјАјА*јАјАјАјАјАјАјАјАјАјАјАјАјА+јАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјА/јАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјА7јАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАEјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАCјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјАjјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјА¬ОјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАDјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА√ФјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАfјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјА¬ЙјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА√¶јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА√ГјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА¬ШјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА¬ДјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАwјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА¬≥јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАqјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАzјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА¬ДјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА<јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА√ОјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАA¬ЖC
+A¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАfјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАEјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАRјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА}јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАeјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА¬ИјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА¬ЫјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА1јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАyјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА√µјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАgјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА5јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјА7јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА√µјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАJјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА5јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјА7јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАJјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА√ЃјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА¬ГјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА√ђјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАfјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА√ИјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјА√іјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА0јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАVјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА6јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјА јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА¬ЊјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА¬ЊјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАWјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАWјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<	јАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\	јАјАјАјАјАјА¬†јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|	јАјАјАјАјАјА.јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬Ь	јАјАјАјАјАјА7јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬Љ	јАјАјАјАјАјА√ЮјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√Ь	јАјАјАјАјАјА¬іјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√Љ	јАјАјАјАјАјА?јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјА?јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<
+јАјАјАјАјАјА¬іјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\
+јАјАјАјАјАјА¬њјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|
+јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬Ь
+јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬Љ
+јАјАјАјАјАјА√ЮјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√Ь
+јАјАјАјАјАјАRјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√Љ
+јАјАјАјАјАјАQјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАRјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАRјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјА.јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАCјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјА6јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјА!јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<
+јАјАјАјАјАјА'јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\
+јАјАјАјАјАјА&јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|
+јАјАјАјАјАјА¬АјАјАјАA¬ЖC
+H¬ГјАјАјАјАјАјАјА¬Ь
+јАјАјАјАјАјА√БјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬Љ
+јАјАјАјАјАјАVјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.ro.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА|TјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†¬ВјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЉTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АTјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®XјАјАјАјАјАјА√Ш
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАIјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬Р¬ЩјАјАјАјАјАјАP
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АfјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АfјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ТfјАјАјАјАјАјАqјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИjјАјАјАјАјАјА¬ИјАјАјАјАјАјА
+јАјАјАoјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАyјАјАјАјАјАјА√Н	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјАEјАјАјАјАјАјАјА9јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАAјАјАјАјАјАwјАјАјАјАјАјА'јАјАјАјАјАјАјАRјАјАјАјАјА¬ЮјАјАјАјАјАјАCјАјАјАјАјАјА^јАјАјАјАјА√°јАјАјАјАјАјАjјАјАјАјАјАјАјАqјАјАјАјАјАKјАјАјАјАјАјА¬ОјАјАјАјАјАјАјА¬АјАјАјАјАјА
+јАјАјАјАјАјА√ФјАјАјАјАјАјАјА¬ЦјАјАјАјАјА√°јАјАјАјАјАјАfјАјАјАјАјАјАјА¬®јАјАјАјАјАGјАјАјАјАјАјА¬ЙјАјАјАјАјАјАјА¬їјАјАјАјАјА√РјАјАјАјАјАјА√¶јАјАјАјАјАјАјА√ЖјАјАјАјАјА¬ґјАјАјАјАјАјА√ГјАјАјАјАјАјА√ЭјАјАјАјАјАyјАјАјАјАјАјА¬ШјАјАјАјАјАјА√ѓјАјАјАјАјАјАјАјАјАјАјА¬ДјАјАјАјАјАјАјА	јАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАzјАјАјАјАјАјАјА3јАјАјАјА¬™јАјАјАјАјАјА¬ДјАјАјАјАјАјАјАAјАјАјАјА. јАјАјАјАјАјА<јАјАјАјАјАјАјАSјАјАјАјАj јАјАјАјАјАјА√ОјАјАјАјАјАјАјАaјАјАјАјА¬Є!јАјАјАјАјАјАfјАјАјАјАјАјАјА¬АјАјАјАјА8!јАјАјАјАјАјА¬АјАјАјАјАјАјАјА¬ЧјАјАјАјА"јАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјА$#јАјАјАјАјАјАEјАјАјАјАјАјАјА√ЙјАјАјАјАi#јАјАјАјАјАјАRјАјАјАјАјАјАјА√†јАјАјАјА¬ї#јАјАјАјАјАјА}јАјАјАјАјАјАјА√±јАјАјАјА8$јАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјА¬Э$јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјА%%јАјАјАјАјАјАRјАјАјАјАјАјАјА*јАјАјАјАw%јАјАјАјАјАјА¬ЫјАјАјАјАјАјАјА>јАјАјАјА&јАјАјАјАјАјА1јАјАјАјАјАјАјАOјАјАјАјАC&јАјАјАјАјАјАyјАјАјАјАјАјАјАbјАјАјАјА¬Љ&јАјАјАјАјАјА√µјАјАјАјАјАјАјАnјАјАјАјА¬±'јАјАјАјАјАјАgјАјАјАјАјАјАјА¬БјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЩјАјАјАјА4(јАјАјАјАјАјАјАјАјАјАјАјАјА¬≤јАјАјАјАP(јАјАјАјАјАјА#јАјАјАјАјАјАјА√КјАјАјАјАs(јАјАјАјАјАјА5јАјАјАјАјАјАјА√ІјАјАјАјА¬®(јАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјАјА√П(јАјАјАјАјАјА7јАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјА√µјАјАјАјАјАјАјА*јАјАјАјА√ї)јАјАјАјАјАјАJјАјАјАјАјАјАјА?јАјАјАјАE*јАјАјАјАјАјАјАјАјАјАјАјАјАWјАјАјАјАa*јАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјА}*јАјАјАјАјАјА#јАјАјАјАјАјАјА¬МјАјАјАјА¬†*јАјАјАјАјАјА5јАјАјАјАјАјАјА¬≠јАјАјАјА√Х*јАјАјАјАјАјА'јАјАјАјАјАјАјА√КјАјАјАјА√Љ*јАјАјАјАјАјА7јАјАјАјАјАјАјА√ђјАјАјАјА3+јАјАјАјАјАјАJјАјАјАјАјАјА√ЇјАјАјАјА}-јАјАјАјАјАјА√ЃјАјАјАјАјАјА јАјАјАјАk/јАјАјАјАјАјА¬ГјАјАјАјАјАјАјАAјАјАјАјА√Ѓ/јАјАјАјАјАјА√ђјАјАјАјАјАјАјАOјАјАјАјАF6јАјАјАјАјАјАјАјАјАјАјАјАbјАјАјАјА¬ѓCјАјАјАјАјАјА'јАјАјАјАјАјАјАtјАјАјАјА√ЙBјАјАјАјАјАјА¬њјАјАјАјАјАјАјА¬ЛјАјАјАјА√Ъ0јАјАјАјАјАјАјАјАјАјАјАјА¬ЧјАјАјАјА¬ИCјАјАјАјАјАјА'јАјАјАјАјАјАјА¬•јАјАјАјА√©3јАјАјАјАјАјАfјАјАјАјАјАјАјА¬ЊјАјАјАјАO4јАјАјАјАјАјА√ИјАјАјАјАјАјАјА√ТјАјАјАјА5јАјАјАјАјАјА√іјАјАјАјАјАјАјА√°јАјАјАјА6јАјАјАјАјАјА;јАјАјАјАјАјАјА√µјАјАјАјА_8јАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјА¬П8јАјАјАјАјАјАVјАјАјАјАјАјАјАјАјАјА√•9јАјАјАјАјАјА;јАјАјАјАјАјАјА+јАјАјАјА :јАјАјАјАјАјА;јАјАјАјАјАјАјАDјАјАјАјА[:јАјАјАјАјАјА6јАјАјАјАјАјАјАSјАјАјАјА¬С:јАјАјАјАјАјА јАјАјАјАјАјАјАcјАјАјАјА¬±:јАјАјАјАјАјА јАјАјАјАјАјАјАrјАјАјАјА√С:јАјАјАјАјАјА¬ЊјАјАјАјАјАјАјА~јАјАјАјА¬П;јАјАјАјАјАјА¬ЊјАјАјАјАјАјАјА¬ОјАјАјАјАM<јАјАјАјАјАјАWјАјАјАјАјАјАјА¬ЭјАјАјАјА¬§<јАјАјАјАјАјАWјАјАјАјАјАјАјА¬∞јАјАјАјА√ї<јАјАјАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјА¬†>јАјАјАјАјАјА.јАјАјАјАјАјАјА√КјАјАјАјА@јАјАјАјАјАјА√ЮјАјАјАјАјАјАјА√ЭјАјАјАјА√£@јАјАјАјАјАјА¬іјАјАјАјАјАјАјА√≤јАјАјАјА√ЦAјАјАјАјАјАјА?јАјАјАјАјАјАјАјАјАјАјА¬ЧAјАјАјАјАјАјА?јАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјА¬іјАјАјАјАјАјАјА.јАјАјАјА√ЦCјАјАјАјАјАјА√ЮјАјАјАјАјАјАјАEјАјАјАјА¬іDјАјАјАјАјАјАRјАјАјАјАјАјАјАTјАјАјАјАEјАјАјАјАјАјАQјАјАјАјАјАјАјАbјАјАјАјАWEјАјАјАјАјАјА'јАјАјАјАјАјАјАwјАјАјАјА~EјАјАјАјАјАјА'јАјАјАјАјАјАјА¬РјАјАјАјА¬•EјАјАјАјАјАјАRјАјАјАјАјАјАјА¬¶јАјАјАјА√ЈEјАјАјАјАјАјАRјАјАјАјАјАјАјА¬їјАјАјАјАIFјАјАјАјАјАјА'јАјАјАјАјАјАјА√ЙјАјАјАјАpFјАјАјАјАјАјА;јАјАјАјАјАјАјА√ЭјАјАјАјА¬ЂFјАјАјАјАјАјА'јАјАјАјАјАјАјА√ђјАјАјАјА√ТFјАјАјАјАјАјА;јАјАјАјАјАјАјАјАјАјАјА
+GјАјАјАјАјАјА'јАјАјАјАјАјАјА
+јАјАјАјА4GјАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјА¬ЙHјАјАјАјАјАјАCјАјАјАјАјАјА+јАјАјАјА√МIјАјАјАјАјАјА'јАјАјАјАјАјАјА8јАјАјАјА√≥IјАјАјАјАјАјА'јАјАјАјАјАјАјАIјАјАјАјАJјАјАјАјАјАјА'јАјАјАјАјАјАјАZјАјАјАјАAJјАјАјАјАјАјА6јАјАјАјАјАјАјАoјАјАјАјАwJјАјАјАјАјАјА!јАјАјАјАјАјАјА}јАјАјАјА¬ШJјАјАјАјАјАјА'јАјАјАјАјАјАјА¬КјАјАјАјА¬њJјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА¬ЮјАјАјАјА¬†јАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√МјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ХјАјАјАјАaјАјАјАјАјАјАјАјАјАјАјАјА√©јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјА√ЩјАјАјАјАјАјАDјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАQјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјА
+јАјАјАјАјАјА√∞јАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА~јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬НјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬£јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјА¬ХјАјАјАјАјАјАwјАјАјАјАјАјА√ЕјАјАјАјАјАјАјАјАјАјА¬≥јАјАјАјАјАјА√ЭјАјАјАјА¬њјАјАјАјАјАјАqјАјАјАјАјАјА√≥јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА$	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА.	јАјАјАјАјА>јАјАјАјАјАјА¬†јАјАјАјАјАјАјАF	јАјАјАјА√О>јАјАјАјАјАјА7јАјАјАјАјАјА]	јАјАјАјА[GјАјАјАјАјАјА.јАјАјАјАјАјАo	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАv	јАјАјАјА√•LјАјАјАјАјАјА¬АјАјАјАјАјАјА¬В	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬Л	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬Ф	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬Ы	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®	јАјАјАјАeRјАјАјАјАјАјА√БјАјАјАјАјАјА¬є	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√А	јАјАјАјА&TјАјАјАјАјАјАVјАјАјАјАјАјАјАјАfrm_driver.cјАmyBLANKјАBuffer_To_WindowјАAfter_End_Of_DataјАmyZEROSјАWindow_To_BufferјАField_GrownјАSynchronize_BufferјАField_enclosesјАPerform_JustificationјАGet_Start_Of_DataјАUndo_JustificationјАCheck_CharјАDisplay_Or_Erase_FieldјАSynchronize_FieldјАSynchronize_Linked_FieldsјАIFN_Next_CharacterјАIFN_Previous_CharacterјАIFN_Next_LineјАIFN_Previous_LineјАIFN_Next_WordјАGet_First_Whitespace_CharacterјАAdjust_Cursor_PositionјАIFN_Previous_WordјАAfter_Last_Whitespace_CharacterјАIFN_Beginning_Of_FieldјАIFN_End_Of_FieldјАIFN_Beginning_Of_LineјАIFN_End_Of_LineјАIFN_Left_CharacterјАIFN_Right_CharacterјАIFN_Up_CharacterјАIFN_Down_CharacterјАVSC_GenericјАVertical_ScrollingјАVSC_Scroll_Line_ForwardјАVSC_Scroll_Line_BackwardјАVSC_Scroll_Page_ForwardјАVSC_Scroll_Half_Page_ForwardјАVSC_Scroll_Page_BackwardјАVSC_Scroll_Half_Page_BackwardјАHSC_GenericјАHorizontal_ScrollingјАHSC_Scroll_Char_ForwardјАHSC_Scroll_Char_BackwardјАHSC_Horizontal_Line_ForwardјАHSC_Horizontal_Half_Line_ForwardјАHSC_Horizontal_Line_BackwardјАHSC_Horizontal_Half_Line_BackwardјАInsert_StringјАWrapping_Not_Necessary_Or_Wrapping_OkјАIs_There_Room_For_A_Char_In_LineјАField_EditingјАFE_Delete_PreviousјАFN_Previous_FieldјАInter_Field_NavigationјАFE_New_LineјАFN_Next_FieldјАIs_There_Room_For_A_LineјАFE_Insert_CharacterјАFE_Insert_LineјАFE_Delete_CharacterјАFE_Delete_LineјАFE_Delete_WordјАFE_Clear_To_End_Of_LineјАFE_Clear_To_End_Of_FieldјАFE_Clear_FieldјАEM_Overlay_ModeјАEM_Insert_ModeјАNext_ChoiceјАPrevious_ChoiceјАCR_Next_ChoiceјАCR_Previous_ChoiceјАCheck_FieldјАFV_ValidationјАNext_Field_On_PageјАUpper_Neighbor_FieldјАSorted_Previous_FieldјАSorted_Next_FieldјАDown_Neighbor_FieldјАPrevious_Field_On_PageјАFN_First_FieldјАFN_Last_FieldјАFN_Sorted_Next_FieldјАFN_Sorted_Previous_FieldјАFN_Sorted_First_FieldјАFN_Sorted_Last_FieldјАFN_Left_FieldјАLeft_Neighbor_FieldјАFN_Right_FieldјАRight_Neighbor_FieldјАFN_Up_FieldјАFN_Down_FieldјАPage_NavigationјАPN_Next_PageјАNext_Page_NumberјАPN_Previous_PageјАPrevious_Page_NumberјАPN_First_PageјАPN_Last_PageјАData_EntryјАbindingsјАGeneric_Methods.0јА_GLOBAL_OFFSET_TABLE_јАwmoveјАwaddnstrјА_nc_get_fieldbufferјАwinnstrјАmallocјАnewpadјАdelwinјАwbkgdsetјАweraseјАwtouchlnјАfreeјА__errno_locationјА_nc_Position_Form_CursorјАSPјАwcursyncupјА_nc_Refresh_Current_FieldјАcopywinјАis_linetouchedјАwsyncupјА__ctype_b_locјАderwinјА_nc_Synchronize_AttributesјА_nc_Synchronize_OptionsјА_nc_Set_Current_FieldјАwinsnstrјАwclrtoeolјАwdelchјАwinchјАwinsdellnјАwinschјАwclrtobotјА_nc_Internal_ValidationјА_nc_First_Active_FieldјА_nc_Set_Form_PageјАwaddchјАform_driverјАgetmouseјАwencloseјАstdscrјАwmouse_trafoјАset_field_bufferјАstrlenјАfield_bufferјАјАјАјА√ҐјАјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≤јАјАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√¶јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАsјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ#јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ШјАјАјАјАјАјАјАјАјАrјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬™јАјАјАјАјАјАјАјАјАtјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬љјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЩјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАuјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ5јАјАјАјАјАјАјАјАјАvјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ^јАјАјАјАјАјАјАјАјАwјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ИјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЩјАјАјАјАјАјАјАјАјАyјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√іјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ	јАјАјАјАјАјАјАјАјАzјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЧјАјАјАјАјАјАјАјАјАzјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њEјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ѓјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ГјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њW	јАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬И	јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√µ	јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Њ	јАјАјАјАјАјАјАјАјА~јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+јАјАјАјАјАјАјАјАјА~јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ1
+јАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ^
+јАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬±
+јАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ФјАјАјАјАјАјАјАјАјА¬АјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√БјАјАјАјАјАјАјАјАјА¬БјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≠јАјАјАјАјАјАјАјАјА¬БјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬†
+јАјАјАјАјАјАјАјАјА¬АјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬©
+јАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Є
+јАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Є
+јАјАјАјАјАјАјАјАјАyјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА|јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЛјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЫјАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЇјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√КјАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ОјАјАјАјАјАјАјАјАјА¬ГјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјА¬ДјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЮјАјАјАјАјАјАјАјАјАwјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√УјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјАјАјАјАvјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њLјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЫјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њUјАјАјАјАјАјАјАјАјАwјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЪјАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њLјАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ґјАјАјАјАјАјАјАјАјА¬АјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬њјАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√™јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЭјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њPјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њnјАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ{јАјАјАјАјАјАјАјАјАvјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ФјАјАјАјАјАјАјАјАјАuјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ>јАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њbјАјАјАјАјАјАјАјАјА¬ДјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЭјАјАјАјАјАјАјАјАјАvјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЧјАјАјАјАјАјАјАјАјАwјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ3јАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЦјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬іјАјАјАјАјАјАјАјАјА¬ВјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√іјАјАјАјАјАјАјАјАјАyјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Г+јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Ч+јАјАјАјАјАјАјАјАјА¬ИјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√™+јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Њ+јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ,јАјАјАјАјАјАјАјАјА¬ИјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ-јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ-јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ%-јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ9-јАјАјАјАјАјАјАјАјА¬ИјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њL-јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`-јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њe-јАјАјАјАјАјАјАјАјА¬ИјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√М.јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Щ.јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ2/јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ?/јАјАјАјАјАјАјАјАјА¬КјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Ф/јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬°/јАјАјАјАјАјАјАјАјА¬ЛјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Д/јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ|1јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Й1јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√±1јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Њ1јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њa3јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њn3јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Ы3јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬≠3јАјАјАјАјАјАјАјАјА¬МјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√И3јАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ5јАјАјАјАјАјАјАјАјА¬НјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ї5јАјАјАјАјАјАјАјАјА¬МјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ.6јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ;6јАјАјАјАјАјАјАјАјА¬КјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њt7јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Ж7јАјАјАјАјАјАјАјАјА¬МјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√†7јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≠7јАјАјАјАјАјАјАјАјА¬КјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+8јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ%8јАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њB8јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њO8јАјАјАјАјАјАјАјАјА¬КјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Д8јАјАјАјАјАјАјАјАјА¬МјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њH9јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њU9јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√Р9јАјАјАјАјАјАјАјАјАqјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ:јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ:јАјАјАјАјАјАјАјАјА¬ЙјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њC:јАјАјАјАјАјАјАјАјАpјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њP:јАјАјАјАјАјАјАјАјА¬ОјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬Ж:јАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬±>јАјАјАјАјАјАјАјАјА¬ПјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЮBјАјАјАјАјАјАјАјАјА¬ПјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬©CјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√РCјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАEјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њQEјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њxEјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЯEјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√±EјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њCFјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjFјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√МFјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ.GјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њUGјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЈGјАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ОGјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiHјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЮHјАјАјАјАјАјАјАјАјА¬ПјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≠IјАјАјАјАјАјАјАјАјА¬СјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ;JјАјАјАјАјАјАјАјАјА¬СјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ТJјАјАјАјАјАјАјАјАјА¬СјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬єJјАјАјАјАјАјАјАјАјА¬СјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њLKјАјАјАјАјАјАјАјАјАxјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjKјАјАјАјАјАјАјАјАјА¬ТјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЂKјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЪKјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЉKјАјАјАјАјАјАјАјАјА¬НјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√СLјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њMјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ4MјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ_MјАјАјАјАјАјАјАјАјА¬РјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њhMјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬РMјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЄMјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√≤MјАјАјАјАјАјАјАјАјАiјАјАјА√Љ√Я√њ√њ√њ√њ√њ√њNјАјАјАјАјАјАјАјАјАiјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њwNјАјАјАјАјАјАјАјАјАiјАјАјА¬ЬјАјАјАјАјАјА√§NјАјАјАјАјАјА	јАјАјА}јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ9OјАјАјАјАјАјАјАјАјА¬ФјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њXOјАјАјАјАјАјАјАјАјА¬ХјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ВOјАјАјАјАјАјА	јАјАјА¬ЦјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ПOјАјАјАјАјАјАјАјАјА¬ЧјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЊOјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√†OјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њPјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ@PјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њbPјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ИPјАјАјАјАјАјАјАјАјА¬УјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЯPјАјАјАјАјАјАјАјАјА¬ХјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЙPјАјАјАјАјАјАјАјАјА¬ЧјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њvQјАјАјАјАјАјАјАјАјА¬ЗјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ИQјАјАјАјАјАјАјАјАјА|јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√УQјАјАјАјАјАјАјАјАјА¬ГјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ>RјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њCRјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬£RјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЮRјАјАјАјАјАјАјАјАјА¬ЩјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ4SјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬£SјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њTјАјАјАјАјАјАјАјАјА{јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјА√МIјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАJјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјАwJјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА¬ШJјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИCјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјА¬ѓCјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјА¬іDјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАEјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјАWEјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјА~EјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјА¬•EјАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјАјА√ЈEјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАIFјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЂFјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјА
+GјАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјА4GјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјА. јАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАj јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјА"јАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАi#јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјА¬ї#јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјА8$јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјА¬Э$јАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјА%%јАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјАw%јАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАC&јАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјА√Ъ0јАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАO4јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАF6јАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјА_8јАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјА¬П8јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјА√•9јАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјА :јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјА[:јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјА¬С:јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјА¬±:јАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјА4(јАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАP(јАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјА¬®(јАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАs(јАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјА√П(јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАE*јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАa*јАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјА}*јАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјА√Х*јАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјА¬†*јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјА√Љ*јАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјА¬†>јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАM<јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјА¬§<јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА¬ЙHјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјА√ЙBјАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјА¬±'јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА√ї)јАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјА√Ѓ/јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАaјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАwјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЮјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЩјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАGјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА¬ґјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАyјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА¬ХјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА¬њјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА. јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАj јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА8!јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА¬Є!јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА"јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА$#јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАi#јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА¬ї#јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА8$јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬Э$јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА%%јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАw%јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАC&јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА¬Љ&јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА¬±'јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА4(јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАP(јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАs(јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА¬®(јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА√П(јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА√ї)јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАE*јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАa*јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА}*јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА¬†*јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА√Х*јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА√Љ*јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА3+јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА}-јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАk/јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Ѓ/јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА√Ъ0јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА√©3јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАO4јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАF6јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА_8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬П8јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА√•9јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА :јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА[:јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА¬С:јАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА¬±:јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА√С:јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА¬П;јАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАM<јАјАјАјАјАјА 	јАјАјАјАјАјАјАјАјАјАјАјА¬§<јАјАјАјАјАјА@	јАјАјАјАјАјАјАјАјАјАјАјА√ї<јАјАјАјАјАјА`	јАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјА¬А	јАјАјАјАјАјАјАјАјАјАјАјА¬†>јАјАјАјАјАјА¬†	јАјАјАјАјАјАјАјАјАјАјАјА√О>јАјАјАјАјАјА√А	јАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА√†	јАјАјАјАјАјАјАјАјАјАјАјА√£@јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјА¬ЧAјАјАјАјАјАјА 
+јАјАјАјАјАјАјАјАјАјАјАјА√ЦAјАјАјАјАјАјА@
+јАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјА`
+јАјАјАјАјАјАјАјАјАјАјАјА√ЙBјАјАјАјАјАјА¬А
+јАјАјАјАјАјАјАјАјАјАјАјА¬ИCјАјАјАјАјАјА¬†
+јАјАјАјАјАјАјАјАјАјАјАјА¬ѓCјАјАјАјАјАјА√А
+јАјАјАјАјАјАјАјАјАјАјАјА√ЦCјАјАјАјАјАјА√†
+јАјАјАјАјАјАјАјАјАјАјАјА¬іDјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАEјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАWEјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА~EјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА¬•EјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА√ЈEјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАIFјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАpFјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјА¬ЂFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ТFјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјА
+GјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА4GјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА[GјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА¬ЙHјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјА√МIјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА√≥IјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАJјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАAJјАјАјАјАјАјА 
+јАјАјАјАјАјАјАјАјАјАјАјАwJјАјАјАјАјАјА@
+јАјАјАјАјАјАјАјАјАјАјАјА¬ШJјАјАјАјАјАјА`
+јАјАјАјАјАјАјАјАјАјАјАјА¬њJјАјАјАјАјАјА¬А
+јАјАјАјАјАјАјАјАјАјАјАјА√•LјАјАјАјАјАјА¬†
+јАјАјАјАјАјАјАјАјАјАјАјАeRјАјАјАјАјАјА√А
+јАјАјАјАјАјАјАјАјАјАјАјА&TјАјАјАјАјАјАfrm_hook.o/     1347872995  0     0     100644  2848      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙBp√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@p√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙBx√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@x√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙB`√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@`√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙBh√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@h√Й√ГјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@	јАјАјАјАјАјА јАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`
+јАјАјАјАјАјА√АјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАOјАјАјАјАјАјАјА3јАјАјАјАјАјАјА^јАјАјАјАјА¬ВјАјАјАјАјАјАјАOјАјАјАјАјАјАјАmјАјАјАјАјА√СјАјАјАјАјАјАјА3јАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјА¬ЖјАјАјАјАјАSјАјАјАјАјАјА3јАјАјАјАјАјАјА¬РјАјАјАјАјА¬ЖјАјАјАјАјАјАOјАјАјАјАјАјАјА¬ЮјАјАјАјАјА√ХјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfrm_hook.cјАset_field_initјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FormјА__errno_locationјАfield_initјАset_field_termјАfield_termјАset_form_initјАform_initјАset_form_termјАform_termјА"јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ>јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬§јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√АјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЂјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ&јАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њBјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њmјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬®јАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ДјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ѓјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√СјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ХјАјАјАјАјАјАfrm_opts.o/     1347872995  0     0     100644  2328      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√іH¬НE√і¬Г ¬ЛE√і¬Г√†√Љ¬Е√Аt√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√∞√Њ√њ√њ√њ√Ђ=H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√Є¬ЛE√і¬ЙB √®јАјАјАјА√ЗјАјАјАјАјА√ЗE√∞јАјАјАјА¬ЛE√∞√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬Л@ ¬Г√†√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√іH¬НE√і¬Г ¬ЛE√і¬Г√†√Љ¬Е√Аt√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√∞√Њ√њ√њ√њ√Ђ@H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬Й¬ЛE√і	B √®јАјАјАјА√ЗјАјАјАјАјА√ЗE√∞јАјАјАјА¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√Є¬Йu√іH¬НE√і¬Г ¬ЛE√і¬Г√†√Љ¬Е√Аt√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√∞√Њ√њ√њ√њ√ЂBH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬Й¬ЛE√і√Ј√Р!B √®јАјАјАјА√ЗјАјАјАјАјА√ЗE√∞јАјАјАјА¬ЛE√∞√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАvјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА5јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАyјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјА{јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ЯјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјА√∞јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјА`јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬КјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАwјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАAјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјАvјАјАјАјАјАјАјА5јАјАјАјАјАјАјА\јАјАјАјАјА¬ЂјАјАјАјАјАјАјАyјАјАјАјАјАјАјАiјАјАјАјАјА$јАјАјАјАјАјА{јАјАјАјАјАјАјАјАfrm_opts.cјАset_form_optsјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјА_nc_Default_FormјАform_optsјАform_opts_onјАform_opts_offјАјА!јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њFјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬РјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√МјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√±јАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њEјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЙјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАvјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЂјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАfrm_page.o/     1347872995  0     0     100644  2400      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•SH¬Г√ђH¬Й}√∞¬Йu√ђ√ЗE√®јАјАјАјАH¬Г}√∞јАt¬Г}√ђјАxH¬ЛE√∞¬њ@;E√ђ~√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√§√Њ√њ√њ√њ√©¬®јАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аu!H¬ЛU√∞¬ЛE√ђf¬ЙBH¬Л]√∞H¬Л}√∞√®јАјАјАјАH¬ЙCH√©iјАјАH¬ЛE√∞¬ЈјА¬Г√†¬Е√Аt√ЗE√®√ї√њ√њ√њ√©OјАјАH¬ЛE√∞¬њ@;E√ђ¬Д>јАјАH¬Л}√∞√®јАјАјАјА¬Д√Аu√ЗE√®√≥√њ√њ√њ√©%јАјАH¬Г}√∞јАt;H¬ЛE√∞H¬ГxxјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@x√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Г}√∞јАt;H¬ЛE√∞H¬ГxhјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@h√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬Й¬Лu√ђH¬Л}√∞¬ЇјАјАјАјА√®јАјАјАјА¬ЙE√®H¬Г}√∞јАt;H¬ЛE√∞H¬Гx`јАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@`√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Г}√∞јАt;H¬ЛE√∞H¬ГxpјАt0H¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√Иf¬ЙH¬ЛE√∞H¬Л}√∞H¬Л@p√њ√РH¬ЛU√∞H¬ЛE√∞¬ЈјА¬Г√†√љf¬ЙH¬Л}√∞√®јАјАјАјА√®јАјАјАјАH¬Й¬ЛE√®¬Й¬ЙE√§¬ЛE√§H¬Г√Д[√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√Є¬њ@√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА/јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјА¬®јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0	јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЪјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјА¬ЈјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАAјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјА√ЉјАјАјАјАјАјА3јАјАјАјАјАјАјА¬¶јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_page.cјАset_form_pageјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјА_nc_First_Active_FieldјА_nc_Internal_ValidationјА_nc_Set_Form_PageјА_nc_Refresh_Current_FieldјАform_pageјА_nc_Default_FormјАјА4јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њlјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬©јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њNјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЮјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√£јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАfrm_post.o/     1347872995  0     0     100644  2944      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ0H¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√§√Њ√њ√њ√њ√©√іјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√љ√њ√њ√њ√ЗE√§√љ√њ√њ√њ√©√ПјАјАH¬ЛE√ЄH¬Гx@јАu√®јАјАјАјА√ЗјА√µ√њ√њ√њ√ЗE√§√µ√њ√њ√њ√©¬≠јАјАH¬ЛE√ЄH¬Л@0H¬ЙE√ШH¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√ШH¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√ШH¬ЛE√ШH¬ЙE√∞H¬ЛE√Є¬њ@¬ЙE√ФH¬Г}√∞јАtH¬ЛE√∞¬њ@√њ√А9E√Ф3√Ђ¬Г}√Ф√њ+H¬ЛE√Є¬њ@¬ЙE√РH¬Г}√∞јАtH¬ЛE√∞¬њ@√њ√А9E√Р
+√Ђ¬Г}√Р√њ√Ђ√®јАјАјАјА√ЗјА√Ї√њ√њ√њ√ЗE√§√Ї√њ√њ√њ√©√ЈјАјАјАH¬ЛE√Є¬њ@¬ЙE√®H¬ЛE√Єf√З@√њ√њH¬ЛE√ЄH¬ЛPH¬Лu√®H¬Л}√Є√®јАјАјАјА¬ЙE√ђ¬Г}√ђјАt√®јАјАјАјАH¬Й¬ЛE√ђ¬Й¬ЙE√§√©¬∞јАјАјАH¬ЛE√ЄH¬ЛU√Є¬Ј¬Г√Кf¬ЙH¬Г}√ЄјАt;H¬ЛE√ЄH¬Гx`јАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@`√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxpјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@p√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬Л}√Є√®јАјАјАјА√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√§јАјАјАјА¬ЛE√§√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√і√Њ√њ√њ√њ√©VјАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аu√®јАјАјАјА√ЗјА√є√њ√њ√њ√ЗE√і√є√њ√њ√њ√©1јАјАH¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√ї√њ√њ√њ√ЗE√і√ї√њ√њ√њ√©јАјАH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxxјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@x√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬Г}√ЄјАt;H¬ЛE√ЄH¬ГxhјАt0H¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√Иf¬ЙH¬ЛE√ЄH¬Л}√ЄH¬Л@h√њ√РH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√љf¬ЙH¬ЛE√ЄH¬Л@0H¬ЙE√®H¬ЛE√ЄH¬Гx0јАu,H¬ЛE√ЄH¬Л@(H¬ЙE√®H¬ЛE√ЄH¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√®H¬Л}√®√®јАјАјАјАH¬ЛE√ЄH¬Лx8√®јАјАјАјАH¬ЛE√ЄH√З@8јАјАјАјАH¬ЛU√ЄH¬ЛE√Є¬ЈјА¬Г√†√Њf¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√іјАјАјАјА¬ЛE√і√Й√ГјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА¬ЕјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Р	јАјАјАјАјАјА¬АјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАH	јАјАјАјАјАјА¬ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА=јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАRјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАlјАјАјАјАјА#јАјАјАјАјАјА¬ЕјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_post.cјАpost_formјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАSPјА_nc_Set_Form_PageјА_nc_Refresh_Current_FieldјАunpost_formјАweraseјАdelwinјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ9јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ[јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ҐјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њLјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њZјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ
+јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ7јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ\јАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬БјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њLјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њcјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њpјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ТјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА#јАјАјАјАјАјАfrm_req_name.o/ 1347872995  0     0     100644  4752      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђ¬Й}√Љ¬Б}√Љ√њјАјА~¬Б}√Љ8јАјА√Ђ√®јАјАјАјА√ЗјА√Њ√њ√њ√њH√ЗE√∞јАјАјАјА√Ђ¬ЛE√ЉH¬ШH¬Н√ЕјАјАјАјАH¬НјАјАјАјАH¬ЛH¬ЙE√∞H¬ЛE√∞√Й√ГUH¬Й√•SH¬Г√ђ8H¬Й}√®√ЗE√§јАјАјАјАH¬Г}√®јА¬Д¬ИјАјАјАH¬Лu√®H¬Н}–ЇјАјАјА√®јАјАјАјА¬Г}√§w&¬ЛE√§¬А|√РјАt¬Л]√§¬ЛE√§¬ґ|√Р√®јАјАјАјА¬ИD√РH¬НE√§√њјА√Ђ√Ф√ЗE√§јАјАјАјА¬Г}√§8w=H¬Нu–ЛE√§H¬Н√ЕјАјАјАјАH¬НјАјАјАјАH¬Л<¬ЇјАјАјА√®јАјАјАјА¬Е√Аu
+¬ЛE√§јАјАјА¬ЙE√М√ЂH¬НE√§√њјА√Ђ¬љ√®јАјАјАјА√ЗјА√Ј√њ√њ√њ√ЗE√М√Ј√њ√њ√њ¬ЛE√МH¬Г√Д8[√Й√ГјАјАјАNEXT_PAGEјАPREV_PAGEјАFIRST_PAGEјАLAST_PAGEјАNEXT_FIELDјАPREV_FIELDјАFIRST_FIELDјАLAST_FIELDјАSNEXT_FIELDјАSPREV_FIELDјАSFIRST_FIELDјАSLAST_FIELDјАLEFT_FIELDјАRIGHT_FIELDјАUP_FIELDјАDOWN_FIELDјАNEXT_CHARјАPREV_CHARјАNEXT_LINEјАPREV_LINEјАNEXT_WORDјАPREV_WORDјАBEG_FIELDјАEND_FIELDјАBEG_LINEјАEND_LINEјАLEFT_CHARјАRIGHT_CHARјАUP_CHARјАDOWN_CHARјАNEW_LINEјАINS_CHARјАINS_LINEјАDEL_CHARјАDEL_PREVјАDEL_LINEјАDEL_WORDјАCLR_EOLјАCLR_EOFјАCLR_FIELDјАOVL_MODEјАINS_MODEјАSCR_FLINEјАSCR_BLINEјАSCR_FPAGEјАSCR_BPAGEјАSCR_FHPAGEјАSCR_BHPAGEјАSCR_FCHARјАSCR_BCHARјАSCR_HFLINEјАSCR_HBLINEјАSCR_HFHALFјАSCR_HBHALFјАVALIDATIONјАNEXT_CHOICEјАPREV_CHOICEјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА√ГјАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rodataјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА¬®јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАGјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАXјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ИјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАmјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√≤јАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(
+јАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА¬ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАWјАјАјАјАјАVјАјАјАјАјАјАјА√ГјАјАјАјАјАјАјАlјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАtјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_req_name.cјАrequest_namesјАform_request_nameјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАform_request_by_nameјАstrncpyјАtoupperјАstrncmpјАјАјАјАјА јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њDјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√ѓ√њ√њ√њ√њ√њ√њ¬ГјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬£јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ТјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√†јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЊјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА4јАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА?јАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАbјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАnјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјА{јАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЗјАјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјА¬ТјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЮјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјА¬ІјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА¬≤јАјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјА√ЖјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА√ЪјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјАјА√ЃјАјАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјА)јАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјА√ЄјАјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАMјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАqјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАzјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјА¬КјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјА¬ФјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјА¬ЭјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјА¬¶јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјА¬ЇјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјА√ОјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјА√ЩјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјА√ЃјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјА/јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАVјАјАјАјАјАјАјАfrm_scale.o/    1347872996  0     0     100644  1568      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЙU√®H¬Г}√ЄјАu√®јАјАјАјА√ЗјА√Њ√њ√њ√њ√ЗE√§√Њ√њ√њ√њ√Ђ[H¬ЛE√ЄH¬Гx@јАu√®јАјАјАјА√ЗјА√µ√њ√њ√њ√ЗE√§√µ√њ√њ√њ√Ђ<H¬Г}√∞јАtH¬ЛE√∞H¬ЛU√Є¬њR¬ЙH¬Г}√®јАtH¬ЛE√®H¬ЛU√Є¬њR¬Й√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√§јАјАјАјА¬ЛE√§√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА¬ПјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ПјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√РјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА?јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјА¬ПјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_scale.cјАscale_formјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ;јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њyјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_sub.o/      1347872996  0     0     100644  1880      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Г}√ЄјАt"H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√љ√њ√њ√њ√ЗE√ђ√љ√њ√њ√њ√Ђ?H¬ЛE√ЄH¬ЙE√†H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√†H¬ЛU√†H¬ЙU√ЄH¬ЛE√∞H¬ЙB0√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛE√®H¬ЙE√ЄH¬ЙE√∞H¬ЛE√∞H¬Л@0H¬ЙE√†H¬ЛE√∞H¬Гx0јАu,H¬ЛE√∞H¬Л@(H¬ЙE√†H¬ЛE√∞H¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬Л¬А¬АјАјАјАH¬ЙE√†H¬ЛE√†√Й√ГјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАzјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√ЈјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬∞јАјАјАјАјАјАxјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА8јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ҐјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА?јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјА}јАјАјАјАјАјАјАzјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_sub.cјАset_form_subјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјА_nc_Default_FormјАform_subјАSPјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њKјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њgјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЧјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЯјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАfrm_user.o/     1347872996  0     0     100644  1704      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬ЛE√ЄH¬ЙE√®H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√®H¬ЛU√®H¬ЙU√ЄH¬ЛE√∞H¬ЙBX√®јАјАјАјА√ЗјАјАјАјАјА¬ЄјАјАјАјА√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√∞H¬ЛE√∞H¬ЙE√ЄH¬Л@X√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАbјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАDјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАOјАјАјАјАјАјАјА3јАјАјАјАјАјАјАјАfrm_user.cјАset_form_userptrјА_GLOBAL_OFFSET_TABLE_јА_nc_Default_FormјА__errno_locationјАform_userptrјАјАјАјАјАјАјА"јАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ>јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њiјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАOјАјАјАјАјАјАјАfrm_win.o/      1347872996  0     0     100644  1864      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјА	јАUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞H¬Г}√ЄјАt"H¬ЛE√Є¬ЈјА¬Г√†¬Е√Аt√®јАјАјАјА√ЗјА√љ√њ√њ√њ√ЗE√ђ√љ√њ√њ√њ√Ђ?H¬ЛE√ЄH¬ЙE√†H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√†H¬ЛU√†H¬ЙU√ЄH¬ЛE√∞H¬ЙB(√®јАјАјАјА√ЗјАјАјАјАјА√ЗE√ђјАјАјАјА¬ЛE√ђ√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√†H¬Г}√ЄјАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√†H¬ЛE√†H¬ЙE√ЄH¬ЙE√®H¬ЛE√®H¬Л@(H¬ЙE√ШH¬ЛE√®H¬Гx(јАuH¬ЛјАјАјАјАH¬ЛјАH¬ЙE√ШH¬ЛE√ШH¬ЙE√∞H¬ЛE√∞√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАdјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√°јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАxјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА$јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА(јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ТјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА?јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАPјАјАјАјАјА}јАјАјАјАјАјАјАdјАјАјАјАјАјАјАYјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfrm_win.cјАset_form_winјА_GLOBAL_OFFSET_TABLE_јА__errno_locationјА_nc_Default_FormјАform_winјАstdscrјА&јАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њKјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њgјАјАјАјАјАјАјАјАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЧјАјАјАјАјАјАјА	јАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ИјАјАјАјАјАјАјА	јАјАјА
+јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАfty_alnum.o/    1347872996  0     0     100644  3080      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђH¬Й}√ЄH√ЗE√∞јАјАјАјАH¬Г}√ЄјАt!¬њјАјАјА√®јАјАјАјАH¬ЙE√∞H¬Г}√∞јАtH¬ЛE√∞H¬ЛU√Є¬Л¬ЙH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√®H¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√®H¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√®¬Л¬ЙE√іH¬Н}√і√®Y√њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞¬њјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јАtH¬ЛE√®H¬ЛU√∞¬Л¬ЙH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАt	H¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ¬Й}√ЉH¬Йu√∞√®јАјАјАјАH¬ЙKE√Љ¬ґ√АH¬НјАH¬Л¬Ј√Б√®¬Г√†¬ґ√А√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЛE√∞¬ЛјА¬ЙE√ђH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√†¬ЛE√ђ√Б√®¬ИE√ЯH¬ЛE√†¬А8јАtH¬ЛE√†¬А8 u	H¬НE√†H√њјА√Ђ√•H¬ЛE√†¬А8јАt~H¬ЛE√†H¬ЙE√Р√ЗE√М√њ√њ√њ√њH¬ЛE√†¬А8јАtH¬ЛE√†¬ґ8¬ЊјАјАјАјА√®L√њ√њ√њ¬Д√Аt	H¬НE√†H√њјА√Ђ√ЩH¬ЛE√†H¬ЛU√Р)–ЙE√МH¬ЛE√†¬А8јАtH¬ЛE√†¬А8 u	H¬НE√†H√њјА√Ђ√•√ЖE√ЛјАH¬ЛE√†¬А8јАu¬ЛE√М;E√ђ|√ЖE√Л¬ґEЋИE√Я¬ґE√Я√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАgјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА√ЬјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАp
+јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®
+јАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®	јАјАјАјАјАјА√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјАgјАјАјАјАјАјАјА.јАјАјАјАјА¬©јАјАјАјАјАјАјА;јАјАјАјАјАјАјА=јАјАјАјАјА√§јАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАaјАјАјАјАјА5јАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА{јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬СјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЭјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЂјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_alnum.cјАGeneric_This_TypeјАMake_This_TypeјАCopy_This_TypeјАFree_This_TypeјАCheck_This_CharacterјАCheck_This_FieldјАtypeTHISјА_GLOBAL_OFFSET_TABLE_јАmallocјАfreeјА__ctype_b_locјАfield_bufferјАTYPE_ALNUMјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ГјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЉјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њXјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјАfty_alpha.o/    1347872996  0     0     100644  3080      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђH¬Й}√ЄH√ЗE√∞јАјАјАјАH¬Г}√ЄјАt!¬њјАјАјА√®јАјАјАјАH¬ЙE√∞H¬Г}√∞јАtH¬ЛE√∞H¬ЛU√Є¬Л¬ЙH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√®H¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√®H¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√®¬Л¬ЙE√іH¬Н}√і√®Y√њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞¬њјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јАtH¬ЛE√®H¬ЛU√∞¬Л¬ЙH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАt	H¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ¬Й}√ЉH¬Йu√∞√®јАјАјАјАH¬ЙKE√Љ¬ґ√АH¬НјАH¬Л¬Ј√Б√®
+¬Г√†¬ґ√А√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЛE√∞¬ЛјА¬ЙE√ђH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√†¬ЛE√ђ√Б√®¬ИE√ЯH¬ЛE√†¬А8јАtH¬ЛE√†¬А8 u	H¬НE√†H√њјА√Ђ√•H¬ЛE√†¬А8јАt~H¬ЛE√†H¬ЙE√Р√ЗE√М√њ√њ√њ√њH¬ЛE√†¬А8јАtH¬ЛE√†¬ґ8¬ЊјАјАјАјА√®L√њ√њ√њ¬Д√Аt	H¬НE√†H√њјА√Ђ√ЩH¬ЛE√†H¬ЛU√Р)–ЙE√МH¬ЛE√†¬А8јАtH¬ЛE√†¬А8 u	H¬НE√†H√њјА√Ђ√•√ЖE√ЛјАH¬ЛE√†¬А8јАu¬ЛE√М;E√ђ|√ЖE√Л¬ґEЋИE√Я¬ґE√Я√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАgјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА;јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјА3јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА√ЬјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАp
+јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®
+јАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®	јАјАјАјАјАјА√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјАgјАјАјАјАјАјАјА.јАјАјАјАјА¬©јАјАјАјАјАјАјА;јАјАјАјАјАјАјА=јАјАјАјАјА√§јАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјА3јАјАјАјАјАјАјАaјАјАјАјАјА5јАјАјАјАјАјА√ЬјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАrјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА{јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬СјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЭјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЂјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЄјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_alpha.cјАGeneric_This_TypeјАMake_This_TypeјАCopy_This_TypeјАFree_This_TypeјАCheck_This_CharacterјАCheck_This_FieldјАtypeTHISјА_GLOBAL_OFFSET_TABLE_јАmallocјАfreeјА__ctype_b_locјАfield_bufferјАTYPE_ALPHAјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ГјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЉјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њXјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАBјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√§јАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА5јАјАјАјАјАјАfty_enum.o/     1347872996  0     0     100644  5272      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАx
+јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•SH¬Г√ђHH¬Й}√∞H√ЗE√®јАјАјАјАH¬ЛE√∞H¬ЙE√†H¬Г}√†јА¬Д,јАјА¬њјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јА¬ДјАјА√ЗE√ЬјАјАјАјАH√ЗE√РјАјАјАјАH√ЗE√ИјАјАјАјАH¬ЛE√†H¬ЛјАH¬ЙE√ИH¬ЛE√†¬Л@¬ЙE¬ЉH¬ЛE√†¬Л@¬ЙE¬ЄH¬ЛU√®¬Г}¬ЉјА¬ХBH¬ЛU√®¬Г}¬ЄјА¬ХB
+H¬ЛE√®H√ЗјАјАјАјАјАH¬ЛE√ИH¬ЙE√РH¬Г}√РјАtH¬ЛE√РH¬Й√ВH¬НE√РH¬ГјАH¬Г:јАtH¬НE√Ь√њјА√Ђ√ЬH¬ЛU√®¬ЛE№ЙB¬Г}√ЬјА~zH¬Л]√®¬ЛE√Ь√њ√АH¬ШH¬Н<√ЕјАјАјАјА√®јАјАјАјАH¬ЙH¬ЛE√ИH¬ЙE√РH¬ЛE√®H¬ЛјАH¬ЙE√АH¬Е√АtGH¬Г}√РјАt5H¬ЛE√РH¬Г8јАt+H¬ЛE√РH¬Й√ВH¬НE√РH¬ГјАH¬Л:√®јАјАјАјАH¬Й√ВH¬ЛE√АH¬ЙH¬НE√АH¬ГјА√Ђ√ДH¬ЛE√АH√ЗјАјАјАјАјАH¬ЛE√®H¬Г√ДH[√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√ШH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√ШH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√ШH¬ЛH¬ЙE√†H¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√РH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√РH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU–Л¬ЙE√®H¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√ИH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√ИH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU»Л¬ЙE√ђH¬Н}√†√®¬Ъ√љ√њ√њ√Й√ГUH¬Й√•SH¬Г√ђ(H¬Й}√∞H√ЗE√®јАјАјАјАH¬Г}√∞јА¬Д√ЖјАјАјАH¬ЛE√∞H¬ЙE√†¬њјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јА¬Д¬•јАјАјАH¬ЛM√®H¬ЛU√†H¬ЛH¬ЙH¬ЛBH¬ЙAH¬ЛE√†¬ГxјА¬О¬БјАјАјАH¬ЛE√†H¬ЛјАH¬ЙE√РH¬Л]√®H¬ЛE√†¬Л@√њ√АH¬ШH¬Н<√ЕјАјАјАјА√®јАјАјАјАH¬ЙH¬ЛE√®H¬ЛјАH¬ЙE√ШH¬Е√АtGH¬Г}√РјАt5H¬ЛE√РH¬Г8јАt+H¬ЛE√РH¬Й√ВH¬НE√РH¬ГјАH¬Л:√®јАјАјАјАH¬Й√ВH¬ЛE√ШH¬ЙH¬НE√ШH¬ГјА√Ђ√ДH¬ЛE√ШH√ЗјАјАјАјАјАH¬ЛE√®H¬Г√Д([√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Г}√ЄјАtsH¬ЛE√ЄH¬ЙE√∞H¬ЛE√∞H¬Г8јАtXH¬ЛE√∞¬ГxјА~NH¬ЛE√∞H¬ЛјАH¬ЙE√®√ЗE√§јАјАјАјАH¬Г}√®јАt)H¬ЛE√®H¬Г8јАtH¬ЛE√®H¬Й√ВH¬НE√®H¬ГјАH¬Л:√®јАјАјАјАH¬НE√§√њјА√Ђ√РH¬ЛE√∞H¬Л8√®јАјАјАјАH¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•SH¬Г√ђ(H¬Й}√∞H¬Йu√®¬ИU√ІH¬ЛE√®¬А8јАtH¬ЛE√®¬А8 u	H¬НE√®H√њјА√Ђ√•H¬ЛE√∞¬А8јАtH¬ЛE√∞¬А8 u	H¬НE√∞H√њјА√Ђ√•H¬ЛE√®¬А8јАu$H¬ЛE√∞¬А8јАt	√ЗE√ЬјАјАјАјА√Ђ√ЗE√ЬјАјАјА¬ЛE№ЙE√†√©√ОјАјАјА¬А}√ІјАt8H¬ЛE√∞H¬Й√ВH¬ЛM√®H¬НE√∞H√њјА¬ґ:u`H¬ЛE√®H¬Й√ВH¬НE√®H√њјА¬А:јАu√Ф√ЗE√†јАјАјА√©¬РјАјАјАH¬ЛE√∞¬ґ8H¬НE√∞H√њјА√®јАјАјАјА¬Й√ГH¬ЛE√®¬ґ8√®јАјАјАјА9√ГuH¬ЛE√®H¬Й√ВH¬НE√®H√њјА¬А:јАu√И√ЗE√†јАјАјА√ЂOH¬ЛE√®¬А8јАtH¬ЛE√®¬А8 u	H¬НE√®H√њјА√Ђ√•H¬ЛE√®¬А8јАt	√ЗE√†јАјАјАјА√Ђ"H¬ЛE√∞H√њ»А8јАt	√ЗE√ШјАјАјА√Ђ√ЗE√ШјАјАјА¬ЛEЎЙE√†¬ЛE√†H¬Г√Д([√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЛјАH¬ЙE√®H¬ЛE√∞¬ґ@¬ИE√ІH¬ЛE√∞¬ґ@
+¬ИE√¶H¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√ШH¬Г}√®јА¬Д√ОјАјАјАH¬ЛE√®H¬ЛH¬НE√®H¬ГјАH¬ЙU√РH¬Е√Т¬Д¬≤јАјАјА¬ґU√ІH¬Лu√ШH¬Л}√Р√®6√Њ√њ√њ¬ЙE¬Љ¬Г}¬ЉјАt¬њH¬ЛE√РH¬ЙE√ИH¬ЙEјА}√¶јАtY¬Г}¬ЉtSH¬Г}√®јАtLH¬ЛE√®H¬ЛH¬НE√®H¬ГјАH¬ЙU√АH¬Е√Тt4¬ґU√ІH¬Лu√ШH¬Л}√А√®√•√љ√њ√њ¬ЙE¬Љ¬Г}¬ЉјАt«Г}¬Љu
+H¬ЛE√АH¬ЙE√И√Ђ
+H√ЗE√ИјАјАјАјА√Ђ¬≠H¬Г}√ИјАtH¬ЛU√ИH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјА√ЗE¬ЄјАјАјА√ЂH¬Г}√АјА¬Е'√њ√њ√њ√ЗE¬ЄјАјАјАјА¬ЛE¬Є√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЙE√®H¬ЛE√®H¬ЛјАH¬ЙE√†H¬ЛE√®¬ґ@¬ИE√ЯH¬ЛE√®¬Л@¬ЙE√ШH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√РH¬Г}√†јА¬Д¬АјАјАјАH¬НE√Ш√њ¬Г}√Ш√њt$¬ґU√ЯH¬Лu√РH¬ЛE√†H¬Й√БH¬НE√†H¬ГјАH¬Л9√®	√љ√њ√њ¬Г√Єu–Г}√ШјАH¬ЛE√®H¬ЛјАH¬ЙE√†¬Г}√ШјАy¬ґU√ЯH¬Лu√РH¬Н=јАјАјАјА√®√Щ√Љ√њ√њ¬Г√Єt√ЂH¬ЛE√†H¬Л}√ЄH¬Л¬ЊјАјАјАјА√®јАјАјАјА√ЗE√МјАјАјА√Ђ√ЗE√МјАјАјАјА¬ЛE√М√Й√ГUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЙE√®H¬ЛE√®¬Л@¬ЙE√§H¬ЛU√®¬ЛE√§H¬ШH√Б√†HH¬Г√®H¬ЙE√ШH¬ЛE√®¬ґ@¬ИE√ЧH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√ИH¬Г}√ШјА¬Д¬СјАјАјАH¬НE√§√њ¬Г}√§√њt$¬ґU√ЧH¬Лu√ИH¬ЛE√ШH¬Й√БH¬НE√ШH¬Г(H¬Л9√®√Љ√њ√њ¬Г√Єu–Г}√§јАH¬ЛU√®H¬ЛE√®¬Л@H¬ШH√Б√†HH¬Г√®H¬ЙEЎГ}√§јАy¬ґU√ЧH¬Лu√ИH¬Н=јАјАјАјА√®√Ъ√ї√њ√њ¬Г√Єt√ЂH¬ЛE√ШH¬Л}√ЄH¬Л¬ЊјАјАјАјА√®јАјАјАјА√ЗE√ДјАјАјА√Ђ√ЗE√ДјАјАјАјА¬ЛE√Д√Й√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјА	јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА√±јАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА|јАјАјАјАјАјАјА¬ИјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАOјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА(јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЬјАјАјАјАјАјАјА√°јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА√ЉјАјАјАјАјАјАјА√њјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјА√ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ШјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Є	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Є	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+
+јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Є
+јАјАјАјАјАјА¬ИјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА√§јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјА	јАјАјАјАјАјА-јАјАјАјАјАhјАјАјАјАјАјА√±јАјАјАјАјАјАјА<јАјАјАјАјАYјАјАјАјАјАјА¬ИјАјАјАјАјАјАјАKјАјАјАјАјА√°јАјАјАјАјАјАOјАјАјАјАјАјАSјАјАјАјАјА0јАјАјАјАјАјА(јАјАјАјАјАјАdјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАXјАјАјАјАјАјА√°јАјАјАјАјАјАјАtјАјАјАјАјА9јАјАјАјАјАјА√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЛјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬°јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ѓјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬іјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЙјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЪјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_enum.cјАGeneric_Enum_TypeјАMake_Enum_TypeјАCopy_Enum_TypeјАFree_Enum_TypeјАCompareјАCheck_Enum_FieldјАdummyјАNext_EnumјАPrevious_EnumјАtypeENUMјА_GLOBAL_OFFSET_TABLE_јАmallocјАstrdupјАfreeјАtoupperјАfield_bufferјАset_field_bufferјАTYPE_ENUMјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЃјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ1јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЦјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√∞јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ+јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЊјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ТјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЫјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬•јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬≥јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њkјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ4јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЪјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ИјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЊјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАYјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАPјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА_јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАhјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАYјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА0јАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАfty_generic.o/  1347872996  0     0     100644  1208      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•√Й√ГјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.textјА.dataјА.bssјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА!јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА'јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАHјАјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ТјАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјА√ШјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_generic.cјА_nc_fty_genericјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_int.o/      1347872996  0     0     100644  3848      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђ H¬Й}√ЄH√ЗE√∞јАјАјАјАH¬ЛE√ЄH¬ЙE√®H¬Г}√®јАt3¬њјАјАјА√®јАјАјАјАH¬ЙE√∞H¬Г}√∞јАtH¬ЛM√∞H¬ЛU√®H¬ЛH¬ЙH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛE√∞√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√ИH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√ИH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU»Л¬ЙE√РH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√АH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√АH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√АH¬ЛH¬ЙE√ШH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU¬ЄH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE¬ЄH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU¬ЄH¬ЛH¬ЙE√†H¬Н}√Р√®¬Ы√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H√ЗE√®јАјАјАјАH¬Г}√ЄјАt3¬њјАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јАtH¬ЛM√®H¬ЛU√∞H¬ЛH¬ЙH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАt	H¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Б√ђ√†јАјАјАH¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЙE√®H¬ЛE√®H¬Л@H¬ЙE√†H¬ЛE√®H¬Л@H¬ЙE√ШH¬ЛE√®¬ЛјА¬ЙE√ФH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√ИH¬ЛE√ИH¬ЙE√А∆Е?√њ√њ√њјАH¬ЛE»А8јАtH¬ЛE»А8 u	H¬НE√ИH√њјА√Ђ√•H¬ЛE»А8јА¬ДјАјАH¬ЛE»А8-uH¬НE√ИH√њјАH¬ЛE»А8јАt/√®јАјАјАјАH¬Й√БH¬ЛE√ИH¬ґјАH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu√Ђ	H¬НE√ИH√њјА√Ђ√ИH¬ЛE»А8јАtH¬ЛE»А8 u	H¬НE√ИH√њјА√Ђ√•H¬ЛE»А8јА¬Ф¬Е?√њ√њ√њ¬А¬љ?√њ√њ√њјА¬Д¬ЮјАјАјАH¬Л}√А√®јАјАјАјАH¬ЙE¬ЄH¬ЛE√†H;E√Ш}H¬ЛE¬ЄH;E√†|H¬ЛE¬ЄH;E√Ш√Ђ∆Е?√њ√њ√њјА¬А¬љ?√њ√њ√њјАtaH¬ЛE¬ЄH¬Й¬Е0√њ√њ√њ¬ЛE‘Й¬Е,√њ√њ√њ¬Г¬љ,√њ√њ√њјАy
+«Е,√њ√њ√њјАјАјАјАH¬Н¬љ@√њ√њ√њH¬Л¬Н0√њ√њ√њ¬Л¬Х,√њ√њ√њH¬Н5јАјАјАјА¬ЄјАјАјАјА√®јАјАјАјАH¬Н¬Х@√њ√њ√њH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјА¬ґ¬Е?√њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ ¬Й}√ЉH¬Йu√∞√ЖE√ѓјА√®јАјАјАјАH¬ЙKE√Љ¬ґ√АH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu¬Г}√Љ-t√Ђ√ЖE√ѓ¬ґE√ѓ√Й√Г%.*ldјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА\јАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјА¬ђјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјАGјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rodataјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА√ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЄјАјАјАјАјАјА√∞јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®
+јАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАmјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬†	јАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАgјАјАјАјАјАјА\јАјАјАјАјАјАјА;јАјАјАјАјА√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАJјАјАјАјАјА√°јАјАјАјАјАјА¬ђјАјАјАјАјАјА[јАјАјАјАјА¬НјАјАјАјАјАјАGјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАyјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ПјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЦјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЫјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ґјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬їјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ГјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ФјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_int.cјАGeneric_This_TypeјАMake_This_TypeјАCopy_This_TypeјАFree_This_TypeјАCheck_This_FieldјАCheck_This_CharacterјАtypeTHISјА_GLOBAL_OFFSET_TABLE_јАmallocјАfreeјАfield_bufferјА__ctype_b_locјАatolјАsprintfјАset_field_bufferјАTYPE_INTEGERјАјАјАјАјАјАјАјА)јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬РјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЫјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ'јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬АјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЂјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њaјАјАјАјАјАјАјАјАјА	јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њkјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬АјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬°јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјАgјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА√ГјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬НјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАgјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√ГјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА√°јАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА¬НјАјАјАјАјАјАfty_ipv4.o/     1347872996  0     0     100644  2552      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•H¬Г√ђ@H¬Й}√ЄH¬Йu√∞H¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√®√ЗE√§јАјАјАјА√®јАјАјАјАH¬Й√БH¬ЛE√®H¬ґјАH¬НјАH¬Л¬Ј%јАјАјА¬Е√АtH¬НU√РH¬НM√ФH¬Нu√ШH¬Н}√ЬL¬ЛU√®H¬НE√†H¬Й$I¬Й√СI¬Й√ИH¬Й√±H¬Й√ЇH¬Н5јАјАјАјАL¬Й„ЄјАјАјАјА√®јАјАјАјА¬ЙE√§¬Г}√§u:¬ЛE√†Hc√РH¬НE√®H√®јАјАјАјАH¬Й√БH¬ЛE√®H¬ґјАH¬НјАH¬Л¬Ј%јА јАјА¬Е√Аt	H¬НE√®H√њјА√Ђ√У√ЖE√ПјА¬Г}√§u1H¬ЛE√®¬А8јАu(¬Б}√Ь√њјАјАјАw¬Б}√Ш√њјАјАјАw¬Б}√Ф√њјАјАјАw
+¬Б}√Р√њјАјАјАw√ЖE√П¬ґE√П√Й√ГUH¬Й√•H¬Г√ђ ¬Й}√ЉH¬Йu√∞√ЖE√ѓјА√®јАјАјАјАH¬ЙKE√Љ¬ґ√АH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu¬Г}√Љ.t√Ђ√ЖE√ѓ¬ґE√ѓ√Й√Г%u.%u.%u.%u%nјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА<јАјАјАјАјАјАјАGјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rodataјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАTјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ФјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬А	јАјАјАјАјАјАHјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√И	јАјАјАјАјАјА0јАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАmјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬КјАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА¬∞јАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАGјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА2јАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА;јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАQјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА^јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАlјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_ipv4.cјАCheck_IPV4_FieldјАCheck_IPV4_CharacterјАtypeIPV4јА_GLOBAL_OFFSET_TABLE_јАfield_bufferјА__ctype_b_locјАsscanfјАTYPE_IPV4јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ*јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њxјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЕјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬†јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ!јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАfty_num.o/      1347872996  0     0     100644  4248      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•SH¬Г√ђH¬Й}√∞H√ЗE√®јАјАјАјАH¬ЛE√∞H¬ЙE√†H¬Г}√†јАtN¬њ јАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јАt9H¬ЛU√®H¬ЛE√†¬ЛјА¬ЙH¬ЛU√®H¬ЛE√†H¬Л@H¬ЙBH¬ЛU√®H¬ЛE√†H¬Л@H¬ЙBH¬Л]√®√®јАјАјАјАH¬ЙCH¬ЛE√®H¬Г√Д[√Й√ГUH¬Й√•H¬Г√ђPH¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√ИH¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√ИH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU»Л¬ЙE√РH¬ЛE√Є¬Бx¬∞јАјАјАs)H¬ЛU√ЄH¬ЛE√Є¬Л@H¬ЛRH√ВH¬ЙU√АH¬ЛU√ЄH¬ЛE√Є¬Л@¬Г√А¬ЙB√ЂH¬ЛE√ЄH¬Л@H¬ЙE√АH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√АH¬ЛH¬ЙE√ШH¬ЛE√Є¬Бx¬∞јАјАјАs)H¬ЛU√ЄH¬ЛE√Є¬Л@H¬ЛRH√ВH¬ЙU¬ЄH¬ЛU√ЄH¬ЛE√Є¬Л@¬Г√А¬ЙB√ЂH¬ЛE√ЄH¬Л@H¬ЙE¬ЄH¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU¬ЄH¬ЛH¬ЙE√†H¬Н}√Р√®l√Њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H√ЗE√®јАјАјАјАH¬Г}√ЄјАt;¬њ јАјАјА√®јАјАјАјАH¬ЙE√®H¬Г}√®јАt&H¬ЛM√®H¬ЛU√∞H¬ЛH¬ЙH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛBH¬ЙAH¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬Г}√ЄјАt	H¬Л}√Є√®јАјАјАјА√Й√ГUH¬Й√•H¬Б√ђ√АјАјАјАH¬Й}√ЄH¬Йu√∞H¬ЛE√∞H¬ЙE√®H¬ЛE√®H¬Л@H¬ЙE√†H¬ЛE√®H¬Л@H¬ЙE√ШH¬ЛE√®¬ЛјА¬ЙE√ФH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬ЙE√ИH¬ЛE√ИH¬ЙE8јАјАјАјАH¬ЙE¬ЄH¬ЛE√®H¬Л@H¬ЙE¬∞∆Еo√њ√њ√њјАH¬ЛE»А8јАtH¬ЛE»А8 u	H¬НE√ИH√њјА√Ђ√•H¬ЛE»А8јА¬Д√ЗјАјАH¬ЛE»А8-tH¬ЛE»А8+t√ЂH¬НE√ИH√њјАH¬ЛE»А8јАt/√®јАјАјАјАH¬Й√БH¬ЛE√ИH¬ґјАH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu√Ђ	H¬НE√ИH√њјА√Ђ√ИH¬ЛE√И¬ґјА¬Й¬Еh√њ√њ√њH¬Г}¬∞јАtH¬ЛE¬∞H¬Г8јАtH¬ЛE¬∞H¬ЛјА¬ЊјА9¬Еh√њ√њ√њt
+√ЂJ¬Г¬љh√њ√њ√њ.t√Ђ?H¬НE√ИH√њјАH¬ЛE»А8јАt/√®јАјАјАјАH¬Й√БH¬ЛE√ИH¬ґјАH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu√Ђ	H¬НE√ИH√њјА√Ђ√ИH¬ЛE»А8јАtH¬ЛE»А8 u	H¬НE√ИH√њјА√Ђ√•H¬ЛE»А8јА¬Ф¬Еo√њ√њ√њ¬А¬љo√њ√њ√њјА¬Д√АјАјАјАH¬Л}√А√®јАјАјАјА√≤¬ЕH√њ√њ√њH¬Л¬ЕH√њ√њ√њH¬ЙE¬ЄfM√†fE√Шf.√Бw√Ђ)fM¬ЄfE√†f.√БwfM¬ЄfE√Шf.√Иw√Ђ∆Еo√њ√њ√њјА¬А¬љo√њ√њ√њјАt`√ЭE¬ЄЁЭ`√њ√њ√њ¬ЛE‘Й¬Е\√њ√њ√њ¬Г¬љ\√њ√њ√њјАy
+«Е\√њ√њ√њјАјАјАјАH¬Н¬љp√њ√њ√њf¬Е`√њ√њ√њ¬Л¬Х\√њ√њ√њH¬Н5јАјАјАјА¬ЄјАјАјА√®јАјАјАјАH¬Н¬Хp√њ√њ√њH¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјА¬ґ¬Еo√њ√њ√њ√Й√ГUH¬Й√•H¬Г√ђ0¬Й}√ЉH¬Йu√∞H¬ЛE√∞H¬ЙE√®H¬ЛE√®H¬Л@H¬ЙE√†√ЖE√ЯјА√®јАјАјАјАH¬ЙKE√Љ¬ґ√АH¬НјАH¬Л¬Ј%јАјАјА¬Е√Аu6¬Г}√Љ+t0¬Г}√Љ-t*H¬Г}√†јАtH¬ЛE√†H¬Г8јАtH¬ЛE√†H¬ЛјА¬ЊјА;E√Љt
+√Ђ¬Г}√Љ.t√Ђ√ЖE√Я¬ґE√Я√Й√ГјА%.*fјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАdјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАjјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЉјАјАјАјАјАјАјА¬ЙјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rodataјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјА јАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАLјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА`јАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА9јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАSјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјА√ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАNјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬РјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА]јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАmјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјАvјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†
+јАјАјАјАјАјА¬ИјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАh
+јАјАјАјАјАјА√ђјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјА¬ЦјАјАјАјАјАјАdјАјАјАјАјАјАјА;јАјАјАјАјА√ЇјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАJјАјАјАјАјАјАјАјАјАјАјАjјАјАјАјАјАјА[јАјАјАјАјА¬ВјАјАјАјАјАјА¬ЙјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАpјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАyјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ПјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЦјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬°јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬¶јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬≥јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√БјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ОјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЯјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_num.cјАGeneric_This_TypeјАMake_This_TypeјАCopy_This_TypeјАFree_This_TypeјАCheck_This_FieldјАCheck_This_CharacterјАtypeTHISјА_GLOBAL_OFFSET_TABLE_јАmallocјАlocaleconvјАfreeјАfield_bufferјА__ctype_b_locјАatofјАsprintfјАset_field_bufferјАTYPE_NUMERICјАјАјАјАјА*јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њjјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ^јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЧјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њSјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЊјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њVјАјАјАјАјАјАјАјАјА	јАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ`јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њuјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬™јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЦјАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјА√ЇјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА}јАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА¬ЦјАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјА√ЇјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√АјАјАјАјАјАјАјАјАјАјАјАјАјА¬ВјАјАјАјАјАјАfty_regex.o/    1347872996  0     0     100644  3256      `
+ELFјАјАјАјАјАјАјАјАјАјА>јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјА@јАјАјАUH¬Й√•SH¬Г√ђH¬Й}√∞H¬ЛE√∞H¬ЙE√®H√ЗE√†јАјАјАјАH¬Г}√®јА¬Д¬СјАјАјА¬њјАјАјА√®јАјАјАјАH¬ЙE√†H¬Г}√†јАt|H¬Л]√†¬њ@јАјАјА√®јАјАјАјАH¬ЙH¬ЛH¬Е√Аt<H¬Лu√®H¬ЛE√†¬Ї
+јАјАјАH¬Л8√®јАјАјАјА¬Е√Аu#H¬Л]√†¬њјАјАјА√®јАјАјАјАH¬ЙCH¬ЛE√†H¬Л@H√ЗјАјАјАјА√Ђ'H¬ЛE√†H¬Г8јАtH¬ЛE√†H¬Л8√®јАјАјАјАH¬Л}√†√®јАјАјАјАH√ЗE√†јАјАјАјАH¬ЛE√†H¬Г√Д[√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬ЛE√Є¬Г80s&H¬ЛU√ЄH¬ЛE√Є¬ЛјАH¬ЛRH√ВH¬ЙU√®H¬ЛU√ЄH¬ЛE√Є¬ЛјА¬Г√А¬Й√ЂH¬ЛE√ЄH¬Л@H¬ЙE√®H¬ЛU√ЄH¬Г√АH¬ЙBH¬ЛU√®H¬ЛH¬ЙE√∞H¬Л}√∞√®√Х√Њ√њ√њ√Й√ГUH¬Й√•H¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H√ЗE√®јАјАјАјАH¬Г}√∞јАt!H¬ЛE√∞H¬ЛPH¬ЛE√∞H¬Л@H¬ЛјАH√њ√АH¬ЙH¬ЛE√∞H¬ЙE√®H¬ЛE√®√Й√ГUH¬Й√•H¬Г√ђH¬Й}√ЄH¬ЛE√ЄH¬ЙE√∞H¬Г}√∞јАt=H¬ЛE√∞H¬Л@H√њH¬Г8јАu,H¬ЛE√∞H¬Г8јАtH¬ЛE√∞H¬Лx√®јАјАјАјАH¬ЛE√∞H¬Л8√®јАјАјАјАH¬Л}√∞√®јАјАјАјА√Й√ГUH¬Й√•H¬Г√ђ H¬Й}√ЄH¬Йu√∞√ЖE√ѓјАH¬ЛE√∞H¬ЙE√†H¬Г}√†јАt?H¬ЛE√†H¬Г8јАt5H¬Л}√Є¬ЊјАјАјАјА√®јАјАјАјАH¬Й√ЖH¬ЛE√†A¬ЄјАјАјАјА¬єјАјАјАјА¬ЇјАјАјАјАH¬Л8√®јАјАјАјА¬Е√А¬ФE√ѓ¬ґE√ѓ√Й√ГјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАzRјАx¬РјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАA¬ЖC
+E¬ГјАјАјАјАјАјАјА<јАјАјАјАјАјАјАiјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА\јАјАјАјАјАјАјАFјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА|јАјАјАјАјАјАјАZјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАјАјА¬ЬјАјАјАјАјАјАјАhјАјАјАјАA¬ЖC
+јАјАјАјАјАјАјАјАGCC: (GNU) 3.4.6јАјА.symtabјА.strtabјА.shstrtabјА.rela.textјА.dataјА.bssјА.rela.data.rel.localјА.rela.eh_frameјА.note.GNU-stackјА.commentјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјА5јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√А
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА&јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА,јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА6јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬АјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјА1јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ИјАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАKјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√†јАјАјАјАјАјА¬ЄјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАFјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАxјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАUјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАeјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬™јАјАјАјАјАјАnјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ШјАјАјАјАјАјА(јАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√А	јАјАјАјАјАјА√ЉјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√±√њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјА,јАјАјАјАјА√ДјАјАјАјАјАјАјАiјАјАјАјАјАјАјАHјАјАјАјАјА-јАјАјАјАјАјАFјАјАјАјАјАјАјАdјАјАјАјАјАsјАјАјАјАјАјАZјАјАјАјАјАјАјА¬АјАјАјАјАјА√НјАјАјАјАјАјАhјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬ЮјАјАјАјАјАјАјАјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА	јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬©јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА¬њјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЖјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ОјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√УјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√ЫјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√®јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА√∞јАјАјАјАјАXјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАfty_regex.cјАGeneric_RegularExpression_TypeјАMake_RegularExpression_TypeјАCopy_RegularExpression_TypeјАFree_RegularExpression_TypeјАCheck_RegularExpression_FieldјАtypeREGEXPјА_GLOBAL_OFFSET_TABLE_јАmallocјАregcompјАfreeјАregfreeјАfield_bufferјАregexecјАTYPE_REGEXPјАјАјАјАјА.јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њGјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њgјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њyјАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬§јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬≠јАјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬≤јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ¬ЊјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ√ЗјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њјАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ#јАјАјАјАјАјАјАјАјАјАјАјА√Љ√њ√њ√њ√њ√њ√њ√њ јАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјА(јАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјА0јАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјАјА8јАјАјАјАјАјАјАјАјАјАјАјАјА√НјАјАјАјАјАјАXјАјАјАјАјАјАјАјАјАјА
+јАјАјАјАјАјАјАјАјАјАјА јАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјАјА@јАјАјАјАјАјАјАјАјАјАјАјАјА√ДјАјАјАјАјАјАјА`јАјАјАјАјАјАјАјАјАјАјАјАјА-јАјАјАјАјАјА¬АјАјАјАјАјАјАјАјАјАјАјАјАјАsјАјАјАјАјАјА¬†јАјАјАјАјАјАјАјАјАјАјАјАјА√НјАјАјАјАјАјА

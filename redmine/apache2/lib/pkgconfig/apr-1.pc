@@ -1,0 +1,11 @@
+prefix=/opt/redmine/apache2
+exec_prefix=/opt/redmine/apache2
+libdir=${prefix}/lib
+APR_MAJOR_VERSION=1
+includedir=/opt/redmine/apache2/include
+
+Name: APR
+Description: The Apache Portable Runtime library
+Version: 1.4.5
+Libs: -L${libdir} -lapr-${APR_MAJOR_VERSION} -lrt -lcrypt  -lpthread -ldl
+Cflags:  -DLINUX=2 -D_REENTRANT -D_GNU_SOURCE  -pthread -I${includedir}

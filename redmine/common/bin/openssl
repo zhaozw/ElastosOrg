@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/opt/redmine/common/lib:$LD_LIBRARY_PATH"	   
+DYLD_LIBRARY_PATH="/opt/redmine/common/lib:$DYLD_LIBRARY_PATH"	   
+OPENSSL_CONF="/opt/redmine/common/openssl/openssl.cnf"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export OPENSSL_CONF
+exec /opt/redmine/common/bin/openssl.bin "$@"

@@ -1,0 +1,106 @@
+have_func: checking for rb_thread_blocking_region()... -------------------- no
+
+"gcc -o conftest -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I.    -g -O2 -DFD_SETSIZE=256    conftest.c  -L. -LC:/RubyStack-2.3.14-2/ruby/lib -L.      -lmsvcrt-ruby18-static  -lshell32 -lws2_32  "
+conftest.c: In function 't':
+conftest.c:7:53: error: 'rb_thread_blocking_region' undeclared (first use in this function)
+conftest.c:7:53: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ws2tcpip.h>
+2: #include <winsock2.h>
+3: #include <windows.h>
+4: 
+5: /*top*/
+6: int main() { return 0; }
+7: int t() { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return 0; }
+/* end */
+
+"gcc -o conftest -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I.    -g -O2 -DFD_SETSIZE=256    conftest.c  -L. -LC:/RubyStack-2.3.14-2/ruby/lib -L.      -lmsvcrt-ruby18-static  -lshell32 -lws2_32  "
+C:\DOCUME~1\xx\LOCALS~1\Temp\ccdlXM0f.o: In function `t':
+C:\RubyStack-2.3.14-2\ruby\lib\ruby\gems\1.8\gems\mysql2-0.3.11\ext\mysql2/conftest.c:3: undefined reference to `rb_thread_blocking_region'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { rb_thread_blocking_region(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_wait_for_single_fd()... -------------------- no
+
+"gcc -o conftest -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I.    -g -O2 -DFD_SETSIZE=256    conftest.c  -L. -LC:/RubyStack-2.3.14-2/ruby/lib -L.      -lmsvcrt-ruby18-static  -lshell32 -lws2_32  "
+conftest.c: In function 't':
+conftest.c:7:53: error: 'rb_wait_for_single_fd' undeclared (first use in this function)
+conftest.c:7:53: note: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ws2tcpip.h>
+2: #include <winsock2.h>
+3: #include <windows.h>
+4: 
+5: /*top*/
+6: int main() { return 0; }
+7: int t() { void ((*volatile p)()); p = (void ((*)()))rb_wait_for_single_fd; return 0; }
+/* end */
+
+"gcc -o conftest -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I.    -g -O2 -DFD_SETSIZE=256    conftest.c  -L. -LC:/RubyStack-2.3.14-2/ruby/lib -L.      -lmsvcrt-ruby18-static  -lshell32 -lws2_32  "
+C:\DOCUME~1\xx\LOCALS~1\Temp\ccJy7YO8.o: In function `t':
+C:\RubyStack-2.3.14-2\ruby\lib\ruby\gems\1.8\gems\mysql2-0.3.11\ext\mysql2/conftest.c:3: undefined reference to `rb_wait_for_single_fd'
+collect2: ld returned 1 exit status
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { rb_wait_for_single_fd(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for main() in -llibmysql... -------------------- yes
+
+"gcc -o conftest -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I. -IC:\RubyStack-2.3.14-2\mysql\include    -g -O2 -DFD_SETSIZE=256    conftest.c  -L. -LC:/RubyStack-2.3.14-2/ruby/lib -LC:\RubyStack-2.3.14-2\mysql\lib\opt -L.      -lmsvcrt-ruby18-static -llibmysql  -lshell32 -lws2_32  "
+checked program was:
+/* begin */
+1: #include <ws2tcpip.h>
+2: #include <winsock2.h>
+3: #include <windows.h>
+4: 
+5: /*top*/
+6: int main() { return 0; }
+7: int t() { void ((*volatile p)()); p = (void ((*)()))main; return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for mysql.h... -------------------- yes
+
+"gcc -E -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I. -IC:\RubyStack-2.3.14-2\mysql\include    -g -O2 -DFD_SETSIZE=256     conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <mysql.h>
+/* end */
+
+--------------------
+
+have_header: checking for errmsg.h... -------------------- yes
+
+"gcc -E -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I. -IC:\RubyStack-2.3.14-2\mysql\include    -g -O2 -DFD_SETSIZE=256     conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <errmsg.h>
+/* end */
+
+--------------------
+
+have_header: checking for mysqld_error.h... -------------------- yes
+
+"gcc -E -I. -IC:/RubyStack-2.3.14-2/ruby/lib/ruby/1.8/i386-mingw32 -I. -IC:\RubyStack-2.3.14-2\mysql\include    -g -O2 -DFD_SETSIZE=256     conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include <mysqld_error.h>
+/* end */
+
+--------------------
+

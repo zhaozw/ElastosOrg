@@ -1,0 +1,154 @@
+=head2 Mon Sep 17 05:14:44 2012: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.53>
+
+=item *
+
+C<EXE_FILES: dbiproxy dbiprof>
+
+=back
+
+=head2 Mon Sep 17 05:14:44 2012: C<Module> L<Test::Simple|Test::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.80>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 05:14:45 2012: C<Module> L<Digest::SHA|Digest::SHA>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 5.62>
+
+=item *
+
+C<EXE_FILES: shasum>
+
+=back
+
+=head2 Mon Sep 17 05:14:46 2012: C<Module> L<Digest::SHA1|Digest::SHA1>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 05:15:32 2012: C<Module> L<mod_perl2|mod_perl2>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.0.4>
+
+=item *
+
+C<EXE_FILES: bin/mp2bug>
+
+=back
+
+=head2 Mon Sep 17 05:31:07 2012: C<Module> L<DBD::mysql|DBD::mysql>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.0008>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 17 05:32:44 2012: C<Module> L<SVN::_Core|SVN::_Core>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/redmine/perl/lib/site_perl/5.8.8>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: >
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/opt/redmine/common/lib:$LD_LIBRARY_PATH"
+DYLD_LIBRARY_PATH="/opt/redmine/common/lib:$DYLD_LIBRARY_PATH"
+CURL_CA_BUNDLE="/opt/redmine/common/openssl/certs/curl-ca-bundle.crt"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export CURL_CA_BUNDLE
+exec /opt/redmine/common/bin/curl.bin "$@"

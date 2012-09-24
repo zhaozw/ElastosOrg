@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/opt/redmine/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/opt/redmine/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /opt/redmine/php/../scripts/setenv.sh
+exec /opt/redmine/php/bin/php-cgi.bin "$@"

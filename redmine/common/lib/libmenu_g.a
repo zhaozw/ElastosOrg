@@ -1,0 +1,2265 @@
+!<arch>
+/               1347873017  0     0     0       1548      `
+À€À€À€SÀ€À€PÀ€À€PÀ€À€PÀ€À€PÀ€À€PÀ€À€PÀ€À€-Ã”À€À€-Ã”À€À€aÂ¸À€À€aÂ¸À€À€Â¬Ã¤À€À€Â¬Ã¤À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€À€ÃŠÃ˜À€DÀ€DÀ€DÀ€DÀ€DÀ€DÀ€DÀ€DÀ€H(À€H(À€H(À€fÂ¤À€fÂ¤À€Â€À€À€Â€À€À€Â€À€À€Â€À€À€Â©Ã¬À€Â©Ã¬À€Â©Ã¬À€Â©Ã¬À€ÌÀ€ÌÀ€Ã©\À€Ã©\À€pÀ€pÀ€!À€9À€9À€9À€VÂ¼À€VÂ¼À€Â‹Ã˜À€Â‹Ã˜À€Â‹Ã˜À€Â‹Ã˜À€Â®ÃœÀ€Â®ÃœÀ€ÃŠÃÀ€ÃŠÃÀ€Ãª|À€Ãª|À€Ãª|À€Ãª|À€8Â°À€8Â°À€QlÀ€jÀ€jÀ€Âˆ\À€Âˆ\À€Â»@À€Â»@À€Â»@À€Â»@À€Â»@À€Â»@À€Û¤À€Û¤À€Ã¶ÃÀ€Ã¶Ãset_menu_foreÀ€menu_foreÀ€set_menu_backÀ€menu_backÀ€set_menu_greyÀ€menu_greyÀ€_nc_menu_cursor_posÀ€pos_menu_cursorÀ€_nc_Match_Next_Character_In_Item_NameÀ€menu_driverÀ€set_menu_formatÀ€menu_formatÀ€_nc_Default_MenuÀ€_nc_Default_ItemÀ€_nc_Calculate_Text_WidthÀ€_nc_Connect_ItemsÀ€_nc_Disconnect_ItemsÀ€_nc_Calculate_Item_Length_and_WidthÀ€_nc_Link_ItemsÀ€_nc_Show_MenuÀ€_nc_New_TopRow_and_CurrentItemÀ€set_menu_initÀ€menu_initÀ€set_menu_termÀ€menu_termÀ€set_item_initÀ€item_initÀ€set_item_termÀ€item_termÀ€set_current_itemÀ€current_itemÀ€item_indexÀ€item_nameÀ€item_descriptionÀ€new_itemÀ€free_itemÀ€set_menu_markÀ€menu_markÀ€set_item_optsÀ€item_opts_offÀ€item_opts_onÀ€item_optsÀ€set_top_rowÀ€top_rowÀ€set_item_userptrÀ€item_userptrÀ€set_item_valueÀ€item_valueÀ€item_visibleÀ€set_menu_itemsÀ€menu_itemsÀ€item_countÀ€new_menuÀ€free_menuÀ€set_menu_optsÀ€menu_opts_offÀ€menu_opts_onÀ€menu_optsÀ€set_menu_padÀ€menu_padÀ€menu_patternÀ€set_menu_patternÀ€_nc_Post_ItemÀ€_nc_Draw_MenuÀ€post_menuÀ€unpost_menuÀ€menu_request_nameÀ€menu_request_by_nameÀ€scale_menuÀ€set_menu_spacingÀ€menu_spacingÀ€set_menu_subÀ€menu_subÀ€_nc_retrace_itemÀ€_nc_retrace_item_ptrÀ€_nc_retrace_item_optsÀ€_nc_retrace_menuÀ€_nc_retrace_menu_hookÀ€_nc_retrace_menu_optsÀ€set_menu_userptrÀ€menu_userptrÀ€set_menu_winÀ€menu_winÀ€À€m_attribs.o/    1347872990  0     0     100644  10056     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t Â‹}Ã´Ã¨À€À€À€À€HÂ‹uÃ¸HÂ‰Ã‚HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Âƒ}Ã´À€t'Â‹EÃ´Â°À€;EÃ´tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ°Ã©ÂˆÀ€À€À€HÂƒ}Ã¸À€tAHÂ‹EÃ¸Â‹@l;EÃ´t5HÂ‹UÃ¸Â‹EÃ´Â‰BlHÂƒ}Ã¸À€t$HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸Â‹EÃ´Â‰BlÃ¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ°Â‹EÃ°Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â‹xlÃ¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t Â‹}Ã´Ã¨À€À€À€À€HÂ‹uÃ¸HÂ‰Ã‚HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Âƒ}Ã´À€t'Â‹EÃ´Â°À€;EÃ´tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ°Ã©ÂˆÀ€À€À€HÂƒ}Ã¸À€tAHÂ‹EÃ¸Â‹@p;EÃ´t5HÂ‹UÃ¸Â‹EÃ´Â‰BpHÂƒ}Ã¸À€t$HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸Â‹EÃ´Â‰BpÃ¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ°Â‹EÃ°Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â‹xpÃ¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t Â‹}Ã´Ã¨À€À€À€À€HÂ‹uÃ¸HÂ‰Ã‚HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Âƒ}Ã´À€t'Â‹EÃ´Â°À€;EÃ´tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ°Ã©ÂˆÀ€À€À€HÂƒ}Ã¸À€tAHÂ‹EÃ¸Â‹@t;EÃ´t5HÂ‹UÃ¸Â‹EÃ´Â‰BtHÂƒ}Ã¸À€t$HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸Â‹EÃ´Â‰BtÃ¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ°Â‹EÃ°Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â‹xtÃ¨À€À€À€À€Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_attribs.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã‘À€À€À€Ã–À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã–À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂÀ€À€À€WINDOWÀ€UJÀ€À€	IÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¾À€À€À€#À€
+_curxÀ€ÂˆÃ¾À€À€À€#
+_maxyÀ€Â‹Ã¾À€À€À€#
+_maxxÀ€Â‹Ã¾À€À€À€#
+_begyÀ€ÂŒÃ¾À€À€À€#
+_begxÀ€ÂŒÃ¾À€À€À€#
+
+_flagsÀ€ÂŽÃ¾À€À€À€#
+_attrsÀ€Â‘IÀ€À€#
+_bkgdÀ€Â’-À€À€#
+_notimeoutÀ€Â•Ã¡À€À€#
+_clearÀ€Â–Ã¡À€À€#
+_leaveokÀ€Â—Ã¡À€À€#
+_scrollÀ€Â˜Ã¡À€À€#
+_idlokÀ€Â™Ã¡À€À€#
+_idcokÀ€ÂšÃ¡À€À€#
+_immedÀ€Â›Ã¡À€À€#
+_syncÀ€ÂœÃ¡À€À€#
+_use_keypadÀ€ÂÃ¡À€À€# 
+_delayÀ€ÂžÂ†À€À€À€#$
+_lineÀ€Â FÀ€À€#(
+_regtopÀ€Â£Ã¾À€À€À€#0
+_regbottomÀ€Â¤Ã¾À€À€À€#2
+_parxÀ€Â§Â†À€À€À€#4
+_paryÀ€Â¨Â†À€À€À€#8
+_parentÀ€Â©LÀ€À€#@
+_padÀ€Â±XÀ€À€#H
+_yoffsetÀ€Â³Ã¾À€À€À€#TÀ€attr_tÀ€W-À€À€	Ã¡À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¾À€À€À€#À€
+_pad_xÀ€Â®Ã¾À€À€À€#
+_pad_topÀ€Â¯Ã¾À€À€À€#
+_pad_leftÀ€Â¯Ã¾À€À€À€#
+_pad_bottomÀ€Â°Ã¾À€À€À€#
+_pad_rightÀ€Â°Ã¾À€À€À€#
+À€_BoolÀ€	FÀ€À€ldatÀ€Â„
+textÀ€VRÀ€À€#À€
+firstcharÀ€WÃ¾À€À€À€#
+lastcharÀ€XÃ¾À€À€À€#
+
+oldindexÀ€YÃ¾À€À€À€#À€ÃªÀ€À€;À€À€-À€À€Menu_OptionsÀ€1Â†À€À€À€Item_OptionsÀ€2Â†À€À€À€Â¨À€À€CstrÀ€AÃ‹À€À€À€#À€lengthÀ€BÂµÀ€À€À€#À€TEXTÀ€CÂ€À€À€
+ÂÀ€À€tagITEMÀ€`FnameÀ€GÂ¨À€À€#À€descriptionÀ€HÂ¨À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KlÀ€À€#0indexÀ€LÃ¾À€À€À€#4yÀ€MÃ¾À€À€À€#6xÀ€NÃ¾À€À€À€#8valueÀ€OÃ¡À€À€#:leftÀ€Q
+À€À€#@rightÀ€R
+À€À€#HupÀ€S
+À€À€#PdownÀ€T
+À€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¾À€À€À€#À€widthÀ€]Ã¾À€À€À€#rowsÀ€^Ã¾À€À€À€#colsÀ€_Ã¾À€À€À€#frowsÀ€`Ã¾À€À€À€#fcolsÀ€aÃ¾À€À€À€#
+arowsÀ€bÃ¾À€À€À€#namelenÀ€cÃ¾À€À€À€#desclenÀ€dÃ¾À€À€À€#marklenÀ€eÃ¾À€À€À€#itemlenÀ€fÃ¾À€À€À€#spc_descÀ€gÃ¾À€À€À€#spc_colsÀ€hÃ¾À€À€À€#spc_rowsÀ€iÃ¾À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¾À€À€À€#(winÀ€lLÀ€À€#0subÀ€mLÀ€À€#8userwinÀ€nLÀ€À€#@usersubÀ€oLÀ€À€#HitemsÀ€p?À€À€#PnitemsÀ€qÃ¾À€À€À€#XcuritemÀ€rEÀ€À€#`toprowÀ€sÃ¾À€À€À€#hforeÀ€t-À€À€#lbackÀ€u-À€À€#pgreyÀ€v-À€À€#tpadÀ€wÃžÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂXÀ€À€#Â°statusÀ€Â‚ÂµÀ€À€À€#Â´À€ÂÀ€À€Â´À€À€ITEMÀ€VÂ´À€À€Menu_HookÀ€X-À€À€3À€À€?À€À€À€À€À€EÀ€À€À€À€MENUÀ€Â„ÂÀ€À€Â¢À€À€set_menu_foreÀ€VÂ†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€VÂ¢À€À€Â‘xattrÀ€V-À€À€Â‘tÀ€KÀ€À€Ã À€À€menu_foreÀ€b-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€bÃ À€À€Â‘xÀ€Ã¦À€À€KÀ€À€6	À€À€set_menu_backÀ€nÂ†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€nÂ¢À€À€Â‘xattrÀ€n-À€À€Â‘tÀ€n	À€À€menu_backÀ€y-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€yÃ À€À€Â‘xÀ€Â¹	À€À€set_menu_greyÀ€Â„Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Â„Â¢À€À€Â‘xattrÀ€Â„-À€À€Â‘tÀ€Ã±	À€À€menu_greyÀ€ÂŽ-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€ÂŽÃ À€À€Â‘xÀ€_nc_tracingÀ€ÂÀ€À€À€_nc_Default_MenuÀ€3KÀ€À€À€Ã™À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_attribs.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€Ã•À€Ã¡ÃªÂ·QÃ¡ÃªÂ·QÃ¡
+ÃªÂ·QÀ€called {set_menu_fore(%p,%s)À€called {menu_fore(%p)À€called {set_menu_back(%p,%s)À€called {menu_back(%p)À€called {set_menu_grey(%p,%s)À€called {menu_grey(%p)À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€]À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€]À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€]À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€]À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Ã¹À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€]À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€Ã¹À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€]À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€"
+À€À€WÀ€À€set_menu_foreÀ€Â¨À€À€menu_foreÀ€Ã«À€À€set_menu_backÀ€6	À€À€menu_backÀ€n	À€À€set_menu_greyÀ€Â¹	À€À€menu_greyÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€menuÀ€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€"
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸"À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8%À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€P%À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€p&À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€rÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€'À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€'À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€Ã«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂžÀ€À€À€À€À€Ã¹À€À€À€À€À€À€À€]À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â»À€À€À€À€À€VÀ€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€Ã‰À€À€À€À€À€OÀ€À€À€À€À€À€]À€À€À€À€À€À€À€Ã“À€À€À€À€À€Â¬À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€Ã¡À€À€À€À€À€Â¥À€À€À€À€À€À€]À€À€À€À€À€À€À€À€m_attribs.cÀ€set_menu_foreÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_traceattrÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Draw_MenuÀ€_nc_Show_MenuÀ€_nc_Default_MenuÀ€menu_foreÀ€_nc_retrace_attr_tÀ€set_menu_backÀ€menu_backÀ€set_menu_greyÀ€menu_greyÀ€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿1À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿;À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿PÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿`À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â§À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â°À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã†À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿<À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿PÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿hÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿yÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‡À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€À€Â‘À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¦À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¶À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã½À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿CÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿^À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€À€À€À€À€À€À€LÀ€À€À€À€À€À€À€|À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â’À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¦À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¾À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€À€Ã§À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¼À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿SÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿\À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‰À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â™À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â´À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã’À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¼À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â¯À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€rÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€Â…À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€Ã‡À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€Ã’À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€M	À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€U	À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€`	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â‰	À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€Â‘	À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€Âœ	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Ã	À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€Ã˜	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_cursor.o/     1347872991  0     0     100644  13224     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸&À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂ‰}Ã¸HÂ‰uÃ°HÂ‰UÃ¨HÂ‰MÃ HÂƒ}Ã¸À€tHÂƒ}Ã À€tHÂƒ}Ã¨À€u	Ã‡EÃœÃ¾Ã¿Ã¿Ã¿Ã«|HÂƒ}Ã°À€uHÂ‹EÃ¸HÂ‹@`HÂ‰EÃ°HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€u	Ã‡EÃœÃ¹Ã¿Ã¿Ã¿Ã«NHÂ‹MÃ HÂ‹EÃ°Â¿p8HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@ÂÂ¯Æ‰HÂ‹MÃ¨HÂ‹EÃ°Â¿P6HÂ‹EÃ¸Â¿@h)Ã‚HÂ‹EÃ¸Â¿@Â¯Â‰Ã‡EÃœÀ€À€À€À€Â‹EÃœÃ‰ÃƒUHÂ‰Ã¥HÂƒÃ¬@HÂ‰}Ã¸Ã‡EÃ¤À€À€À€À€Ã‡EÃ À€À€À€À€HÂMÃ¤HÂUÃ HÂ‹}Ã¸Â¾À€À€À€À€Ã¨À€À€À€À€Â‰EÃœHÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Âƒ}ÃœÀ€Â…Ã±À€À€À€HÂ‹EÃ¸HÂ‹@@HÂ‰EÃHÂ‹EÃ¸HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃHÂ‹EÃHÂ‰EÃ°HÂ‹EÃ¸HÂ‹@HHÂ‰EÃˆHÂ‹EÃ¸HÂƒxHÀ€uHÂ‹EÃ°HÂ‰EÃˆHÂ‹EÃˆHÂ‰EÃ¨HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€t&HÂ‹EÃ¸fÂƒx(À€~HÂ‹EÃ¸Â¿P(HÂ‹EÃ¸Â¿@ÂEÃ¤Ã¿È‰EÃ¤Â‹UÃ¤Â‹uÃ HÂ‹}Ã¨Ã¨À€À€À€À€HÂ‹EÃ°H;EÃ¨tFHÂ‹}Ã¨Ã¨À€À€À€À€HÂ‹}Ã¨Ã¨À€À€À€À€HÂƒ}Ã¨À€tHÂ‹EÃ¨Â¿@Â‰EÃ„Ã¿EÃ„Ã«Ã‡EÃ„Ã¿Ã¿Ã¿Ã¿HÂ‹}Ã¨Â¹À€À€À€À€Â‹UÄ¾À€À€À€À€Ã¨À€À€À€À€Ã¨À€À€À€À€Â‹}Ü‰8Ã¨À€À€À€À€Ã‰ÃƒÀ€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_cursor.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â…À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã–À€À€À€Ã›À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂrÀ€À€À€__off64_tÀ€ÂrÀ€À€À€Ã›À€À€À€long long unsigned intÀ€FILEÀ€.^À€À€Â¬À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â…À€À€À€#À€	_IO_read_ptrÀ€0À€À€#	_IO_read_endÀ€0À€À€#	_IO_read_baseÀ€0À€À€#	_IO_write_baseÀ€0À€À€# 	_IO_write_ptrÀ€0À€À€#(	_IO_write_endÀ€0À€À€#0	_IO_buf_baseÀ€0À€À€#8	_IO_buf_endÀ€0À€À€#@	_IO_save_baseÀ€0À€À€#H	_IO_backup_baseÀ€0À€À€#P	_IO_save_endÀ€0À€À€#X	_markersÀ€Ã½À€À€#`	_chainÀ€À€À€#h	_filenoÀ€Â…À€À€À€#p	_flags2À€#Â…À€À€À€#t	_old_offsetÀ€%À€À€#x	_cur_columnÀ€)ÂºÀ€À€À€#Â€	_vtable_offsetÀ€*Ã´À€À€À€#Â‚	_shortbufÀ€+	À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>6À€À€#Â˜	__pad2À€?6À€À€#Â 	_modeÀ€AÂ…À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­Ã½À€À€_IO_markerÀ€Â³_nextÀ€Â´Ã½À€À€#À€_sbufÀ€ÂµÀ€À€#_posÀ€Â¹Â…À€À€À€#À€ÂºÀ€À€^À€À€
+À€À€Ã›À€À€À€Â³À€À€À€À€À€Â¬À€À€
+/À€À€Ã›À€À€À€Â³À€À€À€+À€}À€À€triesÀ€Ã¥childÀ€Ã¦}À€À€#À€siblingÀ€Ã§}À€À€#chÀ€Ã¨Ã£À€À€À€#valueÀ€Ã©ÂºÀ€À€À€#À€/À€À€TRIESÀ€Ã«/À€À€Ã¾À€À€redÀ€Ã¿À€À€#À€greenÀ€Ã¿À€À€#blueÀ€Ã¿À€À€#	rÀ€À€À€À€#	gÀ€À€À€À€#	bÀ€À€À€À€#
+	initÀ€Â…À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂŒÀ€À€À€mmask_tÀ€Â~À€À€À€SCREENÀ€T:À€À€wÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â…À€À€À€#À€	_ofpÀ€Â“À€À€#	_setbufÀ€Â”0À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â…À€À€À€#	_termÀ€ÂšyÀ€À€# 	_saved_ttyÀ€Â›Â¯À€À€#(	_linesÀ€ÂœÀ€À€#d	_columnsÀ€ÂÀ€À€#f	_lines_availÀ€ÂŸÀ€À€#h	_topstolenÀ€Â À€À€#j	_curscrÀ€Â¢ÂƒÀ€À€#p	_newscrÀ€Â£ÂƒÀ€À€#x	_stdscrÀ€Â¤ÂƒÀ€À€#Â€	_keytryÀ€ÂªÂ«À€À€#Âˆ	_key_okÀ€Â«Â«À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â±À€À€#Âœ	_fifoheadÀ€Â±À€À€#Ã€	_fifotailÀ€Â²À€À€#Ã‚	_fifopeekÀ€Â³À€À€#Ã„	_fifoholdÀ€Â´À€À€#Ã†	_endwinÀ€Â¶Â…À€À€À€#Ãˆ	_current_attrÀ€Â·SÀ€À€#Ã	_coloronÀ€Â¸Â…À€À€À€#Ã˜	_color_defsÀ€Â¹Â…À€À€À€#Ãœ	_cursorÀ€ÂºÂ…À€À€À€#Ã 	_cursrowÀ€Â»Â…À€À€À€#Ã¤	_curscolÀ€Â¼Â…À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â…À€À€À€#Ã°	_rawÀ€Â¿Â…À€À€À€#Ã´	_cbreakÀ€Ã€Â…À€À€À€#Ã¸	_echoÀ€Ã‚Â…À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ…À€À€À€#Â€	_slkÀ€Ã„ÃÀ€À€#Âˆ	slk_formatÀ€Ã…Â…À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ…À€À€À€#Â˜	_cr_costÀ€Ã‹Â…À€À€À€#Âœ	_cup_costÀ€ÃŒÂ…À€À€À€#Â 	_home_costÀ€ÃÂ…À€À€À€#Â¤	_ll_costÀ€ÃŽÂ…À€À€À€#Â¨	_cub1_costÀ€Ã“Â…À€À€À€#Â¬	_cuf1_costÀ€Ã”Â…À€À€À€#Â°	_cud1_costÀ€Ã•Â…À€À€À€#Â´	_cuu1_costÀ€Ã–Â…À€À€À€#Â¸	_cub_costÀ€Ã—Â…À€À€À€#Â¼	_cuf_costÀ€Ã˜Â…À€À€À€#Ã€	_cud_costÀ€Ã™Â…À€À€À€#Ã„	_cuu_costÀ€ÃšÂ…À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â…À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ…À€À€À€#Ã	_ed_costÀ€ÃžÂ…À€À€À€#Ã”	_el_costÀ€ÃŸÂ…À€À€À€#Ã˜	_el1_costÀ€Ã Â…À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â…À€À€À€#Ã 	_ich1_costÀ€Ã¢Â…À€À€À€#Ã¤	_dch_costÀ€Ã£Â…À€À€À€#Ã¨	_ich_costÀ€Ã¤Â…À€À€À€#Ã¬	_ech_costÀ€Ã¥Â…À€À€À€#Ã°	_rep_costÀ€Ã¦Â…À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â…À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â…À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â…À€À€À€#Â€	_inline_costÀ€ÃªÂ…À€À€À€#Â„	_smir_costÀ€Ã«Â…À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â…À€À€À€#ÂŒ	_ip_costÀ€Ã­Â…À€À€À€#Â	_address_cursorÀ€Ã¯0À€À€#Â˜	_scrollingÀ€Ã±Â…À€À€À€#Â 	_color_tableÀ€Ã´Ã‡À€À€#Â¨	_color_countÀ€ÃµÂ…À€À€À€#Â°	_color_pairsÀ€Ã¶ÃÀ€À€#Â¸	_pair_countÀ€Ã·Â…À€À€À€#Ã€	_pair_limitÀ€Ã¸Â…À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â…À€À€À€#ÃŒ	_default_bgÀ€Ã½Â…À€À€À€#Ã	_default_pairsÀ€Ã¾Â…À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€SÀ€À€#Ã¨	_screen_acs_mapÀ€Ã“À€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€vÀ€À€#Â€	_maxclickÀ€Â…À€À€À€#Â„	_mouse_eventÀ€Ã©À€À€#Âˆ	_mouse_inlineÀ€Ã©À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â…À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#0À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%,À€À€#Âˆ
+	_resizeÀ€PGÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ´À€À€#Â¸
+	oldhashÀ€]MÀ€À€#Ã€
+	newhashÀ€]MÀ€À€#Ãˆ
+	hashtabÀ€^SÀ€À€#Ã
+	hashtab_lenÀ€_Â…À€À€À€#Ã˜
+	_oldnum_listÀ€`ÂœÀ€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ…À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ‰À€À€#Ã°
+	_legacy_codingÀ€fÂ…À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ…À€À€#Ã¼
+	tracemse_bufÀ€vYÀ€À€#Â¤	jumpÀ€|Â‰À€À€#Âˆ	rippedoffÀ€~Â•À€À€#Â	rspÀ€Â¥À€À€#ÂˆÀ€WINDOWÀ€UÂ†À€À€Â…À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€#À€	_curxÀ€ÂˆÀ€À€#	_maxyÀ€Â‹À€À€#	_maxxÀ€Â‹À€À€#	_begyÀ€ÂŒÀ€À€#	_begxÀ€ÂŒÀ€À€#
+	_flagsÀ€ÂŽÀ€À€#	_attrsÀ€Â‘Â…À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ…À€À€À€#$	_lineÀ€Â }À€À€#(	_regtopÀ€Â£À€À€#0	_regbottomÀ€Â¤À€À€#2	_parxÀ€Â§Â…À€À€À€#4	_paryÀ€Â¨Â…À€À€À€#8	_parentÀ€Â©ÂƒÀ€À€#@	_padÀ€Â±Â”À€À€#H	_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€#À€	_pad_xÀ€Â®À€À€#	_pad_topÀ€Â¯À€À€#	_pad_leftÀ€Â¯À€À€#	_pad_bottomÀ€Â°À€À€#	_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€}À€À€ldatÀ€Â„	textÀ€VSÀ€À€#À€	firstcharÀ€WÀ€À€#	lastcharÀ€XÀ€À€#
+À€À€À€À€YÀ€À€#À€&À€À€wÀ€À€NCURSES_OUTCÀ€ÂžÀ€À€Â¤À€À€Â´À€À€Â…À€À€À€Â…À€À€À€À€+À€À€À€À€'	idÀ€#À€À€#À€	xÀ€$Â…À€À€À€#	yÀ€$Â…À€À€À€#	zÀ€$Â…À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'ÂºÀ€À€vÀ€À€panelhookÀ€
+6top_panelÀ€
+7~À€À€#À€bottom_panelÀ€
+8~À€À€#stdscr_pseudo_panelÀ€
+9~À€À€#À€panelÀ€vÀ€À€cc_tÀ€	Ã£À€À€À€speed_tÀ€	ÂŒÀ€À€À€tcflag_tÀ€	ÂŒÀ€À€À€NÀ€À€termiosÀ€<	c_iflagÀ€	 ÂŸÀ€À€#À€c_oflagÀ€	!ÂŸÀ€À€#c_cflagÀ€	"ÂŸÀ€À€#c_lflagÀ€	#ÂŸÀ€À€#c_lineÀ€	$Â„À€À€#c_ccÀ€	%NÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+^À€À€Â„À€À€Â³À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦0À€À€#À€	str_tableÀ€Â§0À€À€#	BooleansÀ€Â¨0À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ–À€À€# 	ext_str_tableÀ€Â­0À€À€#(	ext_NamesÀ€Â®Â–À€À€#0	num_BooleansÀ€Â°ÂºÀ€À€À€#8	num_NumbersÀ€Â±ÂºÀ€À€À€#:	num_StringsÀ€Â²ÂºÀ€À€À€#<	ext_BooleansÀ€Â´ÂºÀ€À€À€#>	ext_NumbersÀ€ÂµÂºÀ€À€À€#@	ext_StringsÀ€Â¶ÂºÀ€À€À€#BÀ€À€À€0À€À€TERMTYPEÀ€Â¹^À€À€.À€À€termÀ€ÃÂ»	typeÀ€Â¼ÂœÀ€À€#À€	FiledesÀ€Â½À€À€#H	OttybÀ€Â¾Â¯À€À€#L	NttybÀ€Â¿Â¯À€À€#Âˆ	_baudrateÀ€Ã€Â…À€À€À€#Ã„	_termnameÀ€Ã0À€À€#ÃˆÀ€TERMINALÀ€Ã‚Â­À€À€colorpair_tÀ€BÂŒÀ€À€À€À€À€vÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iYÀ€À€Ã°À€À€s	hashvalÀ€p~À€À€À€#À€	oldcountÀ€qÂ…À€À€À€#	newcountÀ€qÂ…À€À€À€#À€À€À€À€rÂ…À€À€À€#	newindexÀ€rÂ…À€À€À€#À€HASHMAPÀ€sÂˆÀ€À€hÀ€À€Â„	ent_textÀ€0À€À€#À€	form_textÀ€Â€0À€À€#	ent_xÀ€ÂÂ…À€À€À€#	dirtyÀ€Â‚Ã›À€À€À€#	visibleÀ€ÂƒÃ›À€À€À€#À€slk_entÀ€Â„À€À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰ÂƒÀ€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€#	labcntÀ€ÂŒÀ€À€#	maxlenÀ€ÂÀ€À€#	attrÀ€ÂŽÀ€À€# À€hÀ€À€MÀ€À€Â—	winÀ€Â”ÂƒÀ€À€#À€	lineÀ€Â•Â…À€À€À€#	hookÀ€Â–bÀ€À€#À€bÀ€À€Â…À€À€À€ÂƒÀ€À€Â…À€À€À€À€MÀ€À€ripoff_tÀ€Â—À€À€.À€À€RÀ€À€
+Â•À€À€Ã›À€À€À€Â³À€À€À€'À€
+Â¥À€À€hÀ€À€Â³À€À€À€À€hÀ€À€ÂƒÀ€À€
+ÃÀ€À€Â…À€À€À€Â³À€À€À€ÂˆÀ€xÀ€À€Ã¾À€À€?À€À€À€À€Ã©À€À€À€À€Â´À€À€À€Ã™À€À€À€À€À€À€Â´À€À€Â…À€À€À€À€Ã¯À€À€À€À€Â´À€À€À€
+À€À€
+,À€À€À€À€Â³À€À€À€À€À€À€GÀ€À€Â…À€À€À€Â…À€À€À€Â…À€À€À€À€2À€À€~À€À€À€Ã°À€À€
+jÀ€À€Ã›À€À€À€Â³À€À€À€aÀ€Menu_OptionsÀ€1Â…À€À€À€Item_OptionsÀ€2Â…À€À€À€ÂºÀ€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂºÀ€À€À€#À€TEXTÀ€CÂ’À€À€ÂŸÀ€À€tagITEMÀ€`FnameÀ€GÂºÀ€À€#À€descriptionÀ€HÂºÀ€À€#imenuÀ€IÀ€À€# userptrÀ€J6À€À€#(optÀ€K~À€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€j0À€À€# pindexÀ€kÀ€À€#(winÀ€lÂƒÀ€À€#0subÀ€mÂƒÀ€À€#8userwinÀ€nÂƒÀ€À€#@usersubÀ€oÂƒÀ€À€#HitemsÀ€pQÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rWÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ£À€À€À€#xmenuinitÀ€y.À€À€#Â€menutermÀ€z.À€À€#ÂˆiteminitÀ€{.À€À€#ÂitemtermÀ€|.À€À€#Â˜userptrÀ€~6À€À€#Â markÀ€0À€À€#Â¨optÀ€ÂjÀ€À€#Â°statusÀ€Â‚ÂºÀ€À€À€#Â´À€ÂŸÀ€À€Ã†À€À€ITEMÀ€VÃ†À€À€Menu_HookÀ€X?À€À€EÀ€À€QÀ€À€À€À€À€WÀ€À€"À€À€MENUÀ€Â„ÂŸÀ€À€Ã•À€À€_nc_menu_cursor_posÀ€6Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€5Ã•À€À€Â‘xitemÀ€5Ã À€À€Â‘ppYÀ€5ÂœÀ€À€À€Â‘hpXÀ€5ÂœÀ€À€À€Â‘`À€Ã›À€À€]À€À€Ã¦À€À€"À€À€lÀ€À€pos_menu_cursorÀ€TÂ…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€SÃ•À€À€Â‘xwinÀ€UÂƒÀ€À€Â‘psubÀ€UÂƒÀ€À€Â‘hxÀ€VÂ…À€À€À€Â‘dyÀ€VÂ…À€À€À€Â‘`errÀ€WÂ…À€À€À€Â‘\À€_nc_tracingÀ€ÂŒÀ€À€À€SPÀ€Ã‹Â´À€À€À€9À€À€À€Ã²À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_cursor.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€5:HÂrÂºÂ$#rUÂ¹Ã”Â%Â4'ÂªÂãŽÂŽ4Ã¢À€called {pos_menu_cursor(%p)À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€dÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€:À€À€À€À€À€À€À€À€ÂÀ€À€iÀ€À€_nc_menu_cursor_posÀ€Ã«À€À€pos_menu_cursorÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€1À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€n#À€À€À€À€À€À€=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â«$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ$À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã2À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ %À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€03À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x%À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`3À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¶%À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x3À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¦%À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8-À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜/À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€ À€À€À€À€À€Â³À€À€À€À€À€À€À€dÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€RÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ZÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€]À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€vÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_cursor.cÀ€_nc_menu_cursor_posÀ€pos_menu_cursorÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€SPÀ€wmoveÀ€wcursyncupÀ€wsyncupÀ€wtouchlnÀ€__errno_locationÀ€_nc_retrace_intÀ€ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã©À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿/À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â²À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€cÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â’À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_driver.o/     1347872991  0     0     100644  19184     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã 5À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥SHÂƒÃ¬HÂ‰uÃ¨HÂ‰UÃ @Âˆ}Ã·Â€}Ã·À€tBHÂ‹EÃ Â€8À€tkHÂ‹EÃ¨Â€8À€tbHÂ‹EÃ Â¶8HÂEÃ HÃ¿À€Ã¨À€À€À€À€Â‰ÃƒHÂ‹EÃ¨Â¶8Ã¨À€À€À€À€9ÃƒtÃ«;HÂEÃ¨HÃ¿À€Ã«Â¾HÂ‹EÃ Â€8À€t"HÂ‹EÃ¨Â€8À€tHÂ‹UÃ¨HÂ‹EÃ HÂ‰ÃHÂEÃ HÃ¿À€Â¶:tÃ•HÂEÃ¨HÃ¿À€HÂ‹EÃ¨Â€8À€Â”Ã€Â¶Ã€HÂƒÃ„[Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‰UÃ¨Ã†EÃ§À€Ã†EÃ¦À€HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹MÃ¨Â‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¨HÂ‹À€Â¿@4Â‰EÃ Âƒ}Ã´À€Â„ÂŠÀ€À€À€Âƒ}Ã´Â„Â€À€À€À€HÂ‹EÃ¸Â¿@(ÂPHÂ‹EÃ¸Â¿@9Ã‚~Ã¨À€À€À€À€Ã‡À€Ã·Ã¿Ã¿Ã¿Â¿Ã·Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©ÂˆÀ€À€HÂ‹MÃ¸HÂ‹UÃ¸Â·B(HÂ¿Ã°HÂ‹I Â‹EÃ´Âˆ1fÃ¿B(HÂ‹MÃ¸HÂ‹EÃ¸HÂ¿P(HÂ‹A Ã†À€HÂEÃ Ã¿Âƒ}Ã À€y
+HÂ‹EÃ¸Â¿@XÃ¿È‰EÃ Â‹EÃ Â‰EÜƒ}Ã´uHÂEÃ Ã¿Âƒ}Ã À€y)HÂ‹EÃ¸Â¿@XÃ¿È‰EÃ Ã«HÂEÃ Ã¿À€HÂ‹EÃ¸Â¿@X9EÃ |Ã‡EÃ À€À€À€À€HÂ‹MÃ¸Â‹EÃ HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‹EÃ¸HÂ‹p HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÃÃ¨ÂƒÃ Â¶Ã¸HÂ‹Ã¨Ã·Ã½Ã¿Ã¿Â„Ã€tÃ†EÃ§Ã«Ã†EÃ¦Â€}Ã§À€u
+Â‹EÃ ;EÃœtÃ©hÃ¿Ã¿Ã¿Â€}Ã§À€tPHÂ‹EÃ¨HÂ‹À€Â¿@4;EÃ uÂ€}Ã¦À€ujHÂ‹uÃ¨HÂ‹MÃ¸Â‹EÃ HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ˜Ã«HÂƒ}Ã´À€t*Âƒ}Ã´t$HÂ‹EÃ¸fÂƒx(À€~HÂ‹MÃ¸HÂ‹EÃ¸fÃ¿H(HÂ¿P(HÂ‹A Ã†À€Ã¨À€À€À€À€Ã‡À€Ã·Ã¿Ã¿Ã¿Â¿Ã·Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EØ‹EÃ˜Ã‰ÃƒUHÂ‰Ã¥HÂÃ¬ÂÀ€À€À€HÂ‰}Ã¸Â‰uÃ´Ã‡EÃ°À€À€À€À€HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÂ”Ã©V
+À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÂ”Ã©'
+À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€uÃ¨À€À€À€À€Ã‡À€Ã¹Ã¿Ã¿Ã¿Â¿Ã¹Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÂ”Ã©Ã¸	À€À€HÂ‹EÃ¸HÂ‹@`HÂ‰EÃ¨HÂ‹EÃ¸Â¿@hÂ‰EÃ¤Â}Ã´Ã¿À€À€ÂŽÃ«À€À€Â}Ã´À€À€ÂÃžÀ€À€Â}Ã´À€À€t'Â}Ã´À€À€tÂ}Ã´À€À€tHÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€Â‹EÃ´-À€À€À€Â‰EÂˆÂƒ}ÂˆÂ‡ÂÀ€À€Â‹EÂˆHÂÂ…À€À€À€À€HÂÀ€À€À€À€Â‹HcÃHÂÀ€À€À€À€HÂÃ¿Ã HÂ‹EÃ¨HÂƒx@À€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Ã”À€À€HÂ‹EÃ¨HÂ‹@@HÂ‰EÃ¨Ã©ÃƒÀ€À€HÂ‹EÃ¨HÂƒxHÀ€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Â¬À€À€HÂ‹EÃ¨HÂ‹@HHÂ‰EÃ¨Ã©Â›À€À€HÂ‹EÃ¨HÂƒxPÀ€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Â„À€À€HÂ‹EÃ¨HÂ‹@PHÂ‰EÃ¨Ã©sÀ€À€HÂ‹EÃ¨HÂƒxXÀ€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©\À€À€HÂ‹EÃ¨HÂ‹@XHÂ‰EÃ¨Ã©KÀ€À€Âƒ}Ã¤À€tHÂ‹EÃ¨HÂƒxPÀ€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©.À€À€HÂEÃ¤Ã¿HÂ‹EÃ¨HÂ‹@PHÂ‰EÃ¨Ã©À€À€HÂ‹EÃ¸Â¿@Â‰Ã‚UÃ¤HÂ‹EÃ¸Â¿@9Ã‚}HÂ‹EÃ¨HÂƒxXÀ€uÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Ã§À€À€HÂEÃ¤Ã¿À€HÂ‹EÃ¨HÂ‹@XHÂ‰EÃ¨Ã©ÃÀ€À€HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@EÃ¤)Â‰Ð‰EÃ HÂ‹EÃ¸Â¿@;EÃ }HÂ‹EÃ¸Â¿@Â‰EÃ Âƒ}Ã À€Ã‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©ÂŒÀ€À€Â‹UÃ HÂEÃ¤Â‹UÃ HÂEÃ Ã¿Â…Ã’ÂŽrÀ€À€HÂƒ}Ã¨À€Â„gÀ€À€HÂ‹EÃ¨HÂƒxXÀ€Â„XÀ€À€HÂ‹EÃ¨HÂ‹@XHÂ‰EÃ¨Ã«Ã‡HÂ‹EÃ¸Â¿@Â‰EÃ Â‹EÃ¤Â‰EÂŒÂ‹EÃ Â‰EÂÂ‹EÂŒ9EÂ~Â‹EÂŒÂ‰EÂÂ‹EÂÂ‰EÃ Âƒ}Ã À€Ã‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©
+À€À€Â‹UÃ HÂEÃ¤)Â‹UÃ HÂEÃ Ã¿Â…Ã’ÂŽÃ³À€À€HÂƒ}Ã¨À€Â„Ã¨À€À€HÂ‹EÃ¨HÂƒxPÀ€Â„Ã™À€À€HÂ‹EÃ¨HÂ‹@PHÂ‰EÃ¨Ã«Ã‡HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰EÃ¨Ã©Â·À€À€HÂ‹UÃ¸HÂ‹EÃ¸HÂ¿@XHÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÃ¨Ã©Â’À€À€HÂ‹EÃ¨Â¿@4ÂPHÂ‹EÃ¸Â¿@X9Ã‚|1HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€tÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©^À€À€HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰EÃ¨Ã©JÀ€À€HÂ‹UÃ¸HÂ‹EÃ¨HÂ¿@4HÃÃ HBPHÂƒÃ€HÂ‹À€HÂ‰EÃ¨Ã©%À€À€HÂ‹EÃ¨fÂƒx4À€BHÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€tÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Ã½À€À€HÂ‹UÃ¸HÂ‹EÃ¸HÂ¿@XHÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÃ¨Ã©Ã˜À€À€HÂ‹UÃ¸HÂ‹EÃ¨HÂ¿@4HÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÃ¨Ã©Â³À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€tÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Â–À€À€HÂ‹EÃ¸HÂ‹@`Â‹@0ÂƒÃ Â…Ã€Â„Â†À€À€À€HÂ‹EÃ¸HÂ‹P`HÂ‹EÃ¸HÂ‹@`Â¶@:Â…Ã€Â”B:HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@Ã‚HÂ‹EÃ¸HÂ‹@`Â¿@8Â‰Ã‘Â¯ÃˆHÂ‹EÃ¸Â¿PHÂ‹EÃ¸HÂ‹@`Â¿@6Â‰Ã–Â¯Ã°HÂ‹EÃ¸HÂ‹x0Â‰ÃŠÃ¨À€À€À€À€HÂ‹EÃ¸HÂ‹p`HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã©ÃºÀ€À€Ã‡EÃ°Ã¶Ã¿Ã¿Ã¿Ã©Ã®À€À€HÂ‹EÃ¸fÂƒx(À€~'HÂ‹MÃ¸HÂ‹EÃ¸fÃ¿H(HÂ¿P(HÂ‹A Ã†À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã©Â¼À€À€Ã‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Â°À€À€HÂ‹EÃ¸HÂ‹@ Â€8À€tHÂUÃ¨HÂ‹}Ã¸Â¾À€À€À€À€Ã¨À€À€À€À€Â‰EÃ°Ã©Â‰À€À€HÂ‹EÃ¨Â¿@4ÂPHÂ‹EÃ¸Â¿@X9Ã‚}%HÂ‹UÃ¸HÂ‹EÃ¨HÂ¿@4HÃÃ HBPHÂƒÃ€HÂ‹À€HÂ‰EÃ¨Ã©MÀ€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€tÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©0À€À€HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰EÃ¨Ã©À€À€HÂ‹EÃ¸HÂ‹@ Â€8À€tHÂUÃ¨HÂ‹}Ã¸Â¾À€À€À€Ã¨À€À€À€À€Â‰EÃ°Ã©ÃµÀ€À€HÂ‹EÃ¨fÂƒx4À€t%HÂ‹UÃ¸HÂ‹EÃ¨HÂ¿@4HÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÃ¨Ã©Ã…À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€tÃ‡EÃ°Ã´Ã¿Ã¿Ã¿Ã©Â¨À€À€HÂ‹UÃ¸HÂ‹EÃ¸HÂ¿@XHÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÃ¨Ã©ÂƒÀ€À€Ã‡EÃ°Ã¸Ã¿Ã¿Ã¿Ã©wÀ€À€Â‹EÃ´Â°À€Â…Ã€u:Ã¨À€À€À€À€HÂ‰KEÃ´Â¶Ã€HÂÀ€HÂ‹Â·%À€@À€À€Â…Ã€tHÂUÃ¨Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Â‰EÃ°Ã©4À€À€Â}Ã´Â™À€À€Â… À€À€HÂ‹EÃ¸HÂ‹@@HÂ‰EÂ€HÂ‹EÃ¸HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÂ€HÂ‹EÂ€HÂ‰EÂ¸HÂ}Ã€Ã¨À€À€À€À€HÂ‹EÐƒÃ HÂ…Ã€Â„ÃŠÀ€À€Â‹UÄ‹uÃˆHÂ‹}Â¸Ã¨À€À€À€À€Â„Ã€Â„Â³À€À€HÂ‹EÃ¸HÂ‹@HHÂ‰Â…xÃ¿Ã¿Ã¿HÂ‹EÃ¸HÂƒxHÀ€u2HÂ‹EÃ¸HÂ‹@@HÂ‰Â…xÃ¿Ã¿Ã¿HÂ‹EÃ¸HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰Â…xÃ¿Ã¿Ã¿HÂ‹Â…xÃ¿Ã¿Ã¿HÂ‰EÂ°Â‹EÈ‰EÂ¬Â‹EÄ‰EÂ¨Ã‡EÃ°Ã´Ã¿Ã¿Ã¿HÂUÂ¨HÂuÂ¬HÂ‹À€À€À€À€Â¹À€À€À€À€HÂ‹8Ã¨À€À€À€À€Â„Ã€Â„5À€À€HÂ‹EÂ°Â¿@;EÂ¬~rHÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Â‰EÃ°Ã«<HÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Â‰EÃ°Ã«HÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Â‰EÃ°Ã¨À€À€À€À€Â‹}Ã°Â‰8Ã¨À€À€À€À€Â‰EÂ”Ã©(À€À€HÂ‹EÂ°Â¿PHÂ‹EÂ°Â¿@Â;EÂ¬}rHÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Â‰EÃ°Ã«<HÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Â‰EÃ°Ã«HÂ‹EÐƒÃ HÂ…Ã€tHÂ‹}Ã¸Â¾	À€À€Ã¨À€À€À€À€Â‰EÃ°Ã¨À€À€À€À€Â‹}Ã°Â‰8Ã¨À€À€À€À€Â‰EÂ”Ã©ÂžÀ€À€Â‹UÄ‹uÃˆHÂ‹}Â°Ã¨À€À€À€À€Â„Ã€Â„À€À€Â‹EÈ‰EÂ¬Â‹EÄ‰EÂ¨HÂUÂ¨HÂuÂ¬HÂ‹}Â°Â¹À€À€À€À€Ã¨À€À€À€À€Â„Ã€Â„Ã«À€À€À€Ã‡EÂ¤À€À€À€À€HÂ‹EÃ¸Â¿@X;EÂ¤ÂŽÂŠÀ€À€À€LÂEÂ LÂMÂœHÂ‹MÃ¸Â‹EÂ¤HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹4HÂ‹}Ã¸LÂ‰ÃLÂ‰ÃŠÃ¨À€À€À€À€Â‰EÂ˜Âƒ}Â˜À€uFÂ‹EÂ¬;EÂœu>Â‹EÂ¨;EÂ |6HÂ‹EÃ¸Â¿@EÂ ;EÂ¨~&HÂ‹MÃ¸Â‹EÂ¤HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰EÃ¨Ã‡EÃ°À€À€À€À€Ã«HÂEÂ¤Ã¿À€Ã©eÃ¿Ã¿Ã¿Âƒ}Ã°À€uCHÂ‹EÐƒÃ HÂ…Ã€t7HÂ‹UÃ¨Â‹uÃ¤HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Â¾À€À€Ã¨À€À€À€À€Ã‡EÃ°Ã¸Ã¿Ã¿Ã¿Ã«Ã‡EÃ°Ã´Ã¿Ã¿Ã¿Ã«Ã‡EÃ°Ã¸Ã¿Ã¿Ã¿Âƒ}Ã°À€uZHÂ‹EÃ¨Â¿@6;EÃ¤}
+HÂ‹EÃ¨Â¿@6Â‰EÃ¤Ã«0HÂ‹EÃ¨Â¿P6HÂ‹EÃ¸Â¿@EÃ¤9Ã‚|HÂ‹EÃ¨Â¿P6HÂ‹EÃ¸Â¿@)Â‰ÃÃ¿	EÃ¤HÂ‹UÃ¨Â‹uÃ¤HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Â‹}Ã°Â‰8Ã¨À€À€À€À€Â‰EÂ”Â‹EÂ”Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.:;'I@
+À€À€À€:;I
+À€À€.?:;'I@
+À€À€4À€:;I
+À€À€ À€À€!4À€:;I
+À€À€"4À€:;I?<À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_driver.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â…À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã–À€À€À€Ã›À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂrÀ€À€À€__off64_tÀ€ÂrÀ€À€À€Ã›À€À€À€long long unsigned intÀ€FILEÀ€.^À€À€Â¬À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â…À€À€À€#À€	_IO_read_ptrÀ€0À€À€#	_IO_read_endÀ€0À€À€#	_IO_read_baseÀ€0À€À€#	_IO_write_baseÀ€0À€À€# 	_IO_write_ptrÀ€0À€À€#(	_IO_write_endÀ€0À€À€#0	_IO_buf_baseÀ€0À€À€#8	_IO_buf_endÀ€0À€À€#@	_IO_save_baseÀ€0À€À€#H	_IO_backup_baseÀ€0À€À€#P	_IO_save_endÀ€0À€À€#X	_markersÀ€Ã½À€À€#`	_chainÀ€À€À€#h	_filenoÀ€Â…À€À€À€#p	_flags2À€#Â…À€À€À€#t	_old_offsetÀ€%À€À€#x	_cur_columnÀ€)ÂºÀ€À€À€#Â€	_vtable_offsetÀ€*Ã´À€À€À€#Â‚	_shortbufÀ€+	À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>6À€À€#Â˜	__pad2À€?6À€À€#Â 	_modeÀ€AÂ…À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­Ã½À€À€_IO_markerÀ€Â³_nextÀ€Â´Ã½À€À€#À€_sbufÀ€ÂµÀ€À€#_posÀ€Â¹Â…À€À€À€#À€ÂºÀ€À€^À€À€
+À€À€Ã›À€À€À€Â³À€À€À€À€À€Â¬À€À€
+/À€À€Ã›À€À€À€Â³À€À€À€+À€}À€À€triesÀ€Ã¥childÀ€Ã¦}À€À€#À€siblingÀ€Ã§}À€À€#chÀ€Ã¨Ã£À€À€À€#valueÀ€Ã©ÂºÀ€À€À€#À€/À€À€TRIESÀ€Ã«/À€À€Ã¾À€À€redÀ€Ã¿À€À€#À€greenÀ€Ã¿À€À€#blueÀ€Ã¿À€À€#	rÀ€À€À€À€#	gÀ€À€À€À€#	bÀ€À€À€À€#
+	initÀ€Â…À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂŒÀ€À€À€mmask_tÀ€Â~À€À€À€SCREENÀ€T:À€À€wÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â…À€À€À€#À€	_ofpÀ€Â“À€À€#	_setbufÀ€Â”0À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â…À€À€À€#	_termÀ€ÂšyÀ€À€# 	_saved_ttyÀ€Â›Â¯À€À€#(	_linesÀ€ÂœÀ€À€#d	_columnsÀ€ÂÀ€À€#f	_lines_availÀ€ÂŸÀ€À€#h	_topstolenÀ€Â À€À€#j	_curscrÀ€Â¢ÂƒÀ€À€#p	_newscrÀ€Â£ÂƒÀ€À€#x	_stdscrÀ€Â¤ÂƒÀ€À€#Â€	_keytryÀ€ÂªÂ«À€À€#Âˆ	_key_okÀ€Â«Â«À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â±À€À€#Âœ	_fifoheadÀ€Â±À€À€#Ã€	_fifotailÀ€Â²À€À€#Ã‚	_fifopeekÀ€Â³À€À€#Ã„	_fifoholdÀ€Â´À€À€#Ã†	_endwinÀ€Â¶Â…À€À€À€#Ãˆ	_current_attrÀ€Â·SÀ€À€#Ã	_coloronÀ€Â¸Â…À€À€À€#Ã˜	_color_defsÀ€Â¹Â…À€À€À€#Ãœ	_cursorÀ€ÂºÂ…À€À€À€#Ã 	_cursrowÀ€Â»Â…À€À€À€#Ã¤	_curscolÀ€Â¼Â…À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â…À€À€À€#Ã°	_rawÀ€Â¿Â…À€À€À€#Ã´	_cbreakÀ€Ã€Â…À€À€À€#Ã¸	_echoÀ€Ã‚Â…À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ…À€À€À€#Â€	_slkÀ€Ã„ÃÀ€À€#Âˆ	slk_formatÀ€Ã…Â…À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ…À€À€À€#Â˜	_cr_costÀ€Ã‹Â…À€À€À€#Âœ	_cup_costÀ€ÃŒÂ…À€À€À€#Â 	_home_costÀ€ÃÂ…À€À€À€#Â¤	_ll_costÀ€ÃŽÂ…À€À€À€#Â¨	_cub1_costÀ€Ã“Â…À€À€À€#Â¬	_cuf1_costÀ€Ã”Â…À€À€À€#Â°	_cud1_costÀ€Ã•Â…À€À€À€#Â´	_cuu1_costÀ€Ã–Â…À€À€À€#Â¸	_cub_costÀ€Ã—Â…À€À€À€#Â¼	_cuf_costÀ€Ã˜Â…À€À€À€#Ã€	_cud_costÀ€Ã™Â…À€À€À€#Ã„	_cuu_costÀ€ÃšÂ…À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â…À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ…À€À€À€#Ã	_ed_costÀ€ÃžÂ…À€À€À€#Ã”	_el_costÀ€ÃŸÂ…À€À€À€#Ã˜	_el1_costÀ€Ã Â…À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â…À€À€À€#Ã 	_ich1_costÀ€Ã¢Â…À€À€À€#Ã¤	_dch_costÀ€Ã£Â…À€À€À€#Ã¨	_ich_costÀ€Ã¤Â…À€À€À€#Ã¬	_ech_costÀ€Ã¥Â…À€À€À€#Ã°	_rep_costÀ€Ã¦Â…À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â…À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â…À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â…À€À€À€#Â€	_inline_costÀ€ÃªÂ…À€À€À€#Â„	_smir_costÀ€Ã«Â…À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â…À€À€À€#ÂŒ	_ip_costÀ€Ã­Â…À€À€À€#Â	_address_cursorÀ€Ã¯0À€À€#Â˜	_scrollingÀ€Ã±Â…À€À€À€#Â 	_color_tableÀ€Ã´Ã‡À€À€#Â¨	_color_countÀ€ÃµÂ…À€À€À€#Â°	_color_pairsÀ€Ã¶ÃÀ€À€#Â¸	_pair_countÀ€Ã·Â…À€À€À€#Ã€	_pair_limitÀ€Ã¸Â…À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â…À€À€À€#ÃŒ	_default_bgÀ€Ã½Â…À€À€À€#Ã	_default_pairsÀ€Ã¾Â…À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€SÀ€À€#Ã¨	_screen_acs_mapÀ€Ã“À€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€vÀ€À€#Â€	_maxclickÀ€Â…À€À€À€#Â„	_mouse_eventÀ€Ã©À€À€#Âˆ	_mouse_inlineÀ€Ã©À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â…À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#0À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%,À€À€#Âˆ
+	_resizeÀ€PGÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ´À€À€#Â¸
+	oldhashÀ€]MÀ€À€#Ã€
+	newhashÀ€]MÀ€À€#Ãˆ
+	hashtabÀ€^SÀ€À€#Ã
+	hashtab_lenÀ€_Â…À€À€À€#Ã˜
+	_oldnum_listÀ€`ÂœÀ€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ…À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ‰À€À€#Ã°
+	_legacy_codingÀ€fÂ…À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ…À€À€#Ã¼
+	tracemse_bufÀ€vYÀ€À€#Â¤	jumpÀ€|Â‰À€À€#Âˆ	rippedoffÀ€~Â•À€À€#Â	rspÀ€Â¥À€À€#ÂˆÀ€WINDOWÀ€UÂ†À€À€Â…À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€#À€	_curxÀ€ÂˆÀ€À€#	_maxyÀ€Â‹À€À€#	_maxxÀ€Â‹À€À€#	_begyÀ€ÂŒÀ€À€#	_begxÀ€ÂŒÀ€À€#
+	_flagsÀ€ÂŽÀ€À€#	_attrsÀ€Â‘Â…À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ…À€À€À€#$	_lineÀ€Â }À€À€#(	_regtopÀ€Â£À€À€#0	_regbottomÀ€Â¤À€À€#2	_parxÀ€Â§Â…À€À€À€#4	_paryÀ€Â¨Â…À€À€À€#8	_parentÀ€Â©ÂƒÀ€À€#@	_padÀ€Â±Â”À€À€#H	_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€#À€	_pad_xÀ€Â®À€À€#	_pad_topÀ€Â¯À€À€#	_pad_leftÀ€Â¯À€À€#	_pad_bottomÀ€Â°À€À€#	_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€}À€À€ldatÀ€Â„	textÀ€VSÀ€À€#À€	firstcharÀ€WÀ€À€#	lastcharÀ€XÀ€À€#
+À€À€À€À€YÀ€À€#À€&À€À€wÀ€À€NCURSES_OUTCÀ€ÂžÀ€À€Â¤À€À€Â´À€À€Â…À€À€À€Â…À€À€À€À€+À€À€À€À€'	idÀ€#À€À€#À€	xÀ€$Â…À€À€À€#	yÀ€$Â…À€À€À€#	zÀ€$Â…À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'ÂºÀ€À€vÀ€À€panelhookÀ€
+6top_panelÀ€
+7~À€À€#À€bottom_panelÀ€
+8~À€À€#stdscr_pseudo_panelÀ€
+9~À€À€#À€panelÀ€vÀ€À€cc_tÀ€	Ã£À€À€À€speed_tÀ€	ÂŒÀ€À€À€tcflag_tÀ€	ÂŒÀ€À€À€NÀ€À€termiosÀ€<	c_iflagÀ€	 ÂŸÀ€À€#À€c_oflagÀ€	!ÂŸÀ€À€#c_cflagÀ€	"ÂŸÀ€À€#c_lflagÀ€	#ÂŸÀ€À€#c_lineÀ€	$Â„À€À€#c_ccÀ€	%NÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+^À€À€Â„À€À€Â³À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦0À€À€#À€	str_tableÀ€Â§0À€À€#	BooleansÀ€Â¨0À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ–À€À€# 	ext_str_tableÀ€Â­0À€À€#(	ext_NamesÀ€Â®Â–À€À€#0	num_BooleansÀ€Â°ÂºÀ€À€À€#8	num_NumbersÀ€Â±ÂºÀ€À€À€#:	num_StringsÀ€Â²ÂºÀ€À€À€#<	ext_BooleansÀ€Â´ÂºÀ€À€À€#>	ext_NumbersÀ€ÂµÂºÀ€À€À€#@	ext_StringsÀ€Â¶ÂºÀ€À€À€#BÀ€À€À€0À€À€TERMTYPEÀ€Â¹^À€À€.À€À€termÀ€ÃÂ»	typeÀ€Â¼ÂœÀ€À€#À€	FiledesÀ€Â½À€À€#H	OttybÀ€Â¾Â¯À€À€#L	NttybÀ€Â¿Â¯À€À€#Âˆ	_baudrateÀ€Ã€Â…À€À€À€#Ã„	_termnameÀ€Ã0À€À€#ÃˆÀ€TERMINALÀ€Ã‚Â­À€À€colorpair_tÀ€BÂŒÀ€À€À€À€À€vÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iYÀ€À€Ã°À€À€s	hashvalÀ€p~À€À€À€#À€	oldcountÀ€qÂ…À€À€À€#	newcountÀ€qÂ…À€À€À€#À€À€À€À€rÂ…À€À€À€#	newindexÀ€rÂ…À€À€À€#À€HASHMAPÀ€sÂˆÀ€À€hÀ€À€Â„	ent_textÀ€0À€À€#À€	form_textÀ€Â€0À€À€#	ent_xÀ€ÂÂ…À€À€À€#	dirtyÀ€Â‚Ã›À€À€À€#	visibleÀ€ÂƒÃ›À€À€À€#À€slk_entÀ€Â„À€À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰ÂƒÀ€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€#	labcntÀ€ÂŒÀ€À€#	maxlenÀ€ÂÀ€À€#	attrÀ€ÂŽÀ€À€# À€hÀ€À€MÀ€À€Â—	winÀ€Â”ÂƒÀ€À€#À€	lineÀ€Â•Â…À€À€À€#	hookÀ€Â–bÀ€À€#À€bÀ€À€Â…À€À€À€ÂƒÀ€À€Â…À€À€À€À€MÀ€À€ripoff_tÀ€Â—À€À€.À€À€RÀ€À€
+Â•À€À€Ã›À€À€À€Â³À€À€À€'À€
+Â¥À€À€hÀ€À€Â³À€À€À€À€hÀ€À€ÂƒÀ€À€
+ÃÀ€À€Â…À€À€À€Â³À€À€À€ÂˆÀ€xÀ€À€Ã¾À€À€?À€À€À€À€Ã©À€À€À€À€Â´À€À€À€Ã™À€À€À€À€À€À€Â´À€À€Â…À€À€À€À€Ã¯À€À€À€À€Â´À€À€À€
+À€À€
+,À€À€À€À€Â³À€À€À€À€À€À€GÀ€À€Â…À€À€À€Â…À€À€À€Â…À€À€À€À€2À€À€~À€À€À€Ã°À€À€
+jÀ€À€Ã›À€À€À€Â³À€À€À€aÀ€Menu_OptionsÀ€1Â…À€À€À€Item_OptionsÀ€2Â…À€À€À€ÂºÀ€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂºÀ€À€À€#À€TEXTÀ€CÂ’À€À€ÂŸÀ€À€tagITEMÀ€`FnameÀ€GÂºÀ€À€#À€descriptionÀ€HÂºÀ€À€#imenuÀ€IÀ€À€# userptrÀ€J6À€À€#(optÀ€K~À€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€j0À€À€# pindexÀ€kÀ€À€#(winÀ€lÂƒÀ€À€#0subÀ€mÂƒÀ€À€#8userwinÀ€nÂƒÀ€À€#@usersubÀ€oÂƒÀ€À€#HitemsÀ€pQÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rWÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ£À€À€À€#xmenuinitÀ€y.À€À€#Â€menutermÀ€z.À€À€#ÂˆiteminitÀ€{.À€À€#ÂitemtermÀ€|.À€À€#Â˜userptrÀ€~6À€À€#Â markÀ€0À€À€#Â¨optÀ€ÂjÀ€À€#Â°statusÀ€Â‚ÂºÀ€À€À€#Â´À€ÂŸÀ€À€Ã†À€À€ITEMÀ€VÃ†À€À€Menu_HookÀ€X?À€À€EÀ€À€QÀ€À€À€À€À€WÀ€À€"À€À€MENUÀ€Â„ÂŸÀ€À€ÃÀ€À€Is_Sub_StringÀ€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VIgnoreCaseFlagÀ€CÀ€À€Â‘wpartÀ€DÃÀ€À€À€Â‘hstringÀ€FÃÀ€À€À€Â‘`À€~À€À€_nc_Match_Next_Character_In_Item_NameÀ€xÂ…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€w~À€À€Â‘xchÀ€wÂ…À€À€À€Â‘titemÀ€wQÀ€À€Â‘hfoundÀ€yÀ€À€Â‘gpassedÀ€yÀ€À€Â‘fidxÀ€zÂ…À€À€À€Â‘`lastÀ€zÂ…À€À€À€Â‘\À€]À€À€Ã À€À€menu_driverÀ€Ã•Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€Ã”~À€À€Â‘xcÀ€Ô…À€À€À€Â‘tresultÀ€Ü…À€À€À€Â‘pitemÀ€ÃWÀ€À€Â‘hmy_top_rowÀ€Þ…À€À€À€Â‘drdiffÀ€Þ…À€À€À€Â‘` À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!eventÀ€Ã€À€À€Â‘@!uwinÀ€ÃÂƒÀ€À€Â‘Â¸ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!subÀ€Ã‹ÂƒÀ€À€Â‘Â°!ryÀ€ÃŒÂ…À€À€À€Â‘Â¬!rxÀ€ÃŒÂ…À€À€À€Â‘Â¨ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!iÀ€Ã«Â…À€À€À€Â‘Â¤!xÀ€Ã«Â…À€À€À€Â‘Â !yÀ€Ã«Â…À€À€À€Â‘Âœ!errÀ€Ã«Â…À€À€À€Â‘Â˜À€À€À€À€"stdscrÀ€NÂƒÀ€À€"_nc_tracingÀ€ÂŒÀ€À€À€"SPÀ€Ã‹Â´À€À€À€7À€À€À€Ã²À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_driver.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€Ã†À€Ie%,Â’ÂsÃ†q,Â‚,Ã•=dÂ¹3Â¸ÃˆgeÂ¸Ã¥,s@eH.eWÃ¢ÂfÂ‚rU$u(rÂ¹Â¸Â¹Â¹Â¬ÂÂŸJ:#Y#Y#Y#YÃ¾ÂºdÂ¹Y$Â»dÂ¹YÂŽÆªdÂºÂŽ+Ã™+dÂºÂŽ+Ã™Ã¢YÃ¢YeÃ¾Â¹<Ã¢YÂ«Ã¾Â¹%Ã¢YÃ¿Â»WÂª\Ã–s	UÂ¬Â€Ã–rZÃ†Âd%Ã¾Â¹Ã¤ZÃ†ÂÂª%Ã¾Â¹Ã¤YrZ+sÃˆ4ÂŽ'WÂ¹r$É¸,Â¸,Â¸Ã¾euÂ¸,Â¸,Â¸Ã¾egddÃ‡s3eÃ¥Â¸rt+Â©iÂ¹Ã²Ô•Â‘tgÃ†Ã†dÂÃ³À€À€À€À€called {_nc_Match_Next_Character(%p,%d,%p)À€called {menu_driver(%p,%d)À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€*À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€
+À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€<À€À€À€À€À€À€À€*À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Ã€
+À€À€À€AÂ†C
+À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€!À€À€ÃÀ€À€_nc_Match_Next_Character_In_Item_NameÀ€Â„À€À€menu_driverÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rela.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Â
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€AÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã
+À€À€À€À€À€À€ÂµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(FÀ€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠ0À€À€À€À€À€À€;À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€fÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ2À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8HÀ€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X3À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃIÀ€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜3À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`JÀ€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â”À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€P4À€À€À€À€À€À€LÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨JÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â©À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âœ4À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€JÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŒ4À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã“À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€5À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`<À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜?À€À€À€À€À€À€;À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€Â£À€À€À€À€À€À€À€*À€À€À€À€À€À€^À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€rÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â“À€À€À€À€À€ÃÀ€À€À€À€À€À€Ã€
+À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‘À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã»À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_driver.cÀ€Is_Sub_StringÀ€_GLOBAL_OFFSET_TABLE_À€toupperÀ€_nc_Match_Next_Character_In_Item_NameÀ€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€menu_driverÀ€wmoveÀ€_nc_Post_ItemÀ€_nc_Show_MenuÀ€pos_menu_cursorÀ€__ctype_b_locÀ€SPÀ€getmouseÀ€wencloseÀ€stdscrÀ€wmouse_trafoÀ€_nc_menu_cursor_posÀ€_nc_New_TopRow_and_CurrentItemÀ€À€À€À€À€À€<À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿JÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃœÀ€À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¦À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿$À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿4À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â±À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã©À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€	À€À€À€'À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿&À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿EÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿UÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿tÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â„À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€	À€À€À€DÀ€À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€	À€À€À€DÀ€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿QÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â©	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã–	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿	
+À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿(
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿G
+À€À€À€À€À€À€À€À€À€ À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŠ
+À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ãˆ
+À€À€À€À€À€À€	À€À€À€!À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã•
+À€À€À€À€À€À€À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿BÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿JÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿TÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â­À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃžÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃµÀ€À€À€À€À€À€À€À€À€ À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿oÀ€À€À€À€À€À€À€À€À€#À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã«À€À€À€À€À€À€À€À€À€$À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¹À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿r
+À€À€À€À€À€À€À€À€À€$À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿w
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€	À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€
+À€À€À€À€À€À€	À€À€À€À€À€À€À€cÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‹À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€Â
+À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€Ã¯	À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€
+
+À€À€À€À€À€À€C À€À€À€À€À€À€À€À€À€À€À€À€S
+À€À€À€À€À€À€K À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€Â‚ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠ À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€+À€À€À€À€À€À€LÀ€À€À€À€À€À€À€À€À€À€À€À€À€WÀ€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€TÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â¯À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€\À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€dÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€lÀ€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â“À€À€À€À€À€À€|À€À€À€À€À€À€À€À€À€À€À€À€À€J
+À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€Â„À€À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€:	À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_format.o/     1347872991  0     0     100644  7608      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬PHÂ‰}Ã¸Â‰uÃ´Â‰UÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹MÃ°Â‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Âƒ}Ã´À€xÂƒ}Ã°À€xÃ«Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©À€À€HÂƒ}Ã¸À€Â„Â½À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©ÃŽÀ€À€HÂ‹EÃ¸HÂƒxPÀ€uÃ¨À€À€À€À€Ã‡À€ÃµÃ¿Ã¿Ã¿Â¿ÃµÃ¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©Â¦À€À€Âƒ}Ã´À€uHÂ‹EÃ¸Â¿@Â‰EÃ´Âƒ}Ã°À€uHÂ‹EÃ¸Â¿@
+Â‰EÃ°HÂ‹EÃ¸HÂƒx À€tHÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€HÂ‹UÃ¸Â‹EÃ´fÂ‰BHÂ‹UÃ¸Â‹EÃ°fÂ‰B
+HÂ‹EÃ¸Â¿@XÂPÃ¿HÂEÃ°HÂ‰EÂ¸Â‰ÃHÂ‹MÂ¸Â™Ã·9Â‰EÄ‹EÃ„Ã¿	EÃ¬HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€t!HÂ‹EÃ¸Â¿@XÂ‰EÃ Â‹EÃ°Â‰EÜ‹UÃœ9UÃ ~3Â‹MÜ‰MÃ Ã«+HÂ‹EÃ¸Â¿@XÂ‰EÃ Ã¿MÃ HÂEÃ¬HÂ‰EÂ¸Â‹EÃ HÂ‹MÂ¸Â™Ã·9Â‰EÄ‹EÃ„Ã¿	EÃ Â‹UÃ Â‰UÃ¨HÂ‹UÃ¸Â‹EÃ¬fÂ‰BHÂ‹UÃ¸Â‹EÃ¨fÂ‰BHÂ‹MÃ¸HÂ‰MÐ‹EÃ¬Â‰EÈ‹UÃ´Â‰UÌ‹MÃˆ9MÃŒ~Â‹EÈ‰EÌ‹MÃŒHÂ‹UÃfÂ‰JHÂ‹EÃ¸fÃ‡@hÀ€À€HÂ‹UÃ¸HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰B`HÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã«(Âƒ}Ã´À€~HÂ‹À€À€À€À€Â‹EÃ´fÂ‰BÂƒ}Ã°À€~HÂ‹À€À€À€À€Â‹EÃ°fÂ‰B
+Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂ‰}Ã¸HÂ‰uÃ°HÂ‰UÃ¨HÂƒ}Ã°À€t4HÂ‹EÃ°HÂ‰EÃ HÂ‹UÃ¸HÂ‰UÃ˜HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ˜HÂ‹EÃ˜HÂ‰EÃ¸Â¿@HÂ‹UÃ Â‰HÂƒ}Ã¨À€t4HÂ‹EÃ¨HÂ‰EÃHÂ‹UÃ¸HÂ‰UÃˆHÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃˆHÂ‹EÃˆHÂ‰EÃ¸Â¿@
+HÂ‹UÐ‰Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€.?:;'@
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€v	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_format.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â…À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã–À€À€À€Ã›À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã›À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŒÀ€À€À€WINDOWÀ€UOÀ€À€	NÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÀ€À€#À€
+_curxÀ€ÂˆÀ€À€#
+_maxyÀ€Â‹À€À€#
+_maxxÀ€Â‹À€À€#
+_begyÀ€ÂŒÀ€À€#
+_begxÀ€ÂŒÀ€À€#
+
+_flagsÀ€ÂŽÀ€À€#
+_attrsÀ€Â‘NÀ€À€#
+_bkgdÀ€Â’2À€À€#
+_notimeoutÀ€Â•Ã¦À€À€#
+_clearÀ€Â–Ã¦À€À€#
+_leaveokÀ€Â—Ã¦À€À€#
+_scrollÀ€Â˜Ã¦À€À€#
+_idlokÀ€Â™Ã¦À€À€#
+_idcokÀ€ÂšÃ¦À€À€#
+_immedÀ€Â›Ã¦À€À€#
+_syncÀ€ÂœÃ¦À€À€#
+_use_keypadÀ€ÂÃ¦À€À€# 
+_delayÀ€ÂžÂ…À€À€À€#$
+_lineÀ€Â KÀ€À€#(
+_regtopÀ€Â£À€À€#0
+_regbottomÀ€Â¤À€À€#2
+_parxÀ€Â§Â…À€À€À€#4
+_paryÀ€Â¨Â…À€À€À€#8
+_parentÀ€Â©QÀ€À€#@
+_padÀ€Â±]À€À€#H
+_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€W2À€À€	Ã¦À€À€pdatÀ€Â­
+_pad_yÀ€Â®À€À€#À€
+_pad_xÀ€Â®À€À€#
+_pad_topÀ€Â¯À€À€#
+_pad_leftÀ€Â¯À€À€#
+_pad_bottomÀ€Â°À€À€#
+_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€	KÀ€À€ldatÀ€Â„
+textÀ€VWÀ€À€#À€
+firstcharÀ€WÀ€À€#
+lastcharÀ€XÀ€À€#
+
+oldindexÀ€YÀ€À€#À€Ã¯À€À€@À€À€2À€À€Menu_OptionsÀ€1Â…À€À€À€Item_OptionsÀ€2Â…À€À€À€Â­À€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂºÀ€À€À€#À€TEXTÀ€CÂ…À€À€
+Â’À€À€tagITEMÀ€`FnameÀ€GÂ­À€À€#À€descriptionÀ€HÂ­À€À€#imenuÀ€I	À€À€# userptrÀ€JÀ€À€#(optÀ€KqÀ€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÃ¦À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+	À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€jÀ€À€# pindexÀ€kÀ€À€#(winÀ€lQÀ€À€#0subÀ€mQÀ€À€#8userwinÀ€nQÀ€À€#@usersubÀ€oQÀ€À€#HitemsÀ€pDÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rJÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€t2À€À€#lbackÀ€u2À€À€#pgreyÀ€v2À€À€#tpadÀ€wÃ£À€À€À€#xmenuinitÀ€y!À€À€#Â€menutermÀ€z!À€À€#ÂˆiteminitÀ€{!À€À€#ÂitemtermÀ€|!À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€Â]À€À€#Â°statusÀ€Â‚ÂºÀ€À€À€#Â´À€Â’À€À€Â¹À€À€ITEMÀ€VÂ¹À€À€Menu_HookÀ€X2À€À€8À€À€DÀ€À€	À€À€À€JÀ€À€À€À€MENUÀ€Â„Â’À€À€Ã£À€À€set_menu_formatÀ€<Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€;Ã£À€À€Â‘xrowsÀ€;Â…À€À€À€Â‘tcolsÀ€;Â…À€À€À€Â‘ptotal_rowsÀ€=Â…À€À€À€Â‘ltotal_colsÀ€=Â…À€À€À€Â‘hÀ€PÀ€À€>	À€À€menu_formatÀ€|À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€{>	À€À€Â‘xrowsÀ€{ÂœÀ€À€À€Â‘pcolsÀ€{ÂœÀ€À€À€Â‘hÀ€D	À€À€PÀ€À€_nc_tracingÀ€ÂŒÀ€À€À€_nc_Default_MenuÀ€3PÀ€À€À€Ã±À€À€À€À€ÂœÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_format.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€; +Ã”Â¹Â«Â¹ÂªÂ¹dÂªdÂ«ÂªIÂªÂ¬'cÂªÂª-Âœ-Â€Â­dÃ”dÃ–r
+UÃ°r4r4À€À€À€À€À€À€called {set_menu_format(%p,%d,%d)À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€ÂˆÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€z	À€À€\À€À€set_menu_formatÀ€Ã©À€À€menu_formatÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€z	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãž
+À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€6À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¦À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€WÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€uÀ€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€m_format.cÀ€set_menu_formatÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Calculate_Item_Length_and_WidthÀ€_nc_Default_MenuÀ€menu_formatÀ€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿/À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿9À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿LÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿\À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â†À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â–À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â®À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿*À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿9À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿MÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿YÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿iÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¦À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¡À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€Ã¾À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€Ã½À€À€À€À€À€À€Â©À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_global.o/     1347872991  0     0     100644  21552     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜>À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Ã‡EÃ´À€À€À€À€Ã‡EÃ°À€À€À€À€HÂ‹EÃ¸HÂ‹@PHÂ‰EÃ¨HÂ‹EÃ¨HÂƒ8À€tHHÂ‹EÃ¨HÂ‹8Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤;EÃ´vÂ‹EÃ¤Â‰EÃ´HÂ‹EÃ¨HÂ‹8HÂƒÃ‡Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤;EÃ°vÂ‹EÃ¤Â‰EÃ°HÂEÃ¨HÂƒÀ€Ã«Â®HÂ‹UÃ¸Â‹EÃ´fÂ‰BHÂ‹UÃ¸Â‹EÃ°fÂ‰BHÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t!HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿pHÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹EÃ°HÂ‰EÃ¨HÂ‹EÃ¨HÂƒ8À€t&HÂ‹EÃ¨HÂ‹À€fÃ‡@4À€À€HÂ‹EÃ¨HÂ‹À€HÃ‡@ À€À€À€À€HÂEÃ¨HÂƒÀ€Ã«ÃHÂ‹EÃ¸HÂƒx À€t
+HÂ‹EÃ¸HÂ‹x Ã¨À€À€À€À€HÂ‹EÃ¸HÃ‡@ À€À€À€À€HÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÃ‡@PÀ€À€À€À€HÂ‹EÃ¸fÃ‡@XÀ€À€Ã‰ÃƒUHÂ‰Ã¥SHÂƒÃ¬(HÂ‰}Ã°HÂ‰uÃ¨Ã‡EÃœÀ€À€À€À€HÂƒ}Ã°À€Â„ÂœÀ€À€À€HÂƒ}Ã¨À€Â„Â‘À€À€À€HÂ‹EÃ¨HÂ‰EÃ HÂ‹EÃ HÂƒ8À€tHÂ‹EÃ HÂ‹À€HÂƒx À€tÃ«
+HÂEÃ HÂƒÀ€Ã«ÃœHÂ‹EÃ HÂƒ8À€ugHÂ‹EÃ¨HÂ‰EÃ HÂ‹EÃ HÂƒ8À€tUHÂ‹EÃ°Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€tHÂ‹EÃ HÂ‹À€Ã†@:À€HÂ‹EÃ HÂ‹Â‹EÃœfÂ‰B4HÂEÃœÃ¿À€HÂ‹EÃ HÂ‹HÂ‹EÃ°HÂ‰B HÂEÃ HÂƒÀ€Ã«Â­Ã‡EÃ˜À€À€À€À€Ã©Â°À€À€À€Âƒ}ÃœÀ€Â„Â’À€À€À€HÂ‹UÃ°HÂ‹EÃ¨HÂ‰BPHÂ‹UÃ°Â‹EÃœfÂ‰BXHÂ‹}Ã°Ã¨Â¼Ã½Ã¿Ã¿HÂ‹]Ã°HÂ‹EÃ°Â¿@Ã¿	Ã‡Ã¨À€À€À€À€HÂ‰C HÂ‹C HÂ…Ã€tPHÂ‹EÃ°fÃ‡@(À€À€HÂ‹EÃ°HÂ‹@ Ã†À€À€HÂ‹EÃ°Â¿P
+HÂ‹EÃ°Â¿pHÂ‹}Ã°Ã¨À€À€À€À€HÂ‹UÃ°HÂ‹EÃ¨HÂ‹À€HÂ‰B`HÂ‹EÃ°fÃ‡@hÀ€À€Ã‡EÃ˜À€À€À€Ã«HÂ‹uÃ¨HÂ‹}Ã°Ã¨Ã¾Ã½Ã¿Ã¿Ã‡EÃ˜À€À€À€À€Â‹EÃ˜HÂƒÃ„([Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂƒ}Ã¸À€tHÂ‹EÃ¸HÂƒxPÀ€tHÂ‹EÃ¸HÂ‹pPHÂ‹}Ã¸Ã¨Â¾Ã½Ã¿Ã¿Ã‰ÃƒUHÂ‰Ã¥HÂ‰}Ã¸HÂ‹EÃ¸Â·@Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹MÃ¸HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@Ã¿ÃˆÂ¯Ã‚Ã¿Ã€fÂ‰HÂ‹EÃ¸Â¿@Â‰EÃ´HÂ‹EÃ¸Â¿PHÂEÃ´HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€t'HÂ‹EÃ¸fÂƒxÀ€~HÂ‹EÃ¸Â¿PHÂEÃ´HÂ‹EÃ¸Â¿PHÂEÃ´HÂ‹UÃ¸Â‹EÃ´fÂ‰BHÂ‹EÃ¸Â¿PÂ‹EÃ´Â¯Â‰EÃ´HÂ‹EÃ¸Â¿@ÂPÃ¿HÂ‹EÃ¸Â¿@Â¯ÃHÂEÃ´HÂ‹UÃ¸Â‹EÃ´fÂ‰BHÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t)HÂ‹EÃ¸Â¿HHÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿pHÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂÃ¬ÂÀ€À€À€HÂ‰}Ã¸HÂƒ}Ã¸À€Â„Ã°À€À€HÂ‹EÃ¸HÂƒxPÀ€Â„Ã¡À€À€HÂ‹EÃ¸HÂ‹@PHÂƒ8À€Â„ÃÀ€À€HÂ‹EÃ¸Â¿@XÂ‰EÃ¤Ã‡EÃ À€À€À€À€Ã‡EÃœÀ€À€À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€tÃ†EÃ‹À€Ã«Ã†EÃ‹Â¶EËˆEÃ“HÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã»fÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€Â„À€À€HÂ‹EÃ¸Â¿@Â‰EÃŒÃ‡EÃ´À€À€À€À€Â‹EÃ´;EÃ¤ÂHÀ€À€HÂ‹MÃ¸Â‹EÃ´HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰EÃ¨Â‹EÃœÂ¯EÃŒEÃŒÃ¿È‰EÃ˜HÂ‹UÃ¨HÂ‰U}Ã À€tHÂ‹UÃ¸Â‹EÃ´HÂ˜HÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰EÂ¸Ã«[Â€}Ã“À€tMHÂ‹EÃ¸HÂ‹@PHÂ‰EÂ°Â‹EÃ˜;EÃ¤|Â‹EÃ¤Ã¿ÃˆHÂ˜HÃÃ HÂ‹UÂ°HÃ‚HÂ‰UÂ¨Ã«Â‹EÃ˜HÂ˜HÃÃ HÂ‹UÂ°HÃ‚HÂ‰UÂ¨HÂ‹EÂ¨HÂ‹À€HÂ‰EÂ¸Ã«HÃ‡EÂ¸À€À€À€À€HÂ‹EÂ¸HÂ‹UÃ€HÂ‰B@HÂ‹UÃ¨HÂ‰UÂ Â‹EÃŒÃ¿Ãˆ;EÃ ~(Â‹EÃ´Ã¿Ã€;EÃ¤}HÂ‹UÃ¸Â‹EÃ´HÂ˜HÃÃ HBPHÂƒÃ€HÂ‹À€HÂ‰EÂ˜Ã«1Â€}Ã“À€t#HÂ‹MÃ¸Â‹EÃœÂ¯EÃŒHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰UÂ˜Ã«HÃ‡EÂ˜À€À€À€À€HÂ‹UÂ˜HÂ‹EÂ HÂ‰PHHÂ‹EÃ¸Â¿@Ã¿ÃˆÂ¯EÃŒEÃ Â‰EÃ”HÂ‹EÃ¨HÂ‰EÂÂƒ}ÃœÀ€t$HÂ‹MÃ¸Â‹UÌ‹EÃ´)ÃHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰UÂˆÃ«dÂ€}Ã“À€tVHÂ‹EÃ¸HÂ‹@PHÂ‰EÂ€Â‹EÃ”;EÃ¤|Â‹EÃ¤Ã¿ÃˆHÂ˜HÃÃ HÂ‹UÂ€HÃ‚HÂ‰Â•xÃ¿Ã¿Ã¿Ã«Â‹EÃ”HÂ˜HÃÃ HÂ‹UÂ€HÃ‚HÂ‰Â•xÃ¿Ã¿Ã¿HÂ‹Â…xÃ¿Ã¿Ã¿HÂ‹À€HÂ‰EÂˆÃ«HÃ‡EÂˆÀ€À€À€À€HÂ‹EÂˆHÂ‹UÂHÂ‰BPHÂ‹UÃ¨HÂ‰Â•pÃ¿Ã¿Ã¿Â‹EÃŒEÃ´;EÃ¤}%HÂ‹MÃ¸Â‹EÃŒEÃ´HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•hÃ¿Ã¿Ã¿Ã«|Â€}Ã“À€tkHÂ‹EÃ¸HÂ‹@PHÂ‰Â…`Ã¿Ã¿Ã¿Â‹UÃœÃ¿Ã‚HÂ‹EÃ¸Â¿@9Ã‚}Â‹EÃ¤Ã¿ÃˆHÂ˜HÃÃ HÂ‹Â•`Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•XÃ¿Ã¿Ã¿Ã«Â‹EÃ HÂ˜HÃÃ HÂ‹Â•`Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•XÃ¿Ã¿Ã¿HÂ‹Â…XÃ¿Ã¿Ã¿HÂ‹À€HÂ‰Â…hÃ¿Ã¿Ã¿Ã«HÇ…hÃ¿Ã¿Ã¿À€À€À€À€HÂ‹Â…hÃ¿Ã¿Ã¿HÂ‹Â•pÃ¿Ã¿Ã¿HÂ‰BXHÂ‹UÃ¨Â‹EÃ fÂ‰B8HÂ‹UÃ¨Â‹EÃœfÂ‰B6HÂEÃ Ã¿À€Â‹EÃ ;EÃŒu
+HÂEÃœÃ¿À€Ã‡EÃ À€À€À€À€HÂEÃ´Ã¿À€Ã©Ã½Ã¿Ã¿HÂ‹EÃ¸Â¿@Â‰EÃŒÃ‡EÃ°À€À€À€À€Â‹EÃ°;EÃ¤Â9À€À€HÂ‹MÃ¸Â‹EÃ Â¯EÃŒEÜ‰EÃ´Â‹EÃ´HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰EÃ¨HÂ‹EÃ¸Â¿@Ã¿ÃˆÂ¯EÃŒEÜ‰EÃ”HÂ‹UÃ¨HÂ‰Â•PÃ¿Ã¿Ã¿Âƒ}Ã À€t'HÂ‹MÃ¸Â‹UÌ‹EÃ´)ÃHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•HÃ¿Ã¿Ã¿Ã«bÂ€}Ã“À€tQÂ‹EÃ”;EÃ¤|'HÂ‹MÃ¸Â‹UÌ‹EÃ”)ÃHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•HÃ¿Ã¿Ã¿Ã«-HÂ‹MÃ¸Â‹EÃ”HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•HÃ¿Ã¿Ã¿Ã«HÇ…HÃ¿Ã¿Ã¿À€À€À€À€HÂ‹Â•HÃ¿Ã¿Ã¿HÂ‹Â…PÃ¿Ã¿Ã¿HÂ‰P@HÂ‹EÃ¨HÂ‰Â…@Ã¿Ã¿Ã¿Â‹EÃŒEÃ´;EÃ¤}%HÂ‹MÃ¸Â‹EÃŒEÃ´HÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•8Ã¿Ã¿Ã¿Ã«3Â€}Ã“À€t"HÂ‹MÃ¸Â‹EÃœHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•8Ã¿Ã¿Ã¿Ã«HÇ…8Ã¿Ã¿Ã¿À€À€À€À€HÂ‹Â…8Ã¿Ã¿Ã¿HÂ‹Â•@Ã¿Ã¿Ã¿HÂ‰BHÂ‹EÃ Â¯EÃŒEÃŒÃ¿È‰EÃ˜HÂ‹UÃ¨HÂ‰Â•0Ã¿Ã¿Ã¿Âƒ}ÃœÀ€t!HÂ‹UÃ¸Â‹EÃ´HÂ˜HÃÃ HBPHÂƒÃ¨HÂ‹À€HÂ‰Â…(Ã¿Ã¿Ã¿Ã«sÂ€}Ã“À€tbHÂ‹EÃ¸HÂ‹@PHÂ‰Â… Ã¿Ã¿Ã¿Â‹EÃ˜;EÃ¤|Â‹EÃ¤Ã¿ÃˆHÂ˜HÃÃ HÂ‹Â• Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•Ã¿Ã¿Ã¿Ã«Â‹EÃ˜HÂ˜HÃÃ HÂ‹Â• Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•Ã¿Ã¿Ã¿HÂ‹Â…Ã¿Ã¿Ã¿HÂ‹À€HÂ‰Â…(Ã¿Ã¿Ã¿Ã«HÇ…(Ã¿Ã¿Ã¿À€À€À€À€HÂ‹Â…(Ã¿Ã¿Ã¿HÂ‹Â•0Ã¿Ã¿Ã¿HÂ‰BPHÂ‹UÃ¨HÂ‰Â•Ã¿Ã¿Ã¿Â‹EÃŒÃ¿Ãˆ;EÃœ~oHÂ‹EÃ¸HÂ‹@PHÂ‰Â…À€Ã¿Ã¿Ã¿Â‹EÃ´Ã¿Ã€;EÃ¤}Â‹EÃ´Ã¿Ã€HÂ˜HÃÃ HÂ‹Â•À€Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•Ã¸Ã¾Ã¿Ã¿Ã«%Â‹EÃ Ã¿ÃˆÂ¯EÃŒEÃœÃ¿Ã€HÂ˜HÃÃ HÂ‹Â•À€Ã¿Ã¿Ã¿HÃ‚HÂ‰Â•Ã¸Ã¾Ã¿Ã¿HÂ‹Â…Ã¸Ã¾Ã¿Ã¿HÂ‹À€HÂ‰Â…Ã¿Ã¿Ã¿Ã«7Â€}Ã“À€t&HÂ‹MÃ¸Â‹EÃ Â¯EÃŒHÂ˜HÂÃ…À€À€À€À€HÂ‹APHÂ‹HÂ‰Â•Ã¿Ã¿Ã¿Ã«HÇ…Ã¿Ã¿Ã¿À€À€À€À€HÂ‹Â…Ã¿Ã¿Ã¿HÂ‹Â•Ã¿Ã¿Ã¿HÂ‰BXHÂ‹UÃ¨Â‹EÃ fÂ‰B8HÂ‹UÃ¨Â‹EÃœfÂ‰B6HÂEÃœÃ¿À€Â‹EÃœ;EÃŒu
+HÂEÃ Ã¿À€Ã‡EÃœÀ€À€À€À€HÂEÃ°Ã¿À€Ã©Â»Ã¼Ã¿Ã¿Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬@HÂ‰}Ã¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€Â„GÀ€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€Â…1À€À€HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@hÂ‰Ã–Â¯Ã°HÂ‹EÃ¸HÂ‹x8ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‹@HHÂ‰EÃ HÂ‹EÃ¸HÂƒxHÀ€u,HÂ‹EÃ¸HÂ‹@@HÂ‰EÃ HÂ‹EÃ¸HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃ HÂ‹EÃ HÂ‰EÃ°HÂƒ}Ã°À€tHÂ‹EÃ°Â¿@Â‰EÃœÃ¿EÃœÃ«Ã‡EÃœÃ¿Ã¿Ã¿Ã¿Â‹EÜ‰EÃ¬HÂƒ}Ã°À€tHÂ‹EÃ°Â¿@Â‰EÃ˜Ã¿EÃ˜Ã«Ã‡EÃ˜Ã¿Ã¿Ã¿Ã¿Â‹EØ‰EÃ¨HÂ‹EÃ¸Â¿À€;EÃ¬}
+HÂ‹EÃ¸Â¿À€Â‰EÃ¬HÂ‹EÃ¸Â¿@;EÃ¨}HÂ‹EÃ¸Â¿@Â‰EÃ¨HÂ‹uÃ°HÂ‹EÃ¸HÂ‹x8Ã‡D$À€À€À€À€Â‹EÃ¨Ã¿È‰D$Â‹EÃ¬Ã¿È‰$AÂ¹À€À€À€À€AÂ¸À€À€À€À€Â¹À€À€À€À€ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‰UÃ¨Ã†EÃŸÀ€Ã†EÃžÀ€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€Â„Â˜À€À€HÂ‹EÃ¸HÂ‹@`H;EÃ¨t\HÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸Â˜À€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€Â˜À€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€Ã†EÃžHÂ‹EÃ¸Â¿@h;EÃ´t\HÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸ÂˆÀ€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€ÂˆÀ€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€Ã†EÃŸHÂ‹EÃ¸HÂ‹@`HÂ‰EÃ HÂ‹UÃ¸Â‹EÃ´fÂ‰BhHÂ‹UÃ¸HÂ‹EÃ¨HÂ‰B`Â€}ÃŸÀ€tXHÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸Â€À€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€Â€À€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€Â€}ÃžÀ€Â„À€À€HÂ‹EÃ¸HÂ‹@`H;EÃ Â„Â¬À€À€À€HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@Ã‚HÂ‹EÃ Â¿@8Â‰Ã‘Â¯ÃˆHÂ‹EÃ¸Â¿PHÂ‹EÃ Â¿@6Â‰Ã–Â¯Ã°HÂ‹EÃ¸HÂ‹x0Â‰ÃŠÃ¨À€À€À€À€HÂ‹uÃ HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@Ã‚HÂ‹EÃ¸HÂ‹@`Â¿@8Â‰Ã‘Â¯ÃˆHÂ‹EÃ¸Â¿PHÂ‹EÃ¸HÂ‹@`Â¿@6Â‰Ã–Â¯Ã°HÂ‹EÃ¸HÂ‹x0Â‰ÃŠÃ¨À€À€À€À€HÂ‹EÃ¸HÂ‹p`HÂ‹}Ã¸Ã¨À€À€À€À€HÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸ÂÀ€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€ÂÀ€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€Â€}ÃŸÀ€uÂ€}ÃžÀ€uÃ«HÂ‹}Ã¸Ã¨À€À€À€À€Ã«"HÂ‹}Ã¸Ã¨À€À€À€À€Ã«HÂ‹UÃ¸Â‹EÃ´fÂ‰BhHÂ‹UÃ¸HÂ‹EÃ¨HÂ‰B`Ã‰ÃƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€
+À€:;I8
+À€À€.:;'@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€ 4À€:;I
+À€À€!.?:;'I@
+À€À€".?:;'@
+À€À€#À€:;I
+À€À€$.?:;'@
+À€À€%À€:;I
+À€À€&4À€:;I
+À€À€'À€À€(À€À€)À€:;I
+À€À€*4À€:;I?<À€À€+4À€:;I?
+À€À€À€ÃŸ#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_global.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â…À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã–À€À€À€Ã›À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂrÀ€À€À€__off64_tÀ€ÂrÀ€À€À€Ã›À€À€À€long long unsigned intÀ€FILEÀ€.^À€À€Â¬À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â…À€À€À€#À€	_IO_read_ptrÀ€0À€À€#	_IO_read_endÀ€0À€À€#	_IO_read_baseÀ€0À€À€#	_IO_write_baseÀ€0À€À€# 	_IO_write_ptrÀ€0À€À€#(	_IO_write_endÀ€0À€À€#0	_IO_buf_baseÀ€0À€À€#8	_IO_buf_endÀ€0À€À€#@	_IO_save_baseÀ€0À€À€#H	_IO_backup_baseÀ€0À€À€#P	_IO_save_endÀ€0À€À€#X	_markersÀ€Ã½À€À€#`	_chainÀ€À€À€#h	_filenoÀ€Â…À€À€À€#p	_flags2À€#Â…À€À€À€#t	_old_offsetÀ€%À€À€#x	_cur_columnÀ€)ÂºÀ€À€À€#Â€	_vtable_offsetÀ€*Ã´À€À€À€#Â‚	_shortbufÀ€+	À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>6À€À€#Â˜	__pad2À€?6À€À€#Â 	_modeÀ€AÂ…À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­Ã½À€À€_IO_markerÀ€Â³_nextÀ€Â´Ã½À€À€#À€_sbufÀ€ÂµÀ€À€#_posÀ€Â¹Â…À€À€À€#À€ÂºÀ€À€^À€À€
+À€À€Ã›À€À€À€Â³À€À€À€À€À€Â¬À€À€
+/À€À€Ã›À€À€À€Â³À€À€À€+À€}À€À€triesÀ€Ã¥childÀ€Ã¦}À€À€#À€siblingÀ€Ã§}À€À€#chÀ€Ã¨Ã£À€À€À€#valueÀ€Ã©ÂºÀ€À€À€#À€/À€À€TRIESÀ€Ã«/À€À€Ã¾À€À€redÀ€Ã¿À€À€#À€greenÀ€Ã¿À€À€#blueÀ€Ã¿À€À€#	rÀ€À€À€À€#	gÀ€À€À€À€#	bÀ€À€À€À€#
+	initÀ€Â…À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂŒÀ€À€À€mmask_tÀ€Â~À€À€À€SCREENÀ€T:À€À€wÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â…À€À€À€#À€	_ofpÀ€Â“À€À€#	_setbufÀ€Â”0À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â…À€À€À€#	_termÀ€ÂšyÀ€À€# 	_saved_ttyÀ€Â›Â¯À€À€#(	_linesÀ€ÂœÀ€À€#d	_columnsÀ€ÂÀ€À€#f	_lines_availÀ€ÂŸÀ€À€#h	_topstolenÀ€Â À€À€#j	_curscrÀ€Â¢ÂƒÀ€À€#p	_newscrÀ€Â£ÂƒÀ€À€#x	_stdscrÀ€Â¤ÂƒÀ€À€#Â€	_keytryÀ€ÂªÂ«À€À€#Âˆ	_key_okÀ€Â«Â«À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â±À€À€#Âœ	_fifoheadÀ€Â±À€À€#Ã€	_fifotailÀ€Â²À€À€#Ã‚	_fifopeekÀ€Â³À€À€#Ã„	_fifoholdÀ€Â´À€À€#Ã†	_endwinÀ€Â¶Â…À€À€À€#Ãˆ	_current_attrÀ€Â·SÀ€À€#Ã	_coloronÀ€Â¸Â…À€À€À€#Ã˜	_color_defsÀ€Â¹Â…À€À€À€#Ãœ	_cursorÀ€ÂºÂ…À€À€À€#Ã 	_cursrowÀ€Â»Â…À€À€À€#Ã¤	_curscolÀ€Â¼Â…À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â…À€À€À€#Ã°	_rawÀ€Â¿Â…À€À€À€#Ã´	_cbreakÀ€Ã€Â…À€À€À€#Ã¸	_echoÀ€Ã‚Â…À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ…À€À€À€#Â€	_slkÀ€Ã„ÃÀ€À€#Âˆ	slk_formatÀ€Ã…Â…À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ…À€À€À€#Â˜	_cr_costÀ€Ã‹Â…À€À€À€#Âœ	_cup_costÀ€ÃŒÂ…À€À€À€#Â 	_home_costÀ€ÃÂ…À€À€À€#Â¤	_ll_costÀ€ÃŽÂ…À€À€À€#Â¨	_cub1_costÀ€Ã“Â…À€À€À€#Â¬	_cuf1_costÀ€Ã”Â…À€À€À€#Â°	_cud1_costÀ€Ã•Â…À€À€À€#Â´	_cuu1_costÀ€Ã–Â…À€À€À€#Â¸	_cub_costÀ€Ã—Â…À€À€À€#Â¼	_cuf_costÀ€Ã˜Â…À€À€À€#Ã€	_cud_costÀ€Ã™Â…À€À€À€#Ã„	_cuu_costÀ€ÃšÂ…À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â…À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ…À€À€À€#Ã	_ed_costÀ€ÃžÂ…À€À€À€#Ã”	_el_costÀ€ÃŸÂ…À€À€À€#Ã˜	_el1_costÀ€Ã Â…À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â…À€À€À€#Ã 	_ich1_costÀ€Ã¢Â…À€À€À€#Ã¤	_dch_costÀ€Ã£Â…À€À€À€#Ã¨	_ich_costÀ€Ã¤Â…À€À€À€#Ã¬	_ech_costÀ€Ã¥Â…À€À€À€#Ã°	_rep_costÀ€Ã¦Â…À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â…À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â…À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â…À€À€À€#Â€	_inline_costÀ€ÃªÂ…À€À€À€#Â„	_smir_costÀ€Ã«Â…À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â…À€À€À€#ÂŒ	_ip_costÀ€Ã­Â…À€À€À€#Â	_address_cursorÀ€Ã¯0À€À€#Â˜	_scrollingÀ€Ã±Â…À€À€À€#Â 	_color_tableÀ€Ã´Ã‡À€À€#Â¨	_color_countÀ€ÃµÂ…À€À€À€#Â°	_color_pairsÀ€Ã¶ÃÀ€À€#Â¸	_pair_countÀ€Ã·Â…À€À€À€#Ã€	_pair_limitÀ€Ã¸Â…À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â…À€À€À€#ÃŒ	_default_bgÀ€Ã½Â…À€À€À€#Ã	_default_pairsÀ€Ã¾Â…À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€SÀ€À€#Ã¨	_screen_acs_mapÀ€Ã“À€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€vÀ€À€#Â€	_maxclickÀ€Â…À€À€À€#Â„	_mouse_eventÀ€Ã©À€À€#Âˆ	_mouse_inlineÀ€Ã©À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â…À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#0À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%,À€À€#Âˆ
+	_resizeÀ€PGÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ´À€À€#Â¸
+	oldhashÀ€]MÀ€À€#Ã€
+	newhashÀ€]MÀ€À€#Ãˆ
+	hashtabÀ€^SÀ€À€#Ã
+	hashtab_lenÀ€_Â…À€À€À€#Ã˜
+	_oldnum_listÀ€`ÂœÀ€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ…À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ‰À€À€#Ã°
+	_legacy_codingÀ€fÂ…À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ…À€À€#Ã¼
+	tracemse_bufÀ€vYÀ€À€#Â¤	jumpÀ€|Â‰À€À€#Âˆ	rippedoffÀ€~Â•À€À€#Â	rspÀ€Â¥À€À€#ÂˆÀ€WINDOWÀ€UÂ†À€À€Â…À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€#À€	_curxÀ€ÂˆÀ€À€#	_maxyÀ€Â‹À€À€#	_maxxÀ€Â‹À€À€#	_begyÀ€ÂŒÀ€À€#	_begxÀ€ÂŒÀ€À€#
+	_flagsÀ€ÂŽÀ€À€#	_attrsÀ€Â‘Â…À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ…À€À€À€#$	_lineÀ€Â }À€À€#(	_regtopÀ€Â£À€À€#0	_regbottomÀ€Â¤À€À€#2	_parxÀ€Â§Â…À€À€À€#4	_paryÀ€Â¨Â…À€À€À€#8	_parentÀ€Â©ÂƒÀ€À€#@	_padÀ€Â±Â”À€À€#H	_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€#À€	_pad_xÀ€Â®À€À€#	_pad_topÀ€Â¯À€À€#	_pad_leftÀ€Â¯À€À€#	_pad_bottomÀ€Â°À€À€#	_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€}À€À€ldatÀ€Â„	textÀ€VSÀ€À€#À€	firstcharÀ€WÀ€À€#	lastcharÀ€XÀ€À€#
+À€À€À€À€YÀ€À€#À€&À€À€wÀ€À€NCURSES_OUTCÀ€ÂžÀ€À€Â¤À€À€Â´À€À€Â…À€À€À€Â…À€À€À€À€+À€À€À€À€'	idÀ€#À€À€#À€	xÀ€$Â…À€À€À€#	yÀ€$Â…À€À€À€#	zÀ€$Â…À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'ÂºÀ€À€vÀ€À€panelhookÀ€
+6top_panelÀ€
+7~À€À€#À€bottom_panelÀ€
+8~À€À€#stdscr_pseudo_panelÀ€
+9~À€À€#À€panelÀ€vÀ€À€cc_tÀ€	Ã£À€À€À€speed_tÀ€	ÂŒÀ€À€À€tcflag_tÀ€	ÂŒÀ€À€À€NÀ€À€termiosÀ€<	c_iflagÀ€	 ÂŸÀ€À€#À€c_oflagÀ€	!ÂŸÀ€À€#c_cflagÀ€	"ÂŸÀ€À€#c_lflagÀ€	#ÂŸÀ€À€#c_lineÀ€	$Â„À€À€#c_ccÀ€	%NÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+^À€À€Â„À€À€Â³À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦0À€À€#À€	str_tableÀ€Â§0À€À€#	BooleansÀ€Â¨0À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ–À€À€# 	ext_str_tableÀ€Â­0À€À€#(	ext_NamesÀ€Â®Â–À€À€#0	num_BooleansÀ€Â°ÂºÀ€À€À€#8	num_NumbersÀ€Â±ÂºÀ€À€À€#:	num_StringsÀ€Â²ÂºÀ€À€À€#<	ext_BooleansÀ€Â´ÂºÀ€À€À€#>	ext_NumbersÀ€ÂµÂºÀ€À€À€#@	ext_StringsÀ€Â¶ÂºÀ€À€À€#BÀ€À€À€0À€À€TERMTYPEÀ€Â¹^À€À€.À€À€termÀ€ÃÂ»	typeÀ€Â¼ÂœÀ€À€#À€	FiledesÀ€Â½À€À€#H	OttybÀ€Â¾Â¯À€À€#L	NttybÀ€Â¿Â¯À€À€#Âˆ	_baudrateÀ€Ã€Â…À€À€À€#Ã„	_termnameÀ€Ã0À€À€#ÃˆÀ€TERMINALÀ€Ã‚Â­À€À€colorpair_tÀ€BÂŒÀ€À€À€À€À€vÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iYÀ€À€Ã°À€À€s	hashvalÀ€p~À€À€À€#À€	oldcountÀ€qÂ…À€À€À€#	newcountÀ€qÂ…À€À€À€#À€À€À€À€rÂ…À€À€À€#	newindexÀ€rÂ…À€À€À€#À€HASHMAPÀ€sÂˆÀ€À€hÀ€À€Â„	ent_textÀ€0À€À€#À€	form_textÀ€Â€0À€À€#	ent_xÀ€ÂÂ…À€À€À€#	dirtyÀ€Â‚Ã›À€À€À€#	visibleÀ€ÂƒÃ›À€À€À€#À€slk_entÀ€Â„À€À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰ÂƒÀ€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€#	labcntÀ€ÂŒÀ€À€#	maxlenÀ€ÂÀ€À€#	attrÀ€ÂŽÀ€À€# À€hÀ€À€MÀ€À€Â—	winÀ€Â”ÂƒÀ€À€#À€	lineÀ€Â•Â…À€À€À€#	hookÀ€Â–bÀ€À€#À€bÀ€À€Â…À€À€À€ÂƒÀ€À€Â…À€À€À€À€MÀ€À€ripoff_tÀ€Â—À€À€.À€À€RÀ€À€
+Â•À€À€Ã›À€À€À€Â³À€À€À€'À€
+Â¥À€À€hÀ€À€Â³À€À€À€À€hÀ€À€ÂƒÀ€À€
+ÃÀ€À€Â…À€À€À€Â³À€À€À€ÂˆÀ€xÀ€À€Ã¾À€À€?À€À€À€À€Ã©À€À€À€À€Â´À€À€À€Ã™À€À€À€À€À€À€Â´À€À€Â…À€À€À€À€Ã¯À€À€À€À€Â´À€À€À€
+À€À€
+,À€À€À€À€Â³À€À€À€À€À€À€GÀ€À€Â…À€À€À€Â…À€À€À€Â…À€À€À€À€2À€À€~À€À€À€Ã°À€À€
+jÀ€À€Ã›À€À€À€Â³À€À€À€aÀ€Menu_OptionsÀ€1Â…À€À€À€Item_OptionsÀ€2Â…À€À€À€ÂºÀ€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂºÀ€À€À€#À€TEXTÀ€CÂ’À€À€ÂŸÀ€À€tagITEMÀ€`FnameÀ€GÂºÀ€À€#À€descriptionÀ€HÂºÀ€À€#imenuÀ€IÀ€À€# userptrÀ€J6À€À€#(optÀ€K~À€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€j0À€À€# pindexÀ€kÀ€À€#(winÀ€lÂƒÀ€À€#0subÀ€mÂƒÀ€À€#8userwinÀ€nÂƒÀ€À€#@usersubÀ€oÂƒÀ€À€#HÀ€À€À€À€pOÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rUÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ£À€À€À€#xmenuinitÀ€y,À€À€#Â€menutermÀ€z,À€À€#ÂˆiteminitÀ€{,À€À€#ÂitemtermÀ€|,À€À€#Â˜userptrÀ€~6À€À€#Â markÀ€0À€À€#Â¨optÀ€ÂjÀ€À€#Â°statusÀ€Â‚ÂºÀ€À€À€#Â´À€ÂŸÀ€À€Ã†À€À€ITEMÀ€VÃ†À€À€Menu_HookÀ€X=À€À€CÀ€À€OÀ€À€À€À€À€UÀ€À€ À€À€MENUÀ€Â„ÂŸÀ€À€
+À€À€ComputeMaximum_NameDesc_LengthsÀ€oÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€n
+À€À€Â‘xMaximumNameLengthÀ€pÂŒÀ€À€À€Â‘tMaximumDescriptionLengthÀ€qÂŒÀ€À€À€Â‘p À€À€À€À€rOÀ€À€Â‘hcheckÀ€sÂŒÀ€À€À€Â‘dÀ€[À€À€mÀ€À€ResetConnectionInfoÀ€Â‘À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Â
+À€À€Â‘xÀ€À€À€À€ÂOÀ€À€Â‘pitemÀ€Â’OÀ€À€Â‘hÀ€!ÃžÀ€À€_nc_Connect_ItemsÀ€Â¯À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Â®
+À€À€Â‘pÀ€À€À€À€Â®OÀ€À€Â‘hitemÀ€Â°OÀ€À€Â‘`ItemCountÀ€Â±ÂŒÀ€À€À€Â‘\À€" À€À€_nc_Disconnect_ItemsÀ€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Ã¬
+À€À€Â‘xÀ€!e À€À€_nc_Calculate_Text_WidthÀ€Ã¼Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V#itemÀ€Ã»e À€À€Â‘xÀ€k À€À€ÂºÀ€À€$Ã À€À€_nc_Calculate_Item_Length_and_WidthÀ€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V%À€À€À€À€T
+À€À€Â‘x&lÀ€VÂ…À€À€À€Â‘tÀ€$"À€À€_nc_Link_ItemsÀ€|À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V%À€À€À€À€{
+À€À€Â‘x'À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&iÀ€Â…À€À€À€Â‘t&jÀ€Â…À€À€À€Â‘p&itemÀ€Â€UÀ€À€Â‘h&Number_Of_ItemsÀ€ÂÂ…À€À€À€Â‘d&colÀ€Â‚Â…À€À€À€Â‘`&rowÀ€Â‚Â…À€À€À€Â‘\&Last_in_RowÀ€ÂƒÂ…À€À€À€Â‘X&Last_in_ColumnÀ€Â„Â…À€À€À€Â‘T&cycleÀ€Â…À€À€Â‘S(Ã°!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&Number_Of_ColumnsÀ€Â‹Â…À€À€À€Â‘LÀ€'À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&Number_Of_RowsÀ€Â½Â…À€À€À€Â‘LÀ€À€À€$Â‡"À€À€_nc_Show_MenuÀ€Ã»À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V%À€À€À€À€ÃºÂ‡"À€À€Â‘x&winÀ€Ã¼ÂƒÀ€À€Â‘p&maxyÀ€Ã½Â…À€À€À€Â‘l&maxxÀ€Ã½Â…À€À€À€Â‘hÀ€Â"À€À€[À€À€$S#À€À€_nc_New_TopRow_and_CurrentItemÀ€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V%À€À€À€À€#
+À€À€Â‘x)new_toprowÀ€$Â…À€À€À€Â‘t)new_current_itemÀ€%UÀ€À€Â‘h&cur_itemÀ€'UÀ€À€Â‘`&mterm_calledÀ€(À€À€Â‘_&iterm_calledÀ€)À€À€Â‘^À€*_nc_tracingÀ€ÂŒÀ€À€À€*SPÀ€Ã‹Â´À€À€+_nc_Default_ItemÀ€S À€À€	À€À€À€À€À€À€À€À€+_nc_Default_MenuÀ€,[À€À€	À€À€À€À€À€À€À€À€
+ÃŒ#À€À€Ã›À€À€À€Â³À€À€À€À€markÀ€*Â¼#À€À€	À€À€À€À€À€À€À€À€À€À€À€À€Ã²À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_global.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€Ã®À€Â¸rvWÃ¢Â€e,Â€xcÂ›ÂªÂª1
++Ã³Ã†Þ ÂªÆ¸ÂœÂ¸Âœ+Ã¿sWÃ–&Â£ÂžÃ¿Â«:yÃ¡Â›Â¹ÂÂ¸ÂªÂŽÃ¿HÂ€âœ“Ã†rÂ›Â¸Ã¾+Â9+Â¼ÇªÃ•Â«Ã”ÖªÃ¾ÂªÂ«9+Ã¢,ÂªÃ–Ã¿ÂIÂ«-Â¹Ã£	Â“w;Â¢Ã‰ÂªÂªÃ•dVq0Â©Â«-*;Â¬Â€Ã£Â·
+ÃÂªÂªÃ•dUq0Â©+Â¼,'K$$Â¸ÂœÆ«@Â+-HJWÃ•XIÃ‡XJÂ¹ÂªÂ¹eXÂžÂ¾XÕ¬Â­ÂªÂ¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€ComputeMaximum_NameDesc_Lengths %d,%dÀ€À€À€_nc_CalculateItem_Length_and_Width columns %d, item %d, width %dÀ€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€AÂ†C
+$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¢À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€ÂŽÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Â…À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€|À€À€À€À€À€À€À€1À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€Ã¹À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€kÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¢À€À€À€AÂ†C
+À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€Ã£#À€À€mÀ€À€_nc_Connect_ItemsÀ€ÃžÀ€À€_nc_Disconnect_ItemsÀ€ À€À€_nc_Calculate_Text_WidthÀ€p À€À€_nc_Calculate_Item_Length_and_WidthÀ€Ã À€À€_nc_Link_ItemsÀ€"À€À€_nc_Show_MenuÀ€Â’"À€À€_nc_New_TopRow_and_CurrentItemÀ€v#À€À€_nc_Default_ItemÀ€Â™#À€À€_nc_Default_MenuÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€menuÀ€_IO_FILEÀ€itemsÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rela.data.rel.localÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸JÀ€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€Ã£#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°LÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€k6À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€fÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â 8À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HQÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€vÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X9À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ9À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`QÀ€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€;À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€SÀ€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@<À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨SÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8=À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€TÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h=À€À€À€À€À€À€/À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã“À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â©=À€À€À€À€À€À€Ã¬À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XEÀ€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0IÀ€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€1À€À€À€À€À€ÃÀ€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€EÀ€À€À€À€
+À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€VÀ€À€À€À€À€ À€À€À€À€À€À€À€`À€À€À€À€À€À€À€gÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¯À€À€À€À€À€OÀ€À€À€À€À€À€Â…À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€Ã”À€À€À€À€À€À€1À€À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€RÀ€À€À€À€Â‡À€À€À€À€À€À€Ã¢À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€wÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_global.cÀ€markÀ€ComputeMaximum_NameDesc_LengthsÀ€ResetConnectionInfoÀ€_nc_Default_MenuÀ€_nc_Default_ItemÀ€_GLOBAL_OFFSET_TABLE_À€_nc_Calculate_Text_WidthÀ€_nc_tracingÀ€_tracefÀ€freeÀ€_nc_Connect_ItemsÀ€mallocÀ€set_menu_formatÀ€_nc_Disconnect_ItemsÀ€_nc_Calculate_Item_Length_and_WidthÀ€_nc_Link_ItemsÀ€_nc_Show_MenuÀ€mvderwinÀ€SPÀ€copywinÀ€pos_menu_cursorÀ€_nc_New_TopRow_and_CurrentItemÀ€wmoveÀ€_nc_Post_ItemÀ€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿YÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‘À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â±À€À€À€À€À€À€À€À€À€À€
+À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â»À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿UÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã˜À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€
+À€À€À€$À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¬À€À€À€À€À€À€	À€À€À€#À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿xÀ€À€À€À€À€À€À€À€À€$À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€%À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€À€À€'À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿tÀ€À€À€À€À€À€À€À€À€(À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¿À€À€À€À€À€À€À€À€À€'À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€(À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿?À€À€À€À€À€À€À€À€À€!À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿JÀ€À€À€À€À€À€À€À€À€%À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€
+À€À€À€À€À€À€&À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€
+À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€Â¢À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¯À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€BÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€Â”À€À€À€À€À€À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â­À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€C À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€K À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âž À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â± À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¦ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã® À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹ À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€KÀ€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‚!À€À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€ÃŠ!À€À€À€À€À€À€À€À€À€À€À€À€ÃƒÀ€À€À€À€À€À€Ã±!À€À€À€À€À€À€À€À€À€À€À€À€ÃƒÀ€À€À€À€À€À€Ã¹!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€6"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>"À€À€À€À€À€À€À€À€À€À€À€À€Â‡À€À€À€À€À€À€I"À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â»"À€À€À€À€À€À€À€À€À€À€À€À€Â‡À€À€À€À€À€À€Ãƒ"À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€ÃŽ"À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‘#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â´#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãš#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€Â„À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã„À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¤À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€Â‡À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_hook.o/       1347872991  0     0     100644  10408     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰Â‚Â€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸Â€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰Â‚ÂˆÀ€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸ÂˆÀ€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰Â‚ÂÀ€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸ÂÀ€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰Â‚Â˜À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸Â˜À€À€À€Ã¨À€À€À€À€Ã‰Ãƒ%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€Âž
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_hook.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€ÃŽÀ€À€À€Ã“À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã“À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŠÀ€À€À€WINDOWÀ€UGÀ€À€	FÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ»À€À€À€#À€
+_curxÀ€ÂˆÃ»À€À€À€#
+_maxyÀ€Â‹Ã»À€À€À€#
+_maxxÀ€Â‹Ã»À€À€À€#
+_begyÀ€ÂŒÃ»À€À€À€#
+_begxÀ€ÂŒÃ»À€À€À€#
+
+_flagsÀ€ÂŽÃ»À€À€À€#
+_attrsÀ€Â‘FÀ€À€#
+_bkgdÀ€Â’*À€À€#
+_notimeoutÀ€Â•ÃžÀ€À€#
+_clearÀ€Â–ÃžÀ€À€#
+_leaveokÀ€Â—ÃžÀ€À€#
+_scrollÀ€Â˜ÃžÀ€À€#
+_idlokÀ€Â™ÃžÀ€À€#
+_idcokÀ€ÂšÃžÀ€À€#
+_immedÀ€Â›ÃžÀ€À€#
+_syncÀ€ÂœÃžÀ€À€#
+_use_keypadÀ€ÂÃžÀ€À€# 
+_delayÀ€ÂžÂƒÀ€À€À€#$
+_lineÀ€Â CÀ€À€#(
+_regtopÀ€Â£Ã»À€À€À€#0
+_regbottomÀ€Â¤Ã»À€À€À€#2
+_parxÀ€Â§ÂƒÀ€À€À€#4
+_paryÀ€Â¨ÂƒÀ€À€À€#8
+_parentÀ€Â©IÀ€À€#@
+_padÀ€Â±UÀ€À€#H
+_yoffsetÀ€Â³Ã»À€À€À€#TÀ€attr_tÀ€W*À€À€	ÃžÀ€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã»À€À€À€#À€
+_pad_xÀ€Â®Ã»À€À€À€#
+_pad_topÀ€Â¯Ã»À€À€À€#
+_pad_leftÀ€Â¯Ã»À€À€À€#
+_pad_bottomÀ€Â°Ã»À€À€À€#
+_pad_rightÀ€Â°Ã»À€À€À€#
+À€_BoolÀ€	CÀ€À€ldatÀ€Â„
+textÀ€VOÀ€À€#À€
+firstcharÀ€WÃ»À€À€À€#
+lastcharÀ€XÃ»À€À€À€#
+
+oldindexÀ€YÃ»À€À€À€#À€Ã§À€À€8À€À€*À€À€Menu_OptionsÀ€1ÂƒÀ€À€À€Item_OptionsÀ€2ÂƒÀ€À€À€Â¥À€À€CstrÀ€AÃˆÀ€À€À€#À€lengthÀ€BÂ²À€À€À€#À€TEXTÀ€C}À€À€
+ÂŠÀ€À€tagITEMÀ€`FnameÀ€GÂ¥À€À€#À€descriptionÀ€HÂ¥À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KiÀ€À€#0indexÀ€LÃ»À€À€À€#4yÀ€MÃ»À€À€À€#6xÀ€NÃ»À€À€À€#8valueÀ€OÃžÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã»À€À€À€#À€widthÀ€]Ã»À€À€À€#rowsÀ€^Ã»À€À€À€#colsÀ€_Ã»À€À€À€#frowsÀ€`Ã»À€À€À€#fcolsÀ€aÃ»À€À€À€#
+arowsÀ€bÃ»À€À€À€#namelenÀ€cÃ»À€À€À€#desclenÀ€dÃ»À€À€À€#marklenÀ€eÃ»À€À€À€#itemlenÀ€fÃ»À€À€À€#spc_descÀ€gÃ»À€À€À€#spc_colsÀ€hÃ»À€À€À€#spc_rowsÀ€iÃ»À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ»À€À€À€#(winÀ€lIÀ€À€#0subÀ€mIÀ€À€#8userwinÀ€nIÀ€À€#@usersubÀ€oIÀ€À€#HitemsÀ€p<À€À€#PnitemsÀ€qÃ»À€À€À€#XcuritemÀ€rBÀ€À€#`toprowÀ€sÃ»À€À€À€#hforeÀ€t*À€À€#lbackÀ€u*À€À€#pgreyÀ€v*À€À€#tpadÀ€wÃ›À€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂUÀ€À€#Â°statusÀ€Â‚Â²À€À€À€#Â´À€ÂŠÀ€À€Â±À€À€ITEMÀ€VÂ±À€À€Menu_HookÀ€X*À€À€0À€À€<À€À€À€À€À€BÀ€À€
+À€À€MENUÀ€Â„ÂŠÀ€À€ÂŸÀ€À€set_menu_initÀ€DÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€DÂŸÀ€À€Â‘xfuncÀ€DÀ€À€Â‘pÀ€HÀ€À€ÃÀ€À€menu_initÀ€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€PÃÀ€À€Â‘xÀ€Ã£À€À€HÀ€À€3	À€À€set_menu_termÀ€[ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€[ÂŸÀ€À€Â‘xfuncÀ€[À€À€Â‘pÀ€k	À€À€menu_termÀ€gÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€gÃÀ€À€Â‘xÀ€Â¶	À€À€set_item_initÀ€rÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€rÂŸÀ€À€Â‘xfuncÀ€rÀ€À€Â‘pÀ€Ã®	À€À€item_initÀ€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€~ÃÀ€À€Â‘xÀ€9
+À€À€set_item_termÀ€Â‰ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Â‰ÂŸÀ€À€Â‘xfuncÀ€Â‰À€À€Â‘pÀ€q
+À€À€item_termÀ€Â•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€Â•ÃÀ€À€Â‘xÀ€_nc_tracingÀ€ÂŠÀ€À€À€_nc_Default_MenuÀ€3HÀ€À€À€ÃŸÀ€À€À€À€ÂšÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_hook.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€ÃƒÀ€Ã¯mÂ·UÃ¯mÂ·UÃ¯mÂ·UÃ¯mÂ·UÀ€called {set_menu_init(%p,%p)À€called {menu_init(%p)À€called {set_menu_term(%p,%p)À€called {menu_term(%p)À€called {set_item_init(%p,%p)À€called {item_init(%p)À€called {set_item_term(%p,%p)À€called {item_term(%p)À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€}À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€}À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€}À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€Â¢
+À€À€TÀ€À€set_menu_initÀ€Â¥À€À€menu_initÀ€Ã¨À€À€set_menu_termÀ€3	À€À€menu_termÀ€k	À€À€set_item_initÀ€Â¶	À€À€item_initÀ€Ã®	À€À€set_item_termÀ€9
+À€À€item_termÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€menuÀ€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã…À€À€À€À€À€À€Â¢
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8#À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€JÀ€À€À€À€À€À€ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ &À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â 'À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€Â’À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃšÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x(À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€3À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€SÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€}À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â”À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€}À€À€À€À€À€À€À€Â¢À€À€À€À€À€[À€À€À€À€À€À€aÀ€À€À€À€À€À€À€Â¬À€À€À€À€À€Â¼À€À€À€À€À€À€}À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€9À€À€À€À€À€À€aÀ€À€À€À€À€À€À€Ã„À€À€À€À€À€ÂšÀ€À€À€À€À€À€}À€À€À€À€À€À€À€Ã’À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€m_hook.cÀ€set_menu_initÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_Default_MenuÀ€__errno_locationÀ€_nc_retrace_intÀ€menu_initÀ€_nc_retrace_menu_hookÀ€set_menu_termÀ€menu_termÀ€set_item_initÀ€item_initÀ€set_item_termÀ€item_termÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿KÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŒÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã±À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿	À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿EÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿UÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿jÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿~À€À€À€À€À€À€À€À€À€À€À€À€LÀ€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂžÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¶À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã§À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€À€Ã±À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿HÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿\À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€fÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â­À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€À€À€À€À€À€À€Â•À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¥À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿&À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿:À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ZÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€wÀ€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€Â‚À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€Ã„À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€J	À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€R	À€À€À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€]	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â†	À€À€À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€ÂŽ	À€À€À€À€À€À€À€À€À€À€À€À€9À€À€À€À€À€À€Â™	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Ã	À€À€À€À€À€À€À€À€À€À€À€À€9À€À€À€À€À€À€Ã•	À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€À€Ã 	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€	
+À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€P
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X
+À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€c
+À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â§À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€9À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€9À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_cur.o/   1347872991  0     0     100644  7744      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€Â„?À€À€HÂƒ}Ã°À€Â„4À€À€HÂ‹EÃ°HÂ‹@ H;EÃ¸Â…"À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã©%À€À€HÂ‹EÃ¸HÂ‹@`H;EÃ°Â„Ã»À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€t	HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€HÂ‹EÃ°HÂ‹UÃ¸Â·@6f;Bh}HÂ‹EÃ¸HÂ‹UÃ°Â·R6fÂ‰PhHÂ‹EÃ°Â¿H6HÂ‹EÃ¸Â¿PhHÂ‹EÃ¸Â¿@Â9Ã|YHÂ‹EÃ¸HÂ‰EÃ HÂ‹EÃ°Â¿H6HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@h)Â‰Ã9Ã}HÂ‹EÃ°Â·@6fÂ‰EÃžÃ«HÂ‹MÃ¸HÂ‹EÃ¸Â·PÂ·Af)ÃfÂ‰EÃžÂ·EÃžHÂ‹UÃ fÂ‰BhHÂ‹UÃ°HÂ‹EÃ¸Â¿phHÂ‹}Ã¸Ã¨À€À€À€À€Ã«Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂ‹EÃ¸HÂƒxPÀ€tHÂ‹EÃ¸HÂ‹@`HÂ‰EÃ°Ã«HÃ‡EÃ°À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂ‹EÃ¸HÂƒx À€t
+HÂ‹EÃ¸Â¿@4Â‰EÃ´Ã«Ã‡EÃ´Ã¿Ã¿Ã¿Ã¿Â‹}Ã´Ã¨À€À€À€À€Ã‰ÃƒÀ€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€À€L	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_cur.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€MENUÀ€Â„ÂŽÀ€À€Â§À€À€set_current_itemÀ€4Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€3Â§À€À€Â‘xitemÀ€3FÀ€À€Â‘pÀ€LÀ€À€Ã©À€À€current_itemÀ€]FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€\Ã©À€À€Â‘xÀ€Ã¯À€À€LÀ€À€.	À€À€item_indexÀ€lÂ‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€k.	À€À€Â‘xÀ€4	À€À€À€À€_nc_tracingÀ€ÂŽÀ€À€À€À€Ã–À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_cur.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€3Ã°)(Âº#ÂIÂ±ÂrUÂ¸%1+Â¸%.À€À€called {set_current_item(%p,%p)À€called {current_item(%p)À€called {item_index(%p)À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€dÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€CÀ€À€À€À€À€À€À€À€P	À€À€XÀ€À€set_current_itemÀ€Â­À€À€current_itemÀ€Ã´À€À€item_indexÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â­À€À€À€À€À€À€P	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã½À€À€À€À€À€À€ÃšÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜
+À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€AÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€IÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ZÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€ÂºÀ€À€À€À€À€À€dÀ€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€m_item_cur.cÀ€set_current_itemÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Link_ItemsÀ€_nc_New_TopRow_and_CurrentItemÀ€current_itemÀ€_nc_retrace_itemÀ€item_indexÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿tÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â„À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¹À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿}À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â„À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂžÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â®À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‰À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã§À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿AÀ€À€À€À€À€À€À€À€À€À€À€À€5À€À€À€À€À€À€À€KÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿yÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€vÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€Ã‡À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_nam.o/   1347872991  0     0     100644  6432      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ
+À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t
+HÂ‹EÃ¸HÂ‹À€HÂ‰EÃ°Ã«HÃ‡EÃ°À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂ‹EÃ¸HÂ‹@HÂ‰EÃ°Ã«HÃ‡EÃ°À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_nam.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€Â…À€À€item_nameÀ€4ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€3Â…À€À€Â‘xÀ€Â‹À€À€À€À€ÃÀ€À€item_descriptionÀ€CÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€BÂ…À€À€Â‘xÀ€_nc_tracingÀ€ÂŽÀ€À€À€À€Â¹À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_nam.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€3Â¸%%+Â¸%&À€called {item_name(%p)À€called {item_description(%p)À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€YÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€Ã§À€À€LÀ€À€item_nameÀ€ÂÀ€À€item_descriptionÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¡À€À€À€À€À€À€Ã§À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ
+À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€3À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€SÀ€À€À€À€À€XÀ€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€À€m_item_nam.cÀ€item_nameÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_retrace_cptrÀ€item_descriptionÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿RÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â«À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€Â®À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_new.o/   1347872991  0     0     100644  10672     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸Ã‡EÃ´À€À€À€HÂ‹EÃ¸Â€8À€t6Ã¨À€À€À€À€HÂ‰ÃHÂ‹EÃ¸HÂ¶À€HÂÀ€HÂ‹Â·%À€@À€À€Â…Ã€u	Ã‡EÃ´À€À€À€À€Ã«	HÂEÃ¸HÃ¿À€Ã«C}Ã´À€Â•Ã€Â¶Ã€Ã‰ÃƒUHÂ‰Ã¥SHÂƒÃ¬(HÂ‰}Ã°HÂ‰uÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tMHÂ‹EÃ¨HÂ‰EÃ˜HÂƒ}Ã¨À€uHÂÀ€À€À€À€HÂ‰EÃ˜HÂ‹EÃ°HÂ‰EÃHÂƒ}Ã°À€uHÂÀ€À€À€À€HÂ‰EÃHÂ‹UÃ˜HÂ‹uÃHÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã°À€tHÂ‹EÃ°Â€8À€t
+HÂ‹}Ã°Ã¨Ã¿Ã¿Ã¿Â„Ã€uHÃ‡EÃ À€À€À€À€Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Ã©À€À€Â¾`À€À€À€Â¿À€À€À€Ã¨À€À€À€À€HÂ‰EÃ HÂƒ}Ã À€Â„Ã™À€À€À€HÂ‹MÃ HÂ‹À€À€À€À€HÂ‹HÂ‰HÂ‹BHÂ‰AHÂ‹BHÂ‰AHÂ‹BHÂ‰AHÂ‹B HÂ‰A HÂ‹B(HÂ‰A(HÂ‹B0HÂ‰A0HÂ‹B8HÂ‰A8HÂ‹B@HÂ‰A@HÂ‹BHHÂ‰AHHÂ‹BPHÂ‰APHÂ‹BXHÂ‰AXHÂ‹]Ã HÂ‹}Ã°Ã¨À€À€À€À€fÂ‰CHÂ‹UÃ HÂ‹EÃ°HÂ‰HÂƒ}Ã¨À€t5HÂ‹EÃ¨Â€8À€t,HÂ‹}Ã¨Ã¨CÃ¾Ã¿Ã¿Â„Ã€tHÂ‹]Ã HÂ‹}Ã¨Ã¨À€À€À€À€fÂ‰CHÂ‹UÃ HÂ‹EÃ¨HÂ‰BÃ«#HÂ‹EÃ fÃ‡@À€À€HÂ‹EÃ HÃ‡@À€À€À€À€Ã«Ã¨À€À€À€À€Ã‡À€Ã¿Ã¿Ã¿Ã¿HÂ‹}Ã Ã¨À€À€À€À€HÂƒÃ„([Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ´Ã«FHÂ‹EÃ¸HÂƒx À€tÃ¨À€À€À€À€Ã‡À€Ã¼Ã¿Ã¿Ã¿Â¿Ã¼Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ´Ã«!HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ´Â‹EÃ´Ã‰ÃƒUHÂ‰Ã¥SHÂƒÃ¬8HÂ‰}Ã°HÂ‰uÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t!HÂ‹}Ã¨Ã¨À€À€À€À€HÂ‹uÃ°HÂ‰Ã‚HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¨À€t$HÂ‹EÃ¨Â€8À€tHÂ‹}Ã¨Ã¨ÃµÃ¼Ã¿Ã¿Â„Ã€tHÂ‹}Ã¨Ã¨À€À€À€À€Â‰EÃ¤Ã«Ã‡EÃ¤À€À€À€À€HÂƒ}Ã°À€Â„ÂˆÀ€À€HÂ‹EÃ°HÂ‹Â€Â¨À€À€À€HÂ‰EÃ˜HÂ‹EÃ°Â·Â€Â´À€À€À€fÂ‰EÃ–HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€t*HÂ‹EÃ°Â¿@;EÃ¤tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃÃ©bÀ€À€HÂ‹UÃ°Â‹EÃ¤fÂ‰BÂƒ}Ã¤À€Â„Â¾À€À€À€HÂ‹]Ã°HÂ‹}Ã¨Ã¨À€À€À€À€HÂ‰ÂƒÂ¨À€À€À€HÂ‹EÃ°HÂƒÂ¸Â¨À€À€À€À€t@HÂ‹uÃ¨HÂ‹EÃ°HÂ‹Â¸Â¨À€À€À€Ã¨À€À€À€À€HÂ‹À€À€À€À€H9EÃ°Â„Â†À€À€À€HÂ‹EÃ°HÂ‹UÃ°Â·Â’Â´À€À€À€ÂƒÃŠfÂ‰ÂÂ´À€À€À€Ã«kHÂ‹UÃ°HÂ‹EÃ˜HÂ‰Â‚Â¨À€À€À€HÂ‹EÃ°HÂ‰EÃˆHÂƒ}Ã˜À€tHÂ‹}Ã˜Ã¨À€À€À€À€fÂ‰EÃ†Ã«fÃ‡EÃ†À€À€Â·EÃ†HÂ‹UÃˆfÂ‰BÃ¨À€À€À€À€Ã‡À€Ã¿Ã¿Ã¿Ã¿Â¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃÃ©ÂÀ€À€À€HÂ‹EÃ°HÇ€Â¨À€À€À€À€À€À€À€Â·EÖƒÃ Â…Ã€tHÂƒ}Ã˜À€t	HÂ‹}Ã˜Ã¨À€À€À€À€HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹}Ã°Ã¨À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã«'HÂ‹}Ã°Ã¨À€À€À€À€Ã«HÂ‹uÃ¨HÂ‹=À€À€À€À€Ã¨À€À€À€À€Â‰Ã‡Ã¨À€À€À€À€Â‰EÃÃ«Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÐ‹EÃHÂƒÃ„8[Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸Â¨À€À€À€Ã¨À€À€À€À€Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€
+À€:;I8
+À€À€'À€À€À€IÀ€À€.:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€.?:;'I@
+À€À€À€:;I
+À€À€À€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€S
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_new.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+Â†À€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€À€À€À€À€HÂ©À€À€#imenuÀ€IÃ½À€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+Ã½À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p8À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€r>À€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€Â†À€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X&À€À€,À€À€8À€À€Ã½À€À€À€>À€À€	À€À€MENUÀ€Â„Â†À€À€Â À€À€Is_Printable_StringÀ€=Ã¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VsÀ€<ÃŒÀ€À€À€Â‘xresultÀ€>Â‡À€À€À€Â‘tÀ€ÃµÀ€À€new_itemÀ€o>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VnameÀ€nÃŒÀ€À€À€Â‘pÀ€À€À€À€nÃŒÀ€À€À€Â‘hitemÀ€p>À€À€Â‘`À€.	À€À€free_itemÀ€Â¤Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€Â£>À€À€Â‘xÀ€Ã€	À€À€set_menu_markÀ€Ã…Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€Ã„Ã€	À€À€Â‘pmarkÀ€Ã„ÃŒÀ€À€À€Â‘hlÀ€ÆŽÀ€À€À€Â‘dÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€old_markÀ€Ã‘À€À€Â‘Xold_statusÀ€Ò¶À€À€À€Â‘VÀ€À€DÀ€À€
+À€À€menu_markÀ€ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€
+
+À€À€Â‘xÀ€
+À€À€DÀ€À€_nc_tracingÀ€ÂŽÀ€À€À€_nc_Default_ItemÀ€2	À€À€_nc_Default_MenuÀ€3DÀ€À€À€*À€À€À€ÂžÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_new.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€<Â¸qÂ$r-ÂÂœ+]Â¹Â€Ã³,Â«iÃ¾Â«ÂºÃ¾×œ×«ÂŽqÂ¸%rÂÂªÂÂrU1Â¸Ã•sÂ«Ã¢Ã£!Ã†Â¹ÂªÂ:Ã•:Ã¾ÂŸÃ¢0Â»Ã£ÂÂŽÂ®Â®Â«rÂ›Â¸%.À€À€called {new_item("%s", "%s")À€called {free_item(%p)À€called {set_menu_mark(%p,%s)À€called {menu_mark(%p)À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€AÂ†C
+$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂµÀ€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€AÂ†C
+$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€EÀ€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€ÂµÀ€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€\À€À€À€À€À€À€À€ÂÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€EÀ€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€IÀ€À€À€À€À€À€À€À€W
+À€À€Â À€À€new_itemÀ€ÃµÀ€À€free_itemÀ€.	À€À€set_menu_markÀ€Ã†	À€À€menu_markÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€descriptionÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X!À€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€W
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨'À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€gÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°(À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€MÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h)À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã…À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€)À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€^À€À€À€À€À€À€À€ÂµÀ€À€À€À€À€À€OÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â“À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€Â®À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃƒÀ€À€À€À€À€Â°À€À€À€À€À€À€EÀ€À€À€À€À€À€Ã‘À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã»À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€;À€À€À€À€ÃµÀ€À€À€À€À€À€aÀ€À€À€À€À€À€À€EÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_new.cÀ€Is_Printable_StringÀ€_GLOBAL_OFFSET_TABLE_À€__ctype_b_locÀ€new_itemÀ€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€callocÀ€_nc_Default_ItemÀ€strlenÀ€_nc_retrace_itemÀ€free_itemÀ€_nc_retrace_intÀ€freeÀ€set_menu_markÀ€_nc_visbufÀ€strdupÀ€strcpyÀ€_nc_Default_MenuÀ€_nc_Draw_MenuÀ€_nc_Show_MenuÀ€_nc_Calculate_Item_Length_and_WidthÀ€menu_markÀ€_nc_retrace_ptrÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‘À€À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â«À€À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¾À€À€À€À€À€À€À€À€À€À€	À€À€À€Ã½Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã²À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿&À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‘À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŠÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¹À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿"À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿6À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿LÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿\À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿qÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¤À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã„À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã–À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¤À€À€À€À€À€À€À€À€À€	À€À€À€0À€À€À€À€À€À€À€Ã®À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿mÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿}À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â§À€À€À€À€À€À€À€À€À€ À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€!À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã—À€À€À€À€À€À€	À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿@À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿PÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‚À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€#À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¦À€À€À€À€À€À€À€À€À€$À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â±À€À€À€À€À€À€À€À€À€%À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¾À€À€À€À€À€À€	À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃƒÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŠÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¤À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€	À€À€À€MÀ€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿8À€À€À€À€À€À€	À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿PÀ€À€À€À€À€À€À€À€À€'À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã•À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€I	À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Q	À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€Â†	À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€ÂŽ	À€À€À€À€À€À€À€À€À€À€À€À€ÂµÀ€À€À€À€À€À€Ãž	À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€Ã¦	À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€Â«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_opt.o/   1347872991  0     0     100644  8808      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂEÃ´Âƒ Â‹EÃ´ÂƒÃ Ã¾Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©Ã¦À€À€À€HÂƒ}Ã¸À€Â„Â¶À€À€À€HÂ‹EÃ¸Â‹@0;EÃ´Â„Â³À€À€À€HÂ‹EÃ¸HÂ‹@ HÂ‰EÃ¨HÂ‹UÃ¸Â‹EÃ´Â‰B0Â‹EÃ´ÂƒÃ Â…Ã€uHÂ‹EÃ¸Â€x:À€tHÂ‹EÃ¸Ã†@:À€HÂƒ}Ã¨À€tzHÂ‹EÃ¨Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€thHÂ‹EÃ¨Â¿PHÂ‹EÃ¨Â¿@Ã‚HÂ‹EÃ¸Â¿@8Â‰Ã‘Â¯ÃˆHÂ‹EÃ¨Â¿PHÂ‹EÃ¸Â¿@6Â‰Ã–Â¯Ã°HÂ‹EÃ¨HÂ‹x0Â‰ÃŠÃ¨À€À€À€À€HÂ‹uÃ¸HÂ‹}Ã¨Ã¨À€À€À€À€HÂ‹}Ã¨Ã¨À€À€À€À€Ã«
+HÂ‹À€À€À€À€Â‹EÃ´Â‰B0Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‹EÃ¸HÂ‰EÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Â‹EÃ´ÂƒÃ Ã¾Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã«JHÂ‹EÃ¨HÂ‰EÃ˜HÂƒ}Ã¨À€uHÂ‹À€À€À€À€HÂ‰EÃ˜HÂ‹EÃ˜HÂ‰EÃ¨HÂ‹UÃ¨Â‹EÃ´ÂƒÃ Ã·Ã#B0Â‰EÃ´Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Â‰Ã‡Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‹EÃ¸HÂ‰EÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂEÃ´Âƒ Â‹EÃ´ÂƒÃ Ã¾Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã«EHÂ‹EÃ¨HÂ‰EÃ˜HÂƒ}Ã¨À€uHÂ‹À€À€À€À€HÂ‰EÃ˜HÂ‹EÃ˜HÂ‰EÃ¨HÂ‹EÃ¨Â‹P0HÂEÃ´	Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Â‰Ã‡Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â‹x0ÂƒÃ§Ã¨À€À€À€À€Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€À€4À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€Ã³	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_opt.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€MENUÀ€Â„ÂŽÀ€À€Ã…À€À€set_item_optsÀ€7Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€6FÀ€À€Â‘xoptsÀ€6mÀ€À€Â‘tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€menuÀ€CÃ…À€À€Â‘hÀ€À€LÀ€À€'	À€À€item_opts_offÀ€bÂ‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€aFÀ€À€Â‘xoptsÀ€amÀ€À€Â‘tcitemÀ€cFÀ€À€Â‘hÀ€Â‚	À€À€item_opts_onÀ€~Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€}FÀ€À€Â‘xoptsÀ€}mÀ€À€Â‘tcitemÀ€FÀ€À€Â‘hÀ€Â»	À€À€item_optsÀ€ÂšmÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€Â™Â»	À€À€Â‘xÀ€Ã	À€À€À€À€_nc_tracingÀ€ÂŽÀ€À€À€_nc_Default_ItemÀ€2À€À€À€Ã»À€À€À€À€ÂžÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_opt.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€6Ã¢(sÂœÂ¹Â«Ã±Â¹Â:ÂÂPÂ®Ã‡r
+UÃ¢Âƒ(ÂœÂÃ¾W
+UÃ¢Âƒ(rÂœÂÃ¾Ã†WUÂ¸%-À€called {set_menu_opts(%p,%d)À€called {item_opts_off(%p,%d)À€called {item_opts_on(%p,%d)À€called {item_opts(%p)À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€Â²À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Â´À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€`À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€Ã·	À€À€XÀ€À€set_item_optsÀ€Ã‹À€À€item_opts_offÀ€'	À€À€item_opts_onÀ€Â‚	À€À€item_optsÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€Ã·	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€eÀ€À€À€À€À€À€Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€lÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€!À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€!À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ "À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8"À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â©À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€Ã•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€WÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€mÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‰À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€PÀ€À€À€À€À€À€Â²À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€ÂµÀ€À€À€À€À€Â¶À€À€À€À€À€À€`À€À€À€À€À€À€À€Â¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_opt.cÀ€set_item_optsÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€wmoveÀ€_nc_Post_ItemÀ€_nc_Show_MenuÀ€_nc_Default_ItemÀ€item_opts_offÀ€item_opts_onÀ€item_optsÀ€_nc_retrace_item_optsÀ€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿IÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿YÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿4À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿DÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿jÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‹À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂšÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¯À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¶À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€6À€À€À€À€À€À€À€=À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿SÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿cÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿~À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â£À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã™À€À€À€À€À€À€À€À€À€À€À€À€RÀ€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¹À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€À€À€À€Ã¦À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€Ã®À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€A	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€I	À€À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€Â™	À€À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€Â¡	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_top.o/   1347872991  0     0     100644  7312      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€Â„Â•À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©GÀ€À€HÂ‹EÃ¸HÂƒxPÀ€uÃ¨À€À€À€À€Ã‡À€ÃµÃ¿Ã¿Ã¿Â¿ÃµÃ¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©À€À€Âƒ}Ã´À€xHÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@)Â‰Ã;EÃ´|Ã«:Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©Ã¡À€À€À€Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©Ã„À€À€À€HÂ‹EÃ¸Â¿@h;EÃ´Â„Â›À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€t	HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‹@PHÂ‰EÃ˜HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€tHÂ‹EÃ¸Â¿@Â¯EÃ´HÂ˜HÃÃ HÂ‹UÃ˜HÃ‚HÂ‰UÃÃ«Â‹EÃ´HÂ˜HÃÃ HÂ‹UÃ˜HÃ‚HÂ‰UÃHÂ‹UÃHÂ‹HÂ‰EÃ¨HÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€HÂ‹UÃ¨Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t+HÂ‹EÃ¸HÂƒxPÀ€t HÂ‹EÃ¸HÂ‹@PHÂƒ8À€tHÂ‹EÃ¸Â¿xhÃ¨À€À€À€À€Â‰EÃ´Ã«
+Â¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ´Â‹EÃ´Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_top.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€MENUÀ€Â„ÂŽÀ€À€Â°À€À€set_top_rowÀ€6Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€5Â°À€À€Â‘xrowÀ€5Â‡À€À€À€Â‘titemÀ€7FÀ€À€Â‘hÀ€LÀ€À€Ã­À€À€top_rowÀ€`Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€_Ã­À€À€Â‘xÀ€Ã³À€À€LÀ€À€_nc_tracingÀ€ÂŽÀ€À€À€À€Ã’À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_top.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€5Ã¤(Â«Â¸ÂªÂ¹Ã°ÂºÂ¹Ã¿Â[HÃ²rUÂ¸%Ã¤ Ã†À€called {set_top_row(%p,%d)À€called {top_row(%p)À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€uÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€*À€À€À€À€À€À€À€À€	À€À€XÀ€À€set_top_rowÀ€Â¶À€À€top_rowÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€U
+À€À€À€À€À€À€/À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âˆ
+À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã 
+À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€fÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€Â›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€eÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â“À€À€À€À€À€Â½À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€m_item_top.cÀ€set_top_rowÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Link_ItemsÀ€_nc_New_TopRow_and_CurrentItemÀ€top_rowÀ€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿UÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿eÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿}À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â»À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‹À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¡À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â±À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŒÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃªÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿&À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€Ã‹À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€Ã“À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_use.o/   1347872992  0     0     100644  6872      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰B(Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹x(Ã¨À€À€À€À€Ã‰Ãƒ%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€
+À€:;I8
+À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_use.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŠÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÃ½À€À€# À€À€À€À€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+Ã½À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p8À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€r>À€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜À€À€À€À€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŠÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X&À€À€,À€À€8À€À€Ã½À€À€À€>À€À€	À€À€Â’À€À€set_item_userptrÀ€5Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€4>À€À€Â‘xÀ€À€À€À€4À€À€Â‘pÀ€ÃŽÀ€À€item_userptrÀ€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€FÃŽÀ€À€Â‘xÀ€Ã”À€À€	À€À€_nc_tracingÀ€ÂŽÀ€À€À€_nc_Default_ItemÀ€2	À€À€À€ÃŠÀ€À€À€À€ÂžÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_use.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€4Ã°)*H+Â¸%+À€À€À€À€À€called {set_item_userptr(%p,%p)À€called {item_userptr(%p)À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€^À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€
+	À€À€DÀ€À€set_item_userptrÀ€Â’À€À€item_userptrÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€userptrÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€
+	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€9À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8
+À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‚
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‚
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â”
+À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€AÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€IÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ZÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€zÀ€À€À€À€À€À€À€^À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_use.cÀ€set_item_userptrÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_Default_ItemÀ€__errno_locationÀ€_nc_retrace_intÀ€item_userptrÀ€_nc_retrace_void_ptrÀ€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿KÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿dÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿tÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‰À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â§À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â½À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã’À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Ã»À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€Â„À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€Â«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_val.o/   1347872992  0     0     100644  7264      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸@ÂˆuÃ·HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ¶UÃ·HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€Â„Ã©À€À€À€HÂ‹EÃ¸HÂ‹@ HÂ‰EÃ¨HÂ‹EÃ¸Â‹@0ÂƒÃ Â…Ã€tHÂƒ}Ã¨À€t0HÂ‹Eè‹€Â°À€À€À€ÂƒÃ Â…Ã€uÃ«Ã¨À€À€À€À€Ã‡À€Ã´Ã¿Ã¿Ã¿Â¿Ã´Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©Â¾À€À€À€HÂ‹EÃ¸Â¶P:Â¶EÃ·9Ã‚Â„Â’À€À€À€HÂ‹EÃ¸Â¶UÃ·Â…Ã’Â•ÂˆP:HÂƒ}Ã¨À€t{HÂ‹EÃ¨Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tiHÂ‹EÃ¨Â¿PHÂ‹EÃ¨Â¿@Ã‚HÂ‹EÃ¸Â¿@8Â‰Ã‘Â¯ÃˆHÂ‹EÃ¨Â¿PHÂ‹EÃ¸Â¿@6Â‰Ã–Â¯Ã°HÂ‹EÃ¨HÂ‹x0Â‰ÃŠÃ¨À€À€À€À€HÂ‹uÃ¸HÂ‹}Ã¨Ã¨À€À€À€À€HÂ‹}Ã¨Ã¨À€À€À€À€Ã«HÂ‹À€À€À€À€Â¶EÃ·ÂˆB:Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â¶@:Â…Ã€Â•Ã€Â¶Ã¸Ã¨À€À€À€À€Â¶Ã€Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€-	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_val.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€MENUÀ€Â„ÂŽÀ€À€ÂµÀ€À€set_item_valueÀ€9Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€8FÀ€À€Â‘xvalueÀ€8Ã¢À€À€Â‘wmenuÀ€:ÂµÀ€À€Â‘hÀ€LÀ€À€ÃµÀ€À€item_valueÀ€cÃ¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€bÃµÀ€À€Â‘xÀ€Ã»À€À€À€À€_nc_tracingÀ€ÂŽÀ€À€À€_nc_Default_ItemÀ€2À€À€À€Ã™À€À€À€À€ÂžÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_val.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€8Ã²)Â«Â¹(Â¹;Ã°sPÂ¯Ã•r
+UÂ¸%6À€called {set_item_value(%p,%d)À€called {item_value(%p)À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€iÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€1	À€À€XÀ€À€set_item_valueÀ€Â»À€À€item_valueÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X
+À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°
+À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€lÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€Â·À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€3À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â›À€À€À€À€À€XÀ€À€À€À€À€À€iÀ€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_val.cÀ€set_item_valueÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€wmoveÀ€_nc_Post_ItemÀ€_nc_Show_MenuÀ€_nc_Default_ItemÀ€item_valueÀ€_nc_retrace_boolÀ€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿yÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‰À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿'À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿0À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿<À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿LÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â›À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¸À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Ã“À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Â«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_vis.o/   1347872992  0     0     100644  6080      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€P
+À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€teHÂ‹EÃ¸HÂ‹@ HÂ‰EÃ°HÂ…Ã€tTHÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tBHÂ‹EÃ°Â¿PhHÂ‹EÃ°Â¿@Ã‚HÂ‹EÃ¸Â¿@69Ã‚~$HÂ‹EÃ¸HÂ‹UÃ°Â·@6f;Bh|Â¿À€À€À€Ã¨À€À€À€À€Â¶	EÃ¬Ã«Â¿À€À€À€À€Ã¨À€À€À€À€Â¶	EÃ¬Â‹EÃ¬Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€À€Ã‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_item_vis.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã—À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŽÀ€À€À€WINDOWÀ€UKÀ€À€	JÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¿À€À€À€#À€
+_curxÀ€ÂˆÃ¿À€À€À€#
+_maxyÀ€Â‹Ã¿À€À€À€#
+_maxxÀ€Â‹Ã¿À€À€À€#
+_begyÀ€ÂŒÃ¿À€À€À€#
+_begxÀ€ÂŒÃ¿À€À€À€#
+
+_flagsÀ€ÂŽÃ¿À€À€À€#
+_attrsÀ€Â‘JÀ€À€#
+_bkgdÀ€Â’.À€À€#
+_notimeoutÀ€Â•Ã¢À€À€#
+_clearÀ€Â–Ã¢À€À€#
+_leaveokÀ€Â—Ã¢À€À€#
+_scrollÀ€Â˜Ã¢À€À€#
+_idlokÀ€Â™Ã¢À€À€#
+_idcokÀ€ÂšÃ¢À€À€#
+_immedÀ€Â›Ã¢À€À€#
+_syncÀ€ÂœÃ¢À€À€#
+_use_keypadÀ€ÂÃ¢À€À€# 
+_delayÀ€ÂžÂ‡À€À€À€#$
+_lineÀ€Â GÀ€À€#(
+_regtopÀ€Â£Ã¿À€À€À€#0
+_regbottomÀ€Â¤Ã¿À€À€À€#2
+_parxÀ€Â§Â‡À€À€À€#4
+_paryÀ€Â¨Â‡À€À€À€#8
+_parentÀ€Â©MÀ€À€#@
+_padÀ€Â±YÀ€À€#H
+_yoffsetÀ€Â³Ã¿À€À€À€#TÀ€attr_tÀ€W.À€À€	Ã¢À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¿À€À€À€#À€
+_pad_xÀ€Â®Ã¿À€À€À€#
+_pad_topÀ€Â¯Ã¿À€À€À€#
+_pad_leftÀ€Â¯Ã¿À€À€À€#
+_pad_bottomÀ€Â°Ã¿À€À€À€#
+_pad_rightÀ€Â°Ã¿À€À€À€#
+À€_BoolÀ€	GÀ€À€ldatÀ€Â„
+textÀ€VSÀ€À€#À€
+firstcharÀ€WÃ¿À€À€À€#
+lastcharÀ€XÃ¿À€À€À€#
+
+oldindexÀ€YÃ¿À€À€À€#À€Ã«À€À€<À€À€.À€À€Menu_OptionsÀ€1Â‡À€À€À€Item_OptionsÀ€2Â‡À€À€À€Â©À€À€CstrÀ€AÃŒÀ€À€À€#À€lengthÀ€BÂ¶À€À€À€#À€TEXTÀ€CÂÀ€À€
+ÂŽÀ€À€tagITEMÀ€`FnameÀ€GÂ©À€À€#À€descriptionÀ€HÂ©À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KmÀ€À€#0indexÀ€LÃ¿À€À€À€#4yÀ€MÃ¿À€À€À€#6xÀ€NÃ¿À€À€À€#8valueÀ€OÃ¢À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¿À€À€À€#À€widthÀ€]Ã¿À€À€À€#rowsÀ€^Ã¿À€À€À€#colsÀ€_Ã¿À€À€À€#frowsÀ€`Ã¿À€À€À€#fcolsÀ€aÃ¿À€À€À€#
+arowsÀ€bÃ¿À€À€À€#namelenÀ€cÃ¿À€À€À€#desclenÀ€dÃ¿À€À€À€#marklenÀ€eÃ¿À€À€À€#itemlenÀ€fÃ¿À€À€À€#spc_descÀ€gÃ¿À€À€À€#spc_colsÀ€hÃ¿À€À€À€#spc_rowsÀ€iÃ¿À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¿À€À€À€#(winÀ€lMÀ€À€#0subÀ€mMÀ€À€#8userwinÀ€nMÀ€À€#@usersubÀ€oMÀ€À€#HitemsÀ€p@À€À€#PnitemsÀ€qÃ¿À€À€À€#XcuritemÀ€rFÀ€À€#`toprowÀ€sÃ¿À€À€À€#hforeÀ€t.À€À€#lbackÀ€u.À€À€#pgreyÀ€v.À€À€#tpadÀ€wÃŸÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂYÀ€À€#Â°statusÀ€Â‚Â¶À€À€À€#Â´À€ÂŽÀ€À€ÂµÀ€À€ITEMÀ€VÂµÀ€À€Menu_HookÀ€X.À€À€4À€À€@À€À€À€À€À€FÀ€À€À€À€MENUÀ€Â„ÂŽÀ€À€Â£À€À€item_visibleÀ€6Ã¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemÀ€5Â£À€À€Â‘xmenuÀ€7Â®À€À€Â‘pÀ€Â©À€À€À€À€LÀ€À€_nc_tracingÀ€ÂŽÀ€À€À€À€Â²À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_item_vis.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€5Âº%ZÃ°À€called {item_visible(%p)À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‹À€À€XÀ€À€item_visibleÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã´À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€Ã‹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â»
+À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€SÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€eÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€eÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€wÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€EÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_item_vis.cÀ€item_visibleÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_retrace_boolÀ€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‘À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â£À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€rÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_items.o/      1347872992  0     0     100644  7544      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂƒ}Ã°À€t'HÂ‹EÃ°HÂƒ8À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã©Â–À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«jHÂ‹EÃ¸HÂƒxPÀ€t	HÂ‹}Ã¸Ã¨À€À€À€À€HÂƒ}Ã°À€t+HÂ‹uÃ°HÂ‹}Ã¸Ã¨À€À€À€À€Â„Ã€uÃ¨À€À€À€À€Ã‡À€Ã¼Ã¿Ã¿Ã¿Â¿Ã¼Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«$HÂ‹UÃ¸HÂ‹EÃ°HÂ‰BPÃ¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂ‹EÃ¸HÂ‹@PHÂ‰EÃ°Ã«HÃ‡EÃ°À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t
+HÂ‹EÃ¸Â¿@XÂ‰EÃ´Ã«Ã‡EÃ´Ã¿Ã¿Ã¿Ã¿Â‹}Ã´Ã¨À€À€À€À€Ã‰Ãƒ%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€À€;	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_items.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€ÃÀ€À€À€Ã”À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã”À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂ‹À€À€À€WINDOWÀ€UHÀ€À€	GÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¼À€À€À€#À€
+_curxÀ€ÂˆÃ¼À€À€À€#
+_maxyÀ€Â‹Ã¼À€À€À€#
+_maxxÀ€Â‹Ã¼À€À€À€#
+_begyÀ€ÂŒÃ¼À€À€À€#
+_begxÀ€ÂŒÃ¼À€À€À€#
+
+_flagsÀ€ÂŽÃ¼À€À€À€#
+_attrsÀ€Â‘GÀ€À€#
+_bkgdÀ€Â’+À€À€#
+_notimeoutÀ€Â•ÃŸÀ€À€#
+_clearÀ€Â–ÃŸÀ€À€#
+_leaveokÀ€Â—ÃŸÀ€À€#
+_scrollÀ€Â˜ÃŸÀ€À€#
+_idlokÀ€Â™ÃŸÀ€À€#
+_idcokÀ€ÂšÃŸÀ€À€#
+_immedÀ€Â›ÃŸÀ€À€#
+_syncÀ€ÂœÃŸÀ€À€#
+_use_keypadÀ€ÂÃŸÀ€À€# 
+_delayÀ€ÂžÂ„À€À€À€#$
+_lineÀ€Â DÀ€À€#(
+_regtopÀ€Â£Ã¼À€À€À€#0
+_regbottomÀ€Â¤Ã¼À€À€À€#2
+_parxÀ€Â§Â„À€À€À€#4
+_paryÀ€Â¨Â„À€À€À€#8
+_parentÀ€Â©JÀ€À€#@
+_padÀ€Â±VÀ€À€#H
+_yoffsetÀ€Â³Ã¼À€À€À€#TÀ€attr_tÀ€W+À€À€	ÃŸÀ€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¼À€À€À€#À€
+_pad_xÀ€Â®Ã¼À€À€À€#
+_pad_topÀ€Â¯Ã¼À€À€À€#
+_pad_leftÀ€Â¯Ã¼À€À€À€#
+_pad_bottomÀ€Â°Ã¼À€À€À€#
+_pad_rightÀ€Â°Ã¼À€À€À€#
+À€_BoolÀ€	DÀ€À€ldatÀ€Â„
+textÀ€VPÀ€À€#À€
+firstcharÀ€WÃ¼À€À€À€#
+lastcharÀ€XÃ¼À€À€À€#
+
+oldindexÀ€YÃ¼À€À€À€#À€Ã¨À€À€9À€À€+À€À€Menu_OptionsÀ€1Â„À€À€À€Item_OptionsÀ€2Â„À€À€À€Â¦À€À€CstrÀ€AÃ‰À€À€À€#À€lengthÀ€BÂ³À€À€À€#À€TEXTÀ€C~À€À€
+Â‹À€À€tagITEMÀ€`FnameÀ€GÂ¦À€À€#À€descriptionÀ€HÂ¦À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KjÀ€À€#0indexÀ€LÃ¼À€À€À€#4yÀ€MÃ¼À€À€À€#6xÀ€NÃ¼À€À€À€#8valueÀ€OÃŸÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¼À€À€À€#À€widthÀ€]Ã¼À€À€À€#rowsÀ€^Ã¼À€À€À€#colsÀ€_Ã¼À€À€À€#frowsÀ€`Ã¼À€À€À€#fcolsÀ€aÃ¼À€À€À€#
+arowsÀ€bÃ¼À€À€À€#namelenÀ€cÃ¼À€À€À€#desclenÀ€dÃ¼À€À€À€#marklenÀ€eÃ¼À€À€À€#itemlenÀ€fÃ¼À€À€À€#spc_descÀ€gÃ¼À€À€À€#spc_colsÀ€hÃ¼À€À€À€#spc_rowsÀ€iÃ¼À€À€À€#patternÀ€j	À€À€# pindexÀ€kÃ¼À€À€À€#(winÀ€lJÀ€À€#0subÀ€mJÀ€À€#8userwinÀ€nJÀ€À€#@usersubÀ€oJÀ€À€#HitemsÀ€p=À€À€#PnitemsÀ€qÃ¼À€À€À€#XcuritemÀ€rCÀ€À€#`toprowÀ€sÃ¼À€À€À€#hforeÀ€t+À€À€#lbackÀ€u+À€À€#pgreyÀ€v+À€À€#tpadÀ€wÃœÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€	À€À€#Â¨optÀ€ÂVÀ€À€#Â°statusÀ€Â‚Â³À€À€À€#Â´À€Â‹À€À€Â²À€À€ITEMÀ€VÂ²À€À€Menu_HookÀ€X+À€À€1À€À€=À€À€À€À€À€CÀ€À€À€À€MENUÀ€Â„Â‹À€À€Â£À€À€set_menu_itemsÀ€9Â„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€8Â£À€À€Â‘xitemsÀ€8=À€À€Â‘pÀ€IÀ€À€Ã£À€À€menu_itemsÀ€Y=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€XÃ£À€À€Â‘xÀ€Ã©À€À€IÀ€À€(	À€À€item_countÀ€iÂ„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€hÃ£À€À€Â‘xÀ€_nc_tracingÀ€Â‹À€À€À€À€ÃŽÀ€À€À€À€ÂŒÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_items.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€8Ã°)rÂ¹ÂÂªÂsÃ¾ÂÂ¸rUÂ¸%&
++Â¸%#À€called {set_menu_items(%p,%p)À€called {menu_items(%p)À€called {item_count(%p)À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€YÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€VÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€?	À€À€UÀ€À€set_menu_itemsÀ€Â©À€À€menu_itemsÀ€Ã®À€À€item_countÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¥À€À€À€À€À€À€?	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€À€À€À€Ã’À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¶À€À€À€À€À€À€LÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€H
+À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€
+À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€CÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â«À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€Â·À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€eÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€	À€À€À€À€À€À€YÀ€À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€bÀ€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€m_items.cÀ€set_menu_itemsÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Disconnect_ItemsÀ€_nc_Connect_ItemsÀ€menu_itemsÀ€_nc_retrace_item_ptrÀ€item_countÀ€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿RÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿bÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‘À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‡À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€6À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿\À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿qÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â…À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â²À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â­À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã‰À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_new.o/        1347872992  0     0     100644  13536     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â &À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Ã‡EÃ´Ã¿Ã¿Ã¿Ã¿Â¾Â¸À€À€À€Â¿À€À€À€Ã¨À€À€À€À€HÂ‰EÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ¸HÂ‹À€À€À€À€HÂ‹0HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¨À€Â„Â‹À€À€À€HÂ‹EÃ¨HÂ‹À€À€À€À€HÂ‰Ã‡HÂ‰ÖºÂ¸À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¨fÇ€Â´À€À€À€À€À€HÂ‹UÃ¨HÂ‹EÃ¨Â·@fÂ‰BHÂ‹UÃ¨HÂ‹EÃ¨Â·@
+fÂ‰BHÂƒ}Ã¸À€t<HÂ‹EÃ¸HÂƒ8À€t2HÂ‹uÃ¸HÂ‹}Ã¨Ã¨À€À€À€À€Â„Ã€uÃ‡EÃ´ÃµÃ¿Ã¿Ã¿HÂ‹}Ã¨Ã¨À€À€À€À€HÃ‡EÃ¨À€À€À€À€Ã«Ã‡EÃ´À€À€À€À€HÂƒ}Ã¨À€u
+Ã¨À€À€À€À€HÂ‰Â‹EÃ´Â‰HÂ‹}Ã¨Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ´Ã©Â‘À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ´Ã«eHÂ‹EÃ¸HÂƒxPÀ€t	HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹EÃ¸HÂƒÂ¸Â¨À€À€À€À€tHÂ‹EÃ¸HÂ‹Â¸Â¨À€À€À€Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ´Â‹EÃ´Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€ 4À€:;I?<À€À€À€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_new.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â‚À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã“À€À€À€Ã˜À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂoÀ€À€À€__off64_tÀ€ÂoÀ€À€À€Ã˜À€À€À€long long unsigned intÀ€FILEÀ€.[À€À€Â©À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â‚À€À€À€#À€	_IO_read_ptrÀ€-À€À€#	_IO_read_endÀ€-À€À€#	_IO_read_baseÀ€-À€À€#	_IO_write_baseÀ€-À€À€# 	_IO_write_ptrÀ€-À€À€#(	_IO_write_endÀ€-À€À€#0	_IO_buf_baseÀ€-À€À€#8	_IO_buf_endÀ€-À€À€#@	_IO_save_baseÀ€-À€À€#H	_IO_backup_baseÀ€-À€À€#P	_IO_save_endÀ€-À€À€#X	_markersÀ€ÃºÀ€À€#`	_chainÀ€À€À€À€#h	_filenoÀ€Â‚À€À€À€#p	_flags2À€#Â‚À€À€À€#t	_old_offsetÀ€%
+À€À€#x	_cur_columnÀ€)Â·À€À€À€#Â€	_vtable_offsetÀ€*Ã±À€À€À€#Â‚	_shortbufÀ€+À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>3À€À€#Â˜	__pad2À€?3À€À€#Â 	_modeÀ€AÂ‚À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­ÃºÀ€À€_IO_markerÀ€Â³_nextÀ€Â´ÃºÀ€À€#À€_sbufÀ€ÂµÀ€À€À€#_posÀ€Â¹Â‚À€À€À€#À€Â·À€À€[À€À€
+À€À€Ã˜À€À€À€Â°À€À€À€À€À€Â©À€À€
+,À€À€Ã˜À€À€À€Â°À€À€À€+À€zÀ€À€triesÀ€Ã¥childÀ€Ã¦zÀ€À€#À€siblingÀ€Ã§zÀ€À€#chÀ€Ã¨Ã À€À€À€#valueÀ€Ã©Â·À€À€À€#À€,À€À€TRIESÀ€Ã«,À€À€Ã»À€À€redÀ€Ã¿À€À€À€#À€greenÀ€Ã¿À€À€À€#blueÀ€Ã¿À€À€À€#	rÀ€À€À€À€À€#	gÀ€À€À€À€À€#	bÀ€À€À€À€À€#
+	initÀ€Â‚À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂ‰À€À€À€mmask_tÀ€Â{À€À€À€SCREENÀ€T7À€À€tÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â‚À€À€À€#À€	_ofpÀ€Â“|À€À€#	_setbufÀ€Â”-À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â‚À€À€À€#	_termÀ€ÂšvÀ€À€# 	_saved_ttyÀ€Â›Â¬À€À€#(	_linesÀ€ÂœÀ€À€À€#d	_columnsÀ€ÂÀ€À€À€#f	_lines_availÀ€ÂŸÀ€À€À€#h	_topstolenÀ€Â À€À€À€#j	_curscrÀ€Â¢Â€À€À€#p	_newscrÀ€Â£Â€À€À€#x	_stdscrÀ€Â¤Â€À€À€#Â€	_keytryÀ€ÂªÂ¨À€À€#Âˆ	_key_okÀ€Â«Â¨À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â®À€À€#Âœ	_fifoheadÀ€Â±À€À€À€#Ã€	_fifotailÀ€Â²À€À€À€#Ã‚	_fifopeekÀ€Â³À€À€À€#Ã„	_fifoholdÀ€Â´À€À€À€#Ã†	_endwinÀ€Â¶Â‚À€À€À€#Ãˆ	_current_attrÀ€Â·PÀ€À€#Ã	_coloronÀ€Â¸Â‚À€À€À€#Ã˜	_color_defsÀ€Â¹Â‚À€À€À€#Ãœ	_cursorÀ€ÂºÂ‚À€À€À€#Ã 	_cursrowÀ€Â»Â‚À€À€À€#Ã¤	_curscolÀ€Â¼Â‚À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â‚À€À€À€#Ã°	_rawÀ€Â¿Â‚À€À€À€#Ã´	_cbreakÀ€Ã€Â‚À€À€À€#Ã¸	_echoÀ€Ã‚Â‚À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ‚À€À€À€#Â€	_slkÀ€Ã„Â¾À€À€#Âˆ	slk_formatÀ€Ã…Â‚À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ‚À€À€À€#Â˜	_cr_costÀ€Ã‹Â‚À€À€À€#Âœ	_cup_costÀ€ÃŒÂ‚À€À€À€#Â 	_home_costÀ€ÃÂ‚À€À€À€#Â¤	_ll_costÀ€ÃŽÂ‚À€À€À€#Â¨	_cub1_costÀ€Ã“Â‚À€À€À€#Â¬	_cuf1_costÀ€Ã”Â‚À€À€À€#Â°	_cud1_costÀ€Ã•Â‚À€À€À€#Â´	_cuu1_costÀ€Ã–Â‚À€À€À€#Â¸	_cub_costÀ€Ã—Â‚À€À€À€#Â¼	_cuf_costÀ€Ã˜Â‚À€À€À€#Ã€	_cud_costÀ€Ã™Â‚À€À€À€#Ã„	_cuu_costÀ€ÃšÂ‚À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â‚À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ‚À€À€À€#Ã	_ed_costÀ€ÃžÂ‚À€À€À€#Ã”	_el_costÀ€ÃŸÂ‚À€À€À€#Ã˜	_el1_costÀ€Ã Â‚À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â‚À€À€À€#Ã 	_ich1_costÀ€Ã¢Â‚À€À€À€#Ã¤	_dch_costÀ€Ã£Â‚À€À€À€#Ã¨	_ich_costÀ€Ã¤Â‚À€À€À€#Ã¬	_ech_costÀ€Ã¥Â‚À€À€À€#Ã°	_rep_costÀ€Ã¦Â‚À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â‚À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â‚À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â‚À€À€À€#Â€	_inline_costÀ€ÃªÂ‚À€À€À€#Â„	_smir_costÀ€Ã«Â‚À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â‚À€À€À€#ÂŒ	_ip_costÀ€Ã­Â‚À€À€À€#Â	_address_cursorÀ€Ã¯-À€À€#Â˜	_scrollingÀ€Ã±Â‚À€À€À€#Â 	_color_tableÀ€Ã´Ã„À€À€#Â¨	_color_countÀ€ÃµÂ‚À€À€À€#Â°	_color_pairsÀ€Ã¶ÃŠÀ€À€#Â¸	_pair_countÀ€Ã·Â‚À€À€À€#Ã€	_pair_limitÀ€Ã¸Â‚À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â‚À€À€À€#ÃŒ	_default_bgÀ€Ã½Â‚À€À€À€#Ã	_default_pairsÀ€Ã¾Â‚À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€PÀ€À€#Ã¨	_screen_acs_mapÀ€ÃÀ€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€sÀ€À€#Â€	_maxclickÀ€Â‚À€À€À€#Â„	_mouse_eventÀ€Ã¦À€À€#Âˆ	_mouse_inlineÀ€Ã¦À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â‚À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#-À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%)À€À€#Âˆ
+	_resizeÀ€PDÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ±À€À€#Â¸
+	oldhashÀ€]JÀ€À€#Ã€
+	newhashÀ€]JÀ€À€#Ãˆ
+	hashtabÀ€^PÀ€À€#Ã
+	hashtab_lenÀ€_Â‚À€À€À€#Ã˜
+	_oldnum_listÀ€`Â™À€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ‚À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ†À€À€#Ã°
+	_legacy_codingÀ€fÂ‚À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ‚À€À€#Ã¼
+	tracemse_bufÀ€vVÀ€À€#Â¤	jumpÀ€|Â†À€À€#Âˆ	rippedoffÀ€~Â’À€À€#Â	rspÀ€Â¢À€À€#ÂˆÀ€WINDOWÀ€UÂƒÀ€À€Â‚À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€À€#À€	_curxÀ€ÂˆÀ€À€À€#	_maxyÀ€Â‹À€À€À€#	_maxxÀ€Â‹À€À€À€#	_begyÀ€ÂŒÀ€À€À€#	_begxÀ€ÂŒÀ€À€À€#
+	_flagsÀ€ÂŽÀ€À€À€#	_attrsÀ€Â‘Â‚À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ‚À€À€À€#$	_lineÀ€Â zÀ€À€#(	_regtopÀ€Â£À€À€À€#0	_regbottomÀ€Â¤À€À€À€#2	_parxÀ€Â§Â‚À€À€À€#4	_paryÀ€Â¨Â‚À€À€À€#8	_parentÀ€Â©Â€À€À€#@	_padÀ€Â±Â‘À€À€#H	_yoffsetÀ€Â³À€À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€À€#À€	_pad_xÀ€Â®À€À€À€#	_pad_topÀ€Â¯À€À€À€#	_pad_leftÀ€Â¯À€À€À€#	_pad_bottomÀ€Â°À€À€À€#	_pad_rightÀ€Â°À€À€À€#
+À€_BoolÀ€zÀ€À€ldatÀ€Â„	textÀ€VPÀ€À€#À€	firstcharÀ€WÀ€À€À€#	lastcharÀ€XÀ€À€À€#
+À€À€À€À€YÀ€À€À€#À€#À€À€tÀ€À€NCURSES_OUTCÀ€Â›À€À€Â¡À€À€Â±À€À€Â‚À€À€À€Â‚À€À€À€À€(À€À€À€À€'	idÀ€#À€À€À€#À€	xÀ€$Â‚À€À€À€#	yÀ€$Â‚À€À€À€#	zÀ€$Â‚À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'Â·À€À€sÀ€À€panelhookÀ€
+6top_panelÀ€
+7{À€À€#À€bottom_panelÀ€
+8{À€À€#stdscr_pseudo_panelÀ€
+9{À€À€#À€panelÀ€sÀ€À€cc_tÀ€	Ã À€À€À€speed_tÀ€	Â‰À€À€À€tcflag_tÀ€	Â‰À€À€À€KÀ€À€termiosÀ€<	c_iflagÀ€	 ÂœÀ€À€#À€c_oflagÀ€	!ÂœÀ€À€#c_cflagÀ€	"ÂœÀ€À€#c_lflagÀ€	#ÂœÀ€À€#c_lineÀ€	$ÂÀ€À€#c_ccÀ€	%KÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+[À€À€ÂÀ€À€Â°À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦-À€À€#À€	str_tableÀ€Â§-À€À€#	BooleansÀ€Â¨-À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ“À€À€# 	ext_str_tableÀ€Â­-À€À€#(	ext_NamesÀ€Â®Â“À€À€#0	num_BooleansÀ€Â°Â·À€À€À€#8	num_NumbersÀ€Â±Â·À€À€À€#:	num_StringsÀ€Â²Â·À€À€À€#<	ext_BooleansÀ€Â´Â·À€À€À€#>	ext_NumbersÀ€ÂµÂ·À€À€À€#@	ext_StringsÀ€Â¶Â·À€À€À€#BÀ€À€À€À€-À€À€TERMTYPEÀ€Â¹[À€À€+À€À€termÀ€ÃÂ»	typeÀ€Â¼Â™À€À€#À€	FiledesÀ€Â½À€À€À€#H	OttybÀ€Â¾Â¬À€À€#L	NttybÀ€Â¿Â¬À€À€#Âˆ	_baudrateÀ€Ã€Â‚À€À€À€#Ã„	_termnameÀ€Ã-À€À€#ÃˆÀ€TERMINALÀ€Ã‚ÂªÀ€À€colorpair_tÀ€BÂ‰À€À€À€À€À€sÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iVÀ€À€Ã­À€À€s	hashvalÀ€p{À€À€À€#À€	oldcountÀ€qÂ‚À€À€À€#	newcountÀ€qÂ‚À€À€À€#À€À€À€À€rÂ‚À€À€À€#	newindexÀ€rÂ‚À€À€À€#À€HASHMAPÀ€sÂ…À€À€eÀ€À€Â„	ent_textÀ€-À€À€#À€	form_textÀ€Â€-À€À€#	ent_xÀ€ÂÂ‚À€À€À€#	dirtyÀ€Â‚Ã˜À€À€À€#	visibleÀ€ÂƒÃ˜À€À€À€#À€slk_entÀ€Â„Ã½À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰Â€À€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€À€#	labcntÀ€ÂŒÀ€À€À€#	maxlenÀ€ÂÀ€À€À€#	attrÀ€ÂŽÀ€À€# À€eÀ€À€JÀ€À€Â—	winÀ€Â”Â€À€À€#À€	lineÀ€Â•Â‚À€À€À€#	hookÀ€Â–_À€À€#À€_À€À€Â‚À€À€À€Â€À€À€Â‚À€À€À€À€JÀ€À€ripoff_tÀ€Â—À€À€+À€À€OÀ€À€
+Â’À€À€Ã˜À€À€À€Â°À€À€À€'À€
+Â¢À€À€eÀ€À€Â°À€À€À€À€eÀ€À€Â€À€À€
+Â¾À€À€Â‚À€À€À€Â°À€À€À€ÂˆÀ€uÀ€À€Ã»À€À€<À€À€À€À€Ã¦À€À€À€À€Â±À€À€À€Ã–À€À€À€À€À€À€Â±À€À€Â‚À€À€À€À€Ã¬À€À€À€À€Â±À€À€À€À€À€
+)À€À€À€À€Â°À€À€À€À€À€À€DÀ€À€Â‚À€À€À€Â‚À€À€À€Â‚À€À€À€À€/À€À€{À€À€À€Ã­À€À€
+gÀ€À€Ã˜À€À€À€Â°À€À€À€aÀ€Menu_OptionsÀ€1Â‚À€À€À€Item_OptionsÀ€2Â‚À€À€À€Â·À€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂ·À€À€À€#À€TEXTÀ€CÂÀ€À€ÂœÀ€À€tagITEMÀ€`FnameÀ€GÂ·À€À€#À€descriptionÀ€HÂ·À€À€#imenuÀ€IÀ€À€# userptrÀ€J3À€À€#(optÀ€K{À€À€#0indexÀ€LÀ€À€À€#4yÀ€MÀ€À€À€#6xÀ€NÀ€À€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€À€#À€widthÀ€]À€À€À€#rowsÀ€^À€À€À€#colsÀ€_À€À€À€#frowsÀ€`À€À€À€#fcolsÀ€aÀ€À€À€#
+arowsÀ€bÀ€À€À€#namelenÀ€cÀ€À€À€#desclenÀ€dÀ€À€À€#marklenÀ€eÀ€À€À€#itemlenÀ€fÀ€À€À€#spc_descÀ€gÀ€À€À€#spc_colsÀ€hÀ€À€À€#spc_rowsÀ€iÀ€À€À€#patternÀ€j-À€À€# pindexÀ€kÀ€À€À€#(winÀ€lÂ€À€À€#0subÀ€mÂ€À€À€#8userwinÀ€nÂ€À€À€#@usersubÀ€oÂ€À€À€#HitemsÀ€pNÀ€À€#PnitemsÀ€qÀ€À€À€#XcuritemÀ€rTÀ€À€#`toprowÀ€sÀ€À€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ À€À€À€#xmenuinitÀ€y+À€À€#Â€menutermÀ€z+À€À€#ÂˆiteminitÀ€{+À€À€#ÂitemtermÀ€|+À€À€#Â˜userptrÀ€~3À€À€#Â markÀ€-À€À€#Â¨optÀ€ÂgÀ€À€#Â°statusÀ€Â‚Â·À€À€À€#Â´À€ÂœÀ€À€ÃƒÀ€À€ITEMÀ€VÃƒÀ€À€Menu_HookÀ€X<À€À€BÀ€À€NÀ€À€À€À€À€TÀ€À€À€À€MENUÀ€Â„ÂœÀ€À€Â¼À€À€new_menuÀ€7Â¼À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VitemsÀ€6NÀ€À€Â‘xerrÀ€8Â‚À€À€À€Â‘tmenuÀ€9Â¼À€À€Â‘hÀ€ZÀ€À€Ã»À€À€free_menuÀ€|Â‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€{Â¼À€À€Â‘xÀ€_nc_tracingÀ€Â‰À€À€À€SPÀ€Ã‹Â±À€À€ _nc_Default_MenuÀ€3ZÀ€À€À€CÀ€À€À€Ã¾À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_new.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€6Â¸r-/Â«ÂœÃ†Ã°Ã·Ã¿Ã¿rÂŽÂžurÇŽ"+Â¸%rÂ¹ÂÂªÂÃ¢Ã±ÂŽrÀ€called {new_menu(%p,%p)À€called {free_menu(%p)À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã«À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€Ã«À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€)À€À€À€À€À€À€À€À€9À€À€fÀ€À€new_menuÀ€Ã‚À€À€free_menuÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â0À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€9À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸2À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#À€À€À€À€À€À€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°3À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€O$À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€$À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜$À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h4À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0%À€À€À€À€À€À€-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€]%À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°4À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â%À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â±%À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â±%À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãƒ%À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã ,À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ/À€À€À€À€À€À€Ã†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€;À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€WÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—À€À€À€À€À€
+À€À€À€À€À€À€Ã«À€À€À€À€À€À€À€Â¡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_new.cÀ€new_menuÀ€_GLOBAL_OFFSET_TABLE_À€callocÀ€_nc_tracingÀ€SPÀ€_tracefÀ€_nc_Default_MenuÀ€memcpyÀ€_nc_Connect_ItemsÀ€freeÀ€__errno_locationÀ€_nc_retrace_menuÀ€free_menuÀ€_nc_retrace_intÀ€_nc_Disconnect_ItemsÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿=À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿GÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿QÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‚À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã–À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã³À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿CÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿SÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‚À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â›À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‹À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã™À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã©À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€`À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€ÃŠÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€Ã™À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€Ã¡À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_opts.o/       1347872992  0     0     100644  8904      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂEÃ´Âƒ ?Â‹EÃ´ÂƒÃ Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©$À€À€HÂƒ}Ã¸À€Â„Ã±À€À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã©ÃªÀ€À€À€Â‹EÃ´ÂƒÃ HÂ‹UÃ¸Â‹Â’Â°À€À€À€ÂƒÃ¢9ÃtOHÂ‹EÃ¸HÂƒxPÀ€tDHÂ‹EÃ¸HÂ‹@PHÂƒ8À€t6HÂ‹EÃ¸fÃ‡@hÀ€À€HÂ‹UÃ¸HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰B`HÂ‹EÃ¸Â¿P
+HÂ‹EÃ¸Â¿pHÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸Â‹UÃ´Â‰ÂÂ°À€À€À€Â‹EÃ´ÂƒÃ Â…Ã€t0HÂ‹EÃ¸HÂ‹@PHÂ‰EÃ¨HÂ…Ã€tHÂ‹EÃ¨HÂƒ8À€tHÂ‹EÃ¨HÂ‹À€Ã†@:À€HÂEÃ¨HÂƒÀ€Ã«Ã¡Â‹EÃ´ÂƒÃ Â…Ã€tHÂ‹}Ã¸Ã¨À€À€À€À€Ã«HÂ‹À€À€À€À€Â‹EÃ´Â‰Â‚Â°À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‹EÃ¸HÂ‰EÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂEÃ´Âƒ ?Â‹EÃ´ÂƒÃ Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã«JHÂ‹EÃ¨HÂ‰EÃ˜HÂƒ}Ã¨À€uHÂ‹À€À€À€À€HÂ‰EÃ˜HÂ‹EÃ˜HÂ‰EÃ¨HÂ‹UÃ¨Â‹EÃ´Ã·Ã#Â‚Â°À€À€À€Â‰EÃ´Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Â‰Ã‡Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸Â‰uÃ´HÂ‹EÃ¸HÂ‰EÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂEÃ´Âƒ ?Â‹EÃ´ÂƒÃ Ã€tÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã«HHÂ‹EÃ¨HÂ‰EÃ˜HÂƒ}Ã¨À€uHÂ‹À€À€À€À€HÂ‰EÃ˜HÂ‹EÃ˜HÂ‰EÃ¨HÂ‹Eè‹Â°À€À€À€HÂEÃ´	Â‹uÃ´HÂ‹}Ã¸Ã¨À€À€À€À€Â‰Ã‡Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â‹Â¸Â°À€À€À€ÂƒÃ§?Ã¨À€À€À€À€Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€À€4À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€Ã¯	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_opts.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€ÃŽÀ€À€À€Ã“À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã“À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂŠÀ€À€À€WINDOWÀ€UGÀ€À€	FÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ»À€À€À€#À€
+_curxÀ€ÂˆÃ»À€À€À€#
+_maxyÀ€Â‹Ã»À€À€À€#
+_maxxÀ€Â‹Ã»À€À€À€#
+_begyÀ€ÂŒÃ»À€À€À€#
+_begxÀ€ÂŒÃ»À€À€À€#
+
+_flagsÀ€ÂŽÃ»À€À€À€#
+_attrsÀ€Â‘FÀ€À€#
+_bkgdÀ€Â’*À€À€#
+_notimeoutÀ€Â•ÃžÀ€À€#
+_clearÀ€Â–ÃžÀ€À€#
+_leaveokÀ€Â—ÃžÀ€À€#
+_scrollÀ€Â˜ÃžÀ€À€#
+_idlokÀ€Â™ÃžÀ€À€#
+_idcokÀ€ÂšÃžÀ€À€#
+_immedÀ€Â›ÃžÀ€À€#
+_syncÀ€ÂœÃžÀ€À€#
+_use_keypadÀ€ÂÃžÀ€À€# 
+_delayÀ€ÂžÂƒÀ€À€À€#$
+_lineÀ€Â CÀ€À€#(
+_regtopÀ€Â£Ã»À€À€À€#0
+_regbottomÀ€Â¤Ã»À€À€À€#2
+_parxÀ€Â§ÂƒÀ€À€À€#4
+_paryÀ€Â¨ÂƒÀ€À€À€#8
+_parentÀ€Â©IÀ€À€#@
+_padÀ€Â±UÀ€À€#H
+_yoffsetÀ€Â³Ã»À€À€À€#TÀ€attr_tÀ€W*À€À€	ÃžÀ€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã»À€À€À€#À€
+_pad_xÀ€Â®Ã»À€À€À€#
+_pad_topÀ€Â¯Ã»À€À€À€#
+_pad_leftÀ€Â¯Ã»À€À€À€#
+_pad_bottomÀ€Â°Ã»À€À€À€#
+_pad_rightÀ€Â°Ã»À€À€À€#
+À€_BoolÀ€	CÀ€À€ldatÀ€Â„
+textÀ€VOÀ€À€#À€
+firstcharÀ€WÃ»À€À€À€#
+lastcharÀ€XÃ»À€À€À€#
+
+oldindexÀ€YÃ»À€À€À€#À€Ã§À€À€8À€À€*À€À€Menu_OptionsÀ€1ÂƒÀ€À€À€Item_OptionsÀ€2ÂƒÀ€À€À€Â¥À€À€CstrÀ€AÃˆÀ€À€À€#À€lengthÀ€BÂ²À€À€À€#À€TEXTÀ€C}À€À€
+ÂŠÀ€À€tagITEMÀ€`FnameÀ€GÂ¥À€À€#À€descriptionÀ€HÂ¥À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KiÀ€À€#0indexÀ€LÃ»À€À€À€#4yÀ€MÃ»À€À€À€#6xÀ€NÃ»À€À€À€#8valueÀ€OÃžÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã»À€À€À€#À€widthÀ€]Ã»À€À€À€#rowsÀ€^Ã»À€À€À€#colsÀ€_Ã»À€À€À€#frowsÀ€`Ã»À€À€À€#fcolsÀ€aÃ»À€À€À€#
+arowsÀ€bÃ»À€À€À€#namelenÀ€cÃ»À€À€À€#desclenÀ€dÃ»À€À€À€#marklenÀ€eÃ»À€À€À€#itemlenÀ€fÃ»À€À€À€#spc_descÀ€gÃ»À€À€À€#spc_colsÀ€hÃ»À€À€À€#spc_rowsÀ€iÃ»À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ»À€À€À€#(winÀ€lIÀ€À€#0subÀ€mIÀ€À€#8userwinÀ€nIÀ€À€#@usersubÀ€oIÀ€À€#HitemsÀ€p<À€À€#PnitemsÀ€qÃ»À€À€À€#XcuritemÀ€rBÀ€À€#`toprowÀ€sÃ»À€À€À€#hforeÀ€t*À€À€#lbackÀ€u*À€À€#pgreyÀ€v*À€À€#tpadÀ€wÃ›À€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂUÀ€À€#Â°statusÀ€Â‚Â²À€À€À€#Â´À€ÂŠÀ€À€Â±À€À€ITEMÀ€VÂ±À€À€Menu_HookÀ€X*À€À€0À€À€<À€À€À€À€À€BÀ€À€
+À€À€MENUÀ€Â„ÂŠÀ€À€ÃÀ€À€set_menu_optsÀ€9ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€8ÃÀ€À€Â‘xoptsÀ€8UÀ€À€Â‘tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€itemÀ€V<À€À€Â‘hÀ€À€HÀ€À€#	À€À€menu_opts_offÀ€uÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€tÃÀ€À€Â‘xoptsÀ€tUÀ€À€Â‘tcmenuÀ€vÃÀ€À€Â‘hÀ€~	À€À€menu_opts_onÀ€Â–ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€Â•ÃÀ€À€Â‘xoptsÀ€Â•UÀ€À€Â‘tcmenuÀ€Â—ÃÀ€À€Â‘hÀ€Â·	À€À€menu_optsÀ€Â²UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€Â±Â·	À€À€Â‘xÀ€Â½	À€À€HÀ€À€_nc_tracingÀ€ÂŠÀ€À€À€_nc_Default_MenuÀ€3HÀ€À€À€À€À€À€ÂšÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_opts.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€8Ã¢(sÂœÂ¹Â«Â¹fÂÂœ-ÂƒÇŸÃ¾ÂœÂ¨ÂŸÂœÂ¬Ã±rUÃ¢Âƒ(rÂœÂÃ¾WUÃ¢Âƒ(rÂœÂÃ¾Ã°WUÂ¸%0À€called {set_menu_opts(%p,%d)À€called {menu_opts_off(%p,%d)À€called {menu_opts_on(%p,%d)À€called {menu_opts(%p)À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¹À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€Â¹À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Â·À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€cÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€Ã³	À€À€TÀ€À€set_menu_optsÀ€Ã‡À€À€menu_opts_offÀ€#	À€À€menu_opts_onÀ€~	À€À€menu_optsÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂºÀ€À€À€À€À€À€Ã³	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€H!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€lÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`!À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ "À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜"À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã§À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã§À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€BÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€SÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€cÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€ÂŽÀ€À€À€À€À€À€Â¹À€À€À€À€À€À€À€Â¶À€À€À€À€À€GÀ€À€À€À€À€À€Â·À€À€À€À€À€À€À€ÃƒÀ€À€À€À€À€Ã¾À€À€À€À€À€À€cÀ€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_opts.cÀ€set_menu_optsÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€set_menu_formatÀ€_nc_Calculate_Item_Length_and_WidthÀ€_nc_Default_MenuÀ€menu_opts_offÀ€menu_opts_onÀ€menu_optsÀ€_nc_retrace_menu_optsÀ€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿)À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿IÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿YÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â“À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿[À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿dÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿rÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‚À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¨À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‰À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¯À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿4À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿;À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿aÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿xÀ€À€À€À€À€À€À€À€À€À€À€À€6À€À€À€À€À€À€À€Â‚À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â˜À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¨À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃƒÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã«À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã²À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿!À€À€À€À€À€À€À€À€À€À€À€À€RÀ€À€À€À€À€À€À€+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿AÀ€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿[À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€wÀ€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€LÀ€À€À€À€À€À€Ã¢À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€ÃªÀ€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€=	À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€E	À€À€À€À€À€À€À€À€À€À€À€À€Ã¾À€À€À€À€À€À€Â•	À€À€À€À€À€À€À€À€À€À€À€À€Ã¾À€À€À€À€À€À€Â	À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€Â§À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¾À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¾À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_pad.o/        1347872992  0     0     100644  7096      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸Â‰uÃ´HÂƒ}Ã¸À€Â•EÃ³HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹UÃ´HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Ã¨À€À€À€À€HÂ‰KEÃ´Â¶Ã€HÂÀ€HÂ‹Â·%À€@À€À€Â…Ã€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«uHÂ‹EÃ¸HÂ‰EÃ HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ HÂ‹EÃ HÂ‰EÃ¸HÂ‹UÃ¸Â‹EÃ´ÂˆBxÂ€}Ã³À€t+HÂƒ}Ã¸À€t$HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tHÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸Â¶xxÃ¨À€À€À€À€Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€(	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_pad.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€ÃÀ€À€À€Ã’À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã’À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂ‰À€À€À€WINDOWÀ€UFÀ€À€	EÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃºÀ€À€À€#À€
+_curxÀ€ÂˆÃºÀ€À€À€#
+_maxyÀ€Â‹ÃºÀ€À€À€#
+_maxxÀ€Â‹ÃºÀ€À€À€#
+_begyÀ€ÂŒÃºÀ€À€À€#
+_begxÀ€ÂŒÃºÀ€À€À€#
+
+_flagsÀ€ÂŽÃºÀ€À€À€#
+_attrsÀ€Â‘EÀ€À€#
+_bkgdÀ€Â’)À€À€#
+_notimeoutÀ€Â•ÃÀ€À€#
+_clearÀ€Â–ÃÀ€À€#
+_leaveokÀ€Â—ÃÀ€À€#
+_scrollÀ€Â˜ÃÀ€À€#
+_idlokÀ€Â™ÃÀ€À€#
+_idcokÀ€ÂšÃÀ€À€#
+_immedÀ€Â›ÃÀ€À€#
+_syncÀ€ÂœÃÀ€À€#
+_use_keypadÀ€ÂÃÀ€À€# 
+_delayÀ€ÂžÂ‚À€À€À€#$
+_lineÀ€Â BÀ€À€#(
+_regtopÀ€Â£ÃºÀ€À€À€#0
+_regbottomÀ€Â¤ÃºÀ€À€À€#2
+_parxÀ€Â§Â‚À€À€À€#4
+_paryÀ€Â¨Â‚À€À€À€#8
+_parentÀ€Â©HÀ€À€#@
+_padÀ€Â±TÀ€À€#H
+_yoffsetÀ€Â³ÃºÀ€À€À€#TÀ€attr_tÀ€W)À€À€	ÃÀ€À€pdatÀ€Â­
+_pad_yÀ€Â®ÃºÀ€À€À€#À€
+_pad_xÀ€Â®ÃºÀ€À€À€#
+_pad_topÀ€Â¯ÃºÀ€À€À€#
+_pad_leftÀ€Â¯ÃºÀ€À€À€#
+_pad_bottomÀ€Â°ÃºÀ€À€À€#
+_pad_rightÀ€Â°ÃºÀ€À€À€#
+À€_BoolÀ€	BÀ€À€ldatÀ€Â„
+textÀ€VNÀ€À€#À€
+firstcharÀ€WÃºÀ€À€À€#
+lastcharÀ€XÃºÀ€À€À€#
+
+oldindexÀ€YÃºÀ€À€À€#À€Ã¦À€À€7À€À€)À€À€Menu_OptionsÀ€1Â‚À€À€À€Item_OptionsÀ€2Â‚À€À€À€Â¤À€À€CstrÀ€AÃ‡À€À€À€#À€lengthÀ€BÂ±À€À€À€#À€TEXTÀ€C|À€À€
+Â‰À€À€tagITEMÀ€`FnameÀ€GÂ¤À€À€#À€descriptionÀ€HÂ¤À€À€#imenuÀ€IÀ€À€À€# userptrÀ€J
+À€À€#(optÀ€KhÀ€À€#0indexÀ€LÃºÀ€À€À€#4yÀ€MÃºÀ€À€À€#6xÀ€NÃºÀ€À€À€#8valueÀ€OÃÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€À€tagMENUÀ€Â¸IheightÀ€\ÃºÀ€À€À€#À€widthÀ€]ÃºÀ€À€À€#rowsÀ€^ÃºÀ€À€À€#colsÀ€_ÃºÀ€À€À€#frowsÀ€`ÃºÀ€À€À€#fcolsÀ€aÃºÀ€À€À€#
+arowsÀ€bÃºÀ€À€À€#namelenÀ€cÃºÀ€À€À€#desclenÀ€dÃºÀ€À€À€#marklenÀ€eÃºÀ€À€À€#itemlenÀ€fÃºÀ€À€À€#spc_descÀ€gÃºÀ€À€À€#spc_colsÀ€hÃºÀ€À€À€#spc_rowsÀ€iÃºÀ€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃºÀ€À€À€#(winÀ€lHÀ€À€#0subÀ€mHÀ€À€#8userwinÀ€nHÀ€À€#@usersubÀ€oHÀ€À€#HitemsÀ€p;À€À€#PnitemsÀ€qÃºÀ€À€À€#XcuritemÀ€rAÀ€À€#`toprowÀ€sÃºÀ€À€À€#hforeÀ€t)À€À€#lbackÀ€u)À€À€#pgreyÀ€v)À€À€#tpadÀ€wÃšÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~
+À€À€#Â markÀ€À€À€#Â¨optÀ€ÂTÀ€À€#Â°statusÀ€Â‚Â±À€À€À€#Â´À€Â‰À€À€Â°À€À€ITEMÀ€VÂ°À€À€Menu_HookÀ€X)À€À€/À€À€;À€À€À€À€À€À€AÀ€À€À€À€MENUÀ€Â„Â‰À€À€Â²À€À€set_menu_padÀ€?Â‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€>Â²À€À€Â‘xpadÀ€>Â‚À€À€À€Â‘tdo_refreshÀ€@ÃÀ€À€Â‘sÀ€GÀ€À€Ã°À€À€menu_padÀ€ZÂ‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€YÃ°À€À€Â‘xÀ€Ã¶À€À€GÀ€À€_nc_tracingÀ€Â‰À€À€À€_nc_Default_MenuÀ€3GÀ€À€À€ÃŽÀ€À€À€À€Â™À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_pad.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€>Ã¢Â«(Ã¾ÂÃ¾Âd+rUÂ¸%+À€called {set_menu_pad(%p,%d)À€called {menu_pad(%p)À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€^À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€,	À€À€SÀ€À€set_menu_padÀ€Â¸À€À€menu_padÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€,	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‘À€À€À€À€À€À€Ã’À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0
+À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âˆ
+À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸
+À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãº
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãº
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€NÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€Ã¸À€À€À€À€À€À€À€^À€À€À€À€À€À€À€À€m_pad.cÀ€set_menu_padÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__ctype_b_locÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Default_MenuÀ€_nc_Draw_MenuÀ€_nc_Show_MenuÀ€menu_padÀ€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿4À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿>À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿CÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿eÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿uÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃœÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¬À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿;À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿PÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â«À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€mÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_pattern.o/    1347872992  0     0     100644  8048      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t$HÂ‹EÃ¸HÂ‹@ HÂ‰EÃ°HÂ‹EÃ¸HÂƒx À€uHÂÀ€À€À€À€HÂ‰EÃ°Ã«HÃ‡EÃ°À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t!HÂ‹}Ã°Ã¨À€À€À€À€HÂ‹uÃ¸HÂ‰Ã‚HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€tHÂƒ}Ã°À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ Ã©Ã¶À€À€HÂ‹EÃ¸HÂƒxPÀ€uÃ¨À€À€À€À€Ã‡À€ÃµÃ¿Ã¿Ã¿Â¿ÃµÃ¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ Ã©ÃŽÀ€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ Ã©ÂŸÀ€À€HÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€HÂ‹EÃ°Â€8À€u&HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ Ã©[À€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€t	HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸Â¿@hÂ‰EÃ¤HÂ‹EÃ¸HÂ‹@`HÂ‰EÃ¨HÂ‹EÃ°Â€8À€Â„Â…À€À€À€Ã¨À€À€À€À€HÂ‰ÃHÂ‹EÃ°HÂ¶À€HÂÀ€HÂ‹Â·%À€@À€À€Â…Ã€tHÂUÃ¨HÂ‹EÃ°Â¾0HÂ‹}Ã¸Ã¨À€À€À€À€Â…Ã€uÃ«;HÂ‹EÃ¸fÃ‡@(À€À€HÂ‹EÃ¸HÂ‹@ Ã†À€À€HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€Ã·Ã¿Ã¿Ã¿Â¿Ã·Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ Ã©Â£À€À€À€HÂEÃ°HÃ¿À€Ã©nÃ¿Ã¿Ã¿HÂ‹EÃ¨Â¿@6;EÃ¤}HÂ‹EÃ¨Â¿@6Â‰EÃ¤HÂ‹EÃ¨Â¿P6HÂ‹EÃ¸Â¿@EÃ¤9Ã‚|@HÂ‹EÃ¨Â¿P6HÂ‹EÃ¸Â¿@+EÃ¤9Ã‚}
+HÂ‹EÃ¨Â¿@6Â‰EÃœÃ«HÂ‹EÃ¸Â¿@Â‰EÃœHÂ‹EÃ¸Â¿@)EÜ‹EÜ‰EÃ¤HÂ‹UÃ¨Â‹uÃ¤HÂ‹}Ã¸Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ Â‹EÃ Ã‰ÃƒÀ€À€À€À€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€IÀ€À€!À€I/À€À€4À€:;I?<À€À€À€Q	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_pattern.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã‘À€À€À€Ã–À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã–À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂÀ€À€À€WINDOWÀ€UJÀ€À€	IÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¾À€À€À€#À€
+_curxÀ€ÂˆÃ¾À€À€À€#
+_maxyÀ€Â‹Ã¾À€À€À€#
+_maxxÀ€Â‹Ã¾À€À€À€#
+_begyÀ€ÂŒÃ¾À€À€À€#
+_begxÀ€ÂŒÃ¾À€À€À€#
+
+_flagsÀ€ÂŽÃ¾À€À€À€#
+_attrsÀ€Â‘IÀ€À€#
+_bkgdÀ€Â’-À€À€#
+_notimeoutÀ€Â•Ã¡À€À€#
+_clearÀ€Â–Ã¡À€À€#
+_leaveokÀ€Â—Ã¡À€À€#
+_scrollÀ€Â˜Ã¡À€À€#
+_idlokÀ€Â™Ã¡À€À€#
+_idcokÀ€ÂšÃ¡À€À€#
+_immedÀ€Â›Ã¡À€À€#
+_syncÀ€ÂœÃ¡À€À€#
+_use_keypadÀ€ÂÃ¡À€À€# 
+_delayÀ€ÂžÂ†À€À€À€#$
+_lineÀ€Â FÀ€À€#(
+_regtopÀ€Â£Ã¾À€À€À€#0
+_regbottomÀ€Â¤Ã¾À€À€À€#2
+_parxÀ€Â§Â†À€À€À€#4
+_paryÀ€Â¨Â†À€À€À€#8
+_parentÀ€Â©LÀ€À€#@
+_padÀ€Â±XÀ€À€#H
+_yoffsetÀ€Â³Ã¾À€À€À€#TÀ€attr_tÀ€W-À€À€	Ã¡À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¾À€À€À€#À€
+_pad_xÀ€Â®Ã¾À€À€À€#
+_pad_topÀ€Â¯Ã¾À€À€À€#
+_pad_leftÀ€Â¯Ã¾À€À€À€#
+_pad_bottomÀ€Â°Ã¾À€À€À€#
+_pad_rightÀ€Â°Ã¾À€À€À€#
+À€_BoolÀ€	FÀ€À€ldatÀ€Â„
+textÀ€VRÀ€À€#À€
+firstcharÀ€WÃ¾À€À€À€#
+lastcharÀ€XÃ¾À€À€À€#
+
+oldindexÀ€YÃ¾À€À€À€#À€ÃªÀ€À€;À€À€-À€À€Menu_OptionsÀ€1Â†À€À€À€Item_OptionsÀ€2Â†À€À€À€Â¨À€À€CstrÀ€AÃ‹À€À€À€#À€lengthÀ€BÂµÀ€À€À€#À€TEXTÀ€CÂ€À€À€
+ÂÀ€À€tagITEMÀ€`FnameÀ€GÂ¨À€À€#À€descriptionÀ€HÂ¨À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KlÀ€À€#0indexÀ€LÃ¾À€À€À€#4yÀ€MÃ¾À€À€À€#6xÀ€NÃ¾À€À€À€#8valueÀ€OÃ¡À€À€#:leftÀ€Q
+À€À€#@rightÀ€R
+À€À€#HupÀ€S
+À€À€#PdownÀ€T
+À€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¾À€À€À€#À€widthÀ€]Ã¾À€À€À€#rowsÀ€^Ã¾À€À€À€#colsÀ€_Ã¾À€À€À€#frowsÀ€`Ã¾À€À€À€#fcolsÀ€aÃ¾À€À€À€#
+arowsÀ€bÃ¾À€À€À€#namelenÀ€cÃ¾À€À€À€#desclenÀ€dÃ¾À€À€À€#marklenÀ€eÃ¾À€À€À€#itemlenÀ€fÃ¾À€À€À€#spc_descÀ€gÃ¾À€À€À€#spc_colsÀ€hÃ¾À€À€À€#spc_rowsÀ€iÃ¾À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¾À€À€À€#(winÀ€lLÀ€À€#0subÀ€mLÀ€À€#8userwinÀ€nLÀ€À€#@usersubÀ€oLÀ€À€#HitemsÀ€p?À€À€#PnitemsÀ€qÃ¾À€À€À€#XcuritemÀ€rEÀ€À€#`toprowÀ€sÃ¾À€À€À€#hforeÀ€t-À€À€#lbackÀ€u-À€À€#pgreyÀ€v-À€À€#tpadÀ€wÃžÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂXÀ€À€#Â°statusÀ€Â‚ÂµÀ€À€À€#Â´À€ÂÀ€À€Â´À€À€ITEMÀ€VÂ´À€À€Menu_HookÀ€X-À€À€3À€À€?À€À€À€À€À€EÀ€À€À€À€MENUÀ€Â„ÂÀ€À€ÂªÀ€À€menu_patternÀ€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€6ÂªÀ€À€Â‘xemptyÀ€8ÂµÀ€À€	À€À€À€À€À€À€À€À€À€Â°À€À€KÀ€À€Ã…À€À€Ã–À€À€À€Â®À€À€À€À€À€8	À€À€set_menu_patternÀ€MÂ†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€L8	À€À€Â‘xpÀ€LÃ‹À€À€À€Â‘pmatchitemÀ€NEÀ€À€Â‘hmatchposÀ€OÂ†À€À€À€Â‘dÀ€KÀ€À€_nc_tracingÀ€ÂÀ€À€À€À€Ã™À€À€À€À€ÂŽÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_pattern.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€6Âº%<+Ã³1Ã”Â¹ÂªÂ¹Â¹IÂÂŽÂºÂÂªÂºÃ‡>HÂŽÂ¹Â»rÀ€À€À€À€À€called {menu_pattern(%p)À€À€À€À€À€À€À€À€called {set_menu_pattern(%p,%s)À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€gÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€U	À€À€WÀ€À€menu_patternÀ€Ã…À€À€set_menu_patternÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€*À€À€À€À€À€À€U	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃœÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€LÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€oÀ€À€À€À€À€À€À€gÀ€À€À€À€À€À€mÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‰À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â©À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¬À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_pattern.cÀ€empty.0À€menu_patternÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_retrace_ptrÀ€set_menu_patternÀ€_nc_visbufÀ€__errno_locationÀ€_nc_retrace_intÀ€pos_menu_cursorÀ€_nc_Link_ItemsÀ€__ctype_b_locÀ€_nc_Match_Next_Character_In_Item_NameÀ€_nc_New_TopRow_and_CurrentItemÀ€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿RÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿iÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‚À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â”À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¢À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¿À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã§À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã·À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿&À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿UÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ZÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿jÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¶À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã©À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿"À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂµÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂºÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŠÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¯À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€Â¡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€Ã«À€À€À€À€À€À€À€À€À€À€À€À€Ã–À€À€À€À€À€À€Â›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€oÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_post.o/       1347872992  0     0     100644  19960     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âˆ7À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬pHÂ‰}Ã¸HÂ‰uÃ°Ã‡EÃœÀ€À€À€À€Ã†EÃ›À€Ã†EÃšÀ€Ã†EÃ™À€HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿À€Â‰EÂ°Ã«Ã‡EÂ°Ã¿Ã¿Ã¿Ã¿Â‹EÂ°Â‰EÃ HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Â‰EÂ¬Ã«Ã‡EÂ¬Ã¿Ã¿Ã¿Ã¿Â‹UÂ¬Â‰UÃ¤HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ°Â€x:À€uHÂ‹EÃ¸HÂ‹@`H;EÃ°tÃ©Â—À€À€À€HÂ‹EÃ¸fÂƒxÀ€Â„Â¸À€À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€u5HÂ‹EÃ°Â€x:À€t+HÂ‹EÃ¸HÂ‹@`H;EÃ°tHÂ‹EÃ¸Â‹plHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã†EÃ›HÂ‹EÃ¸HÂ‹Â°Â¨À€À€À€HÂ‹EÃ¸HÂ‹x0ÂºÃ¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â€}Ã›À€tOHÂ‹EÃ¸Â‹plHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã†EÃ›À€Ã«0Ã‡EÃ¨ À€À€À€HÂ‹EÃ¸Â¿@Â‰EÃ¬Âƒ}Ã¬À€~Â‹uÃ¨HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃ¬Ã¿Ã«Ã¢HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Â¿PHÂEÃœHÂ‹EÃ°Â‹@0ÂƒÃ Â…Ã€uHÂ‹EÃ¸Â‹ptHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã†EÃ™Ã«VHÂ‹EÃ°Â€x:À€uHÂ‹EÃ¸HÂ‹@`H;EÃ°tÃ«HÂ‹EÃ¸Â‹plHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã†EÃ›Ã«HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã†EÃšHÂ‹EÃ°Â·PHÂ‹MÃ°HÂ‹EÃ¸HÂ‹x0HÂ‹1Ã¨À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Â‰EÃ”Ã‡EÃ¨ À€À€À€HÂ‹EÃ¸Â¿@+EÔ‰EÃ¬Âƒ}Ã¬À€~Â‹uÃ¨HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃ¬Ã¿Ã«Ã¢HÂ‹EÃ¸Â¿PHÂEÃœHÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€Â„OÀ€À€HÂ‹EÃ¸fÂƒxÀ€ÂŽ@À€À€HÂ‹EÃ¸Â·PÂ‰ÃfÃÃ¸fÃÃ¨ÂfÃ‘Ã¸Â˜Â‰EÃŒÃ‡EÃˆÃ¿Ã¿Ã¿Ã¿Ã‡EÃ„Ã¿Ã¿Ã¿Ã¿Ã‡EÃ¨ À€À€À€Ã‡EÃ¬À€À€À€À€HÂ‹EÃ¸Â¿@;EÃ¬ÂŽÂ‹À€À€À€Â‹EÃ¬;EÃŒuhHÂ‹EÃ¸Â¶pxHÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿À€Â‰EÂ¨Ã«Ã‡EÂ¨Ã¿Ã¿Ã¿Ã¿Â‹EÂ¨Â‰EÃˆHÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Â‰EÂ¤Ã«Ã‡EÂ¤Ã¿Ã¿Ã¿Ã¿Â‹UÂ¤Â‰UÃ„Ã«Â‹uÃ¨HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃ¬Ã¿À€Ã©dÃ¿Ã¿Ã¿HÂ‹EÃ°fÂƒxÀ€tHÂ‹EÃ°Â·PHÂ‹EÃ°HÂ‹pHÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂ‹}Ã°HÂƒÃ‡Ã¨À€À€À€À€Â‰EÃÃ‡EÃ¨ À€À€À€HÂ‹EÃ¸Â¿@+EÐ‰EÃ¬Âƒ}Ã¬À€~Â‹uÃ¨HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃ¬Ã¿Ã«Ã¢HÂ‹EÃ¸Â¿PHÂ‹EÃ¸Â¿@Ã‚HÂEÃœHÂ‹EÃ¸fÂƒxÂŽÃšÀ€À€HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿À€Â‰EÂ Ã«Ã‡EÂ Ã¿Ã¿Ã¿Ã¿Â‹EÂ Â‰EÂ¸HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Â‰EÂœÃ«Ã‡EÂœÃ¿Ã¿Ã¿Ã¿Â‹UÂœÂ‰UÂ´Â€}Ã™À€tHÂ‹EÃ¸Â‹ptHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã«Â€}Ã›À€tHÂ‹EÃ¸Â‹plHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã‡EÃ€À€À€À€HÂ‹EÃ¸Â¿@;EÃ€ÂŽÃ¦À€À€À€Â‹EUÃ Â‰UÂ˜HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Ã¿Ã€9EÂ˜|
+Ã«IÂƒ}Â˜Ã¿|Ã«AÂ‹UÃ¤Â‹EuÃ Ã†HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€Ã‡EÂ¼À€À€À€À€Â‹EÂ¼;EÃœ}HÂ‹EÃ¸HÂ‹x0Â¾ À€À€À€Ã¨À€À€À€À€HÂEÂ¼Ã¿À€Ã«Þ‹EUÃˆÂ‰UÂ”HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Ã¿Ã€9EÂ”|
+Ã«<Âƒ}Â”Ã¿|Ã«4Â‹UÃ„Ã¿Ê‹EuÃˆÃ†HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€ÂƒÃ¸Ã¿tHÂ‹EÃ¸Â¶pxHÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃ€Ã¿À€Ã©	Ã¿Ã¿Ã¿Â‹UÂ´Â‹uÂ¸HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€Â€}ÃšÀ€uHÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Â€}Ã›À€tHÂ‹EÃ¸Â‹plHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Â€}ÃšÀ€tHÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Â€}Ã™À€tHÂ‹EÃ¸Â‹ptHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬`HÂ‰}Ã¸HÂ‹EÃ¸HÂ‹@PHÂ‹À€HÂ‰EÃ°Ã‡EÃ”À€À€À€À€HÂ‹EÃ¸HÂ‹@0Â‹@Â‰EÃHÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€Â‹uÃHÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€t
+HÃ‡EÂ°À€À€À€À€Ã«HÂ‹EÃ°HÂ‰EÂ°HÂ‹EÂ°HÂ‰EÃ Â‹uÃ”HÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ°HÂ‰EÃ˜HÂ‹EÃ¸Â‹Â€Â°À€À€À€ÂƒÃ  Â…Ã€t
+HÃ‡EÂ¨À€À€À€À€Ã«HÂ‹EÃ˜HÂ‰EÂ¨HÂ‹EÂ¨HÂ‰EÃ¨HÂ‹uÃ˜HÂ‹}Ã¸Ã¨À€À€À€À€HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ˜HÂ‹@HHÂ‰EÃ˜H;EÃ¨Â„Ã À€À€À€HÂƒ}Ã˜À€Â„Ã•À€À€À€Ã‡EÂ¼ À€À€À€HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿À€Â‰EÂ¤Ã«Ã‡EÂ¤Ã¿Ã¿Ã¿Ã¿Â‹EÂ¤Â‰EÃ„HÂ‹EÃ¸HÂƒx0À€tHÂ‹EÃ¸HÂ‹@0Â¿@Â‰EÂ Ã«Ã‡EÂ Ã¿Ã¿Ã¿Ã¿Â‹EÂ Â‰EÃ€Ã‡EÃˆÀ€À€À€À€HÂ‹EÃ¸Â¿@;EÃˆ~LÂ‹UEÈ‹uÃ„Ã†HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€Ã‡EÃŒÀ€À€À€À€HÂ‹EÃ¸Â¿@;EÃŒ~Â‹uÂ¼HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂEÃŒÃ¿À€Ã«Ã›HÂEÃˆÃ¿À€Ã«Â§HÂ‹EÃ¸Â¿@Â‰Ã‚UuÃ„HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂƒ}Ã˜À€tHÂ‹EÃ˜H;EÃ¨tÃ©ÃŽÃ¾Ã¿Ã¿HÂ‹EÃ¸Â‹ppHÂ‹EÃ¸HÂ‹x0ÂºÀ€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ°HÂ‹@XHÂ‰EÃ°HÂ‹EÃ¸Â¿PHÂEÃ”HÂƒ}Ã°À€tHÂ‹EÃ°H;EÃ tÃ©=Ã¾Ã¿Ã¿Ã‰ÃƒUHÂ‰Ã¥SHÂƒÃ¬8HÂ‰}Ã°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ°HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã°À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©6À€À€HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©À€À€HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©Ã˜À€À€HÂ‹EÃ°HÂƒxPÀ€Â„}À€À€HÂ‹EÃ°HÂ‹@PHÂƒ8À€Â„kÀ€À€HÂ‹EÃ°Â¿PHÂ‹EÃ°Â¿@Ã¿ÃˆÂ¯Ã‚Ã¿	EÃ¨HÂ‹EÃ°HÂ‹@HHÂ‰EÃHÂ‹EÃ°HÂƒxHÀ€u,HÂ‹EÃ°HÂ‹@@HÂ‰EÃHÂ‹EÃ°HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃHÂ‹EÃHÂ‰EÃ HÂƒ}Ã À€tHÂ‹EÃ Â¿@Â‰EÃŒÃ¿EÃŒÃ«Ã‡EÃŒÃ¿Ã¿Ã¿Ã¿Â‹EÌ‰EÃœHÂ‹]Ã°HÂ‹EÃ°Â¿pÂ‹}Ã¨Ã¨À€À€À€À€HÂ‰C0HÂ‹C0HÂ…Ã€Â„ÂƒÀ€À€À€Â‹EÃœ;EÃ¨|Â‹EÃ¨Â‰EÃˆÃ«Â‹EÜ‰EÈ‹EÈ‰EÃ¬HÂ‹EÃ°Â¿À€;EÃ¬
+HÂ‹EÃ°Â¿À€Â‰EÃ¬HÂ‹]Ã°HÂ‹EÃ°Â¿PÂ‹uÃ¬HÂ‹EÃ°HÂ‹x0AÂ¸À€À€À€À€Â¹À€À€À€À€Ã¨À€À€À€À€HÂ‰C8HÂ‹C8HÂ…Ã€u:Ã¨À€À€À€À€Ã‡À€Ã¿Ã¿Ã¿Ã¿Â¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©Â†À€À€Ã¨À€À€À€À€Ã‡À€Ã¿Ã¿Ã¿Ã¿Â¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©iÀ€À€HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€t(HÂ‹}Ã°Ã¨À€À€À€À€Ã«Ã¨À€À€À€À€Ã‡À€ÃµÃ¿Ã¿Ã¿Â¿ÃµÃ¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ˜Ã©/À€À€HÂ‹UÃ°HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ°Â‹Â€Â°À€À€À€ÂƒÃ Â…Ã€u+HÂ‹EÃ°HÂ‹@PHÂ‰EÃ HÂ‹EÃ HÂƒ8À€tHÂ‹EÃ HÂ‹À€Ã†@:À€HÂEÃ HÂƒÀ€Ã«Ã¡HÂ‹}Ã°Ã¨À€À€À€À€HÂƒ}Ã°À€tQHÂ‹EÃ°HÂƒÂ¸Â€À€À€À€À€tCHÂ‹UÃ°HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ°HÂ‹}Ã°HÂ‹Â€Â€À€À€À€Ã¿ÃHÂ‹UÃ°HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€HÂƒ}Ã°À€tQHÂ‹EÃ°HÂƒÂ¸ÂÀ€À€À€À€tCHÂ‹UÃ°HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ°HÂ‹}Ã°HÂ‹Â€ÂÀ€À€À€Ã¿ÃHÂ‹UÃ°HÂ‹EÃ°Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EØ‹EÃ˜HÂƒÃ„8[Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã©ÃŽÀ€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã»Ã¿Ã¿Ã¿Â¿Ã»Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã©ÂŸÀ€À€HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€uÃ¨À€À€À€À€Ã‡À€Ã¹Ã¿Ã¿Ã¿Â¿Ã¹Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã©pÀ€À€HÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸Â˜À€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€Â˜À€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€HÂƒ}Ã¸À€tQHÂ‹EÃ¸HÂƒÂ¸ÂˆÀ€À€À€À€tCHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃˆfÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹}Ã¸HÂ‹Â€ÂˆÀ€À€À€Ã¿ÃHÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã½fÂ‰Â‚Â´À€À€À€HÂ‹EÃ¸HÂ‹@HHÂ‰EÃ HÂ‹EÃ¸HÂƒxHÀ€u,HÂ‹EÃ¸HÂ‹@@HÂ‰EÃ HÂ‹EÃ¸HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃ HÂ‹EÃ HÂ‰EÃ°HÂ‹}Ã°Ã¨À€À€À€À€HÂ‹}Ã°Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‹x8Ã¨À€À€À€À€HÂ‹EÃ¸HÃ‡@8À€À€À€À€HÂ‹EÃ¸HÂ‹x0Ã¨À€À€À€À€HÂ‹EÃ¸HÃ‡@0À€À€À€À€HÂ‹UÃ¸HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Ã¾fÂ‰Â‚Â´À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.?:;'@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€À€À€ .?:;'I@
+À€À€!À€:;I
+À€À€"À€À€#4À€:;I
+À€À€$4À€:;I?<À€À€À€Ãµ!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_post.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€ÂƒÀ€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã”À€À€À€Ã™À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂpÀ€À€À€__off64_tÀ€ÂpÀ€À€À€Ã™À€À€À€long long unsigned intÀ€FILEÀ€.\À€À€ÂªÀ€À€À€À€À€À€Ã˜.	_flagsÀ€	ÂƒÀ€À€À€#À€	_IO_read_ptrÀ€.À€À€#	_IO_read_endÀ€.À€À€#	_IO_read_baseÀ€.À€À€#	_IO_write_baseÀ€.À€À€# 	_IO_write_ptrÀ€.À€À€#(	_IO_write_endÀ€.À€À€#0	_IO_buf_baseÀ€.À€À€#8	_IO_buf_endÀ€.À€À€#@	_IO_save_baseÀ€.À€À€#H	_IO_backup_baseÀ€.À€À€#P	_IO_save_endÀ€.À€À€#X	_markersÀ€Ã»À€À€#`	_chainÀ€À€À€#h	_filenoÀ€ÂƒÀ€À€À€#p	_flags2À€#ÂƒÀ€À€À€#t	_old_offsetÀ€%À€À€#x	_cur_columnÀ€)Â¸À€À€À€#Â€	_vtable_offsetÀ€*Ã²À€À€À€#Â‚	_shortbufÀ€+À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>4À€À€#Â˜	__pad2À€?4À€À€#Â 	_modeÀ€AÂƒÀ€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­Ã»À€À€_IO_markerÀ€Â³_nextÀ€Â´Ã»À€À€#À€_sbufÀ€ÂµÀ€À€#_posÀ€Â¹ÂƒÀ€À€À€#À€Â¸À€À€\À€À€
+À€À€Ã™À€À€À€Â±À€À€À€À€À€ÂªÀ€À€
+-À€À€Ã™À€À€À€Â±À€À€À€+À€{À€À€triesÀ€Ã¥childÀ€Ã¦{À€À€#À€siblingÀ€Ã§{À€À€#chÀ€Ã¨Ã¡À€À€À€#valueÀ€Ã©Â¸À€À€À€#À€-À€À€TRIESÀ€Ã«-À€À€Ã¼À€À€redÀ€Ã¿À€À€#À€greenÀ€Ã¿À€À€#blueÀ€Ã¿À€À€#	rÀ€À€À€À€#	gÀ€À€À€À€#	bÀ€À€À€À€#
+	initÀ€ÂƒÀ€À€À€#À€color_tÀ€ÂŽÀ€À€chtypeÀ€ÂÂŠÀ€À€À€mmask_tÀ€Â|À€À€À€SCREENÀ€T8À€À€uÀ€À€screenÀ€ÂT	_ifdÀ€Â’ÂƒÀ€À€À€#À€	_ofpÀ€Â“}À€À€#	_setbufÀ€Â”.À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™ÂƒÀ€À€À€#	_termÀ€ÂšwÀ€À€# 	_saved_ttyÀ€Â›Â­À€À€#(	_linesÀ€ÂœÀ€À€#d	_columnsÀ€ÂÀ€À€#f	_lines_availÀ€ÂŸÀ€À€#h	_topstolenÀ€Â À€À€#j	_curscrÀ€Â¢ÂÀ€À€#p	_newscrÀ€Â£ÂÀ€À€#x	_stdscrÀ€Â¤ÂÀ€À€#Â€	_keytryÀ€ÂªÂ©À€À€#Âˆ	_key_okÀ€Â«Â©À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â¯À€À€#Âœ	_fifoheadÀ€Â±À€À€#Ã€	_fifotailÀ€Â²À€À€#Ã‚	_fifopeekÀ€Â³À€À€#Ã„	_fifoholdÀ€Â´À€À€#Ã†	_endwinÀ€Â¶ÂƒÀ€À€À€#Ãˆ	_current_attrÀ€Â·QÀ€À€#Ã	_coloronÀ€Â¸ÂƒÀ€À€À€#Ã˜	_color_defsÀ€Â¹ÂƒÀ€À€À€#Ãœ	_cursorÀ€ÂºÂƒÀ€À€À€#Ã 	_cursrowÀ€Â»ÂƒÀ€À€À€#Ã¤	_curscolÀ€Â¼ÂƒÀ€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾ÂƒÀ€À€À€#Ã°	_rawÀ€Â¿ÂƒÀ€À€À€#Ã´	_cbreakÀ€Ã€ÂƒÀ€À€À€#Ã¸	_echoÀ€Ã‚ÂƒÀ€À€À€#Ã¼	_use_metaÀ€ÃƒÂƒÀ€À€À€#Â€	_slkÀ€Ã„Â¿À€À€#Âˆ	slk_formatÀ€Ã…ÂƒÀ€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂƒÀ€À€À€#Â˜	_cr_costÀ€Ã‹ÂƒÀ€À€À€#Âœ	_cup_costÀ€ÃŒÂƒÀ€À€À€#Â 	_home_costÀ€ÃÂƒÀ€À€À€#Â¤	_ll_costÀ€ÃŽÂƒÀ€À€À€#Â¨	_cub1_costÀ€Ã“ÂƒÀ€À€À€#Â¬	_cuf1_costÀ€Ã”ÂƒÀ€À€À€#Â°	_cud1_costÀ€Ã•ÂƒÀ€À€À€#Â´	_cuu1_costÀ€Ã–ÂƒÀ€À€À€#Â¸	_cub_costÀ€Ã—ÂƒÀ€À€À€#Â¼	_cuf_costÀ€Ã˜ÂƒÀ€À€À€#Ã€	_cud_costÀ€Ã™ÂƒÀ€À€À€#Ã„	_cuu_costÀ€ÃšÂƒÀ€À€À€#Ãˆ	_hpa_costÀ€Ã›ÂƒÀ€À€À€#ÃŒ	_vpa_costÀ€ÃœÂƒÀ€À€À€#Ã	_ed_costÀ€ÃžÂƒÀ€À€À€#Ã”	_el_costÀ€ÃŸÂƒÀ€À€À€#Ã˜	_el1_costÀ€Ã ÂƒÀ€À€À€#Ãœ	_dch1_costÀ€Ã¡ÂƒÀ€À€À€#Ã 	_ich1_costÀ€Ã¢ÂƒÀ€À€À€#Ã¤	_dch_costÀ€Ã£ÂƒÀ€À€À€#Ã¨	_ich_costÀ€Ã¤ÂƒÀ€À€À€#Ã¬	_ech_costÀ€Ã¥ÂƒÀ€À€À€#Ã°	_rep_costÀ€Ã¦ÂƒÀ€À€À€#Ã´	_hpa_ch_costÀ€Ã§ÂƒÀ€À€À€#Ã¸	_cup_ch_costÀ€Ã¨ÂƒÀ€À€À€#Ã¼	_cuf_ch_costÀ€Ã©ÂƒÀ€À€À€#Â€	_inline_costÀ€ÃªÂƒÀ€À€À€#Â„	_smir_costÀ€Ã«ÂƒÀ€À€À€#Âˆ	_rmir_costÀ€Ã¬ÂƒÀ€À€À€#ÂŒ	_ip_costÀ€Ã­ÂƒÀ€À€À€#Â	_address_cursorÀ€Ã¯.À€À€#Â˜	_scrollingÀ€Ã±ÂƒÀ€À€À€#Â 	_color_tableÀ€Ã´Ã…À€À€#Â¨	_color_countÀ€ÃµÂƒÀ€À€À€#Â°	_color_pairsÀ€Ã¶Ã‹À€À€#Â¸	_pair_countÀ€Ã·ÂƒÀ€À€À€#Ã€	_pair_limitÀ€Ã¸ÂƒÀ€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼ÂƒÀ€À€À€#ÃŒ	_default_bgÀ€Ã½ÂƒÀ€À€À€#Ã	_default_pairsÀ€Ã¾ÂƒÀ€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€QÀ€À€#Ã¨	_screen_acs_mapÀ€Ã‘À€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€tÀ€À€#Â€	_maxclickÀ€ÂƒÀ€À€À€#Â„	_mouse_eventÀ€Ã§À€À€#Âˆ	_mouse_inlineÀ€Ã§À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ ÂƒÀ€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#.À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%*À€À€#Âˆ
+	_resizeÀ€PEÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ²À€À€#Â¸
+	oldhashÀ€]KÀ€À€#Ã€
+	newhashÀ€]KÀ€À€#Ãˆ
+	hashtabÀ€^QÀ€À€#Ã
+	hashtab_lenÀ€_ÂƒÀ€À€À€#Ã˜
+	_oldnum_listÀ€`ÂšÀ€À€À€#Ã 
+	_oldnum_sizeÀ€aÂƒÀ€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ‡À€À€#Ã°
+	_legacy_codingÀ€fÂƒÀ€À€À€#Ã¸
+	tracechr_bufÀ€uÂƒÀ€À€#Ã¼
+	tracemse_bufÀ€vWÀ€À€#Â¤	jumpÀ€|Â‡À€À€#Âˆ	rippedoffÀ€~Â“À€À€#Â	rspÀ€Â£À€À€#ÂˆÀ€WINDOWÀ€UÂ„À€À€ÂƒÀ€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€#À€	_curxÀ€ÂˆÀ€À€#	_maxyÀ€Â‹À€À€#	_maxxÀ€Â‹À€À€#	_begyÀ€ÂŒÀ€À€#	_begxÀ€ÂŒÀ€À€#
+	_flagsÀ€ÂŽÀ€À€#	_attrsÀ€Â‘ÂƒÀ€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂƒÀ€À€À€#$	_lineÀ€Â {À€À€#(	_regtopÀ€Â£À€À€#0	_regbottomÀ€Â¤À€À€#2	_parxÀ€Â§ÂƒÀ€À€À€#4	_paryÀ€Â¨ÂƒÀ€À€À€#8	_parentÀ€Â©ÂÀ€À€#@	_padÀ€Â±Â’À€À€#H	_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€#À€	_pad_xÀ€Â®À€À€#	_pad_topÀ€Â¯À€À€#	_pad_leftÀ€Â¯À€À€#	_pad_bottomÀ€Â°À€À€#	_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€{À€À€ldatÀ€Â„	textÀ€VQÀ€À€#À€	firstcharÀ€WÀ€À€#	lastcharÀ€XÀ€À€#
+À€À€À€À€YÀ€À€#À€$À€À€uÀ€À€NCURSES_OUTCÀ€ÂœÀ€À€Â¢À€À€Â²À€À€ÂƒÀ€À€À€ÂƒÀ€À€À€À€)À€À€	À€À€'	idÀ€#À€À€#À€	xÀ€$ÂƒÀ€À€À€#	yÀ€$ÂƒÀ€À€À€#	zÀ€$ÂƒÀ€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'Â¸À€À€tÀ€À€panelhookÀ€
+6top_panelÀ€
+7|À€À€#À€bottom_panelÀ€
+8|À€À€#stdscr_pseudo_panelÀ€
+9|À€À€#À€panelÀ€tÀ€À€cc_tÀ€	Ã¡À€À€À€speed_tÀ€	ÂŠÀ€À€À€tcflag_tÀ€	ÂŠÀ€À€À€LÀ€À€termiosÀ€<	c_iflagÀ€	 ÂÀ€À€#À€c_oflagÀ€	!ÂÀ€À€#c_cflagÀ€	"ÂÀ€À€#c_lflagÀ€	#ÂÀ€À€#c_lineÀ€	$Â‚À€À€#c_ccÀ€	%LÀ€À€#c_ispeedÀ€	&ÂŽÀ€À€#4c_ospeedÀ€	'ÂŽÀ€À€#8À€
+\À€À€Â‚À€À€Â±À€À€À€À€ÂŽÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦.À€À€#À€	str_tableÀ€Â§.À€À€#	BooleansÀ€Â¨.À€À€#	NumbersÀ€Â©ÂŽÀ€À€#	StringsÀ€ÂªÂ”À€À€# 	ext_str_tableÀ€Â­.À€À€#(	ext_NamesÀ€Â®Â”À€À€#0	num_BooleansÀ€Â°Â¸À€À€À€#8	num_NumbersÀ€Â±Â¸À€À€À€#:	num_StringsÀ€Â²Â¸À€À€À€#<	ext_BooleansÀ€Â´Â¸À€À€À€#>	ext_NumbersÀ€ÂµÂ¸À€À€À€#@	ext_StringsÀ€Â¶Â¸À€À€À€#BÀ€À€À€.À€À€TERMTYPEÀ€Â¹\À€À€,À€À€termÀ€ÃÂ»	typeÀ€Â¼ÂšÀ€À€#À€	FiledesÀ€Â½À€À€#H	OttybÀ€Â¾Â­À€À€#L	NttybÀ€Â¿Â­À€À€#Âˆ	_baudrateÀ€Ã€ÂƒÀ€À€À€#Ã„	_termnameÀ€Ã.À€À€#ÃˆÀ€TERMINALÀ€Ã‚Â«À€À€colorpair_tÀ€BÂŠÀ€À€À€À€À€tÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iWÀ€À€Ã®À€À€s	hashvalÀ€p|À€À€À€#À€	oldcountÀ€qÂƒÀ€À€À€#	newcountÀ€qÂƒÀ€À€À€#À€À€À€À€rÂƒÀ€À€À€#	newindexÀ€rÂƒÀ€À€À€#À€HASHMAPÀ€sÂ†À€À€fÀ€À€Â„	ent_textÀ€.À€À€#À€	form_textÀ€Â€.À€À€#	ent_xÀ€ÂÂƒÀ€À€À€#	dirtyÀ€Â‚Ã™À€À€À€#	visibleÀ€ÂƒÃ™À€À€À€#À€slk_entÀ€Â„Ã¾À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰ÂÀ€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€#	labcntÀ€ÂŒÀ€À€#	maxlenÀ€ÂÀ€À€#	attrÀ€ÂŽÀ€À€# À€fÀ€À€KÀ€À€Â—	winÀ€Â”ÂÀ€À€#À€	lineÀ€Â•ÂƒÀ€À€À€#	hookÀ€Â–`À€À€#À€`À€À€ÂƒÀ€À€À€ÂÀ€À€ÂƒÀ€À€À€À€KÀ€À€ripoff_tÀ€Â—À€À€,À€À€PÀ€À€
+Â“À€À€Ã™À€À€À€Â±À€À€À€'À€
+Â£À€À€fÀ€À€Â±À€À€À€À€fÀ€À€ÂÀ€À€
+Â¿À€À€ÂƒÀ€À€À€Â±À€À€À€ÂˆÀ€vÀ€À€Ã¼À€À€=À€À€À€À€Ã§À€À€À€À€Â²À€À€À€Ã—À€À€À€À€À€À€Â²À€À€ÂƒÀ€À€À€À€Ã­À€À€À€À€Â²À€À€À€À€À€
+*À€À€	À€À€Â±À€À€À€À€	À€À€EÀ€À€ÂƒÀ€À€À€ÂƒÀ€À€À€ÂƒÀ€À€À€À€0À€À€|À€À€À€Ã®À€À€
+hÀ€À€Ã™À€À€À€Â±À€À€À€aÀ€Menu_OptionsÀ€1ÂƒÀ€À€À€Item_OptionsÀ€2ÂƒÀ€À€À€Â¸À€À€CstrÀ€AÃŽÀ€À€À€#À€lengthÀ€BÂ¸À€À€À€#À€TEXTÀ€CÂÀ€À€ÂÀ€À€tagITEMÀ€`FnameÀ€GÂ¸À€À€#À€descriptionÀ€HÂ¸À€À€#imenuÀ€IÀ€À€# userptrÀ€J4À€À€#(optÀ€K|À€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€j.À€À€# pindexÀ€kÀ€À€#(winÀ€lÂÀ€À€#0subÀ€mÂÀ€À€#8userwinÀ€nÂÀ€À€#@usersubÀ€oÂÀ€À€#HitemsÀ€pOÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rUÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ¡À€À€À€#xmenuinitÀ€y,À€À€#Â€menutermÀ€z,À€À€#ÂˆiteminitÀ€{,À€À€#ÂitemtermÀ€|,À€À€#Â˜userptrÀ€~4À€À€#Â markÀ€.À€À€#Â¨optÀ€ÂhÀ€À€#Â°statusÀ€Â‚Â¸À€À€À€#Â´À€ÂÀ€À€Ã„À€À€ITEMÀ€VÃ„À€À€Menu_HookÀ€X=À€À€CÀ€À€OÀ€À€À€À€À€UÀ€À€ À€À€MENUÀ€Â„ÂÀ€À€Ã”À€À€_nc_Post_ItemÀ€5À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€4Ã”À€À€Â‘xitemÀ€4ÃŸÀ€À€Â‘piÀ€6ÂƒÀ€À€À€Â‘lchÀ€7À€À€Â‘hitem_xÀ€8ÂƒÀ€À€À€Â‘ditem_yÀ€8ÂƒÀ€À€À€Â‘`countÀ€9ÂƒÀ€À€À€Â‘\isforeÀ€:À€À€Â‘[isbackÀ€:À€À€Â‘ZisgreyÀ€:À€À€Â‘Yname_lenÀ€;ÂƒÀ€À€À€Â‘Tdesc_lenÀ€<ÂƒÀ€À€À€Â‘PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€mÀ€Â„ÂƒÀ€À€À€Â‘LcyÀ€Â…ÂƒÀ€À€À€Â‘HcxÀ€Â…ÂƒÀ€À€À€Â‘DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€ÂœÂƒÀ€À€À€Â‘@kÀ€ÂœÂƒÀ€À€À€Â‘Â¼ncyÀ€ÂœÂƒÀ€À€À€Â‘Â¸ncxÀ€ÂœÂƒÀ€À€À€Â‘Â´À€À€À€ÃšÀ€À€[À€À€Ã¥À€À€ À€À€Ã– À€À€_nc_Draw_MenuÀ€Ã‰À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€ÃˆÃ”À€À€Â‘xitemÀ€ÃŠUÀ€À€Â‘plasthorÀ€Ã‹UÀ€À€Â‘hlastvertÀ€Ã‹UÀ€À€Â‘`hitemÀ€ÃŒUÀ€À€Â‘XyÀ€ÍƒÀ€À€À€Â‘Ts_bkgdÀ€ÃŽÀ€À€Â‘PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€Ã§ÂƒÀ€À€À€Â‘LjÀ€Ã§ÂƒÀ€À€À€Â‘HcyÀ€Ã§ÂƒÀ€À€À€Â‘DcxÀ€Ã§ÂƒÀ€À€À€Â‘@chÀ€Ã¨À€À€Â‘Â¼À€À€ Âƒ!À€À€post_menuÀ€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V!menuÀ€Âƒ!À€À€Â‘p"_!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#yÀ€ÂƒÀ€À€À€Â‘l#hÀ€ÂƒÀ€À€À€Â‘h#winÀ€ ÂÀ€À€Â‘`#maxyÀ€!ÂƒÀ€À€À€Â‘\À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#itemsÀ€8OÀ€À€Â‘`À€À€[À€À€ Ã•!À€À€unpost_menuÀ€WÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V!menuÀ€VÂƒ!À€À€Â‘x#winÀ€XÂÀ€À€Â‘pÀ€$_nc_tracingÀ€ÂŠÀ€À€À€$SPÀ€Ã‹Â²À€À€À€À€À€À€Ã°À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_post.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€4Ã³rÂ½QÂ€Â¹Ã¨)Â€IÂ¸eÂ€hrÃ®ÂÂ€Ã˜Ã•Â€gÂÂ€gÂ€KÂªÂ¸ÂÃ­ÂƒÃ–$ÂªÃ•ÕHSxÃ¯
+Â©ÂªÂ¸Ã°ÂÃ­ÂƒsÃ¦QdÂœdÂ€Â€s3rÃ¢Â‚3w4Â©,dÂ„dÂ€dÂ€dÂ€+Â¸Ã¤vÃ”:Ã†Ã±+IÂ€+Ã‡Â€Ã²sQ;r;Ã­|Â‡Â¹WÂÂ¸Ã•W+Ã†%rÂ¹Â¹Â¹Ã²ÂK$%ÂªÂ¸Âœ4ÂºÂ¹Â¬Â¹ÂWÂ§Â¡ÂXXÂrÂ›Âº%rÂ¹Â¹Â¹XXKÂŽÂÆºÆ¹ÂrÀ€called {post_menu(%p)À€called {unpost_menu(%p)À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€AÂ†C
+$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â–À€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€QÀ€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€Â–À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€|À€À€À€À€À€À€À€(À€À€À€AÂ†C
+À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€Ã¹!À€À€gÀ€À€_nc_Post_ItemÀ€ÃªÀ€À€_nc_Draw_MenuÀ€Ã– À€À€post_menuÀ€Â‰!À€À€unpost_menuÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â BÀ€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€Ã¹!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°IÀ€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`2À€À€À€À€À€À€#À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xLÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âƒ4À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸4À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂLÀ€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X5À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PMÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°5À€À€À€À€À€À€TÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°MÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€D6À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆMÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€t6À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜6À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜6À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âª6À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ=À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆAÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€GÀ€À€À€À€À€À€QÀ€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€Â˜À€À€À€À€À€À€Â–À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¬À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã»À€À€À€À€À€.À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_post.cÀ€_nc_Post_ItemÀ€_GLOBAL_OFFSET_TABLE_À€wattr_onÀ€waddnstrÀ€waddchÀ€wattr_offÀ€_nc_Calculate_Text_WidthÀ€wmoveÀ€_nc_Draw_MenuÀ€wbkgdsetÀ€weraseÀ€post_menuÀ€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€SPÀ€newpadÀ€subpadÀ€_nc_Link_ItemsÀ€_nc_Show_MenuÀ€unpost_menuÀ€wsyncupÀ€delwinÀ€À€À€Â‰À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã·À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿7À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿eÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â†À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â»À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã´À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿<À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿jÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿mÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â­À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã›À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿zÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â›À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â´À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿8À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â§À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¤À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿"À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿AÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‡À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â”À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¤À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¤À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿$À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿=À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¢À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿bÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¨À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¼À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã†À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã’À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¢À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿0	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿@	À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¸	À€À€À€À€À€À€	À€À€À€ À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€!À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿p
+À€À€À€À€À€À€À€À€À€"À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â‚
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â’
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŸ
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¯
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã’
+À€À€À€À€À€À€À€À€À€#À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã™
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã©
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿OÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€$À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿=À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€[À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â–À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¦À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã•À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã‚
+À€À€À€À€À€À€	À€À€À€ À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¡
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ãª
+À€À€À€À€À€À€À€À€À€&À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã·
+À€À€À€À€À€À€À€À€À€'À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€'À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿:À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿JÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€aÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€lÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Ã‹À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â†À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€SÀ€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€[À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â’À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€	 À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€Â„ À€À€À€À€À€À€À€À€À€À€À€À€bÀ€À€À€À€À€À€ÂŒ À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€Ã® À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€Ã¶ À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€m	À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€Ã–
+À€À€À€À€À€À€`!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h!À€À€À€À€À€À€À€À€À€À€À€À€JÀ€À€À€À€À€À€Â£!À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€Â«!À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€À€À€Ã½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€Â„À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€GÀ€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_req_name.o/   1347872992  0     0     100644  6272      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¨À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬Â‰}Ã¼HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹uÃ¼HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Â}Ã¼Ã¿À€À€~Â}Ã¼À€À€Ã«Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿À€À€À€À€Ã¨À€À€À€À€HÂ‰EÃ°Ã«!Â‹EÃ¼HÂ˜HÂÃ…À€À€À€À€HÂÀ€À€À€À€HÂ‹<Ã¨À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°Ã‰ÃƒUHÂ‰Ã¥SHÂƒÃ¬8HÂ‰}Ã¨Ã‡EÃ¤À€À€À€À€HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹}Ã¨Ã¨À€À€À€À€HÂ‰Ã†HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¨À€Â„ÂŽÀ€À€À€HÂ‹uÃ¨HÂ}ÐºÀ€À€À€Ã¨À€À€À€À€Âƒ}Ã¤w&Â‹EÃ¤Â€|ÃÀ€tÂ‹]Ã¤Â‹EÃ¤Â¶|ÃÃ¨À€À€À€À€ÂˆDÃHÂEÃ¤Ã¿À€Ã«Ã”Ã‡EÃ¤À€À€À€À€Âƒ}Ã¤wCHÂuÐ‹EÃ¤HÂÃ…À€À€À€À€HÂÀ€À€À€À€HÂ‹<ÂºÀ€À€À€Ã¨À€À€À€À€Â…Ã€uÂ‹}Ã¤ÂÃ‡À€À€À€Ã¨À€À€À€À€Â‰EÃŒÃ« HÂEÃ¤Ã¿À€Ã«Â·Ã¨À€À€À€À€Ã‡À€Ã·Ã¿Ã¿Ã¿Â¿Ã·Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÌ‹EÃŒHÂƒÃ„8[Ã‰ÃƒÀ€À€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€IÀ€À€!À€I/À€À€.?:;'I@
+À€À€	À€:;I
+À€À€
+4À€:;I
+À€À€4À€:;I?<À€À€À€"À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_req_name.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã’À€À€À€Ã—À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€À€À€Ã—À€À€À€Â¯À€À€À€À€long long unsigned intÀ€_BoolÀ€ÂƒÀ€À€menu_request_nameÀ€LÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V	requestÀ€KÂ‡À€À€À€Â‘|À€Ã À€À€menu_request_by_nameÀ€bÂ‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€V	strÀ€aÃŒÀ€À€À€Â‘h
+iÀ€fÂŽÀ€À€À€Â‘d
+bufÀ€gÀ€À€Â‘PÀ€_nc_tracingÀ€ÂŽÀ€À€À€À€À€ÃŒÀ€À€À€Â¯À€À€À€À€
+request_namesÀ€*Ã¶À€À€	À€À€À€À€À€À€À€À€À€Â€À€À€À€À€DÀ€À€À€Ã»
+À€À€À€À€../menuÀ€../ncursesÀ€À€m_req_name.cÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€Ã‹À€Âª$;ÂªÃ²Ã°
+cÃ‰t-Â«Ã±:Â‚Ã‡((Â…r
+À€À€À€À€À€À€À€LEFT_ITEMÀ€RIGHT_ITEMÀ€UP_ITEMÀ€DOWN_ITEMÀ€SCR_ULINEÀ€SCR_DLINEÀ€SCR_DPAGEÀ€SCR_UPAGEÀ€FIRST_ITEMÀ€LAST_ITEMÀ€NEXT_ITEMÀ€PREV_ITEMÀ€TOGGLE_ITEMÀ€CLEAR_PATTERNÀ€BACK_PATTERNÀ€NEXT_MATCHÀ€PREV_MATCHÀ€called {menu_request_name(%d)À€À€À€À€À€À€called {menu_request_by_name(%s)À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€AÂ†C
+$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€Ã¼À€À€À€À€AÂ†C
+EÂƒÀ€À€À€À€=À€À€À€À€À€À€À€À€&À€À€?À€À€menu_request_nameÀ€ÂƒÀ€À€menu_request_by_nameÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.data.rel.localÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã„À€À€À€À€À€À€Â”À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€Â„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€AÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¡À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â´À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã‘À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã“À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃµÀ€À€À€À€À€À€Ã¬À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€Ã‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€.À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€Â…À€À€À€À€À€À€À€Ã¼À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂšÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_req_name.cÀ€request_namesÀ€menu_request_nameÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_cptrÀ€menu_request_by_nameÀ€_nc_visbufÀ€strncpyÀ€toupperÀ€strncmpÀ€_nc_retrace_intÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿!À€À€À€À€À€À€À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿DÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿TÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿nÀ€À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¯Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂœÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â®À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€À€Ã‚À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿.À€À€À€À€À€À€À€À€À€	À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿<À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿NÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿`À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿pÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€fÀ€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€Â­À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€'À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€;À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€EÀ€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€OÀ€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€ZÀ€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€dÀ€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€Â’À€À€À€À€À€À€À€xÀ€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â…À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_scale.o/      1347872992  0     0     100644  6256      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x
+À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‰UÃ¨HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹MÃ¨HÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€uÃ¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Ã«tHÂ‹EÃ¸HÂƒxPÀ€tQHÂ‹EÃ¸HÂ‹@PHÂƒ8À€tCHÂƒ}Ã°À€t
+HÂ‹EÃ°HÂ‹UÃ¸Â¿Â‰HÂƒ}Ã¨À€tHÂ‹EÃ¨HÂ‹UÃ¸Â¿RÂ‰Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¤Ã«Ã¨À€À€À€À€Ã‡À€ÃµÃ¿Ã¿Ã¿Â¿ÃµÃ¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¤Â‹EÃ¤Ã‰ÃƒÀ€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€À€Ã‘À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_scale.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â„À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã•À€À€À€ÃšÀ€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€ÃšÀ€À€À€long long unsigned intÀ€chtypeÀ€ÂÂ‹À€À€À€WINDOWÀ€UNÀ€À€	MÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÀ€À€#À€
+_curxÀ€ÂˆÀ€À€#
+_maxyÀ€Â‹À€À€#
+_maxxÀ€Â‹À€À€#
+_begyÀ€ÂŒÀ€À€#
+_begxÀ€ÂŒÀ€À€#
+
+_flagsÀ€ÂŽÀ€À€#
+_attrsÀ€Â‘MÀ€À€#
+_bkgdÀ€Â’1À€À€#
+_notimeoutÀ€Â•Ã¥À€À€#
+_clearÀ€Â–Ã¥À€À€#
+_leaveokÀ€Â—Ã¥À€À€#
+_scrollÀ€Â˜Ã¥À€À€#
+_idlokÀ€Â™Ã¥À€À€#
+_idcokÀ€ÂšÃ¥À€À€#
+_immedÀ€Â›Ã¥À€À€#
+_syncÀ€ÂœÃ¥À€À€#
+_use_keypadÀ€ÂÃ¥À€À€# 
+_delayÀ€ÂžÂ„À€À€À€#$
+_lineÀ€Â JÀ€À€#(
+_regtopÀ€Â£À€À€#0
+_regbottomÀ€Â¤À€À€#2
+_parxÀ€Â§Â„À€À€À€#4
+_paryÀ€Â¨Â„À€À€À€#8
+_parentÀ€Â©PÀ€À€#@
+_padÀ€Â±\À€À€#H
+_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€W1À€À€	Ã¥À€À€pdatÀ€Â­
+_pad_yÀ€Â®À€À€#À€
+_pad_xÀ€Â®À€À€#
+_pad_topÀ€Â¯À€À€#
+_pad_leftÀ€Â¯À€À€#
+_pad_bottomÀ€Â°À€À€#
+_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€	JÀ€À€ldatÀ€Â„
+textÀ€VVÀ€À€#À€
+firstcharÀ€WÀ€À€#
+lastcharÀ€XÀ€À€#
+
+oldindexÀ€YÀ€À€#À€Ã®À€À€?À€À€1À€À€Menu_OptionsÀ€1Â„À€À€À€Item_OptionsÀ€2Â„À€À€À€Â¬À€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂ¹À€À€À€#À€TEXTÀ€CÂ„À€À€
+Â‘À€À€tagITEMÀ€`FnameÀ€GÂ¬À€À€#À€descriptionÀ€HÂ¬À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KpÀ€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÃ¥À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€jÀ€À€# pindexÀ€kÀ€À€#(winÀ€lPÀ€À€#0subÀ€mPÀ€À€#8userwinÀ€nPÀ€À€#@usersubÀ€oPÀ€À€#HitemsÀ€pCÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rIÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€t1À€À€#lbackÀ€u1À€À€#pgreyÀ€v1À€À€#tpadÀ€wÃ¢À€À€À€#xmenuinitÀ€y À€À€#Â€menutermÀ€z À€À€#ÂˆiteminitÀ€{ À€À€#ÂitemtermÀ€| À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€Â\À€À€#Â°statusÀ€Â‚Â¹À€À€À€#Â´À€Â‘À€À€Â¸À€À€ITEMÀ€VÂ¸À€À€Menu_HookÀ€X1À€À€7À€À€CÀ€À€À€À€À€IÀ€À€À€À€MENUÀ€Â„Â‘À€À€Â³À€À€scale_menuÀ€7Â„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€6Â³À€À€Â‘xrowsÀ€6Â›À€À€À€Â‘pcolsÀ€6Â›À€À€À€Â‘hÀ€Â¹À€À€OÀ€À€_nc_tracingÀ€Â‹À€À€À€À€Â·À€À€À€À€ÂŒÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_scale.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€6:-rÂÂrÃ†rÃ”ÂrÀ€called {scale_menu(%p,%p,%p)À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã•À€À€[À€À€scale_menuÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã•À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãž
+À€À€À€À€À€À€Â»À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€!À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€IÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€yÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‹À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_scale.cÀ€scale_menuÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿3À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿=À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿IÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿YÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¥À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂµÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¿À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_spacing.o/    1347872993  0     0     100644  7688      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬`HÂ‰}Ã¸Â‰uÃ´Â‰UÃ°Â‰MÃ¬HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t!Â‹EÃ¬Â‹MÃ°Â‹UÃ´HÂ‹uÃ¸AÂ‰Ã€HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃHÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰UÃHÂ‹EÃHÂ‰EÃ¸HÂ‰EÃ HÂ‹EÃ Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃœÃ©À€À€Âƒ}Ã´À€xXHÂ‹À€À€À€À€Âƒ8À€tHÂ‹À€À€À€À€Â‹EÃ´;>Ã«Âƒ}Ã´6Âƒ}Ã°À€x0Âƒ}Ã°*Âƒ}Ã¬À€x$HÂ‹À€À€À€À€Âƒ8À€tHÂ‹À€À€À€À€Â‹EÃ¬;
+Ã«%Âƒ}Ã¬Ã«Ã¨À€À€À€À€Ã‡À€Ã¾Ã¿Ã¿Ã¿Â¿Ã¾Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃœÃ©ÂœÀ€À€À€HÂ‹EÃ HÂ‰EÈƒ}Ã´À€t	Â‹EÃ´fÂ‰EÃ†Ã«fÃ‡EÃ†À€Â·EÃ†HÂ‹UÃˆfÂ‰BHÂ‹UÃ HÂ‰UÂ¸Âƒ}Ã°À€t	Â‹EÃ°fÂ‰EÂ¶Ã«fÃ‡EÂ¶À€Â·UÂ¶HÂ‹EÂ¸fÂ‰PHÂ‹EÃ HÂ‰EÂ¨Âƒ}Ã¬À€t	Â‹EÃ¬fÂ‰EÂ¦Ã«fÃ‡EÂ¦À€Â·EÂ¦HÂ‹UÂ¨fÂ‰BHÂ‹}Ã Ã¨À€À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÜ‹EÃœÃ‰ÃƒUHÂ‰Ã¥HÂƒÃ¬0HÂ‰}Ã¸HÂ‰uÃ°HÂ‰UÃ¨HÂ‰MÃ HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€t$HÂ‹EÃ HÂ‹MÃ¨HÂ‹UÃ°HÂ‹uÃ¸IÂ‰Ã€HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃHÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃHÂ‹EÃHÂ‰EÃ¸HÂ‰EÃ˜HÂƒ}Ã°À€tHÂ‹EÃ°HÂ‹UÃ˜Â¿RÂ‰HÂƒ}Ã¨À€tHÂ‹EÃ¨HÂ‹UÃ˜Â¿RÂ‰HÂƒ}Ã À€tHÂ‹EÃ HÂ‹UÃ˜Â¿RÂ‰Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒÀ€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€Â£	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_spacing.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â†À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã—À€À€À€ÃœÀ€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€ÃœÀ€À€À€long long unsigned intÀ€chtypeÀ€ÂÂÀ€À€À€WINDOWÀ€UPÀ€À€	OÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÀ€À€#À€
+_curxÀ€ÂˆÀ€À€#
+_maxyÀ€Â‹À€À€#
+_maxxÀ€Â‹À€À€#
+_begyÀ€ÂŒÀ€À€#
+_begxÀ€ÂŒÀ€À€#
+
+_flagsÀ€ÂŽÀ€À€#
+_attrsÀ€Â‘OÀ€À€#
+_bkgdÀ€Â’3À€À€#
+_notimeoutÀ€Â•Ã§À€À€#
+_clearÀ€Â–Ã§À€À€#
+_leaveokÀ€Â—Ã§À€À€#
+_scrollÀ€Â˜Ã§À€À€#
+_idlokÀ€Â™Ã§À€À€#
+_idcokÀ€ÂšÃ§À€À€#
+_immedÀ€Â›Ã§À€À€#
+_syncÀ€ÂœÃ§À€À€#
+_use_keypadÀ€ÂÃ§À€À€# 
+_delayÀ€ÂžÂ†À€À€À€#$
+_lineÀ€Â LÀ€À€#(
+_regtopÀ€Â£À€À€#0
+_regbottomÀ€Â¤À€À€#2
+_parxÀ€Â§Â†À€À€À€#4
+_paryÀ€Â¨Â†À€À€À€#8
+_parentÀ€Â©RÀ€À€#@
+_padÀ€Â±^À€À€#H
+_yoffsetÀ€Â³À€À€#TÀ€attr_tÀ€W3À€À€	Ã§À€À€pdatÀ€Â­
+_pad_yÀ€Â®À€À€#À€
+_pad_xÀ€Â®À€À€#
+_pad_topÀ€Â¯À€À€#
+_pad_leftÀ€Â¯À€À€#
+_pad_bottomÀ€Â°À€À€#
+_pad_rightÀ€Â°À€À€#
+À€_BoolÀ€	LÀ€À€ldatÀ€Â„
+textÀ€VXÀ€À€#À€
+firstcharÀ€WÀ€À€#
+lastcharÀ€XÀ€À€#
+
+oldindexÀ€YÀ€À€#À€Ã°À€À€AÀ€À€3À€À€Menu_OptionsÀ€1Â†À€À€À€Item_OptionsÀ€2Â†À€À€À€Â®À€À€CstrÀ€AÃ‘À€À€À€#À€lengthÀ€BÂ»À€À€À€#À€TEXTÀ€CÂ†À€À€
+Â“À€À€tagITEMÀ€`FnameÀ€GÂ®À€À€#À€descriptionÀ€HÂ®À€À€#imenuÀ€I
+À€À€# userptrÀ€JÀ€À€#(optÀ€KrÀ€À€#0indexÀ€LÀ€À€#4yÀ€MÀ€À€#6xÀ€NÀ€À€#8valueÀ€OÃ§À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\À€À€#À€widthÀ€]À€À€#rowsÀ€^À€À€#colsÀ€_À€À€#frowsÀ€`À€À€#fcolsÀ€aÀ€À€#
+arowsÀ€bÀ€À€#namelenÀ€cÀ€À€#desclenÀ€dÀ€À€#marklenÀ€eÀ€À€#itemlenÀ€fÀ€À€#spc_descÀ€gÀ€À€#spc_colsÀ€hÀ€À€#spc_rowsÀ€iÀ€À€#patternÀ€jÀ€À€# pindexÀ€kÀ€À€#(winÀ€lRÀ€À€#0subÀ€mRÀ€À€#8userwinÀ€nRÀ€À€#@usersubÀ€oRÀ€À€#HitemsÀ€pEÀ€À€#PnitemsÀ€qÀ€À€#XcuritemÀ€rKÀ€À€#`toprowÀ€sÀ€À€#hforeÀ€t3À€À€#lbackÀ€u3À€À€#pgreyÀ€v3À€À€#tpadÀ€wÃ¤À€À€À€#xmenuinitÀ€y"À€À€#Â€menutermÀ€z"À€À€#ÂˆiteminitÀ€{"À€À€#ÂitemtermÀ€|"À€À€#Â˜userptrÀ€~À€À€#Â markÀ€À€À€#Â¨optÀ€Â^À€À€#Â°statusÀ€Â‚Â»À€À€À€#Â´À€Â“À€À€ÂºÀ€À€ITEMÀ€VÂºÀ€À€Menu_HookÀ€X3À€À€9À€À€EÀ€À€
+À€À€À€KÀ€À€À€À€MENUÀ€Â„Â“À€À€ÃšÀ€À€set_menu_spacingÀ€8Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€7ÃšÀ€À€Â‘xs_descÀ€7Â†À€À€À€Â‘ts_rowÀ€7Â†À€À€À€Â‘ps_colÀ€7Â†À€À€À€Â‘lmÀ€9ÃšÀ€À€Â‘`À€QÀ€À€Y	À€À€menu_spacingÀ€[Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€ZY	À€À€Â‘xs_descÀ€ZÂÀ€À€À€Â‘ps_rowÀ€ZÂÀ€À€À€Â‘hs_colÀ€ZÂÀ€À€À€Â‘`mÀ€\Y	À€À€Â‘XÀ€_	À€À€QÀ€À€TABSIZEÀ€UÂ†À€À€À€_nc_tracingÀ€ÂÀ€À€À€_nc_Default_MenuÀ€3QÀ€À€À€Ã¦À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_spacing.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€7J1&Â¹^Â¹)))ÂrUt4&rÃ”rÃ”rÃ•HÀ€À€À€called {set_menu_spacing(%p,%d,%d,%d)À€À€À€called {menu_spacing(%p,%p,%p,%p)À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€ÃˆÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€Â§	À€À€]À€À€set_menu_spacingÀ€Ã À€À€menu_spacingÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€Ã¸À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃÀ€À€À€À€À€À€Â§	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€Ã°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€t
+À€À€À€À€À€À€ÃªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€JÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃšÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃšÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¬À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€Â·À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€À€À€m_spacing.cÀ€set_menu_spacingÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_Default_MenuÀ€__errno_locationÀ€_nc_retrace_intÀ€TABSIZEÀ€_nc_Calculate_Item_Length_and_WidthÀ€menu_spacingÀ€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿8À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿BÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿XÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â¤À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â°À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã˜À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¤À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃºÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿
+À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â–À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â›À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â«À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã’À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃµÀ€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€À€À€À€À€Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿iÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿yÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÂµÀ€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂƒÀ€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€ÃºÀ€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â·À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_sub.o/        1347872993  0     0     100644  12968     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã°%À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t:HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«5HÂ‹UÃ¸HÂ‹EÃ°HÂ‰BHÃ«HÂ‹À€À€À€À€HÂ‹EÃ°HÂ‰BHÃ¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹EÃ¨HÂ‰EÃ¸HÂ‰EÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ°HÂ‹@HHÂ‰EÃ HÂ‹EÃ°HÂƒxHÀ€u,HÂ‹EÃ°HÂ‹@@HÂ‰EÃ HÂ‹EÃ°HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃ HÂ‹}Ã Ã¨À€À€À€À€Ã‰ÃƒÀ€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€ 4À€:;I?<À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_sub.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â‚À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã“À€À€À€Ã˜À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂoÀ€À€À€__off64_tÀ€ÂoÀ€À€À€Ã˜À€À€À€long long unsigned intÀ€FILEÀ€.[À€À€Â©À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â‚À€À€À€#À€	_IO_read_ptrÀ€-À€À€#	_IO_read_endÀ€-À€À€#	_IO_read_baseÀ€-À€À€#	_IO_write_baseÀ€-À€À€# 	_IO_write_ptrÀ€-À€À€#(	_IO_write_endÀ€-À€À€#0	_IO_buf_baseÀ€-À€À€#8	_IO_buf_endÀ€-À€À€#@	_IO_save_baseÀ€-À€À€#H	_IO_backup_baseÀ€-À€À€#P	_IO_save_endÀ€-À€À€#X	_markersÀ€ÃºÀ€À€#`	_chainÀ€À€À€À€#h	_filenoÀ€Â‚À€À€À€#p	_flags2À€#Â‚À€À€À€#t	_old_offsetÀ€%
+À€À€#x	_cur_columnÀ€)Â·À€À€À€#Â€	_vtable_offsetÀ€*Ã±À€À€À€#Â‚	_shortbufÀ€+À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>3À€À€#Â˜	__pad2À€?3À€À€#Â 	_modeÀ€AÂ‚À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­ÃºÀ€À€_IO_markerÀ€Â³_nextÀ€Â´ÃºÀ€À€#À€_sbufÀ€ÂµÀ€À€À€#_posÀ€Â¹Â‚À€À€À€#À€Â·À€À€[À€À€
+À€À€Ã˜À€À€À€Â°À€À€À€À€À€Â©À€À€
+,À€À€Ã˜À€À€À€Â°À€À€À€+À€zÀ€À€triesÀ€Ã¥childÀ€Ã¦zÀ€À€#À€siblingÀ€Ã§zÀ€À€#chÀ€Ã¨Ã À€À€À€#valueÀ€Ã©Â·À€À€À€#À€,À€À€TRIESÀ€Ã«,À€À€Ã»À€À€redÀ€Ã¿À€À€À€#À€greenÀ€Ã¿À€À€À€#blueÀ€Ã¿À€À€À€#	rÀ€À€À€À€À€#	gÀ€À€À€À€À€#	bÀ€À€À€À€À€#
+	initÀ€Â‚À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂ‰À€À€À€mmask_tÀ€Â{À€À€À€SCREENÀ€T7À€À€tÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â‚À€À€À€#À€	_ofpÀ€Â“|À€À€#	_setbufÀ€Â”-À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â‚À€À€À€#	_termÀ€ÂšvÀ€À€# 	_saved_ttyÀ€Â›Â¬À€À€#(	_linesÀ€ÂœÀ€À€À€#d	_columnsÀ€ÂÀ€À€À€#f	_lines_availÀ€ÂŸÀ€À€À€#h	_topstolenÀ€Â À€À€À€#j	_curscrÀ€Â¢Â€À€À€#p	_newscrÀ€Â£Â€À€À€#x	_stdscrÀ€Â¤Â€À€À€#Â€	_keytryÀ€ÂªÂ¨À€À€#Âˆ	_key_okÀ€Â«Â¨À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â®À€À€#Âœ	_fifoheadÀ€Â±À€À€À€#Ã€	_fifotailÀ€Â²À€À€À€#Ã‚	_fifopeekÀ€Â³À€À€À€#Ã„	_fifoholdÀ€Â´À€À€À€#Ã†	_endwinÀ€Â¶Â‚À€À€À€#Ãˆ	_current_attrÀ€Â·PÀ€À€#Ã	_coloronÀ€Â¸Â‚À€À€À€#Ã˜	_color_defsÀ€Â¹Â‚À€À€À€#Ãœ	_cursorÀ€ÂºÂ‚À€À€À€#Ã 	_cursrowÀ€Â»Â‚À€À€À€#Ã¤	_curscolÀ€Â¼Â‚À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â‚À€À€À€#Ã°	_rawÀ€Â¿Â‚À€À€À€#Ã´	_cbreakÀ€Ã€Â‚À€À€À€#Ã¸	_echoÀ€Ã‚Â‚À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ‚À€À€À€#Â€	_slkÀ€Ã„Â¾À€À€#Âˆ	slk_formatÀ€Ã…Â‚À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ‚À€À€À€#Â˜	_cr_costÀ€Ã‹Â‚À€À€À€#Âœ	_cup_costÀ€ÃŒÂ‚À€À€À€#Â 	_home_costÀ€ÃÂ‚À€À€À€#Â¤	_ll_costÀ€ÃŽÂ‚À€À€À€#Â¨	_cub1_costÀ€Ã“Â‚À€À€À€#Â¬	_cuf1_costÀ€Ã”Â‚À€À€À€#Â°	_cud1_costÀ€Ã•Â‚À€À€À€#Â´	_cuu1_costÀ€Ã–Â‚À€À€À€#Â¸	_cub_costÀ€Ã—Â‚À€À€À€#Â¼	_cuf_costÀ€Ã˜Â‚À€À€À€#Ã€	_cud_costÀ€Ã™Â‚À€À€À€#Ã„	_cuu_costÀ€ÃšÂ‚À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â‚À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ‚À€À€À€#Ã	_ed_costÀ€ÃžÂ‚À€À€À€#Ã”	_el_costÀ€ÃŸÂ‚À€À€À€#Ã˜	_el1_costÀ€Ã Â‚À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â‚À€À€À€#Ã 	_ich1_costÀ€Ã¢Â‚À€À€À€#Ã¤	_dch_costÀ€Ã£Â‚À€À€À€#Ã¨	_ich_costÀ€Ã¤Â‚À€À€À€#Ã¬	_ech_costÀ€Ã¥Â‚À€À€À€#Ã°	_rep_costÀ€Ã¦Â‚À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â‚À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â‚À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â‚À€À€À€#Â€	_inline_costÀ€ÃªÂ‚À€À€À€#Â„	_smir_costÀ€Ã«Â‚À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â‚À€À€À€#ÂŒ	_ip_costÀ€Ã­Â‚À€À€À€#Â	_address_cursorÀ€Ã¯-À€À€#Â˜	_scrollingÀ€Ã±Â‚À€À€À€#Â 	_color_tableÀ€Ã´Ã„À€À€#Â¨	_color_countÀ€ÃµÂ‚À€À€À€#Â°	_color_pairsÀ€Ã¶ÃŠÀ€À€#Â¸	_pair_countÀ€Ã·Â‚À€À€À€#Ã€	_pair_limitÀ€Ã¸Â‚À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â‚À€À€À€#ÃŒ	_default_bgÀ€Ã½Â‚À€À€À€#Ã	_default_pairsÀ€Ã¾Â‚À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€PÀ€À€#Ã¨	_screen_acs_mapÀ€ÃÀ€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€sÀ€À€#Â€	_maxclickÀ€Â‚À€À€À€#Â„	_mouse_eventÀ€Ã¦À€À€#Âˆ	_mouse_inlineÀ€Ã¦À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â‚À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#-À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%)À€À€#Âˆ
+	_resizeÀ€PDÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ±À€À€#Â¸
+	oldhashÀ€]JÀ€À€#Ã€
+	newhashÀ€]JÀ€À€#Ãˆ
+	hashtabÀ€^PÀ€À€#Ã
+	hashtab_lenÀ€_Â‚À€À€À€#Ã˜
+	_oldnum_listÀ€`Â™À€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ‚À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ†À€À€#Ã°
+	_legacy_codingÀ€fÂ‚À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ‚À€À€#Ã¼
+	tracemse_bufÀ€vVÀ€À€#Â¤	jumpÀ€|Â†À€À€#Âˆ	rippedoffÀ€~Â’À€À€#Â	rspÀ€Â¢À€À€#ÂˆÀ€WINDOWÀ€UÂƒÀ€À€Â‚À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€À€#À€	_curxÀ€ÂˆÀ€À€À€#	_maxyÀ€Â‹À€À€À€#	_maxxÀ€Â‹À€À€À€#	_begyÀ€ÂŒÀ€À€À€#	_begxÀ€ÂŒÀ€À€À€#
+	_flagsÀ€ÂŽÀ€À€À€#	_attrsÀ€Â‘Â‚À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ‚À€À€À€#$	_lineÀ€Â zÀ€À€#(	_regtopÀ€Â£À€À€À€#0	_regbottomÀ€Â¤À€À€À€#2	_parxÀ€Â§Â‚À€À€À€#4	_paryÀ€Â¨Â‚À€À€À€#8	_parentÀ€Â©Â€À€À€#@	_padÀ€Â±Â‘À€À€#H	_yoffsetÀ€Â³À€À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€À€#À€	_pad_xÀ€Â®À€À€À€#	_pad_topÀ€Â¯À€À€À€#	_pad_leftÀ€Â¯À€À€À€#	_pad_bottomÀ€Â°À€À€À€#	_pad_rightÀ€Â°À€À€À€#
+À€_BoolÀ€zÀ€À€ldatÀ€Â„	textÀ€VPÀ€À€#À€	firstcharÀ€WÀ€À€À€#	lastcharÀ€XÀ€À€À€#
+À€À€À€À€YÀ€À€À€#À€#À€À€tÀ€À€NCURSES_OUTCÀ€Â›À€À€Â¡À€À€Â±À€À€Â‚À€À€À€Â‚À€À€À€À€(À€À€À€À€'	idÀ€#À€À€À€#À€	xÀ€$Â‚À€À€À€#	yÀ€$Â‚À€À€À€#	zÀ€$Â‚À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'Â·À€À€sÀ€À€panelhookÀ€
+6top_panelÀ€
+7{À€À€#À€bottom_panelÀ€
+8{À€À€#stdscr_pseudo_panelÀ€
+9{À€À€#À€panelÀ€sÀ€À€cc_tÀ€	Ã À€À€À€speed_tÀ€	Â‰À€À€À€tcflag_tÀ€	Â‰À€À€À€KÀ€À€termiosÀ€<	c_iflagÀ€	 ÂœÀ€À€#À€c_oflagÀ€	!ÂœÀ€À€#c_cflagÀ€	"ÂœÀ€À€#c_lflagÀ€	#ÂœÀ€À€#c_lineÀ€	$ÂÀ€À€#c_ccÀ€	%KÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+[À€À€ÂÀ€À€Â°À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦-À€À€#À€	str_tableÀ€Â§-À€À€#	BooleansÀ€Â¨-À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ“À€À€# 	ext_str_tableÀ€Â­-À€À€#(	ext_NamesÀ€Â®Â“À€À€#0	num_BooleansÀ€Â°Â·À€À€À€#8	num_NumbersÀ€Â±Â·À€À€À€#:	num_StringsÀ€Â²Â·À€À€À€#<	ext_BooleansÀ€Â´Â·À€À€À€#>	ext_NumbersÀ€ÂµÂ·À€À€À€#@	ext_StringsÀ€Â¶Â·À€À€À€#BÀ€À€À€À€-À€À€TERMTYPEÀ€Â¹[À€À€+À€À€termÀ€ÃÂ»	typeÀ€Â¼Â™À€À€#À€	FiledesÀ€Â½À€À€À€#H	OttybÀ€Â¾Â¬À€À€#L	NttybÀ€Â¿Â¬À€À€#Âˆ	_baudrateÀ€Ã€Â‚À€À€À€#Ã„	_termnameÀ€Ã-À€À€#ÃˆÀ€TERMINALÀ€Ã‚ÂªÀ€À€colorpair_tÀ€BÂ‰À€À€À€À€À€sÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iVÀ€À€Ã­À€À€s	hashvalÀ€p{À€À€À€#À€	oldcountÀ€qÂ‚À€À€À€#	newcountÀ€qÂ‚À€À€À€#À€À€À€À€rÂ‚À€À€À€#	newindexÀ€rÂ‚À€À€À€#À€HASHMAPÀ€sÂ…À€À€eÀ€À€Â„	ent_textÀ€-À€À€#À€	form_textÀ€Â€-À€À€#	ent_xÀ€ÂÂ‚À€À€À€#	dirtyÀ€Â‚Ã˜À€À€À€#	visibleÀ€ÂƒÃ˜À€À€À€#À€slk_entÀ€Â„Ã½À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰Â€À€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€À€#	labcntÀ€ÂŒÀ€À€À€#	maxlenÀ€ÂÀ€À€À€#	attrÀ€ÂŽÀ€À€# À€eÀ€À€JÀ€À€Â—	winÀ€Â”Â€À€À€#À€	lineÀ€Â•Â‚À€À€À€#	hookÀ€Â–_À€À€#À€_À€À€Â‚À€À€À€Â€À€À€Â‚À€À€À€À€JÀ€À€ripoff_tÀ€Â—À€À€+À€À€OÀ€À€
+Â’À€À€Ã˜À€À€À€Â°À€À€À€'À€
+Â¢À€À€eÀ€À€Â°À€À€À€À€eÀ€À€Â€À€À€
+Â¾À€À€Â‚À€À€À€Â°À€À€À€ÂˆÀ€uÀ€À€Ã»À€À€<À€À€À€À€Ã¦À€À€À€À€Â±À€À€À€Ã–À€À€À€À€À€À€Â±À€À€Â‚À€À€À€À€Ã¬À€À€À€À€Â±À€À€À€À€À€
+)À€À€À€À€Â°À€À€À€À€À€À€DÀ€À€Â‚À€À€À€Â‚À€À€À€Â‚À€À€À€À€/À€À€{À€À€À€Ã­À€À€
+gÀ€À€Ã˜À€À€À€Â°À€À€À€aÀ€Menu_OptionsÀ€1Â‚À€À€À€Item_OptionsÀ€2Â‚À€À€À€Â·À€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂ·À€À€À€#À€TEXTÀ€CÂÀ€À€ÂœÀ€À€tagITEMÀ€`FnameÀ€GÂ·À€À€#À€descriptionÀ€HÂ·À€À€#imenuÀ€IÀ€À€# userptrÀ€J3À€À€#(optÀ€K{À€À€#0indexÀ€LÀ€À€À€#4yÀ€MÀ€À€À€#6xÀ€NÀ€À€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€À€#À€widthÀ€]À€À€À€#rowsÀ€^À€À€À€#colsÀ€_À€À€À€#frowsÀ€`À€À€À€#fcolsÀ€aÀ€À€À€#
+arowsÀ€bÀ€À€À€#namelenÀ€cÀ€À€À€#desclenÀ€dÀ€À€À€#marklenÀ€eÀ€À€À€#itemlenÀ€fÀ€À€À€#spc_descÀ€gÀ€À€À€#spc_colsÀ€hÀ€À€À€#spc_rowsÀ€iÀ€À€À€#patternÀ€j-À€À€# pindexÀ€kÀ€À€À€#(winÀ€lÂ€À€À€#0subÀ€mÂ€À€À€#8userwinÀ€nÂ€À€À€#@usersubÀ€oÂ€À€À€#HitemsÀ€pNÀ€À€#PnitemsÀ€qÀ€À€À€#XcuritemÀ€rTÀ€À€#`toprowÀ€sÀ€À€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ À€À€À€#xmenuinitÀ€y+À€À€#Â€menutermÀ€z+À€À€#ÂˆiteminitÀ€{+À€À€#ÂitemtermÀ€|+À€À€#Â˜userptrÀ€~3À€À€#Â markÀ€-À€À€#Â¨optÀ€ÂgÀ€À€#Â°statusÀ€Â‚Â·À€À€À€#Â´À€ÂœÀ€À€ÃƒÀ€À€ITEMÀ€VÃƒÀ€À€Menu_HookÀ€X<À€À€BÀ€À€NÀ€À€À€À€À€TÀ€À€À€À€MENUÀ€Â„ÂœÀ€À€Â°À€À€set_menu_subÀ€5Â‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€4Â°À€À€Â‘xwinÀ€4Â€À€À€Â‘pÀ€ZÀ€À€ÃºÀ€À€menu_subÀ€]Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€\ÃºÀ€À€Â‘xmÀ€^ÃºÀ€À€Â‘pÀ€À€À€À€ZÀ€À€_nc_tracingÀ€Â‰À€À€À€SPÀ€Ã‹Â±À€À€ _nc_Default_MenuÀ€3ZÀ€À€À€3À€À€À€Ã¾À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_sub.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€4Ã°)sÂÃ—Ã£rUÂ¸&%LÀ€called {set_menu_sub(%p,%p)À€called {menu_sub(%p)À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€Â¥À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€CÀ€À€fÀ€À€set_menu_subÀ€Â¶À€À€menu_subÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€KÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€KÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0/À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŒÀ€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€#À€À€À€À€À€À€CÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€0À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€f"À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â#À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã#À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã1À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€($À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€02À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€$À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â°$À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€x2À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã $À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€%À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0,À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â .À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€rÀ€À€À€À€À€Â¦À€À€À€À€À€À€À€Â¥À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_sub.cÀ€set_menu_subÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Default_MenuÀ€menu_subÀ€SPÀ€_nc_retrace_winÀ€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿SÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿cÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿}À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂšÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã„À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã›À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¯À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿.À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿EÀ€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€KÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€`À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€ÃŠÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€À€À€À€À€À€À€KÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_trace.o/      1347872993  0     0     100644  8232      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬Â‰}Ã¼HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹uÃ¼HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Â‹EÃ¼Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬Â‰}Ã¼HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tÂ‹uÃ¼HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€Â‹EÃ¼Ã‰Ãƒ%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I?<À€À€À€Ã»	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_trace.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€ÃÀ€À€À€Ã”À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã”À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂ‹À€À€À€WINDOWÀ€UHÀ€À€	GÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¼À€À€À€#À€
+_curxÀ€ÂˆÃ¼À€À€À€#
+_maxyÀ€Â‹Ã¼À€À€À€#
+_maxxÀ€Â‹Ã¼À€À€À€#
+_begyÀ€ÂŒÃ¼À€À€À€#
+_begxÀ€ÂŒÃ¼À€À€À€#
+
+_flagsÀ€ÂŽÃ¼À€À€À€#
+_attrsÀ€Â‘GÀ€À€#
+_bkgdÀ€Â’+À€À€#
+_notimeoutÀ€Â•ÃŸÀ€À€#
+_clearÀ€Â–ÃŸÀ€À€#
+_leaveokÀ€Â—ÃŸÀ€À€#
+_scrollÀ€Â˜ÃŸÀ€À€#
+_idlokÀ€Â™ÃŸÀ€À€#
+_idcokÀ€ÂšÃŸÀ€À€#
+_immedÀ€Â›ÃŸÀ€À€#
+_syncÀ€ÂœÃŸÀ€À€#
+_use_keypadÀ€ÂÃŸÀ€À€# 
+_delayÀ€ÂžÂ„À€À€À€#$
+_lineÀ€Â DÀ€À€#(
+_regtopÀ€Â£Ã¼À€À€À€#0
+_regbottomÀ€Â¤Ã¼À€À€À€#2
+_parxÀ€Â§Â„À€À€À€#4
+_paryÀ€Â¨Â„À€À€À€#8
+_parentÀ€Â©JÀ€À€#@
+_padÀ€Â±VÀ€À€#H
+_yoffsetÀ€Â³Ã¼À€À€À€#TÀ€attr_tÀ€W+À€À€	ÃŸÀ€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¼À€À€À€#À€
+_pad_xÀ€Â®Ã¼À€À€À€#
+_pad_topÀ€Â¯Ã¼À€À€À€#
+_pad_leftÀ€Â¯Ã¼À€À€À€#
+_pad_bottomÀ€Â°Ã¼À€À€À€#
+_pad_rightÀ€Â°Ã¼À€À€À€#
+À€_BoolÀ€	DÀ€À€ldatÀ€Â„
+textÀ€VPÀ€À€#À€
+firstcharÀ€WÃ¼À€À€À€#
+lastcharÀ€XÃ¼À€À€À€#
+
+oldindexÀ€YÃ¼À€À€À€#À€Ã¨À€À€9À€À€+À€À€Menu_OptionsÀ€1Â„À€À€À€Item_OptionsÀ€2Â„À€À€À€Â¦À€À€CstrÀ€AÃ‰À€À€À€#À€lengthÀ€BÂ³À€À€À€#À€TEXTÀ€C~À€À€
+Â‹À€À€tagITEMÀ€`FnameÀ€GÂ¦À€À€#À€descriptionÀ€HÂ¦À€À€#imenuÀ€IÀ€À€# userptrÀ€JÀ€À€#(optÀ€KjÀ€À€#0indexÀ€LÃ¼À€À€À€#4yÀ€MÃ¼À€À€À€#6xÀ€NÃ¼À€À€À€#8valueÀ€OÃŸÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+À€À€tagMENUÀ€Â¸IheightÀ€\Ã¼À€À€À€#À€widthÀ€]Ã¼À€À€À€#rowsÀ€^Ã¼À€À€À€#colsÀ€_Ã¼À€À€À€#frowsÀ€`Ã¼À€À€À€#fcolsÀ€aÃ¼À€À€À€#
+arowsÀ€bÃ¼À€À€À€#namelenÀ€cÃ¼À€À€À€#desclenÀ€dÃ¼À€À€À€#marklenÀ€eÃ¼À€À€À€#itemlenÀ€fÃ¼À€À€À€#spc_descÀ€gÃ¼À€À€À€#spc_colsÀ€hÃ¼À€À€À€#spc_rowsÀ€iÃ¼À€À€À€#patternÀ€j	À€À€# pindexÀ€kÃ¼À€À€À€#(winÀ€lJÀ€À€#0subÀ€mJÀ€À€#8userwinÀ€nJÀ€À€#@usersubÀ€oJÀ€À€#HitemsÀ€p=À€À€#PnitemsÀ€qÃ¼À€À€À€#XcuritemÀ€rCÀ€À€#`toprowÀ€sÃ¼À€À€À€#hforeÀ€t+À€À€#lbackÀ€u+À€À€#pgreyÀ€v+À€À€#tpadÀ€wÃœÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜userptrÀ€~À€À€#Â markÀ€	À€À€#Â¨optÀ€ÂVÀ€À€#Â°statusÀ€Â‚Â³À€À€À€#Â´À€Â‹À€À€Â²À€À€ITEMÀ€VÂ²À€À€Menu_HookÀ€X+À€À€1À€À€=À€À€À€À€À€CÀ€À€À€À€MENUÀ€Â„Â‹À€À€Â”À€À€_nc_retrace_itemÀ€'CÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€&CÀ€À€Â‘xÀ€Ã—À€À€_nc_retrace_item_ptrÀ€.=À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€-=À€À€Â‘xÀ€	À€À€_nc_retrace_item_optsÀ€5jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€4jÀ€À€Â‘|À€Z	À€À€_nc_retrace_menuÀ€<Z	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€;Z	À€À€Â‘xÀ€IÀ€À€Â¤	À€À€_nc_retrace_menu_hookÀ€CÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€BÀ€À€Â‘xÀ€Ã¨	À€À€_nc_retrace_menu_optsÀ€JVÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VÀ€À€À€À€IVÀ€À€Â‘|À€_nc_tracingÀ€Â‹À€À€À€À€ÃˆÀ€À€À€À€ÂŒÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_trace.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€&Â¸%H/Â¸%H/Âª$:/Â¸%H/Â¸%H/Âª$:À€return }%pÀ€return }%dÀ€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€7À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€\À€À€À€À€À€À€À€4À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€7À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€7À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€4À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€Ã¿	À€À€UÀ€À€_nc_retrace_itemÀ€Â”À€À€_nc_retrace_item_ptrÀ€Ã—À€À€_nc_retrace_item_optsÀ€	À€À€_nc_retrace_menuÀ€`	À€À€_nc_retrace_menu_hookÀ€Â¤	À€À€_nc_retrace_menu_optsÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€codeÀ€long unsigned intÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€Â°À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â„À€À€À€À€À€À€Ã­À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€À€À€À€À€À€Ã¿	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pÀ€À€À€À€À€À€ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€X
+À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€0À€À€À€À€À€À€Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â£À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â«À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¸À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã›À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã²À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€Â®À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€À€7À€À€À€À€À€À€À€7À€À€À€À€À€À€À€[À€À€À€À€À€nÀ€À€À€À€À€À€À€4À€À€À€À€À€À€À€qÀ€À€À€À€À€Â¢À€À€À€À€À€À€À€7À€À€À€À€À€À€À€Â‚À€À€À€À€À€Ã™À€À€À€À€À€À€À€7À€À€À€À€À€À€À€Â˜À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€m_trace.cÀ€_nc_retrace_itemÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_retrace_item_ptrÀ€_nc_retrace_item_optsÀ€_nc_retrace_menuÀ€_nc_retrace_menu_hookÀ€_nc_retrace_menu_optsÀ€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿#À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿-À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿FÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ZÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿dÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿|À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â±À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã…À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¨À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¼À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€;À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â­À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€sÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€Â†À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¶À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€Ã‰À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÃºÀ€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€
+	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€9	À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€A	À€À€À€À€À€À€À€À€À€À€À€À€Ã™À€À€À€À€À€À€À€L	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Âƒ	À€À€À€À€À€À€À€À€À€À€À€À€Ã™À€À€À€À€À€À€À€Â‹	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â–	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Ã‡	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã	À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€Ãš	À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â™À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€\À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Ã™À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€7À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¢À€À€À€À€À€À€À€Â À€À€À€À€À€À€À€À€À€À€À€À€À€Ã™À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_userptr.o/    1347872993  0     0     100644  6896      `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹UÃ¨HÂ‰UÃ¸HÂ‹EÃ°HÂ‰Â‚Â À€À€À€Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬HÂ‰}Ã¸HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ¸HÂ‰EÃ°HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ°HÂ‹EÃ°HÂ‰EÃ¸HÂ‹Â¸Â À€À€À€Ã¨À€À€À€À€Ã‰ÃƒÀ€À€%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€À€À€À€:;IÀ€À€À€:;IÀ€À€	:;À€À€
+
+À€:;I8
+À€À€:;À€À€
+À€:;I8
+À€À€
+:;À€À€
+À€:;I8
+À€À€'À€À€À€IÀ€À€.?:;'I@
+À€À€À€:;I
+À€À€À€:;I
+À€À€4À€:;I?<À€À€4À€:;I?<À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_userptr.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€long long intÀ€À€À€À€À€short unsigned intÀ€Ã‘À€À€À€Ã–À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€Ã–À€À€À€long long unsigned intÀ€chtypeÀ€ÂÂÀ€À€À€WINDOWÀ€UJÀ€À€	IÀ€À€_win_stÀ€XU
+_curyÀ€ÂˆÃ¾À€À€À€#À€
+_curxÀ€ÂˆÃ¾À€À€À€#
+_maxyÀ€Â‹Ã¾À€À€À€#
+_maxxÀ€Â‹Ã¾À€À€À€#
+_begyÀ€ÂŒÃ¾À€À€À€#
+_begxÀ€ÂŒÃ¾À€À€À€#
+
+_flagsÀ€ÂŽÃ¾À€À€À€#
+_attrsÀ€Â‘IÀ€À€#
+_bkgdÀ€Â’-À€À€#
+_notimeoutÀ€Â•Ã¡À€À€#
+_clearÀ€Â–Ã¡À€À€#
+_leaveokÀ€Â—Ã¡À€À€#
+_scrollÀ€Â˜Ã¡À€À€#
+_idlokÀ€Â™Ã¡À€À€#
+_idcokÀ€ÂšÃ¡À€À€#
+_immedÀ€Â›Ã¡À€À€#
+_syncÀ€ÂœÃ¡À€À€#
+_use_keypadÀ€ÂÃ¡À€À€# 
+_delayÀ€ÂžÂ†À€À€À€#$
+_lineÀ€Â FÀ€À€#(
+_regtopÀ€Â£Ã¾À€À€À€#0
+_regbottomÀ€Â¤Ã¾À€À€À€#2
+_parxÀ€Â§Â†À€À€À€#4
+_paryÀ€Â¨Â†À€À€À€#8
+_parentÀ€Â©LÀ€À€#@
+_padÀ€Â±XÀ€À€#H
+_yoffsetÀ€Â³Ã¾À€À€À€#TÀ€attr_tÀ€W-À€À€	Ã¡À€À€pdatÀ€Â­
+_pad_yÀ€Â®Ã¾À€À€À€#À€
+_pad_xÀ€Â®Ã¾À€À€À€#
+_pad_topÀ€Â¯Ã¾À€À€À€#
+_pad_leftÀ€Â¯Ã¾À€À€À€#
+_pad_bottomÀ€Â°Ã¾À€À€À€#
+_pad_rightÀ€Â°Ã¾À€À€À€#
+À€_BoolÀ€	FÀ€À€ldatÀ€Â„
+textÀ€VRÀ€À€#À€
+firstcharÀ€WÃ¾À€À€À€#
+lastcharÀ€XÃ¾À€À€À€#
+
+oldindexÀ€YÃ¾À€À€À€#À€ÃªÀ€À€;À€À€-À€À€Menu_OptionsÀ€1Â†À€À€À€Item_OptionsÀ€2Â†À€À€À€Â¨À€À€CstrÀ€AÃ‹À€À€À€#À€lengthÀ€BÂµÀ€À€À€#À€TEXTÀ€CÂ€À€À€
+Â‰À€À€tagITEMÀ€`FnameÀ€GÂ¨À€À€#À€descriptionÀ€HÂ¨À€À€#imenuÀ€IÃ¼À€À€# À€À€À€À€JÀ€À€#(optÀ€KlÀ€À€#0indexÀ€LÃ¾À€À€À€#4yÀ€MÃ¾À€À€À€#6xÀ€NÃ¾À€À€À€#8valueÀ€OÃ¡À€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€
+Ã¼À€À€tagMENUÀ€Â¸IheightÀ€\Ã¾À€À€À€#À€widthÀ€]Ã¾À€À€À€#rowsÀ€^Ã¾À€À€À€#colsÀ€_Ã¾À€À€À€#frowsÀ€`Ã¾À€À€À€#fcolsÀ€aÃ¾À€À€À€#
+arowsÀ€bÃ¾À€À€À€#namelenÀ€cÃ¾À€À€À€#desclenÀ€dÃ¾À€À€À€#marklenÀ€eÃ¾À€À€À€#itemlenÀ€fÃ¾À€À€À€#spc_descÀ€gÃ¾À€À€À€#spc_colsÀ€hÃ¾À€À€À€#spc_rowsÀ€iÃ¾À€À€À€#patternÀ€jÀ€À€# pindexÀ€kÃ¾À€À€À€#(winÀ€lLÀ€À€#0subÀ€mLÀ€À€#8userwinÀ€nLÀ€À€#@usersubÀ€oLÀ€À€#HitemsÀ€p7À€À€#PnitemsÀ€qÃ¾À€À€À€#XcuritemÀ€r=À€À€#`toprowÀ€sÃ¾À€À€À€#hforeÀ€t-À€À€#lbackÀ€u-À€À€#pgreyÀ€v-À€À€#tpadÀ€wÃžÀ€À€À€#xmenuinitÀ€yÀ€À€#Â€menutermÀ€zÀ€À€#ÂˆiteminitÀ€{À€À€#ÂitemtermÀ€|À€À€#Â˜À€À€À€À€~À€À€#Â markÀ€À€À€#Â¨optÀ€ÂXÀ€À€#Â°statusÀ€Â‚ÂµÀ€À€À€#Â´À€Â‰À€À€Â´À€À€ITEMÀ€VÂ´À€À€Menu_HookÀ€X%À€À€+À€À€7À€À€Ã¼À€À€À€=À€À€À€À€MENUÀ€Â„Â‰À€À€ÂÀ€À€set_menu_userptrÀ€5Â†À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€4ÂÀ€À€Â‘xÀ€À€À€À€4À€À€Â‘pÀ€CÀ€À€ÃŸÀ€À€menu_userptrÀ€GÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€FÃŸÀ€À€Â‘xÀ€Ã¥À€À€CÀ€À€_nc_tracingÀ€ÂÀ€À€À€_nc_Default_MenuÀ€3CÀ€À€À€Ã‰À€À€À€À€ÂÀ€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€À€m_userptr.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€4Ã°)-H+Â¸%.À€À€À€À€À€called {set_menu_userptr(%p,%p)À€called {menu_userptr(%p)À€À€À€À€À€À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€aÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€	À€À€OÀ€À€set_menu_userptrÀ€Â£À€À€menu_userptrÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€long unsigned intÀ€userptrÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€WÀ€À€À€À€À€À€ÃÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€9À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€hÀ€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€xÀ€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¨À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€P
+À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã€À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âš
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âš
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¬
+À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃˆÀ€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€ÂœÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€HÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€YÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€jÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€zÀ€À€À€À€À€}À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€Â‡À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_userptr.cÀ€set_menu_userptrÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€_nc_Default_MenuÀ€__errno_locationÀ€_nc_retrace_intÀ€menu_userptrÀ€_nc_retrace_void_ptrÀ€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿KÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿gÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿wÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŒÀ€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Â À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã˜À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€Â¯À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€ÃºÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â¼À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€mÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€uÀ€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â½À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€Ã…À€À€À€À€À€À€À€À€À€À€À€À€ÃžÀ€À€À€À€À€À€À€ÂªÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€}À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_win.o/        1347872993  0     0     100644  12944     `
+ELFÀ€À€À€À€À€À€À€À€À€À€>À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã˜%À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€@À€À€À€UHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‰uÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹UÃ°HÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂƒ}Ã¸À€t:HÂ‹EÃ¸Â·Â€Â´À€À€À€ÂƒÃ Â…Ã€tÃ¨À€À€À€À€Ã‡À€Ã½Ã¿Ã¿Ã¿Â¿Ã½Ã¿Ã¿Ã¿Ã¨À€À€À€À€Â‰EÃ¬Ã«5HÂ‹UÃ¸HÂ‹EÃ°HÂ‰B@Ã«HÂ‹À€À€À€À€HÂ‹EÃ°HÂ‰B@Ã¨À€À€À€À€Ã‡À€À€À€À€À€Â¿À€À€À€À€Ã¨À€À€À€À€Â‰EÃ¬Â‹EÃ¬Ã‰ÃƒUHÂ‰Ã¥HÂƒÃ¬ HÂ‰}Ã¸HÂ‹EÃ¸HÂ‰EÃ¨HÂƒ}Ã¸À€uHÂ‹À€À€À€À€HÂ‰EÃ¨HÂ‹EÃ¨HÂ‰EÃ¸HÂ‰EÃ°HÂ‹À€À€À€À€Â‹À€ÂƒÃ  Â…Ã€tHÂ‹uÃ¸HÂ=À€À€À€À€Â¸À€À€À€À€Ã¨À€À€À€À€HÂ‹EÃ°HÂ‹@@HÂ‰EÃ HÂ‹EÃ°HÂƒx@À€uHÂ‹À€À€À€À€HÂ‹À€HÂ‹Â€Â€À€À€À€HÂ‰EÃ HÂ‹}Ã Ã¨À€À€À€À€Ã‰Ãƒ%À€À€$À€>À€À€$À€>À€À€À€IÀ€À€&À€IÀ€À€À€:;IÀ€À€À€À€À€:;À€À€	
+À€:;I8
+À€À€
+À€:;À€À€:;À€À€
+À€:;I8
+À€À€
+IÀ€À€!À€I/À€À€:;À€À€À€:;IÀ€À€:;À€À€:;À€À€
+À€:;I8
+À€À€'IÀ€À€À€IÀ€À€À€<À€À€:;À€À€(À€
+À€À€'À€À€!À€I/À€À€:;À€À€.?:;'I@
+À€À€À€:;I
+À€À€4À€:;I
+À€À€4À€:;I?<À€À€ 4À€:;I?<À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€GNU C 3.4.6À€../menu/m_win.cÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/menuÀ€long intÀ€À€À€À€À€intÀ€unsigned intÀ€Â‚À€À€À€long long intÀ€À€À€À€À€short unsigned intÀ€Ã“À€À€À€Ã˜À€À€À€charÀ€unsigned charÀ€signed charÀ€short intÀ€__off_tÀ€ÂoÀ€À€À€__off64_tÀ€ÂoÀ€À€À€Ã˜À€À€À€long long unsigned intÀ€FILEÀ€.[À€À€Â©À€À€À€À€À€À€Ã˜.	_flagsÀ€	Â‚À€À€À€#À€	_IO_read_ptrÀ€-À€À€#	_IO_read_endÀ€-À€À€#	_IO_read_baseÀ€-À€À€#	_IO_write_baseÀ€-À€À€# 	_IO_write_ptrÀ€-À€À€#(	_IO_write_endÀ€-À€À€#0	_IO_buf_baseÀ€-À€À€#8	_IO_buf_endÀ€-À€À€#@	_IO_save_baseÀ€-À€À€#H	_IO_backup_baseÀ€-À€À€#P	_IO_save_endÀ€-À€À€#X	_markersÀ€ÃºÀ€À€#`	_chainÀ€À€À€À€#h	_filenoÀ€Â‚À€À€À€#p	_flags2À€#Â‚À€À€À€#t	_old_offsetÀ€%
+À€À€#x	_cur_columnÀ€)Â·À€À€À€#Â€	_vtable_offsetÀ€*Ã±À€À€À€#Â‚	_shortbufÀ€+À€À€#Âƒ	_lockÀ€/À€À€#Âˆ	_offsetÀ€8À€À€#Â	__pad1À€>3À€À€#Â˜	__pad2À€?3À€À€#Â 	_modeÀ€AÂ‚À€À€À€#Â¨	_unused2À€CÀ€À€#Â¬À€
+_IO_lock_tÀ€Â­ÃºÀ€À€_IO_markerÀ€Â³_nextÀ€Â´ÃºÀ€À€#À€_sbufÀ€ÂµÀ€À€À€#_posÀ€Â¹Â‚À€À€À€#À€Â·À€À€[À€À€
+À€À€Ã˜À€À€À€Â°À€À€À€À€À€Â©À€À€
+,À€À€Ã˜À€À€À€Â°À€À€À€+À€zÀ€À€triesÀ€Ã¥childÀ€Ã¦zÀ€À€#À€siblingÀ€Ã§zÀ€À€#chÀ€Ã¨Ã À€À€À€#valueÀ€Ã©Â·À€À€À€#À€,À€À€TRIESÀ€Ã«,À€À€Ã»À€À€redÀ€Ã¿À€À€À€#À€greenÀ€Ã¿À€À€À€#blueÀ€Ã¿À€À€À€#	rÀ€À€À€À€À€#	gÀ€À€À€À€À€#	bÀ€À€À€À€À€#
+	initÀ€Â‚À€À€À€#À€color_tÀ€ÂÀ€À€chtypeÀ€ÂÂ‰À€À€À€mmask_tÀ€Â{À€À€À€SCREENÀ€T7À€À€tÀ€À€screenÀ€ÂT	_ifdÀ€Â’Â‚À€À€À€#À€	_ofpÀ€Â“|À€À€#	_setbufÀ€Â”-À€À€#	_filteredÀ€Â•À€À€#	_bufferedÀ€Â–À€À€#	_prescreenÀ€Â—À€À€#	_use_envÀ€Â˜À€À€#	_checkfdÀ€Â™Â‚À€À€À€#	_termÀ€ÂšvÀ€À€# 	_saved_ttyÀ€Â›Â¬À€À€#(	_linesÀ€ÂœÀ€À€À€#d	_columnsÀ€ÂÀ€À€À€#f	_lines_availÀ€ÂŸÀ€À€À€#h	_topstolenÀ€Â À€À€À€#j	_curscrÀ€Â¢Â€À€À€#p	_newscrÀ€Â£Â€À€À€#x	_stdscrÀ€Â¤Â€À€À€#Â€	_keytryÀ€ÂªÂ¨À€À€#Âˆ	_key_okÀ€Â«Â¨À€À€#Â	_triedÀ€Â¬À€À€#Â˜	_keypad_onÀ€Â­À€À€#Â™	_called_wgetchÀ€Â¯À€À€#Âš	_fifoÀ€Â°Â®À€À€#Âœ	_fifoheadÀ€Â±À€À€À€#Ã€	_fifotailÀ€Â²À€À€À€#Ã‚	_fifopeekÀ€Â³À€À€À€#Ã„	_fifoholdÀ€Â´À€À€À€#Ã†	_endwinÀ€Â¶Â‚À€À€À€#Ãˆ	_current_attrÀ€Â·PÀ€À€#Ã	_coloronÀ€Â¸Â‚À€À€À€#Ã˜	_color_defsÀ€Â¹Â‚À€À€À€#Ãœ	_cursorÀ€ÂºÂ‚À€À€À€#Ã 	_cursrowÀ€Â»Â‚À€À€À€#Ã¤	_curscolÀ€Â¼Â‚À€À€À€#Ã¨	_nottyÀ€Â½À€À€#Ã¬	_nlÀ€Â¾Â‚À€À€À€#Ã°	_rawÀ€Â¿Â‚À€À€À€#Ã´	_cbreakÀ€Ã€Â‚À€À€À€#Ã¸	_echoÀ€Ã‚Â‚À€À€À€#Ã¼	_use_metaÀ€ÃƒÂ‚À€À€À€#Â€	_slkÀ€Ã„Â¾À€À€#Âˆ	slk_formatÀ€Ã…Â‚À€À€À€#Â	_no_paddingÀ€ÃˆÀ€À€#Â”	_char_paddingÀ€ÃŠÂ‚À€À€À€#Â˜	_cr_costÀ€Ã‹Â‚À€À€À€#Âœ	_cup_costÀ€ÃŒÂ‚À€À€À€#Â 	_home_costÀ€ÃÂ‚À€À€À€#Â¤	_ll_costÀ€ÃŽÂ‚À€À€À€#Â¨	_cub1_costÀ€Ã“Â‚À€À€À€#Â¬	_cuf1_costÀ€Ã”Â‚À€À€À€#Â°	_cud1_costÀ€Ã•Â‚À€À€À€#Â´	_cuu1_costÀ€Ã–Â‚À€À€À€#Â¸	_cub_costÀ€Ã—Â‚À€À€À€#Â¼	_cuf_costÀ€Ã˜Â‚À€À€À€#Ã€	_cud_costÀ€Ã™Â‚À€À€À€#Ã„	_cuu_costÀ€ÃšÂ‚À€À€À€#Ãˆ	_hpa_costÀ€Ã›Â‚À€À€À€#ÃŒ	_vpa_costÀ€ÃœÂ‚À€À€À€#Ã	_ed_costÀ€ÃžÂ‚À€À€À€#Ã”	_el_costÀ€ÃŸÂ‚À€À€À€#Ã˜	_el1_costÀ€Ã Â‚À€À€À€#Ãœ	_dch1_costÀ€Ã¡Â‚À€À€À€#Ã 	_ich1_costÀ€Ã¢Â‚À€À€À€#Ã¤	_dch_costÀ€Ã£Â‚À€À€À€#Ã¨	_ich_costÀ€Ã¤Â‚À€À€À€#Ã¬	_ech_costÀ€Ã¥Â‚À€À€À€#Ã°	_rep_costÀ€Ã¦Â‚À€À€À€#Ã´	_hpa_ch_costÀ€Ã§Â‚À€À€À€#Ã¸	_cup_ch_costÀ€Ã¨Â‚À€À€À€#Ã¼	_cuf_ch_costÀ€Ã©Â‚À€À€À€#Â€	_inline_costÀ€ÃªÂ‚À€À€À€#Â„	_smir_costÀ€Ã«Â‚À€À€À€#Âˆ	_rmir_costÀ€Ã¬Â‚À€À€À€#ÂŒ	_ip_costÀ€Ã­Â‚À€À€À€#Â	_address_cursorÀ€Ã¯-À€À€#Â˜	_scrollingÀ€Ã±Â‚À€À€À€#Â 	_color_tableÀ€Ã´Ã„À€À€#Â¨	_color_countÀ€ÃµÂ‚À€À€À€#Â°	_color_pairsÀ€Ã¶ÃŠÀ€À€#Â¸	_pair_countÀ€Ã·Â‚À€À€À€#Ã€	_pair_limitÀ€Ã¸Â‚À€À€À€#Ã„	_default_colorÀ€ÃºÀ€À€#Ãˆ	_has_sgr_39_49À€Ã»À€À€#Ã‰	_default_fgÀ€Ã¼Â‚À€À€À€#ÃŒ	_default_bgÀ€Ã½Â‚À€À€À€#Ã	_default_pairsÀ€Ã¾Â‚À€À€À€#Ã”	_ok_attributesÀ€À€À€À€#Ã˜	_xmc_suppressÀ€À€À€#Ãœ	_xmc_triggersÀ€À€À€#Ã 	_acs_mapÀ€PÀ€À€#Ã¨	_screen_acs_mapÀ€ÃÀ€À€#Ã°	_use_rmsoÀ€À€À€#Ã¸	_use_rmulÀ€	À€À€#Ã¹	_nc_sp_idlokÀ€À€À€#Ãº	_nc_sp_idcokÀ€À€À€#Ã»	_mouse_initializedÀ€À€À€#Ã¼	_mouse_typeÀ€sÀ€À€#Â€	_maxclickÀ€Â‚À€À€À€#Â„	_mouse_eventÀ€Ã¦À€À€#Âˆ	_mouse_inlineÀ€Ã¦À€À€#Â	_mouse_parseÀ€À€À€#Â˜	_mouse_resumeÀ€À€À€#Â 	_mouse_wrapÀ€À€À€#Â¨	_mouse_fdÀ€ Â‚À€À€À€#Â°	_mouse_activeÀ€!À€À€#Â´	_mouse_maskÀ€"À€À€#Â¸	_mouse_xtermcapÀ€#-À€À€#Ã€	_mouse_eventsÀ€$À€À€#Ãˆ	_mouse_eventpÀ€%)À€À€#Âˆ
+	_resizeÀ€PDÀ€À€#Â
+	_panelHookÀ€WÀ€À€#Â˜
+	_sig_winchÀ€YÀ€À€#Â°
+	_next_screenÀ€ZÂ±À€À€#Â¸
+	oldhashÀ€]JÀ€À€#Ã€
+	newhashÀ€]JÀ€À€#Ãˆ
+	hashtabÀ€^PÀ€À€#Ã
+	hashtab_lenÀ€_Â‚À€À€À€#Ã˜
+	_oldnum_listÀ€`Â™À€À€À€#Ã 
+	_oldnum_sizeÀ€aÂ‚À€À€À€#Ã¨
+	_cleanupÀ€cÀ€À€#Ã¬
+	_outchÀ€dÂ†À€À€#Ã°
+	_legacy_codingÀ€fÂ‚À€À€À€#Ã¸
+	tracechr_bufÀ€uÂ‚À€À€#Ã¼
+	tracemse_bufÀ€vVÀ€À€#Â¤	jumpÀ€|Â†À€À€#Âˆ	rippedoffÀ€~Â’À€À€#Â	rspÀ€Â¢À€À€#ÂˆÀ€WINDOWÀ€UÂƒÀ€À€Â‚À€À€_win_stÀ€XU	_curyÀ€ÂˆÀ€À€À€#À€	_curxÀ€ÂˆÀ€À€À€#	_maxyÀ€Â‹À€À€À€#	_maxxÀ€Â‹À€À€À€#	_begyÀ€ÂŒÀ€À€À€#	_begxÀ€ÂŒÀ€À€À€#
+	_flagsÀ€ÂŽÀ€À€À€#	_attrsÀ€Â‘Â‚À€À€#	_bkgdÀ€Â’À€À€#	_notimeoutÀ€Â•À€À€#	_clearÀ€Â–À€À€#	_leaveokÀ€Â—À€À€#	_scrollÀ€Â˜À€À€#	_idlokÀ€Â™À€À€#	_idcokÀ€ÂšÀ€À€#	_immedÀ€Â›À€À€#	_syncÀ€ÂœÀ€À€#	_use_keypadÀ€ÂÀ€À€# 	_delayÀ€ÂžÂ‚À€À€À€#$	_lineÀ€Â zÀ€À€#(	_regtopÀ€Â£À€À€À€#0	_regbottomÀ€Â¤À€À€À€#2	_parxÀ€Â§Â‚À€À€À€#4	_paryÀ€Â¨Â‚À€À€À€#8	_parentÀ€Â©Â€À€À€#@	_padÀ€Â±Â‘À€À€#H	_yoffsetÀ€Â³À€À€À€#TÀ€attr_tÀ€WÀ€À€À€À€pdatÀ€Â­	_pad_yÀ€Â®À€À€À€#À€	_pad_xÀ€Â®À€À€À€#	_pad_topÀ€Â¯À€À€À€#	_pad_leftÀ€Â¯À€À€À€#	_pad_bottomÀ€Â°À€À€À€#	_pad_rightÀ€Â°À€À€À€#
+À€_BoolÀ€zÀ€À€ldatÀ€Â„	textÀ€VPÀ€À€#À€	firstcharÀ€WÀ€À€À€#	lastcharÀ€XÀ€À€À€#
+À€À€À€À€YÀ€À€À€#À€#À€À€tÀ€À€NCURSES_OUTCÀ€Â›À€À€Â¡À€À€Â±À€À€Â‚À€À€À€Â‚À€À€À€À€(À€À€À€À€'	idÀ€#À€À€À€#À€	xÀ€$Â‚À€À€À€#	yÀ€$Â‚À€À€À€#	zÀ€$Â‚À€À€À€#	bstateÀ€%À€À€#À€MEVENTÀ€'Â·À€À€sÀ€À€panelhookÀ€
+6top_panelÀ€
+7{À€À€#À€bottom_panelÀ€
+8{À€À€#stdscr_pseudo_panelÀ€
+9{À€À€#À€panelÀ€sÀ€À€cc_tÀ€	Ã À€À€À€speed_tÀ€	Â‰À€À€À€tcflag_tÀ€	Â‰À€À€À€KÀ€À€termiosÀ€<	c_iflagÀ€	 ÂœÀ€À€#À€c_oflagÀ€	!ÂœÀ€À€#c_cflagÀ€	"ÂœÀ€À€#c_lflagÀ€	#ÂœÀ€À€#c_lineÀ€	$ÂÀ€À€#c_ccÀ€	%KÀ€À€#c_ispeedÀ€	&ÂÀ€À€#4c_ospeedÀ€	'ÂÀ€À€#8À€
+[À€À€ÂÀ€À€Â°À€À€À€À€ÂÀ€À€termtypeÀ€HÂ¥	term_namesÀ€Â¦-À€À€#À€	str_tableÀ€Â§-À€À€#	BooleansÀ€Â¨-À€À€#	NumbersÀ€Â©ÂÀ€À€#	StringsÀ€ÂªÂ“À€À€# 	ext_str_tableÀ€Â­-À€À€#(	ext_NamesÀ€Â®Â“À€À€#0	num_BooleansÀ€Â°Â·À€À€À€#8	num_NumbersÀ€Â±Â·À€À€À€#:	num_StringsÀ€Â²Â·À€À€À€#<	ext_BooleansÀ€Â´Â·À€À€À€#>	ext_NumbersÀ€ÂµÂ·À€À€À€#@	ext_StringsÀ€Â¶Â·À€À€À€#BÀ€À€À€À€-À€À€TERMTYPEÀ€Â¹[À€À€+À€À€termÀ€ÃÂ»	typeÀ€Â¼Â™À€À€#À€	FiledesÀ€Â½À€À€À€#H	OttybÀ€Â¾Â¬À€À€#L	NttybÀ€Â¿Â¬À€À€#Âˆ	_baudrateÀ€Ã€Â‚À€À€À€#Ã„	_termnameÀ€Ã-À€À€#ÃˆÀ€TERMINALÀ€Ã‚ÂªÀ€À€colorpair_tÀ€BÂ‰À€À€À€À€À€sÀ€À€]M_XTERMÀ€M_NONEÀ€À€À€MouseTypeÀ€iVÀ€À€Ã­À€À€s	hashvalÀ€p{À€À€À€#À€	oldcountÀ€qÂ‚À€À€À€#	newcountÀ€qÂ‚À€À€À€#À€À€À€À€rÂ‚À€À€À€#	newindexÀ€rÂ‚À€À€À€#À€HASHMAPÀ€sÂ…À€À€eÀ€À€Â„	ent_textÀ€-À€À€#À€	form_textÀ€Â€-À€À€#	ent_xÀ€ÂÂ‚À€À€À€#	dirtyÀ€Â‚Ã˜À€À€À€#	visibleÀ€ÂƒÃ˜À€À€À€#À€slk_entÀ€Â„Ã½À€À€À€À€_SLKÀ€(y	dirtyÀ€Â‡À€À€#À€	hiddenÀ€ÂˆÀ€À€#	winÀ€Â‰Â€À€À€#	entÀ€ÂŠÀ€À€#	maxlabÀ€Â‹À€À€À€#	labcntÀ€ÂŒÀ€À€À€#	maxlenÀ€ÂÀ€À€À€#	attrÀ€ÂŽÀ€À€# À€eÀ€À€JÀ€À€Â—	winÀ€Â”Â€À€À€#À€	lineÀ€Â•Â‚À€À€À€#	hookÀ€Â–_À€À€#À€_À€À€Â‚À€À€À€Â€À€À€Â‚À€À€À€À€JÀ€À€ripoff_tÀ€Â—À€À€+À€À€OÀ€À€
+Â’À€À€Ã˜À€À€À€Â°À€À€À€'À€
+Â¢À€À€eÀ€À€Â°À€À€À€À€eÀ€À€Â€À€À€
+Â¾À€À€Â‚À€À€À€Â°À€À€À€ÂˆÀ€uÀ€À€Ã»À€À€<À€À€À€À€Ã¦À€À€À€À€Â±À€À€À€Ã–À€À€À€À€À€À€Â±À€À€Â‚À€À€À€À€Ã¬À€À€À€À€Â±À€À€À€À€À€
+)À€À€À€À€Â°À€À€À€À€À€À€DÀ€À€Â‚À€À€À€Â‚À€À€À€Â‚À€À€À€À€/À€À€{À€À€À€Ã­À€À€
+gÀ€À€Ã˜À€À€À€Â°À€À€À€aÀ€Menu_OptionsÀ€1Â‚À€À€À€Item_OptionsÀ€2Â‚À€À€À€Â·À€À€CstrÀ€AÃÀ€À€À€#À€lengthÀ€BÂ·À€À€À€#À€TEXTÀ€CÂÀ€À€ÂœÀ€À€tagITEMÀ€`FnameÀ€GÂ·À€À€#À€descriptionÀ€HÂ·À€À€#imenuÀ€IÀ€À€# userptrÀ€J3À€À€#(optÀ€K{À€À€#0indexÀ€LÀ€À€À€#4yÀ€MÀ€À€À€#6xÀ€NÀ€À€À€#8valueÀ€OÀ€À€#:leftÀ€QÀ€À€#@rightÀ€RÀ€À€#HupÀ€SÀ€À€#PdownÀ€TÀ€À€#XÀ€À€À€tagMENUÀ€Â¸IheightÀ€\À€À€À€#À€widthÀ€]À€À€À€#rowsÀ€^À€À€À€#colsÀ€_À€À€À€#frowsÀ€`À€À€À€#fcolsÀ€aÀ€À€À€#
+arowsÀ€bÀ€À€À€#namelenÀ€cÀ€À€À€#desclenÀ€dÀ€À€À€#marklenÀ€eÀ€À€À€#itemlenÀ€fÀ€À€À€#spc_descÀ€gÀ€À€À€#spc_colsÀ€hÀ€À€À€#spc_rowsÀ€iÀ€À€À€#patternÀ€j-À€À€# pindexÀ€kÀ€À€À€#(winÀ€lÂ€À€À€#0subÀ€mÂ€À€À€#8userwinÀ€nÂ€À€À€#@usersubÀ€oÂ€À€À€#HitemsÀ€pNÀ€À€#PnitemsÀ€qÀ€À€À€#XcuritemÀ€rTÀ€À€#`toprowÀ€sÀ€À€À€#hforeÀ€tÀ€À€#lbackÀ€uÀ€À€#pgreyÀ€vÀ€À€#tpadÀ€wÃ À€À€À€#xmenuinitÀ€y+À€À€#Â€menutermÀ€z+À€À€#ÂˆiteminitÀ€{+À€À€#ÂitemtermÀ€|+À€À€#Â˜userptrÀ€~3À€À€#Â markÀ€-À€À€#Â¨optÀ€ÂgÀ€À€#Â°statusÀ€Â‚Â·À€À€À€#Â´À€ÂœÀ€À€ÃƒÀ€À€ITEMÀ€VÃƒÀ€À€Menu_HookÀ€X<À€À€BÀ€À€NÀ€À€À€À€À€TÀ€À€À€À€MENUÀ€Â„ÂœÀ€À€Â°À€À€set_menu_winÀ€5Â‚À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€4Â°À€À€Â‘xwinÀ€4Â€À€À€Â‘pÀ€ZÀ€À€ÃºÀ€À€menu_winÀ€]Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€VmenuÀ€\ÃºÀ€À€Â‘xmÀ€^ÃºÀ€À€Â‘pÀ€À€À€À€ZÀ€À€_nc_tracingÀ€Â‰À€À€À€SPÀ€Ã‹Â±À€À€ _nc_Default_MenuÀ€3ZÀ€À€À€3À€À€À€Ã¾À€À€À€Ã»
+À€À€À€À€../menuÀ€/bitnami/rubystack-linux-x64/src/ncurses-5.9/includeÀ€../ncursesÀ€/usr/includeÀ€/usr/include/bitsÀ€À€m_win.cÀ€À€À€menu.hÀ€À€À€curses.hÀ€À€À€curses.priv.hÀ€À€À€stdio.hÀ€À€À€libio.hÀ€À€À€types.hÀ€À€À€term.hÀ€À€À€termios.hÀ€À€À€nc_panel.hÀ€À€À€menu.priv.hÀ€À€À€À€À€	À€À€À€À€À€À€À€À€4Ã°)sÂÃ—Ã£rUÂ¸&%5À€called {set_menu_win(%p,%p)À€called {menu_win(%p)À€À€À€À€À€À€Ã¿Ã¿Ã¿Ã¿À€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€zRÀ€xÂÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€AÂ†C
+À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€ÂŽÀ€À€À€À€AÂ†C
+À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€CÀ€À€fÀ€À€set_menu_winÀ€Â¶À€À€menu_winÀ€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€_IO_FILEÀ€long unsigned intÀ€oldindexÀ€À€GCC: (GNU) 3.4.6À€À€.symtabÀ€.strtabÀ€.shstrtabÀ€.rela.textÀ€.dataÀ€.bssÀ€.debug_abbrevÀ€.rela.debug_infoÀ€.rela.debug_lineÀ€.rodataÀ€.rela.debug_frameÀ€.rela.eh_frameÀ€.rela.debug_pubnamesÀ€.rela.debug_arangesÀ€.debug_strÀ€.note.GNU-stackÀ€.commentÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€tÀ€À€À€À€À€À€Â—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€DÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€CÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€?À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h0À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€UÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€N"À€À€À€À€À€À€7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â 1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â…#À€À€À€À€À€À€1À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸#À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¸1À€À€À€À€À€À€`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€h$À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€H2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¤À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â˜$À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂŸÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€`2À€À€À€À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â³À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ãˆ$À€À€À€À€À€À€$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Â¾À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¬$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÃŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¬$À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¾$À€À€À€À€À€À€Ã—À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Âˆ.À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã±Ã¿À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€QÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€rÀ€À€À€À€À€Â¦À€À€À€À€À€À€À€ÂŽÀ€À€À€À€À€À€À€{À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€~À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€m_win.cÀ€set_menu_winÀ€_GLOBAL_OFFSET_TABLE_À€_nc_tracingÀ€_tracefÀ€__errno_locationÀ€_nc_retrace_intÀ€_nc_Default_MenuÀ€menu_winÀ€SPÀ€_nc_retrace_winÀ€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿+À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿5À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿SÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿cÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿}À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂŠÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿ÂšÀ€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã„À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã›À€À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¯À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¹À€À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€	À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿.À€À€À€À€À€À€À€À€À€À€À€À€Ã¼Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿Ã¿À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€|À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€Â±À€À€À€À€À€À€À€
+À€À€À€
+À€À€À€	À€À€À€À€À€À€À€`À€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€kÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€ÃŠÀ€À€À€À€À€À€
+À€À€À€
+À€À€À€À€À€À€À€À€À€À€Â€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ÂˆÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€ÃŒÀ€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€Ã”À€À€À€À€À€À€À€À€À€À€À€À€4À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€<À€À€À€À€À€À€À€
+À€À€À€	À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@À€À€À€À€À€À€À€À€À€À€À€À€À€Â¦À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€
+À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€

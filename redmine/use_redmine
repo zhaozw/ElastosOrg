@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATH="/opt/redmine/perl/bin:/opt/redmine/git/bin:/opt/redmine/sqlite/bin:/opt/redmine/ruby/bin:/opt/redmine/subversion/bin:/opt/redmine/php/bin:/opt/redmine/mysql/bin:/opt/redmine/apache2/bin:/opt/redmine/common/bin:$PATH"
+
+exec /bin/bash --noprofile --norc
+                    

@@ -1,0 +1,3 @@
+#!/bin/sh
+. /opt/redmine/apache2/bin/envvars
+exec /opt/redmine/apache2/bin/rotatelogs.bin "$@"
