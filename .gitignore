@@ -1,2 +1,5 @@
 redmine/mysql/data/
 redmine/apache2/logs/
+redmine/jenkins/apache-tomcat/logs/
+redmine/jenkins/apache-tomcat/temp/
+redmie/subversion/tmp/svnserve.pid
