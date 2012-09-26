@@ -1,0 +1,26 @@
+{
+    "domain":"domain.com",
+    "adapter":{
+	  "url":"http://domain.com/adapter/",
+      "path":"D:/adapter.js/adapter/"
+	},
+	"adapterapi":{
+	  "url":"http://domain.com/adapter/api/",
+	  "ip":"127.0.0.1",
+	  "port":"8000",
+	  "path":"D:/adapter.js/adapter/"
+	},
+	"wordpress":{
+	  "url":"http://domain.com",
+	  "path":"D:/BitNami/RedmineStack/apps/wordpress"
+	},
+	"redmine":{
+	  "url":"http://domain.com/redmine",
+	  "path":"D:/BitNami/RedmineStack/apps/redmine"
+	},
+	"gerrit":{
+	  "url":"http://domain.com/gerrit",
+	  "path":"D:/BitNami/RedmineStack/apps/gerrit",
+      "source":"D:/gerritsource/"
+	}
+}

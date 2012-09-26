@@ -1,0 +1,233 @@
+/*  
+Theme Name: Son of Blue
+Theme URI: http://www.sonofblue.com
+Description: Son of Blue theme, inspired by the original Blue Fade theme was designed for a clean and easy to read layout. Uppdated CSS and code for lighter weight and improved sub pages functionality on the top menu. <p>The<a href="http://www.sonofblue.com/"> Son of Blue Theme</a> was built by <a href="http://www.webconsiderations.com/">Web Considerations, LLC.</a>
+Version: 4.0
+Tags: blue, white, black, three-columns, fixed-width, left-sidebar, right-sidebar
+Author: Bert Hixson 
+Author URI: http://www.webconsiderations.com
+The CSS/XHTML is released under GPL:  http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* This starts the styling section of the webdesign layout */
+body {font-family: "Trebuchet MS", Tahoma, Arial;font-size: 100%;color: #000;background-color: #FFF;margin: 0px;padding: 0px;
+	min-width: 940px;}
+
+#masthead {background-color: #FFF;height: 105px;background-image: url(images/masthead-back.jpg);background-repeat: repeat-x;}
+
+#logo img {border: 0;margin-left: 45px;}
+
+.content {padding: 8px 20px;font-size: 0.72em;line-height: 1.7em;}
+
+.content p {margin: 6px 0px 12px;}
+
+.content a:link, .content a:visited {color:#990000;text-decoration:underline;}
+
+.content a:hover {color:#003366;text-decoration:none;}
+
+h1 {margin: 0px;font-size: 1.5em;letter-spacing: 0.2em;color:#003366;}
+
+h2 {margin: 0px;font-size: 1.3em;color:#003366;}
+
+#c2 h1 a:link, #c2 h1 a:visited, #c2 h2 a:link, #c2 h2 a:visited {color:#003366;text-decoration:none;}
+
+#c2 h1 a:hover, #c2 h2 a:hover {color:#990000;text-decoration: underline;}
+
+h3 {font-size: 1.1em;margin: 0;letter-spacing: 0.2em;color: #006699;}
+
+/*COLUMNS*/
+#columnwrapper {background-repeat: repeat-y;width: 970px;margin-top: 0;margin-right: auto;margin-bottom: 0;margin-left: auto;}
+
+#columns-top {background-repeat: no-repeat;height: 12px;}
+
+#c1, #c2, #c3 {float: left;width: 160px;margin-right: 20px;}
+
+#c1 .content ul, #c3 .content ul {margin:0 0 20px 0;padding:0px;list-style-type:none;}
+
+#c1 .content li, #c3 .content li {margin: 0px;}
+
+#c1 .content a:link, #c1 .content a:visited, #c3 .content a:link, #c3 .content a:visited {font-size: 1em;display:block;color: #006699;
+	padding: 2px 6px;text-decoration:none;margin: 0px;border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #717DA8;}
+
+#c1 .content a:hover, #c3 .content a:hover {color: #993300;border-color: #333 #000 #000 #333;}
+
+#c2 {width: 588px;border-right-width: 1px;border-left-width: 1px;border-right-style: dashed;border-left-style: dashed;border-right-color: #CCC;border-left-color: #CCC;}
+
+#c3 {margin-right: 0px;}
+
+#columns-bottom {clear: both;background-repeat: no-repeat;height: 12px;font-size: 0px;}
+/* end columns */
+
+#footer {font-size: .7em;margin-top: 15px;margin-bottom: 0px;border-top-width: 1px;border-top-style: solid;border-top-color: #006699;
+	background-image: url(images/nav-back.jpg);background-repeat: repeat-x;background-position: bottom;color:#CCC;}
+
+#footercontent {padding: 10px 0;text-align: center;}
+
+#footer a:link, #footer a:visited {color:#fff;text-decoration: underline;}
+
+#footer a:hover {color:#E2E2E2;text-decoration:none;}
+
+.clearfloat {clear: both;height: 0;line-height: 0.0;font-size: 0;}
+
+/* Top Navigation */
+
+#topmenu{min-width: 940px;height: 34px;background-color:#fff;background-image: url(images/nav-back.jpg);background-repeat: repeat-x;
+	border-top-width: 1px;border-top-style: solid;border-top-color:#6699FF;border-bottom-width: 1px;border-bottom-style: solid;
+	border-bottom-color: #006699;margin: 0 0 30px 0;padding: 0px 40px 2px 40px;}
+
+/* Top Navigation First Level */
+
+.nav {position: relative;list-style-type: none;list-style-position: outside;margin: 0;padding: 0;z-index: 6;font-size: 12px;float: left;}
+
+.nav li, .nav li.first {list-style-type: none;border-right-width: 1px;border-right-style: solid;border-right-color: #666;margin: 0;
+	padding: 0;background-image: url(images/nav-back2.jpg);background-repeat: repeat-x;float:left;position:relative;z-index:20;
+	list-style-type:none;}
+
+.nav li.first {border-left-width: 1px;border-left-style: solid;border-left-color: #666;}
+
+.nav li a {display:block;float:left;padding:8px 12px;width:auto;border: none;text-decoration: none;color: #999;}
+
+.nav li a:hover {color: #FFF;letter-spacing: 0.01px;background-image: url(images/neon_hover.jpg);background-repeat: repeat-x;}
+
+/* End Top Navigation First Level */
+
+/* Top Navigation Second Level */
+
+.nav ul {margin:0;padding:0;z-index:5;display:none;position:absolute;top:34px;width:172px;left:0;}
+
+.nav ul a {line-height:20px;font-size: 12px;cursor: pointer;}
+
+.nav li li {border-left:none;margin-top:0;}
+
+.nav li ul {border-top:1px solid #484848;}
+
+.nav li ul a {width:150px;height:auto;float:left;text-align:left;padding:4px 10px;border:1px solid #484848;border-top:none;
+	color:#f8f8f8;background-color: #6699FF;}
+
+.nav li ul a:hover {background: #006699;color:#fff;}
+
+/* End Top Navigation Second Level */
+
+/* Top Navigation Third Level */
+
+.nav li ul ul {left:150px;top:-1px;}
+
+/* End Top Navigation Third Level */
+
+.nav li:hover ul ul, .nav li:hover ul ul ul, .nav li:hover ul ul ul ul {display:none;}
+
+.nav li:hover ul, .nav li li:hover ul, .nav li li li:hover ul, .nav li li li li:hover ul {display:block;}
+
+/* End Top Navigation */
+
+/*styling for the search and comments form*/
+
+.formstyle, input {border: 2px solid #83959F;width: 130px;margin: 0px;padding: 0px;color: #8597A1;font-weight: bold;text-align: center;}
+
+input {width: 200px;}
+
+.formstyle2, textarea {border: 2px solid #83959F;width: 430px;margin: 0px;padding: 0px;color: #8597A1;font-weight: bold;text-align: center;
+}
+
+#formtitle {width: 50%;height: 75px;float: left;text-align: left;padding: 10px;color:#006699;font-size: 16px;font-weight: bold;}
+
+.formdata {text-align: right;margin-top: 55px;}
+
+.formdata input, .formdata textarea, #form, input {border: 1px solid #6699CC;}
+
+#search_form {border: 2px solid #006699;width: 100px;color: #003366;}
+
+/* end search and comments form styling */
+
+/* Sytling for the WordPress code */
+#blogtitle {color:#3A3A3A;font-size: 0.8em;position:absolute;top: 70px;left: 45px;font-weight: bold;}
+
+.calendar {float:left;height: 53px;width: 49px;color:#FFFFFF;font-size: 10px;font-weight: bold;text-align:center;
+background-image: url(images/date.png);background-repeat: no-repeat;}
+
+.calday {color:#006600;font-size: 16px;padding-top: 5px;font-weight: bold;}
+
+.commentlist li {list-style:none;margin-top: 15px;margin-bottom: 10px;margin-left: -25px;border: 1px dotted #CCCCCC;padding: 10px;}
+
+.commentmetadata {margin-top: 10px;margin-bottom: 20px !important;}
+
+.commenttext {float: left;}
+
+.reply {margin-bottom: 25px;}
+
+.avatar {position:relative;top: 0px;left: 0px;width: 75px;height: 75px;float: left;background-repeat: no-repeat;background-position: left top;margin-right: 8px;}
+
+.alt {background-color:#97A8AF;background-image: none;background-repeat: no-repeat;color:#FFFFFF;}
+
+.alt a:link, .alt a:visited {color:#333333;}
+
+.postdate {float: left;margin-left: 4px;}
+
+.author, .postdate {font-size: 1em;color:#8698A2;float: left;margin-bottom: 1em;font-family: "Trebuchet MS", Tahoma, Arial;}
+
+#c2 .commentauthor a:link, #c2 .commentauthor a:visited {color:#990000;font-size: 18px;text-decoration:none;}
+
+.entry {clear:both;}
+
+.post {}
+
+.postmetadata {font-size: .9em;background-image: url(images/post-bottom.gif);background-repeat: no-repeat;background-position: center bottom;padding-bottom: 35px;margin-bottom: 15px;margin-top: 10px;}
+
+.tags {float:left;margin-right: 10px;background:url(images/tag.gif) no-repeat;padding:2px 3px 3px 20px;height: 16px;}
+
+#c3 .content .tagcloud a:link, #c3 .content .tagcloud a:visited {text-decoration:none;border: none;display: inline;}
+
+#rss {background-image: url(images/rss.gif);background-repeat: no-repeat;padding-left: 22px;background-position: 5px;}
+
+.category, .editit {float: left;}
+
+.category {margin-right: 10px;background:url(images/category.gif) no-repeat;padding:2px 3px 3px 20px;height: 16px;}
+
+.editit {margin-left: 10px;}
+
+.navigation {font-size: .85em;}
+
+.alignleft {float: left;}
+
+.alignright {float:right;}
+
+.ncomments {font-size: 1em;color:#000000;margin-right: 10px;background:url(images/comment.gif) no-repeat;padding:2px 3px 3px 20px;}
+
+.ncomments a:link, .ncomments a:visited, .postmetadata a:link, .postmetadata a:visited, .navigation a:link, #navigation a:visited {
+	color:#003366;text-decoration:underline;}
+
+.ncomments a:hover, .postmetadata a:hover, .navigation a:hover {color:#990000;text-decoration:none;}
+
+img.centered {display: block;margin-left: auto;margin-right: auto;}
+
+img.alignright {padding: 4px;margin: 0 0 2px 7px;display: inline;}
+
+img.alignleft {padding: 4px;margin: 0 7px 2px 0;display: inline;}
+
+.alignright {float: right;}
+
+.alignleft {float: left;}
+
+.aligncenter {display: block;margin-left: auto;margin-right: auto;}
+
+.wp-caption {border: 1px solid #ddd;text-align: center;background-color: #f3f3f3;padding-top: 4px;margin: 10px;}
+
+.wp-caption img {margin: 0;padding: 0;border: 0 none;}
+
+.wp-caption-dd {font-size: 11px;line-height: 17px;padding: 0 4px 5px;margin: 0;}
+
+#wp-calendar {empty-cells: show;margin: 10px auto 0;width: 100px;}
+
+#wp-calendar #next a {padding-right: 10px;text-align: right;}
+
+#wp-calendar #prev a {padding-left: 10px;text-align: left;}
+
+#c1 #wp-calendar a, #c3 #wp-calendar a {display: block;border: none;margin: 1px;padding: 0px;}
+
+#wp-calendar caption {text-align: center;width: 100%;}
+
+#wp-calendar td {padding: 3px 0;text-align: center;}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+

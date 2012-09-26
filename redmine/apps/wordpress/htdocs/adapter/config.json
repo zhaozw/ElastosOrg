@@ -1,0 +1,26 @@
+{
+    "domain":"elastos.org",
+    "adapter":{
+	  "url":"http://elastos.org/adapter/",
+      "path":"/opt/redmine/apps/wordpress"
+	},
+	"adapterapi":{
+	  "url":"http://elastos.org/adapter/api/",
+	  "ip":"127.0.0.1",
+	  "port":"8000",
+	  "path":"/opt/redmine/apps/wordpress/adapter/"
+	},
+	"wordpress":{
+	  "url":"http://elastos.org",
+	  "path":"/opt/redmine/apps/wordpress/"
+	},
+	"redmine":{
+	  "url":"http://elastos.org/project/",
+	  "path":"/opt/redmine/apps/redmine"
+	},
+	"gerrit":{
+	  "url":"http://elastos.org/review/",
+	  "path":"/opt/gerrit/",
+      "source":"/opt/gerritsource/"
+	}
+}

@@ -1,0 +1,57 @@
++-+-+-+-+-+-+-+-+-+
+|C|h|a|n|g|e|l|o|g|
++-+-+-+-+-+-+-+-+-+
+
+v. 2.1.0 - May 2012
+
+ - Added Romanian translation
+ - Added Czech translation
+ - Removed custom favicon from package
+ - Made the theme very printer-friendly
+ - Sanitized output of home_url
+ - Removed search box from header
+ - JavsScript files are not minified, for better human readability
+ - Some CSS changes
+ - Other minor improvements
+
+v. 2.0.0 - February 2012
+
+ - Added Belarusian translation
+ - Added post formats support
+ - Updated script 'Modernizr'
+ - Fixed showing header title when it's set to hidden
+ - Removed hardcoded background image 
+ - Some other minor changes
+
+
+v. 1.90 - September 2011
+
+ - Fixed a potential security hole
+ - Removed the year from display in footer copyright
+ - Removed font UnifrakturMaguntia from header title
+ - Removed semantic tags from post-0 (error 404 page)
+ - Added permalink to post's date in index.php
+ - Some CSS improvements
+
+ 
+v. 1.70 - August 2011
+
+ - Added Swedish localization
+ - Added "UnifrakturMaguntia" font for the blog title
+ - Moved Search-form above the header
+ - Removed RSS links from upper right corner
+ - Updated Modernizr.js to v. 2.0.6
+ - Replaced default sans-serif fonts with serif ones
+ - Other minor CSS improvements 
+ 
+ 
+v. 1.65 - May 2011
+
+ - Added Vietnamese language
+ - Several CSS improvements. 
+ 
+ 
+v. 1.6 - March 2011
+
+ - Added Itallian localization
+ - Minor CSS improvements

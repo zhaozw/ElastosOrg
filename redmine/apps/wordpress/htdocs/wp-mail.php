@@ -116,6 +116,9 @@ for ( $i = 1; $i <= $count; $i++ ) {
 					$userdata = get_user_by('email', $author);
 					if ( ! empty( $userdata ) ) {
 						$post_author = $userdata->ID;
+						$aua = get_user_by('email', $author);
+					if ( ! empty( $userdata ) ) {
+						$post_author = $userdata->ID;
 						$author_found = true;
 					}
 				}

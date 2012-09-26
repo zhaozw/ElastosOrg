@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web Considerations - New WordPress Theme Design</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+<style>
+#c1 .content a, #c3 .content a {height: 1%;}
+#masthead, #topmenu { width:expression(((document.compatMode && document.compatMode=='CSS1Compat') ? document.documentElement.clientWidth : document.body.clientWidth) < 1000 ? "1000px" : "auto");}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style>
+#masthead, #columnwrapper, #topmenu, #columns-bottom {zoom:1;}
+</style>
+<![endif]-->
+</head>
+<body>
+<div id="masthead">
+  <div id="logo"><img src="images/logo.png" width="270" height="103" /></div>
+  <div id="blogtitle">Son of Blue - A Quality WordPress Theme by Web Considerations</div>
+</div>
+<div id="topmenu">
+  <ul class="nav">
+    <li><a href="http:www.sonofblue.com">Son of Blue Website</a></li>
+  </ul>
+</div>
+<div id="columnwrapper">
+<div id="columns-top">&nbsp;</div>
+<div id="c1">
+<div class="content">
+  <h3>Area One</h3>
+  <ul>
+    <li><a href="#">Sample Link One</a></li>
+    <li><a href="#">Sample Link Two</a></li>
+    <li><a href="#">Sample Link Three</a></li>
+    <li><a href="#">Sample Link Four</a>    </li>
+  </ul>
+    <h3>Area Two</h3>
+    <ul>
+    <li><a href="#">Sample Link One</a></li>
+    <li><a href="#">Sample Link Two</a></li>
+    <li><a href="#">Sample Link Three</a></li>
+    <li><a href="#">Sample Link Four</a>    </li>
+  </ul>
+  </div>
+</div><!-- end of c1 div -->
+<div id="c2">
+<div class="content">
+<div class="post">
+<div class="calendar">Oct.
+<div class="calday">31</div>
+</div><!-- end of the calendar div -->
+  <h1>Son of Blue WordPress Theme </h1>
+  <div class="author">written by Web Considerations</div>
+  <div class="postdate">- October 31, 2008 </div>
+  <div class="ncomments"><a href="#"></a></div>
+  <div class="entry">
+  <p>The Son of Blue WordPress Theme is a new WordPress theme with a easy to read layout and colorful design including a custom menu and custom header logo. </p>
+  <p>If you need assistance with customizing the &quot;Son of Blue&quot; logo for your site name, <a href="http://www.webconsiderations.com/contact-me" target="_blank">contact me</a> and I will be glad to help. </p>
+  <p>It is called Son of Blue because it was inspired by my original WordPress Theme - <a href="http://www.webconsiderations.com/blue-fade" target="_blank">Blue Fade</a>.  Son of Blue, however, was designed not only for clean and crisp reading but more space has been added for your navigational links. An extra column has also been added in addition to the custom top menu bar so you will have plenty of space for your widgets, page and category links, calendars, advertisements and more.</p>
+  <p>If you have any questions or find any issues with this theme, please contact me, I will be more than happy to answer your questions and/or fix any problems that may exist.</p>
+  <h3>Features</h3>
+  <ul>
+    <li>Clean and easy to navigate, three columns, Photo-friendly, Widget ready</li>
+    <li>Passes both XHTML/CSS validation</li>
+    <li>Gravatars support</li>
+    <li>Access to admin menu from any page</li>
+    <li>PNG file included so you can change the default “Son of Blue” text in the logo to match your blog name</li>
+  </ul>
+  <h3>Son of Blue Logo Text</h3>
+  <p>The Son of Blue theme includes a “logor.png” file located in the  images directory that you can edit to include your own blog name  with the custom styling that is used on the “Son of Blue” logo. I used  Fireworks to create the file but any graphics editor that can read png  files should work.</p>
+  <p><strong>To edit the file, open in your graphics editor.</strong></p>
+  <ol>
+    <li>The file is wp-content\themes\son-of-blue\images\logo.png.</li>
+    <li>Change the “Son of Blue” text  to the name you want i.e. your blog name.</li>
+    <li>Save the file and upload it to your server.</li>
+    <li>You may also need to change the sytling for your site name and description text to center it under the logo. To change the text for the site name and description (under the logo), open the style.css. Look for &quot;blogtitle&quot; and modify the left: property - it is currently set at 45px;. Change it to a numeric value less or greater than 45px to center under the logo.</li>
+    </ol>
+  <h3>Version 1.2</h3>
+  <ol>
+    <li>Modified the comments.php to include functionality for threaded comments   using WordPress 2.7 and above.</li>
+    </ol>
+  <h3>Version 1.3</h3>
+  <ol>
+    <li>Modified the style sheet to give the footer and footer content a better look and feel to match the top of the theme. </li>
+    <li>Modified the comments.php to improve the look of the comment form that users complete to make a post.</li>
+    <li>Modified the comments.php and functions.php to give the posted comments a highly improved custom look.</li>
+    <li>Moved the comments popup link to the bottom of the post.</li>
+    <li>Added small graphics for the tag, category and comment popup links. </li>
+    </ol>
+  <h3>Release Changes 2.0 </h3>
+  <ol>
+    <li>Renamed the son-of-blue folder to sonofblue so that the theme preview displayed the screenshot properly. (Issue surfaced in WordPress 2.71.</li>
+    <li>If you are replacing any previous version, you can delete the son-of-blue folder from your server and replace it with this version. Be sure to copy over any plugins that you have installed. </li>
+    </ol>
+  <h3>Release Changes 3.0 </h3>
+  <ol>
+    <li>Modified the top menu bar to include sub pages functionality. Currently, will show sub pages on hover up to 4 levels deep. To show even deeper levels, modify the header.php and change depth=4 to depth=&quot;new number&quot;.</li>
+    </ol>
+  <h3>Release Changes 3.1 </h3>
+  <ol>
+    <li>Modified the functions.php to correct an issue with the default avatar. Previously, the default always showed the blue avatar regardless of which default selection was made. </li>
+    </ol>
+  <h3>Release Changes 3.2 </h3>
+  <ol>
+    <li>Modified the header.php to correct an issue with page exclusion.</li>
+    </ol>
+  <h3>Release Changes 4.2</h3>
+  <ol>
+    <li>Modified the Copyright footer text to remove a specific year.</li>
+    <li>Modified all the standard PHP files and style.css by removing white space. This will improve performance and bot crawling.</li>
+    <li>Modified the menu system to use strickly CSS and removed jQuery - for better performance and faster load times.</li>
+  </ol>
+  <h3>License</h3>
+  <p>Son of Blue  theme is released under GPL License. </p>
+  </div>
+  <div class="postmetadata">
+  <div class="tags"><a href="#">These are the Tags</a></div>
+  <div class="category"><a href="#">Category</a></div>
+  <div class="editit"><a href="#">Edit </a></div>
+  </div><!-- end postmetadata div -->
+</div><!-- end post div -->
+<div class="navigation">
+	<div class="alignleft"><a href="#">Aligned to the left</a></div>
+	<div class="alignright"><a href="#">Aligned to the right</a></div>
+</div><!-- end navigation div -->
+</div>
+</div><!-- end of c2 div -->
+<div id="c3">
+  <div class="content">
+   <h3>Area Three  </h3>
+    <ul>
+        <li><a href="#">Sample Link One</a></li>
+        <li><a href="#">Sample Link Two</a></li>
+        <li><a href="#">Sample Link Three</a></li>
+        <li><a href="#">Sample Link Four</a> </li>
+      </ul>
+   <h3>Area Four  </h3>
+    <ul>
+        <li><a href="#">Sample Link One</a></li>
+        <li><a href="#">Sample Link Two</a></li>
+        <li><a href="#">Sample Link Three</a></li>
+        <li><a href="#">Sample Link Four</a> </li>
+      </ul>	  
+    </div>
+  </div><!-- end of c3 div -->
+<div id="columns-bottom">&nbsp;</div>
+</div><!-- end of column wrapper div -->
+<div id="footer">
+<div id="footercontent">&copy; Copyright 2007 <a href="#">Web Considerations</a>, LLC. All Rights Reserved.</div>
+</div>
+</body>
+</html>

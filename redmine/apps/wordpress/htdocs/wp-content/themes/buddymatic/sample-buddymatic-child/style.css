@@ -1,0 +1,37 @@
+/*   
+Theme Name: A Thematic/Buddymatic Child Theme
+Theme URI: 
+Description: Original child theme developed by Ian Stewart.
+Author: Ron Rennick
+Author URI: http://ronandandrea.com/
+Template: buddymatic
+Version: 1.0
+Tags: Thematic, Buddymatic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+/*
+Buddymatic is © Ron Rennick http://ronandandrea.com/
+Thematic is © Ian Stewart http://themeshaper.com/
+
+To use this child theme with Thematic change the Template above and import folders below from buddymatic to thematic.
+*/
+
+/* Reset browser defaults */
+@import url('../buddymatic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../buddymatic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../buddymatic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../buddymatic/library/styles/images.css');
+
+/* Apply default theme styles and colors */
+@import url('../buddymatic/library/styles/default.css');
+
+/* Prepare theme for plugins */
+@import url('../buddymatic/library/styles/plugins.css');

@@ -1,0 +1,200 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{$lang_advcolor_title}</title>
+	<link rel="StyleSheet" href="css/default.css" type="text/css" />
+	<script language="javascript" type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script language="javascript" type="text/javascript">
+	<!--
+	
+		var cellAmount = 17;
+	
+		function init() {
+			var inst = tinyMCE.selectedInstance;
+			var elm = inst.getFocusElement();
+			if (elm.nodeName == "table" || elm.nodeName == "tr" || elm.nodeName == "td" || elm.nodeName == "div") updateColorCode(elm.style.backgroundColor);
+				else updateColorCode(elm.style.color);
+		}
+
+		function putColor(target) {
+			// Execute the mceTemplate command without UI this time
+			if (target == "fore") tinyMCEPopup.execCommand('putForeColor', null, '#' + document.colorChoice.colorCode.value);
+			else tinyMCEPopup.execCommand('putBgColor', null, '#' + document.colorChoice.colorCode.value);
+
+			// Close the dialog
+			tinyMCEPopup.close();
+		}
+		
+		//Function added by Andy Wilkerson, andy@enzain.com, http://www.enzain.com
+		//check if an entry is valid Hex color code
+		function IsHexidecmal(HexValue) {
+		   var ValidChars = "0123456789ABCDEFabcdef";
+		   var IsHex=true;
+		   var Char;
+		   for (i = 0; i < HexValue.length && IsHex == true; i++) 
+			  { 
+			  Char = HexValue.charAt(i); 
+			  if (ValidChars.indexOf(Char) == -1) 
+				 {
+				 IsHex = false;
+				 }
+			  }
+		   return IsHex;
+		 }
+
+		
+		//Function taken from TinyMCE DHTML Colorpicker by Christophe Eblé - ceble@newkind.biz, http://www.newkind.biz
+		function convertRGBToHex(col) {
+			var re = new RegExp("rgb\\s*\\(\\s*([0-9]+).*,\\s*([0-9]+).*,\\s*([0-9]+).*\\)", "gi");
+			
+			var rgb = col.replace(re, "$1,$2,$3").split(',');
+			if (rgb.length == 3) {
+				r = parseInt(rgb[0]).toString(16);
+				g = parseInt(rgb[1]).toString(16);
+				b = parseInt(rgb[2]).toString(16);
+			
+				r = r.length == 1 ? '0' + r : r;
+				g = g.length == 1 ? '0' + g : g;
+				b = b.length == 1 ? '0' + b : b;
+			
+				return r + g + b;
+			}
+			return col;
+		}
+		
+		//Function modified from original found in TinyMCE DHTML Colorpicker by Christophe Eblé - ceble@newkind.biz, http://www.newkind.biz
+		function convertHexToRGB(col) {
+			if (IsHexidecmal(col)) {
+				if (col.length == 3) {
+					col = col.charAt(0) + col.charAt(0) + col.charAt(1) + col.charAt(1) + col.charAt(2) + col.charAt(2)
+				}
+				col = col.replace(new RegExp('[^0-9A-F]', 'gi'), '');
+				r = parseInt(col.substring(0, 2), 16);
+				g = parseInt(col.substring(2, 4), 16);
+				b = parseInt(col.substring(4, 6), 16);
+		
+				this.r = r
+				this.g = g
+				this.b = b
+			}
+			return col;
+		}
+		
+		//Function added by Andy Wilkerson, andy@enzain.com, http://www.enzain.com
+		//takes a value and updates the color shown in the top left sample
+		function updateSample(col) {
+			if (!IsHexidecmal(col)) { 
+				alert('Invalid character.\nOnly hexadecmal values can be used. (0-9 and A-F)') 
+				return false; 
+			}else {
+				if (col.length == 3 || col.length == 6) {
+					document.getElementById("Sample").style.backgroundColor = '#'+col
+					if (UpdateBigChart == true) {
+						var RGB = new convertHexToRGB(col);
+						generateBigChart(RGB.r,RGB.g,RGB.b,0);
+					}
+				}
+			}
+		}
+		
+		//Function added by Andy Wilkerson, andy@enzain.com, http://www.enzain.com
+		//update the color number displayed in HEX format
+		function updateColorCode(col) {
+			document.colorChoice.colorCode.value=convertRGBToHex(col);
+			UpdateBigChart = false;
+			updateSample(convertRGBToHex(col));
+		}
+		
+		//Function added by Andy Wilkerson, andy@enzain.com, http://www.enzain.com
+		//changes the sample color on mouseovers
+		function HoverColor(col) {
+			if (col == "Out") {
+				document.getElementById("SampleHover").style.backgroundColor = document.getElementById("Sample").style.backgroundColor;
+			}else {
+				document.getElementById("SampleHover").style.backgroundColor = col;
+			}
+		}
+		
+		function generateBigChart(startred,startgreen,startblue,initColorTable) {
+			//alert("red: "+startred+" green: "+startgreen+" blue: "+startblue);
+			redVertStep 	= startred/(cellAmount-1);
+			greenVertStep 	= startgreen/(cellAmount-1);
+			blueVertStep 	= startblue/(cellAmount-1);
+
+			myColorTable = document.getElementById("colorTable");
+			
+			for (i=0 ; i<cellAmount ; i++) {
+				thisRow = "";
+				redRowStart 	= startred-i*redVertStep;
+				greenRowStart 	= startgreen-i*greenVertStep;
+				blueRowStart 	= startblue-i*blueVertStep;
+				
+				findMax = new Array(redRowStart,greenRowStart,blueRowStart);
+				maxval = Math.max.apply({},findMax);
+								
+				redHorizStep 	= (maxval-redRowStart)/(cellAmount-1);
+				greenHorizStep 	= (maxval-greenRowStart)/(cellAmount-1);
+				blueHorizStep 	= (maxval-blueRowStart)/(cellAmount-1);
+				
+				for (j=0 ; j<cellAmount ; j++) {
+					red 	= Math.round(redRowStart + redHorizStep * j - 1);
+					green 	= Math.round(greenRowStart + greenHorizStep * j - 1);
+					blue 	= Math.round(blueRowStart + blueHorizStep * j - 1);
+					thisRow = "<td style=\"background-color: rgb("+red+","+green+","+blue+");\" onMouseOver=\"HoverColor(this.style.backgroundColor)\" onMouseOut=\"HoverColor('Out')\" onClick=\"updateColorCode(this.style.backgroundColor);\"></td>" + thisRow;
+					if (!initColorTable) {
+						thisCell = myColorTable.getElementsByTagName("td")[(cellAmount*(i+1))-1-j];
+						thisCell.style.backgroundColor = "rgb("+red+","+green+","+blue+")";
+					}
+				}
+				if (initColorTable) {
+					document.write("<tr>");
+					document.write(thisRow);
+					document.write("</tr>");
+				}
+			}
+		}
+		
+		function generateRoughChart() {
+			red 		= 256;
+			green 		= 1;
+			blue 		= 1;
+			redDevel 	= new Array(0,-1,0,0,1,0);
+			greenDevel 	= new Array(0,0,1,0,0,-1);
+			blueDevel 	= new Array(1,0,0,-1,0,0);
+			for (i=0 ; i<6 ; i++) {
+				for (j=0 ; j<64 ; j++) {
+					red += 4*redDevel[i];
+					green += 4*greenDevel[i];
+					blue += 4*blueDevel[i];
+					nextRow = "<div style=\"height:1px; overflow:hidden; background-color: rgb("+(red-1)+","+(green-1)+","+(blue-1)+");\" onClick=generateBigChart("+red+","+green+","+blue+",0);></div>";
+					document.write(nextRow);
+				}
+			}
+		}
+
+		
+	//-->
+	</script>
+	<base target="_self" />
+</head>
+<body onload="tinyMCEPopup.executeOnLoad('init();');">	
+	<table id="colorPicker">
+		<tr>
+			<td id="bigChart">
+				<div id="Sample"><div id="SampleHover"></div></div>
+				<form name="colorChoice" action="#">
+					<div style="font-weight: bold; margin: 14px 1px 0 3px; float:left;">#</div>
+					<input type="text" name="colorCode" maxlength="6" style="width: 48px; text-align:center; margin-right:10px; font-weight:bold;" onKeyUp="UpdateBigChart=true;updateSample(this.value);" />
+					<input type="button" id="insert" name="insert" value="{$lang_advcolor_textbutton}" style="cursor:pointer;" title="{$lang_advcolor_textbuttontip}" onClick=putColor('fore'); />
+					<input type="button" id="insert" name="insert" value="{$lang_advcolor_bgbutton}" style="cursor:pointer;" title="{$lang_advcolor_bgbuttontip}" onClick=putColor('bg'); />
+				</form>
+				<table cellpadding="0" cellspacing="0" border="0" id="colorTable">
+					<script>generateBigChart(256,1,1,1);</script>
+				</table>
+			</td>
+			<td id="roughChart">
+				<script>generateRoughChart();</script>
+			</td>
+		</tr>
+	</table>
+</body> 
+</html> 

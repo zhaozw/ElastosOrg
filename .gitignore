@@ -1,3 +1,4 @@
+redmine/apps/wordpress/htdocs/wp-content/blogs.dir
 redmine/mysql/data/
 redmine/apache2/logs/
 redmine/jenkins/apache-tomcat/logs/

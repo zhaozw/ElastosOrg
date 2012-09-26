@@ -1,0 +1,764 @@
+/*
+Magenta Stylesheet
+
+== config (used by theme-roller) ===============================================
+## @base-color: #555555;
+## @active-color: #ea068c;
+## @alternate-active-color: #ea068c;
+## @darker-color: #222222;
+## @lighter-color: #777777;
+## @dark-color: #000000;
+## @light-color: #999999;
+## @base-background: #ffffff;
+## @light-background: #f8f8f8;
+## @dark-background: #eeeeee;
+## @light-border: #dddddd;
+## @dark-border: #eeeeee;
+## @overlay-background: #000000;
+## @overlay-color: #ffffff;
+## @slides-url: "default";
+## @social-url: "default";
+## @icons-url: "gray_light";
+## @active-icons-url: "magenta";
+== // config ===================================================================
+*/
+/* Variables */
+/* Global Styles */
+.boxed {
+  background-color: #f8f8f8;
+  border: solid 1px #f8f8f8;
+  border-width: 1px 0;
+}
+.overlay {
+  background-color: #000000;
+  color: #ffffff;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+/* Global Styles */
+.boxed {
+  background-color: #f8f8f8;
+  border: solid 1px #dddddd;
+  border-width: 1px 0;
+}
+.image-frame {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+}
+.overlay {
+  background-color: #000000;
+  color: #ffffff;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}
+.opacity {
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+/* =============================================================================
+    Generals elements
+   ========================================================================== */
+body,
+button,
+input,
+select,
+textarea,
+p {
+  color: #555555;
+}
+body {
+  background-color: #ffffff;
+}
+a:link, a:visited {
+  color: #ea068c;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+}
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+  color: #222222;
+}
+pre {
+  background-color: #f8f8f8;
+  color: #000000;
+}
+code {
+  background-color: #f8f8f8;
+  color: #000000;
+}
+blockquote cite {
+  color: #777777;
+}
+blockquote cite a, blockquote cite a:link {
+  color: #777777;
+}
+h1#site-title a, #site-title a {
+  color: #222222;
+  text-shadow: 0 0 2px #ffffff;
+}
+div#site-description {
+  color: #777777;
+  text-shadow: 0 0 2px #ffffff;
+}
+h2.page-intro {
+  color: #777777;
+}
+div#site-description {
+  color: #777777;
+}
+/* =============================================================================
+    Basic Structure
+   ========================================================================== */
+#container {
+  background-color: #ffffff;
+}
+.layout-default #container {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 0 30px #555555;
+  -moz-box-shadow: 0 0 30px #555555;
+  -webkit-box-shadow: 0 0 30px #555555;
+  box-shadow: 0 0 30px #777777;
+  -moz-box-shadow: 0 0 30px #777777;
+  -webkit-box-shadow: 0 0 30px #777777;
+}
+.no-boxshadow .layout-default #container {
+  border: 1px solid #dddddd;
+}
+.layout-overlay #container {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+.layout-empty #container {
+  margin-top: 0;
+}
+.layout-empty footer.main {
+  margin-top: 0;
+  border-top: 1px solid #dddddd;
+}
+#footer-sidebar {
+  border-top: 1px solid #dddddd;
+}
+#access {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+#access a {
+  color: #555555;
+}
+#access ul ul {
+  border-top: 2px solid #ea068c;
+  box-shadow: 0 5px 10px #eeeeee;
+  -moz-box-shadow: 0 5px 10px #eeeeee;
+  -webkit-box-shadow: 0 5px 10px #eeeeee;
+  box-shadow: 0 5px 10px #eeeeee;
+  -moz-box-shadow: 0 5px 10px #eeeeee;
+  -webkit-box-shadow: 0 5px 10px #eeeeee;
+}
+#access ul ul a {
+  background: #f8f8f8;
+  border-bottom: 1px dotted #dddddd;
+  color: #777777;
+}
+#access li:hover > a, #access a:focus {
+  color: #000000;
+}
+#access input {
+  background: #f8f8f8 url("../img/icons/gray_light/magnifying_glass_alt_16x16.png") 8px center no-repeat;
+}
+#access input:focus {
+  background: #f8f8f8 url("../img/icons/magenta/magnifying_glass_alt_16x16.png") 8px center no-repeat;
+}
+#top_bar input:focus {
+  background-color: #eeeeee;
+}
+p.page-intro {
+  color: #777777;
+}
+footer.main p {
+  color: #999999;
+}
+footer.main a {
+  color: #777777;
+}
+/* =============================================================================
+   Post
+   ========================================================================== */
+article .attachment-post-thumbnail {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+}
+article .attachment-large-feature {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+}
+article header .entry-meta {
+  color: #999999;
+}
+article footer.entry-meta {
+  color: #777777;
+  background-color: #f8f8f8;
+  border: solid 1px #f8f8f8;
+  border-width: 1px 0;
+  background-color: #f8f8f8;
+  border: solid 1px #dddddd;
+  border-width: 1px 0;
+}
+article footer.entry-meta a:link, article footer.entry-meta a:visited {
+  color: #222222;
+}
+nav#nav-single, nav#nav-above, nav#nav-below {
+  background-color: #f8f8f8;
+}
+/* =============================================================================
+   Sidebar
+============================================================================= */
+.sidebar a {
+  color: #ea068c;
+}
+.sidebar h3.widget-title {
+  color: #555555;
+  border-bottom: 1px solid #dddddd;
+}
+/* =============================================================================
+   Comments
+============================================================================= */
+/* Form */
+#respond {
+  background-color: #f8f8f8;
+}
+#respond .comment-notes {
+  color: #777777;
+}
+#respond .form-allowed-tags, #respond .form-allowed-tags code {
+  color: #777777;
+}
+#respond .required {
+  color: #ff4b33;
+}
+/* List */
+#comments h2 .comment-leave {
+  color: #999999;
+}
+#comments ol {
+  border-bottom: 1px solid #dddddd;
+}
+#comments .avatar {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+}
+#comments span.datetime {
+  color: #999999;
+}
+/* =============================================================================
+   Misc
+============================================================================= */
+img.aligncenter,
+img.alignleft,
+img.alignright,
+img.alignnone {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+  box-shadow: 0 0 10px #777777;
+  -moz-box-shadow: 0 0 10px #777777;
+  -webkit-box-shadow: 0 0 10px #777777;
+}
+/* =============================================================================
+   Shortcodes
+============================================================================= */
+/*-- BUTTON ----------------------------------------------- */
+a.button {
+  background-color: #f8f8f8;
+  border: solid 1px #f8f8f8;
+  border-width: 1px 0;
+  background-color: #f8f8f8;
+  border: solid 1px #dddddd;
+  border-width: 1px 0;
+  color: #555555;
+  text-shadow: 1px 1px 0 #ffffff;
+}
+a.button:hover {
+  background-color: #eeeeee;
+  border-color: #ea068c;
+  color: #ea068c;
+}
+a.button span.image {
+  background: transparent none center center no-repeat;
+}
+a.button span.icon-arrow-left {
+  background-image: url("../img/icons/gray_light/arrow_left_16x16.png");
+}
+a.button span.icon-arrow-right {
+  background-image: url("../img/icons/gray_light/arrow_right_16x16.png");
+}
+a.button span.icon-arrow-up {
+  background-image: url("../img/icons/gray_light/arrow_up_16x16.png");
+}
+a.button span.icon-arrow-down {
+  background-image: url("../img/icons/gray_light/arrow_down_16x16.png");
+}
+a.button span.icon-at {
+  background-image: url("../img/icons/gray_light/at_16x16.png");
+}
+a.button span.icon-comment {
+  background-image: url("../img/icons/gray_light/comment_stroke_16x14.png");
+}
+a.button span.icon-compass {
+  background-image: url("../img/icons/gray_light/compass_16x16.png");
+}
+a.button span.icon-denied {
+  background-image: url("../img/icons/gray_light/denied_16x16.png");
+}
+a.button span.icon-download {
+  background-image: url("../img/icons/gray_light/download_8x16.png");
+}
+a.button span.icon-heart {
+  background-image: url("../img/icons/gray_light/heart_stroke_16x14.png");
+}
+a.button span.icon-home {
+  background-image: url("../img/icons/gray_light/home_16x16.png");
+}
+a.button span.icon-image {
+  background-image: url("../img/icons/gray_light/image_16x16.png");
+}
+a.button span.icon-info {
+  background-image: url("../img/icons/gray_light/info_8x16.png");
+}
+a.button span.icon-iphone {
+  background-image: url("../img/icons/gray_light/iphone_12x16.png");
+}
+a.button span.icon-key {
+  background-image: url("../img/icons/gray_light/key_stroke_16x16.png");
+}
+a.button span.icon-lightbulb {
+  background-image: url("../img/icons/gray_light/lightbulb_10x16.png");
+}
+a.button span.icon-link {
+  background-image: url("../img/icons/gray_light/link_16x16.png");
+}
+a.button span.icon-mail {
+  background-image: url("../img/icons/gray_light/mail_16x12.png");
+}
+a.button span.icon-map-pin {
+  background-image: url("../img/icons/gray_light/map_pin_stroke_16x16.png");
+}
+a.button span.icon-movie {
+  background-image: url("../img/icons/gray_light/movie_16x16.png");
+}
+a.button span.icon-pin {
+  background-image: url("../img/icons/gray_light/pin_16x16.png");
+}
+a.button span.icon-question-mark {
+  background-image: url("../img/icons/gray_light/question_mark_8x16.png");
+}
+a.button span.icon-reload {
+  background-image: url("../img/icons/gray_light/reload_12x14.png");
+}
+a.button span.icon-rss {
+  background-image: url("../img/icons/gray_light/rss_16x16.png");
+}
+a.button span.icon-share {
+  background-image: url("../img/icons/gray_light/share_16x16.png");
+}
+a.button span.icon-star {
+  background-image: url("../img/icons/gray_light/star_16x16.png");
+}
+a.button span.icon-tag {
+  background-image: url("../img/icons/gray_light/tag_stroke_16x16.png");
+}
+a.button span.icon-target {
+  background-image: url("../img/icons/gray_light/target_16x16.png");
+}
+a.button span.icon-transfer {
+  background-image: url("../img/icons/gray_light/transfer_16x12.png");
+}
+a.button span.icon-trash {
+  background-image: url("../img/icons/gray_light/trash_stroke_16x16.png");
+}
+a.button span.icon-user {
+  background-image: url("../img/icons/gray_light/user_12x16.png");
+}
+a.button span.icon-x {
+  background-image: url("../img/icons/gray_light/x_14x14.png");
+}
+a.button:hover span.icon-arrow-left {
+  background-image: url("../img/icons/magenta/arrow_left_16x16.png");
+}
+a.button:hover span.icon-arrow-right {
+  background-image: url("../img/icons/magenta/arrow_right_16x16.png");
+}
+a.button:hover span.icon-arrow-up {
+  background-image: url("../img/icons/magenta/arrow_up_16x16.png");
+}
+a.button:hover span.icon-arrow-down {
+  background-image: url("../img/icons/magenta/arrow_down_16x16.png");
+}
+a.button:hover span.icon-at {
+  background-image: url("../img/icons/magenta/at_16x16.png");
+}
+a.button:hover span.icon-comment {
+  background-image: url("../img/icons/magenta/comment_stroke_16x14.png");
+}
+a.button:hover span.icon-compass {
+  background-image: url("../img/icons/magenta/compass_16x16.png");
+}
+a.button:hover span.icon-denied {
+  background-image: url("../img/icons/magenta/denied_16x16.png");
+}
+a.button:hover span.icon-download {
+  background-image: url("../img/icons/magenta/download_8x16.png");
+}
+a.button:hover span.icon-heart {
+  background-image: url("../img/icons/magenta/heart_stroke_16x14.png");
+}
+a.button:hover span.icon-home {
+  background-image: url("../img/icons/magenta/home_16x16.png");
+}
+a.button:hover span.icon-image {
+  background-image: url("../img/icons/magenta/image_16x16.png");
+}
+a.button:hover span.icon-info {
+  background-image: url("../img/icons/magenta/info_8x16.png");
+}
+a.button:hover span.icon-iphone {
+  background-image: url("../img/icons/magenta/iphone_12x16.png");
+}
+a.button:hover span.icon-key {
+  background-image: url("../img/icons/magenta/key_stroke_16x16.png");
+}
+a.button:hover span.icon-lightbulb {
+  background-image: url("../img/icons/magenta/lightbulb_10x16.png");
+}
+a.button:hover span.icon-link {
+  background-image: url("../img/icons/magenta/link_16x16.png");
+}
+a.button:hover span.icon-mail {
+  background-image: url("../img/icons/magenta/mail_16x12.png");
+}
+a.button:hover span.icon-map-pin {
+  background-image: url("../img/icons/magenta/map_pin_stroke_16x16.png");
+}
+a.button:hover span.icon-movie {
+  background-image: url("../img/icons/magenta/movie_16x16.png");
+}
+a.button:hover span.icon-pin {
+  background-image: url("../img/icons/magenta/pin_16x16.png");
+}
+a.button:hover span.icon-question-mark {
+  background-image: url("../img/icons/magenta/question_mark_8x16.png");
+}
+a.button:hover span.icon-reload {
+  background-image: url("../img/icons/magenta/reload_12x14.png");
+}
+a.button:hover span.icon-rss {
+  background-image: url("../img/icons/magenta/rss_16x16.png");
+}
+a.button:hover span.icon-share {
+  background-image: url("../img/icons/magenta/share_16x16.png");
+}
+a.button:hover span.icon-star {
+  background-image: url("../img/icons/magenta/star_16x16.png");
+}
+a.button:hover span.icon-tag {
+  background-image: url("../img/icons/magenta/tag_stroke_16x16.png");
+}
+a.button:hover span.icon-target {
+  background-image: url("../img/icons/magenta/target_16x16.png");
+}
+a.button:hover span.icon-transfer {
+  background-image: url("../img/icons/magenta/transfer_16x12.png");
+}
+a.button:hover span.icon-trash {
+  background-image: url("../img/icons/magenta/trash_stroke_16x16.png");
+}
+a.button:hover span.icon-user {
+  background-image: url("../img/icons/magenta/user_12x16.png");
+}
+a.button:hover span.icon-x {
+  background-image: url("../img/icons/magenta/x_14x14.png");
+}
+/*-- BOX ----------------------------------------------- */
+.box-type-default {
+  background-color: #f8f8f8;
+  border: solid 1px #f8f8f8;
+  border-width: 1px 0;
+  background-color: #f8f8f8;
+  border: solid 1px #dddddd;
+  border-width: 1px 0;
+}
+.box-type-colored {
+  background: #f8f8f8 none 15px 20px no-repeat;
+  border: 1px solid #ea068c;
+  border-width: 1px 0 1px 0;
+}
+.box-type-shadow {
+  box-shadow: 0 5px 10px #999999;
+  -moz-box-shadow: 0 5px 10px #999999;
+  -webkit-box-shadow: 0 5px 10px #999999;
+  box-shadow: 0 5px 10px #999999;
+  -moz-box-shadow: 0 5px 10px #999999;
+  -webkit-box-shadow: 0 5px 10px #999999;
+}
+.no-boxshadow .box-type-shadow {
+  border: 1px solid #999999;
+}
+.box-icon .box-image {
+  background: transparent none center center no-repeat;
+}
+.box-icon-award .box-image {
+  background-image: url("../img/icons/magenta/award_stroke_16x32.png");
+}
+.box-icon-bars .box-image {
+  background-image: url("../img/icons/magenta/bars_alt_32x32.png");
+}
+.box-icon-book .box-image {
+  background-image: url("../img/icons/magenta/book_32x24.png");
+}
+.box-icon-box .box-image {
+  background-image: url("../img/icons/magenta/box_24x24.png");
+}
+.box-icon-calendar .box-image {
+  background-image: url("../img/icons/magenta/calendar_alt_stroke_32x32.png");
+}
+.box-icon-camera .box-image {
+  background-image: url("../img/icons/magenta/camera_32x32.png");
+}
+.box-icon-cd .box-image {
+  background-image: url("../img/icons/magenta/cd_32x32.png");
+}
+.box-icon-chart .box-image {
+  background-image: url("../img/icons/magenta/chart_alt_32x32.png");
+}
+.box-icon-chat .box-image {
+  background-image: url("../img/icons/magenta/chat_32x32.png");
+}
+.box-icon-clock .box-image {
+  background-image: url("../img/icons/magenta/clock_32x32.png");
+}
+.box-icon-cloud .box-image {
+  background-image: url("../img/icons/magenta/cloud_32x20.png");
+}
+.box-icon-cloud-download .box-image {
+  background-image: url("../img/icons/magenta/cloud_download_32x32.png");
+}
+.box-icon-cloud-upload .box-image {
+  background-image: url("../img/icons/magenta/cloud_upload_32x32.png");
+}
+.box-icon-comment .box-image {
+  background-image: url("../img/icons/magenta/comment_stroke_32x28.png");
+}
+.box-icon-compass .box-image {
+  background-image: url("../img/icons/magenta/compass_32x32.png");
+}
+.box-icon-denied .box-image {
+  background-image: url("../img/icons/magenta/denied_32x32.png");
+}
+.box-icon-download .box-image {
+  background-image: url("../img/icons/magenta/download_16x32.png");
+}
+.box-icon-document .box-image {
+  background-image: url("../img/icons/magenta/document_alt_stroke_24x32.png");
+}
+.box-icon-equalizer .box-image {
+  background-image: url("../img/icons/magenta/equalizer_24x24.png");
+}
+.box-icon-eye .box-image {
+  background-image: url("../img/icons/magenta/eye_32x24.png");
+}
+.box-icon-fork .box-image {
+  background-image: url("../img/icons/magenta/fork_28x32.png");
+}
+.box-icon-hash .box-image {
+  background-image: url("../img/icons/magenta/hash_28x32.png");
+}
+.box-icon-heaphones .box-image {
+  background-image: url("../img/icons/magenta/heaphones_32x28.png");
+}
+.box-icon-heart .box-image {
+  background-image: url("../img/icons/magenta/heart_stroke_32x28.png");
+}
+.box-icon-home .box-image {
+  background-image: url("../img/icons/magenta/home_32x32.png");
+}
+.box-icon-image .box-image {
+  background-image: url("../img/icons/magenta/image_32x32.png");
+}
+.box-icon-info .box-image {
+  background-image: url("../img/icons/magenta/info_16x32.png");
+}
+.box-icon-iphone .box-image {
+  background-image: url("../img/icons/magenta/iphone_24x32.png");
+}
+.box-icon-key .box-image {
+  background-image: url("../img/icons/magenta/key_stroke_32x32.png");
+}
+.box-icon-layers .box-image {
+  background-image: url("../img/icons/magenta/layers_alt_32x32.png");
+}
+.box-icon-lightbulb .box-image {
+  background-image: url("../img/icons/magenta/lightbulb_20x32.png");
+}
+.box-icon-link .box-image {
+  background-image: url("../img/icons/magenta/link_32x32.png");
+}
+.box-icon-mail .box-image {
+  background-image: url("../img/icons/magenta/mail_32x24.png");
+}
+.box-icon-map-pin .box-image {
+  background-image: url("../img/icons/magenta/map_pin_stroke_32x32.png");
+}
+.box-icon-movie .box-image {
+  background-image: url("../img/icons/magenta/movie_32x32.png");
+}
+.box-icon-pin .box-image {
+  background-image: url("../img/icons/magenta/pin_32x32.png");
+}
+.box-icon-question-mark .box-image {
+  background-image: url("../img/icons/magenta/question_mark_16x32.png");
+}
+.box-icon-reload .box-image {
+  background-image: url("../img/icons/magenta/reload_alt1_24x28.png");
+}
+.box-icon-rss .box-image {
+  background-image: url("../img/icons/magenta/rss_32x32.png");
+}
+.box-icon-share .box-image {
+  background-image: url("../img/icons/magenta/share_32x32.png");
+}
+.box-icon-star .box-image {
+  background-image: url("../img/icons/magenta/star_32x32.png");
+}
+.box-icon-tag .box-image {
+  background-image: url("../img/icons/magenta/tag_stroke_32x32.png");
+}
+.box-icon-target .box-image {
+  background-image: url("../img/icons/magenta/target_32x32.png");
+}
+.box-icon-transfer .box-image {
+  background-image: url("../img/icons/magenta/transfer_32x24.png");
+}
+.box-icon-trash .box-image {
+  background-image: url("../img/icons/magenta/trash_stroke_32x32.png");
+}
+.box-icon-umbrella .box-image {
+  background-image: url("../img/icons/magenta/umbrella_32x32.png");
+}
+.box-icon-user .box-image {
+  background-image: url("../img/icons/magenta/user_24x32.png");
+}
+.box-icon-wrench .box-image {
+  background-image: url("../img/icons/magenta/wrench_32x32.png");
+}
+.box-icon-x .box-image {
+  background-image: url("../img/icons/magenta/x_28x28.png");
+}
+/*-- DROPCAPS ----------------------------------------------- */
+.dropcap {
+  color: #ea068c;
+}
+/*-- LIST ----------------------------------------------- */
+div.list li {
+  background: transparent none 0 8px no-repeat;
+}
+div.list-del li {
+  background: transparent url("../img/icons/magenta/x_7x7.png") 4px 5px no-repeat;
+}
+div.list-dot li {
+  background: transparent url("../img/icons/magenta/target_8x8.png") 4px 5px no-repeat;
+}
+div.list-check li {
+  background: transparent url("../img/icons/magenta/check_8x7.png") 4px 5px no-repeat;
+}
+div.list-star li {
+  background: transparent url("../img/icons/magenta/star_8x8.png") 4px 4px no-repeat;
+}
+div.list-hash li {
+  background: transparent url("../img/icons/magenta/hash_7x8.png") 4px 4px no-repeat;
+}
+div.list-minus li {
+  background: transparent url("../img/icons/magenta/minus_8x2.png") 4px 8px no-repeat;
+}
+div.list-plus li {
+  background: transparent url("../img/icons/magenta/plus_8x8.png") 4px 4px no-repeat;
+}
+div.list-play li {
+  background: transparent url("../img/icons/magenta/play_6x8.png") 4px 4px no-repeat;
+}
+div.list-heart li {
+  background: transparent url("../img/icons/magenta/heart_stroke_8x7.png") 4px 5px no-repeat;
+}
+/*-- QUOTES ----------------------------------------------- */
+blockquote.simple {
+  background: url("../img/icons/magenta/right_quote_16x16.png") no-repeat right bottom;
+}
+blockquote.double {
+  background: url("../img/icons/magenta/right_quote_16x16.png") no-repeat right bottom;
+}
+blockquote.double:first-letter {
+  background: url("../img/icons/magenta/left_quote_16x16.png") no-repeat left top;
+}
+blockquote.pull {
+  float: right;
+  margin: 0 0 1em 1em;
+  width: 200px;
+}
+/*-- HORIZONTAL RULES ----------------------------------------------- */
+hr.space {
+  background: none repeat scroll 0 0 transparent;
+  clear: both;
+  color: transparent;
+}
+hr.big-space {
+  background: none repeat scroll 0 0 transparent;
+  clear: both;
+  color: transparent;
+  margin-bottom: 2em;
+}

@@ -1,0 +1,58 @@
+form {
+	margin: 0 10px 3px 0;
+}
+
+form input {
+	margin: 10px 1px 0 0;
+	height: 18px;
+	vertical-align: middle
+}
+
+#colorPicker {
+	border: 1px solid #909090;
+	width: 100%;
+}
+
+#colorPicker #roughChart {
+	vertical-align: bottom;
+	text-align: right;
+	width: 50px;
+}
+
+#colorPicker #roughChart div {
+	height: 1px;
+}
+
+#colorPicker #bigChart {
+	vertical-align: bottom;
+	padding-left: 6px;
+}
+
+#colorPicker #bigChart table {
+	border-collapse: collapse;
+	border: 1px solid #909090;
+	clear: left;
+}
+
+#colorPicker #bigChart td {
+	border: 0px solid #000;
+	width: 21px;
+	height: 20px;
+}
+
+#colorPicker #bigChart #Sample {
+	float: left;
+	margin: 3px 5px 5px 0;
+	width: 70px; 
+	height: 35px; 
+	border: 1px solid #000; 
+	overflow: hidden; 
+	background: #fff url(); 
+}
+
+#colorPicker #bigChart #SampleHover {
+	width: 35px; 
+	height: 35px; 
+	overflow: hidden; 
+	background: #fff url(); 
+}

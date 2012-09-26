@@ -1,9 +1,15 @@
-<Files wp-config.php>
-order allow,deny
-deny from all
-</Files>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
 
-<Files .htaccess>
-order allow,deny
-deny from all
-</Files>
+RewriteRule ^files/(.+) wp-includes/ms-files.php?file=$1 [L]
+
+#RewriteRule .redmine/(.*) redmine/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_URI} /redmine/* [OR]
+RewriteCond %{REQUEST_URI} /review/* 
+RewriteRule ^ - [L]
+RewriteRule . index.php [L] 
+

