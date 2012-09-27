@@ -337,9 +337,8 @@ fn: {
 						$.wikiEditor.imgPath + 'toolbar/'
 					);
 					if ( typeof offsetOrIcon == 'object' ) {
-						$button = $( '<a/>' )
+						$button = $( '<span/>' )
 							.attr( {
-								'href' : '#',
 								'alt' : label,
 								'title' : label,
 								'rel' : id,
@@ -501,11 +500,6 @@ fn: {
 				}
 				if ( 'direction' in page ) {
 					$characters.attr( 'dir', page.direction );
-				} else {
-					// By default it should be explicit ltr for all scripts.
-					// Without this some conjoined ltr characters look
-					// weird in rtl wikis.
-					$characters.attr( 'dir', 'ltr' );
 				}
 				if ( 'characters' in page ) {
 					html = '';

@@ -768,31 +768,31 @@ class Linker {
 	 * Make a "broken" link to an image
 	 *
 	 * @param $title Title object
-	 * @param $label String: link label (plain text)
+	 * @param $html String: link label in htmlescaped text form
 	 * @param $query String: query string
-	 * @param $unused1 Unused parameter kept for b/c
-	 * @param $unused2 Unused parameter kept for b/c
+	 * @param $trail String: link trail (HTML fragment)
+	 * @param $prefix String: link prefix (HTML fragment)
 	 * @param $time Boolean: a file of a certain timestamp was requested
 	 * @return String
 	 */
-	public static function makeBrokenImageLinkObj( $title, $label = '', $query = '', $unused1 = '', $unused2 = '', $time = false ) {
+	public static function makeBrokenImageLinkObj( $title, $html = '', $query = '', $trail = '', $prefix = '', $time = false ) {
 		global $wgEnableUploads, $wgUploadMissingFileUrl, $wgUploadNavigationUrl;
 		if ( ! $title instanceof Title ) {
-			return "<!-- ERROR -->" . htmlspecialchars( $label );
+			return "<!-- ERROR -->{$prefix}{$html}{$trail}";
 		}
 		wfProfileIn( __METHOD__ );
-		if ( $label == '' ) {
-			$label = $title->getPrefixedText();
-		}
-		$encLabel = htmlspecialchars( $label );
 		$currentExists = $time ? ( wfFindFile( $title ) != false ) : false;
+
+		list( $inside, $trail ) = self::splitTrail( $trail );
+		if ( $html == '' )
+			$html = htmlspecialchars( $title->getPrefixedText() );
 
 		if ( ( $wgUploadMissingFileUrl || $wgUploadNavigationUrl || $wgEnableUploads ) && !$currentExists ) {
 			$redir = RepoGroup::singleton()->getLocalRepo()->checkRedirect( $title );
 
 			if ( $redir ) {
 				wfProfileOut( __METHOD__ );
-				return self::linkKnown( $title, $encLabel, array(), wfCgiToArray( $query ) );
+				return self::linkKnown( $title, "$prefix$html$inside", array(), $query ) . $trail;
 			}
 
 			$href = self::getUploadUrl( $title, $query );
@@ -800,10 +800,10 @@ class Linker {
 			wfProfileOut( __METHOD__ );
 			return '<a href="' . htmlspecialchars( $href ) . '" class="new" title="' .
 				htmlspecialchars( $title->getPrefixedText(), ENT_QUOTES ) . '">' .
-				$encLabel . '</a>';
+				"$prefix$html$inside</a>$trail";
 		} else {
 			wfProfileOut( __METHOD__ );
-			return self::linkKnown( $title, $encLabel, array(), wfCgiToArray( $query ) );
+			return self::linkKnown( $title, "$prefix$html$inside", array(), $query ) . $trail;
 		}
 	}
 

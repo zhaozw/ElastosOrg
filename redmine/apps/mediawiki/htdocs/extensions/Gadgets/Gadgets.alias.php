@@ -28,27 +28,22 @@ $specialPageAliases['arz'] = array(
 	'Gadgets' => array( 'ادوات' ),
 );
 
-/** Bulgarian (български) */
+/** Bulgarian (Български) */
 $specialPageAliases['bg'] = array(
 	'Gadgets' => array( 'Джаджи' ),
 );
 
-/** Banjar (Bahasa Banjar) */
-$specialPageAliases['bjn'] = array(
-	'Gadgets' => array( 'Pakakas' ),
-);
-
-/** Breton (brezhoneg) */
+/** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Gadgets' => array( 'Bitrakoù' ),
 );
 
-/** Bosnian (bosanski) */
+/** Bosnian (Bosanski) */
 $specialPageAliases['bs'] = array(
 	'Gadgets' => array( 'Dodaci' ),
 );
 
-/** Czech (česky) */
+/** Czech (Česky) */
 $specialPageAliases['cs'] = array(
 	'Gadgets' => array( 'Udělátka' ),
 );
@@ -56,11 +51,6 @@ $specialPageAliases['cs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Gadgets' => array( 'Helferlein' ),
-);
-
-/** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'Gadgets' => array( 'Gadgeti' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -78,17 +68,17 @@ $specialPageAliases['eo'] = array(
 	'Gadgets' => array( 'Aldonaĵoj' ),
 );
 
-/** Spanish (español) */
+/** Spanish (Español) */
 $specialPageAliases['es'] = array(
 	'Gadgets' => array( 'Artilugios', 'Accesorios' ),
 );
 
-/** Estonian (eesti) */
+/** Estonian (Eesti) */
 $specialPageAliases['et'] = array(
 	'Gadgets' => array( 'Tööriistad' ),
 );
 
-/** Basque (euskara) */
+/** Basque (Euskara) */
 $specialPageAliases['eu'] = array(
 	'Gadgets' => array( 'Gadgetak' ),
 );
@@ -98,12 +88,12 @@ $specialPageAliases['fa'] = array(
 	'Gadgets' => array( 'ابزارها' ),
 );
 
-/** Finnish (suomi) */
+/** Finnish (Suomi) */
 $specialPageAliases['fi'] = array(
 	'Gadgets' => array( 'Pienoisohjelmat' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Franco-Provençal (Arpetan) */
 $specialPageAliases['frp'] = array(
 	'Gadgets' => array( 'Outils' ),
 );
@@ -128,12 +118,7 @@ $specialPageAliases['he'] = array(
 	'Gadgets' => array( 'סקריפטים' ),
 );
 
-/** Hindi (हिन्दी) */
-$specialPageAliases['hi'] = array(
-	'Gadgets' => array( 'उपकरण', 'गैजेट' ),
-);
-
-/** Croatian (hrvatski) */
+/** Croatian (Hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Gadgets' => array( 'Dodaci' ),
 );
@@ -148,12 +133,12 @@ $specialPageAliases['ht'] = array(
 	'Gadgets' => array( 'Gajèt' ),
 );
 
-/** Hungarian (magyar) */
+/** Hungarian (Magyar) */
 $specialPageAliases['hu'] = array(
 	'Gadgets' => array( 'Segédeszközök' ),
 );
 
-/** Interlingua (interlingua) */
+/** Interlingua (Interlingua) */
 $specialPageAliases['ia'] = array(
 	'Gadgets' => array( 'Gadgetes' ),
 );
@@ -163,7 +148,7 @@ $specialPageAliases['id'] = array(
 	'Gadgets' => array( 'Alat', 'Gadget' ),
 );
 
-/** Italian (italiano) */
+/** Italian (Italiano) */
 $specialPageAliases['it'] = array(
 	'Gadgets' => array( 'Accessori' ),
 );
@@ -188,7 +173,7 @@ $specialPageAliases['lb'] = array(
 	'Gadgets' => array( 'Gadgeten' ),
 );
 
-/** Macedonian (македонски) */
+/** Macedonian (Македонски) */
 $specialPageAliases['mk'] = array(
 	'Gadgets' => array( 'Алатки' ),
 );
@@ -213,7 +198,7 @@ $specialPageAliases['mt'] = array(
 	'Gadgets' => array( 'Aġġeġġi', 'Aċċessorji' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Gadgets' => array( 'Tilleggsfunksjoner' ),
 );
@@ -228,29 +213,24 @@ $specialPageAliases['nl'] = array(
 	'Gadgets' => array( 'Extensies' ),
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬) */
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬) */
 $specialPageAliases['nn'] = array(
 	'Gadgets' => array( 'Tilleggsfunksjonar' ),
 );
 
-/** Occitan (occitan) */
+/** Occitan (Occitan) */
 $specialPageAliases['oc'] = array(
 	'Gadgets' => array( 'Gadgèts' ),
 );
 
-/** Polish (polski) */
+/** Polish (Polski) */
 $specialPageAliases['pl'] = array(
 	'Gadgets' => array( 'Gadżety' ),
 );
 
-/** Romanian (română) */
+/** Romanian (Română) */
 $specialPageAliases['ro'] = array(
 	'Gadgets' => array( 'Gadgeturi' ),
-);
-
-/** Russian (русский) */
-$specialPageAliases['ru'] = array(
-	'Gadgets' => array( 'Гаджеты' ),
 );
 
 /** Sanskrit (संस्कृतम्) */
@@ -263,22 +243,22 @@ $specialPageAliases['si'] = array(
 	'Gadgets' => array( 'විජෙට්ටු' ),
 );
 
-/** Slovak (slovenčina) */
+/** Slovak (Slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Gadgets' => array( 'Hračky' ),
 );
 
-/** Slovenian (slovenščina) */
+/** Slovenian (Slovenščina) */
 $specialPageAliases['sl'] = array(
 	'Gadgets' => array( 'Vtičniki', 'Vticniki' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Gadgets' => array( 'Гаџети' ),
 );
 
-/** Swedish (svenska) */
+/** Swedish (Svenska) */
 $specialPageAliases['sv'] = array(
 	'Gadgets' => array( 'Finesser' ),
 );
@@ -298,17 +278,12 @@ $specialPageAliases['tr'] = array(
 	'Gadgets' => array( 'KüçükAraçlar' ),
 );
 
-/** Tatar (Cyrillic script) (татарча) */
+/** Tatar (Cyrillic script) (Татарча) */
 $specialPageAliases['tt-cyrl'] = array(
 	'Gadgets' => array( 'Гаджетлар' ),
 );
 
-/** Ukrainian (українська) */
-$specialPageAliases['uk'] = array(
-	'Gadgets' => array( 'Додатки' ),
-);
-
-/** vèneto (vèneto) */
+/** Vèneto (Vèneto) */
 $specialPageAliases['vec'] = array(
 	'Gadgets' => array( 'Strumenti' ),
 );
@@ -318,12 +293,12 @@ $specialPageAliases['vi'] = array(
 	'Gadgets' => array( 'Công_cụ_đa_năng' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (‪中文(简体)‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Gadgets' => array( '小工具' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (‪中文(繁體)‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Gadgets' => array( '小工具' ),
 );

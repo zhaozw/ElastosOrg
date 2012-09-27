@@ -245,7 +245,7 @@ $1',
 'pool-errorunknown' => 'Anuon era',
 
 # All link text and link target definitions of links into project namespace that get used by other message strings, with the exception of user group pages (see grouppage) and the disambiguation template definition (see disambiguations).
-'aboutsite'            => 'Habowt {{SITENAME}}',
+'aboutsite'            => 'About {{SITENAME}}',
 'aboutpage'            => 'Project: About',
 'copyright'            => 'Kantent avielobl anda $1.',
 'copyrightpage'        => '{{ns:project}}:Kapirait',
@@ -736,7 +736,7 @@ Chrai priifix yu kwieri wid ''all:'' fi saach aal kantent (inkluudn taak piej, t
 'powersearch-field'         => 'Saach fi',
 
 # Preferences page
-'preferences'   => 'Prefrens',
+'preferences'   => 'Prefrans',
 'mypreferences' => 'Mi prefrans',
 
 # Groups
@@ -768,7 +768,7 @@ Chrai priifix yu kwieri wid ''all:'' fi saach aal kantent (inkluudn taak piej, t
 'hide'                           => 'Aid',
 'show'                           => 'Shuo',
 'minoreditletter'                => 'm',
-'newpageletter'                  => 'N',
+'newpageletter'                  => 'Nyuu',
 'boteditletter'                  => 'b',
 'rc-enhanced-expand'             => 'Shuo ditiel (rikwaya JavaScript)',
 'rc-enhanced-hide'               => 'Aid ditiel',
@@ -990,10 +990,6 @@ Begyu moerj dem manyuali.'''",
 
 # Thumbnails
 'thumbnail-more' => 'Inlaaj',
-
-# Special:Import
-'import'         => 'Himpuot piejdem',
-'import-comment' => 'Kament:',
 
 # Tooltip help for the actions
 'tooltip-pt-userpage'             => 'Yu yuuza piej',

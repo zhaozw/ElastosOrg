@@ -596,8 +596,7 @@ Mamnuucida ugu danbeyso in oo soo galo hoostaan ee ku qorantahay',
 '''wali lama keydin!'''",
 'updated'                          => '(waa la opdate gareeyay)',
 'note'                             => "'''fiiro gaar ah:'''",
-'previewnote'                      => "'''Ogaaw kan waa horfiirin oo kaliya.'''
-Bedelyadaada wali lama keydin!",
+'previewnote'                      => "'''Waxa aad aragtid waa horfiirin; wixii aad bedeshay lama keydinin!'''",
 'session_fail_preview'             => "'''Waan ka xunahay! Wixii aad bedeshay ma'suurto galin in la'keydiyo cilad dhacday awgeed.
 Fadlan markale isku day. Hadii aysan weli shaqaynin, ka bax ee markale soo gudagal.'''",
 'session_fail_preview_html'        => "'''Waan ka xunahay! Wixii aad bedeshay ma'suurto galin in la'keydiyo cilad dhacday awgeed.'''
@@ -639,9 +638,6 @@ Tirtiraha iyo wareejinta gudagalaha boggaan waxaad ka arki kartaa hoostaan.',
 Tusmooyinka qaar lagumo dari doono.",
 'post-expand-template-inclusion-category' => "Boggaga ku xad gudbay weyninka tusmo'da",
 
-# "Undo" feature
-'undo-summary' => 'Noqay bedelaadka $1 ee sameeyay  [[Special:Contributions/$2|$2]] ([[User talk:$2|hadal]])',
-
 # Account creation failure
 'cantcreateaccounttitle' => "Ma' sameynkaro gudagal (akoon)",
 'cantcreateaccount-text' => "Akoon'ka sameeyaha leh ciwaankaan  IP:ka ('''$1''') waxaa mamnuucay [[User:$3|$3]].
@@ -650,7 +646,6 @@ Sababta uu qoray $3 waa ''$2''",
 
 # History pages
 'viewpagelogs'           => 'Fiiri guadagalayaasha boggaan',
-'nohistory'              => 'Boggaan malahan taariikhda bedelaadka',
 'currentrev'             => 'Bedelkii ugu danbeeyay',
 'currentrev-asof'        => 'Kala duwanaanshihii ugu danbeeyay oo dhacay $1',
 'revisionasof'           => 'Bedelaadkkii ahaa $1',

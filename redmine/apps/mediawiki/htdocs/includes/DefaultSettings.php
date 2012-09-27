@@ -33,7 +33,7 @@ $wgConf = new SiteConfiguration;
 /** @endcond */
 
 /** MediaWiki version number */
-$wgVersion = '1.19.2';
+$wgVersion = '1.19.0';
 
 /** Name of the site. It must be changed in LocalSettings.php */
 $wgSitename = 'MediaWiki';
@@ -903,7 +903,7 @@ $wgLoadFileinfoExtension = false;
  * #$wgMimeDetectorCommand = "file -bi"; # use external mime detector (Linux)
  * </code>
  */
-$wgMimeDetectorCommand = "file -bi";
+$wgMimeDetectorCommand = null;
 
 /**
  * Switch for trivial mime detection. Used by thumb.php to disable all fancy
@@ -2418,18 +2418,6 @@ $wgBreakFrames = false;
  * not just edit pages.
  */
 $wgEditPageFrameOptions = 'DENY';
-
-/**
- * Disallow framing of API pages directly, by setting the X-Frame-Options
- * header. Since the API returns CSRF tokens, allowing the results to be
- * framed can compromise your user's account security.
- * Options are:
- *   - 'DENY': Do not allow framing. This is recommended for most wikis.
- *   - 'SAMEORIGIN': Allow framing by pages on the same domain.
- *   - false: Allow all framing.
- */
-
-$wgApiFrameOptions = 'DENY';
 
 /**
  * Disable output compression (enabled by default if zlib is available)

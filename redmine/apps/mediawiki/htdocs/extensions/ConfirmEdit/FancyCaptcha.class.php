@@ -57,28 +57,24 @@ class FancyCaptcha extends SimpleCaptcha {
 		$title = SpecialPage::getTitleFor( 'Captcha', 'image' );
 
 		return "<p>" .
-			Html::element( 'img', array(
+			Xml::element( 'img', array(
 				'src'    => $title->getLocalUrl( 'wpCaptchaId=' . urlencode( $index ) ),
 				'width'  => $info['width'],
 				'height' => $info['height'],
 				'alt'    => '' ) ) .
 			"</p>\n" .
-			Html::element( 'input', array(
+			Xml::element( 'input', array(
 				'type'  => 'hidden',
 				'name'  => 'wpCaptchaId',
 				'id'    => 'wpCaptchaId',
 				'value' => $index ) ) .
-			'<p>' .
-			Html::element( 'label', array(
-				'for' => 'wpCaptchaWord',
-			), parent::getMessage( 'label' ) . wfMsg( 'colon-separator' ) ) .
+			"<p>" .
 			Html::element( 'input', array(
 				'name' => 'wpCaptchaWord',
 				'id'   => 'wpCaptchaWord',
-				'type' => 'text',
 				'autocorrect' => 'off',
 				'autocapitalize' => 'off',
-				'required' => 'required',
+				'required',
 				'tabindex' => 1 ) ) . // tab in before the edit textarea
 			"</p>\n";
 	}

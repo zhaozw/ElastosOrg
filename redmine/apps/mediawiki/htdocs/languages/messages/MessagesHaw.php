@@ -7,12 +7,10 @@
  * @ingroup Language
  * @file
  *
- * @author Bulaisen
  * @author Kalani
  * @author Kolonahe
  * @author Node ue
  * @author Singularity
- * @author Xqt
  */
 
 $namespaceNames = array(
@@ -255,7 +253,7 @@ $messages = array(
 'jumptosearch'     => 'huli',
 
 # All link text and link target definitions of links into project namespace that get used by other message strings, with the exception of user group pages (see grouppage) and the disambiguation template definition (see disambiguations).
-'aboutsite'            => 'E pili ana iā {{SITENAME}}',
+'aboutsite'            => 'No {{SITENAME}}',
 'aboutpage'            => 'Project:E pili ana',
 'copyrightpage'        => '{{ns:project}}:Palapala ho‘okuleana',
 'currentevents'        => 'Ka nū hou',
@@ -265,7 +263,7 @@ $messages = array(
 'edithelp'             => 'Kōkua me ka ho‘ololi ‘ana',
 'edithelppage'         => 'Help:Ho‘ololi',
 'helppage'             => 'Help:Papa kuhikuhi',
-'mainpage'             => "Kahua pa'a",
+'mainpage'             => 'Papa kinohi',
 'mainpage-description' => 'Ka papa kinohi',
 'policy-url'           => 'Project:Palapala',
 'portal'               => 'Ka hui kaiaulu',
@@ -300,7 +298,7 @@ $messages = array(
 'red-link-title'          => '$1 (ʻaʻole i kākau ʻia)',
 
 # Short words for each namespace, by default used in the namespace tab in monobook
-'nstab-main'      => 'ʻAoʻao',
+'nstab-main'      => 'ʻaoʻao',
 'nstab-user'      => 'Inoa mea ho‘ohana',
 'nstab-media'     => 'Pāpaho',
 'nstab-special'   => 'Papa nui',
@@ -590,8 +588,6 @@ E ʻoluʻolu, e hōʻoia i ka hoʻokūkū ʻana i lalo, a laila, e mālama i nā
 
 # Statistics
 'statistics' => 'Papa helu',
-
-'disambiguationspage' => 'Template:Huaʻōlelo puana like',
 
 'brokenredirects-edit'   => 'e ho‘ololi',
 'brokenredirects-delete' => 'e kāpae',
