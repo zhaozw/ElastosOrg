@@ -204,7 +204,9 @@
 
 						<h4 style="display:none;"><?php _e( 'Blog Details', 'buddypress' ); ?></h4>
 
+<!--
 						<p style=""><input type="checkbox" name="signup_with_blog" id="signup_with_blog" value="1"<?php if ( (int) bp_get_signup_with_blog_value() ) : ?> checked="checked"<?php endif; ?> checked="checked"/> <?php _e( 'Yes, I\'d like to create a new site', 'buddypress' ); ?></p>
+-->
 
 						<div id="blog-details"<?php if ( true|| (int) bp_get_signup_with_blog_value() ) : ?>class="show"<?php endif; ?>>
 
@@ -276,7 +278,7 @@
 	</div><!-- #content -->
 
 	<?php get_sidebar( 'buddypress' ); ?>
-
+<!--
 	<script type="text/javascript">
 		jQuery(document).ready( function() {
 			if ( jQuery('div#blog-details').length && !jQuery('div#blog-details').hasClass('show') )
@@ -287,5 +289,6 @@
 			});
 		});
 	</script>
+-->
 
 <?php get_footer( 'buddypress' ); ?>
