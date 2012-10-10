@@ -1,11 +1,11 @@
 /.project
 /.loadpath
-/config/additional_environment.rb
-/config/configuration.yml
-/config/database.yml
-/config/email.yml
-/config/initializers/session_store.rb
-/config/initializers/secret_token.rb
+/rem config/additional_environment.rb
+/rem config/configuration.yml
+/rem config/database.yml
+/rem config/email.yml
+/rem config/initializers/session_store.rb
+/rem config/initializers/secret_token.rb
 /coverage
 /db/*.db
 /db/*.sqlite3
