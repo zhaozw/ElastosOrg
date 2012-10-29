@@ -232,7 +232,8 @@ form#new_post {
 }
 #postbox input#posttitle,
 #postbox input#postcitation {
-	width: 97.6%;
+#	width: 97.6%;
+	width: 97.45%;
 	margin-bottom: 5px;
 }
 .disabled, .disabled:hover {
