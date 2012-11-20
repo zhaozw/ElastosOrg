@@ -3,8 +3,8 @@
   console.log(adapter.utils.getOpenID());
   adapter.utils.wait(adapter.utils.domReady,init);
   function init(){
-      var register = document.getElementsByTagName("a")[3];
-            var singin = document.getElementsByTagName("a")[4];
+      var register = document.getElementsByTagName("a")[7];
+            var singin = document.getElementsByTagName("a")[8];
             if (singin.innerHTML == "Sign In" || singin.innerHTML == "登录") {
                 login();
            adapter.utils.addEvent(singin,"click",function(){
@@ -18,7 +18,7 @@
         openID = adapter.utils.getOpenID();
         adapter.utils.$class("GJEA35ODJH")[2].style.display="none";
         if (openID) {
-	    var singin = adapter.utils.$tag("a")[4];
+	    var singin = adapter.utils.$tag("a")[8];
             adapter.utils.fireEvent(singin, "click");
             input = adapter.utils.$class("GJEA35ODGM")[0].style.display="none";
             input = adapter.utils.$class("GJEA35ODGM")[1].style.display="none";
