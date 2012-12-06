@@ -42,7 +42,7 @@ function logger($cmd, $result, $args, $elfinder) {
 
 	
 	$log = sprintf("[%s] %s: %s \n", date('r'), strtoupper($cmd), var_export($result, true));
-	$logfile = '../files/temp/log.txt';
+	$logfile = '../logs/log.txt';
 	$dir = dirname($logfile);
 	if (!is_dir($dir) && !mkdir($dir)) {
 		return;
@@ -245,7 +245,7 @@ $opts = array(
 		array(
 			'driver'     => 'LocalFileSystem',
 //			'path'       => '../files/',
-			'path'       => '../files/' . $redmineProject . '/';
+			'path'       => '../files/' . $redmineProject . '/',
 			'startPath'  => '../files/test',
 			'URL'        => dirname($_SERVER['PHP_SELF']) . '/../files/',
 			// 'treeDeep'   => 3,

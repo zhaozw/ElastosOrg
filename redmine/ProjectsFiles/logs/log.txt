@@ -1,0 +1,166 @@
+[Thu, 06 Dec 2012 09:45:23 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1354699801,
+    'read' => 1,
+    'write' => 0,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => '_EmptyDir_',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => '_EmptyDir_',
+    'url' => '/ProjectsFiles/php/../files/',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'extract',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => '_EmptyDir_',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => '_EmptyDir_',
+      'locked' => 1,
+    ),
+    2 => 
+    array (
+      'mime' => 'unknown',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 11,
+      'hash' => 'l1_ZW1wdHktZmlsZQ',
+      'name' => 'empty-file',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '8M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
+[Thu, 06 Dec 2012 09:46:44 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1354699801,
+    'read' => 1,
+    'write' => 0,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => '_EmptyDir_',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => '_EmptyDir_',
+    'url' => '/ProjectsFiles/php/../files/',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'extract',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => '_EmptyDir_',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => '_EmptyDir_',
+      'locked' => 1,
+    ),
+    2 => 
+    array (
+      'mime' => 'unknown',
+      'ts' => 1354699801,
+      'read' => 1,
+      'write' => 0,
+      'size' => 11,
+      'hash' => 'l1_ZW1wdHktZmlsZQ',
+      'name' => 'empty-file',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '8M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
