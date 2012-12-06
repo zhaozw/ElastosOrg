@@ -74,7 +74,7 @@ function logger($cmd, $result, $args, $elfinder) {
 	}
 	$log .= "\n";
 
-	$logfile = '../files/temp/log.txt';
+	$logfile = '../logs/log.txt';
 	$dir = dirname($logfile);
 	if (!is_dir($dir) && !mkdir($dir)) {
 		return;
@@ -229,9 +229,12 @@ function validName($name) {
 }
 
 
-$logger = new elFinderSimpleLogger('../files/temp/log.txt');
+$logger = new elFinderSimpleLogger('../logs/log.txt');
 
 $redmineProject = isset($_COOKIE['project']) ? $_COOKIE['project'] : '_EmptyDir_';
+
+//check the user from redmine
+$disableCommands = array('mkdir', 'rm', 'rename', 'put');
 
 $opts = array(
 	'locale' => 'en_US.UTF-8',
@@ -240,14 +243,15 @@ $opts = array(
 		// 'mkdir mkfile rename duplicate upload rm paste' => 'logger'
 	),
 	'debug' => true,
+	'alias' => 'rootFile',
 	'uploadMaxSize' => '10G',
 	'roots' => array(
 		array(
 			'driver'     => 'LocalFileSystem',
 //			'path'       => '../files/',
 			'path'       => '../files/' . $redmineProject . '/',
-			'startPath'  => '../files/test',
-			'URL'        => dirname($_SERVER['PHP_SELF']) . '/../files/',
+//			'startPath'  => '../files/test',
+//			'URL'        => dirname($_SERVER['PHP_SELF']) . '/../files/',
 			// 'treeDeep'   => 3,
 			// 'alias'      => 'File system',
 			'mimeDetect' => 'internal',
@@ -257,19 +261,23 @@ $opts = array(
 			'tmbBgColor' => 'transparent',
 			'accessControl' => 'access',
 			'acceptedName'    => '/^[^\.].*$/',
+			'disabled'	=> $disableCommands
+//			'defaults'	=> array('read' => true, 'write' => true)
 			// 'tmbSize' => 128,
-			'attributes' => array(
-				array(
-					'pattern' => '/\.js$/',
-					'read' => true,
-					'write' => false
-				),
-				array(
-					'pattern' => '/^\/icons$/',
-					'read' => true,
-					'write' => false
-				)
-			)
+//			'attributes' => array(
+//				array(
+//					'pattern' => '/*/',
+//					'read' => true,
+//					'write' => false,
+//					'locked' => false,
+//					'hidden' => false
+//				),
+//				array(
+//					'pattern' => '/^\/icons$/',
+//					'read' => true,
+//					'write' => false
+//				)
+//			)
 			// 'uploadDeny' => array('application', 'text/xml')
 		),
 		// array(
