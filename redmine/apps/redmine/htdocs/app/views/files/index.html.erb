@@ -1,124 +1,117 @@
-<div class="contextual">
-<%= link_to(l(:label_attachment_new), new_project_file_path(@project), :class => 'icon icon-add') if User.current.allowed_to?(:manage_files, @project) %>
-</div>
-
-<h2><%=l(:label_attachment_plural)%></h2>
-
-<% delete_allowed = User.current.allowed_to?(:manage_files, @project) %>
-<meta charset="utf-8">
-<title>Elastos Download</title>
+<!-- if the directory exist, elFinder, else original-->
+<% if File.directory?("/opt/redmine/ProjectsFiles/files/testProject") %>
 
 <!-- 
 	<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
 	-->
 	<!-- <script src="jquery/jquery-1.7.2.min.js"></script> -->
-	<script src="http://elastoser/ProjectsFiles/jquery/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://elastos.org/ProjectsFiles/jquery/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8"></script>
 	
 	<!-- <script src="jquery/jquery-ui-1.8.21.custom.min.js"></script> -->
-	<script src="http://elastoser/ProjectsFiles/jquery/jquery-ui-1.8.23.custom.min.js" type="text/javascript" charset="utf-8"></script>
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/jquery/ui-themes/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="http://elastos.org/ProjectsFiles/jquery/jquery-ui-1.8.23.custom.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/jquery/ui-themes/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	
 	<!-- <link rel="stylesheet" href="jquery/ui-themes/smoothness/jquery-ui-1.8.21.custom.css" type="text/css"> -->
 
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/common.css"      type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/dialog.css"      type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/toolbar.css"     type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/navbar.css"      type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/statusbar.css"   type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/contextmenu.css" type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/cwd.css"         type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/quicklook.css"   type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/commands.css"    type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/common.css"      type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/dialog.css"      type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/toolbar.css"     type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/navbar.css"      type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/statusbar.css"   type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/contextmenu.css" type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/cwd.css"         type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/quicklook.css"   type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/commands.css"    type="text/css">
 
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/fonts.css"       type="text/css">
-	<link rel="stylesheet" href="http://elastoser/ProjectsFiles/css/theme.css"       type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/fonts.css"       type="text/css">
+	<link rel="stylesheet" href="http://elastos.org/ProjectsFiles/css/theme.css"       type="text/css">
 
 	<!-- elfinder core -->
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.version.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/jquery.elfinder.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.resources.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.options.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.history.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/elFinder.command.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.version.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/jquery.elfinder.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.resources.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.options.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.history.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/elFinder.command.js"></script>
 
 	<!-- elfinder ui -->
-	<script src="http://elastoser/ProjectsFiles/js/ui/overlay.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/workzone.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/navbar.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/dialog.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/tree.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/cwd.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/toolbar.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/button.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/uploadButton.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/viewbutton.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/searchbutton.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/sortbutton.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/panel.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/contextmenu.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/path.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/stat.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/ui/places.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/overlay.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/workzone.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/navbar.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/dialog.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/tree.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/cwd.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/toolbar.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/button.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/uploadButton.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/viewbutton.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/searchbutton.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/sortbutton.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/panel.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/contextmenu.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/path.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/stat.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/ui/places.js"></script>
 
 	<!-- elfinder commands -->
-	<script src="http://elastoser/ProjectsFiles/js/commands/back.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/forward.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/reload.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/up.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/home.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/copy.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/cut.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/paste.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/open.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/rm.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/info.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/duplicate.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/rename.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/help.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/getfile.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/mkdir.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/mkfile.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/upload.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/download.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/edit.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/quicklook.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/quicklook.plugins.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/extract.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/archive.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/search.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/view.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/resize.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/commands/sort.js"></script>	
-	<script src="http://elastoser/ProjectsFiles/js/commands/netmount.js"></script>	
+	<script src="http://elastos.org/ProjectsFiles/js/commands/back.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/forward.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/reload.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/up.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/home.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/copy.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/cut.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/paste.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/open.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/rm.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/info.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/duplicate.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/rename.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/help.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/getfile.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/mkdir.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/mkfile.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/upload.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/download.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/edit.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/quicklook.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/quicklook.plugins.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/extract.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/archive.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/search.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/view.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/resize.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/commands/sort.js"></script>	
+	<script src="http://elastos.org/ProjectsFiles/js/commands/netmount.js"></script>	
 
 	<!-- elfinder languages -->
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.ar.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.bg.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.ca.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.cs.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.de.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.en.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.es.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.fa.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.fr.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.hu.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.it.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.jp.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.ko.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.nl.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.no.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.pl.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.pt_BR.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.ru.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.tr.js"></script>
-	<script src="http://elastoser/ProjectsFiles/js/i18n/elfinder.zh_CN.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.ar.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.bg.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.ca.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.cs.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.de.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.en.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.es.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.fa.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.fr.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.hu.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.it.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.jp.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.ko.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.nl.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.no.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.pl.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.pt_BR.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.ru.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.tr.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/i18n/elfinder.zh_CN.js"></script>
 
 	<!-- elfinder dialog -->
-	<script src="http://elastoser/ProjectsFiles/js/jquery.dialogelfinder.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/jquery.dialogelfinder.js"></script>
 
 	<!-- elfinder 1.x connector API support -->
-	<script src="http://elastoser/ProjectsFiles/js/proxy/elFinderSupportVer1.js"></script>
+	<script src="http://elastos.org/ProjectsFiles/js/proxy/elFinderSupportVer1.js"></script>
 
 	<!-- elfinder custom extenstions -->
 	<script src="extensions/jplayer/elfinder.quicklook.jplayer.js"></script>
@@ -160,7 +153,7 @@
 				requestType : 'post',
 
 				// url : 'php/connector.php',
-				url : 'http://elastos.org/ProjectsFiles/',
+				url : 'http://elastos.org/ProjectsFiles/php/connector.php',
 				// transport : new elFinderSupportVer1(),
 				// getFileCallback : function(files, fm) {
 				// 	console.log(files);
@@ -244,7 +237,7 @@
 
 			$('#dialog').click(function() {
 				var fm = $('<div/>').dialogelfinder({
-					url : 'http://elastos.org/ProjectsFiles/',
+					url : 'http://elastos.org/ProjectsFiles/php/connector.php',
 					lang : 'en',
 					width : 840,
 					destroyOnClose : true,
@@ -262,8 +255,7 @@
 
 		});
 	</script>
-</head>
-<body>
+
 	<!-- <div id="close"  class="button">close</div>
 	<div id="dock" class="button">dock</div>
 	<div id="undock" class="button">undock</div>-->
@@ -280,6 +272,54 @@
 	<!-- <div><input type="text" id="i1"></div> -->
 	<!-- <div><input type="text" id="i2"></div> -->
 
+<%else%>
 
+<div class="contextual">
+<%= link_to(l(:label_attachment_new), new_project_file_path(@project), :class => 'icon icon-add') if User.current.allowed_to?(:manage_files, @project) %>
+</div>
+
+<h2><%=l(:label_attachment_plural)%></h2>
+
+<% delete_allowed = User.current.allowed_to?(:manage_files, @project) %>
+
+<table class="list files">
+  <thead><tr>
+    <%= sort_header_tag('filename', :caption => l(:field_filename)) %>
+    <%= sort_header_tag('created_on', :caption => l(:label_date), :default_order => 'desc') %>
+    <%= sort_header_tag('size', :caption => l(:field_filesize), :default_order => 'desc') %>
+    <%= sort_header_tag('downloads', :caption => l(:label_downloads_abbr), :default_order => 'desc') %>
+    <th>MD5</th>
+    <th></th>
+  </tr></thead>
+  <tbody>
+<% @containers.each do |container| %>
+  <% next if container.attachments.empty? -%>
+  <% if container.is_a?(Version) -%>
+  <tr>
+    <th colspan="6" align="left">
+      <%= link_to(h(container), {:controller => 'versions', :action => 'show', :id => container}, :class => "icon icon-package") %>
+    </th>
+  </tr>
+  <% end -%>
+  <% container.attachments.each do |file| %>
+  <tr class="file <%= cycle("odd", "even") %>">
+    <td class="filename"><%= link_to_attachment file, :download => true, :title => file.description %></td>
+    <td class="created_on"><%= format_time(file.created_on) %></td>
+    <td class="filesize"><%= number_to_human_size(file.filesize) %></td>
+    <td class="downloads"><%= file.downloads %></td>
+    <td class="digest"><%= file.digest %></td>
+    <td align="center">
+    <%= link_to(image_tag('delete.png'), attachment_path(file),
+                                         :confirm => l(:text_are_you_sure), :method => :delete) if delete_allowed %>
+    </td>
+  </tr>
+  <% end 
+  reset_cycle %>
+<% end %>
+  </tbody>
+</table>
+
+<%end%>
 
 <% html_title(l(:label_attachment_plural)) -%>
+
