@@ -1,5 +1,12 @@
 <!-- if the directory exist, elFinder, else original-->
-<% if File.directory?("/opt/redmine/ProjectsFiles/files/testProject") %>
+
+
+<%
+project_name = cookies["project"];
+project_path = '/opt/redmine-2.1.4-0/ProjectsFiles/files/'+project_name;
+%>
+
+<% if File.directory?(project_path) %>
 
 <!-- 
 	<script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>

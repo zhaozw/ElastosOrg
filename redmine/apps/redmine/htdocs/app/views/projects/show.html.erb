@@ -1,3 +1,8 @@
+
+<%
+cookies["project"] = { :value => @project ,:expires => 30.days.from_now,:path => "/" }
+%>
+
 <div class="contextual">
   <% if User.current.allowed_to?(:add_subprojects, @project) %>
     <%= link_to l(:label_subproject_new), {:controller => 'projects', :action => 'new', :parent_id => @project}, :class => 'icon icon-add' %>
