@@ -2,8 +2,8 @@
 
 
 <%
-project_name = cookies["project"];
-project_path = '/opt/redmine-2.1.4-0/ProjectsFiles/files/'+project_name;
+project_name = cookies["prj_name"];
+project_path = '/opt/redmine/ProjectsFiles/files/'+project_name;
 %>
 
 <% if File.directory?(project_path) %>
