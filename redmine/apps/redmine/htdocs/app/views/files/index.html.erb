@@ -1,9 +1,17 @@
 <!-- if the directory exist, elFinder, else original-->
 
+<% delete_allowed = User.current.allowed_to?(:manage_files, @project) %>
 
 <%
-project_name = cookies["prj_name"];
+strs = cookies["prj_name"] .split(':')
+project_name = strs[0]
 project_path = '/opt/redmine/ProjectsFiles/files/'+project_name;
+
+if delete_allowed
+	cookies["prj_name"] = { :value => project_name + ':w',:expires => 360.days.from_now,:path => "/" }
+else
+	cookies["prj_name"] = { :value => project_name + ':r',:expires => 360.days.from_now,:path => "/" }
+end
 %>
 
 <% if File.directory?(project_path) %>
@@ -286,8 +294,6 @@ project_path = '/opt/redmine/ProjectsFiles/files/'+project_name;
 </div>
 
 <h2><%=l(:label_attachment_plural)%></h2>
-
-<% delete_allowed = User.current.allowed_to?(:manage_files, @project) %>
 
 <table class="list files">
   <thead><tr>

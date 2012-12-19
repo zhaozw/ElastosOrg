@@ -232,9 +232,12 @@ function validName($name) {
 $logger = new elFinderSimpleLogger('../logs/log.txt');
 
 $redmineProject = isset($_COOKIE['prj_name']) ? $_COOKIE['prj_name'] : '_EmptyDir_';
-
-//check the user from redmine
-$disableCommands = array('mkdir', 'rm', 'rename', 'put');
+$strs = explode(':', $redmineProject);
+if (strs[1] != 'w') { 
+	//readonly
+	$redmineProject = $tmpStr;
+	$disableCommands = array('mkdir', 'rm', 'rename', 'put');
+}
 
 $opts = array(
 	'locale' => 'en_US.UTF-8',
