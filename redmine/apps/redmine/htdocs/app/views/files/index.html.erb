@@ -5,7 +5,7 @@
 <%
 strs = cookies["prj_name"] .split(':')
 project_name = strs[0]
-project_path = '/opt/redmine/ProjectsFiles/files/'+project_name;
+project_path = '/opt/redmine/ProjectsFiles/files/' + project_name
 
 if delete_allowed
 	cookies["prj_name"] = { :value => project_name + ':w',:expires => 360.days.from_now,:path => "/" }

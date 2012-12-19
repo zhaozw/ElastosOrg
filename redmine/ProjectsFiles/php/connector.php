@@ -231,12 +231,21 @@ function validName($name) {
 
 $logger = new elFinderSimpleLogger('../logs/log.txt');
 
-$redmineProject = isset($_COOKIE['prj_name']) ? $_COOKIE['prj_name'] : '_EmptyDir_';
-$strs = explode(':', $redmineProject);
-if (strs[1] != 'w') { 
+$str = isset($_COOKIE['prj_name']) ? $_COOKIE['prj_name'] : '_EmptyDir_:r';
+$strs = explode(':', $str);
+$redmineProject = $strs[0];
+
+/*
+$logfile1 = '../logs/hello';
+$fp1 = fopen($logfile1, 'a');
+fclose($fp1);
+*/
+
+if ($strs[1] != 'w' || $strs[1] == null) { 
 	//readonly
-	$redmineProject = $tmpStr;
-	$disableCommands = array('mkdir', 'rm', 'rename', 'put');
+	$disableCommands = array('mkdir', 'mkfile', 'rm', 'rename', 'put', 'duplicate', 'paste', 'upload', 'put', 'archive', 'extract', 'resize', 'netmount', 'tmb');
+} else {
+	$disableCommands = array();
 }
 
 $opts = array(
