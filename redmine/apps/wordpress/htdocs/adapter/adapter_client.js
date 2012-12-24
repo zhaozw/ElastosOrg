@@ -234,7 +234,7 @@
     }
     function getOpenID() {
         var openID;
-        openID = getCookie("openid");
+        openID = getCookie("ElastosID");
         return openID;
     }
     function iframeLoad(url,callback){ 
