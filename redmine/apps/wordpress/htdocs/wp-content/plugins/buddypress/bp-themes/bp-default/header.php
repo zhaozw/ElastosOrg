@@ -19,8 +19,6 @@
 		<div id="header" style="background:#f4f4f4;">
 			<div id="search-bar" role="search">
 				<div class="padder">
-					<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
-
 						<form action="<?php echo bp_search_form_action(); ?>" method="post" id="search-form">
 							<label for="search-terms" class="accessibly-hidden"><?php _e( 'Search for:', 'buddypress' ); ?></label>
 							<input type="text" id="search-terms" name="search-terms" value="<?php echo isset( $_REQUEST['s'] ) ? esc_attr( $_REQUEST['s'] ) : ''; ?>" />
@@ -39,6 +37,8 @@
 			</div><!-- #search-bar -->
 
 			<div id="navigation" role="navigation">
+					<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
+
 				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); ?>
 			</div>
 
