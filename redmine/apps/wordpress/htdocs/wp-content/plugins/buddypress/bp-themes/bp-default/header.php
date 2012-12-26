@@ -19,7 +19,7 @@
 		<div id="header" style="background:#f4f4f4;">
 			<div id="search-bar" role="search">
 				<div class="padder">
-					<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/><?php/* bp_site_name();*/ ?></a></h1>
+					<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
 
 						<form action="<?php echo bp_search_form_action(); ?>" method="post" id="search-form">
 							<label for="search-terms" class="accessibly-hidden"><?php _e( 'Search for:', 'buddypress' ); ?></label>
