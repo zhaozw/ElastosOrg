@@ -119,6 +119,10 @@ function openid_wp_login_head() {
  * @action: login_form
  **/
 function openid_wp_login_form() {
+	
+	//elastos.org wordpress provide OpenID service to others, it couldn't be login with OpenID 
+	return;
+	
 	echo '<hr id="openid_split" style="clear: both; margin-bottom: 1.0em; border: 0; border-top: 1px solid #999; height: 1px;display:none;" />';
 
 	echo '
