@@ -123,15 +123,15 @@ function openid_wp_login_form() {
 	//elastos.org wordpress provide OpenID service to others, it couldn't be login with OpenID 
 	return;
 	
-	echo '<hr id="openid_split" style="clear: both; margin-bottom: 1.0em; border: 0; border-top: 1px solid #999; height: 1px;display:none;" />';
+	echo '<hr id="openid_split" style="clear: both; margin-bottom: 1.0em; border: 0; border-top: 1px solid #999; height: 1px;" />';
 
 	echo '
-	<p style="margin-bottom: 8px;display:none;">
+	<p style="margin-bottom: 8px;">
 		<label style="display: block; margin-bottom: 5px;">' . __('Or login using an OpenID', 'openid') . '<br />
 		<input type="text" name="openid_identifier" id="openid_identifier" class="input openid_identifier" value="" size="20" tabindex="25" /></label>
 	</p>
 
-	<p style="font-size: 0.9em; margin: 8px 0 24px 0;display:none;" id="what_is_openid">
+	<p style="font-size: 0.9em; margin: 8px 0 24px 0;" id="what_is_openid">
 		<a href="http://openid.net/what/" target="_blank">'.__('Learn about OpenID', 'openid').'</a>
 	</p>';
 }
