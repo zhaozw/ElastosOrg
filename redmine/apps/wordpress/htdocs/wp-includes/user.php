@@ -63,8 +63,30 @@ function wp_signon( $credentials = '', $secure_cookie = '' ) {
 	wp_set_auth_cookie($user->ID, $credentials['remember'], $secure_cookie);
 
 	//set ElastosID into cookie for elastos.org
+	$blogs = get_blogs_of_user( $user->ID );
 	$details = get_blog_details( $user->primary_blog );
-	setrawcookie('ElastosID', $details->siteurl, time()+3600*24*365);
+	$url = $details->siteurl;
+	if ( count( $blogs ) > 1 && stripos($url, $usr->user_login . '.') != 7) {
+		foreach ( $blogs as $blog ) {
+			$url2 = esc_url( get_home_url( $blog->userblog_id ) );
+			if (stripos($url2, $user->user_login . '.') == 7) {
+				$url = $url2;
+				break;
+			}
+		}
+
+		if (function_exists('get_user_by_openid')) {
+			foreach ( $blogs as $blog ) {
+				$url2 = esc_url( get_home_url( $blog->userblog_id ) );					
+				$user_id = get_user_by_openid($url2);
+				if ($user->ID == $user_id) {
+					$url = $url2;
+					break;
+				}
+			}
+		}
+	}
+	setrawcookie('ElastosID', $url, time()+3600*24*365);
 
 	do_action('wp_login', $user->user_login, $user);
 	return $user;
