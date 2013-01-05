@@ -66,7 +66,7 @@ function wp_signon( $credentials = '', $secure_cookie = '' ) {
 	$blogs = get_blogs_of_user( $user->ID );
 	$details = get_blog_details( $user->primary_blog );
 	$url = $details->siteurl;
-	if ( count( $blogs ) > 1 && stripos($url, $usr->user_login . '.') != 7) {
+	if ( count( $blogs ) > 1 && stripos($url, $user->user_login . '.') != 7) {
 		foreach ( $blogs as $blog ) {
 			$url2 = esc_url( get_home_url( $blog->userblog_id ) );
 			if (stripos($url2, $user->user_login . '.') == 7) {
@@ -76,14 +76,14 @@ function wp_signon( $credentials = '', $secure_cookie = '' ) {
 		}
 
 		if (function_exists('get_user_by_openid')) {
-			foreach ( $blogs as $blog ) {
-				$url2 = esc_url( get_home_url( $blog->userblog_id ) );					
+            		foreach ( $blogs as $blog ) {
+                    		$url2 = esc_url( get_home_url( $blog->userblog_id ) );					
 				$user_id = get_user_by_openid($url2);
 				if ($user->ID == $user_id) {
-					$url = $url2;
-					break;
-				}
-			}
+                            		$url = $url2;
+                            		break;
+                    		}
+            		}
 		}
 	}
 	setrawcookie('ElastosID', $url, time()+3600*24*365);
