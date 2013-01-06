@@ -119,7 +119,21 @@ function get_user_openids($id_or_name = null) {
  */
 function get_user_by_openid($url) {
 	global $wpdb;
-	return $wpdb->get_var( $wpdb->prepare('SELECT user_id FROM '.openid_identity_table().' WHERE url = %s', $url) );
+	//return $wpdb->get_var( $wpdb->prepare('SELECT user_id FROM '.openid_identity_table().' WHERE url = %s', $url) );
+
+        //elastos.org changed
+        $userid = $wpdb->get_var( $wpdb->prepare('SELECT user_id FROM '.openid_identity_table().' WHERE url = %s', $url) );
+        if (!$userid) {
+                //$url is a string like: http://xilongpei.elastos.org/, get its sub-domain name into $username, treat it as user-name
+                $username = str_replace($url, 'http://', '');
+                $username = str_replace($username, 'elastos.org', '');
+                $username = str_replace($username, '/', '');
+             
+                $user = get_user_by('login', $username);
+                if ($user)
+                        $userid = $user->user_id;
+        }
+        return $userid;
 }
 
 
