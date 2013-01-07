@@ -533,6 +533,9 @@ function bp_blog_signup_allowed() {
 		if ( !is_multisite() )
 			return false;
 
+		//elastos.org always allow to register a blog when user signup
+		return  true;
+
 		$status = $bp->site_options['registration'];
 		if ( 'none' != $status && 'user' != $status )
 			return true;
