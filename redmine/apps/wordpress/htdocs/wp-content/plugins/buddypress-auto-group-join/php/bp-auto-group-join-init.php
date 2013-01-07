@@ -84,6 +84,9 @@ return true;
 * - Requires $wpdb, $bp global variables.
 * - Takes $user_id as an attribute.
 **********/
+
+/* version come from wordpress
+ *******************  
 if (!function_exists('update_auto_join_status')) {
 	function update_auto_join_status($user_id) {
 		global $wpdb, $bp;
@@ -98,4 +101,23 @@ if (!function_exists('update_auto_join_status')) {
 	
 	add_action( 'user_register', 'update_auto_join_status');
 }
+*****************/
+
+//version modifyed by elastos.org
+if (!function_exists('update_auto_join_status')) {
+	function update_auto_join_status($blog_id, $user_id) {
+		global $wpdb, $bp;
+		
+		// get list of groups to auto-join.
+		$group_list = $wpdb->get_results("SELECT * FROM {$bp->groups->table_name} WHERE auto_join = 1");
+		foreach ($group_list as $auto_join_group) {
+			groups_accept_invite( $user_id, $auto_join_group->id );
+		}
+		$wpdb->query("UPDATE {$wpdb->users} SET auto_join_complete = 1 WHERE ID = {$user_id}");
+	}
+	
+	add_action( 'wpmu_activate_blog', 'update_auto_join_status', 10, 2 );
+}
+
+
 ?>

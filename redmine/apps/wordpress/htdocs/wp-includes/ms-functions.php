@@ -1212,6 +1212,9 @@ function install_blog_defaults($blog_id, $user_id) {
 function wpmu_welcome_notification($blog_id, $user_id, $password, $title, $meta = '') {
 	global $current_site;
 
+	//elastos.org
+	update_option('openid_blog_owner', $user_id);
+
 	if ( !apply_filters('wpmu_welcome_notification', $blog_id, $user_id, $password, $title, $meta) )
 		return false;
 
