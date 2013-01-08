@@ -989,6 +989,9 @@ function wpmu_create_blog($domain, $path, $title, $user_id, $meta = '', $site_id
 	add_option( 'WPLANG', get_site_option( 'WPLANG' ) );
 	update_option( 'blog_public', (int)$meta['public'] );
 
+	//elastos.org
+	update_option('openid_blog_owner', $user_id);
+
 	if ( ! is_super_admin( $user_id ) && ! get_user_meta( $user_id, 'primary_blog', true ) )
 		update_user_meta( $user_id, 'primary_blog', $blog_id );
 
@@ -1211,9 +1214,6 @@ function install_blog_defaults($blog_id, $user_id) {
  */
 function wpmu_welcome_notification($blog_id, $user_id, $password, $title, $meta = '') {
 	global $current_site;
-
-	//elastos.org
-	update_option('openid_blog_owner', $user_id);
 
 	if ( !apply_filters('wpmu_welcome_notification', $blog_id, $user_id, $password, $title, $meta) )
 		return false;
