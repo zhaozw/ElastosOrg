@@ -11,7 +11,11 @@ get_header( 'buddypress' ); ?>
 
 	<?php do_action( 'bp_before_directory_blogs_content' ); ?>
 
-	<div id="content">
+	<div id="elmessage" class="info">
+		<h3><?php _e( 'Site registration on elastos.org is disabled', 'buddypress' ); ?></h3>
+	</div>
+
+	<div id="content" style="display:none">
 		<div class="padder" role="main">
 		
 		<?php do_action( 'bp_before_create_blog_content_template' ); ?>

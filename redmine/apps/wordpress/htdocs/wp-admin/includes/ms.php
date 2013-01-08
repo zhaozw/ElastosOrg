@@ -612,7 +612,7 @@ function choose_primary_blog() {
 		?>
 		</td>
 	</tr>
-	<?php if ( in_array( get_site_option( 'registration' ), array( 'all', 'blog' ) ) ) : ?>
+	<?php if ( false && in_array( get_site_option( 'registration' ), array( 'all', 'blog' ) ) ) : ?>
 		<tr>
 			<th scope="row" colspan="2" class="th-full">
 				<a href="<?php echo apply_filters( 'wp_signup_location', network_home_url( 'wp-signup.php' ) ); ?>"><?php _e( 'Create a New Site' ); ?></a>
