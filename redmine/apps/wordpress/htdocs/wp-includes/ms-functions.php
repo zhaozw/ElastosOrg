@@ -990,7 +990,8 @@ function wpmu_create_blog($domain, $path, $title, $user_id, $meta = '', $site_id
 	update_option( 'blog_public', (int)$meta['public'] );
 
 	//elastos.org
-	update_option('openid_blog_owner', $user_id);
+	$user = new WP_User($user_id);
+	update_option('openid_blog_owner', $user->user_login);
 
 	if ( ! is_super_admin( $user_id ) && ! get_user_meta( $user_id, 'primary_blog', true ) )
 		update_user_meta( $user_id, 'primary_blog', $blog_id );
