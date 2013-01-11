@@ -5,12 +5,23 @@
 
 <div class="box tabular">
 <% if @user.auth_source_id.nil? %>
-  <p><%= f.text_field :login, :size => 25, :required => true %></p>
+<script type="text/javascript">
+Event.observe(window,'load',
+function fillData() {
+		var val = "<%= cookies['ElastosID'] %>";
+		var name = val.substring(val.indexOf("http://")+7,val.indexOf("."));
+		document.getElementById("user_login").value= name;
+		document.getElementById("user_login").readOnly=true;
+		document.getElementById("user_password").value=name;
+		document.getElementById("user_password_confirmation").value=name;
+		document.getElementById("user_firstname").value=name;
+		document.getElementById("user_lastname").value='-';
+		document.getElementById("user_identity_url").value=val;
+		document.getElementById("p1").style.display="none";
+		document.getElementById("p2").style.display="none";
 
-  <p><%= f.password_field :password, :size => 25, :required => true %>
-  <em class="info"><%= l(:text_caracters_minimum, :count => Setting.password_min_length) %></em></p>
-
-  <p><%= f.password_field :password_confirmation, :size => 25, :required => true %></p>
+});
+</script>
 <% end %>
 
 <p><%= f.text_field :firstname, :required => true %></p>

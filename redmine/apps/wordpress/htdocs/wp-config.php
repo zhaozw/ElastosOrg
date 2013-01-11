@@ -31,7 +31,7 @@ define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-define('WP_MEMORY_LIMIT','1024M');
+define('WP_MEMORY_LIMIT','4096M');
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -97,6 +97,12 @@ define( 'COOKIEPATH', '/' );
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
+
+
+//xilong pei
+define( 'WP_POST_REVISIONS', false );
+define( 'AUTOSAVE_INTERVAL', 86400 );
+define( 'DISALLOW_FILE_EDIT', true);
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
