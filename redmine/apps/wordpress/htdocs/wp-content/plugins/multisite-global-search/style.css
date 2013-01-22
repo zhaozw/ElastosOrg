@@ -9,6 +9,7 @@
 
 .ms-global-search_form input {
 	margin: 2px 2px 2px 2px;
+	padding: 5px;
 }
 
 .ms-global-search_vbox {
@@ -53,7 +54,8 @@
 }
 
 .globalsearch_title {
-	
+   font-weight: normal;
+   font-size: 12px;
 }
 
 .globalsearch_meta {

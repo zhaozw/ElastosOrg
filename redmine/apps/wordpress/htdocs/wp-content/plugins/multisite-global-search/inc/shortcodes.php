@@ -256,7 +256,13 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 	
 	                <div <?php post_class( 'globalsearch_post' ) ?>>
 	                	<div class="globalsearch_header">
-	                    	<h2 id="post-<?php echo $s->ID.$s->blog_id; ?>" class="globalsearch_title"><a href="<?php echo get_blog_permalink( $s->blog_id, $s->ID ); ?>" rel="bookmark" title="<?php echo __( 'Permanent Link to', 'ms-global-search' ).' '.$s->post_title; ?>"><?php echo $s->post_title ?></a></h2>
+	                    	<h2 id="post-<?php echo $s->ID.$s->blog_id; ?>" class="globalsearch_title"><a href="<?php echo get_blog_permalink( $s->blog_id, $s->ID ); ?>" rel="bookmark" title="<?php echo __( 'Permanent Link to', 'ms-global-search' ).' '.$s->post_title; ?>"><?php
+				if (mb_strlen($s->post_title)<=60)
+					echo $s->post_title;
+				else
+					echo mb_substr($s->post_title,0,60) . "...";
+				?></a></h2>
+
 	                    	<p class="globalsearch_meta">
 								<span class="globalsearch_comment"><?php ms_global_search_get_comments_link( $s ); ?></span>
 								<span class="globalsearch_date"><?php echo date( __( 'j/m/y, G:i', 'ms-global-search' ) ,strtotime( $s->post_date ) ); ?></span>
