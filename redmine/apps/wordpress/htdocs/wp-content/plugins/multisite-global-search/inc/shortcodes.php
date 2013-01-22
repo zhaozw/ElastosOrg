@@ -207,7 +207,7 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 					$wheresearch .= $wpdb->base_prefix."v_posts.blog_id = ".$ub->userblog_id;
 					if( count( $userblogs ) == $i ) $wheresearch .= " ) AND ";
 				}
-			}
+			} else  $wheresearch .= "( " . $wpdb->base_prefix."v_posts.blog_id != 1 ) AND ";
 			
 			// Search on pages.
 			if(get_query_var( 'msp' )) {
