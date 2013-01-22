@@ -116,8 +116,7 @@ class Multisite_Global_Search extends WP_Widget {
 		$rand = rand(); $rand2 = $rand + 1; ?>
 		<form class="ms-global-search_form" method="get" action="<?php echo get_bloginfo( 'wpurl' ).'/'.$page.'/'; ?>">
 			<div>
-			    <p><?php _e( 'Search across all blogs:', 'ms-global-search' ) ?></p>
-			    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="16" tabindex="1" />
+			    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="22" tabindex="1" />
 			    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' )?>" tabindex="2" />
 			    
 			    <?php if( $hide_options ) { ?>

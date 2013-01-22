@@ -17,7 +17,7 @@
 		<?php do_action( 'bp_before_header' ); ?>
 
 		<div id="header" style="background:#f4f4f4;">
-			<div id="search-bar" role="search">
+			<div id="search-bar" role="search" style="display:none;">
 				<div class="padder">
 						<form action="<?php echo bp_search_form_action(); ?>" method="post" id="search-form">
 							<label for="search-terms" class="accessibly-hidden"><?php _e( 'Search for:', 'buddypress' ); ?></label>

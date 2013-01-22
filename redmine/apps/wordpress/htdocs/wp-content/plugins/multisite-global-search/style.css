@@ -4,11 +4,11 @@
 }
 
 .ms-global-search_form {
-    padding: 5px;
+    padding: 0px;
 }
 
 .ms-global-search_form input {
-	margin: 10px 4px 4px 4px;
+	margin: 2px 2px 2px 2px;
 }
 
 .ms-global-search_vbox {
