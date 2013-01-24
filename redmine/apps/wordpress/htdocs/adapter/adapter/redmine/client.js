@@ -24,7 +24,28 @@
       if(adapter.utils.findEl("#openid_url")){
         adapter.utils.findEl("#openid_url").size=42;
       }
-      
+
+	function checkIt(y) {
+		if(y.value.indexOf("elastos.org")<0) {
+			openID = adapter.utils.getOpenID();
+			if (openID)
+				y.value=openID;
+			else
+				y.value="http://xxxxxxxx.elastos.org";
+		}
+	}
+
+	input = adapter.utils.findEl("#openid_url");
+	if (input) {
+		if (!input.onchange) 
+			input.onchange=function(){var x=adapter.utils.findEl("#openid_url"); checkIt(x);}
+
+		function keyEnter(e) {
+			var iKeyCode=window.event.keyCode;
+			if(iKeyCode==13) return false;
+		}
+		document.onkeydown=keyEnter;
+		}
     }
  }
 })()
