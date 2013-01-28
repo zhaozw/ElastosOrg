@@ -199,7 +199,8 @@ textarea {
 2.3 - Footer
 --------------------------------------------------------------*/
 #footer {
-	margin: 20px 0;
+	margin: 0px 0;
+	width: 81%;
 }
 #footer-widgets {
 	background: #fff;
@@ -220,6 +221,14 @@ textarea {
 	margin-top: -19px;
 	overflow: hidden;
 }
+#footer-widget-area li a:hover {
+	text-decoration: underline;
+	color: black;
+}
+#footer-widget-area li a {
+    text-decoration: none;
+    color: black;
+}
 #footer-widget-area div.widget-area > ul {
 	float: left;
 	margin-right: 2.5%;
@@ -229,11 +238,12 @@ textarea {
 	margin-top: 19px;
 }
 #footer-widget-area h3.widgettitle {
-	background: #eaeaea;
+#	background: #eaeaea;
 	clear: left;
-	padding: 5px 15px;
-	font-size: 12px;
+	padding: 0px 0px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
+	color: #DE0000;
 }
 #footer-widget-area div div.item-options {
 	margin-left: 0;
@@ -433,10 +443,12 @@ h1 {
 }
 h2 {
 	font-size: 24px;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
 h3 {
 	font-size: 20px;
+	font-weight: 400;
 }
 h4 {
 	font-size: 16px;
@@ -2421,3 +2433,20 @@ body.register div.page ul {
 .field-visibility-settings-toggle {
 	font-style: italic;
 }
+
+div.elmpg-container {
+
+}
+div.elmpg-container a {
+    text-decoration: none;
+    color: #BC1518;
+    font-style: normal;
+    font-family: inherit;
+}
+div.elmpg-container a:hover,
+div.elmpg-container a:active {
+    outline: 0;
+    color: black;
+    text-decoration: underline;
+}
+

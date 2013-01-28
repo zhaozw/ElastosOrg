@@ -20,8 +20,13 @@
   }
 
   function checkIt(y) {
-	if(y.value.indexOf("elastos.org")<0)
-	      y.value="http://xxxxxxxx.elastos.org";
+	if(y.value.indexOf("elastos.org")<0) {
+		openID = adapter.utils.getOpenID();
+		if (openID)
+			y.value=openID;
+		else
+			y.value="http://xxxxxxxx.elastos.org";
+	}
   }
 
   function login() {

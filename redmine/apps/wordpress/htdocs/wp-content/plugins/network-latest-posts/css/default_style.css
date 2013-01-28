@@ -19,9 +19,16 @@
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
 }
+.nlposts-container a {
+	text-decoration: none;
+	color: #555555;
+	font-style: normal;
+	font-family: inherit;
+}
 .nlposts-container a:hover,
 .nlposts-container a:active {
     outline: 0;
+	text-decoration: underline;
 }
 .nlposts-container img {
     max-width: 100%;
@@ -90,6 +97,7 @@
 }
 .nlposts-ulist-container .nav > li > a {
     display: block;
+	text-decoration: none;
 }
 .nlposts-ulist-container .nav > li > a:hover {
     text-decoration: none;
