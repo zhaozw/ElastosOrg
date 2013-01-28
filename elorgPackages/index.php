@@ -184,16 +184,33 @@
                 <label for="id_arch" title="Limit results a specific CPU architecture">
                     Arch</label><select multiple="multiple" name="arch" id="id_arch">
 <option value="any">any</option>
-</select></div>
+<option value="arm">arm</option>
+<option value="mips">mips</option>
+<option value="x86_atom">x86_atom</option>
+<option value="x86_32">x86_32</option>
+<option value="x86_64">x86_64</option></select></div>
             <div>
                 <label for="id_repo" title="Limit results to a specific respository">
                     Repository</label><select multiple="multiple" name="repo" id="id_repo">
 <option value="Community">Community</option>
+<option value="Community-Testing">Community-Testing</option>
+<option value="Core">Core</option>
+<option value="Extra">Extra</option>
+<option value="Multilib">Multilib</option>
+<option value="Multilib-Testing">Multilib-Testing</option>
+<option value="Testing">Testing</option>
 </select></div>
             <div>
                 <label for="id_q" title="Enter keywords as desired">
                     Keywords</label><input id="id_q" type="text" name="q" value="aux" size="30" /></div>
 
+            <div>
+                <label for="id_maintainer" title="Limit results to a specific maintainer">
+                    Maintainer</label><select name="maintainer" id="id_maintainer" style="min-width:160px;">
+<option value="" selected="selected">All</option>
+<option value="kortide">kortide</option>
+<option value="tongji">tongji</option>
+</select></div>
             <div>
                 <label for="id_last_update" title="Limit results to a date after the date entered">
                     Last Updated After</label><input id="id_last_update" type="text" class="vDateField" name="last_update" size="10" /></div>
@@ -207,8 +224,8 @@
             <div>
                 <label for="id_limit" title="Select the number of results to display per page">
                     Per Page</label><select name="limit" id="id_limit">
-<option value="50" selected="selected">50</option>
-<option value="100">100</option>
+<option value="5" selected="selected">5</option>
+<option value="10">10</option>
 </select></div>
             <div ><label>&nbsp;</label><input title="Search for packages using this criteria"
                 type="submit" value="Search" /></div>
@@ -216,11 +233,6 @@
     </form>
 
 </div><!-- #pkglist-search -->
-
-
-    
-    <p>5 packages found.</p>
-    
 </div>
 
     <form id="pkglist-results-form" method="post" action="/elorgpackages/update/"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='hr6boMR9QE8cRZ2wGPZvY28cvswI28nN' /></div>
@@ -253,6 +265,11 @@
             </tbody>
         </table>
         <div class="pkglist-stats">    
+    <p>5 packages found. Page 1 of 1.</p>
+    <div class="pkglist-nav">
+    <span class="prev">&lt; Prev</span>
+    <span class="next"><a href="/elorgpackages/2/?" title="Go to next page">Next &gt;</a></span>
+    </div>
 </div>
 </div>
 
