@@ -1,0 +1,506 @@
+[Tue, 08 Jan 2013 16:53:47 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1356587574,
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => 'ElastosOrg',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'ElastosOrg',
+    'url' => '',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1356587574,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'ElastosOrg',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1356587574,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'ElastosOrg',
+      'locked' => 1,
+    ),
+    2 => 
+    array (
+      'mime' => 'application/pdf',
+      'ts' => 1355899077,
+      'read' => 1,
+      'write' => 1,
+      'size' => 73771,
+      'hash' => 'l1_QWdpbGVUb29sc19Db21wYXJpc29uX1JlZG1pbmVfWmVudGFvX0ppcmFfR3JlZW5Ib3BwZXJfQ0FMTV8yMDEyMTEyOC5wZGY',
+      'name' => 'AgileTools_Comparison_Redmine_Zentao_Jira_GreenHopper_CALM_20121128.pdf',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'mime' => 'application/pdf',
+      'ts' => 1356586660,
+      'read' => 1,
+      'write' => 0,
+      'size' => 9262190,
+      'hash' => 'l1_QnVkZHlQcmVzcyBGb3IgRHVtbWllcy5wZGY',
+      'name' => 'BuddyPress For Dummies.pdf',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '50M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
+[Tue, 08 Jan 2013 16:54:12 +0800] UPLOAD: array (
+  'added' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'application/vnd.ms-word',
+      'ts' => 1357635252,
+      'read' => 1,
+      'write' => 1,
+      'size' => 1352704,
+      'hash' => 'l1_T3BlbklE5LiOT0F1dGjljY_orq7or6bop6MuZG9j',
+      'name' => 'OpenID与OAuth协议详解.doc',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'header' => false,
+) 
+[Fri, 11 Jan 2013 14:01:48 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1357635252,
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => 'ElastosOrg',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'ElastosOrg',
+    'url' => '',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1357635252,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'ElastosOrg',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1357635252,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'ElastosOrg',
+      'locked' => 1,
+    ),
+    2 => 
+    array (
+      'mime' => 'application/pdf',
+      'ts' => 1355899077,
+      'read' => 1,
+      'write' => 1,
+      'size' => 73771,
+      'hash' => 'l1_QWdpbGVUb29sc19Db21wYXJpc29uX1JlZG1pbmVfWmVudGFvX0ppcmFfR3JlZW5Ib3BwZXJfQ0FMTV8yMDEyMTEyOC5wZGY',
+      'name' => 'AgileTools_Comparison_Redmine_Zentao_Jira_GreenHopper_CALM_20121128.pdf',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'mime' => 'application/pdf',
+      'ts' => 1356586660,
+      'read' => 1,
+      'write' => 0,
+      'size' => 9262190,
+      'hash' => 'l1_QnVkZHlQcmVzcyBGb3IgRHVtbWllcy5wZGY',
+      'name' => 'BuddyPress For Dummies.pdf',
+      'phash' => 'l1_Lw',
+    ),
+    4 => 
+    array (
+      'mime' => 'application/vnd.ms-word',
+      'ts' => 1357635252,
+      'read' => 1,
+      'write' => 1,
+      'size' => 1352704,
+      'hash' => 'l1_T3BlbklE5LiOT0F1dGjljY_orq7or6bop6MuZG9j',
+      'name' => 'OpenID与OAuth协议详解.doc',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '50M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
+[Fri, 11 Jan 2013 14:01:56 +0800] UPLOAD: array (
+  'added' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'application/x-rar',
+      'ts' => 1357884116,
+      'read' => 1,
+      'write' => 1,
+      'size' => 824073,
+      'hash' => 'l1_cHJvdG90eXBlLmpz5byA5Y-R6ICF5omL5YaMLnJhcg',
+      'name' => 'prototype.js开发者手册.rar',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'header' => false,
+) 
+[Mon, 14 Jan 2013 21:42:47 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1355899304,
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => 'RaspberryPi-linux-android',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'RaspberryPi-linux-android',
+    'url' => '',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'mkdir',
+      1 => 'mkfile',
+      2 => 'rm',
+      3 => 'rename',
+      4 => 'put',
+      5 => 'duplicate',
+      6 => 'paste',
+      7 => 'upload',
+      8 => 'put',
+      9 => 'archive',
+      10 => 'extract',
+      11 => 'resize',
+      12 => 'netmount',
+      13 => 'tmb',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '50M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
+[Mon, 14 Jan 2013 21:43:20 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1355899304,
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => 'RaspberryPi-linux-android',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'RaspberryPi-linux-android',
+    'url' => '',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'mkdir',
+      1 => 'mkfile',
+      2 => 'rm',
+      3 => 'rename',
+      4 => 'put',
+      5 => 'duplicate',
+      6 => 'paste',
+      7 => 'upload',
+      8 => 'put',
+      9 => 'archive',
+      10 => 'extract',
+      11 => 'resize',
+      12 => 'netmount',
+      13 => 'tmb',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '50M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
+[Tue, 15 Jan 2013 11:52:16 +0800] OPEN: array (
+  'cwd' => 
+  array (
+    'mime' => 'directory',
+    'ts' => 1355899304,
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'name' => 'RaspberryPi-linux-android',
+    'locked' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'RaspberryPi-linux-android',
+    'url' => '',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'mkdir',
+      1 => 'mkfile',
+      2 => 'rm',
+      3 => 'rename',
+      4 => 'put',
+      5 => 'duplicate',
+      6 => 'paste',
+      7 => 'upload',
+      8 => 'put',
+      9 => 'archive',
+      10 => 'extract',
+      11 => 'resize',
+      12 => 'netmount',
+      13 => 'tmb',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/zip',
+      ),
+    ),
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+    1 => 
+    array (
+      'mime' => 'directory',
+      'ts' => 1355899304,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'name' => 'RaspberryPi-linux-android',
+      'locked' => 1,
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '50M',
+  'netDrivers' => 
+  array (
+    0 => 'ftp',
+  ),
+) 
