@@ -566,6 +566,16 @@ a:focus {
 	-webkit-border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+color:black;
+background:#CEE1E8;
+}
+#nav li.sfhover a,
+#nav li:hover a {
+    position: relative;
+    z-index: 1000;
+    color: #DE0000;
+    text-decoration: underline;
+    background: #A9D6E7;
 }
 #nav li.selected a,
 #nav > li.current-menu-item a,
@@ -620,8 +630,9 @@ a:focus {
 }
 #nav .sfhover ul li > a,
 #nav :hover ul li > a {
-	background: #333;
-	color: #fff;
+color:black;
+background:#CEE1E8;
+text-decoration:none;
 }
 #nav .sfhover ul .sfhover > ul,
 #nav :hover ul :hover > ul {
@@ -632,8 +643,14 @@ a:focus {
 }
 #nav ul li.sfhover > a,
 #nav ul li:hover > a {
-	background-color: #222;
-	color: #fff;
+    background-color: #A9D6E7;
+    color:#DE0000;
+}
+#nav ul li > a,
+#nav ul li > a {
+color:black;
+background:#A9D6E7;
+text-decoration:underline;
 }
 #nav .sfhover ul li,
 #nav :hover ul li {
