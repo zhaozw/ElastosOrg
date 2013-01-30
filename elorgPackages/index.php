@@ -3,7 +3,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Elastos Download</title>
+	<title>ElastosOrg - Package Database</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	
 	<!-- 
@@ -129,9 +129,6 @@
 	<!-- elfinder 1.x connector API support -->
 	<script src="js/proxy/elFinderSupportVer1.js"></script>
 
-	<!-- elfinder custom extenstions -->
-	<script src="extensions/jplayer/elfinder.quicklook.jplayer.js"></script>
-
 	<script>
 		$().ready(function() {
 			$('#finder').elfinder({
@@ -202,7 +199,7 @@
 </select></div>
             <div>
                 <label for="id_q" title="Enter keywords as desired">
-                    Keywords</label><input id="id_q" type="text" name="q" value="aux" size="30" /></div>
+                    Keywords</label><input id="id_q" type="text" name="q" value="a-val" size="30" /></div>
 
             <div>
                 <label for="id_maintainer" title="Limit results to a specific maintainer">
@@ -235,12 +232,10 @@
 </div><!-- #pkglist-search -->
 </div>
 
-    <form id="pkglist-results-form" method="post" action="/elorgpackages/update/"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='hr6boMR9QE8cRZ2wGPZvY28cvswI28nN' /></div>
-
+    <form id="pkglist-results-form" method="post" action="/elorgpackages/update/">
         <table class="results">
             <thead>
-                <tr>
-                    
+                <tr>                    
                     <th><a href="/elorgpackages/?q=aux&amp;sort=arch&amp;limit=50"
                             title="Sort packages by architecture">Arch</a></th>
                     <th><a href="/elorgpackages/?q=aux&amp;sort=repo&amp;limit=50"
@@ -256,26 +251,44 @@
                 </tr>
             </thead>
             <tbody>
-            
-                <tr class="odd"><td>i686</td><td>Extra</td><td><a href="/elorgpackages/extra/i686/cyrus-sasl-ldap/" title="View package details for cyrus-sasl-ldap">cyrus-sasl-ldap</a></td><td><span class="flagged">2.1.23-11</span></td><td class="wrap">ldapdb auxprop module for Cyrus SASL</td><td>2012-10-13</td><td>2012-12-07</td></tr>
-                <tr class="even"><td>x86_64</td><td>Extra</td><td><a href="/elorgpackages/extra/x86_64/cyrus-sasl-ldap/" title="View package details for cyrus-sasl-ldap">cyrus-sasl-ldap</a></td><td><span class="flagged">2.1.23-11</span></td><td class="wrap">ldapdb auxprop module for Cyrus SASL</td><td>2012-10-13</td><td>2012-12-07</td></tr>
-                <tr class="odd"><td>i686</td><td>Extra</td><td><a href="/elorgpackages/extra/i686/cyrus-sasl-sql/" title="View package details for cyrus-sasl-sql">cyrus-sasl-sql</a></td><td><span class="flagged">2.1.23-11</span></td><td class="wrap">SQL auxprop module for Cyrus SASL</td><td>2012-10-13</td><td>2012-12-07</td></tr>
-                <tr class="even"><td>x86_64</td><td>Extra</td><td><a href="/elorgpackages/extra/x86_64/cyrus-sasl-sql/" title="View package details for cyrus-sasl-sql">cyrus-sasl-sql</a></td><td><span class="flagged">2.1.23-11</span></td><td class="wrap">SQL auxprop module for Cyrus SASL</td><td>2012-10-13</td><td>2012-12-07</td></tr>
-                <tr class="odd"><td>any</td><td>Extra</td><td><a href="/elorgpackages/extra/any/xproto/" title="View package details for xproto">xproto</a></td><td>7.0.23-1</td><td class="wrap">X11 core wire protocol and auxiliary headers</td><td>2012-03-16</td><td></td></tr>
-            </tbody>
-        </table>
-        <div class="pkglist-stats">    
-    <p>5 packages found. Page 1 of 1.</p>
-    <div class="pkglist-nav">
-    <span class="prev">&lt; Prev</span>
-    <span class="next"><a href="/elorgpackages/2/?" title="Go to next page">Next &gt;</a></span>
-    </div>
-</div>
+<?php
+    $myconn = mysql_connect("localhost","root","kortide") or die("Could not connect : " . mysql_error());
+    mysql_query("set names 'gbk'");
+    mysql_select_db("elastos_org",$myconn) or die("Could not select database");
+    $strSql = "select * from elorg_packages";
+    $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());;
+    
+    $oddeven = "odd";
+	$i = 0;
+    while (($row = mysql_fetch_array($result)) && ($i < 20)) {
+		$i++;
+		echo '<tr class= "' . $oddeven . '">';
+		if ($oddeven == "odd")
+			$oddeven = "even";
+		else
+			$oddeven = "odd";
+
+        echo '<td>' . $row["arch"] . '</td>';
+        echo '<td>' . $row["repo"] . '</td>';
+        echo '<td><a href="/elorgpackages/" title="">' . $row["name"] . '</a></td>';
+        echo '<td><span class="flagged">' . $row["version"] . '</span></td>';
+        echo '<td class="wrap">' . $row["description"] . '</td>';
+        echo '<td>' . $row["lastupdated"] . '</td>';
+        echo '<td>' . $row["flagdate"] . '</td>';
+        echo '</tr>';
+	}
+	echo '</tbody></table>';
+	$num = mysql_num_rows($result); 
+	echo '<div class="pkglist-stats"><p>' . $num . ' package(s) found</p></div>';
+	mysql_free_result($result);
+    mysql_close($myconn);
+?>
 </div>
 
 <div id="finder">finder <span>here</span></div>
 
- <div id="footer">
+<div id="footer">
      <p>Copyright &copy; 2012-2013 <a href="http://elastos.org" title="Elastos Org">ElastosOrg</a></p>
+</div>
 </body>
 </html>

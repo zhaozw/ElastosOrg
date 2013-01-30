@@ -3,14 +3,6 @@
  * deep:  #50a1d5
  */
 
-body {
-background-color: white;
-background-image: url("img/bg-falling.png");
-background-repeat: repeat-x;
-  font-size: 100%;
-  font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color: #222;
-}
 img { border:0; }
 h1, h2, h3 { font-family: 'Trebuchet MS', helvetica, sans-serif; }
 

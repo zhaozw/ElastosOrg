@@ -42,7 +42,7 @@
 /* general styling */
 body {
     min-width: 650px;
-    background: #f6f9fc;
+    background: #f6f9fc url("/elorgpackages/img/bg-falling.png") 50% 0 repeat-x;
     color: #222;
     font: normal 100% sans-serif;
     text-align: center;
