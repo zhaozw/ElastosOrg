@@ -232,14 +232,11 @@ function validName($name) {
 $logger = new elFinderSimpleLogger('../logs/log.txt');
 
 $str = isset($_COOKIE['prj_name']) ? $_COOKIE['prj_name'] : '_EmptyDir_:r';
+$pos = strpos($str,'..');
+if ($pos !== false)
+	$str = '_EmptyDir_:r';
 $strs = explode(':', $str);
 $redmineProject = $strs[0];
-
-/*
-$logfile1 = '../logs/hello';
-$fp1 = fopen($logfile1, 'a');
-fclose($fp1);
-*/
 
 if ($strs[1] != 'w' || $strs[1] == null) { 
 	//readonly

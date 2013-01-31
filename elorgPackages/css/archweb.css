@@ -258,53 +258,6 @@ td {
         vertical-align: top;
     }
 
-/* table pretty styles */
-table.pretty1 {
-    width: auto;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    border-collapse: collapse;
-    border: 1px solid #bcd;
-}
-
-    .pretty1 th {
-        padding: 0.35em;
-        background: #e4eeff;
-        border: 1px solid #bcd;
-    }
-
-    .pretty1 td {
-        padding: 0.35em;
-        border: 1px dotted #bcd;
-    }
-
-table.pretty2 {
-    width: auto;
-    margin-top: 0.25em;
-    margin-bottom: 0.5em;
-    border-collapse: collapse;
-    border: 1px solid #bbb;
-}
-
-    .pretty2 th {
-        padding: 0.35em;
-        background: #eee;
-        border: 1px solid #bbb;
-    }
-
-    .pretty2 td {
-        padding: 0.35em;
-        border: 1px dotted #bbb;
-    }
-
-table.compact {
-    width: auto;
-}
-
-    .compact td {
-        padding: 0.25em 0 0.25em 1.5em;
-    }
-
 
 /* definition lists */
 dl {
@@ -694,6 +647,10 @@ table.results {
 
     .results tr.even {
         background: #e4eeff;
+    }
+
+    .results tr:hover {
+	background-color: #DBDBDB;
     }
 
     .results .flagged {
@@ -1103,33 +1060,33 @@ ul.signoff-list {
 }
 
 /* visualizations page */
-.visualize-buttons {
-    margin: 0.5em 0.33em;
-}
+#.visualize-buttons {
+#    margin: 0.5em 0.33em;
+#}
 
-    .visualize-buttons button.active {
-        depressed: true;
-    }
+#    .visualize-buttons button.active {
+#        depressed: true;
+#    }
 
-.visualize-chart {
-    position: relative;
-    height: 500px;
-    margin: 0.33em;
-}
+#.visualize-chart {
+#    position: relative;
+#    height: 500px;
+#    margin: 0.33em;
+#}
 
 #visualize-archrepo .treemap-cell {
-    border: solid 1px white;
-    overflow: hidden;
-    position: absolute;
-}
+#    border: solid 1px white;
+#    overflow: hidden;
+#    position: absolute;
+#}
 
-    #visualize-archrepo .treemap-cell span {
-        padding: 3px;
-        font-size: 0.85em;
-        line-height: 1em;
-    }
+#    #visualize-archrepo .treemap-cell span {
+#        padding: 3px;
+#        font-size: 0.85em;
+#        line-height: 1em;
+#    }
 
 #visualize-keys svg {
-    width: 100%;
-    height: 100%;
-}
+#    width: 100%;
+#    height: 100%;
+#}

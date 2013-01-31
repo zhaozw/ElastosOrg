@@ -129,26 +129,30 @@
 	<!-- elfinder 1.x connector API support -->
 	<script src="js/proxy/elFinderSupportVer1.js"></script>
 
-	<script>
-		$().ready(function() {
+<script type="text/javascript">
+	function setCookie(c_name,value,expiredays) {
+		var exdate=new Date();
+		exdate.setDate(exdate.getDate()+expiredays);
+		document.cookie=c_name+"="+value+((expiredays==null) ? "" : ";expires="+exdate.toGMTString());
+	}
+
+	function DoNav(url) {
+		setCookie("repo_path", url, null);
+		$('#finder').elfinder('destroy');
+		myfinder();
+	}
+
+		function myfinder() {
 			$('#finder').elfinder({
 				requestType : 'post',
 				url : 'php/connector.php',
-				handlers : {
-                    select : function(event, elfinderInstance) {
-                        var selected = event.data.selected;
-						
-						if (selected.length) {
-							// console.log(elfinderInstance.file(selected[0]))
-						}
-						
-                    }
-                },
 				lang : 'en',
 				height:'768px',
 				customData : {answer : 42},
 			})	
-		});
+		}
+
+		$().ready(function() {setCookie("repo_path", ".:r"); myfinder();});
 	</script>
 </head>
 <body>
@@ -172,14 +176,22 @@
 
     <h3>Package Search</h3>
 
-    <form id="pkg-search" method="get" action="/elorgpackages/">
+<?php
+$m_arch = $_POST["arch"];
+$m_id_q = $_POST["q"];
+$m_id_maintainer = $_POST["maintainer"];
+$m_id_last_update = $_POST["last_update"];
+$m_id_flagged = $_POST["flagged"];
+?>
+
+    <form id="pkg-search" method="post" action="/elorgpackages/">
         <p><input type="hidden" name="sort" id="id_sort" /></p>
         
         <fieldset>
             <legend>Enter search criteria</legend>
             <div>
                 <label for="id_arch" title="Limit results a specific CPU architecture">
-                    Arch</label><select multiple="multiple" name="arch" id="id_arch">
+                    Arch</label><select name="arch" id="id_arch">
 <option value="any">any</option>
 <option value="arm">arm</option>
 <option value="mips">mips</option>
@@ -187,19 +199,12 @@
 <option value="x86_32">x86_32</option>
 <option value="x86_64">x86_64</option></select></div>
             <div>
-                <label for="id_repo" title="Limit results to a specific respository">
-                    Repository</label><select multiple="multiple" name="repo" id="id_repo">
-<option value="Community">Community</option>
-<option value="Community-Testing">Community-Testing</option>
-<option value="Core">Core</option>
-<option value="Extra">Extra</option>
-<option value="Multilib">Multilib</option>
-<option value="Multilib-Testing">Multilib-Testing</option>
-<option value="Testing">Testing</option>
-</select></div>
-            <div>
                 <label for="id_q" title="Enter keywords as desired">
-                    Keywords</label><input id="id_q" type="text" name="q" value="a-val" size="30" /></div>
+                    Keywords</label>
+<?php
+					echo '<input id="id_q" type="text" name="q" value="' . $m_id_q .'" size="30" />';
+?>
+			</div>
 
             <div>
                 <label for="id_maintainer" title="Limit results to a specific maintainer">
@@ -218,12 +223,6 @@
 <option value="Flagged">Flagged</option>
 <option value="Not Flagged">Not Flagged</option>
 </select></div>
-            <div>
-                <label for="id_limit" title="Select the number of results to display per page">
-                    Per Page</label><select name="limit" id="id_limit">
-<option value="5" selected="selected">5</option>
-<option value="10">10</option>
-</select></div>
             <div ><label>&nbsp;</label><input title="Search for packages using this criteria"
                 type="submit" value="Search" /></div>
         </fieldset>
@@ -238,8 +237,6 @@
                 <tr>                    
                     <th><a href="/elorgpackages/?q=aux&amp;sort=arch&amp;limit=50"
                             title="Sort packages by architecture">Arch</a></th>
-                    <th><a href="/elorgpackages/?q=aux&amp;sort=repo&amp;limit=50"
-                            title="Sort packages by repository">Repo</a></th>
                     <th><a href="/elorgpackages/?q=aux&amp;sort=pkgname&amp;limit=50"
                             title="Sort packages by package name">Name</a></th>
                     <th>Version</th>
@@ -255,21 +252,20 @@
     $myconn = mysql_connect("localhost","root","kortide") or die("Could not connect : " . mysql_error());
     mysql_query("set names 'gbk'");
     mysql_select_db("elastos_org",$myconn) or die("Could not select database");
-    $strSql = "select * from elorg_packages";
+    $strSql = 'select * from elorg_packages where locate("' . $m_id_q . '",description)>0';
     $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());;
     
     $oddeven = "odd";
 	$i = 0;
     while (($row = mysql_fetch_array($result)) && ($i < 20)) {
 		$i++;
-		echo '<tr class= "' . $oddeven . '">';
+		echo '<tr class= "' . $oddeven . '" onclick="DoNav(\''. $row['path'] . '\')">';
 		if ($oddeven == "odd")
 			$oddeven = "even";
 		else
 			$oddeven = "odd";
 
-        echo '<td>' . $row["arch"] . '</td>';
-        echo '<td>' . $row["repo"] . '</td>';
+        echo '<td>' . $row['arch'] . '</td>';
         echo '<td><a href="/elorgpackages/" title="">' . $row["name"] . '</a></td>';
         echo '<td><span class="flagged">' . $row["version"] . '</span></td>';
         echo '<td class="wrap">' . $row["description"] . '</td>';
