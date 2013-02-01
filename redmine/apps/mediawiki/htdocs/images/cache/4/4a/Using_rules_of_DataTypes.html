@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<title>Using rules of DataTypes - Elastos Developer Website</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.19.0" />
+<link rel="shortcut icon" href="http://elastos.org/wiki/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Elastos Developer Website (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://elastos.org/wiki/api.php?action=rsd" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Elastos Developer Website Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://elastos.org/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: mediawiki:resourceloader:filter:minify-css:7:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+
+<script src="http://elastos.org/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Using_rules_of_DataTypes","wgTitle":"Using rules of DataTypes","wgCurRevisionId":556,"wgArticleId":85,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgRelevantPageName":"Using_rules_of_DataTypes","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":false,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"simplesearch":true,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":false,"dialogs":false,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"vector-simplesearch":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function($){mw.user.tokens.set({"editToken":"+\\","watchToken":false});;},{},{});
+
+/* cache key: mediawiki:resourceloader:filter:minify-js:7:66a938cc0955964f33213004042d63fb */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/wiki/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Using_rules_of_DataTypes skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading">
+				<span dir="auto">Using rules of DataTypes</span>
+			</h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Elastos Developer Website</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to: <a href="#mw-head">navigation</a>,
+					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>A notable feature of CAR data type is its self-descriptive.
+</p><p><br /><font size="4" color="#003C9D">How to use in CAR files</font><br />
+In CAR files, developers can use CAR data type in accordance with the rules of CAR grammar but can not use C++ or other data types. CAR data type mainly used to define the types of the interface method parameters.
+</p><p>Please note that, car file does not support the form of underlined data types, such as BufferOf_&lt;&gt;, StringBuf_&lt;&gt; etc.
+</p><p><br /><font size="4" color="#003C9D">How to use in C++ files</font><br />
+In CAR files, developers can use both CAR data types and C++ data types as long as them meeting the standard use of C++ syntax.
+</p><p>Please note also both in CAR files and in C++ files, developers must use the Elastos namespace.
+</p><p>The talbe below shows the the rules about CAR Data Types as parameters of interface functions using in car files.
+</p>
+<table border="1" cellspacing="0" cellpadding="5">
+<tr>
+<th style="width:150px">CAR
+</th>
+<th style="width:150px">Data Types
+</th>
+<th style="width:500px"> Parameter data type rules
+</th></tr>
+<tr>
+<td> Base Types
+</td>
+<td>
+<table>
+<tr>
+<td>Char8
+</td></tr>
+<tr>
+<td>Char16
+</td></tr>
+<tr>
+<td>Boolean
+</td></tr>
+<tr>
+<td>Float
+</td></tr>
+<tr>
+<td>Double
+</td></tr>
+<tr>
+<td>Int16
+</td></tr>
+<tr>
+<td>Int32
+</td></tr>
+<tr>
+<td>Int64
+</td></tr>
+<tr>
+<td>Byte
+</td></tr>
+<tr>
+<td>ECode
+</td></tr>
+<tr>
+<td>String
+</td></tr>
+<tr>
+<td>UInt8
+</td></tr>
+<tr>
+<td>SystemTime
+</td></tr>
+<tr>
+<td>Address
+</td></tr>
+<tr>
+<td>Flags8
+</td></tr>
+<tr>
+<td>Flags16
+</td></tr>
+<tr>
+<td>Flags32
+</td></tr>
+<tr>
+<td>Flags64
+</td></tr>
+<tr>
+<td>Handle32
+</td></tr>
+<tr>
+<td>Handle64
+</td></tr>
+<tr>
+<td>Seconds32
+</td></tr>
+<tr>
+<td>Seconds64
+</td></tr>
+<tr>
+<td>Milliseconds32
+</td></tr>
+<tr>
+<td>Milliseconds64
+</td></tr>
+<tr>
+<td>Microseconds32
+</td></tr>
+<tr>
+<td>Microseconds64
+</td></tr></table>
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1) [in] ParameterType ParameterName
+</td></tr>
+<tr>
+<td>2) [out]ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>
+</td></tr>
+<tr>
+<td>//If the interface of function have deprecated property:
+</td></tr>
+<tr>
+<td>[deprecated]：
+</td></tr>
+<tr>
+<td>1) [in] ParameterType ParameterName
+</td></tr>
+<tr>
+<td>2) [out]ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>3) [in] ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>4) [out]ParameterType ParameterName **
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Base Types
+</td>
+<td> PVoid
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have local property:
+</td></tr>
+<tr>
+<td>[local]：
+</td></tr>
+<tr>
+<td>1） [in] ParameterType ParameterName
+</td></tr>
+<tr>
+<td>2） [out] ParameterType ParameterName
+</td></tr>
+<tr>
+<td>3） [out] ParameterType ParameterName *
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Base Types
+</td>
+<td>
+<table>
+<tr>
+<td>Int8
+</td></tr>
+<tr>
+<td>UInt16
+</td></tr>
+<tr>
+<td>UInt32
+</td></tr>
+<tr>
+<td>UInt64
+</td></tr></table>
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have local property:
+</td></tr>
+<tr>
+<td>[local]:
+</td></tr>
+<tr>
+<td>1) [in]ParameterType ParameterName
+</td></tr>
+<tr>
+<td>2) [out]ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>//If the interface of function have local and deprecated property:
+</td></tr>
+<tr>
+<td>[local, deprecated]:
+</td></tr>
+<tr>
+<td>1) [in]ParameterType ParameterName
+</td></tr>
+<tr>
+<td>2) [out]ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>3) [in]ParameterType ParameterName *
+</td></tr>
+<tr>
+<td>4) [out]ParameterType ParameterName **
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Class Types
+</td>
+<td> StringBuf
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1） [out] ParameterType&lt;&gt; //allocted by caller
+</td></tr>
+<tr>
+<td>2） [out] ParameterType&lt;size&gt; //allocted by caller
+</td></tr>
+<tr>
+<td>//If the interface of function have local property:
+</td></tr>
+<tr>
+<td>[local]：
+</td></tr>
+<tr>
+<td>1） [out] ParameterType&lt;&gt; //allocted by caller
+</td></tr>
+<tr>
+<td>2） [out] ParameterType&lt;size&gt; //allocted by caller
+</td></tr>
+<tr>
+<td>3）[out, callee] ParameterType&lt;&gt; * //allocted by callee
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Class Types
+</td>
+<td>
+<table>
+<tr>
+<td>BufferOf
+</td></tr>
+<tr>
+<td>ArrayOf
+</td></tr></table>
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:(for example with ArrayOf)
+</td></tr>
+<tr>
+<td>1) [in] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>2) [in] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>3) [out] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>4) [out] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>//If the interface of function have deprecated property:
+</td></tr>
+<tr>
+<td>[deprecated]
+</td></tr>
+<tr>
+<td>1) [in] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>2) [in] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>3) [out] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>4) [out] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>5) [in] ArrayOf&lt;Type&gt; *
+</td></tr>
+<tr>
+<td>6) [in] ArrayOf&lt;Type, size&gt; *
+</td></tr>
+<tr>
+<td>//If the interface of function have local property:
+</td></tr>
+<tr>
+<td>[local]:
+</td></tr>
+<tr>
+<td>1) [in] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>2) [in] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>3) [out] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>4) [out] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>5) [out, callee] ArrayOf&lt;Type&gt; *
+</td></tr>
+<tr>
+<td>//If the interface of function have local and deprecated property:
+</td></tr>
+<tr>
+<td>[local, deprecated]:
+</td></tr>
+<tr>
+<td>1) [in] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>2) [in] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>3) [out] ArrayOf&lt;Type&gt;
+</td></tr>
+<tr>
+<td>4) [out] ArrayOf&lt;Type, size&gt;
+</td></tr>
+<tr>
+<td>5) [in] ArrayOf&lt;Type&gt; *
+</td></tr>
+<tr>
+<td>6) [in] ArrayOf&lt;Type, size&gt; *
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Class Types
+</td>
+<td> MemoryBuf
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1) [in] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>2) [in] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>3) [out] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>4) [out] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>//If the interface of function have deprecated property:
+</td></tr>
+<tr>
+<td>[deprecated]
+</td></tr>
+<tr>
+<td>1) [in] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>2) [in] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>3) [out] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>4) [out] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>5) [in] MemoryBuf&lt;&gt; *
+</td></tr>
+<tr>
+<td>6) [in] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>//If the interface of function have local property:
+</td></tr>
+<tr>
+<td>[local]:
+</td></tr>
+<tr>
+<td>1) [in] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>2) [in] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>3) [out] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>4) [out] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>5) [out, callee] MemoryBuf&lt;&gt; *
+</td></tr>
+<tr>
+<td>//If the interface of function have local and deprecated property:
+</td></tr>
+<tr>
+<td>[local, deprecated]:
+</td></tr>
+<tr>
+<td>1) [in] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>2) [in] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>3) [out] MemoryBuf&lt;&gt;
+</td></tr>
+<tr>
+<td>4) [out] MemoryBuf&lt;size&gt;
+</td></tr>
+<tr>
+<td>5) [in] MemoryBuf&lt;&gt; *
+</td></tr>
+<tr>
+<td>6) [in] MemoryBuf&lt;size&gt;
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Multiplex Types
+</td>
+<td>
+<table>
+<tr>
+<td>enum
+</td></tr>
+<tr>
+<td>struct
+</td></tr>
+<tr>
+<td>Type[]
+</td></tr>
+<tr>
+<td>EMuid
+</td></tr>
+<tr>
+<td>EGuid
+</td></tr></table>
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1) [in]ParameterType
+</td></tr>
+<tr>
+<td>2) [out]ParameterType *
+</td></tr>
+<tr>
+<td>//If the interface of function have deprecated property:
+</td></tr>
+<tr>
+<td>[deprecated]：
+</td></tr>
+<tr>
+<td>1) [in]ParameterType
+</td></tr>
+<tr>
+<td>2) [out]ParameterType *
+</td></tr>
+<tr>
+<td>3) [in] ParameterType *
+</td></tr>
+<tr>
+<td>4) [out]ParameterType **
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Class Types
+</td>
+<td>
+<table>
+<tr>
+<td>DateTime
+</td></tr>
+<tr>
+<td>EventHandler
+</td></tr></table>
+</td>
+<td>
+<table>
+<tr>
+<td>//If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1) [in]ParameterType
+</td></tr>
+<tr>
+<td>2) [out]ParameterType *
+</td></tr>
+<tr>
+<td>//If the interface of function have deprecated property:
+</td></tr>
+<tr>
+<td>[deprecated]：
+</td></tr>
+<tr>
+<td>1) [in]ParameterType
+</td></tr>
+<tr>
+<td>2) [out]ParameterType *
+</td></tr>
+<tr>
+<td>3) [in] ParameterType *
+</td></tr>
+<tr>
+<td>4) [out]ParameterType **
+</td></tr></table>
+</td></tr>
+<tr>
+<td> Interface Types
+</td>
+<td> IInterface
+</td>
+<td>
+<table>
+<tr>
+<td>/If the interface of function have no property:
+</td></tr>
+<tr>
+<td>1） [in] ParameterType *
+</td></tr>
+<tr>
+<td>2） [out]ParameterType **
+</td></tr></table>
+</td></tr></table>
+<p><br />
+</p>
+<hr />
+<p><a href="/wiki/index.php/Lesson5_Interface_Definition_Language_of_CAR#CAR_Data_Types" title="Lesson5 Interface Definition Language of CAR">Back</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 3/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mediawiki:pcache:idhash:85-0!*!0!*!*!*!* and timestamp 20130201063636 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="http://elastos.org/wiki/index.php?title=Using_rules_of_DataTypes&amp;oldid=556">http://elastos.org/wiki/index.php?title=Using_rules_of_DataTypes&amp;oldid=556</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks catlinks-allhidden'></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id="mw-head" class="noprint">
+			
+<!-- 0 -->
+<div id="p-personal" class="">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=Using+rules+of+DataTypes" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id="left-navigation">
+				
+<!-- 0 -->
+<div id="p-namespaces" class="vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/index.php/Using_rules_of_DataTypes"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+					<li  id="ca-talk" class="new"><span><a href="/wiki/index.php?title=Talk:Using_rules_of_DataTypes&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" class="vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id="right-navigation">
+				
+<!-- 0 -->
+<div id="p-views" class="vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/index.php/Using_rules_of_DataTypes" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/wiki/index.php?title=Using_rules_of_DataTypes&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/wiki/index.php?title=Using_rules_of_DataTypes&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" class="vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href="#"></a></h5>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search">
+	<h5><label for="searchInput">Search</label></h5>
+	<form action="/wiki/index.php" id="searchform">
+				<div>
+			<input type="search" name="search" title="Search Elastos Developer Website [f]" accesskey="f" id="searchInput" />			<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton" />			<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+<div id="p-logo"><a style="background-image: url(/wiki/skins/common/images/wiki.png);" href="http://elastos.org"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" id='p-navigation'>
+	<h5>Navigation</h5>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/index.php/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-portal"><a href="/wiki/index.php/Elastos_Developer_Website:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-currentevents"><a href="/wiki/index.php/Elastos_Developer_Website:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+			<li id="n-help"><a href="/wiki/index.php/Help:Contents" title="The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class="portal" id='p-tb'>
+	<h5>Toolbox</h5>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/Using_rules_of_DataTypes" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/index.php/Special:RecentChangesLinked/Using_rules_of_DataTypes" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li><a href="/wiki/index.php?title=Using_rules_of_DataTypes&amp;printable=yes" rel="alternate">Printable version</a></li>
+			<li id="t-permalink"><a href="/wiki/index.php?title=Using_rules_of_DataTypes&amp;oldid=556" title="Permanent link to this revision of the page">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id="footer">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 October 2012, at 15:57.</li>
+											<li id="footer-info-viewcount">This page has been accessed 39 times.</li>
+											<li id="footer-info-copyright">Content is available under <a class="external" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution</a>.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/index.php/Elastos_Developer_Website:Privacy_policy" title="Elastos Developer Website:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/index.php/Elastos_Developer_Website:About" title="Elastos Developer Website:About">About Elastos Developer Website</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/index.php/Elastos_Developer_Website:General_disclaimer" title="Elastos Developer Website:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by/3.0/"><img src="/wiki/skins/common/images/cc-by.png" alt="Creative Commons Attribution" width="88" height="31" /></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/wiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script src="http://elastos.org/wiki/load.php?debug=false&amp;lang=en&amp;modules=skins.vector&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.simpleSearch"], null, true);
+}</script>
+<!-- Served in 0.212 secs. -->
+	</body>
+<!-- Cached 20130201063636 -->
+</html>

@@ -30,6 +30,7 @@ $wgScriptExtension  = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
 $wgServer           = "http://elastos.org";
+$wgFavicon	    = "http://elastos.org/wiki/favicon.ico";
 
 ## The relative URL path to the skins directory
 $wgStylePath        = "$wgScriptPath/skins";
@@ -125,6 +126,15 @@ $wgDiff3 = "/usr/bin/diff3";
 # that value)
 $wgResourceLoaderMaxQueryLength = -1;
 
+//elastos.org
+$wgSMTP = array(
+"host" => "mail.elastos.org",
+"IDHost" => "elastos.org",
+"port" => "25",
+"auth" => true,
+"username" => "elastos_pm",
+"password" => "Elastos123");
+ $wgShowExceptionDetails = true;
 
 # Enabled Extensions. Most extensions are enabled by including the base extension file here
 # but check specific extension documentation for more details
@@ -132,12 +142,14 @@ $wgResourceLoaderMaxQueryLength = -1;
 require_once( "$IP/extensions/ConfirmEdit/ConfirmEdit.php" );
 require_once( "$IP/extensions/Gadgets/Gadgets.php" );
 require_once( "$IP/extensions/Nuke/Nuke.php" );
-require_once( "$IP/extensions/OpenID/OpenID.php" );
+#require_once( "$IP/extensions/OpenID/OpenID.php" );
 require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 require_once( "$IP/extensions/Renameuser/Renameuser.php" );
 require_once( "$IP/extensions/Vector/Vector.php" );
 require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 
+#2012-11-20 XilongPei
+require_once( "$IP/skins/Erudite/erudite.php" );
 
 # End of automatically generated settings.
 # Add more configuration options below.

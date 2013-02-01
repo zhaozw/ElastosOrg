@@ -1700,7 +1700,7 @@ $wgStyleVersion = '303';
  * ResourceLoader requests to default language and skins are cached
  * as well as single module requests.
  */
-$wgUseFileCache = false;
+$wgUseFileCache = true;
 
 /**
  * Directory where the cached page will be saved.
@@ -2295,7 +2295,7 @@ $wgXhtmlNamespaces = array();
  * for some forms of caching.
  * Will disable file cache.
  */
-$wgShowIPinHeader = true;
+$wgShowIPinHeader = false;
 
 /**
  * Site notice shown at the top of each page
