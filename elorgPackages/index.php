@@ -177,11 +177,11 @@
     <h3>Package Search</h3>
 
 <?php
-$m_arch = $_POST["arch"];
-$m_id_q = $_POST["q"];
-$m_id_maintainer = $_POST["maintainer"];
-$m_id_last_update = $_POST["last_update"];
-$m_id_flagged = $_POST["flagged"];
+$m_arch = isset($_POST["arch"]) ? $_POST["arch"] : "";
+$m_id_q = isset($_POST["q"]) ? $_POST["q"] : "";
+$m_id_maintainer = isset($_POST["maintainer"]) ? $_POST["maintainer"] : "";
+$m_id_last_update = isset($_POST["last_update"]) ? $_POST["last_update"] : "";
+$m_id_flagged = isset($_POST["flagged"]) ? $_POST["flagged"] : "";
 ?>
 
     <form id="pkg-search" method="post" action="/elorgpackages/">
