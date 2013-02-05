@@ -168,7 +168,7 @@ $get_data = array(
 
 				$text = apply_filters('bp_moderation_link_text', $text, $flagged, $type, $id, $id2);
 
-				$title_text = $flagged ? __('Unflag this content', 'bp-moderation') : __('Flag as inappropriate', 'bp-moderation');
+				$title_text = $flagged ? __('Unflag this content', 'bp-moderation') : __('Flag it', 'bp-moderation');
 
 				$link = "<a href='$url' title='" . $title_text;
 				$link .= "' class='bpm-report-link bpm-type-{$type} ";

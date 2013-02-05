@@ -1,0 +1,137 @@
+/* Pretty printing styles. Used with prettify.js. */
+
+/* SPAN elements with the classes below are added by prettyprint. */
+
+/* plain text */
+.pln {
+	color: #068fd8;
+    font-weight: bold;
+}
+
+@media screen {
+	/* string content */
+    .str {
+        color: #077;
+	}
+	/* a keyword */
+	.kwd {
+        font-weight: bold;
+		color: #003979;
+	}
+	/* a comment */
+	.com {
+		color: #800;
+	}
+    /* a type name */
+	.typ {
+		color: #606;
+    }
+    /* a literal value */
+    .lit {
+        color: #066;
+    }
+    /* punctuation, lisp open bracket, lisp close bracket */
+    .pun,
+    .opn,
+    .clo {
+        font-weight: bold;
+		color: #0a0;
+    }
+    /* a markup tag name */
+    .tag {
+        color: #008;
+    }
+    /* a markup attribute name */
+    .atn {
+        color: #606;
+    }
+    /* a markup attribute value */
+    .atv {
+        color: #080;
+	}
+    /* a declaration; a variable name */
+    .dec,
+    .var {
+        color: #606;
+    }
+    /* a function name */
+    .fun {
+        color: red;
+    }
+}
+
+/* Use higher contrast and text-weight for printable form. */
+@media print, projection {
+    .str {
+		color: #077;
+    }
+    .kwd {
+		font-weight: bold;
+		color: #003979;
+	}
+    .com {
+        color: #600;
+        font-style: italic;
+	}
+    .typ {
+        color: #404;
+        font-weight: 700;
+    }
+    .lit {
+        color: #044;
+    }
+    .pun,
+    .opn,
+    .clo {
+        font-weight: bold;
+        color: #0a0;
+    }
+    .tag {
+        color: #006;
+        font-weight: 700;
+    }
+    .atn {
+        color: #404;
+    }
+    .atv {
+        color: #060;
+    }
+}
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint {
+    font-family: "Bitstream Vera Sans Mono","Courier New",monospace;
+    background-color: #eee;
+    border: 1px solid #a8bfcf;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 {
+    list-style-type:none;
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+    background:#eee;
+}

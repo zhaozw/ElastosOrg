@@ -250,7 +250,7 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 	                if( $blogid != $s->blog_id ) {
 	                    $blogid = $s->blog_id; ?>
 	                    
-	                    <h2 class='globalblog_title'><?php echo get_blog_option( $blogid, 'blogname' ) ?></h2>
+	                    <h5 class='globalblog_title'><?php echo get_blog_option( $blogid, 'blogname' ) ?></h5>
 	                <?php
 	                } ?>
 	
@@ -285,10 +285,54 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 	            }
 	        }
 	    } else { ?>
-		    <h3 class='globalpage_title center'><?php _e( "Not found", 'ms-global-search' ) ?></h3>
-	        <p class='globalpage_message center'><?php _e( "Sorry, but you are looking for something that isn't here.", 'ms-global-search' ) ?></p>
-	    <?php
-	    }
+		    <h3 class='globalpage_title center'><?php _e( "Posts marked with Flag ", 'ms-global-search' ) ?><img src = "http://elastos.org/elorg_common/img/bp-moderation_flag_unflag.png"></h3>
+<?php
+			$i = 0;
+	        $blogid = '';
+			$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents order by item_id");
+			$search = $wpdb->get_results( $request );
+	        foreach( $search as $s ) {
+
+				$i++;
+				if ($i > 100)
+					break;
+
+				$author = get_userdata( $s->item_author );
+				$post = get_blog_post( $s->item_id, $s->item_id2 );
+				$author = get_userdata( $s->item_author );
+	            if( $blogid != $s->item_id ) {
+	                   $blogid = $s->item_id; 
+?>
+	                    <h5 class='globalblog_title'>
+						<?php echo get_blog_option( $blogid, 'blogname' ); ?>
+						</h5>
+				<?php } ?>
+               	<div <?php post_class( 'globalsearch_post' ) ?>>
+           		<div class="globalsearch_header">
+           		<h2 id="post-<?php echo $s->item_id.$s->item_id2; ?>" 
+class="globalsearch_title"><a href="<?php echo $s->item_url; ?>" rel="bookmark" title="<?php echo __( 'Permanent Link to', 'ms-global-search' ).' '.$post->post_title; ?>"><?php
+				if (mb_strlen($post->post_title)<=60)
+					echo $post->post_title;
+				else
+					echo mb_substr($post->post_title,0,60) . "...";
+				?></a></h2>
+				<p class="globalsearch_meta">
+				<span class="globalsearch_date"><?php echo date( __( 'j/m/y, G:i', 'ms-global-search' ) ,strtotime( $post->post_date ) ); ?></span>
+				</p>
+				</div>
+				<div class="globalsearch_content">
+	        	<div class="entry">
+	        	<?php
+	            if(strcmp($excerpt, "yes") == 0)
+	            	echo ms_global_search_get_the_excerpt( $post );
+	            else
+	            	echo ms_global_search_get_the_content( $post ); ?>
+	            </div>
+				</div>
+				</div>
+				<?php
+			} //for each
+		} //else
 	}
 }
 
