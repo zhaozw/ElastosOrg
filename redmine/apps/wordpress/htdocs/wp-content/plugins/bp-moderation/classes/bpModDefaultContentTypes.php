@@ -264,7 +264,7 @@ class bpModDefaultContentTypes
 											 'author_id' => $post->post_author,
 											 'id' => $wpdb->blogid,
 											 'id2' => $post->ID,
-											 'unflagged_text' => __('Flag this post as inappropriate', 'bp-moderation')
+											 'unflagged_text' => __('Flag this post', 'bp-moderation')
 										));
 
 		return "$content\n\n$link";
@@ -283,7 +283,7 @@ class bpModDefaultContentTypes
 											 'author_id' => $post->post_author,
 											 'id' => $wpdb->blogid,
 											 'id2' => $post->ID,
-											 'unflagged_text' => __('Flag this page as inappropriate', 'bp-moderation')
+											 'unflagged_text' => __('Flag this page', 'bp-moderation')
 										));
 
 		return "$content\n\n$link";
@@ -360,7 +360,7 @@ class bpModDefaultContentTypes
 											 'author_id' => $comment->user_id,
 											 'id' => $wpdb->blogid,
 											 'id2' => $comment->comment_ID,
-											 'unflagged_text' => __('Flag this comment as inappropriate', 'bp-moderation')
+											 'unflagged_text' => __('Flag this comment', 'bp-moderation')
 										));
 
 		return $comment_text . "\n\n$link";
@@ -419,7 +419,7 @@ class bpModDefaultContentTypes
 											 'type' => 'member',
 											 'author_id' => bp_displayed_user_id(),
 											 'id' => bp_displayed_user_id(),
-											 'unflagged_text' => __('Flag this member as inappropriate', 'bp-moderation')
+											 'unflagged_text' => __('Flag this member', 'bp-moderation')
 										));
 
 		echo "<div class='bpm-right-link bpm-bottom-link'>$link</div>";
@@ -466,7 +466,7 @@ class bpModDefaultContentTypes
 											 'is_author' => $is_author,
 											 'id' => $group->id,
 											 'id2' => 0,
-											 'unflagged_text' => __('Flag this group as inappropriate', 'bp-moderation')
+											 'unflagged_text' => __('Flag this group', 'bp-moderation')
 										));
 
 		echo "<div class='bpm-right-link bpm-bottom-link'>$link</div>";
