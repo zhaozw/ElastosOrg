@@ -31,12 +31,19 @@ function ms_global_search_get_the_excerpt( $s ) {
 	    ';
 	    return apply_filters( 'the_password_form', $output );
 	}
-	
+
 	$excerpt = $s->post_excerpt;
 	
 	if ( empty( $excerpt ) ) {
 	    $raw_excerpt = $excerpt;
-		$excerpt = $s->post_content;
+
+        $add_more = false;
+        if (mb_strlen($s->post_content) > 300) {
+            $excerpt = mb_substr($s->post_content,0,300);
+            $add_more = true;
+        } else {
+            $excerpt = $s->post_content;
+        }
 
 		$excerpt = strip_shortcodes( $excerpt );
 
@@ -51,6 +58,8 @@ function ms_global_search_get_the_excerpt( $s ) {
 			$excerpt = $excerpt . $excerpt_more;
 		} else {
 			$excerpt = implode( ' ', $words );
+            		if ($add_more)
+                		$excerpt = $excerpt . $excerpt_more;
 		}
 		
 		return $excerpt;
@@ -289,7 +298,7 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 <?php
 			$i = 0;
 	        $blogid = '';
-			$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents order by item_id");
+			$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents where FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 order by item_id");
 			$search = $wpdb->get_results( $request );
 	        foreach( $search as $s ) {
 
