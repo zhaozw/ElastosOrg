@@ -356,7 +356,7 @@ if( !function_exists( 'ms_global_search_form' ) ) {
 			<form class="ms-global-search_form" method="get" action="<?php echo get_bloginfo( 'wpurl' ).'/'.$page.'/'; ?>">
 			    <div>
 				    <span><?php _e( 'Search across all blogs:', 'ms-global-search' ) ?>&nbsp;</span>
-				    <input class="ms-global-search_hbox" name="mssearch" type="text" value="" size="16" tabindex="1" />
+				    <input class="ms-global-search_hbox" name="mssearch" type="text" value="" size="16" maxlength="150" tabindex="1" />
 				    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' ) ?>" tabindex="2" />
 	                
 	                <?php if( $hide_options ) { ?>
@@ -380,7 +380,7 @@ if( !function_exists( 'ms_global_search_form' ) ) {
 			<form class="ms-global-search_form" method="get" action="<?php echo get_bloginfo( 'wpurl' ).'/'.$page.'/'; ?>">
 				<div>
 				    <p><?php _e( 'Search across all blogs:', 'ms-global-search' ) ?></p>
-				    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="16" tabindex="1" />
+				    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="16" maxlength="150" tabindex="1" />
 				    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' )?>" tabindex="2" />
 				    
 				    <?php if( $hide_options ) { ?>
