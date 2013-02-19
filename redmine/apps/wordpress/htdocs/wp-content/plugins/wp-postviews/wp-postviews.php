@@ -39,14 +39,21 @@ function postviews_textdomain() {
 add_action('admin_menu', 'postviews_menu');
 function postviews_menu() {
 
-	if( !is_admin() )
-		return;
+	if(!is_admin())  
+		return;  
 
 	if (function_exists('add_options_page')) {
 		add_options_page(__('PostViews', 'wp-postviews'), __('PostViews', 'wp-postviews'), 'manage_options', 'wp-postviews/postviews-options.php') ;
 	}
 }
 
+function get_option_views_options()
+{
+	switch_to_blog(1);
+	$val = get_option('views_options');
+	restore_current_blog();
+	return $val;
+};
 
 ### Function: Calculate Post Views
 add_action('wp_head', 'process_postviews');
@@ -58,7 +65,10 @@ function process_postviews() {
 	if(!wp_is_post_revision($post)) {
 		if(is_single() || is_page()) {
 			$id = intval($post->ID);
-			$views_options = get_option('views_options');
+
+			//$views_options = get_option('views_options');
+			$views_options = get_option_views_options();
+
 			$post_views = get_post_custom($id);
 			$post_views = intval($post_views['views'][0]);
 			$should_count = false;
@@ -111,7 +121,8 @@ function process_postviews() {
 ### Function: Determine If Post Views Should Be Displayed (By: David Potter)
 function should_views_be_displayed($views_options = null) {
 	if ($views_options == null) {
-		$views_options = get_option('views_options');
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
 	}
 	$display_option = 0;
 	if (is_home()) {
@@ -146,7 +157,10 @@ function should_views_be_displayed($views_options = null) {
 ### Function: Display The Post Views
 function the_views($display = true, $prefix = '', $postfix = '', $always = false) {
 	$post_views = intval(post_custom('views'));
-	$views_options = get_option('views_options');
+
+	//$views_options = get_option('views_options');
+	$views_options = get_option_views_options();
+
 	if ($always || should_views_be_displayed($views_options)) {
 		$output = $prefix.str_replace('%VIEW_COUNT%', number_format_i18n($post_views), $views_options['template']).$postfix;
 		if($display) {
@@ -165,7 +179,10 @@ function the_views($display = true, $prefix = '', $postfix = '', $always = false
 if(!function_exists('get_least_viewed')) {
 	function get_least_viewed($mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';
@@ -207,7 +224,10 @@ if(!function_exists('get_least_viewed')) {
 if(!function_exists('get_most_viewed')) {
 	function get_most_viewed($mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';
@@ -249,7 +269,10 @@ if(!function_exists('get_most_viewed')) {
 if(!function_exists('get_least_viewed_category')) {
 	function get_least_viewed_category($category_id = 0, $mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';
@@ -296,7 +319,10 @@ if(!function_exists('get_least_viewed_category')) {
 if(!function_exists('get_most_viewed_category')) {
 	function get_most_viewed_category($category_id = 0, $mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';
@@ -343,7 +369,10 @@ if(!function_exists('get_most_viewed_category')) {
 if(!function_exists('get_most_viewed_tag')) {
 	function get_most_viewed_tag($tag_id = 0, $mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';
@@ -390,7 +419,10 @@ if(!function_exists('get_most_viewed_tag')) {
 if(!function_exists('get_least_viewed_tag')) {
 	function get_least_viewed_tag($tag_id = 0, $mode = '', $limit = 10, $chars = 0, $display = true) {
 		global $wpdb;
-		$views_options = get_option('views_options');
+
+		//$views_options = get_option('views_options');
+		$views_options = get_option_views_options();
+
 		$where = '';
 		$temp = '';
 		$output = '';

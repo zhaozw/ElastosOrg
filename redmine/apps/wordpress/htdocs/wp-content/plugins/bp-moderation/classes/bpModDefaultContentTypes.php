@@ -269,9 +269,9 @@ class bpModDefaultContentTypes
 
 //		return "$content\n\n$link";
 		if (is_null($link))
-			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;Views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;Comments</views>";
+			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments</views>";
 
-		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;Views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;Comments&nbsp;|&nbsp;</views>$link";
+		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;</views>$link";
 	}
 
 	function blog_page_append_link($content)
