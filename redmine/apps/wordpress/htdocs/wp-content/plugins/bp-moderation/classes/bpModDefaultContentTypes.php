@@ -267,7 +267,11 @@ class bpModDefaultContentTypes
 											 'unflagged_text' => __('Flag this post', 'bp-moderation')
 										));
 
-		return "$content\n\n$link";
+//		return "$content\n\n$link";
+		if (is_null($link))
+			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;Views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;Comments</views>";
+
+		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;Views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;Comments&nbsp;|&nbsp;</views>$link";
 	}
 
 	function blog_page_append_link($content)
