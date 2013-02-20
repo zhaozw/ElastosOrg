@@ -39,7 +39,7 @@ function postviews_textdomain() {
 add_action('admin_menu', 'postviews_menu');
 function postviews_menu() {
 
-	if(!is_admin())  
+	if(get_current_blog_id()>1)  
 		return;  
 
 	if (function_exists('add_options_page')) {
