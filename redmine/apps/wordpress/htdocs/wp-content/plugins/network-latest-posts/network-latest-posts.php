@@ -1066,11 +1066,17 @@ function nlp_custom_excerpt($count, $content, $permalink, $excerpt_trail){
     $content = preg_replace("/\[(.*?)\]/i", '', $content);
     $content = strip_tags($content);
 
-    if (mb_strlen($content) > 300)
+    $add_more = false;
+    if (mb_strlen($content) > 300) {
         $content = mb_substr($content,0,300);
+        $add_more = true;
+    }
 
     // Get the words
     $words = explode(' ', $content, $count + 1);
+    if ( $add_more || count($words) <= $count )
+        return $content;
+
     // Pop everything
     array_pop($words);
     // Add trailing dots

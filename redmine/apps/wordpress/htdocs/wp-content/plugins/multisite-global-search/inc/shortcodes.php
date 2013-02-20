@@ -298,7 +298,10 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 <?php
 			$i = 0;
 	        $blogid = '';
-			$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents where FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 order by item_id");
+/*
+SELECT wp_bp_mod_contents.* from wp_bp_mod_contents,wp_bp_mod_flags where wp_bp_mod_contents.content_id=wp_bp_mod_flags.content_id AND FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 order by item_id
+*/
+			$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents," .$wpdb->base_prefix."bp_mod_flags where wp_bp_mod_contents.content_id=wp_bp_mod_flags.content_id AND FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 order by item_id");
 			$search = $wpdb->get_results( $request );
 	        foreach( $search as $s ) {
 
