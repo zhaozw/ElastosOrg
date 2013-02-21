@@ -25,6 +25,12 @@
 	font-style: normal;
 	font-family: inherit;
 }
+.nlposts-container-p a {
+	text-decoration: none;
+	color: #004499;
+	font-style: normal;
+	font-family: inherit;
+}
 .nlposts-container a:hover,
 .nlposts-container a:active {
     outline: 0;
@@ -561,6 +567,16 @@
     margin-left: auto;
     margin-right: auto;
     margin-right: 5px;
+    margin-bottom: 10px;
+}
+.nlposts-block-container .nlposts-block-item-p {
+    float:left;
+    display:block;
+    width:99.8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 .nlposts-block-container .nlposts-block-meta {
     font-style: italic;

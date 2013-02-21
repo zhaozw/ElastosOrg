@@ -218,7 +218,8 @@ function network_latest_posts( $parameters ) {
         'wrapper_block_css'=> 'content',     // Custom CSS classes for the block wrapper
         'instance'         => NULL,          // Instance identifier, used to uniquely differenciate each shortcode or widget used
         'random'           => FALSE,         // Pull random posts (true or false)
-        'post_ignore'      => NULL           // Post ID(s) to ignore
+        'post_ignore'      => NULL,          // Post ID(s) to ignore
+        'where'            => 'main'         // Post ID(s) to ignore
     );
     // Parse & merge parameters with the defaults
     $settings = wp_parse_args( $parameters, $defaults );
@@ -232,7 +233,7 @@ function network_latest_posts( $parameters ) {
     // If no instance was set, make one
     if( empty($instance) ) { $instance = 'default'; }
     // HTML Tags
-    $html_tags = nlp_display_type($display_type, $instance, $wrapper_list_css, $wrapper_block_css);
+    $html_tags = nlp_display_type($display_type, $instance, $wrapper_list_css, $wrapper_block_css, $where);
     // If Custom CSS
     if( !empty($css_style) ) {
         // If RTL
@@ -360,7 +361,12 @@ function network_latest_posts( $parameters ) {
         // create an array
         $post_ignore = explode(",",$post_ignore);
     }
+
     // If it found something
+
+	//use admin's blog-option setting
+	$format = get_blog_option(1,'date_format');
+
     if( $blogs ) {
         // Count blogs found
         $count_blogs = count($blogs);
@@ -369,7 +375,7 @@ function network_latest_posts( $parameters ) {
             // Options: Site URL, Blog Name, Date Format
             ${'blog_url_'.$blog_key} = get_blog_option($blog_key,'siteurl');
             ${'blog_name_'.$blog_key} = get_blog_option($blog_key,'blogname');
-            ${'date_format_'.$blog_key} = get_blog_option($blog_key,'date_format');
+            //${'date_format_'.$blog_key} = get_blog_option($blog_key,'date_format');
             // Orderby
             if( $random == 'true' ) { $orderby = 'rand'; } else { $orderby = 'post_date'; }
             // Categories or Tags
@@ -587,6 +593,14 @@ function network_latest_posts( $parameters ) {
             add_query_arg('pag','%#%');
             // Print out the posts
             foreach( $pages[$pag-1] as $field ) {
+                if (strcmp($where, "page") == 0) {
+                    if (mb_strlen($field->post_title)>60)
+                        $field->post_title = mb_substr($field->post_title,0,60) . "...";
+                } else {
+                    if (mb_strlen($field->post_title)>40)
+                        $field->post_title = mb_substr($field->post_title,0,40) . "...";
+                }
+
                 // Open item box
                 $item_o = $html_tags['item_o'];
                 $item_o = str_replace("'>"," nlposts-siteid-".$all_blogkeys[$field->guid]."'>", $item_o);
@@ -661,7 +675,7 @@ function network_latest_posts( $parameters ) {
                         echo $html_tags['meta_o'];
                         // Set metainfo
                         $author = get_user_by('id',$field->post_author);
-                        $format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
+                        //$format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
                         $datepost = date_i18n($format, strtotime(trim( $field->post_date) ) );
                         $blog_name = '<a href="'.${'blog_url_'.$all_blogkeys[$field->guid]}.'">'.${'blog_name_'.$all_blogkeys[$field->guid]}."</a>";
                         // The network's root (main blog) is called 'blog',
@@ -716,7 +730,7 @@ function network_latest_posts( $parameters ) {
                         echo $html_tags['meta_o'];
                         // Set metainfo
                         $author = get_user_by('id',$field->post_author);
-                        $format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
+                        //$format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
                         $datepost = date_i18n($format, strtotime(trim( $field->post_date) ) );
                         $blog_name = '<a href="'.${'blog_url_'.$all_blogkeys[$field->guid]}.'">'.${'blog_name_'.$all_blogkeys[$field->guid]}."</a>";
                         // The network's root (main blog) is called 'blog',
@@ -879,7 +893,7 @@ function network_latest_posts( $parameters ) {
                         echo $html_tags['meta_o'];
                         // Set metainfo
                         $author = get_user_by('id',$field->post_author);
-                        $format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
+                        //$format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
                         $datepost = date_i18n($format, strtotime(trim( $field->post_date) ) );
                         $blog_name = '<a href="'.${'blog_url_'.$all_blogkeys[$field->guid]}.'">'.${'blog_name_'.$all_blogkeys[$field->guid]}."</a>";
                         // The network's root (main blog) is called 'blog',
@@ -934,7 +948,7 @@ function network_latest_posts( $parameters ) {
                         echo $html_tags['meta_o'];
                         // Set metainfo
                         $author = get_user_by('id',$field->post_author);
-                        $format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
+                        //$format = (string)${'date_format_'.$all_blogkeys[$field->guid]};
                         $datepost = date_i18n($format, strtotime(trim( $field->post_date) ) );
                         $blog_name = '<a href="'.${'blog_url_'.$all_blogkeys[$field->guid]}.'">'.${'blog_name_'.$all_blogkeys[$field->guid]}."</a>";
                         // The network's root (main blog) is called 'blog',
@@ -1074,7 +1088,7 @@ function nlp_custom_excerpt($count, $content, $permalink, $excerpt_trail){
 
     // Get the words
     $words = explode(' ', $content, $count + 1);
-    if ( $add_more || count($words) <= $count )
+    if ( !$add_more && count($words) <= $count )
         return $content;
 
     // Pop everything
@@ -1107,7 +1121,7 @@ function nlp_custom_excerpt($count, $content, $permalink, $excerpt_trail){
  * @display_type: ulist, olist, block, inline
  * return @html_tags
  */
-function nlp_display_type($display_type, $instance, $wrapper_list_css, $wrapper_block_css) {
+function nlp_display_type($display_type, $instance, $wrapper_list_css, $wrapper_block_css, $where) {
     // Instances
     if( !empty($instance) ) { $nlp_instance = "nlp-instance-$instance"; }
     // Display Types
@@ -1186,6 +1200,17 @@ function nlp_display_type($display_type, $instance, $wrapper_list_css, $wrapper_
                 'excerpt_o' => "<div class='nlposts-block-excerpt'><p>",
                 'excerpt_c' => "</p></div>"
             );
+
+            if (strcmp($where, "page") == 0) {
+                $html_tags['content_o'] = "<div class='nlposts-container nlposts-block-container nlposts-container-p $nlp_instance'>";
+                $html_tags['item_o'] = "<div class='nlposts-block-item-p'>";
+                break;
+            }
+            if (strcmp($where, "page2") == 0) {
+                $html_tags['content_o'] = "<div class='nlposts-container nlposts-block-container nlposts-container-p $nlp_instance'>";
+                break;
+            }
+
             break;
         default:
             // Unordered list

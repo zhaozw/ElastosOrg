@@ -571,7 +571,11 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		<?php  while ($r->have_posts()) : $r->the_post(); ?>
 		<li><a href="<?php the_permalink() ?>" title="<?php echo esc_attr(get_the_title() ? get_the_title() : get_the_ID()); ?>"><?php if ( get_the_title() ) the_title(); else the_ID(); ?></a></li>
 		<?php endwhile; ?>
-		<li><a style="color:#BC1518;" href="http://elastos.org/elastos_org_network-posts/" title="more posts">more...</a></li>
+		
+		<?php if (get_current_blog_id() <= 1)
+		echo '<li><a href="http://elastos.org/elastos_org_network-posts/" title="more posts"><img src="http://elastos.org/elorg_common/img/excerpt_trail.gif"></a></li>';
+		?>
+
 		</ul>
 		<?php echo $after_widget; ?>
 <?php
