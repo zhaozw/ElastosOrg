@@ -279,7 +279,6 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 								<span class="globalsearch_comment"><?php ms_global_search_get_comments_link( $s ); ?></span>
 								<span class="globalsearch_date"><?php echo date($format, strtotime( $s->post_date ) ); ?></span>
 								<span class="globalsearch_author"><?php echo '<a href="http://' . $s->domain.$s->path.'author/'.$author->user_nicename . '" title="' . $author->user_nicename . '">' . $author->user_nicename . '</a>'; ?></span>
-								<?php echo ms_global_search_get_edit_link( $s, '<span class="globalsearch_edit">', '</span>' ); ?>
 							</p>
 						</div>
 						
