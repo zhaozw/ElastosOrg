@@ -40,24 +40,24 @@
 
 /* Results */
 .globalsearch_post {
-	clear: both;
-	padding-top: 6px;
-    padding-bottom: 9px;
-    margin-bottom: 10px;
+    clear: both;
 } 
 
 .globalsearch_header {
-    margin: 0 10px 0 11px;
+    margin: 0px 0px 0px 0px;
     min-height: 38px;
     padding-top: 0px;
-    padding-bottom: 7px;
+    padding-bottom: 0px;
 }
 
 .globalsearch_title {
    font-weight: normal;
    font-size: 12px;
+   margin-bottom: 0px;
 }
-
+.globalsearch_title a {
+  color: #004499;
+}
 .globalsearch_meta {
     margin: 0;
 	overflow: hidden;
@@ -97,7 +97,6 @@
 }
 
 .globalsearch_content {
-    line-height: 160%;
-    margin: 10px 0 0 0;
+    margin: 0px 0 0 0;
     padding: 0;
 }

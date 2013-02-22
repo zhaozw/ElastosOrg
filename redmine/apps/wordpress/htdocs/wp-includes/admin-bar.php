@@ -72,6 +72,33 @@ add_action( 'in_admin_header', 'wp_admin_bar_render', 0 );
  * @since 3.3.0
  */
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
+    $wp_admin_bar->add_menu( array(
+        'id'    => 'wp-logo',
+        'title' => '<span><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="height:26px;width:26px;"/></span>',
+        'href'  => 'http://elastos.org/',
+        'meta'  => array(
+            'title' => __('ElastosOrg Home Page'),
+        ),
+    ) );
+
+    if ( is_user_logged_in() ) {
+        // Add "About WordPress" link
+        $wp_admin_bar->add_menu( array(
+            'parent' => 'wp-logo',
+            'id'     => 'about',
+            'title'  => __('About WordPress'),
+            'href'  => self_admin_url( 'about.php' ),
+        ) );
+    }
+
+    $wp_admin_bar->add_menu( array(
+        'parent'    => 'wp-logo-external',
+        'id'        => 'wporg',
+        'title'     => '<img src="http://elastos.org/favicon.ico"> ElastosOrg',
+        'href'      => 'http://elastos.org/',
+    ) );
+
+/*
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'wp-logo',
 		'title' => '<span class="ab-icon"></span>',
@@ -122,6 +149,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'title'     => __('Feedback'),
 		'href'      => __('http://wordpress.org/support/forum/requests-and-feedback'),
 	) );
+*/
 }
 
 /**
