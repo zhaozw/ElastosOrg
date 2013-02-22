@@ -173,8 +173,8 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 
 		extract( shortcode_atts( array( 'excerpt' => 'no' ), $atts ) );
 		
-		$term = strip_tags( apply_filters( 'get_search_query', get_query_var( 'mssearch' ) ) );
-	
+		$term = strip_tags( apply_filters( 'get_search_query', $term = trim(get_query_var('mssearch')) ) );
+
 		if( !empty( $term ) ) {
 		    // Literal keyword
             if( preg_match( '/^\"(.*?)\"$/', stripslashes($term) , $termmatch) ) {

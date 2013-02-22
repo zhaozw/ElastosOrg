@@ -116,8 +116,8 @@ class Multisite_Global_Search extends WP_Widget {
 		$rand = rand(); $rand2 = $rand + 1; ?>
 		<form class="ms-global-search_form" method="get" action="<?php echo get_bloginfo( 'wpurl' ).'/'.$page.'/'; ?>">
 			<div>
-			    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="22" maxlength="150" tabindex="1" />
-			    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' )?>" tabindex="2" />
+			    <input class="ms-global-search_vbox" name="mssearch" type="text" value="" size="22" maxlength="150" tabindex="1" placeholder="'key key' or blank"/>
+			    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' )?>" tabindex="2"/>
 			    
 			    <?php if( $hide_options ) { ?>
 			        <input title="<?php _e( 'Search on pages', 'ms-global-search' ); ?>" type="hidden" id="<?php echo $id_base.'_'.$rand2 ?>" name="msp" value="1" checked="checked" />
@@ -151,8 +151,8 @@ class Multisite_Global_Search extends WP_Widget {
 	    <form class="ms-global-search_form" method="get" action="<?php echo get_bloginfo( 'wpurl' ).'/'.$page.'/'; ?>">
 		    <div>
 			    <span><?php _e( 'Search across all blogs:', 'ms-global-search' ) ?>&nbsp;</span>
-			    <input class="ms-global-search_hbox" name="mssearch" type="text" value="" size="16" tabindex="1" />
-			    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' ) ?>" tabindex="2" />
+			    <input class="ms-global-search_hbox" name="mssearch" type="text" value="" size="16" tabindex="1"  placeholder="'key key' or blank"/>
+			    <input type="submit" class="button" value="<?php _e( 'Search', 'ms-global-search' ) ?>" tabindex="2"/>
                 
                 <?php if( $hide_options ) { ?>
                     <input title="<?php _e( 'Search on pages', 'ms-global-search' ); ?>" type="hidden" id="<?php echo $id_base.'_'.$rand2 ?>" name="msp" value="1" checked="checked" />
