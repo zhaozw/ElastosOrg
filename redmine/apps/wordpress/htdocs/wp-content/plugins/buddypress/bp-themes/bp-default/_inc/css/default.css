@@ -644,8 +644,7 @@ text-decoration:none;
 #nav ul li.sfhover > a,
 #nav ul li:hover > a {
     background-color: #A9D6E7;
-    color:red;
-		  text-decoration:underline;
+    color:#DE0000;
 }
 #nav ul li > a,
 #nav ul li > a {

@@ -315,13 +315,13 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	if ( count( $wp_admin_bar->user->blogs ) < 1 && ! is_super_admin() )
 		return;
 
-	$wp_admin_bar->add_menu( array(
-		'id'    => 'my-sites',
-		'title' => __( 'My Sites' ),
-		'href'  => admin_url( 'my-sites.php' ),
-	) );
-
 	if ( is_super_admin() ) {
+		$wp_admin_bar->add_menu( array(
+			'id'    => 'my-sites',
+			'title' => __( 'My Sites' ),
+			'href'  => admin_url( 'my-sites.php' ),
+		) );
+
 		$wp_admin_bar->add_group( array(
 			'parent' => 'my-sites',
 			'id'     => 'my-sites-super-admin',
@@ -357,6 +357,15 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 			'id'     => 'network-admin-v',
 			'title'  => __( 'Visit Network' ),
 			'href'   => network_home_url(),
+		) );
+	} else {
+		$primary_blog = get_user_meta( get_current_user_id(), 'primary_blog', true );
+		$blog_url = get_home_url($primary_blog);
+
+		$wp_admin_bar->add_menu( array(
+			'id'    => 'my-sites',
+			'title' => __( 'My Sites' ),
+			'href'  => rtrim($blog_url,'/') . '/wp-admin/my-sites.php',
 		) );
 	}
 
