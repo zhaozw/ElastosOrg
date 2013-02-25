@@ -112,7 +112,12 @@ else :
 				echo "<h3>{$user_blog->blogname}</h3>";
 			}
 
-			echo "<p>" . apply_filters( 'myblogs_blog_actions', "<a href='" . esc_url( get_home_url( $user_blog->userblog_id ) ). "'>" . __( 'Visit' ) . "</a> | <a href='" . esc_url( get_admin_url( $user_blog->userblog_id ) ) . "'>" . __( 'Dashboard' ) . "</a>", $user_blog ) . "</p>";
+			if ( current_user_can_for_blog( $user_blog->userblog_id, 'edit_dashboard' ) ) {
+				echo "<p>" . apply_filters( 'myblogs_blog_actions', "<a href='" . esc_url( get_home_url( $user_blog->userblog_id ) ). "'>" . __( 'Visit' ) . "</a> | <a href='" . esc_url( get_admin_url( $user_blog->userblog_id ) ) . "'>" . __( 'Dashboard' ) . "</a>", $user_blog ) . "</p>";
+			} else {
+				echo "<p>" . apply_filters( 'myblogs_blog_actions', "<a href='" . esc_url( get_home_url( $user_blog->userblog_id ) ). "'>" . __( 'Visit' ) . "</a>", $user_blog ) . "</p>";
+			}
+
 			echo apply_filters( 'myblogs_options', '', $user_blog );
 			echo "</td>";
 			$i++;

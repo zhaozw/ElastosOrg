@@ -382,7 +382,7 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 
 	foreach ( (array) $wp_admin_bar->user->blogs as $blog ) {
 
-if ( current_user_can_for_blog( $blog->userblog_id, 'edit_posts' ) ) {
+	if ( current_user_can_for_blog($blog->userblog_id, 'edit_posts') ) {
 		// @todo Replace with some favicon lookup.
 		//$blavatar = '<img src="' . esc_url( blavatar_url( blavatar_domain( $blog->siteurl ), 'img', 16, $blue_wp_logo_url ) ) . '" alt="Blavatar" width="16" height="16" />';
 		$blavatar = '<img src="' . esc_url($blue_wp_logo_url) . '" alt="' . esc_attr__( 'Blavatar' ) . '" width="16" height="16" class="blavatar"/>';
@@ -394,30 +394,33 @@ if ( current_user_can_for_blog( $blog->userblog_id, 'edit_posts' ) ) {
 			'parent'    => 'my-sites-list',
 			'id'        => $menu_id,
 			'title'     => $blavatar . $blogname,
-			'href'      => get_admin_url( $blog->userblog_id ),
+			'href'      => get_home_url( $blog->userblog_id ),
 		) );
+
+		if ( current_user_can_for_blog($blog->userblog_id, 'edit_dashboard') ) {
+			$wp_admin_bar->add_menu( array(
+				'parent' => $menu_id,
+				'id'     => $menu_id . '-d',
+				'title'  => __( 'Dashboard' ),
+				'href'   => get_admin_url( $blog->userblog_id ),
+			) );
+		}
 
 		$wp_admin_bar->add_menu( array(
 			'parent' => $menu_id,
-			'id'     => $menu_id . '-d',
-			'title'  => __( 'Dashboard' ),
-			'href'   => get_admin_url( $blog->userblog_id ),
+			'id'     => $menu_id . '-n',
+			'title'  => __( 'New Post' ),
+			'href'   => get_admin_url( $blog->userblog_id, 'post-new.php' ),
 		) );
 
-//		if ( current_user_can_for_blog( $blog->userblog_id, 'edit_posts' ) ) {
-			$wp_admin_bar->add_menu( array(
-				'parent' => $menu_id,
-				'id'     => $menu_id . '-n',
-				'title'  => __( 'New Post' ),
-				'href'   => get_admin_url( $blog->userblog_id, 'post-new.php' ),
-			) );
+		if ( current_user_can_for_blog($blog->userblog_id, 'moderate_comments') ) {
 			$wp_admin_bar->add_menu( array(
 				'parent' => $menu_id,
 				'id'     => $menu_id . '-c',
 				'title'  => __( 'Manage Comments' ),
 				'href'   => get_admin_url( $blog->userblog_id, 'edit-comments.php' ),
 			) );
-//		}
+		}
 
 		$wp_admin_bar->add_menu( array(
 			'parent' => $menu_id,
