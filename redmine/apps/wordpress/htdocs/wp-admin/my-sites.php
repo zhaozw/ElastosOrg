@@ -25,8 +25,9 @@ if ( 'updateblogsettings' == $action && isset( $_POST['primary_blog'] ) ) {
 
 	$blog = get_blog_details( (int) $_POST['primary_blog'] );
 	if ( $blog && isset( $blog->domain ) ) {
-		update_user_option( $current_user->ID, 'primary_blog', (int) $_POST['primary_blog'], true );
-		$updated = true;
+//elastos.org don't allow change one's 'primary_blog'
+//		update_user_option( $current_user->ID, 'primary_blog', (int) $_POST['primary_blog'], true );
+//		$updated = true;
 	} else {
 		wp_die( __( 'The primary site you chose does not exist.' ) );
 	}
@@ -39,7 +40,7 @@ get_current_screen()->add_help_tab( array(
 	'id'      => 'overview',
 	'title'   => __('Overview'),
 	'content' =>
-		'<p>' . __('This screen shows an individual user all of their sites in this network, and also allows that user to set a primary site. He or she can use the links under each site to visit either the frontend or the dashboard for that site.') . '</p>' .
+		'<p>' . __('This screen shows an individual user all of their sites in this network. He or she can use the links under each site to visit either the frontend or the dashboard for that site.') . '</p>' .
 		'<p>' . __('Up until WordPress version 3.0, what is now called a Multisite Network had to be installed separately as WordPress MU (multi-user).') . '</p>'
 ) );
 
@@ -93,6 +94,9 @@ else :
 		$split = $split + $cols;
 	}
 
+	$blue_wp_logo_url = includes_url('images/wpmini-blue.png');
+	$blavatar = '<img src="' . esc_url($blue_wp_logo_url) . '" alt="' . esc_attr__( 'Blavatar' ) . '" width="16" height="16" class="blavatar"/>';
+
 	$c = '';
 	foreach ( $rows as $row ) {
 		$c = $c == 'alternate' ? '' : 'alternate';
@@ -101,7 +105,13 @@ else :
 		foreach ( $row as $user_blog ) {
 			$s = $i == 3 ? '' : 'border-right: 1px solid #ccc;';
 			echo "<td valign='top' style='$s'>";
-			echo "<h3>{$user_blog->blogname}</h3>";
+
+			if ( current_user_can_for_blog( $user_blog->userblog_id, 'edit_posts' ) ) {
+				echo "<h3>" . $blavatar . $user_blog->blogname . "</h3>";
+			} else {
+				echo "<h3>{$user_blog->blogname}</h3>";
+			}
+
 			echo "<p>" . apply_filters( 'myblogs_blog_actions', "<a href='" . esc_url( get_home_url( $user_blog->userblog_id ) ). "'>" . __( 'Visit' ) . "</a> | <a href='" . esc_url( get_admin_url( $user_blog->userblog_id ) ) . "'>" . __( 'Dashboard' ) . "</a>", $user_blog ) . "</p>";
 			echo apply_filters( 'myblogs_options', '', $user_blog );
 			echo "</td>";

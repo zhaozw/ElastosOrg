@@ -156,7 +156,7 @@ textarea {
 	border-bottom-right-radius: 6px;
 	color: #fff;
 	height: auto;
-	margin-bottom: 20px;
+	margin-bottom: 4px;
 	padding-top: 25px;
 	position: relative;
 	z-index: 1000;
@@ -644,7 +644,8 @@ text-decoration:none;
 #nav ul li.sfhover > a,
 #nav ul li:hover > a {
     background-color: #A9D6E7;
-    color:#DE0000;
+    color:red;
+		  text-decoration:underline;
 }
 #nav ul li > a,
 #nav ul li > a {
@@ -999,6 +1000,16 @@ h2.pagetitle {
 }
 h2.pagetitle a,
 h2.posttitle a {
+	color: #666;
+	text-decoration: none;
+}
+h3.pagetitle {
+	line-height: 120%;
+	color: #004499;
+	font-weight: bold;
+}
+h3.pagetitle a,
+h3.posttitle a {
 	color: #666;
 	text-decoration: none;
 }
