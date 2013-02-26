@@ -244,6 +244,9 @@ function wp_admin_bar_site_menu( $wp_admin_bar ) {
 	if ( ! is_user_member_of_blog() && ! is_super_admin() )
 		return;
 
+	if ( ! current_user_can_for_blog(get_current_blog_id(), 'edit_dashboard') )
+		return;
+
 	$blogname = get_bloginfo('name');
 
 	if ( empty( $blogname ) )

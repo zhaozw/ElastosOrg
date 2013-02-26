@@ -1131,7 +1131,7 @@ function map_meta_cap( $cap, $user_id ) {
 		if ( defined( 'DISALLOW_UNFILTERED_HTML' ) && DISALLOW_UNFILTERED_HTML )
 			$caps[] = 'do_not_allow';
 		elseif ( is_multisite() && ! is_super_admin( $user_id ) )
-			$caps[] = 'do_not_allow';
+			$caps[] = $cap;
 		else
 			$caps[] = $cap;
 		break;
@@ -1226,6 +1226,8 @@ function current_user_can_for_blog( $blog_id, $capability ) {
 	if ( empty( $current_user ) )
 		return false;
 
+switch_to_blog( $blog_id );
+
 	// Create new object to avoid stomping the global current_user.
 	$user = new WP_User( $current_user->ID) ;
 
@@ -1235,7 +1237,12 @@ function current_user_can_for_blog( $blog_id, $capability ) {
 	$args = array_slice( func_get_args(), 2 );
 	$args = array_merge( array( $capability ), $args );
 
-	return call_user_func_array( array( &$user, 'has_cap' ), $args );
+	$ret = call_user_func_array( array( &$user, 'has_cap' ), $args );
+
+restore_current_blog();
+	return $ret;
+
+	//return call_user_func_array( array( &$user, 'has_cap' ), $args );
 }
 
 /**
