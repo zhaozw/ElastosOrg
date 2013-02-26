@@ -386,6 +386,7 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	foreach ( (array) $wp_admin_bar->user->blogs as $blog ) {
 
 	if ( current_user_can_for_blog($blog->userblog_id, 'edit_posts') ) {
+
 		// @todo Replace with some favicon lookup.
 		//$blavatar = '<img src="' . esc_url( blavatar_url( blavatar_domain( $blog->siteurl ), 'img', 16, $blue_wp_logo_url ) ) . '" alt="Blavatar" width="16" height="16" />';
 		$blavatar = '<img src="' . esc_url($blue_wp_logo_url) . '" alt="' . esc_attr__( 'Blavatar' ) . '" width="16" height="16" class="blavatar"/>';
