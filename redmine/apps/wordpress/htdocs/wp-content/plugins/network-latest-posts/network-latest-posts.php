@@ -401,7 +401,7 @@ function network_latest_posts( $parameters ) {
                 );
             }
             // Categories only
-            if( !empty($category) && empty($tag) ) {
+			else if( !empty($category) && empty($tag) ) {
                 $args = array(
                     'tax_query' => array(
                         array(
@@ -417,7 +417,7 @@ function network_latest_posts( $parameters ) {
                 );
             }
             // Tags only
-            if( !empty($tag) && empty($category) ) {
+			else if( !empty($tag) && empty($category) ) {
                 $args = array(
                     'tax_query' => array(
                         array(
@@ -433,7 +433,7 @@ function network_latest_posts( $parameters ) {
                 );
             }
             // Everything by Default
-            if( empty($category) && empty($tag) ) {
+			else if( empty($category) && empty($tag) ) {
                 // By default
                 $args = array(
                     'numberposts' => $number_posts,
@@ -1332,6 +1332,9 @@ function network_latest_posts_uninstall() {
  */
 // TinyMCE button settings
 function nlp_shortcode_button() {
+    if (! is_super_admin())
+        return;
+
     if ( current_user_can('edit_posts') && current_user_can('edit_pages') ) {
         add_filter('mce_external_plugins', 'nlp_shortcode_plugin');
         add_filter('mce_buttons', 'nlp_register_button');
