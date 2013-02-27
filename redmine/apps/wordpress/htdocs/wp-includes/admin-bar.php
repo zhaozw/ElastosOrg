@@ -315,7 +315,7 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 		return;
 
 	// Show only when the user has at least one site, or they're a super admin.
-	if ( count( $wp_admin_bar->user->blogs ) < 1 && ! is_super_admin() )
+	if ( count( $wp_admin_bar->user->blogs ) < 1 || is_super_admin() )
 		return;
 
 	if ( is_super_admin() ) {
