@@ -126,7 +126,7 @@ function get_user_by_openid($url) {
         if (!$userid) {
                 //$url is a string like: http://xilongpei.elastos.org/, get its sub-domain name into $username, treat it as user-name
                 $username = str_replace($url, 'http://', '');
-                $username = str_replace($username, 'elastos.org', '');
+                $username = str_replace($username, '.elastos.org', '');
                 $username = str_replace($username, '/', '');
              
                 $user = get_user_by('login', $username);
