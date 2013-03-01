@@ -3,7 +3,12 @@
 /*********************************************/
 
 /* common container */
-.elfinder { padding:0; position:relative; display:block; }
+.elfinder {
+	padding:0;
+	position:relative;
+	display:block;
+	font-size:16px;
+}
 
 /* right to left enviroment */
 .elfinder-rtl { text-align:right; direction:rtl; }
