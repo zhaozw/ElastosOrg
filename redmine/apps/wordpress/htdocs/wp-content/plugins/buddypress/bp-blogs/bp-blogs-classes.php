@@ -85,9 +85,9 @@ class BP_Blogs_Blog {
 		global $bp, $wpdb;
 
 		if ( !is_user_logged_in() || ( !bp_current_user_can( 'bp_moderate' ) && ( $user_id != bp_loggedin_user_id() ) ) )
-			$hidden_sql = "AND wb.public = 1";
+			$hidden_sql = "AND wb.public = 1 AND b.blog_id > 1";
 		else
-			$hidden_sql = '';
+			$hidden_sql = 'AND b.blog_id > 1';
 
 		$pag_sql = ( $limit && $page ) ? $wpdb->prepare( " LIMIT %d, %d", intval( ( $page - 1 ) * $limit), intval( $limit ) ) : '';
 
@@ -161,9 +161,9 @@ class BP_Blogs_Blog {
 
 		// Show logged in users their hidden blogs.
 		if ( !bp_is_my_profile() && !$show_hidden )
-			$blogs = $wpdb->get_results( $wpdb->prepare( "SELECT DISTINCT b.blog_id, b.id, bm1.meta_value as name, wb.domain, wb.path FROM {$bp->blogs->table_name} b, {$wpdb->base_prefix}blogs wb, {$bp->blogs->table_name_blogmeta} bm1 WHERE b.blog_id = wb.blog_id AND b.blog_id = bm1.blog_id AND bm1.meta_key = 'name' AND wb.public = 1 AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND b.user_id = %d ORDER BY b.blog_id", $user_id ) );
+			$blogs = $wpdb->get_results( $wpdb->prepare( "SELECT DISTINCT b.blog_id, b.id, bm1.meta_value as name, wb.domain, wb.path FROM {$bp->blogs->table_name} b, {$wpdb->base_prefix}blogs wb, {$bp->blogs->table_name_blogmeta} bm1 WHERE b.blog_id > 1 AND b.blog_id = wb.blog_id AND b.blog_id = bm1.blog_id AND bm1.meta_key = 'name' AND wb.public = 1 AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND b.user_id = %d ORDER BY b.blog_id", $user_id ) );
 		else
-			$blogs = $wpdb->get_results( $wpdb->prepare( "SELECT DISTINCT b.blog_id, b.id, bm1.meta_value as name, wb.domain, wb.path FROM {$bp->blogs->table_name} b, {$wpdb->base_prefix}blogs wb, {$bp->blogs->table_name_blogmeta} bm1 WHERE b.blog_id = wb.blog_id AND b.blog_id = bm1.blog_id AND bm1.meta_key = 'name' AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND b.user_id = %d ORDER BY b.blog_id", $user_id ) );
+			$blogs = $wpdb->get_results( $wpdb->prepare( "SELECT DISTINCT b.blog_id, b.id, bm1.meta_value as name, wb.domain, wb.path FROM {$bp->blogs->table_name} b, {$wpdb->base_prefix}blogs wb, {$bp->blogs->table_name_blogmeta} bm1 WHERE b.blog_id > 1 AND b.blog_id = wb.blog_id AND b.blog_id = bm1.blog_id AND bm1.meta_key = 'name' AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND b.user_id = %d ORDER BY b.blog_id", $user_id ) );
 
 		$total_blog_count = BP_Blogs_Blog::total_blog_count_for_user( $user_id );
 
@@ -202,9 +202,9 @@ class BP_Blogs_Blog {
 
 		// If the user is logged in return the blog count including their hidden blogs.
 		if ( ( is_user_logged_in() && $user_id == bp_loggedin_user_id() ) || bp_current_user_can( 'bp_moderate' ) )
-			return $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(DISTINCT b.blog_id) FROM {$bp->blogs->table_name} b LEFT JOIN {$wpdb->base_prefix}blogs wb ON b.blog_id = wb.blog_id WHERE wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND user_id = %d", $user_id) );
+			return $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(DISTINCT b.blog_id) FROM {$bp->blogs->table_name} b LEFT JOIN {$wpdb->base_prefix}blogs wb ON b.blog_id = wb.blog_id WHERE b.blog_id > 1 AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND user_id = %d", $user_id) );
 		else
-			return $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(DISTINCT b.blog_id) FROM {$bp->blogs->table_name} b LEFT JOIN {$wpdb->base_prefix}blogs wb ON b.blog_id = wb.blog_id WHERE wb.public = 1 AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND user_id = %d", $user_id) );
+			return $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(DISTINCT b.blog_id) FROM {$bp->blogs->table_name} b LEFT JOIN {$wpdb->base_prefix}blogs wb ON b.blog_id = wb.blog_id WHERE b.blog_id > 1 AND wb.public = 1 AND wb.deleted = 0 AND wb.spam = 0 AND wb.mature = 0 AND wb.archived = '0' AND user_id = %d", $user_id) );
 	}
 
 	function search_blogs( $filter, $limit = null, $page = null ) {
@@ -213,7 +213,9 @@ class BP_Blogs_Blog {
 		$filter = like_escape( $wpdb->escape( $filter ) );
 
 		if ( !bp_current_user_can( 'bp_moderate' ) )
-			$hidden_sql = "AND wb.public = 1";
+			$hidden_sql = "AND wb.public = 1 AND wb.blog_id > 1";
+		else
+			$hidden_sql = "AND wb.blog_id > 1";
 
 		if ( $limit && $page )
 			$pag_sql = $wpdb->prepare( " LIMIT %d, %d", intval( ( $page - 1 ) * $limit), intval( $limit ) );
@@ -227,7 +229,7 @@ class BP_Blogs_Blog {
 	function get_all( $limit = null, $page = null ) {
 		global $bp, $wpdb;
 
-		$hidden_sql = !bp_current_user_can( 'bp_moderate' ) ? "AND wb.public = 1" : '';
+		$hidden_sql = !bp_current_user_can( 'bp_moderate' ) ? "AND wb.public = 1 AND b.blog_id > 1" : 'AND b.blog_id > 1';
 		$pag_sql = ( $limit && $page ) ? $wpdb->prepare( " LIMIT %d, %d", intval( ( $page - 1 ) * $limit), intval( $limit ) ) : '';
 
 		$paged_blogs = $wpdb->get_results( $wpdb->prepare( "SELECT DISTINCT b.blog_id FROM {$bp->blogs->table_name} b LEFT JOIN {$wpdb->base_prefix}blogs wb ON b.blog_id = wb.blog_id WHERE wb.mature = 0 AND wb.spam = 0 AND wb.archived = '0' AND wb.deleted = 0 {$hidden_sql} {$pag_sql}" ) );
@@ -242,7 +244,9 @@ class BP_Blogs_Blog {
 		$letter = like_escape( $wpdb->escape( $letter ) );
 
 		if ( !bp_current_user_can( 'bp_moderate' ) )
-			$hidden_sql = "AND wb.public = 1";
+			$hidden_sql = "AND wb.public = 1 AND bm.blog_id > 1";
+		else
+			$hidden_sql = "AND bm.blog_id > 1";
 
 		if ( $limit && $page )
 			$pag_sql = $wpdb->prepare( " LIMIT %d, %d", intval( ( $page - 1 ) * $limit), intval( $limit ) );
