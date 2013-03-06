@@ -568,10 +568,18 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 		<?php echo $before_widget; ?>
 		<?php if ( $title ) echo $before_title . $title . $after_title; ?>
 		<ul>
-		<?php  while ($r->have_posts()) : $r->the_post(); ?>
-		<li><a href="<?php the_permalink() ?>" title="<?php echo esc_attr(get_the_title() ? get_the_title() : get_the_ID()); ?>"><?php if ( get_the_title() ) the_title(); else the_ID(); ?></a></li>
+		<?php  while ($r->have_posts()) : $r->the_post();
+
+			$the_title = get_the_title();
+			if (empty($the_title) )
+				$the_title = get_the_ID();
+
+			$the_title = snippet_text($the_title, 30);
+
+		?>
+		<li><a href="<?php the_permalink() ?>" title="<?php echo esc_attr($the_title); ?>"><?php echo $the_title; ?></a></li>
 		<?php endwhile; ?>
-		
+
 		<?php if (get_current_blog_id() <= 1)
 		echo '<li><a href="http://elastos.org/elastos_org_network-posts/" title="more posts"><img src="http://elastos.org/elorg_common/img/excerpt_trail.gif"></a></li>';
 		?>
@@ -681,7 +689,14 @@ class WP_Widget_Recent_Comments extends WP_Widget {
 		$output .= '<ul id="recentcomments">';
 		if ( $comments ) {
 			foreach ( (array) $comments as $comment) {
-				$output .=  '<li class="recentcomments">' . /* translators: comments widget: 1: comment author, 2: post link */ sprintf(_x('%1$s on %2$s', 'widgets'), get_comment_author_link(), '<a href="' . esc_url( get_comment_link($comment->comment_ID) ) . '">' . get_the_title($comment->comment_post_ID) . '</a>') . '</li>';
+
+				$the_title = get_the_title($comment->comment_post_ID);
+				if (empty($the_title) )
+					$the_title = $comment->comment_post_ID;
+
+				$the_title = snippet_text($the_title, 30);
+
+				$output .=  '<li class="recentcomments">' . /* translators: comments widget: 1: comment author, 2: post link */ sprintf(_x('%1$s on %2$s', 'widgets'), get_comment_author_link(), '<a href="' . esc_url( get_comment_link($comment->comment_ID) ) . '">' . $the_title . '</a>') . '</li>';
 			}
  		}
 		$output .= '</ul>';
