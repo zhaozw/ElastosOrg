@@ -6,7 +6,7 @@ if ( isset($_GET['prefix']) && is_string($_GET['prefix']) && preg_match('/^[a-zA
 
    include 'securimage.php';
 
-   $char_length = 4;
+   $char_length = 6;
    $chars = 'ABCDEFHKLMNPRSTUVWYZ234578';
    $chars_num = '234578'; // do not change this or the code will break!!
    // one random position always has to be a number so that a 4 letter swear word could never appear
@@ -89,7 +89,7 @@ if ( isset($_GET['prefix']) && is_string($_GET['prefix']) && preg_match('/^[a-zA
    include 'securimage.php';
 
    $img = new securimage();
-   $img->code_length = 4;
+   $img->code_length = 6;
 
    $img->image_width   = 175;
    $img->image_height  = 60;
