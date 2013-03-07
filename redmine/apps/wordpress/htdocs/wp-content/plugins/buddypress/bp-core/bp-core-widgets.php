@@ -64,7 +64,8 @@ class BP_Core_Members_Widget extends WP_Widget {
 						<div class="item">
 							<div class="item-title fn">
 							<?php
-								$url = str_replace('http://', 'http://'.bp_get_member_user_login().'.', bp_get_root_domain());
+								$usr = new WP_User(bp_get_member_user_id());
+								$url = get_blogaddress_by_id($usr->primary_blog);
 								echo '<a href="' . $url . '" title="' . $url .'">';
 								bp_member_name();
 							?>

@@ -44,7 +44,7 @@
 
 			<div class="item">
 				<div class="item-title">
-					<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
+					<a href="<?php $usr = new WP_User(bp_get_member_user_id()); echo get_blogaddress_by_id($usr->primary_blog);?>"><?php bp_member_name(); ?></a>
 
 					<?php if ( bp_get_member_latest_update() ) : ?>
 
