@@ -68,9 +68,18 @@ class BP_Groups_Widget extends WP_Widget {
 						<div class="item-avatar">
 							<a href="<?php bp_group_permalink() ?>" title="<?php bp_group_name() ?>"><?php bp_group_avatar_thumb() ?></a>
 						</div>
-
+<?php
+$id = get_groupblog_blog_id(bp_get_group_id());
+if ($id > 1) {
+	switch_to_blog($id);
+	$str = get_bloginfo( 'wpurl' );
+	restore_current_blog();
+} else {
+	$str = bp_get_group_permalink();
+}
+?>
 						<div class="item">
-							<div class="item-title"><a href="<?php bp_group_permalink() ?>" title="<?php bp_group_name() ?>"><?php bp_group_name() ?></a></div>
+							<div class="item-title"><a href="<?php echo $str ?>" title="<?php bp_group_name() ?>"><?php bp_group_name() ?></a></div>
 							<div class="item-meta">
 								<span class="activity">
 								<?php
