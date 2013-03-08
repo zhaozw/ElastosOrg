@@ -14,7 +14,16 @@
 				<?php bp_loggedin_user_avatar( 'type=thumb&width=40&height=40' ); ?>
 			</a>
 
-			<h4><?php echo bp_core_get_userlink( bp_loggedin_user_id() ); ?></h4>
+			<h4><?php 
+				$usr = new WP_User(bp_loggedin_user_id());
+				$url = get_blogaddress_by_id($usr->primary_blog);
+
+				$display_name = $usr->display_name;
+				if ( empty( $display_name ) )
+					$display_name = $usr->user_nicename;
+
+				echo '<a href="' . $url . '" title="' . $url . '">' . $display_name . '</a>'; 
+				?></h4>
 			<a class="button logout" href="<?php echo wp_logout_url( wp_guess_url() ); ?>"><?php _e( 'Log Out', 'buddypress' ); ?></a>
 
 			<?php do_action( 'bp_sidebar_me' ); ?>
