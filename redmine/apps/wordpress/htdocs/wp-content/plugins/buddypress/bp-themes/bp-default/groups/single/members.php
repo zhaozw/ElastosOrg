@@ -39,7 +39,7 @@
 
 				</a>
 
-				<h5><?php bp_group_member_link(); ?></h5>
+				<h5><a href="<?php $usr = new WP_User(bp_get_group_member_id()); echo get_blogaddress_by_id($usr->primary_blog);?>"><?php bp_member_name(); ?></a></h5>
 				<span class="activity"><?php bp_group_member_joined_since(); ?></span>
 
 				<?php do_action( 'bp_group_members_list_item' ); ?>
