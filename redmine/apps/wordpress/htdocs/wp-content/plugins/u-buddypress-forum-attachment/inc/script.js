@@ -249,7 +249,7 @@ var U_BP_Forum_Attachment = function(meta_id){
 	this.upload_complete = upload_complete;
 	this.upload_error = upload_error;
 	
-	$('#forum-topic-form div.submit').appendTo('#forum-topic-form');
+	//$('#forum-topic-form div.submit').appendTo('#forum-topic-form');
 	
 	reset_uploader();
 	reset_filelist();
