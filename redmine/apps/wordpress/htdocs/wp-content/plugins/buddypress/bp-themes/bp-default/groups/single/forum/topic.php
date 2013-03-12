@@ -140,11 +140,11 @@
 
 					<textarea name="reply_text" id="reply_text"></textarea>
 
-					<div class="submit">
-						<input type="submit" name="submit_reply" id="submit" value="<?php _e( 'Post Reply', 'buddypress' ); ?>" />
-					</div>
-
 					<?php do_action( 'groups_forum_new_reply_after' ); ?>
+
+					<div class="submit">
+						<input type="submit" name="submit_reply" id="submit" style="border-color: #298cba; color: #fff; background: #21759b repeat-x scroll left top;" value="<?php _e( 'Post Reply', 'buddypress' ); ?>" />
+					</div>
 
 					<?php wp_nonce_field( 'bp_forums_new_reply' ); ?>
 				</div>
