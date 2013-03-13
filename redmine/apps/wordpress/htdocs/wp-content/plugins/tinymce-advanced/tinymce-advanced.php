@@ -18,6 +18,26 @@ Released under the GPL v.2, http://www.gnu.org/copyleft/gpl.html
 */
 
 
+/*
+ * elastos.org
+ * use user's own setting, if (TinyMCE Advanced)'s setting not exist, use admin's setting,
+ * user can (Remove Setting) to tell system use admin's setting
+ */
+function my_get_option( $option, $default )
+{
+	//user has set it by himself
+	$btns1 = (array)get_option('tadv_btns1', array());
+	if (! empty($btns1) )
+		return get_option($option, $default);
+
+	switch_to_blog(1);
+	$val = get_option($option, $default);
+	restore_current_blog();
+
+	return $val;
+}
+
+
 if ( ! function_exists('tadv_paths') ) {
 	/*
 	If using domain mapping or plugins that change the path dinamically, edit these to set the proper path and URL.
@@ -35,12 +55,12 @@ if ( ! function_exists('tadv_paths') ) {
 
 if ( ! function_exists('tadv_version') ) {
 	function tadv_version() {
-		$ver = get_option('tadv_version', 0);
+		$ver = my_get_option('tadv_version', 0);
 
 		if ( $ver < 3420 ) {
 			update_option('tadv_version', 3420);
 
-			$plugins = array_diff( get_option('tadv_plugins', array()), array('media') );
+			$plugins = array_diff( my_get_option('tadv_plugins', array()), array('media') );
 			update_option('tadv_plugins', $plugins);
 		}
 	}
@@ -60,7 +80,7 @@ if ( ! function_exists('tadv_add_scripts') ) {
 
 if ( ! function_exists('tadv_load_defaults') ) {
 	function tadv_load_defaults() {
-		$tadv_options = get_option('tadv_options');
+		$tadv_options = my_get_option('tadv_options');
 		if ( ! empty($tadv_options) )
 			return;
 
@@ -112,9 +132,9 @@ $tadv_hidden_row = 0;
 if ( ! function_exists('tadv_mce_btns') ) {
 	function tadv_mce_btns($orig) {
 		global $tadv_allbtns, $tadv_hidden_row;
-		$tadv_btns1 = (array) get_option('tadv_btns1', array());
-		$tadv_allbtns = (array) get_option('tadv_allbtns', array());
-		$tadv_options = get_option('tadv_options', array());
+		$tadv_btns1 = (array) my_get_option('tadv_btns1', array());
+		$tadv_allbtns = (array) my_get_option('tadv_allbtns', array());
+		$tadv_options = my_get_option('tadv_options', array());
 
 		if ( in_array( 'wp_adv', $tadv_btns1 ) )
 			$tadv_hidden_row = 2;
@@ -133,7 +153,7 @@ if ( ! function_exists('tadv_mce_btns') ) {
 if ( ! function_exists('tadv_mce_btns2') ) {
 	function tadv_mce_btns2($orig) {
 		global $tadv_allbtns, $tadv_hidden_row;
-		$tadv_btns2 = (array) get_option('tadv_btns2', array());
+		$tadv_btns2 = (array) my_get_option('tadv_btns2', array());
 
 		if ( in_array( 'wp_adv', $tadv_btns2 ) )
 			$tadv_hidden_row = 3;
@@ -151,7 +171,7 @@ if ( ! function_exists('tadv_mce_btns2') ) {
 if ( ! function_exists('tadv_mce_btns3') ) {
 	function tadv_mce_btns3($orig) {
 		global $tadv_allbtns, $tadv_hidden_row;
-		$tadv_btns3 = (array) get_option('tadv_btns3', array());
+		$tadv_btns3 = (array) my_get_option('tadv_btns3', array());
 
 		if ( in_array( 'wp_adv', $tadv_btns3 ) )
 			$tadv_hidden_row = 4;
@@ -169,7 +189,7 @@ if ( ! function_exists('tadv_mce_btns3') ) {
 if ( ! function_exists('tadv_mce_btns4') ) {
 	function tadv_mce_btns4($orig) {
 		global $tadv_allbtns;
-		$tadv_btns4 = (array) get_option('tadv_btns4', array());
+		$tadv_btns4 = (array) my_get_option('tadv_btns4', array());
 
 		if ( is_array($orig) && ! empty($orig) ) {
 			$orig = array_diff( $orig, $tadv_allbtns );
@@ -184,7 +204,7 @@ if ( ! function_exists('tadv_mce_btns4') ) {
 if ( ! function_exists('tadv_mce_options') ) {
 	function tadv_mce_options($init) {
 		global $tadv_hidden_row;
-		$tadv_options = get_option('tadv_options', array());
+		$tadv_options = my_get_option('tadv_options', array());
 
 		if ( $tadv_hidden_row > 0 )
 			$init['wordpress_adv_toolbar'] = 'toolbar' . $tadv_hidden_row;
@@ -205,7 +225,7 @@ if ( ! function_exists('tadv_mce_options') ) {
 
 if ( ! function_exists('tadv_htmledit') ) {
 	function tadv_htmledit($c) {
-		$tadv_options = get_option('tadv_options', array());
+		$tadv_options = my_get_option('tadv_options', array());
 
 		if ( isset($tadv_options['no_autop']) && $tadv_options['no_autop'] == 1 ) {
 			$c = str_replace( array('&amp;', '&lt;', '&gt;'), array('&', '<', '>'), $c );
@@ -220,8 +240,8 @@ if ( ! function_exists('tadv_htmledit') ) {
 
 if ( ! function_exists('tmce_replace') ) {
 	function tmce_replace() {
-		$tadv_options = get_option('tadv_options', array());
-		$tadv_plugins = get_option('tadv_plugins', array());
+		$tadv_options = my_get_option('tadv_options', array());
+		$tadv_plugins = my_get_option('tadv_plugins', array());
 
 		if ( isset($tadv_options['no_autop']) && $tadv_options['no_autop'] == 1 ) { ?>
 
@@ -247,8 +267,8 @@ if ( typeof(jQuery) != 'undefined' ) {
 
 if ( ! function_exists('tadv_load_plugins') ) {
 	function tadv_load_plugins($plug) {
-		$tadv_plugins = get_option('tadv_plugins');
-		$tadv_options = get_option('tadv_options', array());
+		$tadv_plugins = my_get_option('tadv_plugins');
+		$tadv_options = my_get_option('tadv_options', array());
 
 		if ( isset($tadv_options['editorstyle']) && $tadv_options['editorstyle'] == '1' )
 			add_editor_style(); // import user created editor-style.css
@@ -270,7 +290,7 @@ if ( ! function_exists('tadv_load_plugins') ) {
 
 if ( ! function_exists('tadv_load_langs') ) {
 	function tadv_load_langs($langs) {
-		$tadv_plugins = get_option('tadv_plugins');
+		$tadv_plugins = my_get_option('tadv_plugins');
 		if ( empty($tadv_plugins) || !is_array($tadv_plugins) )
 			return $langs;
 
