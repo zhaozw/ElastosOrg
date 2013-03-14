@@ -60,6 +60,8 @@ if ( ! function_exists('tadv_version') ) {
 		if ( $ver < 3420 ) {
 			update_option('tadv_version', 3420);
 
+			delete_option('tadv_btns1');
+
 			$plugins = array_diff( my_get_option('tadv_plugins', array()), array('media') );
 			update_option('tadv_plugins', $plugins);
 		}
@@ -97,7 +99,11 @@ if ( ! function_exists('tadv_load_defaults') ) {
 			add_option( 'tadv_allbtns', $tadv_allbtns, '', 'no' );
 		}
 	}
-	add_action( 'admin_init', 'tadv_load_defaults' );
+
+	/*elastos.org
+	 *don't set init value , the default value is admin's setting which will be changed at any time.
+	 *add_action( 'admin_init', 'tadv_load_defaults' );
+	 */
 }
 
 if ( ! function_exists('tdav_get_file') ) {
