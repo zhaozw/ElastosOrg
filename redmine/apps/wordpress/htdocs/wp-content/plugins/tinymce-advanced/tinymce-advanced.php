@@ -23,7 +23,7 @@ Released under the GPL v.2, http://www.gnu.org/copyleft/gpl.html
  * use user's own setting, if (TinyMCE Advanced)'s setting not exist, use admin's setting,
  * user can (Remove Setting) to tell system use admin's setting
  */
-function my_get_option( $option, $default )
+function my_get_option( $option, $default = false )
 {
 	//user has set it by himself
 	$btns1 = (array)get_option('tadv_btns1', array());
