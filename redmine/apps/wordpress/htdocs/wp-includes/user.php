@@ -1510,9 +1510,7 @@ function _get_additional_user_keys( $user ) {
  */
 function _wp_get_user_contactmethods( $user = null ) {
 	$user_contactmethods = array(
-		'aim' => __('AIM'),
-		'yim' => __('Yahoo IM'),
-		'jabber' => __('Jabber / Google Talk')
+		'ela_setting' => __('ElastosOrg settings')
 	);
 	return apply_filters( 'user_contactmethods', $user_contactmethods, $user );
 }
