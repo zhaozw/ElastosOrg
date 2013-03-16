@@ -304,7 +304,7 @@ function openid_profile_panel() {
 					<option value="-1" selected="selected"><?php _e('Bulk Actions'); ?></option>
 					<option value="delete"><?php _e('Delete'); ?></option>
 				</select>
-				<input type="submit" value="<?php _e('Apply'); ?>" name="doaction" id="doaction" class="button-secondary action" />
+				<input type="submit" value="<?php _e('Apply'); ?>" name="doaction" id="doaction" class="button-secondary action" disabled="disabled" />
 				<?php wp_nonce_field('openid-delete_openids'); ?>
 			</div>
 			<div class="clear"></div>
@@ -350,7 +350,7 @@ function openid_profile_panel() {
 		</table>
 		<?php wp_nonce_field('openid-add_openid'); ?>
 		<p class="submit">
-			<input type="submit" class="button-primary" value="<?php _e('Add OpenID', 'openid') ?>" />
+			<input type="submit" class="button-primary" value="<?php _e('Add OpenID', 'openid') ?>" disabled="disabled" />
 			<input type="hidden" name="action" value="add" >
 		</p>
 		</form>
