@@ -350,6 +350,7 @@ if ( is_multisite() && is_network_admin() && ! IS_PROFILE_PAGE && current_user_c
 </tr>
 
 <?php
+  if ( is_super_admin() ) {
 	foreach (_wp_get_user_contactmethods( $profileuser ) as $name => $desc) {
 ?>
 <tr>
@@ -357,6 +358,7 @@ if ( is_multisite() && is_network_admin() && ! IS_PROFILE_PAGE && current_user_c
 	<td><input type="text" name="<?php echo $name; ?>" id="<?php echo $name; ?>" value="<?php echo esc_attr($profileuser->$name) ?>" class="regular-text" /></td>
 </tr>
 <?php
+  }
 	}
 ?>
 </table>
