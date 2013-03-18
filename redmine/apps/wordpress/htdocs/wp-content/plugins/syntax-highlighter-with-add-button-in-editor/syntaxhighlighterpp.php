@@ -12,6 +12,24 @@ function highlighter_init() {
     $plugin_dir = dirname(plugin_basename(__FILE__));
     load_plugin_textdomain( 'sh', false , $plugin_dir.'/lang' );
 }
+
+function get_hl_option() {
+	$options = get_option('highlighter_options');
+	if ( empty($options) ) {
+		$options['highlighter_style'] = "Default";
+		$options['highlighter_tagName'] = "pre";
+		$options['highlighter_autolinks'] = "true";
+		$options['highlighter_collapse'] = "false";
+		$options['highlighter_firstline'] = 1;
+		$options['highlighter_gutter'] = "true";
+		$options['highlighter_smarttabs'] = "true";
+		$options['highlighter_tabsize'] = 4;
+		$options['highlighter_toolbar'] = "true";
+	}
+
+	return  $options;
+}
+
 function highlighter_activate() {
     $options['highlighter_style'] = "Default";
     $options['highlighter_tagName'] = "pre";
@@ -25,7 +43,7 @@ function highlighter_activate() {
     add_option( 'highlighter_options', $options );
 }
 function highlighter_footer() {
-    $options = get_option( 'highlighter_options' );
+    $options = get_hl_option();
     $current_path = get_option('siteurl') .'/wp-content/plugins/' . basename(dirname(__FILE__)) .'/';
     ?>
     <script type="text/javascript" src="<?php echo $current_path; ?>scripts/shCore.js"></script>
@@ -82,14 +100,14 @@ function highlighter_footer() {
     <?php
 }
 function highlighter_head() {
-    $options = get_option( 'highlighter_options' );
+    $options = get_hl_option();
     $current_path = get_option('siteurl') .'/wp-content/plugins/' . basename(dirname(__FILE__)) .'/';
     ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $current_path."styles/shCore".$options['highlighter_style'].".css"; ?>" />
     <?php
 }
 function codebox_init(){
-    $options = get_option( 'highlighter_options' );
+    $options = get_hl_option();
 ?>
 <div id="codebox" class="meta-box-sortables ui-sortable" style="position: relative;"><div class="postbox">
 <div class="handlediv" title="Click to toggle"></div>
@@ -159,7 +177,7 @@ function filter (str) {
 <?php
 }
 function highlighter_options_page() {
-        $options = get_option( 'highlighter_options' );
+        $options = get_hl_option();
 ?>
     <div class="wrap">
         <h2><?php echo __('Syntax-highlighter++','sh'); ?></h2>
@@ -195,7 +213,7 @@ function highlighter_section() {
 }
 function highlighter_style()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
     <select name="highlighter_options[highlighter_style]" id="highlighter_style" />
         <option value="Default" <?php if("Default"==$options['highlighter_style']) echo "selected='selected'"; ?>>Default</option>
@@ -209,14 +227,14 @@ $options = get_option( 'highlighter_options' );
 }
 function highlighter_tagName()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <input type="text" name="highlighter_options[highlighter_tagName]" id="highlighter_tagName" value="<?php echo $options['highlighter_tagName']; ?>" /><br />
 <?php
 }
 function highlighter_autolinks()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <select name="highlighter_options[highlighter_autolinks]" id="highlighter_autolinks" />
     <option value="true" <?php if("true"==$options['highlighter_autolinks']) echo "selected='selected'"; ?>>Yes</option>
@@ -226,7 +244,7 @@ $options = get_option( 'highlighter_options' );
 }
 function highlighter_collapse()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <select name="highlighter_options[highlighter_collapse]" id="highlighter_collapse" />
     <option value="true" <?php if("true"==$options['highlighter_collapse']) echo "selected='selected'"; ?>>Yes</option>
@@ -236,14 +254,14 @@ $options = get_option( 'highlighter_options' );
 }
 function highlighter_firstline()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
  <input type="text" name="highlighter_options[highlighter_firstline]" id="highlighter_firstline" value="<?php echo $options['highlighter_firstline']; ?>" /><br />
 <?php
 }
 function highlighter_gutter()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <select name="highlighter_options[highlighter_gutter]" id="highlighter_gutter" />
     <option value="true" <?php if("true"==$options['highlighter_gutter']) echo "selected='selected'"; ?>>Yes</option>
@@ -253,7 +271,7 @@ $options = get_option( 'highlighter_options' );
 }
 function highlighter_smarttabs()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <select name="highlighter_options[highlighter_smarttabs]" id="highlighter_smarttabs" />
     <option value="true" <?php if("true"==$options['highlighter_smarttabs']) echo "selected='selected'"; ?>>Yes</option>
@@ -263,14 +281,14 @@ $options = get_option( 'highlighter_options' );
 }
 function highlighter_tabsize()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
  <input type="text" name="highlighter_options[highlighter_tabsize]" id="highlighter_tabsize" value="<?php echo $options['highlighter_tabsize']; ?>" /><br />
 <?php
 }
 function highlighter_toolbar()
 {
-$options = get_option( 'highlighter_options' );
+$options = get_hl_option();
 ?>
 <select name="highlighter_options[highlighter_toolbar]" id="highlighter_toolbar" />
     <option value="true" <?php if("true"==$options['highlighter_toolbar']) echo "selected='selected'"; ?>>Yes</option>
