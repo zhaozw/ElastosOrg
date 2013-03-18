@@ -386,7 +386,6 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	foreach ( (array) $wp_admin_bar->user->blogs as $blog ) {
 
 	if ( current_user_can_for_blog($blog->userblog_id, 'edit_posts') ) {
-
 		// @todo Replace with some favicon lookup.
 		//$blavatar = '<img src="' . esc_url( blavatar_url( blavatar_domain( $blog->siteurl ), 'img', 16, $blue_wp_logo_url ) ) . '" alt="Blavatar" width="16" height="16" />';
 		$blavatar = '<img src="' . esc_url($blue_wp_logo_url) . '" alt="' . esc_attr__( 'Blavatar' ) . '" width="16" height="16" class="blavatar"/>';
@@ -681,10 +680,23 @@ function wp_admin_bar_search_menu( $wp_admin_bar ) {
 	if ( is_admin() )
 		return;
 
+$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 4);
+//whether the request come from Chinese
+if (preg_match("/zh-c/i", $lang)) {
+    $form = '<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" style="max-height:12px;">';
+    $form .= '  <span class="bds_more">....</span>';
+    $form .= '  </div>';
+    $form .= '  <script type="text/javascript" id="bdshare_js" data="type=tools&amp;mini=1&amp;uid=5906275" ></script>';
+    $form .= '  <script type="text/javascript" id="bdshell_js"></script>';
+    $form .= '  <script type="text/javascript">';
+    $form .= '  document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)';
+    $form .= '  </script>';
+} else {
 	$form  = '<form action="' . esc_url( home_url( '/' ) ) . '" method="get" id="adminbarsearch">';
 	$form .= '<input class="adminbar-input" name="s" id="adminbar-search" tabindex="10" type="text" value="" maxlength="150" />';
 	$form .= '<input type="submit" class="adminbar-button" value="' . __('Search') . '"/>';
 	$form .= '</form>';
+}
 
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'top-secondary',
