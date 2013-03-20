@@ -259,6 +259,9 @@ class bpModDefaultContentTypes
 			return $content;
 		}
 
+		$sql = "SELECT count(*) FROM wp_bp_mod_contents c NATURAL JOIN wp_bp_mod_flags f WHERE c.item_id = {$wpdb->blogid} AND c.item_id2 = {$post->ID}";
+		$num = $wpdb->get_var($sql);
+
 		$link = bpModFrontend::get_link(array(
 											 'type' => 'blog_post',
 											 'author_id' => $post->post_author,
@@ -269,9 +272,9 @@ class bpModDefaultContentTypes
 
 //		return "$content\n\n$link";
 		if (is_null($link))
-			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments</views>";
+			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</views>";
 
-		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;</views>$link";
+		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags&nbsp;|&nbsp;</views>" . $link;
 	}
 
 	function blog_page_append_link($content)
