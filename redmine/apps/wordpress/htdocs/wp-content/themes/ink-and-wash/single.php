@@ -16,9 +16,6 @@
 						<span><?php the_time('Y') ?></span>
 					</div>
 				</div>
-				<div class="comments">
-					<span class="cmt_num"><?php comments_popup_link('0', '1', '%'); ?></span>
-				</div>
 				
 			<div class="entry">
 				<?php the_content(__('More &raquo;', 'kubrick')); ?>
