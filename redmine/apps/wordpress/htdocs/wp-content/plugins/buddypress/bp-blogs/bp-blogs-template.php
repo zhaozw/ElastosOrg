@@ -359,7 +359,11 @@ function bp_blog_latest_post() {
 		if ( null == $blogs_template->blog->latest_post )
 			return false;
 
-		return apply_filters( 'bp_get_blog_latest_post', sprintf( __( 'Latest Post: %s', 'buddypress' ), '<a href="' . $blogs_template->blog->latest_post->guid . '">' . apply_filters( 'the_title', $blogs_template->blog->latest_post->post_title ) . '</a>' ) );
+		$post_title = $blogs_template->blog->latest_post->post_title;
+		if (mb_strlen($post_title) > 60)
+			$post_title = mb_substr($post_title,0,60) . "...";
+
+		return apply_filters( 'bp_get_blog_latest_post', sprintf( __( 'Latest Post: %s', 'buddypress' ), '<a href="' . $blogs_template->blog->latest_post->guid . '">' . apply_filters( 'the_title', $post_title ) . '</a>' ) );
 	}
 
 function bp_blog_hidden_fields() {
