@@ -314,8 +314,8 @@ PubSub.prototype.publish = function( topic, args ) {
 		$( document.body ).addClass( 'fullscreen-active' );
 		api.refresh_buttons();
 
-		$( document ).bind( 'mousemove.fullscreen', function(e) { bounder( 'showToolbar', 'hideToolbar', 2000, e ); } );
-		bounder( 'showToolbar', 'hideToolbar', 2000 );
+		$( document ).bind( 'mousemove.fullscreen', function(e) { bounder( 'showToolbar', 'hideToolbar', 7200000, e ); } );
+		bounder( 'showToolbar', 'hideToolbar', 7200000 );
 
 		api.bind_resize();
 		setTimeout( api.resize_textarea, 200 );
@@ -602,7 +602,7 @@ PubSub.prototype.publish = function( topic, args ) {
 				s.toolbars.removeClass('fullscreen-make-sticky');
 
 				if ( s.visible )
-					$( document ).bind( 'mousemove.fullscreen', function(e) { bounder( 'showToolbar', 'hideToolbar', 2000, e ); } );
+					$( document ).bind( 'mousemove.fullscreen', function(e) { bounder( 'showToolbar', 'hideToolbar', 7200000, e ); } );
 			});
 		},
 

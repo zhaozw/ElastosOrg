@@ -377,6 +377,7 @@ final class _WP_Editors {
 				unset($set['tinymce']['body_class']);
 			}
 
+/*I like the original fullscreen mode
 			if ( $set['dfw'] ) {
 				// replace the first 'fullscreen' with 'wp_fullscreen'
 				if ( ($key = array_search('fullscreen', $mce_buttons)) !== false )
@@ -388,7 +389,7 @@ final class _WP_Editors {
 				elseif ( ($key = array_search('fullscreen', $mce_buttons_4)) !== false )
 					$mce_buttons_4[$key] = 'wp_fullscreen';
 			}
-
+*/
 			$mceInit = array (
 				'elements' => $editor_id,
 				'wpautop' => (bool) $set['wpautop'],
@@ -676,7 +677,8 @@ final class _WP_Editors {
 		</div>
 	</div>
 
-	<div id="wp-fullscreen-wrap" style="width:<?php echo $dfw_width; ?>px;">
+<?php /*	<div id="wp-fullscreen-wrap" style="width:<?php echo $dfw_width; ?>px;">*/ ?>
+	<div id="wp-fullscreen-wrap" style="width:90%">
 		<?php if ( post_type_supports($post->post_type, 'title') ) { ?>
 		<label id="wp-fullscreen-title-prompt-text" for="wp-fullscreen-title"><?php echo apply_filters( 'enter_title_here', __( 'Enter title here' ), $post ); ?></label>
 		<input type="text" id="wp-fullscreen-title" value="" autocomplete="off" />
@@ -783,7 +785,7 @@ final class _WP_Editors {
 			<div class="link-search-wrapper">
 				<label>
 					<span><?php _e( 'Search' ); ?></span>
-					<input type="text" id="search-field" class="link-search-field" tabindex="60" autocomplete="off" />
+					<input type="search" id="search-field" class="link-search-field" tabindex="60" autocomplete="off" />
 					<img class="waiting" src="<?php echo esc_url( admin_url( 'images/wpspin_light.gif' ) ); ?>" alt="" />
 				</label>
 			</div>
