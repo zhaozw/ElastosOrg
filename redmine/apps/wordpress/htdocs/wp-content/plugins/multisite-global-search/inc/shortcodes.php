@@ -35,6 +35,10 @@ function ms_global_search_get_the_excerpt( $s ) {
 	$excerpt = $s->post_excerpt;
 	
 	if ( empty( $excerpt ) ) {
+
+		return nlp_custom_excerpt(55, $s->post_content, get_blog_permalink($s->blog_id, $s->ID), '');
+
+		/*
 	    $raw_excerpt = $excerpt;
 
         $add_more = false;
@@ -63,6 +67,7 @@ function ms_global_search_get_the_excerpt( $s ) {
 		}
 		
 		return $excerpt;
+		*/
 	} else {
 	    return apply_filters( 'get_the_excerpt', $excerpt );
 	}
