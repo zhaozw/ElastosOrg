@@ -563,6 +563,9 @@ class WP_Widget_Recent_Posts extends WP_Widget {
  			$number = 10;
 
 		$r = new WP_Query( apply_filters( 'widget_posts_args', array( 'posts_per_page' => $number, 'no_found_rows' => true, 'post_status' => 'publish', 'ignore_sticky_posts' => true ) ) );
+
+		$my_blog_id = get_current_blog_id();
+
 		if ($r->have_posts()) :
 ?>
 		<?php echo $before_widget; ?>
@@ -576,11 +579,17 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 
 			$the_title = snippet_text($the_title, 30);
 
+			if ($my_blog_id <= 1) {
+				echo '<li style="list-style-type:circle;">';
+			} else {
+				echo '<li>';
+			}
+
 		?>
-		<li><a href="<?php the_permalink() ?>" title="<?php echo esc_attr($the_title); ?>"><?php echo $the_title; ?></a></li>
+		<a href="<?php the_permalink() ?>" title="<?php echo esc_attr($the_title); ?>"><?php echo $the_title; ?></a></li>
 		<?php endwhile; ?>
 
-		<?php if (get_current_blog_id() <= 1)
+		<?php if ($my_blog_id <= 1)
 		echo '<li><a href="http://elastos.org/elastos_org_network-posts/" title="more posts"><img src="http://elastos.org/elorg_common/img/excerpt_trail.gif"></a></li>';
 		?>
 
