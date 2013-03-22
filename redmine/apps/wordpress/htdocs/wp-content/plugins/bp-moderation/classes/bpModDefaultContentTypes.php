@@ -272,9 +272,10 @@ class bpModDefaultContentTypes
 
 //		return "$content\n\n$link";
 		if (is_null($link))
-			return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</views>";
+			return $content . '<p style="text-indent:0em;"><span class="bpm-inner-text" style="text-decoration:none;">&nbsp;</span>' . "|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</p>";
 
-		return "$content\n\n<views class=\"entry-meta\">" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags&nbsp;|&nbsp;</views>" . $link;
+		return $content . '<p style="text-indent:0em;">' . $link . "&nbsp;|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</p>";
+
 	}
 
 	function blog_page_append_link($content)
