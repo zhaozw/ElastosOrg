@@ -202,7 +202,7 @@ class BP_XProfile_Component extends BP_Component {
 		$wp_admin_nav = array();
 
 		// Menus for logged in user
-		if ( is_user_logged_in() ) {
+		if ( false && is_user_logged_in() ) {
 
 			// Profile link
 			$profile_link = trailingslashit( bp_loggedin_user_domain() . $this->slug );
