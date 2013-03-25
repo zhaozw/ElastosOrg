@@ -88,6 +88,7 @@ class BPLabs_Autosuggest extends BPLabs_Beaker {
 		$args = array(
 			'count_total' => false,
 			'number'      => (int) $_POST['limit'],
+			'blog_id'     => 0,
 			'search'      => "{$search_query}*"
 		);
 
@@ -165,13 +166,13 @@ class BPLabs_Autosuggest extends BPLabs_Beaker {
 
 					} elseif ( 'others' == $section ) {
 						if ( !empty( $search_results['friends'] ) )
-							$html[] = sprintf( '<li class="section other"><p>%s</p></li>', sprintf( __( 'Other people on %s', 'bpl' ), get_bloginfo( 'name', 'display' ) ) );
+							$html[] = sprintf( '<li class="section other"><p>%s</p></li>', sprintf( __( 'Other people on <span style="background-color:#CEE1E8;color:#325C6B;">%s</span>', 'bpl' ), get_bloginfo( 'name', 'display' ) ) );
 						else
-							$html[] = sprintf( '<li class="section other"><p>%s</p></li>', sprintf( __( 'People on %s', 'bpl' ), get_bloginfo( 'name', 'display' ) ) );
+							$html[] = sprintf( '<li class="section other"><p>%s</p></li>', sprintf( __( 'People on <span style="background-color:#CEE1E8;color:#325C6B;">%s</span>', 'bpl' ), get_bloginfo( 'name', 'display' ) ) );
 					}
 
 					foreach ( $items as $item )
-						$html[] = sprintf( '<li class=%s><p>%s</p></li>', esc_attr( $item->id ), $item->avatar . esc_html( $item->name ) );
+						$html[] = sprintf( '<li class=%s><p>%s,  <span style="color:#4C99A2;">%s</span></p></li>', esc_attr( $item->id ), $item->avatar . esc_html( $item->name ), $item->id );
 
 				// For third-party extensions
 				} else {
