@@ -978,6 +978,11 @@ add_filter( 'pre_update_site_option_illegal_names', 'bp_core_get_illegal_names',
  */
 function bp_core_validate_user_signup( $user_name, $user_email ) {
 
+	global $bp;
+	global $wpdb;
+
+	$display_name = $_POST['field_1'];
+
 	$errors = new WP_Error();
 	$user_email = sanitize_email( $user_email );
 
@@ -1026,6 +1031,12 @@ function bp_core_validate_user_signup( $user_name, $user_email ) {
 	// Check if the username has been used already.
 	if ( username_exists( $user_name ) )
 		$errors->add( 'user_name', __( 'Sorry, that username already exists!', 'buddypress' ) );
+
+    //elastos.org changed
+	//display name, in $field_1, couldn't be other user's login_name
+	$user_count = $wpdb->get_var( $wpdb->prepare('SELECT count(*) FROM wp_users WHERE display_name like %s OR user_login like %s', $display_name, $display_name ));
+	if ( $user_count > 0 )
+        $bp->signup->errors['field_1'] = __( 'Sorry, that username already exists!', 'buddypress' );
 
 	// Check if the email address has been used already.
 	if ( email_exists( $user_email ) )

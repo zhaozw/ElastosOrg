@@ -238,7 +238,7 @@
 				<?php do_action( 'bp_before_registration_submit_buttons' ); ?>
 
 				<div class="submit">
-					<input type="submit" name="signup_submit" id="signup_submit" value="<?php _e( 'Complete Sign Up', 'buddypress' ); ?>" />
+					<input type="submit" name="signup_submit" id="signup_submit" style="border-color: #298cba; color: #fff; background: #21759b repeat-x scroll left top;" value="<?php _e( 'Complete Sign Up', 'buddypress' ); ?>" />
 				</div>
 
 				<?php do_action( 'bp_after_registration_submit_buttons' ); ?>
