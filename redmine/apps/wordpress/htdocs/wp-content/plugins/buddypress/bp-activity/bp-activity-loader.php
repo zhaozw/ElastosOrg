@@ -148,9 +148,17 @@ class BP_Activity_Component extends BP_Component {
 			'position'        => 10
 		);
 
+		// Unread message count
+		$count = bp_get_total_mention_count_for_user( bp_loggedin_user_id() );
+		if ( !empty( $count ) ) {
+			$title = sprintf( __( 'Mentions <span class="count">%s</span>', 'buddypress' ), number_format_i18n( $count ) );
+		} else {
+			$title = __( 'Mentions', 'buddypress' );
+		}
+
 		// @ mentions
 		$sub_nav[] = array(
-			'name'            => __( 'Mentions', 'buddypress' ),
+			'name'            => $title,
 			'slug'            => 'mentions',
 			'parent_url'      => $activity_link,
 			'parent_slug'     => $this->slug,
