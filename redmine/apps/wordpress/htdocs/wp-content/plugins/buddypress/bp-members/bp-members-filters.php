@@ -72,7 +72,7 @@ function bp_members_edit_profile_url( $url, $user_id, $scheme = 'admin' ) {
 	// If xprofile is active, use profile domain link
 	if ( bp_is_active( 'xprofile' ) ) {
 		$user_domain  = bp_core_get_user_domain( $user_id );
-		$profile_link = trailingslashit( $user_domain . $bp->profile->slug . '/edit' );
+		$profile_link = trailingslashit( $user_domain . $bp->profile->slug );
 	}
 	
 	return apply_filters( 'bp_members_edit_profile_url', $profile_link, $url, $user_id, $scheme );

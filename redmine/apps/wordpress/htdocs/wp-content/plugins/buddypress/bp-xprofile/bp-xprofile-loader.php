@@ -166,7 +166,7 @@ class BP_XProfile_Component extends BP_Component {
 			'screen_function' => 'xprofile_screen_display_profile',
 			'position'        => 10
 		);
-
+/*
 		// Edit Profile
 		$sub_nav[] = array(
 			'name'            => __( 'Edit', 'buddypress' ),
@@ -176,7 +176,7 @@ class BP_XProfile_Component extends BP_Component {
 			'screen_function' => 'xprofile_screen_edit_profile',
 			'position'        => 20
 		);
-
+*/
 		// Change Avatar
 		$sub_nav[] = array(
 			'name'            => __( 'Change Avatar', 'buddypress' ),
