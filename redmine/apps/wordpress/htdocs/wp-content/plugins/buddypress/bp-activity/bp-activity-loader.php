@@ -112,6 +112,7 @@ class BP_Activity_Component extends BP_Component {
 	function setup_nav() {
 
 		$sub_nav = array();
+		$user_id = bp_displayed_user_id();
 
 		// Add 'Activity' to the main navigation
 		$main_nav = array(
@@ -124,7 +125,7 @@ class BP_Activity_Component extends BP_Component {
 		);
 
 		// Stop if there is no user displayed or logged in
-		if ( !is_user_logged_in() && !bp_displayed_user_id() )
+		if ( !is_user_logged_in() && !$user_id )
 			return;
 
 		// Determine user to use
@@ -149,7 +150,7 @@ class BP_Activity_Component extends BP_Component {
 		);
 
 		// Unread message count
-		$count = bp_get_total_mention_count_for_user( bp_loggedin_user_id() );
+		$count = bp_get_total_mention_count_for_user( $user_id );
 		if ( !empty( $count ) ) {
 			$title = sprintf( __( 'Mentions <span class="count">%s</span>', 'buddypress' ), number_format_i18n( $count ) );
 		} else {
@@ -206,7 +207,7 @@ class BP_Activity_Component extends BP_Component {
 
 		$sub_nav[] = array(
 				'name'            => '<img src="http://elastos.org/elorg_common/img/bp-moderation_redflag.png">',
-				'slug'            => 'http://elastos.org/globalsearch/?mssearch=&msp=1&mswhere=all',
+				'slug'            => 'http://elastos.org/globalsearch/?mssearch=&msp=1&mswhere=all&mswho=' . $user_id,
 				'parent_url'      => $activity_link,
 				'parent_slug'     => $this->slug,
 

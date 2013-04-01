@@ -308,7 +308,11 @@ if( !function_exists( 'ms_global_search_page' ) ) {
 /*
 SELECT wp_bp_mod_contents.* from wp_bp_mod_contents,wp_bp_mod_flags where wp_bp_mod_contents.content_id=wp_bp_mod_flags.content_id AND FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 AND reporter_id=$get_current_user_id() order by item_id
 */
-			$usr_id = get_current_user_id();
+			//if in BuddyPress var mswho is set
+			$usr_id = trim(get_query_var('mswho'), '/');
+			if ($usr_id <= 0 )
+				$usr_id = get_current_user_id();
+
 			if ($usr_id > 0) {
 				$request = $wpdb->prepare( "SELECT ".$wpdb->base_prefix."bp_mod_contents.* from ".$wpdb->base_prefix."bp_mod_contents," .$wpdb->base_prefix."bp_mod_flags where wp_bp_mod_contents.content_id=wp_bp_mod_flags.content_id AND FIELD(item_type,'blog_post')!=0 AND FIELD(status,'Ignored')=0 AND reporter_id=" . $usr_id ." order by item_id");
 			} else {

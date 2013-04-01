@@ -33,6 +33,7 @@ function ms_global_search_queryvars( $qvars ) {
   $qvars[] = 'mssearch';
   $qvars[] = 'mswhere';
   $qvars[] = 'msp';
+  $qvars[] = 'mswho';
 
   return $qvars;
 }
