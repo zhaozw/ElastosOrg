@@ -204,6 +204,19 @@ class BP_Activity_Component extends BP_Component {
 			);
 		}
 
+		$sub_nav[] = array(
+				'name'            => '<img src="http://elastos.org/elorg_common/img/bp-moderation_redflag.png">',
+				'slug'            => 'http://elastos.org/globalsearch/?mssearch=&msp=1&mswhere=all',
+				'parent_url'      => $activity_link,
+				'parent_slug'     => $this->slug,
+
+				//this value is no use now, I have to set it a
+				'screen_function' => 'null',
+
+				'position'        => 60,
+				'item_css_id'     => 'activity-groups'
+			);
+
 		parent::setup_nav( $main_nav, $sub_nav );
 	}
 
