@@ -310,11 +310,20 @@ function wp_admin_bar_site_menu( $wp_admin_bar ) {
 function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	global $wpdb;
 
+	//show SNS menu
+	if (get_current_blog_id() > 1 ) {
+		$wp_admin_bar->add_menu( array(
+			'id'    => 'my-sns',
+			'title' => '<img src="http://elastos.org/elorg_common/img/buddypress.png">',
+			'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename'),
+		) );
+	}
+
 	// Don't show for logged out users or single site mode.
 	if ( ! is_user_logged_in() || ! is_multisite() )
 		return;
 
-	// Show only when the user has at least one site, or they're a super admin.
+	// Show only when the user has at least one site, or they're not a super admin.
 	if ( count( $wp_admin_bar->user->blogs ) < 1 || is_super_admin() )
 		return;
 
