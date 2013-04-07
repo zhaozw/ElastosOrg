@@ -35,11 +35,24 @@
 
 		<li>
 			<div class="item-avatar">
-				<a href="<?php bp_blog_permalink(); ?>"><?php bp_blog_avatar( 'type=thumb' ); ?></a>
+<?php
+global $blogs_template;
+
+$mail = get_blog_option($blogs_template->blog->blog_id, 'admin_email');
+$user_id = get_user_id_from_string($mail);
+
+if (is_super_admin() ) {
+	$more_str = '&nbsp;&nbsp;blog_id:' . $blogs_template->blog->blog_id;
+} else {
+	$more_str = '';
+}
+
+?>
+				<a href="<?php echo 'http://elastos.org/members/' . get_the_author_meta('nicename', $user_id); ?>"><?php bp_blog_avatar( 'type=thumb' ); ?></a>
 			</div>
 
 			<div class="item">
-				<div class="item-title"><a href="<?php bp_blog_permalink(); ?>"><?php bp_blog_name(); ?></a></div>
+				<div class="item-title"><a href="<?php bp_blog_permalink(); ?>"><?php bp_blog_name(); ?></a><?php echo $more_str; ?></div>
 				<div class="item-meta"><span class="activity"><?php bp_blog_last_active(); ?></span></div>
 
 				<?php do_action( 'bp_directory_blogs_item' ); ?>
