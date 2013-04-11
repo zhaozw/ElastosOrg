@@ -640,6 +640,7 @@ function edButton(id, display, tagStart, tagEnd, access, open) {
 	edButtons[110] = new qt.TagButton('code','code','<code>','</code>','c'),
 	edButtons[120] = new qt.TagButton('more','more','<!--more-->','','t'),
 	edButtons[130] = new qt.SpellButton(),
-	edButtons[140] = new qt.CloseButton()
+	edButtons[140] = new qt.CloseButton(),
+	edButtons[150] = new edButton('ed_indent2em','indent 2em','<p style="text-indent:2em;margin:0 0 0 0;">','</p>','pa');
 
 })();
