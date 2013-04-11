@@ -194,7 +194,6 @@ function highlighter_options_page() {
     </div>
 <?php
 }
-add_action('admin_init', 'highlighter_admin_init');
 function highlighter_admin_init(){
     register_setting( 'highlighter_options', 'highlighter_options', 'highlighter_options_validate' );
     add_settings_section('highlighter_main', __('Settings','sh'), 'highlighter_section', 'highlighter');
@@ -208,6 +207,11 @@ function highlighter_admin_init(){
     add_settings_field('tabsize', __('tabsize','sh'), 'highlighter_tabsize', 'highlighter', 'highlighter_main');
     add_settings_field('toolbar', __('toolbar','sh'), 'highlighter_toolbar', 'highlighter', 'highlighter_main');
 }
+
+if (function_exists('add_action')) {
+    add_action('admin_init', 'highlighter_admin_init');
+}
+
 function highlighter_section() {
     echo __('<p>Please enter your config.</p>','sh');
 }
