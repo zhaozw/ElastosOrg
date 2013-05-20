@@ -244,7 +244,25 @@ function _convert_urlencoded_to_entities( $match ) {
  * @uses apply_filters() Calls 'the_excerpt' hook on post excerpt.
  */
 function the_excerpt() {
-	echo apply_filters('the_excerpt', get_the_excerpt());
+/*
+ * don't use wp_trim_excerpt($text = '') in formating.php
+ *
+ * for apply_filters('the_content', $text); will cause no use extra action defined as:
+ *     add_filter('the_content', array(__CLASS__, 'blog_post_append_link')) in bpModDefaultContentTypes.php
+ *
+ *	echo apply_filters('the_excerpt', get_the_excerpt());
+ */
+	$text = get_the_content('');
+
+	$text = strip_shortcodes( $text );
+
+	//$text = apply_filters('the_content', $text);
+	$text = str_replace(']]>', ']]&gt;', $text);
+	$excerpt_length = apply_filters('excerpt_length', 55);
+	$excerpt_more = apply_filters('excerpt_more', ' ' . '[...]');
+	$text = wp_trim_words( $text, $excerpt_length, $excerpt_more );
+
+	echo apply_filters('the_excerpt', $text);
 }
 
 /**
