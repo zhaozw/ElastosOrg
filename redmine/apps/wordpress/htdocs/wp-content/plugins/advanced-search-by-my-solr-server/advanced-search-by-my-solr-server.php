@@ -53,7 +53,11 @@ THE SOFTWARE.
 require_once("advanced-search-by-my-solr-server.inc.php");
 
 function mss_plugin_admin_menu() {
-	add_options_page('Advanced Search by My Solr Server', 'Advanced Search by My Solr Server', 'manage_options', 'MySolrServerSettings', 'mss_plugin_admin_settings');
+	if ( ! is_super_admin() ) {
+		return;
+	}
+
+	add_options_page('Advanced Search by My Solr Server', 'Search by Solr', 'manage_options', 'MySolrServerSettings', 'mss_plugin_admin_settings');
 }
 
 function mss_plugin_admin_settings() {
