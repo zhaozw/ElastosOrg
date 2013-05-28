@@ -56,7 +56,10 @@ function decrypt($value) {
 }
 
 function mss_get_option() {
-	return get_option('plugin_mss_settings');
+	switch_to_blog(1);
+	$val = get_option('plugin_mss_settings');
+	restore_current_blog();
+	return $val;
 }
 
 function mss_update_option($optval) {
