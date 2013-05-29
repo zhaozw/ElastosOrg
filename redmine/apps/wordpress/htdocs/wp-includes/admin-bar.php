@@ -701,12 +701,22 @@ if (preg_match("/zh-c/i", $lang)) {
     $form .= '  <script type="text/javascript">';
     $form .= '  document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)';
     $form .= '  </script>';
-} else {
+
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'top-secondary',
+		'id'     => 'bdshare',
+		'title'  => $form,
+		'meta'   => array(
+			'class'    => 'admin-bar-search',
+			'tabindex' => -1,
+		)
+	) );
+}
+
 	$form  = '<form action="' . esc_url( home_url( '/' ) ) . '" method="get" id="adminbarsearch">';
 	$form .= '<input class="adminbar-input" name="s" id="adminbar-search" tabindex="10" type="text" value="" maxlength="150" />';
 	$form .= '<input type="submit" class="adminbar-button" value="' . __('Search') . '"/>';
 	$form .= '</form>';
-}
 
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'top-secondary',
