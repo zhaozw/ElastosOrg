@@ -918,8 +918,18 @@ $nestedpre = "<ul>", $nestedpost = "</ul>", $nestedbefore = "<li>", $nestedafter
 		return;
 	}
 	printf(__("%s\n"), $pre);
+	
+	/*
+	 * facet item counting, just display 10 items.
+	 */
+	$cnt = 1;
 	foreach ($items as $item) {
 		printf(__("%s<a href=\"%s\">%s (%s)</a>%s\n"), $before, $item["link"], $item["name"], $item["count"], $after);
+		
+		$cnt++;
+		if ($cnt > 10 ) {
+			break;
+		}
 	}
 	printf(__("%s\n"), $post);
 }
