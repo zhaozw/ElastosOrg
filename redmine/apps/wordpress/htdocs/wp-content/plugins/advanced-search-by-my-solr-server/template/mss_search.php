@@ -27,7 +27,7 @@ function spanOrder($sort, $order, $thisSpan) {
             } ?>
 
             <form name="searchbox" method="get" id="searchbox" action="">
-			    <input id="qrybox" name="s" type="text" class="solr_field" value="<?php echo $results['query'] ?>"/><input id="searchbtn" type="submit" value="Search" />
+			    <input id="qrybox" name="solr" type="text" class="solr_field" value="<?php echo $results['query'] ?>"/><input id="searchbtn" type="submit" value="Search" />
             </form>
             <ul class="solr_facets">
             <li class="solr_active">

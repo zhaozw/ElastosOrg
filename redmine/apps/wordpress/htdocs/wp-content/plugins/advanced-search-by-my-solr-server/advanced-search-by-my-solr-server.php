@@ -545,13 +545,19 @@ function mss_autosuggest_head() {
 function mss_template_redirect() {
 	wp_enqueue_script('suggest');
 
+	/*
 	if (get_current_blog_id() > 1) {
+		return;
+	}*/
+
+	$search = stripos($_SERVER['REQUEST_URI'], '?s=');
+	if ( $search != FALSE ) {
 		return;
 	}
 
 	// not a search page; don't do anything and return
 	// thanks to the Better Search plugin for the idea:  http://wordpress.org/extend/plugins/better-search/
-	$search = stripos($_SERVER['REQUEST_URI'], '?s=');
+	$search = stripos($_SERVER['REQUEST_URI'], '?solr=');
 	$autocomplete = stripos($_SERVER['REQUEST_URI'], '?method=autocomplete');
 
 	if ( ($search || $autocomplete) == FALSE ) {
@@ -698,7 +704,7 @@ function mss_search_results() {
 	$categoy_as_taxonomy = (isset($plugin_mss_settings['mss_cat_as_taxo'])) ? $plugin_mss_settings['mss_cat_as_taxo'] : false;
 	$dym_enabled = $plugin_mss_settings['mss_enable_dym'];
 
-	$qry = stripslashes($_GET['s']);
+	$qry = stripslashes($_GET['solr']);
 	$offset = (isset($_GET['offset'])) ? $_GET['offset'] : 0;
 	$count = (isset($_GET['count'])) ? $_GET['count'] : $results_per_page;
 	$fq = (isset($_GET['fq'])) ? $_GET['fq'] : '';

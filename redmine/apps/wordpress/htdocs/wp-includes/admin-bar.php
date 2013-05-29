@@ -714,7 +714,7 @@ if (preg_match("/zh-c/i", $lang)) {
 }
 
 	$form  = '<form action="' . esc_url( home_url( '/' ) ) . '" method="get" id="adminbarsearch">';
-	$form .= '<input class="adminbar-input" name="s" id="adminbar-search" tabindex="10" type="text" value="" maxlength="150" />';
+	$form .= '<input class="adminbar-input" name="solr" id="adminbar-search" tabindex="10" type="text" value="" maxlength="150" />';
 	$form .= '<input type="submit" class="adminbar-button" value="' . __('Search') . '"/>';
 	$form .= '</form>';
 
