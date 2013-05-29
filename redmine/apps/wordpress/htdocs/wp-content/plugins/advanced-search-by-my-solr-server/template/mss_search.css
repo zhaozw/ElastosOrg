@@ -1,15 +1,9 @@
-#content {
-	width: auto !important;
-}
-
 *+ html clearfix {
 	display: inline-block !important;
 }
 *+ html ul,ol {
 	list-style-position: outside !important;
 }
-
-
 .solr * {
 	line-height: 1 !important;
 	padding: 0 !important;
