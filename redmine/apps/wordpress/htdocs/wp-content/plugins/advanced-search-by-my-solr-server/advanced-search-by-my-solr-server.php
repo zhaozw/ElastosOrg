@@ -545,6 +545,10 @@ function mss_autosuggest_head() {
 function mss_template_redirect() {
 	wp_enqueue_script('suggest');
 
+	if (get_current_blog_id() > 1) {
+		return;
+	}
+
 	// not a search page; don't do anything and return
 	// thanks to the Better Search plugin for the idea:  http://wordpress.org/extend/plugins/better-search/
 	$search = stripos($_SERVER['REQUEST_URI'], '?s=');

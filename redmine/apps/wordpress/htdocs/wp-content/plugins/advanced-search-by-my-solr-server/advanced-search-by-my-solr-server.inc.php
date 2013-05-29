@@ -151,24 +151,25 @@ function mss_load_all($options, $prev) {
 		$wherePostType .= " post_type = '" .  $aPostType[$i] . "'";
 	}
 
-	$posts = $wpdb->get_results("SELECT ID FROM $wpdb->posts WHERE post_status = 'publish' AND ($wherePostType) ORDER BY ID;" );
+	$posts = $wpdb->get_results("SELECT * FROM " . $wpdb->base_prefix. "v_posts WHERE post_status = 'publish' AND ($wherePostType);" );
 	$postcount = count($posts);
 	for ($idx = 0; $idx < $postcount; $idx++) {
-		$postid = $posts[$idx]->ID;
-		$last = $postid;
+		$post = $posts[$idx];
+		//$postid = $post->blog_id . $post->ID;
+		$last = $idx;
 		$percent = (floatval($idx) / floatval($postcount)) * 100;
 		if ($prev && !$found) {
-			if ($postid === $prev) {
+			if ((int)$idx == (int)$prev) {
 				$found = TRUE;
 			}
 			continue;
 		}
 
-		if ($idx === $postcount - 1) {
+		if ((int)$idx == (int)$postcount - 1) {
 			$end = TRUE;
 		}
 
-		$documents[] = mss_build_document($options, get_post($postid) );
+		$documents[] = mss_build_document($options, $post);
 		$cnt++;
 		if ($cnt == $batchsize) {
 			mss_post( $options, $documents, FALSE, FALSE);
@@ -205,8 +206,8 @@ function mss_build_document( $options, $post_info ) {
 		$doc = new Apache_Solr_Document();
 		$auth_info = get_userdata( $post_info->post_author );
 
-		$doc->setField( 'id', $post_info->ID );
-		$doc->setField( 'permalink', get_permalink( $post_info->ID ) );
+		$doc->setField( 'id', 'blog' . $post_info->blog_id . 'post' . $post_info->ID );
+		$doc->setField( 'permalink', get_blog_permalink( $post_info->blog_id, $post_info->ID ) );
 		$doc->setField( 'wp', 'wp');
 
 		$numcomments = 0;

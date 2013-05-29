@@ -79,6 +79,8 @@ function spanOrder($sort, $order, $thisSpan) {
 	$sort = (isset($_GET['sort'])) ? $_GET['sort'] : 'score';
 	$order = (isset($_GET['order'])) ? $_GET['order'] : 'desc';
 ?>
+<?php
+/* 
 			<div class="solr_results_headerR">
 				<ol class="solr_sort2">
 					<li class="solr_sort_drop"><a href="<?php echo $results['sorting']['scoredesc'] ?>">Relevance<?php echo spanOrder($sort, $order, 'scoredesc');?></a></li>					
@@ -89,6 +91,8 @@ function spanOrder($sort, $order, $thisSpan) {
 				</ol>
 				<div class="solr_sort">Sort by:</div>
 			</div>
+*/
+?>
 		</div>
 
 		<div class="solr_results">
