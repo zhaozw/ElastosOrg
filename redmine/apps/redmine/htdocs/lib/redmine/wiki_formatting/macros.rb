@@ -19,31 +19,9 @@ module Redmine
   module WikiFormatting
     module Macros
       module Definitions
-        # Returns true if +name+ is the name of an existing macro
-        def macro_exists?(name)
-          Redmine::WikiFormatting::Macros.available_macros.key?(name.to_sym)
-        end
-
-        def exec_macro(name, obj, args, text)
-          macro_options = Redmine::WikiFormatting::Macros.available_macros[name.to_sym]
-          return unless macro_options
-
+        def exec_macro(name, obj, args)
           method_name = "macro_#{name}"
-          unless macro_options[:parse_args] == false
-            args = args.split(',').map(&:strip)
-          end
-
-          begin
-            if self.class.instance_method(method_name).arity == 3
-              send(method_name, obj, args, text)
-            elsif text
-              raise "This macro does not accept a block of text"
-            else
-              send(method_name, obj, args)
-            end
-          rescue => e
-            "<div class=\"flash error\">Error executing the <strong>#{h name}</strong> macro (#{h e.to_s})</div>".html_safe
-          end
+          send(method_name, obj, args) if respond_to?(method_name)
         end
 
         def extract_macro_options(args, *keys)
@@ -57,9 +35,13 @@ module Redmine
       end
 
       @@available_macros = {}
-      mattr_accessor :available_macros
 
       class << self
+        # Called with a block to define additional macros.
+        # Macro blocks accept 2 arguments:
+        # * obj: the object that is rendered
+        # * args: macro arguments
+        #
         # Plugins can use this method to define new macros:
         #
         #   Redmine::WikiFormatting::Macros.register do
@@ -67,89 +49,18 @@ module Redmine
         #     macro :my_macro do |obj, args|
         #       "My macro output"
         #     end
-        #   
-        #     desc "This is my macro that accepts a block of text"
-        #     macro :my_macro do |obj, args, text|
-        #       "My macro output"
-        #     end
         #   end
         def register(&block)
           class_eval(&block) if block_given?
         end
 
-        # Defines a new macro with the given name, options and block.
-        #
-        # Options:
-        # * :desc - A description of the macro
-        # * :parse_args => false - Disables arguments parsing (the whole arguments 
-        #   string is passed to the macro)
-        #
-        # Macro blocks accept 2 or 3 arguments:
-        # * obj: the object that is rendered (eg. an Issue, a WikiContent...)
-        # * args: macro arguments
-        # * text: the block of text given to the macro (should be present only if the
-        #   macro accepts a block of text). text is a String or nil if the macro is
-        #   invoked without a block of text.  
-        #
-        # Examples:
-        # By default, when the macro is invoked, the coma separated list of arguments
-        # is split and passed to the macro block as an array. If no argument is given
-        # the macro will be invoked with an empty array:
-        #
-        #   macro :my_macro do |obj, args|
-        #     # args is an array
-        #     # and this macro do not accept a block of text
-        #   end
-        #
-        # You can disable arguments spliting with the :parse_args => false option. In
-        # this case, the full string of arguments is passed to the macro:
-        #
-        #   macro :my_macro, :parse_args => false do |obj, args|
-        #     # args is a string
-        #   end
-        #
-        # Macro can optionally accept a block of text:
-        #
-        #   macro :my_macro do |obj, args, text|
-        #     # this macro accepts a block of text
-        #   end
-        #
-        # Macros are invoked in formatted text using double curly brackets. Arguments
-        # must be enclosed in parenthesis if any. A new line after the macro name or the
-        # arguments starts the block of text that will be passe to the macro (invoking
-        # a macro that do not accept a block of text with some text will fail).
-        # Examples:
-        #
-        #   No arguments:
-        #   {{my_macro}}
-        #
-        #   With arguments:
-        #   {{my_macro(arg1, arg2)}}
-        #
-        #   With a block of text:
-        #   {{my_macro
-        #   multiple lines
-        #   of text
-        #   }}
-        #
-        #   With arguments and a block of text
-        #   {{my_macro(arg1, arg2)
-        #   multiple lines
-        #   of text
-        #   }}
-        #
-        # If a block of text is given, the closing tag }} must be at the start of a new line.
-        def macro(name, options={}, &block)
-          options.assert_valid_keys(:desc, :parse_args)
-          unless name.to_s.match(/\A\w+\z/)
-            raise "Invalid macro name: #{name} (only 0-9, A-Z, a-z and _ characters are accepted)"
-          end
-          unless block_given?
-            raise "Can not create a macro without a block!"
-          end
+      private
+        # Defines a new macro with the given name and block.
+        def macro(name, &block)
           name = name.to_sym if name.is_a?(String)
-          available_macros[name] = {:desc => @@desc || ''}.merge(options)
+          @@available_macros[name] = @@desc || ''
           @@desc = nil
+          raise "Can not create a macro without a block!" unless block_given?
           Definitions.send :define_method, "macro_#{name}".downcase, &block
         end
 
@@ -161,19 +72,16 @@ module Redmine
 
       # Builtin macros
       desc "Sample macro."
-      macro :hello_world do |obj, args, text|
-        h("Hello world! Object: #{obj.class.name}, " + 
-          (args.empty? ? "Called with no argument" : "Arguments: #{args.join(', ')}") +
-          " and " + (text.present? ? "a #{text.size} bytes long block of text." : "no block of text.")
-        )
+      macro :hello_world do |obj, args|
+        "Hello world! Object: #{obj.class.name}, " + (args.empty? ? "Called with no argument." : "Arguments: #{args.join(', ')}")
       end
 
       desc "Displays a list of all available macros, including description if available."
       macro :macro_list do |obj, args|
         out = ''.html_safe
-        @@available_macros.each do |macro, options|
-          out << content_tag('dt', content_tag('code', macro.to_s))
-          out << content_tag('dd', textilizable(options[:desc]))
+        @@available_macros.keys.collect(&:to_s).sort.each do |macro|
+          out << content_tag('dt', content_tag('code', macro))
+          out << content_tag('dd', textilizable(@@available_macros[macro.to_sym]))
         end
         content_tag('dl', out)
       end
@@ -209,23 +117,18 @@ module Redmine
         out
       end
 
-      desc "Displays a clickable thumbnail of an attached image. Examples:\n\n<pre>{{thumbnail(image.png)}}\n{{thumbnail(image.png, size=300, title=Thumbnail)}}</pre>"
-      macro :thumbnail do |obj, args|
-        args, options = extract_macro_options(args, :size, :title)
-        filename = args.first
-        raise 'Filename required' unless filename.present?
-        size = options[:size]
-        raise 'Invalid size parameter' unless size.nil? || size.match(/^\d+$/)
-        size = size.to_i
-        size = nil unless size > 0
-        if obj && obj.respond_to?(:attachments) && attachment = Attachment.latest_attach(obj.attachments, filename)
-          title = options[:title] || attachment.title
-          img = image_tag(url_for(:controller => 'attachments', :action => 'thumbnail', :id => attachment, :size => size), :alt => attachment.filename)
-          link_to(img, url_for(:controller => 'attachments', :action => 'show', :id => attachment), :class => 'thumbnail', :title => title)
-        else
-          raise "Attachment #{filename} not found"
-        end
+      desc "Inserts of html:\n\n  {{html(html details...)\nThis is a block of html, it will be out directly\n}}"
+      macro :html do |obj, args|
+		out = "" + (args.empty? ? " " : "#{args.join(', ')}")
+		out = out.gsub("&gt;", ">")
+		out = out.gsub("&lt;", "<")
+		out = out.gsub("&amp;", "&")
+		out = out.gsub("&quot;", '"')
+		out = out.gsub("<br />", "\n")
+		out = out.gsub("<br/>", "\n")
+		out
       end
+
     end
   end
 end
