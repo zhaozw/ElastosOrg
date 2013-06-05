@@ -744,9 +744,9 @@ function mss_search_results() {
 			}
 
 			if ($removelink) {
-				$selectedfacet['removelink'] = htmlspecialchars(sprintf(__("?s=%s&fq=%s"), urlencode($qry), $removelink));
+				$selectedfacet['removelink'] = htmlspecialchars(sprintf(__("?solr=%s&fq=%s"), urlencode($qry), $removelink));
 			} else {
-				$selectedfacet['removelink'] = htmlspecialchars(sprintf(__("?s=%s"), urlencode($qry)));
+				$selectedfacet['removelink'] = htmlspecialchars(sprintf(__("?solr=%s"), urlencode($qry)));
 			}
 
 			$fqstr = $fqstr . urlencode('||') . $splititm[0] . ':' . urlencode($splititm[1]);
@@ -777,7 +777,7 @@ function mss_search_results() {
 			if ($didyoumean && !$isdym && $dym_enabled) {
 				$dymout = array();
 				$dymout['term'] = htmlspecialchars($didyoumean);
-				$dymout['link'] = htmlspecialchars(sprintf(__("?s=%s&isdym=1"), urlencode($didyoumean)));
+				$dymout['link'] = htmlspecialchars(sprintf(__("?solr=%s&isdym=1"), urlencode($didyoumean)));
 				$out['dym'] = $dymout;
 			}
 
@@ -796,7 +796,7 @@ function mss_search_results() {
 					$pageritm = array();
 					$pageritm['page'] = sprintf(__("%d"), $pagenum);
 					//$pageritm['link'] = htmlspecialchars(sprintf(__("?s=%s&offset=%d&count=%d"), urlencode($qry), $offsetnum, $count));
-					$pagerlink = sprintf(__("?s=%s&offset=%d&count=%d"), urlencode($qry), $offsetnum, $count);
+					$pagerlink = sprintf(__("?solr=%s&offset=%d&count=%d"), urlencode($qry), $offsetnum, $count);
 					if($fqstr) $pagerlink .= '&fq=' . $fqstr;
 					$pageritm['link'] = htmlspecialchars($pagerlink);
 					$pagerout[] = $pageritm;
@@ -839,7 +839,7 @@ function mss_search_results() {
 							foreach ($facet as $facetval => $facetcnt) {
 								$facetitm = array();
 								$facetitm['count'] = sprintf(__("%d"), $facetcnt);
-								$facetitm['link'] = htmlspecialchars(sprintf(__('?s=%s&fq=%s:%s%s', 'solrmss'), urlencode($qry), $facetfield, urlencode('"' . $facetval . '"'), $fqstr));
+								$facetitm['link'] = htmlspecialchars(sprintf(__('?solr=%s&fq=%s:%s%s', 'solrmss'), urlencode($qry), $facetfield, urlencode('"' . $facetval . '"'), $fqstr));
 								$facetitm['name'] = $facetval;
 								$facetitms[] = $facetitm;
 							}
@@ -905,14 +905,14 @@ function mss_search_results() {
 	$out['sortby'] = $sortby;
 	$out['order'] = $order;
 	$out['sorting'] = array(
-							'scoreasc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=score&order=asc', urlencode($qry), stripslashes($fq))),
-							'scoredesc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=score&order=desc', urlencode($qry), stripslashes($fq))),
-							'dateasc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=date&order=asc', urlencode($qry), stripslashes($fq))),
-							'datedesc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=date&order=desc', urlencode($qry), stripslashes($fq))),
-							'modifiedasc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=modified&order=asc', urlencode($qry), stripslashes($fq))),
-							'modifieddesc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=modified&order=desc', urlencode($qry), stripslashes($fq))),
-                        	'commentsasc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=numcomments&order=asc', urlencode($qry), stripslashes($fq))),
-							'commentsdesc' => htmlspecialchars(sprintf('?s=%s&fq=%s&sort=numcomments&order=desc', urlencode($qry), stripslashes($fq)))
+							'scoreasc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=score&order=asc', urlencode($qry), stripslashes($fq))),
+							'scoredesc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=score&order=desc', urlencode($qry), stripslashes($fq))),
+							'dateasc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=date&order=asc', urlencode($qry), stripslashes($fq))),
+							'datedesc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=date&order=desc', urlencode($qry), stripslashes($fq))),
+							'modifiedasc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=modified&order=asc', urlencode($qry), stripslashes($fq))),
+							'modifieddesc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=modified&order=desc', urlencode($qry), stripslashes($fq))),
+                        	'commentsasc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=numcomments&order=asc', urlencode($qry), stripslashes($fq))),
+							'commentsdesc' => htmlspecialchars(sprintf('?solr=%s&fq=%s&sort=numcomments&order=desc', urlencode($qry), stripslashes($fq)))
 	);
 
 	return $out;
@@ -952,7 +952,7 @@ function mss_get_output_taxo($facet, $taxo, $prefix, $fqstr, $field) {
 			$facetvars = get_object_vars($facet);
 			$facetitm = array();
 			$facetitm['count'] = sprintf(__("%d"), $facetvars[$newprefix]);
-			$facetitm['link'] = htmlspecialchars(sprintf(__('?s=%s&fq=%s:%s%s', 'solrmss'), $qry, $field,  urlencode('"' . $newprefix . '"'), $fqstr));
+			$facetitm['link'] = htmlspecialchars(sprintf(__('?solr=%s&fq=%s:%s%s', 'solrmss'), $qry, $field,  urlencode('"' . $newprefix . '"'), $fqstr));
 			$facetitm['name'] = $taxoname;
 			$outitms = mss_get_output_taxo($facet, $taxoval, $newprefix, $fqstr, $field);
 			if ($outitms) {
