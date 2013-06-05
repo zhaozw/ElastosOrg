@@ -207,7 +207,7 @@ function mss_build_document( $options, $post_info ) {
 		$auth_info = get_userdata( $post_info->post_author );
 
 		$doc->setField( 'id', 'blog' . $post_info->blog_id . 'post' . $post_info->ID );
-		$doc->setField( 'permalink', get_blog_permalink( $post_info->blog_id, $post_info->ID ) );
+		$doc->setField( 'url', get_blog_permalink( $post_info->blog_id, $post_info->ID ) );
 		$doc->setField( 'wp', 'wp');
 
 		$numcomments = 0;
@@ -244,7 +244,7 @@ function mss_build_document( $options, $post_info ) {
 		$tags = get_the_tags($post_info->ID);
 		if ( ! $tags == NULL ) {
 			foreach( $tags as $tag ) {
-				$doc->addField('tags', $tag->name);
+				$doc->addField('tag', $tag->name);
 			}
 		}
 			
@@ -333,7 +333,7 @@ function mss_query( $qry, $offset, $count, $fq, $sortby, $options) {
 		foreach($aFacets as $facet_field) {
 			$facet_field_add = $facet_field . "_str";
 			if ($facet_field=='category') $facet_field_add = 'categories';
-			if ($facet_field=='tag') $facet_field_add = 'tags';
+			if ($facet_field=='tag') $facet_field_add = 'tag';
 			if ($facet_field=='author') $facet_field_add = 'author';
 			if ($facet_field=='type') $facet_field_add = 'type';
 			$facet_field_add =  strtolower(str_replace(' ', '_', $facet_field_add));

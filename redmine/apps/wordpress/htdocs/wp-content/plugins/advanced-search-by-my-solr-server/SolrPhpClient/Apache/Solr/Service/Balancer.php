@@ -527,7 +527,7 @@ class Apache_Solr_Service_Balancer
 	 *
 	 * @throws Apache_Solr_HttpTransportException If an error occurs during the service call
 	 */
-	public function addDocument(Apache_Solr_Document $document, $allowDups = false, $overwritePending = true, $overwriteCommitted = true)
+	public function addDocument(Apache_Solr_Document $document)
 	{
 		$service = $this->_selectWriteService();
 
@@ -535,7 +535,7 @@ class Apache_Solr_Service_Balancer
 		{
 			try
 			{
-				return $service->addDocument($document, $allowDups, $overwritePending, $overwriteCommitted);
+				return $service->addDocument($document);
 			}
 			catch (Apache_Solr_HttpTransportException $e)
 			{
@@ -562,7 +562,7 @@ class Apache_Solr_Service_Balancer
 	 *
 	 * @throws Apache_Solr_HttpTransportException If an error occurs during the service call
 	 */
-	public function addDocuments($documents, $allowDups = false, $overwritePending = true, $overwriteCommitted = true)
+	public function addDocuments($documents)
 	{
 		$service = $this->_selectWriteService();
 
@@ -570,7 +570,7 @@ class Apache_Solr_Service_Balancer
 		{
 			try
 			{
-				return $service->addDocuments($documents, $allowDups, $overwritePending, $overwriteCommitted);
+				return $service->addDocuments($documents);
 			}
 			catch (Apache_Solr_HttpTransportException $e)
 			{

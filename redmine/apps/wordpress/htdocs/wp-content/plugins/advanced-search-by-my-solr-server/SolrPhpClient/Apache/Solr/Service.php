@@ -302,6 +302,8 @@ class Apache_Solr_Service
 		$this->_threadsUrl = $this->_constructUrl(self::THREADS_SERVLET, array('wt' => self::SOLR_WRITER ));
 		$this->_updateUrl = $this->_constructUrl(self::UPDATE_SERVLET, array('wt' => self::SOLR_WRITER ));
 
+		//error_log("\n_searchUrl: " . $this->_searchUrl . "\n", 3, "/opt/redmine/apache2/logs/solr.txt");
+
 		$this->_urlsInited = true;
 	}
 
@@ -735,16 +737,12 @@ class Apache_Solr_Service
 	 *
 	 * @throws Apache_Solr_HttpTransportException If an error occurs during the service call
 	 */
-	public function addDocument(Apache_Solr_Document $document, $allowDups = false, $overwritePending = true, $overwriteCommitted = true, $commitWithin = 0)
+	public function addDocument(Apache_Solr_Document $document, $commitWithin = 0)
 	{
-		$dupValue = $allowDups ? 'true' : 'false';
-		$pendingValue = $overwritePending ? 'true' : 'false';
-		$committedValue = $overwriteCommitted ? 'true' : 'false';
-		
 		$commitWithin = (int) $commitWithin;
 		$commitWithinString = $commitWithin > 0 ? " commitWithin=\"{$commitWithin}\"" : '';
 		
-		$rawPost = "<add allowDups=\"{$dupValue}\" overwritePending=\"{$pendingValue}\" overwriteCommitted=\"{$committedValue}\"{$commitWithinString}>";
+		$rawPost = "<add>";
 		$rawPost .= $this->_documentToXmlFragment($document);
 		$rawPost .= '</add>';
 
@@ -763,16 +761,12 @@ class Apache_Solr_Service
 	 *
 	 * @throws Apache_Solr_HttpTransportException If an error occurs during the service call
 	 */
-	public function addDocuments($documents, $allowDups = false, $overwritePending = true, $overwriteCommitted = true, $commitWithin = 0)
+	public function addDocuments($documents, $commitWithin = 0)
 	{
-		$dupValue = $allowDups ? 'true' : 'false';
-		$pendingValue = $overwritePending ? 'true' : 'false';
-		$committedValue = $overwriteCommitted ? 'true' : 'false';
-
 		$commitWithin = (int) $commitWithin;
 		$commitWithinString = $commitWithin > 0 ? " commitWithin=\"{$commitWithin}\"" : '';
 
-		$rawPost = "<add allowDups=\"{$dupValue}\" overwritePending=\"{$pendingValue}\" overwriteCommitted=\"{$committedValue}\"{$commitWithinString}>";
+		$rawPost = "<add>";
 
 		foreach ($documents as $document)
 		{
