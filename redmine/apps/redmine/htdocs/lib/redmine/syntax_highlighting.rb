@@ -33,7 +33,7 @@ module Redmine
 
     module CodeRay
       require 'coderay'
-      require 'coderay/helpers/file_type'
+#      require 'coderay/helpers/file_type'
 
       class << self
         # Highlights +text+ as the content of +filename+
