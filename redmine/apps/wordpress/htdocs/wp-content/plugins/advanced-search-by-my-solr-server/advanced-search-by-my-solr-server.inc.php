@@ -176,7 +176,7 @@ function mss_load_all($options, $prev) {
 		$documents[] = mss_build_document($options, $post);
 		$cnt++;
 		if ($cnt == $batchsize) {
-			mss_post( $options, $documents, FALSE, FALSE);
+			mss_post( $options, $documents, TRUE, FALSE);
 			$cnt = 0;
 			$documents = array();
 			break;
