@@ -210,7 +210,7 @@ function mss_build_document( $options, $post_info ) {
 		$doc = new Apache_Solr_Document();
 		$auth_info = get_userdata( $post_info->post_author );
 
-		$doc->setField( 'id', 'blog' . $post_info->blog_id . 'post' . $post_info->ID );
+		//$doc->setField( 'id', 'blog' . $post_info->blog_id . 'post' . $post_info->ID );
 		$doc->setField( 'url', get_blog_permalink( $post_info->blog_id, $post_info->ID ) );
 		$doc->setField( 'wp', 'wp');
 
