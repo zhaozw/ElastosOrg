@@ -76,12 +76,12 @@ class Repository::Mercurial < Repository
     return nil if name.blank?
     s = name.to_s
     if /[^\d]/ =~ s or s.size > 8
-      cs = changesets.where(:scmid => s).first
+      e = changesets.find(:first, :conditions => ['scmid = ?', s])
     else
-      cs = changesets.where(:revision => s).first
+      e = changesets.find(:first, :conditions => ['revision = ?', s])
     end
-    return cs if cs
-    changesets.where('scmid LIKE ?', "#{s}%").first
+    return e if e
+    changesets.find(:first, :conditions => ['scmid LIKE ?', "#{s}%"])  # last ditch
   end
 
   # Returns the latest changesets for +path+; sorted by revision number

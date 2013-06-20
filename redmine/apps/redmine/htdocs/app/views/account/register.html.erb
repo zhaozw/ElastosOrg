@@ -1,10 +1,11 @@
 <h2><%=l(:label_register)%> <%=link_to l(:label_login_with_open_id_option), signin_url if Setting.openid? %></h2>
 
-<%= labelled_form_for @user, :url => register_path do |f| %>
+<%= labelled_form_for @user, :url => {:action => 'register'} do |f| %>
 <%= error_messages_for 'user' %>
 
 <div class="box tabular">
 <% if @user.auth_source_id.nil? %>
+
 <script type="text/javascript">
 Event.observe(window,'load',
 function fillData() {
@@ -17,11 +18,16 @@ function fillData() {
 		document.getElementById("user_firstname").value=name;
 		document.getElementById("user_lastname").value='-';
 		document.getElementById("user_identity_url").value=val;
-		document.getElementById("p1").style.display="none";
-		document.getElementById("p2").style.display="none";
 
 });
 </script>
+
+  <p><%= f.text_field :login, :size => 25, :required => true %></p>
+
+  <p><%= f.password_field :password, :size => 25, :required => true %>
+  <em class="info"><%= l(:text_caracters_minimum, :count => Setting.password_min_length) %></em></p>
+
+  <p><%= f.password_field :password_confirmation, :size => 25, :required => true %></p>
 <% end %>
 
 <p><%= f.text_field :firstname, :required => true %></p>

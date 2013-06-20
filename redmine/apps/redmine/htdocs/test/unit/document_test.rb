@@ -18,10 +18,7 @@
 require File.expand_path('../../test_helper', __FILE__)
 
 class DocumentTest < ActiveSupport::TestCase
-  fixtures :projects, :enumerations, :documents, :attachments,
-           :enabled_modules,
-           :users, :members, :member_roles, :roles,
-           :groups_users
+  fixtures :projects, :enumerations, :documents, :attachments
 
   def test_create
     doc = Document.new(:project => Project.find(1), :title => 'New document', :category => Enumeration.find_by_name('User documentation'))
@@ -30,11 +27,10 @@ class DocumentTest < ActiveSupport::TestCase
 
   def test_create_should_send_email_notification
     ActionMailer::Base.deliveries.clear
-    
-    with_settings :notified_events => %w(document_added) do
-      doc = Document.new(:project => Project.find(1), :title => 'New document', :category => Enumeration.find_by_name('User documentation'))
-      assert doc.save
-    end
+    Setting.notified_events << 'document_added'
+    doc = Document.new(:project => Project.find(1), :title => 'New document', :category => Enumeration.find_by_name('User documentation'))
+
+    assert doc.save
     assert_equal 1, ActionMailer::Base.deliveries.size
   end
 

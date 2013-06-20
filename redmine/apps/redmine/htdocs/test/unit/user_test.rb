@@ -744,13 +744,6 @@ class UserTest < ActiveSupport::TestCase
     assert_equal [2], user.projects_by_role[Role.find(2)].collect(&:id).sort
   end
 
-  def test_accessing_projects_by_role_with_no_projects_should_return_an_empty_array
-    user = User.find(2)
-    assert_equal [], user.projects_by_role[Role.find(3)]
-    # should not update the hash
-    assert_nil user.projects_by_role.values.detect(&:blank?)
-  end
-
   def test_projects_by_role_for_user_with_no_role
     user = User.generate!
     assert_equal({}, user.projects_by_role)
@@ -879,18 +872,6 @@ class UserTest < ActiveSupport::TestCase
         project = Project.find(1)
         Project.any_instance.stubs(:status).returns(Project::STATUS_ARCHIVED)
         assert ! @admin.allowed_to?(:view_issues, Project.find(1))
-      end
-
-      should "return false for write action if project is closed" do
-        project = Project.find(1)
-        Project.any_instance.stubs(:status).returns(Project::STATUS_CLOSED)
-        assert ! @admin.allowed_to?(:edit_project, Project.find(1))
-      end
-
-      should "return true for read action if project is closed" do
-        project = Project.find(1)
-        Project.any_instance.stubs(:status).returns(Project::STATUS_CLOSED)
-        assert @admin.allowed_to?(:view_project, Project.find(1))
       end
 
       should "return false if related module is disabled" do

@@ -19,10 +19,6 @@ class ScmFetchError < Exception; end
 
 class Repository < ActiveRecord::Base
   include Redmine::Ciphering
-  include Redmine::SafeAttributes
-  
-  # Maximum length for repository identifiers
-  IDENTIFIER_MAX_LENGTH = 255
 
   belongs_to :project
   has_many :changesets, :order => "#{Changeset.table_name}.committed_on DESC, #{Changeset.table_name}.id DESC"
@@ -37,24 +33,14 @@ class Repository < ActiveRecord::Base
   before_destroy :clear_changesets
 
   validates_length_of :password, :maximum => 255, :allow_nil => true
-  validates_length_of :identifier, :maximum => IDENTIFIER_MAX_LENGTH, :allow_blank => true
+  validates_length_of :identifier, :maximum => 255, :allow_blank => true
   validates_presence_of :identifier, :unless => Proc.new { |r| r.is_default? || r.set_as_default? }
   validates_uniqueness_of :identifier, :scope => :project_id, :allow_blank => true
   validates_exclusion_of :identifier, :in => %w(show entry raw changes annotate diff show stats graph)
-  # donwcase letters, digits, dashes, underscores but not digits only
-  validates_format_of :identifier, :with => /^(?!\d+$)[a-z0-9\-_]*$/, :allow_blank => true
+  # donwcase letters, digits, dashes but not digits only
+  validates_format_of :identifier, :with => /^(?!\d+$)[a-z0-9\-]*$/, :allow_blank => true
   # Checks if the SCM is enabled when creating a repository
   validate :repo_create_validation, :on => :create
-
-  safe_attributes 'identifier',
-    'login',
-    'password',
-    'path_encoding',
-    'log_encoding',
-    'is_default'
-
-  safe_attributes 'url',
-    :if => lambda {|repository, user| repository.new_record?}
 
   def repo_create_validation
     unless Setting.enabled_scm.include?(self.class.name.demodulize)
@@ -115,14 +101,6 @@ class Repository < ActiveRecord::Base
     else
       scm_name
     end
-  end
-
-  def identifier=(identifier)
-    super unless identifier_frozen?
-  end
-
-  def identifier_frozen?
-    errors[:identifier].blank? && !(new_record? || identifier.blank?)
   end
 
   def identifier_param
@@ -189,9 +167,7 @@ class Repository < ActiveRecord::Base
   end
 
   def entries(path=nil, identifier=nil)
-    entries = scm.entries(path, identifier)
-    load_entries_changesets(entries)
-    entries
+    scm.entries(path, identifier)
   end
 
   def branches
@@ -401,16 +377,6 @@ class Repository < ActiveRecord::Base
     end
     if is_default? && is_default_changed?
       Repository.update_all(["is_default = ?", false], ["project_id = ?", project_id])
-    end
-  end
-
-  def load_entries_changesets(entries)
-    if entries
-      entries.each do |entry|
-        if entry.lastrev && entry.lastrev.identifier
-          entry.changeset = find_changeset_by_name(entry.lastrev.identifier)
-        end
-      end
     end
   end
 

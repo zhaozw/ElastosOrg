@@ -50,17 +50,16 @@ module Redmine
               words_add += 1
             else
               del_at = pos unless del_at
-              deleted << ' ' unless deleted.empty?
-              deleted << h(change[2])
+              deleted << ' ' + h(change[2])
               words_del  += 1
             end
           end
           if add_at
-            words[add_at] = '<span class="diff_in">'.html_safe + words[add_at]
-            words[add_to] = words[add_to] + '</span>'.html_safe
+            words[add_at] = '<span class="diff_in">' + words[add_at]
+            words[add_to] = words[add_to] + '</span>'
           end
           if del_at
-            words.insert del_at - del_off + dels + words_add, '<span class="diff_out">'.html_safe + deleted + '</span>'.html_safe
+            words.insert del_at - del_off + dels + words_add, '<span class="diff_out">' + deleted + '</span>'
             dels += 1
             del_off += words_del
             words_del = 0

@@ -12,8 +12,7 @@ module ObjectHelpers
     user
   end
 
-  def User.add_to_project(user, project, roles=nil)
-    roles = Role.find(1) if roles.nil?
+  def User.add_to_project(user, project, roles)
     roles = [roles] unless roles.is_a?(Array)
     Member.create!(:principal => user, :project => project, :roles => roles)
   end
@@ -22,7 +21,7 @@ module ObjectHelpers
     @generated_group_name ||= 'Group 0'
     @generated_group_name.succ!
     group = Group.new(attributes)
-    group.name = @generated_group_name if group.name.blank?
+    group.lastname = @generated_group_name if group.lastname.blank?
     yield group if block_given?
     group.save!
     group
@@ -81,15 +80,6 @@ module ObjectHelpers
     issue
   end
 
-  # Generates an issue with some children and a grandchild
-  def Issue.generate_with_descendants!(project, attributes={})
-    issue = Issue.generate_for_project!(project, attributes)
-    child = Issue.generate_for_project!(project, :subject => 'Child1', :parent_issue_id => issue.id)
-    Issue.generate_for_project!(project, :subject => 'Child2', :parent_issue_id => issue.id)
-    Issue.generate_for_project!(project, :subject => 'Child11', :parent_issue_id => child.id)
-    issue.reload
-  end
-
   def Version.generate!(attributes={})
     @generated_version_name ||= 'Version 0'
     @generated_version_name.succ!
@@ -108,16 +98,5 @@ module ObjectHelpers
     yield source if block_given?
     source.save!
     source
-  end
-
-  def Board.generate!(attributes={})
-    @generated_board_name ||= 'Forum 0'
-    @generated_board_name.succ!
-    board = Board.new(attributes)
-    board.name = @generated_board_name if board.name.blank?
-    board.description = @generated_board_name if board.description.blank?
-    yield board if block_given?
-    board.save!
-    board
   end
 end

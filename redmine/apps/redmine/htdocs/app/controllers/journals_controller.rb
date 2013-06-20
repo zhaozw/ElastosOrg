@@ -67,8 +67,16 @@ class JournalsController < ApplicationController
     end
     # Replaces pre blocks with [...]
     text = text.to_s.strip.gsub(%r{<pre>((.|\s)*?)</pre>}m, '[...]')
-    @content = "#{ll(Setting.default_language, :text_user_wrote, user)}\n> "
-    @content << text.gsub(/(\r?\n|\r\n?)/, "\n> ") + "\n\n"
+    content = "#{ll(Setting.default_language, :text_user_wrote, user)}\n> "
+    content << text.gsub(/(\r?\n|\r\n?)/, "\n> ") + "\n\n"
+
+    render(:update) { |page|
+      page.<< "$('notes').value = \"#{escape_javascript content}\";"
+      page.show 'update'
+      page << "Form.Element.focus('notes');"
+      page << "Element.scrollTo('update');"
+      page << "$('notes').scrollTop = $('notes').scrollHeight - $('notes').clientHeight;"
+    }
   end
 
   def edit

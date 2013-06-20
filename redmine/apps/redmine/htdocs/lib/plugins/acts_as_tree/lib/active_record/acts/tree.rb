@@ -74,7 +74,7 @@ module ActiveRecord
         #
         #   root.descendants # => [child1, subchild1, subchild2]
         def descendants
-          children + children.collect(&:descendants).flatten
+          children + children.collect(&:children).flatten
         end
 
         # Returns list of descendants and a reference to the current node.

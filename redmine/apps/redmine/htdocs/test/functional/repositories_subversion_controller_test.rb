@@ -185,13 +185,6 @@ class RepositoriesSubversionControllerTest < ActionController::TestCase
       end
     end
 
-    def test_entry_should_send_images_inline
-      get :entry, :id => PRJ_ID,
-          :path => repository_path_hash(['subversion_test', 'folder', 'subfolder', 'rubylogo.gif'])[:param]
-      assert_response :success
-      assert_equal 'inline; filename="rubylogo.gif"', response.headers['Content-Disposition']
-    end
-
     def test_entry_at_given_revision
       assert_equal 0, @repository.changesets.count
       @repository.fetch_changesets
@@ -247,15 +240,18 @@ class RepositoriesSubversionControllerTest < ActionController::TestCase
       get :revision, :id => 1, :rev => 2
       assert_response :success
       assert_template 'revision'
-
-      assert_select 'ul' do
-        assert_select 'li' do
-          # link to the entry at rev 2
-          assert_select 'a[href=?]', '/projects/ecookbook/repository/revisions/2/entry/test/some/path/in/the/repo', :text => 'repo'
-          # link to partial diff
-          assert_select 'a[href=?]', '/projects/ecookbook/repository/revisions/2/diff/test/some/path/in/the/repo'
-        end
-      end
+      assert_tag :tag => 'ul',
+                 :child => { :tag => 'li',
+                             # link to the entry at rev 2
+                             :child => { :tag => 'a',
+                                         :attributes => {:href => '/projects/ecookbook/repository/revisions/2/entry/test/some/path/in/the/repo'},
+                                         :content => 'repo',
+                                         # link to partial diff
+                                         :sibling =>  { :tag => 'a',
+                                                        :attributes => { :href => '/projects/ecookbook/repository/revisions/2/diff/test/some/path/in/the/repo' }
+                                                       }
+                                        }
+                            }
     end
 
     def test_invalid_revision
@@ -295,15 +291,18 @@ class RepositoriesSubversionControllerTest < ActionController::TestCase
       get :revision, :id => 1, :rev => 2
       assert_response :success
       assert_template 'revision'
-
-      assert_select 'ul' do
-        assert_select 'li' do
-          # link to the entry at rev 2
-          assert_select 'a[href=?]', '/projects/ecookbook/repository/revisions/2/entry/path/in/the/repo', :text => 'repo'
-          # link to partial diff
-          assert_select 'a[href=?]', '/projects/ecookbook/repository/revisions/2/diff/path/in/the/repo'
-        end
-      end
+      assert_tag :tag => 'ul',
+                 :child => { :tag => 'li',
+                             # link to the entry at rev 2
+                             :child => { :tag => 'a',
+                                         :attributes => {:href => '/projects/ecookbook/repository/revisions/2/entry/path/in/the/repo'},
+                                         :content => 'repo',
+                                         # link to partial diff
+                                         :sibling =>  { :tag => 'a',
+                                                        :attributes => { :href => '/projects/ecookbook/repository/revisions/2/diff/path/in/the/repo' }
+                                                       }
+                                        }
+                            }
     end
 
     def test_revision_diff
@@ -361,19 +360,6 @@ class RepositoriesSubversionControllerTest < ActionController::TestCase
           :path => repository_path_hash(['subversion_test', 'helloworld.c'])[:param]
       assert_response :success
       assert_template 'annotate'
-
-      assert_select 'tr' do
-        assert_select 'th.line-num', :text => '1'
-        assert_select 'td.revision', :text => '4'
-        assert_select 'td.author', :text => 'jp'
-        assert_select 'td', :text => /stdio.h/
-      end
-      # Same revision
-      assert_select 'tr' do
-        assert_select 'th.line-num', :text => '2'
-        assert_select 'td.revision', :text => ''
-        assert_select 'td.author', :text => ''
-      end
     end
 
     def test_annotate_at_given_revision

@@ -238,7 +238,6 @@ class ApiTest::UsersTest < ActionController::IntegrationTest
           assert !user.admin?
 
           assert_response :ok
-          assert_equal '', @response.body
         end
       end
 
@@ -264,7 +263,6 @@ class ApiTest::UsersTest < ActionController::IntegrationTest
           assert !user.admin?
 
           assert_response :ok
-          assert_equal '', @response.body
         end
       end
     end
@@ -324,7 +322,6 @@ class ApiTest::UsersTest < ActionController::IntegrationTest
         end
 
         assert_response :ok
-        assert_equal '', @response.body
       end
     end
 
@@ -340,7 +337,6 @@ class ApiTest::UsersTest < ActionController::IntegrationTest
         end
 
         assert_response :ok
-        assert_equal '', @response.body
       end
     end
   end

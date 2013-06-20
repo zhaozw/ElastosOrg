@@ -50,8 +50,8 @@ class MailHandler < ActionMailer::Base
 
   cattr_accessor :ignored_emails_headers
   @@ignored_emails_headers = {
-    'X-Auto-Response-Suppress' => 'oof',
-    'Auto-Submitted' => /^auto-/
+    'X-Auto-Response-Suppress' => 'OOF',
+    'Auto-Submitted' => 'auto-replied'
   }
 
   # Processes incoming emails
@@ -69,14 +69,11 @@ class MailHandler < ActionMailer::Base
     # Ignore auto generated emails
     self.class.ignored_emails_headers.each do |key, ignored_value|
       value = email.header[key]
-      if value
-        value = value.to_s.downcase
-        if (ignored_value.is_a?(Regexp) && value.match(ignored_value)) || value == ignored_value
-          if logger && logger.info
-            logger.info "MailHandler: ignoring email with #{key}:#{value} header"
-          end
-          return false
+      if value && value.to_s.downcase == ignored_value.downcase
+        if logger && logger.info
+          logger.info "MailHandler: ignoring email with #{key}:#{value} header"
         end
+        return false
       end
     end
     @user = User.find_by_mail(sender_email) if sender_email.present?
@@ -342,8 +339,8 @@ class MailHandler < ActionMailer::Base
   # Returns a Hash of issue custom field values extracted from keywords in the email body
   def custom_field_values_from_keywords(customized)
     customized.custom_field_values.inject({}) do |h, v|
-      if keyword = get_keyword(v.custom_field.name, :override => true)
-        h[v.custom_field.id.to_s] = v.custom_field.value_from_keyword(keyword, customized)
+      if value = get_keyword(v.custom_field.name, :override => true)
+        h[v.custom_field.id.to_s] = value
       end
       h
     end
@@ -468,7 +465,7 @@ class MailHandler < ActionMailer::Base
                    }
     end
     if assignee.nil?
-      assignee ||= assignable.detect {|a| a.name.downcase == keyword}
+      assignee ||= assignable.detect {|a| a.is_a?(Group) && a.name.downcase == keyword}
     end
     assignee
   end

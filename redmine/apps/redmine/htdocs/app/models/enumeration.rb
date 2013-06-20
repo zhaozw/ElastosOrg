@@ -35,19 +35,19 @@ class Enumeration < ActiveRecord::Base
   validates_uniqueness_of :name, :scope => [:type, :project_id]
   validates_length_of :name, :maximum => 30
 
-  scope :shared, where(:project_id => nil)
-  scope :active, where(:active => true)
-  scope :named, lambda {|arg| where("LOWER(#{table_name}.name) = LOWER(?)", arg.to_s.strip)}
+  scope :shared, :conditions => { :project_id => nil }
+  scope :active, :conditions => { :active => true }
+  scope :named, lambda {|arg| { :conditions => ["LOWER(#{table_name}.name) = LOWER(?)", arg.to_s.strip]}}
 
   def self.default
     # Creates a fake default scope so Enumeration.default will check
     # it's type.  STI subclasses will automatically add their own
     # types to the finder.
     if self.descends_from_active_record?
-      where(:is_default => true, :type => 'Enumeration').first
+      find(:first, :conditions => { :is_default => true, :type => 'Enumeration' })
     else
       # STI classes are
-      where(:is_default => true).first
+      find(:first, :conditions => { :is_default => true })
     end
   end
 
@@ -58,7 +58,7 @@ class Enumeration < ActiveRecord::Base
 
   def check_default
     if is_default? && is_default_changed?
-      Enumeration.update_all({:is_default => false}, {:type => type})
+      Enumeration.update_all("is_default = #{connection.quoted_false}", {:type => type})
     end
   end
 

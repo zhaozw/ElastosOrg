@@ -44,7 +44,7 @@ module SettingsHelper
     setting_values = Setting.send(setting)
     setting_values = [] unless setting_values.is_a?(Array)
 
-    content_tag("label", l(options[:label] || "setting_#{setting}")) +
+    setting_label(setting, options).html_safe +
       hidden_field_tag("settings[#{setting}][]", '').html_safe +
       choices.collect do |choice|
         text, value = (choice.is_a?(Array) ? choice : [choice, choice])
@@ -53,8 +53,7 @@ module SettingsHelper
           check_box_tag(
              "settings[#{setting}][]",
              value,
-             Setting.send(setting).include?(value),
-             :id => nil
+             Setting.send(setting).include?(value)
            ) + text.to_s,
           :class => 'block'
          )
@@ -73,13 +72,13 @@ module SettingsHelper
 
   def setting_check_box(setting, options={})
     setting_label(setting, options).html_safe +
-      hidden_field_tag("settings[#{setting}]", 0, :id => nil).html_safe +
+      hidden_field_tag("settings[#{setting}]", 0).html_safe +
         check_box_tag("settings[#{setting}]", 1, Setting.send("#{setting}?"), options).html_safe
   end
 
   def setting_label(setting, options={})
     label = options.delete(:label)
-    label != false ? label_tag("settings_#{setting}", l(label || "setting_#{setting}")).html_safe : ''
+    label != false ? content_tag("label", l(label || "setting_#{setting}")).html_safe : ''
   end
 
   # Renders a notification field for a Redmine::Notifiable option
@@ -87,7 +86,7 @@ module SettingsHelper
     return content_tag(:label,
                        check_box_tag('settings[notified_events][]',
                                      notifiable.name,
-                                     Setting.notified_events.include?(notifiable.name), :id => nil).html_safe +
+                                     Setting.notified_events.include?(notifiable.name)).html_safe +
                          l_or_humanize(notifiable.name, :prefix => 'label_').html_safe,
                        :class => notifiable.parent.present? ? "parent" : '').html_safe
   end

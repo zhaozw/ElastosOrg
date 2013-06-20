@@ -16,8 +16,8 @@
 </div>
 
 <script>
-  $(document).ready(displayTabsButtons);
-  $(window).resize(displayTabsButtons);
+  Event.observe(window, 'load', function() { displayTabsButtons(); });
+  Event.observe(window, 'resize', function() { displayTabsButtons(); });
 </script>
 
 <% tabs.each do |tab| -%>

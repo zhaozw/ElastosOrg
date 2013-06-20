@@ -625,32 +625,53 @@ class ApiTest::IssuesTest < ActionController::IntegrationTest
                                     {:issue => {:subject => 'API update', :notes => 'A new note'}},
                                     {:success_code => :ok})
 
-    should "update the issue" do
+    should "not create a new issue" do
       assert_no_difference('Issue.count') do
-        assert_difference('Journal.count') do
-          put '/issues/6.json', @parameters, credentials('jsmith')
-
-          assert_response :ok
-          assert_equal '', response.body
-        end
+        put '/issues/6.json', @parameters, credentials('jsmith')
       end
+    end
 
-      issue = Issue.find(6)
-      assert_equal "API update", issue.subject
+    should "create a new journal" do
+      assert_difference('Journal.count') do
+        put '/issues/6.json', @parameters, credentials('jsmith')
+      end
+    end
+
+    should "add the note to the journal" do
+      put '/issues/6.json', @parameters, credentials('jsmith')
+
       journal = Journal.last
       assert_equal "A new note", journal.notes
     end
+
+    should "update the issue" do
+      put '/issues/6.json', @parameters, credentials('jsmith')
+
+      issue = Issue.find(6)
+      assert_equal "API update", issue.subject
+    end
+
   end
 
   context "PUT /issues/6.json with failed update" do
-    should "return errors" do
-      assert_no_difference('Issue.count') do
-        assert_no_difference('Journal.count') do
-          put '/issues/6.json', {:issue => {:subject => ''}}, credentials('jsmith')
+    setup do
+      @parameters = {:issue => {:subject => ''}}
+    end
 
-          assert_response :unprocessable_entity
-        end
+    should "not create a new issue" do
+      assert_no_difference('Issue.count') do
+        put '/issues/6.json', @parameters, credentials('jsmith')
       end
+    end
+
+    should "not create a new journal" do
+      assert_no_difference('Journal.count') do
+        put '/issues/6.json', @parameters, credentials('jsmith')
+      end
+    end
+
+    should "have an errors attribute" do
+      put '/issues/6.json', @parameters, credentials('jsmith')
 
       json = ActiveSupport::JSON.decode(response.body)
       assert json['errors'].include?("Subject can't be blank")
@@ -664,11 +685,8 @@ class ApiTest::IssuesTest < ActionController::IntegrationTest
                                     {:success_code => :ok})
 
     should "delete the issue" do
-      assert_difference('Issue.count', -1) do
+      assert_difference('Issue.count',-1) do
         delete '/issues/6.xml', {}, credentials('jsmith')
-
-        assert_response :ok
-        assert_equal '', response.body
       end
 
       assert_nil Issue.find_by_id(6)
@@ -682,11 +700,8 @@ class ApiTest::IssuesTest < ActionController::IntegrationTest
                                     {:success_code => :ok})
 
     should "delete the issue" do
-      assert_difference('Issue.count', -1) do
+      assert_difference('Issue.count',-1) do
         delete '/issues/6.json', {}, credentials('jsmith')
-
-        assert_response :ok
-        assert_equal '', response.body
       end
 
       assert_nil Issue.find_by_id(6)
@@ -755,7 +770,6 @@ class ApiTest::IssuesTest < ActionController::IntegrationTest
         {:issue => {:notes => 'Attachment added', :uploads => [{:token => token, :filename => 'test.txt', :content_type => 'text/plain'}]}},
         credentials('jsmith')
       assert_response :ok
-      assert_equal '', @response.body
     end
 
     issue = Issue.find(1)

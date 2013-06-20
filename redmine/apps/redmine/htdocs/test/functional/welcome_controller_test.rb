@@ -77,7 +77,7 @@ class WelcomeControllerTest < ActionController::TestCase
     get :index
     assert_tag 'script',
       :attributes => {:type => "text/javascript"},
-      :content => %r{warnLeavingUnsaved}
+      :content => %r{new WarnLeavingUnsaved}
   end
 
   def test_warn_on_leaving_unsaved_turn_off
@@ -89,21 +89,11 @@ class WelcomeControllerTest < ActionController::TestCase
     get :index
     assert_no_tag 'script',
       :attributes => {:type => "text/javascript"},
-      :content => %r{warnLeavingUnsaved}
+      :content => %r{new WarnLeavingUnsaved}
   end
 
   def test_call_hook_mixed_in
     assert @controller.respond_to?(:call_hook)
-  end
-
-  def test_project_jump_box_should_escape_names_once
-    Project.find(1).update_attribute :name, 'Foo & Bar'
-    @request.session[:user_id] = 2
-
-    get :index
-    assert_select "#header select" do
-      assert_select "option", :text => 'Foo &amp; Bar'
-    end
   end
 
   context "test_api_offset_and_limit" do

@@ -33,6 +33,15 @@ class WatchersController < ApplicationController
   end
 
   def new
+    respond_to do |format|
+      format.js do
+        render :update do |page|
+          page.replace_html 'ajax-modal', :partial => 'watchers/new', :locals => {:watched => @watched}
+          page << "showModal('ajax-modal', '400px');"
+          page << "$('ajax-modal').addClassName('new-watcher');"
+        end
+      end
+    end
   end
 
   def create
@@ -44,14 +53,29 @@ class WatchersController < ApplicationController
     end
     respond_to do |format|
       format.html { redirect_to_referer_or {render :text => 'Watcher added.', :layout => true}}
-      format.js
+      format.js do
+        render :update do |page|
+          page.replace_html 'ajax-modal', :partial => 'watchers/new', :locals => {:watched => @watched}
+          page.replace_html 'watchers', :partial => 'watchers/watchers', :locals => {:watched => @watched}
+        end
+      end
     end
   end
 
   def append
     if params[:watcher].is_a?(Hash)
       user_ids = params[:watcher][:user_ids] || [params[:watcher][:user_id]]
-      @users = User.active.find_all_by_id(user_ids)
+      users = User.active.find_all_by_id(user_ids)
+      respond_to do |format|
+        format.js do
+          render :update do |page|
+            users.each do |user|
+              page << %|$$("#issue_watcher_user_ids_#{user.id}").each(function(el){el.remove();});|
+            end
+            page.insert_html :bottom, 'watchers_inputs', :text => watchers_checkboxes(nil, users, true)
+          end
+        end
+      end
     end
   end
 
@@ -59,7 +83,11 @@ class WatchersController < ApplicationController
     @watched.set_watcher(User.find(params[:user_id]), false) if request.post?
     respond_to do |format|
       format.html { redirect_to :back }
-      format.js
+      format.js do
+        render :update do |page|
+          page.replace_html 'watchers', :partial => 'watchers/watchers', :locals => {:watched => @watched}
+        end
+      end
     end
   end
 
@@ -89,7 +117,12 @@ private
     @watched.set_watcher(user, watching)
     respond_to do |format|
       format.html { redirect_to_referer_or {render :text => (watching ? 'Watcher added.' : 'Watcher removed.'), :layout => true}}
-      format.js { render :partial => 'set_watcher', :locals => {:user => user, :watched => @watched} }
+      format.js do
+        render(:update) do |page|
+          c = watcher_css(@watched)
+          page << %|$$(".#{c}").each(function(el){el.innerHTML="#{escape_javascript watcher_link(@watched, user)}"});|
+        end
+      end
     end
   end
 end

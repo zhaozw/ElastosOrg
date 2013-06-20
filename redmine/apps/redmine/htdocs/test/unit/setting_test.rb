@@ -19,10 +19,6 @@ require File.expand_path('../../test_helper', __FILE__)
 
 class SettingTest < ActiveSupport::TestCase
 
-  def teardown
-    Setting.clear_cache
-  end
-
   def test_read_default
     assert_equal "Redmine", Setting.app_title
     assert Setting.self_registration?

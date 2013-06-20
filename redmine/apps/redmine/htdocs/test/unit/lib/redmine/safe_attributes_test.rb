@@ -18,7 +18,6 @@
 require File.expand_path('../../../../test_helper', __FILE__)
 
 class Redmine::SafeAttributesTest < ActiveSupport::TestCase
-  fixtures :users
 
   class Base
     def attributes=(attrs)

@@ -18,7 +18,6 @@
 # Generic exception for when the AuthSource can not be reached
 # (eg. can not connect to the LDAP)
 class AuthSourceException < Exception; end
-class AuthSourceTimeoutException < AuthSourceException; end
 
 class AuthSource < ActiveRecord::Base
   include Redmine::SubclassFactory
@@ -59,7 +58,7 @@ class AuthSource < ActiveRecord::Base
 
   # Try to authenticate a user not yet registered against available sources
   def self.authenticate(login, password)
-    AuthSource.where(:onthefly_register => true).all.each do |source|
+    AuthSource.find(:all, :conditions => ["onthefly_register=?", true]).each do |source|
       begin
         logger.debug "Authenticating '#{login}' against '#{source.name}'" if logger && logger.debug?
         attrs = source.authenticate(login, password)

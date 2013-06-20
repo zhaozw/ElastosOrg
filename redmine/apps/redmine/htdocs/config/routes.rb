@@ -20,8 +20,8 @@ RedmineApp::Application.routes.draw do
 
   match 'login', :to => 'account#login', :as => 'signin'
   match 'logout', :to => 'account#logout', :as => 'signout'
-  match 'account/register', :to => 'account#register', :via => [:get, :post], :as => 'register'
-  match 'account/lost_password', :to => 'account#lost_password', :via => [:get, :post], :as => 'lost_password'
+  match 'account/register', :to => 'account#register', :via => [:get, :post]
+  match 'account/lost_password', :to => 'account#lost_password', :via => [:get, :post]
   match 'account/activate', :to => 'account#activate', :via => :get
 
   match '/news/preview', :controller => 'previews', :action => 'news', :as => 'preview_news'
@@ -33,7 +33,7 @@ RedmineApp::Application.routes.draw do
   match 'projects/:id/wiki/destroy', :to => 'wikis#destroy', :via => [:get, :post]
 
   match 'boards/:board_id/topics/new', :to => 'messages#new', :via => [:get, :post]
-  get 'boards/:board_id/topics/:id', :to => 'messages#show', :as => 'board_message'
+  get 'boards/:board_id/topics/:id', :to => 'messages#show'
   match 'boards/:board_id/topics/quote/:id', :to => 'messages#quote', :via => [:get, :post]
   get 'boards/:board_id/topics/:id/edit', :to => 'messages#edit'
 
@@ -93,8 +93,6 @@ RedmineApp::Application.routes.draw do
       post 'modules'
       post 'archive'
       post 'unarchive'
-      post 'close'
-      post 'reopen'
       match 'copy', :via => [:get, :post]
     end
 
@@ -226,7 +224,6 @@ RedmineApp::Application.routes.draw do
   get 'projects/:id/repository/:repository_id/revisions', :to => 'repositories#revisions'
   get 'projects/:id/repository/:repository_id/revisions/:rev/:action(/*path(.:ext))',
       :controller => 'repositories',
-      :format => false,
       :constraints => {
             :action => /(browse|show|entry|raw|annotate|diff)/,
             :rev    => /[a-z0-9\.\-_]+/
@@ -245,7 +242,6 @@ RedmineApp::Application.routes.draw do
   delete 'projects/:id/repository/revisions/:rev/issues/:issue_id', :to => 'repositories#remove_related_issue'
   get 'projects/:id/repository/revisions/:rev/:action(/*path(.:ext))',
       :controller => 'repositories',
-      :format => false,
       :constraints => {
             :action => /(browse|show|entry|raw|annotate|diff)/,
             :rev    => /[a-z0-9\.\-_]+/
@@ -264,7 +260,6 @@ RedmineApp::Application.routes.draw do
   match 'attachments/:id/:filename', :controller => 'attachments', :action => 'show', :id => /\d+/, :filename => /.*/, :via => :get
   match 'attachments/download/:id/:filename', :controller => 'attachments', :action => 'download', :id => /\d+/, :filename => /.*/, :via => :get
   match 'attachments/download/:id', :controller => 'attachments', :action => 'download', :id => /\d+/, :via => :get
-  match 'attachments/thumbnail/:id(/:size)', :controller => 'attachments', :action => 'thumbnail', :id => /\d+/, :via => :get, :size => /\d+/
   resources :attachments, :only => [:show, :destroy]
 
   resources :groups do
@@ -278,11 +273,7 @@ RedmineApp::Application.routes.draw do
   match 'groups/destroy_membership/:id', :controller => 'groups', :action => 'destroy_membership', :id => /\d+/, :via => :post
   match 'groups/edit_membership/:id', :controller => 'groups', :action => 'edit_membership', :id => /\d+/, :via => :post
 
-  resources :trackers, :except => :show do
-    collection do
-      match 'fields', :via => [:get, :post]
-    end
-  end
+  resources :trackers, :except => :show
   resources :issue_statuses, :except => :show do
     collection do
       post 'update_issue_done_ratio'
@@ -316,7 +307,6 @@ RedmineApp::Application.routes.draw do
 
   match 'workflows', :controller => 'workflows', :action => 'index', :via => :get
   match 'workflows/edit', :controller => 'workflows', :action => 'edit', :via => [:get, :post]
-  match 'workflows/permissions', :controller => 'workflows', :action => 'permissions', :via => [:get, :post]
   match 'workflows/copy', :controller => 'workflows', :action => 'copy', :via => [:get, :post]
   match 'settings', :controller => 'settings', :action => 'index', :via => :get
   match 'settings/edit', :controller => 'settings', :action => 'edit', :via => [:get, :post]

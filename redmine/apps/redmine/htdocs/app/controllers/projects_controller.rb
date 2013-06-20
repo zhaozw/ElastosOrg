@@ -48,11 +48,7 @@ class ProjectsController < ApplicationController
   def index
     respond_to do |format|
       format.html {
-        scope = Project
-        unless params[:closed]
-          scope = scope.active
-        end
-        @projects = scope.visible.order('lft').all
+        @projects = Project.visible.find(:all, :order => 'lft')
       }
       format.api  {
         @offset, @limit = api_offset_and_limit
@@ -69,14 +65,14 @@ class ProjectsController < ApplicationController
 
   def new
     @issue_custom_fields = IssueCustomField.find(:all, :order => "#{CustomField.table_name}.position")
-    @trackers = Tracker.sorted.all
+    @trackers = Tracker.all
     @project = Project.new
     @project.safe_attributes = params[:project]
   end
 
   def create
     @issue_custom_fields = IssueCustomField.find(:all, :order => "#{CustomField.table_name}.position")
-    @trackers = Tracker.sorted.all
+    @trackers = Tracker.all
     @project = Project.new
     @project.safe_attributes = params[:project]
 
@@ -109,7 +105,7 @@ class ProjectsController < ApplicationController
 
   def copy
     @issue_custom_fields = IssueCustomField.find(:all, :order => "#{CustomField.table_name}.position")
-    @trackers = Tracker.sorted.all
+    @trackers = Tracker.all
     @root_projects = Project.find(:all,
                                   :conditions => "parent_id IS NULL AND status = #{Project::STATUS_ACTIVE}",
                                   :order => 'name')
@@ -156,8 +152,12 @@ class ProjectsController < ApplicationController
 
     cond = @project.project_condition(Setting.display_subprojects_issues?)
 
-    @open_issues_by_tracker = Issue.visible.open.where(cond).count(:group => :tracker)
-    @total_issues_by_tracker = Issue.visible.where(cond).count(:group => :tracker)
+    @open_issues_by_tracker = Issue.visible.count(:group => :tracker,
+                                            :include => [:project, :status, :tracker],
+                                            :conditions => ["(#{cond}) AND #{IssueStatus.table_name}.is_closed=?", false])
+    @total_issues_by_tracker = Issue.visible.count(:group => :tracker,
+                                            :include => [:project, :status, :tracker],
+                                            :conditions => cond)
 
     if User.current.allowed_to?(:view_time_entries, @project)
       @total_hours = TimeEntry.visible.sum(:hours, :include => :project, :conditions => cond).to_f
@@ -175,7 +175,7 @@ class ProjectsController < ApplicationController
     @issue_custom_fields = IssueCustomField.find(:all, :order => "#{CustomField.table_name}.position")
     @issue_category ||= IssueCategory.new
     @member ||= @project.members.new
-    @trackers = Tracker.sorted.all
+    @trackers = Tracker.all
     @wiki ||= @project.wiki
   end
 
@@ -191,7 +191,7 @@ class ProjectsController < ApplicationController
           flash[:notice] = l(:notice_successful_update)
           redirect_to :action => 'settings', :id => @project
         }
-        format.api  { render_api_ok }
+        format.api  { head :ok }
       end
     else
       respond_to do |format|
@@ -224,16 +224,6 @@ class ProjectsController < ApplicationController
     redirect_to(url_for(:controller => 'admin', :action => 'projects', :status => params[:status]))
   end
 
-  def close
-    @project.close
-    redirect_to project_path(@project)
-  end
-
-  def reopen
-    @project.reopen
-    redirect_to project_path(@project)
-  end
-
   # Delete @project
   def destroy
     @project_to_destroy = @project
@@ -241,7 +231,7 @@ class ProjectsController < ApplicationController
       @project_to_destroy.destroy
       respond_to do |format|
         format.html { redirect_to :controller => 'admin', :action => 'projects' }
-        format.api  { render_api_ok }
+        format.api  { head :ok }
       end
     end
     # hide project in layout

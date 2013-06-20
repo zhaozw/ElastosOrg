@@ -40,15 +40,6 @@ class IssueCategoriesControllerTest < ActionController::TestCase
     assert_select 'input[name=?]', 'issue_category[name]'
   end
 
-  def test_new_from_issue_form
-    @request.session[:user_id] = 2 # manager
-    xhr :get, :new, :project_id => '1'
-
-    assert_response :success
-    assert_template 'new'
-    assert_equal 'text/javascript', response.content_type
-  end
-
   def test_create
     @request.session[:user_id] = 2 # manager
     assert_difference 'IssueCategory.count' do
@@ -76,8 +67,9 @@ class IssueCategoriesControllerTest < ActionController::TestCase
     assert_equal 'New category', category.name
 
     assert_response :success
-    assert_template 'create'
-    assert_equal 'text/javascript', response.content_type
+    assert_select_rjs :replace, 'issue_category_id' do
+      assert_select "option[value=#{category.id}][selected=selected]"
+    end
   end
 
   def test_create_from_issue_form_with_failure
@@ -87,8 +79,7 @@ class IssueCategoriesControllerTest < ActionController::TestCase
     end
 
     assert_response :success
-    assert_template 'new'
-    assert_equal 'text/javascript', response.content_type
+    assert_match /alert/, @response.body
   end
 
   def test_edit

@@ -16,6 +16,11 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 require File.expand_path('../../test_helper', __FILE__)
+require 'issue_relations_controller'
+
+# Re-raise errors caught by the controller.
+class IssueRelationsController; def rescue_action(e) raise e end; end
+
 
 class IssueRelationsControllerTest < ActionController::TestCase
   fixtures :projects,
@@ -31,12 +36,15 @@ class IssueRelationsControllerTest < ActionController::TestCase
            :trackers
 
   def setup
+    @controller = IssueRelationsController.new
+    @request    = ActionController::TestRequest.new
+    @response   = ActionController::TestResponse.new
     User.current = nil
-    @request.session[:user_id] = 3
   end
 
   def test_create
     assert_difference 'IssueRelation.count' do
+      @request.session[:user_id] = 3
       post :create, :issue_id => 1,
                  :relation => {:issue_to_id => '2', :relation_type => 'relates', :delay => ''}
     end
@@ -48,20 +56,23 @@ class IssueRelationsControllerTest < ActionController::TestCase
 
   def test_create_xhr
     assert_difference 'IssueRelation.count' do
-      xhr :post, :create, :issue_id => 3, :relation => {:issue_to_id => '1', :relation_type => 'relates', :delay => ''}
-      assert_response :success
-      assert_template 'create'
-      assert_equal 'text/javascript', response.content_type
+      @request.session[:user_id] = 3
+      xhr :post, :create,
+        :issue_id => 3,
+        :relation => {:issue_to_id => '1', :relation_type => 'relates', :delay => ''}
+      assert_select_rjs 'relations' do
+        assert_select 'table', 1
+        assert_select 'tr', 2 # relations
+      end
     end
     relation = IssueRelation.first(:order => 'id DESC')
     assert_equal 3, relation.issue_from_id
     assert_equal 1, relation.issue_to_id
-
-    assert_match /Bug #1/, response.body
   end
 
   def test_create_should_accept_id_with_hash
     assert_difference 'IssueRelation.count' do
+      @request.session[:user_id] = 3
       post :create, :issue_id => 1,
                  :relation => {:issue_to_id => '#2', :relation_type => 'relates', :delay => ''}
     end
@@ -71,6 +82,7 @@ class IssueRelationsControllerTest < ActionController::TestCase
 
   def test_create_should_strip_id
     assert_difference 'IssueRelation.count' do
+      @request.session[:user_id] = 3
       post :create, :issue_id => 1,
                  :relation => {:issue_to_id => ' 2  ', :relation_type => 'relates', :delay => ''}
     end
@@ -81,6 +93,7 @@ class IssueRelationsControllerTest < ActionController::TestCase
   def test_create_should_not_break_with_non_numerical_id
     assert_no_difference 'IssueRelation.count' do
       assert_nothing_raised do
+        @request.session[:user_id] = 3
         post :create, :issue_id => 1,
                    :relation => {:issue_to_id => 'foo', :relation_type => 'relates', :delay => ''}
       end
@@ -92,6 +105,7 @@ class IssueRelationsControllerTest < ActionController::TestCase
     assert_nil Issue.visible(User.find(3)).find_by_id(4)
 
     assert_no_difference 'IssueRelation.count' do
+      @request.session[:user_id] = 3
       post :create, :issue_id => 1,
                  :relation => {:issue_to_id => '4', :relation_type => 'relates', :delay => ''}
     end
@@ -99,20 +113,9 @@ class IssueRelationsControllerTest < ActionController::TestCase
 
   should "prevent relation creation when there's a circular dependency"
 
-  def test_create_xhr_with_failure
-    assert_no_difference 'IssueRelation.count' do
-      xhr :post, :create, :issue_id => 3, :relation => {:issue_to_id => '999', :relation_type => 'relates', :delay => ''}
-
-      assert_response :success
-      assert_template 'create'
-      assert_equal 'text/javascript', response.content_type
-    end
-
-    assert_match /errorExplanation/, response.body
-  end
-
   def test_destroy
     assert_difference 'IssueRelation.count', -1 do
+      @request.session[:user_id] = 3
       delete :destroy, :id => '2'
     end
   end
@@ -124,12 +127,9 @@ class IssueRelationsControllerTest < ActionController::TestCase
     end
 
     assert_difference 'IssueRelation.count', -1 do
+      @request.session[:user_id] = 3
       xhr :delete, :destroy, :id => '2'
-
-      assert_response :success
-      assert_template 'destroy'
-      assert_equal 'text/javascript', response.content_type
-      assert_match /relation-2/, response.body
+      assert_select_rjs  :remove, 'relation-2'
     end
   end
 end

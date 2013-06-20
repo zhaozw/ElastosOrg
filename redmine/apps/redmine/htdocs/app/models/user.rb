@@ -52,6 +52,8 @@ class User < Principal
   has_one :api_token, :class_name => 'Token', :conditions => "action='api'"
   belongs_to :auth_source
 
+  # Active non-anonymous users scope
+  scope :active, :conditions => "#{User.table_name}.status = #{STATUS_ACTIVE}"
   scope :logged, :conditions => "#{User.table_name}.status <> #{STATUS_ANONYMOUS}"
   scope :status, lambda {|arg| arg.blank? ? {} : {:conditions => {:status => arg.to_i}} }
 
@@ -392,7 +394,7 @@ class User < Principal
   def roles_for_project(project)
     roles = []
     # No role on archived projects
-    return roles if project.nil? || project.archived?
+    return roles unless project && project.active?
     if logged?
       # Find project membership
       membership = memberships.detect {|m| m.project_id == project.id}
@@ -418,13 +420,10 @@ class User < Principal
   def projects_by_role
     return @projects_by_role if @projects_by_role
 
-    @projects_by_role = Hash.new([])
+    @projects_by_role = Hash.new {|h,k| h[k]=[]}
     memberships.each do |membership|
-      if membership.project
-        membership.roles.each do |role|
-          @projects_by_role[role] = [] unless @projects_by_role.key?(role)
-          @projects_by_role[role] << membership.project
-        end
+      membership.roles.each do |role|
+        @projects_by_role[role] << membership.project if membership.project
       end
     end
     @projects_by_role.each do |role, projects|
@@ -456,6 +455,9 @@ class User < Principal
   #   or falls back to Non Member / Anonymous permissions depending if the user is logged
   def allowed_to?(action, context, options={}, &block)
     if context && context.is_a?(Project)
+      # No action allowed on archived projects
+      return false unless context.active?
+      # No action allowed on disabled modules
       return false unless context.allows_to?(action)
       # Admin users are authorized for anything else
       return true if admin?
@@ -659,10 +661,6 @@ class AnonymousUser < User
   def mail; nil end
   def time_zone; nil end
   def rss_key; nil end
-
-  def pref
-    UserPreference.new(:user => self)
-  end
 
   # Anonymous user can not be destroyed
   def destroy

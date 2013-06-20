@@ -135,11 +135,7 @@ class MyController < ApplicationController
     @user = User.current
     @blocks = @user.pref[:my_page_layout] || DEFAULT_LAYOUT.dup
     @block_options = []
-    BLOCKS.each do |k, v|
-      unless %w(top left right).detect {|f| (@blocks[f] ||= []).include?(k)}
-        @block_options << [l("my.blocks.#{v}", :default => [v, v.to_s.humanize]), k.dasherize]
-      end
-    end
+    BLOCKS.each {|k, v| @block_options << [l("my.blocks.#{v}", :default => [v, v.to_s.humanize]), k.dasherize]}
   end
 
   # Add a block to user's page
@@ -156,7 +152,7 @@ class MyController < ApplicationController
     layout['top'].unshift block
     @user.pref[:my_page_layout] = layout
     @user.pref.save
-    redirect_to :action => 'page_layout'
+    render :partial => "block", :locals => {:user => @user, :block_name => block}
   end
 
   # Remove a block to user's page
@@ -169,7 +165,7 @@ class MyController < ApplicationController
     %w(top left right).each {|f| (layout[f] ||= []).delete block }
     @user.pref[:my_page_layout] = layout
     @user.pref.save
-    redirect_to :action => 'page_layout'
+    render :nothing => true
   end
 
   # Change blocks order on user's page
@@ -179,8 +175,7 @@ class MyController < ApplicationController
     group = params[:group]
     @user = User.current
     if group.is_a?(String)
-      group_items = (params["blocks"] || []).collect(&:underscore)
-      group_items.each {|s| s.sub!(/^block_/, '')}
+      group_items = (params["list-#{group}"] || []).collect(&:underscore)
       if group_items and group_items.is_a? Array
         layout = @user.pref[:my_page_layout] || {}
         # remove group blocks if they are presents in other groups

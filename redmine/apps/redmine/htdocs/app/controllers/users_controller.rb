@@ -103,7 +103,7 @@ class UsersController < ApplicationController
 
       respond_to do |format|
         format.html {
-          flash[:notice] = l(:notice_user_successful_create, :id => view_context.link_to(@user.login, user_path(@user)))
+          flash[:notice] = l(:notice_successful_create)
           redirect_to(params[:continue] ?
             {:controller => 'users', :action => 'new'} :
             {:controller => 'users', :action => 'edit', :id => @user}
@@ -156,7 +156,7 @@ class UsersController < ApplicationController
           flash[:notice] = l(:notice_successful_update)
           redirect_to_referer_or edit_user_path(@user)
         }
-        format.api  { render_api_ok }
+        format.api  { head :ok }
       end
     else
       @auth_sources = AuthSource.find(:all)
@@ -174,8 +174,8 @@ class UsersController < ApplicationController
   def destroy
     @user.destroy
     respond_to do |format|
-      format.html { redirect_back_or_default(users_url) }
-      format.api  { render_api_ok }
+      format.html { redirect_to_referer_or(users_url) }
+      format.api  { head :ok }
     end
   end
 
@@ -183,8 +183,21 @@ class UsersController < ApplicationController
     @membership = Member.edit_membership(params[:membership_id], params[:membership], @user)
     @membership.save
     respond_to do |format|
-      format.html { redirect_to :controller => 'users', :action => 'edit', :id => @user, :tab => 'memberships' }
-      format.js
+      if @membership.valid?
+        format.html { redirect_to :controller => 'users', :action => 'edit', :id => @user, :tab => 'memberships' }
+        format.js {
+          render(:update) {|page|
+            page.replace_html "tab-content-memberships", :partial => 'users/memberships'
+            page.visual_effect(:highlight, "member-#{@membership.id}")
+          }
+        }
+      else
+        format.js {
+          render(:update) {|page|
+            page.alert(l(:notice_failed_to_save_members, :errors => @membership.errors.full_messages.join(', ')))
+          }
+        }
+      end
     end
   end
 
@@ -195,7 +208,7 @@ class UsersController < ApplicationController
     end
     respond_to do |format|
       format.html { redirect_to :controller => 'users', :action => 'edit', :id => @user, :tab => 'memberships' }
-      format.js
+      format.js { render(:update) {|page| page.replace_html "tab-content-memberships", :partial => 'users/memberships'} }
     end
   end
 

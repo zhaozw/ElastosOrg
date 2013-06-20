@@ -58,7 +58,7 @@ class Issue < ActiveRecord::Base
   validates_length_of :subject, :maximum => 255
   validates_inclusion_of :done_ratio, :in => 0..100
   validates_numericality_of :estimated_hours, :allow_nil => true
-  validate :validate_issue, :validate_required_fields
+  validate :validate_issue
 
   scope :visible,
         lambda {|*args| { :include => :project,
@@ -70,6 +70,7 @@ class Issue < ActiveRecord::Base
   }
 
   scope :recently_updated, :order => "#{Issue.table_name}.updated_on DESC"
+  scope :with_limit, lambda { |limit| { :limit => limit} }
   scope :on_active_project, :include => [:status, :project, :tracker],
                             :conditions => ["#{Project.table_name}.status=#{Project::STATUS_ACTIVE}"]
 
@@ -77,8 +78,6 @@ class Issue < ActiveRecord::Base
   before_save :close_duplicates, :update_done_ratio_from_issue_status, :force_updated_on_change
   after_save {|issue| issue.send :after_project_change if !issue.id_changed? && issue.project_id_changed?} 
   after_save :reschedule_following_issues, :update_nested_set_attributes, :update_parent_attributes, :create_journal
-  # Should be after_create but would be called before previous after_save callbacks
-  after_save :after_create_from_copy
   after_destroy :update_parent_attributes
 
   # Returns a SQL conditions string used to find all issues visible by the specified user
@@ -147,12 +146,6 @@ class Issue < ActiveRecord::Base
     super
   end
 
-  def reload(*args)
-    @workflow_rule_by_attribute = nil
-    @assignable_versions = nil
-    super
-  end
-
   # Overrides Redmine::Acts::Customizable::InstanceMethods#available_custom_fields
   def available_custom_fields
     (project && tracker) ? (project.all_issue_custom_fields & tracker.custom_fields.all) : []
@@ -171,7 +164,6 @@ class Issue < ActiveRecord::Base
       end
     end
     @copied_from = issue
-    @copy_options = options
     self
   end
 
@@ -216,9 +208,7 @@ class Issue < ActiveRecord::Base
 
   def status_id=(sid)
     self.status = nil
-    result = write_attribute(:status_id, sid)
-    @workflow_rule_by_attribute = nil
-    result
+    write_attribute(:status_id, sid)
   end
 
   def priority_id=(pid)
@@ -240,7 +230,6 @@ class Issue < ActiveRecord::Base
     self.tracker = nil
     result = write_attribute(:tracker_id, tid)
     @custom_field_values = nil
-    @workflow_rule_by_attribute = nil
     result
   end
 
@@ -255,8 +244,6 @@ class Issue < ActiveRecord::Base
     write_attribute(:project_id, project ? project.id : nil)
     association_instance_set('project', project)
     if project_was && project && project_was != project
-      @assignable_versions = nil
-
       unless keep_tracker || project.trackers.include?(tracker)
         self.tracker = project.trackers.first
       end
@@ -349,13 +336,6 @@ class Issue < ActiveRecord::Base
     :if => lambda {|issue, user| (issue.new_record? || user.allowed_to?(:edit_issues, issue.project)) &&
       user.allowed_to?(:manage_subtasks, issue.project)}
 
-  def safe_attribute_names(user=nil)
-    names = super
-    names -= disabled_core_fields
-    names -= read_only_attribute_names(user)
-    names
-  end
-
   # Safely sets attributes
   # Should be called from controllers instead of #attributes=
   # attr_accessible is too rough because we still want things like
@@ -363,27 +343,26 @@ class Issue < ActiveRecord::Base
   def safe_attributes=(attrs, user=User.current)
     return unless attrs.is_a?(Hash)
 
-    attrs = attrs.dup
+    # User can change issue attributes only if he has :edit permission or if a workflow transition is allowed
+    attrs = delete_unsafe_attributes(attrs, user)
+    return if attrs.empty?
 
     # Project and Tracker must be set before since new_statuses_allowed_to depends on it.
-    if (p = attrs.delete('project_id')) && safe_attribute?('project_id')
+    if p = attrs.delete('project_id')
       if allowed_target_projects(user).collect(&:id).include?(p.to_i)
         self.project_id = p
       end
     end
 
-    if (t = attrs.delete('tracker_id')) && safe_attribute?('tracker_id')
+    if t = attrs.delete('tracker_id')
       self.tracker_id = t
     end
 
-    if (s = attrs.delete('status_id')) && safe_attribute?('status_id')
-      if new_statuses_allowed_to(user).collect(&:id).include?(s.to_i)
-        self.status_id = s
+    if attrs['status_id']
+      unless new_statuses_allowed_to(user).collect(&:id).include?(attrs['status_id'].to_i)
+        attrs.delete('status_id')
       end
     end
-
-    attrs = delete_unsafe_attributes(attrs, user)
-    return if attrs.empty?
 
     unless leaf?
       attrs.reject! {|k,v| %w(priority_id done_ratio start_date due_date estimated_hours).include?(k)}
@@ -393,91 +372,9 @@ class Issue < ActiveRecord::Base
       attrs.delete('parent_issue_id') unless Issue.visible(user).exists?(attrs['parent_issue_id'].to_i)
     end
 
-    if attrs['custom_field_values'].present?
-      attrs['custom_field_values'] = attrs['custom_field_values'].reject {|k, v| read_only_attribute_names(user).include? k.to_s}
-    end
-
-    if attrs['custom_fields'].present?
-      attrs['custom_fields'] = attrs['custom_fields'].reject {|c| read_only_attribute_names(user).include? c['id'].to_s}
-    end
-
     # mass-assignment security bypass
     assign_attributes attrs, :without_protection => true
   end
-
-  def disabled_core_fields
-    tracker ? tracker.disabled_core_fields : []
-  end
-
-  # Returns the custom_field_values that can be edited by the given user
-  def editable_custom_field_values(user=nil)
-    custom_field_values.reject do |value|
-      read_only_attribute_names(user).include?(value.custom_field_id.to_s)
-    end
-  end
-
-  # Returns the names of attributes that are read-only for user or the current user
-  # For users with multiple roles, the read-only fields are the intersection of
-  # read-only fields of each role
-  # The result is an array of strings where sustom fields are represented with their ids
-  #
-  # Examples:
-  #   issue.read_only_attribute_names # => ['due_date', '2']
-  #   issue.read_only_attribute_names(user) # => []
-  def read_only_attribute_names(user=nil)
-    workflow_rule_by_attribute(user).reject {|attr, rule| rule != 'readonly'}.keys
-  end
-
-  # Returns the names of required attributes for user or the current user
-  # For users with multiple roles, the required fields are the intersection of
-  # required fields of each role
-  # The result is an array of strings where sustom fields are represented with their ids
-  #
-  # Examples:
-  #   issue.required_attribute_names # => ['due_date', '2']
-  #   issue.required_attribute_names(user) # => []
-  def required_attribute_names(user=nil)
-    workflow_rule_by_attribute(user).reject {|attr, rule| rule != 'required'}.keys
-  end
-
-  # Returns true if the attribute is required for user
-  def required_attribute?(name, user=nil)
-    required_attribute_names(user).include?(name.to_s)
-  end
-
-  # Returns a hash of the workflow rule by attribute for the given user
-  #
-  # Examples:
-  #   issue.workflow_rule_by_attribute # => {'due_date' => 'required', 'start_date' => 'readonly'}
-  def workflow_rule_by_attribute(user=nil)
-    return @workflow_rule_by_attribute if @workflow_rule_by_attribute && user.nil?
-
-    user_real = user || User.current
-    roles = user_real.admin ? Role.all : user_real.roles_for_project(project)
-    return {} if roles.empty?
-
-    result = {}
-    workflow_permissions = WorkflowPermission.where(:tracker_id => tracker_id, :old_status_id => status_id, :role_id => roles.map(&:id)).all
-    if workflow_permissions.any?
-      workflow_rules = workflow_permissions.inject({}) do |h, wp|
-        h[wp.field_name] ||= []
-        h[wp.field_name] << wp.rule
-        h
-      end
-      workflow_rules.each do |attr, rules|
-        next if rules.size < roles.size
-        uniq_rules = rules.uniq
-        if uniq_rules.size == 1
-          result[attr] = uniq_rules.first
-        else
-          result[attr] = 'required'
-        end
-      end
-    end
-    @workflow_rule_by_attribute = result if user.nil?
-    result
-  end
-  private :workflow_rule_by_attribute
 
   def done_ratio
     if Issue.use_status_for_done_ratio? && status && status.default_done_ratio
@@ -540,25 +437,6 @@ class Issue < ActiveRecord::Base
     end
   end
 
-  # Validates the issue against additional workflow requirements
-  def validate_required_fields
-    user = new_record? ? author : current_journal.try(:user)
-
-    required_attribute_names(user).each do |attribute|
-      if attribute =~ /^\d+$/
-        attribute = attribute.to_i
-        v = custom_field_values.detect {|v| v.custom_field_id == attribute }
-        if v && v.value.blank?
-          errors.add :base, v.custom_field.name + ' ' + l('activerecord.errors.messages.blank')
-        end
-      else
-        if respond_to?(attribute) && send(attribute).blank?
-          errors.add attribute, :blank
-        end
-      end
-    end
-  end
-
   # Set the done_ratio using the status if that setting is set.  This will keep the done_ratios
   # even if the user turns off the setting later
   def update_done_ratio_from_issue_status
@@ -584,17 +462,8 @@ class Issue < ActiveRecord::Base
     if new_record?
       nil
     else
-      journals.maximum(:id)
+      journals.first(:order => "#{Journal.table_name}.id DESC").try(:id)
     end
-  end
-
-  # Returns a scope for journals that have an id greater than journal_id
-  def journals_after(journal_id)
-    scope = journals.reorder("#{Journal.table_name}.id ASC")
-    if journal_id.present?
-      scope = scope.where("#{Journal.table_name}.id > ?", journal_id.to_i)
-    end
-    scope
   end
 
   # Return true if the issue is closed, otherwise false
@@ -653,21 +522,7 @@ class Issue < ActiveRecord::Base
 
   # Versions that the issue can be assigned to
   def assignable_versions
-    return @assignable_versions if @assignable_versions
-
-    versions = project.shared_versions.open.all
-    if fixed_version
-      if fixed_version_id_changed?
-        # nothing to do
-      elsif project_id_changed?
-        if project.shared_versions.include?(fixed_version)
-          versions << fixed_version
-        end
-      else
-        versions << fixed_version
-      end
-    end
-    @assignable_versions = versions.uniq.sort
+    @assignable_versions ||= (project.shared_versions.open + [Version.find_by_id(fixed_version_id_was)]).compact.uniq.sort
   end
 
   # Returns true if this issue is blocked by another issue that is still open
@@ -847,7 +702,7 @@ class Issue < ActiveRecord::Base
 
   # Returns a string of css classes that apply to the issue
   def css_classes
-    s = "issue status-#{status_id} priority-#{priority_id}"
+    s = "issue status-#{status.position} priority-#{priority.position}"
     s << ' closed' if closed?
     s << ' overdue' if overdue?
     s << ' child' if child?
@@ -1000,30 +855,6 @@ class Issue < ActiveRecord::Base
       unless child.save
         raise ActiveRecord::Rollback
       end
-    end
-  end
-
-  # Copies subtasks from the copied issue
-  def after_create_from_copy
-    return unless copy?
-
-    unless @copied_from.leaf? || @copy_options[:subtasks] == false || @subtasks_copied
-      @copied_from.children.each do |child|
-        unless child.visible?
-          # Do not copy subtasks that are not visible to avoid potential disclosure of private data
-          logger.error "Subtask ##{child.id} was not copied during ##{@copied_from.id} copy because it is not visible to the current user" if logger
-          next
-        end
-        copy = Issue.new.copy_from(child, @copy_options)
-        copy.author = author
-        copy.project = project
-        copy.parent_issue_id = id
-        # Children subtasks are copied recursively
-        unless copy.save
-          logger.error "Could not copy subtask ##{child.id} while copying ##{@copied_from.id} to ##{id} due to validation errors: #{copy.errors.full_messages.join(', ')}" if logger
-        end
-      end
-      @subtasks_copied = true
     end
   end
 

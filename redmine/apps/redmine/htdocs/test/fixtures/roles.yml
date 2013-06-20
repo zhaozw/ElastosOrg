@@ -8,7 +8,6 @@ roles_001:
     --- 
     - :add_project
     - :edit_project
-    - :close_project
     - :select_project_modules
     - :manage_members
     - :manage_versions

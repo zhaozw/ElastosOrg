@@ -36,22 +36,24 @@ class TimelogControllerTest < ActionController::TestCase
     @response   = ActionController::TestResponse.new
   end
 
-  def test_new_with_project_id
+  def test_get_new
     @request.session[:user_id] = 3
     get :new, :project_id => 1
     assert_response :success
     assert_template 'new'
-    assert_select 'select[name=?]', 'time_entry[project_id]', 0
-    assert_select 'input[name=?][value=1][type=hidden]', 'time_entry[project_id]'
+    # Default activity selected
+    assert_tag :tag => 'option', :attributes => { :selected => 'selected' },
+                                 :content => 'Development'
+    assert_select 'input[name=project_id][value=1]'
   end
 
-  def test_new_with_issue_id
+  def test_get_new_should_only_show_active_time_entry_activities
     @request.session[:user_id] = 3
-    get :new, :issue_id => 2
+    get :new, :project_id => 1
     assert_response :success
     assert_template 'new'
-    assert_select 'select[name=?]', 'time_entry[project_id]', 0
-    assert_select 'input[name=?][value=1][type=hidden]', 'time_entry[project_id]'
+    assert_no_tag 'select', :attributes => {:name => 'time_entry[project_id]'}
+    assert_no_tag 'option', :content => 'Inactive Activity'
   end
 
   def test_new_without_project
@@ -59,8 +61,8 @@ class TimelogControllerTest < ActionController::TestCase
     get :new
     assert_response :success
     assert_template 'new'
-    assert_select 'select[name=?]', 'time_entry[project_id]'
-    assert_select 'input[name=?]', 'time_entry[project_id]', 0
+    assert_tag 'select', :attributes => {:name => 'time_entry[project_id]'}
+    assert_select 'input[name=project_id]', 0
   end
 
   def test_new_without_project_should_prefill_the_form
@@ -71,7 +73,7 @@ class TimelogControllerTest < ActionController::TestCase
     assert_select 'select[name=?]', 'time_entry[project_id]' do
       assert_select 'option[value=1][selected=selected]'
     end
-    assert_select 'input[name=?]', 'time_entry[project_id]', 0
+    assert_select 'input[name=project_id]', 0
   end
 
   def test_new_without_project_should_deny_without_permission
@@ -80,22 +82,6 @@ class TimelogControllerTest < ActionController::TestCase
 
     get :new
     assert_response 403
-  end
-
-  def test_new_should_select_default_activity
-    @request.session[:user_id] = 3
-    get :new, :project_id => 1
-    assert_response :success
-    assert_select 'select[name=?]', 'time_entry[activity_id]' do
-      assert_select 'option[selected=selected]', :text => 'Development'
-    end
-  end
-
-  def test_new_should_only_show_active_time_entry_activities
-    @request.session[:user_id] = 3
-    get :new, :project_id => 1
-    assert_response :success
-    assert_no_tag 'option', :content => 'Inactive Activity'
   end
 
   def test_get_edit_existing_time

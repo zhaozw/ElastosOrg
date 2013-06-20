@@ -1,0 +1,10 @@
+production:
+  delivery_method: :smtp
+  smtp_settings:
+    address: 192.168.3.15
+    port: 25
+    domain: elastos.org
+    authentication: :login
+    user_name: elastos_pm
+    password: Elastos123
+

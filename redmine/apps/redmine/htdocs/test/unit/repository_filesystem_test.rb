@@ -70,12 +70,7 @@ class RepositoryFilesystemTest < ActiveSupport::TestCase
     end
 
     def test_entries
-      entries = @repository.entries("", 2)
-      assert_kind_of Redmine::Scm::Adapters::Entries, entries
-      assert_equal 3, entries.size
-    end
-
-    def test_entries_in_directory
+      assert_equal 3, @repository.entries("", 2).size
       assert_equal 2, @repository.entries("dir", 3).size
     end
 

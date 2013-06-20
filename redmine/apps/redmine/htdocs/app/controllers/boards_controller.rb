@@ -25,7 +25,7 @@ class BoardsController < ApplicationController
   helper :watchers
 
   def index
-    @boards = @project.boards.includes(:last_message => :author).all
+    @boards = @project.boards
     # show the board if there is only one
     if @boards.size == 1
       @board = @boards.first

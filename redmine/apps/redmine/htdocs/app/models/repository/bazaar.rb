@@ -63,8 +63,6 @@ class Repository::Bazaar < Repository
         end
       end
     end
-    load_entries_changesets(entries)
-    entries
   end
 
   def fetch_changesets

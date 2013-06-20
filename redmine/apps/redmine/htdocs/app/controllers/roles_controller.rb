@@ -36,11 +36,8 @@ class RolesController < ApplicationController
   end
 
   def new
-    # Prefills the form with 'Non member' role permissions by default
+    # Prefills the form with 'Non member' role permissions
     @role = Role.new(params[:role] || {:permissions => Role.non_member.permissions})
-    if params[:copy].present? && @copy_from = Role.find_by_id(params[:copy])
-      @role.copy_from(@copy_from)
-    end
     @roles = Role.sorted.all
   end
 
@@ -49,7 +46,7 @@ class RolesController < ApplicationController
     if request.post? && @role.save
       # workflow copy
       if !params[:copy_workflow_from].blank? && (copy_from = Role.find_by_id(params[:copy_workflow_from]))
-        @role.workflow_rules.copy(copy_from)
+        @role.workflows.copy(copy_from)
       end
       flash[:notice] = l(:notice_successful_create)
       redirect_to :action => 'index'

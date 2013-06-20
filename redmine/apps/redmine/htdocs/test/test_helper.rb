@@ -128,10 +128,6 @@ class ActiveSupport::TestCase
     return nil
   end
 
-  def self.convert_installed?
-    Redmine::Thumbnail.convert_available?
-  end
-
   # Returns the path to the test +vendor+ repository
   def self.repository_path(vendor)
     Rails.root.join("tmp/test/#{vendor.downcase}_repository").to_s
@@ -160,8 +156,8 @@ class ActiveSupport::TestCase
     assert_tag({:attributes => { :id => 'errorExplanation' }}.merge(options))
   end
 
-  def assert_include(expected, s, message=nil)
-    assert s.include?(expected), (message || "\"#{expected}\" not found in \"#{s}\"")
+  def assert_include(expected, s)
+    assert s.include?(expected), "\"#{expected}\" not found in \"#{s}\""
   end
 
   def assert_not_include(expected, s)
@@ -288,6 +284,7 @@ class ActiveSupport::TestCase
         end
       end
     end
+
   end
 
   # Test that a request allows the API key with HTTP BASIC
@@ -311,6 +308,7 @@ class ActiveSupport::TestCase
           @token = Token.create!(:user => @user, :action => 'api')
           send(http_method, url, parameters, credentials(@token.value, 'X'))
         end
+
         should_respond_with success_code
         should_respond_with_content_type_based_on_url(url)
         should_be_a_valid_response_string_based_on_url(url)
@@ -325,6 +323,7 @@ class ActiveSupport::TestCase
           @token = Token.create!(:user => @user, :action => 'feeds')
           send(http_method, url, parameters, credentials(@token.value, 'X'))
         end
+
         should_respond_with failure_code
         should_respond_with_content_type_based_on_url(url)
         should "not login as the user" do
@@ -361,6 +360,7 @@ class ActiveSupport::TestCase
                         end
           send(http_method, request_url, parameters)
         end
+
         should_respond_with success_code
         should_respond_with_content_type_based_on_url(url)
         should_be_a_valid_response_string_based_on_url(url)
@@ -383,6 +383,7 @@ class ActiveSupport::TestCase
                         end
           send(http_method, request_url, parameters)
         end
+
         should_respond_with failure_code
         should_respond_with_content_type_based_on_url(url)
         should "not login as the user" do
@@ -399,6 +400,7 @@ class ActiveSupport::TestCase
         @token = Token.create!(:user => @user, :action => 'api')
         send(http_method, url, parameters, {'X-Redmine-API-Key' => @token.value.to_s})
       end
+
       should_respond_with success_code
       should_respond_with_content_type_based_on_url(url)
       should_be_a_valid_response_string_based_on_url(url)
@@ -427,6 +429,7 @@ class ActiveSupport::TestCase
     else
       raise "Unknown content type for should_respond_with_content_type_based_on_url: #{url}"
     end
+
   end
 
   # Uses the url to assert which format the response should be in
@@ -444,6 +447,7 @@ class ActiveSupport::TestCase
     else
       raise "Unknown content type for should_be_a_valid_response_based_on_url: #{url}"
     end
+
   end
 
   # Checks that the response is a valid JSON string

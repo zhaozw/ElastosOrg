@@ -278,7 +278,7 @@ module Redmine
 
       class Entries < Array
         def sort_by_name
-          dup.sort! {|x,y|
+          sort {|x,y|
             if x.kind == y.kind
               x.name.to_s <=> y.name.to_s
             else
@@ -301,8 +301,7 @@ module Redmine
       end
 
       class Entry
-        attr_accessor :name, :path, :kind, :size, :lastrev, :changeset
-
+        attr_accessor :name, :path, :kind, :size, :lastrev
         def initialize(attributes={})
           self.name = attributes[:name] if attributes[:name]
           self.path = attributes[:path] if attributes[:path]
@@ -321,14 +320,6 @@ module Redmine
 
         def is_text?
           Redmine::MimeType.is_type?('text', name)
-        end
-
-        def author
-          if changeset
-            changeset.author.to_s
-          elsif lastrev
-            Redmine::CodesetUtil.replace_invalid_utf8(lastrev.author.to_s.split('<').first)
-          end
         end
       end
 
@@ -365,18 +356,6 @@ module Redmine
         # Returns the readable identifier.
         def format_identifier
           self.identifier.to_s
-        end
-
-        def ==(other)
-          if other.nil?
-            false
-          elsif scmid.present?
-            scmid == other.scmid
-          elsif identifier.present?
-            identifier == other.identifier
-          elsif revision.present?
-            revision == other.revision
-          end
         end
       end
 

@@ -41,15 +41,5 @@ module Redmine
         SecureRandom.hex(n)
       end
     end
-
-    module Shell
-      def shell_quote(str)
-        if Redmine::Platform.mswin?
-          '"' + str.gsub(/"/, '\\"') + '"'
-        else
-          "'" + str.gsub(/'/, "'\"'\"'") + "'"
-        end
-      end
-    end
   end
 end

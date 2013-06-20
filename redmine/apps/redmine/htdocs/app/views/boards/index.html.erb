@@ -8,19 +8,21 @@
     <th><%= l(:label_message_last) %></th>
   </tr></thead>
   <tbody>
-<% Board.board_tree(@boards) do |board, level| %>
+<% for board in @boards %>
   <tr class="<%= cycle 'odd', 'even' %>">
-    <td style="padding-left: <%= level * 18 %>px;">
+    <td style="height:38px;">
       <%= link_to h(board.name), {:action => 'show', :id => board}, :class => "board"  %><br />
       <%=h board.description %>
     </td>
-    <td class="topic-count"><%= board.topics_count %></td>
-    <td class="message-count"><%= board.messages_count %></td>
-    <td class="last-message">
+    <td align="center"><%= board.topics_count %></td>
+    <td align="center"><%= board.messages_count %></td>
+    <td>
+    <small>
       <% if board.last_message %>
       <%= authoring board.last_message.created_on, board.last_message.author %><br />
       <%= link_to_message board.last_message %>
       <% end %>
+    </small>
     </td>
   </tr>
 <% end %>

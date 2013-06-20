@@ -141,7 +141,12 @@ module RepositoriesHelper
     select_tag('repository_scm',
                options_for_select(scm_options, repository.class.name.demodulize),
                :disabled => (repository && !repository.new_record?),
-               :data => {:remote => true, :method => 'get'})
+               :onchange => remote_function(
+                 :url => new_project_repository_path(@project),
+                 :method => :get,
+                 :update => 'content',
+                 :with   => "Form.serialize(this.form)")
+             )
   end
 
   def with_leading_slash(path)
@@ -154,7 +159,7 @@ module RepositoriesHelper
 
   def subversion_field_tags(form, repository)
       content_tag('p', form.text_field(:url, :size => 60, :required => true,
-                       :disabled => !repository.safe_attribute?('url')) +
+                       :disabled => (repository && !repository.root_url.blank?)) +
                        '<br />'.html_safe +
                        '(file:///, http://, https://, svn://, svn+[tunnelscheme]://)') +
       content_tag('p', form.text_field(:login, :size => 30)) +
@@ -169,7 +174,7 @@ module RepositoriesHelper
     content_tag('p', form.text_field(
                      :url, :label => l(:field_path_to_repository),
                      :size => 60, :required => true,
-                     :disabled => !repository.safe_attribute?('url'))) +
+                     :disabled => (repository && !repository.new_record?))) +
     content_tag('p', form.select(
                      :log_encoding, [nil] + Setting::ENCODINGS,
                      :label => l(:field_commit_logs_encoding), :required => true))
@@ -179,7 +184,7 @@ module RepositoriesHelper
     content_tag('p', form.text_field(
                        :url, :label => l(:field_path_to_repository),
                        :size => 60, :required => true,
-                       :disabled => !repository.safe_attribute?('url')
+                       :disabled => (repository && !repository.root_url.blank?)
                          ) +
                      '<br />'.html_safe + l(:text_mercurial_repository_note)) +
     content_tag('p', form.select(
@@ -193,7 +198,7 @@ module RepositoriesHelper
     content_tag('p', form.text_field(
                        :url, :label => l(:field_path_to_repository),
                        :size => 60, :required => true,
-                       :disabled => !repository.safe_attribute?('url')
+                       :disabled => (repository && !repository.root_url.blank?)
                          ) +
                       '<br />'.html_safe +
                       l(:text_git_repository_note)) +
@@ -213,12 +218,12 @@ module RepositoriesHelper
                      :root_url,
                      :label => l(:field_cvsroot),
                      :size => 60, :required => true,
-                     :disabled => !repository.safe_attribute?('root_url'))) +
+                     :disabled => !repository.new_record?)) +
     content_tag('p', form.text_field(
                      :url,
                      :label => l(:field_cvs_module),
                      :size => 30, :required => true,
-                     :disabled => !repository.safe_attribute?('url'))) +
+                     :disabled => !repository.new_record?)) +
     content_tag('p', form.select(
                      :log_encoding, [nil] + Setting::ENCODINGS,
                      :label => l(:field_commit_logs_encoding), :required => true)) +
@@ -233,7 +238,7 @@ module RepositoriesHelper
     content_tag('p', form.text_field(
                      :url, :label => l(:field_path_to_repository),
                      :size => 60, :required => true,
-                     :disabled => !repository.safe_attribute?('url'))) +
+                     :disabled => (repository && !repository.new_record?))) +
     content_tag('p', form.select(
                      :log_encoding, [nil] + Setting::ENCODINGS,
                      :label => l(:field_commit_logs_encoding), :required => true))
@@ -243,7 +248,7 @@ module RepositoriesHelper
     content_tag('p', form.text_field(
                      :url, :label => l(:field_root_directory),
                      :size => 60, :required => true,
-                     :disabled => !repository.safe_attribute?('url'))) +
+                     :disabled => (repository && !repository.root_url.blank?))) +
     content_tag('p', form.select(
                         :path_encoding, [nil] + Setting::ENCODINGS,
                         :label => l(:field_scm_path_encoding)

@@ -171,7 +171,7 @@ class TimelogController < ApplicationController
           flash[:notice] = l(:notice_successful_update)
           redirect_back_or_default :action => 'index', :project_id => @time_entry.project
         }
-        format.api  { render_api_ok }
+        format.api  { head :ok }
       end
     else
       respond_to do |format|
@@ -223,7 +223,7 @@ class TimelogController < ApplicationController
       }
       format.api  {
         if destroyed
-          render_api_ok
+          head :ok
         else
           render_validation_errors(@time_entries)
         end

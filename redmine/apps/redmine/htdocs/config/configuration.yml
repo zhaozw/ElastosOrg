@@ -92,7 +92,7 @@ default:
       domain: elastos.org
       authentication: :login
       user_name: "elastos_pm@elastos.org"
-      password: "I won't tell you ^_^"
+      password: "Elastos123"
       openssl_verify_mode: 'none'
       
   

@@ -82,7 +82,6 @@ module Redmine #:nodoc:
       view_path = File.join(p.directory, 'app', 'views')
       if File.directory?(view_path)
         ActionController::Base.prepend_view_path(view_path)
-        ActionMailer::Base.prepend_view_path(view_path)
       end
 
       # Adds the app/{controllers,helpers,models} directories of the plugin to the autoload path
@@ -245,15 +244,13 @@ module Redmine #:nodoc:
     #   permission :destroy_contacts, { :contacts => :destroy }
     #   permission :view_contacts, { :contacts => [:index, :show] }
     #
-    # The +options+ argument is a hash that accept the following keys:
-    # * :public => the permission is public if set to true (implicitly given to any user)
-    # * :require => can be set to one of the following values to restrict users the permission can be given to: :loggedin, :member
-    # * :read => set it to true so that the permission is still granted on closed projects
+    # The +options+ argument can be used to make the permission public (implicitly given to any user)
+    # or to restrict users the permission can be given to.
     #
     # Examples
     #   # A permission that is implicitly given to any user
     #   # This permission won't appear on the Roles & Permissions setup screen
-    #   permission :say_hello, { :example => :say_hello }, :public => true, :read => true
+    #   permission :say_hello, { :example => :say_hello }, :public => true
     #
     #   # A permission that can be given to any user
     #   permission :say_hello, { :example => :say_hello }

@@ -140,7 +140,7 @@ module Redmine
             Tracker.find(:all).each { |t|
               IssueStatus.find(:all).each { |os|
                 IssueStatus.find(:all).each { |ns|
-                  WorkflowTransition.create!(:tracker_id => t.id, :role_id => manager.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
+                  Workflow.create!(:tracker_id => t.id, :role_id => manager.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
                 }
               }
             }
@@ -148,7 +148,7 @@ module Redmine
             Tracker.find(:all).each { |t|
               [new, in_progress, resolved, feedback].each { |os|
                 [in_progress, resolved, feedback, closed].each { |ns|
-                  WorkflowTransition.create!(:tracker_id => t.id, :role_id => developer.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
+                  Workflow.create!(:tracker_id => t.id, :role_id => developer.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
                 }
               }
             }
@@ -156,21 +156,21 @@ module Redmine
             Tracker.find(:all).each { |t|
               [new, in_progress, resolved, feedback].each { |os|
                 [closed].each { |ns|
-                  WorkflowTransition.create!(:tracker_id => t.id, :role_id => reporter.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
+                  Workflow.create!(:tracker_id => t.id, :role_id => reporter.id, :old_status_id => os.id, :new_status_id => ns.id) unless os == ns
                 }
               }
-              WorkflowTransition.create!(:tracker_id => t.id, :role_id => reporter.id, :old_status_id => resolved.id, :new_status_id => feedback.id)
+              Workflow.create!(:tracker_id => t.id, :role_id => reporter.id, :old_status_id => resolved.id, :new_status_id => feedback.id)
             }
 
             # Enumerations
+            DocumentCategory.create!(:name => l(:default_doc_category_user), :position => 1)
+            DocumentCategory.create!(:name => l(:default_doc_category_tech), :position => 2)
+
             IssuePriority.create!(:name => l(:default_priority_low), :position => 1)
             IssuePriority.create!(:name => l(:default_priority_normal), :position => 2, :is_default => true)
             IssuePriority.create!(:name => l(:default_priority_high), :position => 3)
             IssuePriority.create!(:name => l(:default_priority_urgent), :position => 4)
             IssuePriority.create!(:name => l(:default_priority_immediate), :position => 5)
-
-            DocumentCategory.create!(:name => l(:default_doc_category_user), :position => 1)
-            DocumentCategory.create!(:name => l(:default_doc_category_tech), :position => 2)
 
             TimeEntryActivity.create!(:name => l(:default_activity_design), :position => 1)
             TimeEntryActivity.create!(:name => l(:default_activity_development), :position => 2)

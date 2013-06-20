@@ -41,11 +41,6 @@ class IssueCategoriesController < ApplicationController
   def new
     @category = @project.issue_categories.build
     @category.safe_attributes = params[:issue_category]
-
-    respond_to do |format|
-      format.html
-      format.js
-    end
   end
 
   def create
@@ -57,13 +52,20 @@ class IssueCategoriesController < ApplicationController
           flash[:notice] = l(:notice_successful_create)
           redirect_to :controller => 'projects', :action => 'settings', :tab => 'categories', :id => @project
         end
-        format.js
+        format.js do
+          # IE doesn't support the replace_html rjs method for select box options
+          render(:update) {|page| page.replace "issue_category_id",
+            content_tag('select', content_tag('option') + options_from_collection_for_select(@project.issue_categories, 'id', 'name', @category.id), :id => 'issue_category_id', :name => 'issue[category_id]')
+          }
+        end
         format.api { render :action => 'show', :status => :created, :location => issue_category_path(@category) }
       end
     else
       respond_to do |format|
         format.html { render :action => 'new'}
-        format.js   { render :action => 'new'}
+        format.js do
+          render(:update) {|page| page.alert(@category.errors.full_messages.join('\n')) }
+        end
         format.api { render_validation_errors(@category) }
       end
     end
@@ -80,7 +82,7 @@ class IssueCategoriesController < ApplicationController
           flash[:notice] = l(:notice_successful_update)
           redirect_to :controller => 'projects', :action => 'settings', :tab => 'categories', :id => @project
         }
-        format.api { render_api_ok }
+        format.api { head :ok }
       end
     else
       respond_to do |format|
@@ -100,7 +102,7 @@ class IssueCategoriesController < ApplicationController
       @category.destroy(reassign_to)
       respond_to do |format|
         format.html { redirect_to :controller => 'projects', :action => 'settings', :id => @project, :tab => 'categories' }
-        format.api { render_api_ok }
+        format.api { head :ok }
       end
       return
     end
