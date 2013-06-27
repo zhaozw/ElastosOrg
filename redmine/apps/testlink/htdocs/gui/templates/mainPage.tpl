@@ -78,5 +78,34 @@ window.onload=function()
 
 {* ----- Left Column -------------- *}
 {include file="mainPageLeft.tpl"}
+
+<div id="elfooter">
+<table frame="hsides" border="0" width="2048">
+<tr>
+<td width="40">
+  <a href="http://elastos.org" target="_top"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;"/></a>
+</td><td width="168">
+  <ul id="footernav1">
+    <li>
+      <a href="http://elastos.org/project/" target="_top">Project</a>
+    </li>
+    <li>
+      <a href="http://elastos.org/wiki/" target="_top">Documentation</a>
+    </li>
+  </ul>
+</td><td>
+  <ul id="footernav2">
+    <li>
+      <a href="http://elastos.org/review/" target="_top">Code Review</a>
+    </li>
+    <li>
+      <a href="http://elastos.org/jenkins/" target="_top">CI, Continuous Integration</a>
+    </li>
+  </ul>
+</td>
+</tr>
+</table>
+</div>
+
 </body>
 </html>
