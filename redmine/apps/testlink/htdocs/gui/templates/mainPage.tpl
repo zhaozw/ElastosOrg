@@ -80,7 +80,7 @@ window.onload=function()
 {include file="mainPageLeft.tpl"}
 
 <div id="elfooter">
-<table frame="hsides" border="0" width="2048">
+<table frame="hsides" border="0" width="2048" style="float:left;">
 <tr>
 <td width="40">
   <a href="http://elastos.org" target="_top"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;"/></a>
