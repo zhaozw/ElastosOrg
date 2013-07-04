@@ -1,0 +1,23 @@
+<h2><%=l('redmine_importer.label_issue_importer')%></h2>
+
+<%= form_tag({:action => 'match'}, {:multipart => true}) do %>
+	<%= hidden_field_tag 'project_id', @project.id %>
+  	
+	<p><label><%=l('redmine_importer.label_upload_notice')%></label><br/>
+	<%= file_field_tag 'file', :size => 60%></p>
+
+	<fieldset class="box"><legend><%= l('redmine_importer.label_upload_format') %></legend>
+		 <p><label><%=l('redmine_importer.label_upload_encoding')%></label>
+		<%= select_tag "encoding", options_for_select(importer_encodings_for_select, "U") %></p>
+		
+		<p><label><%=l('redmine_importer.label_upload_splitter')%></label>
+		<%= text_field_tag "splitter", ',', {:size => 3, :maxlength => 1}%></p>
+		
+		<p><label><%=l('redmine_importer.label_upload_wrapper')%></label>
+		<%= text_field_tag "wrapper", '"', {:size => 3, :maxlength => 1}%></p>
+		
+	</fieldset>	
+
+	<%= submit_tag l('redmine_importer.button_upload') %>
+<% end %>
+
