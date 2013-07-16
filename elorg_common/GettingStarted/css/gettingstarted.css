@@ -1,0 +1,233 @@
+body {
+	margin:0px;
+	padding: 0;
+	font: small Arial, Helvetica, Verdana, sans-serif;
+	text-align: left;
+	min-width: 1100px;
+	color: #000000;
+}
+a{
+	text-decoration: none;
+	color: rgb(0, 102, 204);
+}
+a:hover{
+	 color:red;
+}
+.clear {
+	clear: both;
+	height: 0;
+}
+#peb {
+	background: #FFFFFF url(../img/main_dotted.gif) bottom left repeat-x;
+	font-size: .825em;
+	height: 55px;
+}
+.L0 {
+	font-family:helvetica, arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.8em;
+	color: #7d8693;
+	padding: 15px 0px 0px 15px;
+}
+.L1 {
+	font-family:helvetica, arial, sans-serif;
+	font-weight: 600;
+	color: #0067ba;
+}
+
+#content1,#content2 ,#content3 ,#content4,#content5{
+	margin: 0px 10px 0px 210px;
+	padding: 0.2em 1em 1em 1.5em;
+	background: url(../img/dashed.png) repeat-y scroll left center transparent;
+}
+#content1,#content2 ,#content3 ,#content4,#content5 ul {
+	margin:0 0 20px;
+	padding:0px 0px 0px 25px;
+}
+#content1,#content2 ,#content3 ,#content4,#content5 li {
+	line-height:20px;
+}
+
+#main {
+	color: #333333;
+	margin: 0 220px 0 210px;
+	padding: 0.2em 1.2em 1em 1.2em;
+}
+
+/*leftcolumn-important*/
+#leftcolumn {
+	float: left;
+	left: 0;
+	margin: 10 0 25px;
+	padding: 0 2.5em 0 0.5em;
+	width: 200px;
+}
+#leftcolumn ul {
+	margin: 0;
+	padding: 0;
+}
+#leftcolumn li {
+    margin: 0px;
+    background: url(../img/dot_off.gif) no-repeat scroll 0px 0px transparent;
+    padding: 4px 0px 0px 10px;
+}
+#leftcolumn a {
+    color: rgb(0, 102, 204);
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+#leftcolumn a:hover{
+	color:red;
+}
+#leftcolumn h3 {
+    font-size: 17px;
+    color: rgb(0, 102, 204);
+}
+
+#masthead {
+	padding: 0px;
+	background-color: #ffffff;
+	height: 80px;
+	position: relative;
+}
+#sas_logo {
+	left:0;
+	margin-left:20px;
+	padding:18px 0 0;
+	top:0;
+	float: left;
+	width:300px;
+}
+#language{
+    font-weight:bold;
+	background:#007BB9;
+	margin-right:8px;
+	padding-bottom:5px;
+	border-radius:12px;
+	float:right;
+	margin-top:-65px;
+	width:100px;
+}
+#language a{color:#fff;}
+#language a:hover{color:red;}
+#language ul{list-style:none;}
+#language li{
+	margin-top:-8px;
+	margin-right:5px;
+	width:80px;
+	float:right;
+}
+.clear{clear:both;}
+/*SEARCH */
+#searchBox {
+	float: right;
+	padding: 0;
+	margin: 0px 5px 0px 0px;
+	height: 70px;
+}
+#searchBox fieldset {
+	border: 1px solid #ccc;
+	padding: 0px 5px 2px 10px;
+	margin: 0px 0px 0px 0px;
+}
+#searchBox fieldset.search {
+	border: 0px solid #ffffff;
+	text-align: right;
+	margin-top: 45px;
+}
+#searchBox label {
+	font-size: .8em;
+	color: #fff;
+	background-color: inherit;
+}
+#searchBox input.searchField {
+	font-size: .8em;
+	border: 1px solid #A5ACB2;
+	height: 16px;
+	padding: 1px;
+	float: right;
+	margin-right: 5px;
+}
+#searchBox span {
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	height:18px;
+	margin-left: 5px;
+}
+#searchBox .searchSelect {
+	font-size: 14px;
+	border: 1px solid #A5ACB2;
+	padding: 1px;
+	float: right;
+}
+#searchBox .searchSelect optgroup {
+	border-color: black;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	padding: 5px 0 0 0;
+}
+#sectionTitlediv{
+	float: left;
+}
+/* ****** banner navigation *******
+----------------------------------------------- */
+#mastheadnav {
+	background:url(../img/banner-colour.png) scroll transparent;
+	height:39px;
+	padding:0;
+	position:relative;
+	z-index:400;
+}
+#mastheadnav ul {
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	list-style-image: none;
+}
+#mastheadnav li {
+	border-top:0 none;
+	float:left;
+	font-size:12px;
+	height:35px;
+	width:100px;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#mastheadnav li p {
+	border-bottom:0 none;
+	border-right:1px solid #0F6BA7;
+	font-size:12px;
+	margin:0;
+	padding-left:40px;
+	width:100px;
+	float:left;
+}
+#mastheadnav a {
+	color:white;
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	line-height:35px;
+	margin:0;
+	padding:0 10px;
+	text-align:center;
+	white-space:nowrap;
+	}
+#mastheadnav a:hover{
+    color:#b1f0a5;
+}
+.content {
+  width:700px;
+  min-height:580px;
+  overflow:hidden;
+  display:none;
+}
+#content1 {
+  display:block;
+}
