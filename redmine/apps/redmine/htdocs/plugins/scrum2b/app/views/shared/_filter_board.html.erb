@@ -9,7 +9,7 @@
  			 <option value="me" <% if params[:select_member] && params[:select_member] == "me" %><%= selected="selected" %><% end %>><%= l(:label_select_me)%></option>
  			<% end %>
  			<% @member.each do |member|%>
-	       <option value="<%= member.id %>" <%= "selected" if params[:select_member] && params[:select_member].to_i == member.id %> ><%= member.firstname + ' ' + member.lastname %></option>
+			<option value="<%= member.id %>" <%= "selected" if params[:select_member] && params[:select_member].to_i == member.id %> ><%= member.login + ' (' + member.firstname + ' ' + member.lastname + ')' %></option>
 			<% end %>
 		</select>
 		

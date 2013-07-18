@@ -30,7 +30,7 @@ en:
   label_version_backlog: "Backlog"
 
   label_select_all_member: "All Members"
-  label_select_me: "Me"
+  label_select_me: "<< Me >>"
   label_board_status_new: "New Issues"
   label_board_status_inprogress: "In Progress"
   label_board_status_completed: "Completed"
