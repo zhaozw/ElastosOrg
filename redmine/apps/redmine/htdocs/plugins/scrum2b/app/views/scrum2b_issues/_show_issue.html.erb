@@ -1,7 +1,7 @@
 <div class="no_edit" id="show_issue_<%= issue.id %>" value="<%= issue.id %>">
       <p class="id" style="font-size: 13px;float: left">
       #<%= link_to issue.id,:controller => 'issues', :action => 'show', :id => issue.id %></p>
-    <% if !User.current.anonymous? && @id_member.include?(User.current.id)|| User.current.admin %>
+  <!-- <% if !User.current.anonymous? && @id_member.include?(User.current.id)|| User.current.admin %>
       <i class="close_issue icon-remove-circle" id="close_<%= issue.id %>">
       <p class="text_close">
         <%= l(:label_board_issue_text_close_issue)%>
@@ -10,7 +10,7 @@
       <p class="text_edit">
         <%= l(:label_board_issue_text_edit_issue)%>
       </p> </i>
-    <% end %>
+    <% end %>-->
     <div class="subject" >
       <p class="no_edit subject_issue" id="subject_<%= issue.id%>">
         <%= issue.subject %></p>

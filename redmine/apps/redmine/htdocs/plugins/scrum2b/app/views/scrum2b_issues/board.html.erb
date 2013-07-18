@@ -6,14 +6,14 @@
       <p class="status">
         <%= l(:label_board_status_new)%>
       </p>
-      <% if !User.current.anonymous? && @id_member.include?(User.current.id)|| User.current.admin%>
+     <!-- <% if !User.current.anonymous? && @id_member.include?(User.current.id)|| User.current.admin%>
         <p class="new_issue ">
         <i class="icon-plus-sign icon_new_issue"><span class="text_new "><%= l(:label_board_issue_new_issue)%></span></i> 
         </p>
-      <% end %>
+      <% end %>-->
       <div class="connectedSortable" id ="<% if !User.current.anonymous? && @id_member.include?(User.current.id)|| User.current.admin%>new<% else %>new_nomember<% end %>" value="status_no_start">
-        <%= render :partial => "form_new", :locals => { :issue => @issue} %>
-
+        <!--<%= render :partial => "form_new", :locals => { :issue => @issue} %>
+        -->
         <% @new_issues.each do |issue|%>
           <li id ="<%= issue.id %>">
             <%= render :partial => "board_issue", :locals => { :issue => issue} %>
