@@ -15,7 +15,7 @@ module Redmine
                 type: 'button',
                 title: '#{l(:label_tag_testcase)}',
                 fn: {
-                  wiki: function() { this.encloseSelection("{{testcase(", ")}}") }
+                  wiki: function() { this.encloseSelection("TestLink: ", "") }
                 }
               }
               javascript_tag
