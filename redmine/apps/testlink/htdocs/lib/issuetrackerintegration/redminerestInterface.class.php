@@ -196,7 +196,7 @@ class redminerestInterface extends issueTrackerInterface
 		}
 		
 		$issue = null;
-    echo __METHOD__;
+    //echo __METHOD__;
     try
 		{
 			$xmlObj = $this->APIClient->getIssue((int)$issueID);
@@ -214,7 +214,7 @@ class redminerestInterface extends issueTrackerInterface
 				                               
 				$issue->isResolved = isset($this->resolvedStatus->byCode[$issue->statusCode]); 
 
-        var_dump($xmlObj);
+        //var_dump($xmlObj);
         // die('BEFORE RET');
 			}
 		}
