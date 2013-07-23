@@ -674,7 +674,7 @@ function _get_ui_mgtm_cfg_for_node_type($map_node_id_cfg)
 				$js_function = '"textCounter(this.form.' . $input_name . 
 				               ',document.getElementById(\''. $counterId.'\'),' . $this->max_length_value .');" ';
 			
-				$str_out .= '<textarea name="' . $input_name . '" ' . " id=\"{$input_name}\" " .
+				$str_out .= '<textarea style="width:100%;" name="' . $input_name . '" ' . " id=\"{$input_name}\" " .
 					    	'onKeyDown=' . $js_function . ' onKeyUp=' . $js_function . 'cols="' .
 					        $cols . '" rows="' . $rows . '">' . "{$t_custom_field_value}</textarea>\n";
 
@@ -686,7 +686,7 @@ function _get_ui_mgtm_cfg_for_node_type($map_node_id_cfg)
             else
             {
             	// unlimited
-				$str_out .= '<textarea name="' . $input_name . '" ' . " id=\"{$input_name}\" " .
+				$str_out .= '<textarea style="width:100%;" name="' . $input_name . '" ' . " id=\"{$input_name}\" " .
 					    	'cols="' . $cols . '" rows="' . $rows . '">' . "{$t_custom_field_value}</textarea>\n";
             		
             }
