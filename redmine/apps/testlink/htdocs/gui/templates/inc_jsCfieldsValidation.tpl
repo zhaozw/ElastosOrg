@@ -23,7 +23,7 @@ cfMessages.warning_text_area_cf="{$cf_warning_msg.warning_text_area_cf}";
 
 var cfChecks = new Object;
 cfChecks.email = {$tlCfg->validation_cfg->user_email_valid_regex_js};
-cfChecks.textarea_length = {$tlCfg->custom_fields->max_length};
+cfChecks.textarea_length = {$tlCfg->custom_fields->max_length*20};
 {literal}
 </script>
 {/literal}
