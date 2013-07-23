@@ -231,7 +231,7 @@ class cfield_mgr extends tlObject
 		}
         $this->object_table=$this->tables["custom_fields"];
 
-        $this->max_length_value = $cfConfig->max_length;
+        $this->max_length_value = $cfConfig->max_length*20;
         $this->max_length_possible_values = $this->max_length_value;
 	}
 
@@ -2418,16 +2418,16 @@ function getXMLRPCServerParams($nodeID,$tplanLinkID=null)
   {
   	$str_out='';
     $size = intval($p_size) > 0 ? $p_size : self::DEFAULT_INPUT_SIZE;
-  	$str_out .= "<input type=\"text\" name=\"{$p_input_name}\" id=\"{$p_input_name}\" size=\"{$size}\" ";
+  	$str_out .= "<textarea type=\"text\" style=\"width:100%;height:100px;\" name=\"{$p_input_name}\" id=\"{$p_input_name}\" size=\"{$size}\" ";
 	if( 0 < $p_field_def['length_max'] )
 	{
 	  $str_out .= ' maxlength="' . $p_field_def['length_max'] . '"';
 	}
 	else
 	{
-	   $str_out .= ' maxlength="255"';
+	  // $str_out .= ' maxlength="255"';
 	}
-	$str_out .= ' value="' . $p_custom_field_value .'"></input>';
+	$str_out .= ' value="' . $p_custom_field_value .'">' . $p_custom_field_value . '</textarea>';
     return $str_out;
   }               
 
@@ -2595,7 +2595,7 @@ function html_table_inputs($cfields_map,$name_suffix='',$input_values=null)
     {
 		$cf_map = $this->getValuesFromUserInput($cfields_map,$name_suffix,$input_values);
     	$NO_WARNING_IF_MISSING=true;
-    	$cf_smarty = "<table>";
+    	$cf_smarty = "<table style='width:100%;'>";
     	foreach($cf_map as $cf_id => $cf_info)
     	{
             $label=str_replace(TL_LOCALIZE_TAG,'',
