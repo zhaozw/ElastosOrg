@@ -3,17 +3,17 @@
 <%= form_tag({:action=> "login"}) do %>
 <%= back_url_hidden_field_tag %>
 <table>
-<tr>
+<!--<tr>
     <td align="right"><label for="username"><%=l(:field_login)%>:</label></td>
     <td align="left"><%= text_field_tag 'username', nil, :tabindex => '1' %></td>
 </tr>
 <tr>
     <td align="right"><label for="password"><%=l(:field_password)%>:</label></td>
     <td align="left"><%= password_field_tag 'password', nil, :tabindex => '2' %></td>
-</tr>
+</tr>-->
 <% if Setting.openid? %>
 <tr>
-  <td align="right"><label for="openid_url"><%=l(:field_identity_url)%></label></td>
+  <td align="right"><label for="openid_url">Elastos <%=l(:field_identity_url)%></label></td>
   <td align='left'><input type="text" id="openid_url" name="openid_url" tabindex='3' size='42' value="<%= cookies['ElastosID'] %>" /></td>
 </tr>
 </tr>
