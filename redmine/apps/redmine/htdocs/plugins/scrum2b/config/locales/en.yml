@@ -1,6 +1,6 @@
 # English strings go here for Rails i18n
 en:
-  label_scrum2b: "Scrum2B"
+  label_scrum2b: "Scrum"
 
   label_scrum2b_board: "Scrum Board"
   label_scrum2b_list: "Sprint Backlogs"

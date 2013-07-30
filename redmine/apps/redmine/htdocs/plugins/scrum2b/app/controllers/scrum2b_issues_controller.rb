@@ -36,19 +36,19 @@ class Scrum2bIssuesController < ApplicationController
     params[:select_version] ||= default_version
     @select_issues  = (params[:select_issue] || "0").to_i 
     if @select_issues == SELECT_ISSUE_OPTIONS[:all]
-      @issues =  @project.issues.order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.order("status_id, s2b_position")
     elsif @select_issues == SELECT_ISSUE_OPTIONS[:my]
-      @issues =  @project.issues.where(:assigned_to_id => User.current.id).order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.where(:assigned_to_id => User.current.id).order("status_id, s2b_position")
     elsif @select_issues == SELECT_ISSUE_OPTIONS[:my_completed]
-     @issues =  @project.issues.where(:assigned_to_id => User.current.id).where("status_id IN (?)" , STATUS_IDS['status_completed']).order("status_id, s2b_position").limit(200)
+     @issues =  @project.issues.where(:assigned_to_id => User.current.id).where("status_id IN (?)" , STATUS_IDS['status_completed']).order("status_id, s2b_position")
     elsif @select_issues == SELECT_ISSUE_OPTIONS[:new]
-      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_no_start']).order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_no_start']).order("status_id, s2b_position")
     elsif @select_issues == SELECT_ISSUE_OPTIONS[:completed]
-      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_completed']).order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_completed']).order("status_id, s2b_position")
     elsif @select_issues == SELECT_ISSUE_OPTIONS[:closed]
-      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_closed']).order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.where("status_id IN (?)" , STATUS_IDS['status_closed']).order("status_id, s2b_position")
     else
-      @issues =  @project.issues.where("status_id NOT IN (?)", STATUS_IDS['status_closed']).order("status_id, s2b_position").limit(200)
+      @issues =  @project.issues.where("status_id NOT IN (?)", STATUS_IDS['status_closed']).order("status_id, s2b_position")
     end
     
     #TODO: Logic is not clear, please refactor it
@@ -96,9 +96,9 @@ class Scrum2bIssuesController < ApplicationController
       conditions[0] += " AND assigned_to_id = ?"
       conditions << @select_issues.to_i
     end
-    @new_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_no_start']).order(:s2b_position).limit(200)
-    @started_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_inprogress']).order(:s2b_position).limit(200)
-    @completed_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_completed']).order(:s2b_position).limit(200)
+    @new_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_no_start']).order("priority_id DESC").limit(200)#order(:s2b_position)
+    @started_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_inprogress']).order("priority_id DESC").limit(200)#order(:s2b_position)
+    @completed_issues = @project.issues.where(conditions).where("status_id IN (?)" , STATUS_IDS['status_completed']).order("priority_id DESC").limit(200)#order(:s2b_position)
   end
 
   def update_status
