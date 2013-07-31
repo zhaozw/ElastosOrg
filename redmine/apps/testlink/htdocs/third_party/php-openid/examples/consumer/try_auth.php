@@ -26,7 +26,9 @@ function run() {
     if (!$auth_request) {
         displayError("Authentication error; not a valid OpenID.");
     }
-
+    if (!preg_match("/elastos.org/i",$openid)) {
+        displayError("Authentication error; not a valid OpenID.Must like http://***.elastos.org");
+    }
     $sreg_request = Auth_OpenID_SRegRequest::build(
                                      // Required
                                      array('nickname'),

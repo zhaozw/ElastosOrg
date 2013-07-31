@@ -4,7 +4,7 @@ require_once "common.php";
 global $pape_policy_uris;
 ?>
 <html>
-  <head><title>PHP OpenID Authentication Example</title></head>
+  <head><title>OpenID Authentication</title></head>
   <style type="text/css">
       * {
         font-family: verdana,sans-serif;
@@ -40,19 +40,13 @@ global $pape_policy_uris;
       }
   </style>
   <body>
-    <h1>PHP OpenID Authentication Example</h1>
-    <p>
-      This example consumer uses the <a
-      href="http://github.com/openid/php-openid">PHP
-      OpenID</a> library. It just verifies that the URL that you enter
-      is your identity URL.
-    </p>
+    <h1>OpenID Authentication</h1>
 
     <?php if (isset($msg)) { print "<div class=\"alert\">$msg</div>"; } ?>
     <?php if (isset($error)) { print "<div class=\"error\">$error</div>"; } ?>
     <?php if (isset($success)) { print "<div class=\"success\">$success</div>"; } ?>
 
-    <div id="verify-form">
+    <div id="verify-form" style="display:none;">
       <form method="get" action="try_auth.php">
         Identity&nbsp;URL:
         <input type="hidden" name="action" value="verify" />

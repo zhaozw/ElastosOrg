@@ -26,7 +26,24 @@ window.onload=function()
 <div class="login_form" id="login_div">
   {include file="inc_login_title.tpl"}
 
-  <form method="post" name="login_form" action="login.php">
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => "inc_login_title.tpl", 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
+    <div id="verify-form">
+	      <form method="get" action="third_party/php-openid/examples/consumer/try_auth.php">
+		          ElastosID:
+				          <input type="hidden" name="action" value="verify" />
+						          <input type="text" name="openid_identifier" <?php echo 'value="'.$_COOKIE['ElastosID'].'"'?> style="width:50%;"/>
+
+								          <p>Openid Like: http://******.elastos.org</p>
+
+		        <input type="submit" value="Login" />
+				      </form>
+  </div>
+
+  <form method="post" name="login_form" action="login.php" style="display:none;">
     {if $gui->login_disabled eq 0}
       <div class="messages" style="width:100%;text-align:center;">{$gui->note}</div>
     <input type="hidden" name="reqURI" value="{$gui->reqURI|escape:'url'}"/>
