@@ -153,6 +153,10 @@ class AccountController < ApplicationController
   end
 
   def open_id_authenticate(openid_url)
+	if !/.elastos.org/.match(openid_url)
+	  invalid_credentials()
+		return
+	end
     authenticate_with_open_id(openid_url, :required => [:nickname, :fullname, :email], :return_to => signin_url, :method => :post) do |result, identity_url, registration|
       if result.successful?
         user = User.find_or_initialize_by_identity_url(identity_url)
