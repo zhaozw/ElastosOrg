@@ -34,7 +34,7 @@
 				y.value="http://xxxxxxxx.elastos.org";
 		}
 	}
-
+  /*
 	input = adapter.utils.findEl("#openid_url");
 	if (input) {
 		if (!input.onchange) 
@@ -46,6 +46,7 @@
 		}
 		document.onkeydown=keyEnter;
 		}
-    }
+  }
+  */
  }
 })()
