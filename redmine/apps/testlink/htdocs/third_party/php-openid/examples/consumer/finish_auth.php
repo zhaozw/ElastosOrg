@@ -18,33 +18,27 @@ function escape($thing) {
 
 function findUser($name)
 {
-	$conn = mysql_connect(DB_HOST , DB_USER , DB_PASS);
+    $conn = mysql_connect(DB_HOST , DB_USER , DB_PASS);
     mysql_select_db(DB_DATABASENAME , $conn);
 
     $sql = sprintf("select * from %s where login = '%s'",DB_TABLENAME , $name);
     $result = mysql_query($sql , $conn);
 
-    if ($result)
-    {
+    if ($result) {
 	$count = mysql_fetch_row($result);
-	if (!$count){
-		$r = 0;
-	}else{
-		$r = 1;
-	}
-    }else{
-	$r = 0;
+    } else {
+	$count = null;
     }
 
     mysql_free_result($result);  
     mysql_close($conn);
 
 
-    if ($r == 1){
+    if ($count) {
 	return true;
-    }else{
-	return false;
     }
+
+    return false;
 }
 
 function auth_generate_cookie_string()
