@@ -37,7 +37,7 @@ class UsercreateTemplate extends QuickTemplate {
 	</div>
 	<div class="visualClear"></div>
 <?php } ?>
-
+<!--
 <div id="signupstart"><?php $this->msgWiki( 'signupstart' ); ?></div>
 <div id="userlogin">
 
@@ -230,7 +230,7 @@ class UsercreateTemplate extends QuickTemplate {
 <?php if( $this->haveData( 'uselang' ) ) { ?><input type="hidden" name="uselang" value="<?php $this->text( 'uselang' ); ?>" /><?php } ?>
 <?php if( $this->haveData( 'token' ) ) { ?><input type="hidden" name="wpCreateaccountToken" value="<?php $this->text( 'token' ); ?>" /><?php } ?>
 </form>
-</div>
+</div>-->
 <div id="signupend"><?php $this->html( 'signupend' ); ?></div>
 <?php
 
