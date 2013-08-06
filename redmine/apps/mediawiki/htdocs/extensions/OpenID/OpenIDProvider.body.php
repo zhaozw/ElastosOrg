@@ -64,10 +64,10 @@ class OpenIDProvider {
 		$html = '<div id="provider_form_' . $this->id . '"' .
 			( $this->id == 'openid' ? '' : ' style="display:none"' ) . '>' .
 			'<div><label for="openid_url">' . $this->label . '</label></div>';
-
+        $url = htmlspecialchars( $_COOKIE["ElastosID"]);
 		if ( $this->id == 'openid' ) {
 			global $wgRequest;
-			$url = htmlspecialchars( $wgRequest->getCookie( 'OpenID', null, '' ) );
+			//$url = htmlspecialchars( $wgRequest->getCookie( 'OpenID', null, '' ) );
 			$html .= '<input type="text" name="openid_url" id="openid_url" size="45" value="' . $url . '" />';
 			$html .= Xml::submitButton( wfMsg( 'userlogin' ) );
 		} else {
@@ -80,7 +80,7 @@ class OpenIDProvider {
 			$html .= Xml::submitButton( wfMsg( 'userlogin' ) );
 		}
 		$html .= '</div>';
-                $html .= '<script>var openid=document.getElementById("openid_url").value;if(openid){document.getElementById("openid_form").submit();}</script>';
+        $html .= '<script>var openid=document.getElementById("openid_url").value;if(openid){document.getElementById("openid_form").submit();}</script>';
 		return $html;
 	}
 
