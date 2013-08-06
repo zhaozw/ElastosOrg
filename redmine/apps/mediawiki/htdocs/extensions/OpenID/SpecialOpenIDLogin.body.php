@@ -183,7 +183,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 		);
 		$def = false;
 
-		if ( $wgOpenIDAllowExistingAccountSelection ) {
+		if (0&& $wgOpenIDAllowExistingAccountSelection ) {
 			# Let them attach it to an existing user
 
 			# Grab the UserName in the cookie if it exists
@@ -246,7 +246,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 		if ( $wgOpenIDProposeUsernameFromSREG ) {
 
 			# These options won't exist if we can't get them.
-			if ( array_key_exists( 'nickname', $sreg ) && $this->userNameOK( $sreg['nickname'] ) ) {
+			if (0&& array_key_exists( 'nickname', $sreg ) && $this->userNameOK( $sreg['nickname'] ) ) {
 				$wgOut->addHTML(
 					Xml::openElement( 'tr' ) .
 					Xml::tags( 'td', array( 'class' => 'mw-label' ),
@@ -299,7 +299,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 			}
 		} // if $wgOpenIDProposeUsernameFromSREG
 
-		if ( $wgOpenIDAllowAutomaticUsername ) {
+		if (0&& $wgOpenIDAllowAutomaticUsername ) {
 			$wgOut->addHTML(
 				Xml::openElement( 'tr' ) .
 				Xml::tags( 'td', array( 'class' => 'mw-label' ),
@@ -312,7 +312,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 				);
 		}
 
-		if ( $wgOpenIDAllowNewAccountname ) {
+		if (0&& $wgOpenIDAllowNewAccountname ) {
 			$wgOut->addHTML(
 
 			Xml::openElement( 'tr' ) .
