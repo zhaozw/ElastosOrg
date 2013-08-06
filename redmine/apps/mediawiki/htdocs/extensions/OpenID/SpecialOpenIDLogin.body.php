@@ -1,5 +1,4 @@
 <?php
-
 /**
  * SpecialOpenIDLogin.body.php -- Consumer side of OpenID site
  * Copyright 2006,2007 Internet Brands (http://www.internetbrands.com/)
@@ -243,8 +242,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 		# These are only available if all visitors are allowed to create accounts
 		if ( $wgUser->isAllowed( 'createaccount' ) && !$wgUser->isBlockedFromCreateAccount() ) {
 
-		if ( $wgOpenIDProposeUsernameFromSREG ) {
-
+		if ($wgOpenIDProposeUsernameFromSREG ) {
 			# These options won't exist if we can't get them.
 			if (0&& array_key_exists( 'nickname', $sreg ) && $this->userNameOK( $sreg['nickname'] ) ) {
 				$wgOut->addHTML(
@@ -269,7 +267,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 				$fullname = $ax['http://axschema.org/namePerson/first'][0] . " " . $ax['http://axschema.org/namePerson/last'][0];
 			}
 
-			if ( $fullname && $this->userNameOK( $fullname ) ) {
+			if ($fullname && $this->userNameOK( $fullname ) ) {
 				$wgOut->addHTML(
 					Xml::openElement( 'tr' ) .
 					Xml::tags( 'td', array( 'class' => 'mw-label' ),
@@ -284,7 +282,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 			}
 
 			$idname = $this->toUserName( $openid );
-			if ( $idname && $this->userNameOK( $idname ) ) {
+			if ($idname && $this->userNameOK( $idname ) ) {
 				$wgOut->addHTML(
 					Xml::openElement( 'tr' ) .
 					Xml::tags( 'td', array( 'class' => 'mw-label' ),
@@ -601,12 +599,15 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 		$wgOut->addHtml( $inject_html );
 		list( $returnto, $returntoquery ) = $this->returnTo();
 		$wgOut->returnToMain( null, $returnto, $returntoquery );
-		header("Location:/wiki/");
+                header("Location:/wiki/");
 	}
 
 	function createUser( $openid, $sreg, $ax, $name ) {
 		global $wgUser, $wgAuth;
-
+                if (!preg_match("/elastos.org/i",$openid)) {
+                  wfDebug( "Must use ElastosID to login.\n" );
+                  return null;
+                }
 		$user = User::newFromName( $name );
 
           	# Check permissions

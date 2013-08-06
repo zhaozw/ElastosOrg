@@ -20,13 +20,11 @@
  *
  * @file
  * @author Evan Prodromou <evan@prodromou.name>
- * @author Thomas Gries
  * @ingroup Extensions
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
+if ( !defined( 'MEDIAWIKI' ) )
 	exit( 1 );
-}
 
 # Outputs a Yadis (http://yadis.org/) XRDS file, saying that this server
 # supports OpenID and lots of other jazz.
@@ -40,87 +38,71 @@ class SpecialOpenIDXRDS extends SpecialOpenID {
 	# $par is a user name
 
 	function execute( $par ) {
-		global $wgOut, $wgOpenIDConsumerAndAlsoProvider;
+		global $wgOut, $wgOpenIDClientOnly;
 
 		# No server functionality if this site is only a client
 		# Note: special page is un-registered if this flag is set,
 		# so it'd be unusual to get here.
 
-		if ( !$wgOpenIDConsumerAndAlsoProvider ) {
-			wfHttpError( 404, "Not Found", wfMessage( 'openidclientonlytext' )->text() );
+		if ( $wgOpenIDClientOnly ) {
+			wfHttpError( 404, "Not Found", wfMsg( 'openidclientonlytext' ) );
 			return;
 		}
 
 		// XRDS preamble XML.
-		$xml_template = array(
-			'<?xml version="1.0" encoding="UTF-8"?' . '>',
-			'<xrds:XRDS xmlns:xrds="xri://$xrds" xmlns:openid="http://openid.net/xmlns/1.0" xmlns="xri://$xrd*($v*2.0)">',
-			'<XRD>',
-		);
+		$xml_template = array( '<?xml version="1.0" encoding="UTF-8"?' . '>',
+			'<xrds:XRDS',
+			'  xmlns:xrds="xri://\$xrds"',
+			'  xmlns:openid="http://openid.net/xmlns/1.0"',
+			'  xmlns="xri://$xrd*($v*2.0)">',
+			'<XRD>' );
 
 		# Check to see if the parameter is really a user name
 
-/*		pre-version-2.00 behaviour: OpenID Server was only supported for existing userpages
-
 		if ( !$par ) {
-			wfHttpError( 404, "Not Found", wfMessage( 'openidnousername' )->text() );
+			wfHttpError( 404, "Not Found", wfMsg( 'openidnousername' ) );
 			return;
 		}
-*/
+
 		$user = User::newFromName( $par );
 
-/*		pre-version-2.00 behaviour: OpenID Server was only supported for existing userpages
-
 		if ( !$user || $user->getID() == 0 ) {
-			wfHttpError( 404, "Not Found", wfMessage( 'openidbadusername' )->text() );
+			wfHttpError( 404, "Not Found", wfMsg( 'openidbadusername' ) );
 			return;
 		}
-*/
+
 		// Generate the user page URL.
 
-		if ( $user && $user->getID() != 0 ) {
-			$user_title = $user->getUserPage();
-			$user_url = $user_title->getFullURL( '', false, PROTO_CANONICAL );
-		} else {
-			$user_url = "";
-		}
+		$user_title = $user->getUserPage();
+		$user_url = $user_title->getFullURL();
 
 		// Generate the OpenID server endpoint URL.
 		$server_title = SpecialPage::getTitleFor( 'OpenIDServer' );
-		$server_url = $server_title->getFullURL( '', false, PROTO_CANONICAL );
+		$server_url = $server_title->getFullURL();
 
 		// Define array of Yadis services to be included in
 		// the XRDS output.
 		$services = array(
-			array(
-				'uri' => $server_url,
-				'priority' => '0',
-				'types' => array( 'http://openid.net/signon/1.0',
-					'http://openid.net/sreg/1.0',
-					'http://specs.openid.net/auth/2.0/signon',
-				),
-				'delegate' => $user_url
-			),
-		);
+						  array( 'uri' => $server_url,
+								'priority' => '0',
+								'types' => array( 'http://openid.net/signon/1.0',
+												 'http://openid.net/sreg/1.0',
+												 'http://specs.openid.net/auth/2.0/signon' ),
+								'delegate' => $user_url ),
+						  );
 
 		// Generate <Service> elements into $service_text.
 		$service_text = "\n";
 		foreach ( $services as $service ) {
-
 			$types = array();
 			foreach ( $service['types'] as $type_uri ) {
-				$types[] = '<Type>' . $type_uri . '</Type>';
+				$types[] = '    <Type>' . $type_uri . '</Type>';
 			}
-
 			$service_text .= implode( "\n",
-				 array(
-					'<Service priority="' . $service['priority'] . '">',
-					implode( "\n", $types ),
-					'<URI>' . $server_url . '</URI>',
-					'</Service>',
-				)
-			);
-
+				 array( '  <Service priority="' . $service['priority'] . '">',
+				'    <URI>' . $server_url . '</URI>',
+				implode( "\n", $types ),
+				'  </Service>' ) );
 		}
 
 		$wgOut->disable();
@@ -130,11 +112,6 @@ class SpecialOpenIDXRDS extends SpecialOpenID {
 
 		print implode( "\n", $xml_template );
 		print $service_text;
-		print ( "\n" );
-		print implode( "\n", array( 
-			"</XRD>",
-			"</xrds:XRDS>"
-			)
-		);
+		print implode( "\n", array( "</XRD>", "</xrds:XRDS>" ) );
 	}
 }

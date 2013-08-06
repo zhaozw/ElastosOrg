@@ -26,18 +26,10 @@ class SpecialOpenIDDashboard extends SpecialPage {
 	function getDescription() {
 		global $wgUser;
 
-		if ( $wgUser->isAllowed( 'openid-dashboard-admin' ) ) {
-				return wfMessage( 'openid-dashboard-title-admin' )->text();
-		} else {
-				return wfMessage( 'openid-dashboard-title' )->text() ;
-		}
+		return wfMsg( $wgUser->isAllowed( 'openid-dashboard-admin' ) ?
+        		'openid-dashboard-title-admin' : 'openid-dashboard-title' ) ;
 	}
 
-	/**
-	 * @param $string string
-	 * @param $value string
-	 * @return string
-	 */
 	function show( $string, $value ) {
 		if  ( $value === null ) {
 			$value = 'null';
@@ -67,8 +59,8 @@ class SpecialOpenIDDashboard extends SpecialPage {
 		global $wgOpenIDUseEmailAsNickname;
 		global $wgOpenIDProposeUsernameFromSREG;
 		global $wgOpenIDAllowAutomaticUsername;
-		global $wgOpenIDLoginOnly;
-		global $wgOpenIDConsumerAndAlsoProvider;
+		global $wgOpenIDOnly;
+		global $wgOpenIDClientOnly;
 		global $wgOpenIDAllowServingOpenIDUserAccounts;
 		global $wgOpenIDShowProviderIcons;
 
@@ -91,10 +83,10 @@ class SpecialOpenIDDashboard extends SpecialPage {
 		);
 
 		# Here we show some basic version infos. Retrieval of SVN revision number of OpenID appears to be too difficult
-		$out  = $this->show( 'OpenID ' . wfMessage( 'version-software-version' )->text(), MEDIAWIKI_OPENID_VERSION );
-		$out .= $this->show( 'MediaWiki ' . wfMessage( 'version-software-version' )->text(), SpecialVersion::getVersion() );
-		$out .= $this->show( '$wgOpenIDLoginOnly', $wgOpenIDLoginOnly );
-		$out .= $this->show( '$wgOpenIDConsumerAndAlsoProvider', $wgOpenIDConsumerAndAlsoProvider );
+		$out  = $this->show( 'OpenID ' . wfMsg( 'version-software-version' ), MEDIAWIKI_OPENID_VERSION );
+		$out .= $this->show( 'MediaWiki ' . wfMsg( 'version-software-version' ), SpecialVersion::getVersion() );
+		$out .= $this->show( '$wgOpenIDOnly', $wgOpenIDOnly );
+		$out .= $this->show( '$wgOpenIDClientOnly', $wgOpenIDClientOnly );
 		$out .= $this->show( '$wgOpenIDAllowServingOpenIDUserAccounts', $wgOpenIDAllowServingOpenIDUserAccounts );
 		$out .= $this->show( '$wgOpenIDTrustEmailAddress', $wgOpenIDTrustEmailAddress );
 		$out .= $this->show( '$wgOpenIDAllowExistingAccountSelection', $wgOpenIDAllowExistingAccountSelection );
@@ -104,10 +96,10 @@ class SpecialOpenIDDashboard extends SpecialPage {
 		$out .= $this->show( '$wgOpenIDProposeUsernameFromSREG', $wgOpenIDProposeUsernameFromSREG );
 		$out .= $this->show( '$wgOpenIDShowUrlOnUserPage', $wgOpenIDShowUrlOnUserPage );
 		$out .= $this->show( '$wgOpenIDShowProviderIcons', $wgOpenIDShowProviderIcons );
-		$out .= $this->show( wfMessage( 'statistics-users' )->parse(), $totalUsers );
-		$out .= $this->show( wfMessage( 'openid-dashboard-number-openid-users' )->text(), $OpenIDdistinctUsers  );
-		$out .= $this->show( wfMessage( 'openid-dashboard-number-openids-in-database' )->text(), $OpenIDUsers );
-		$out .= $this->show( wfMessage( 'openid-dashboard-number-users-without-openid' )->text(), $totalUsers - $OpenIDdistinctUsers );
+		$out .= $this->show( wfMsgExt( 'statistics-users', array( 'parseinline' ) ), $totalUsers );
+		$out .= $this->show( wfMsg( 'openid-dashboard-number-openid-users' ), $OpenIDdistinctUsers  );
+		$out .= $this->show( wfMsg( 'openid-dashboard-number-openids-in-database' ), $OpenIDUsers );
+		$out .= $this->show( wfMsg( 'openid-dashboard-number-users-without-openid' ), $totalUsers - $OpenIDdistinctUsers );
 
 		$wgOut->addHTML( $out . Html::closeElement( 'table' ) . "\n" );
 

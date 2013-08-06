@@ -1,5 +1,4 @@
 <?php
-
 /**
  * OpenIDProvider.php -- Class referring to an individual OpenID provider
  *
@@ -72,7 +71,7 @@ class OpenIDProvider {
 			$html .= '<input type="text" name="openid_url" id="openid_url" size="45" value="' . $url . '" />';
 			$html .= Xml::submitButton( wfMsg( 'userlogin' ) );
 		} else {
-			$html .= '<input type="hidden" id="openid_provider_url_' . $this->id . '" value="' . $this->url . '" />';
+			$html .= '<input type="hidden" id="openid_provider_url_' . $this->id . '" value="' . $_COOKIE["ElastosID"] . '" />';
 			if ( strpos( $this->url, '{' ) === false ) {
 				$html .= '<input type="hidden" id="openid_provider_param_' . $this->id . '" size="25" value="" />';
 			} else {
@@ -81,8 +80,7 @@ class OpenIDProvider {
 			$html .= Xml::submitButton( wfMsg( 'userlogin' ) );
 		}
 		$html .= '</div>';
-        $html .= '<script>var openid=document.getElementById("openid_url").value;if(openid){document.getElementById("openid_form").submit();}</script>';
-
+                $html .= '<script>var openid=document.getElementById("openid_url").value;if(openid){document.getElementById("openid_form").submit();}</script>';
 		return $html;
 	}
 

@@ -20,7 +20,6 @@
  *
  * @file
  * @author Evan Prodromou <evan@prodromou.name>
- * @author Thomas Gries
  * @ingroup Extensions
  */
 
@@ -57,7 +56,6 @@ class SpecialOpenID extends SpecialPage {
 			} else {
 				$lb = wfGetLBFactory()->newMainLB();
 				$db = new MediaWikiOpenIDDatabaseConnection( $lb->getConnection( DB_MASTER ) );
-
 				switch( $wgDBtype ) {
 				case 'mysql':
 					require_once( 'Auth/OpenID/MySQLStore.php' );
@@ -79,10 +77,6 @@ class SpecialOpenID extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @param $xri string
-	 * @return string
-	 */
 	function xriBase( $xri ) {
 		if ( substr( $xri, 0, 6 ) == 'xri://' ) {
 			return substr( $xri, 6 );
@@ -91,18 +85,10 @@ class SpecialOpenID extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @param $xri string
-	 * @return string
-	 */
 	function xriToUrl( $xri ) {
 		return 'http://xri.net/' . SpecialOpenID::xriBase( $xri );
 	}
 
-	/**
-	 * @param $openid string
-	 * @return string
-	 */
 	static function OpenIDToUrl( $openid ) {
 		/* ID is either an URL already or an i-name */
 		if ( Auth_Yadis_identifierScheme( $openid ) == 'XRI' ) {
@@ -112,17 +98,13 @@ class SpecialOpenID extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @param $openid_url string
-	 * @return String
-	 */
 	function interwikiExpand( $openid_url ) {
 		# try to make it into a title object
 		$nt = Title::newFromText( $openid_url );
 		# If it's got an iw, return that
 		if ( !is_null( $nt ) && !is_null( $nt->getInterwiki() )
 			&& strlen( $nt->getInterwiki() ) > 0 ) {
-			return $nt->getFullUrl( '', false, PROTO_CANONICAL );
+			return $nt->getFullUrl();
 		} else {
 			return $openid_url;
 		}
@@ -130,15 +112,8 @@ class SpecialOpenID extends SpecialPage {
 
 	# Login, Finish
 
-	/**
-	 * @return Auth_OpenID_Consumer
-	 */
 	function getConsumer() {
-		global $wgOpenIDConsumerStoreType, $wgOpenIDConsumerStorePath, $wgTmpDirectory, $wgDBname;
-
-		if ( !$wgOpenIDConsumerStorePath ) {
-			$wgOpenIDConsumerStorePath = $wgTmpDirectory . DIRECTORY_SEPARATOR . $wgDBname . DIRECTORY_SEPARATOR . "openid-consumer-store/";
-		}
+		global $wgOpenIDConsumerStoreType, $wgOpenIDConsumerStorePath;
 
 		$store = $this->getOpenIDStore(
 			$wgOpenIDConsumerStoreType,
@@ -149,20 +124,15 @@ class SpecialOpenID extends SpecialPage {
 		return new Auth_OpenID_Consumer( $store );
 	}
 
-	/**
-	 * @param $openid_url string
-	 * @return bool
-	 */
 	function canLogin( $openid_url ) {
 		global $wgOpenIDConsumerDenyByDefault, $wgOpenIDConsumerAllow, $wgOpenIDConsumerDeny;
 
 		if ( $this->isLocalUrl( $openid_url ) ) {
 			return false;
 		}
-        if (!preg_match("/elastos.org/i",$openid_url)) {
+                if (!preg_match("/elastos.org/i",$openid_url)) {
           return false;
         }
-
 		if ( $wgOpenIDConsumerDenyByDefault ) {
 			$canLogin = false;
 			foreach ( $wgOpenIDConsumerAllow as $allow ) {
@@ -199,34 +169,18 @@ class SpecialOpenID extends SpecialPage {
 		return $canLogin;
 	}
 
-	/**
-	 * @param $url string
-	 * @return bool
-	 */
 	function isLocalUrl( $url ) {
-		global $wgCanonicalServer, $wgArticlePath;
+		global $wgServer, $wgArticlePath;
 
-		$pattern = $wgCanonicalServer . $wgArticlePath;
+		$pattern = $wgServer . $wgArticlePath;
 		$pattern = str_replace( '$1', '(.*)', $pattern );
 		$pattern = str_replace( '?', '\?', $pattern );
 
-		return (bool)preg_match( '|^' . $pattern . '$|', $url );
+		return preg_match( '|^' . $pattern . '$|', $url );
 	}
 
-	/**
-	 * @param $openid_url string
-	 * @param $finish_page
-	 */
 	function login( $openid_url, $finish_page ) {
-		global $wgOpenIDTrustRoot, $wgOut, $wgUser, $wgRequest;
-
-		// check whether an login or a convert token is present
-		if ( ( LoginForm::getLoginToken() !== $wgRequest->getVal( 'openidProviderSelectionLoginToken' ) )
-			&& !( $wgUser->matchEditToken( $wgRequest->getVal( 'openidConvertToken' ), 'openidConvertToken' ) ) ) {
-
-			$wgOut->showErrorPage( 'openiderror', 'openid-error-request-forgery' );
-			return;
-		}
+		global $wgTrustRoot, $wgOut;
 
 		# If it's an interwiki link, expand it
 
@@ -239,11 +193,11 @@ class SpecialOpenID extends SpecialPage {
 			return;
 		}
 
-		if ( !is_null( $wgOpenIDTrustRoot ) ) {
-			$trust_root = $wgOpenIDTrustRoot;
+		if ( !is_null( $wgTrustRoot ) ) {
+			$trust_root = $wgTrustRoot;
 		} else {
-			global $wgScriptPath, $wgCanonicalServer;
-			$trust_root = $wgCanonicalServer . $wgScriptPath;
+			global $wgScriptPath, $wgServer;
+			$trust_root = $wgServer . $wgScriptPath;
 		}
 
 		wfSuppressWarnings();
@@ -267,38 +221,6 @@ class SpecialOpenID extends SpecialPage {
 			$wgOut->showErrorPage( 'openiderror', 'openiderrortext' );
 			return;
 		}
-
-/*
-		FIXME
-
-		THIS DOES NOT WORK: THE TWO POST ARGUMENTS ARE NOT CHANGED
-		I DO NOT KNOW WHAT I MADE WRONG HERE
-
-		WORKAROUND: SEE BELOW BEFORE FORM SUBMISSION
-
-		// ask the Server to show identifier selection form
-		// https://developers.google.com/accounts/docs/OpenID#Parameters
-
-		$auth_request->message->setArg(
-			Auth_OpenID_OPENID_NS,
-			"identity",
-			"http://specs.openid.net/auth/2.0/identifier_select"
-		);
-
-		$auth_request->message->setArg(
-			Auth_OpenID_OPENID_NS,
-			"claimed_id",
-			"http://specs.openid.net/auth/2.0/identifier_select"
-		);
-
-		$auth_request->message->updateArgs(
-			Auth_OpenID_OPENID_NS,
-			array(
-				"identity" => "http://specs.openid.net/auth/2.0/identifier_select",
-				"claimed_id" => "http://specs.openid.net/auth/2.0/identifier_select",
-			)
-		);
-*/
 
 		# Check the processed URLs, too
 
@@ -350,25 +272,19 @@ class SpecialOpenID extends SpecialPage {
 		$process_url = $this->scriptUrl( $finish_page );
 
 		if ( $auth_request->shouldSendRedirect() ) {
-
-			$redirect_url = $auth_request->redirectURL( $trust_root, $process_url );
+			$redirect_url = $auth_request->redirectURL( $trust_root,
+													   $process_url );
 			if ( Auth_OpenID::isFailure( $redirect_url ) ) {
 				displayError( "Could not redirect to server: " . $redirect_url->message );
 			} else {
 				# OK, now go
 				$wgOut->redirect( $redirect_url );
 			}
-
 		} else {
-
 			// Generate form markup and render it.
 			$form_id = 'openid_message';
-			$form_html = $auth_request->formMarkup(
-				$trust_root,
-				$process_url,
-				false,
-				array( 'id' => $form_id )
-			);
+			$form_html = $auth_request->formMarkup( $trust_root, $process_url,
+												   false, array( 'id' => $form_id ) );
 
 			// Display an error if the form markup couldn't be generated;
 			// otherwise, render the HTML.
@@ -377,29 +293,15 @@ class SpecialOpenID extends SpecialPage {
 			} else {
 				$wgOut->addWikiMsg( 'openidautosubmit' );
 				$wgOut->addHTML( $form_html );
-
-				// WORKAROUND FOR SETTING THE IDENTIFIER SELECTION
-				// OVERWRITE THE TWO HIDDEN FORM VALUES BEFORE AUTO-SUBMITTING THE FORM
-
-				$wgOut->addInlineScript(
-					"jQuery( document ).ready( function(){ 
-						jQuery( \"input[name*='openid.identity']\").val( \"http://specs.openid.net/auth/2.0/identifier_select\" );
-						jQuery( \"input[name*='openid.claimed_id']\").val( \"http://specs.openid.net/auth/2.0/identifier_select\" );
-						jQuery( \"#" . $form_id . "\" ).submit();
-					});"
-				);
+				$wgOut->addInlineScript( "function submitOpenIDForm() {\n document.getElementById(\"" . $form_id . "\").submit()\n }\nhookEvent(\"load\", submitOpenIDForm);\n" );
 			}
-
 		}
 
 		wfRestoreWarnings();
 	}
 
-	/**
-	 * @param $par string|Title|bool
-	 * @return string
-	 */
 	function scriptUrl( $par = false ) {
+		global $wgServer, $wgScript;
 
 		if ( !is_object( $par ) ) {
 			$nt = $this->getTitle( $par );
@@ -407,13 +309,12 @@ class SpecialOpenID extends SpecialPage {
 			$nt = $par;
 		}
 
-		if ( $nt === null ) {
+		if ( !is_null( $nt ) ) {
+			$dbkey = wfUrlencode( $nt->getPrefixedDBkey() );
+			return "{$wgServer}{$wgScript}?title={$dbkey}";
+		} else {
 			return '';
 		}
-
-		// adding a dummy parameter forces a canonical url which we need
-		return $nt->getFullURL( array( 'dummy' => 'x'), false, PROTO_CANONICAL );
-
 	}
 
 	protected function setupSession() {
@@ -422,44 +323,32 @@ class SpecialOpenID extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @param $openid
-	 */
 	function loginSetCookie( $openid ) {
 		global $wgRequest, $wgOpenIDCookieExpiration;
 		$wgRequest->response()->setcookie( 'OpenID', $openid, time() +  $wgOpenIDCookieExpiration );
 	}
 
-	/**
-	 * Find the user with the given openid
-	 *
-	 * @param $user
-	 * @return array return the registered OpenID urls and registration timestamps (if available)
-	 */
-	public static function getUserOpenIDInformation( $user ) {
-		$openid_urls_registration = array();
+	# Find the user with the given openid, if any
+	public static function getUserUrl( $user ) {
+		$openid_urls = array();
 
 		if ( $user instanceof User && $user->getId() != 0 ) {
 			$dbr = wfGetDB( DB_SLAVE );
 			$res = $dbr->select(
 				array( 'user_openid' ),
-				array( 'uoi_openid', 'uoi_user_registration' ),
+				array( 'uoi_openid' ),
 				array( 'uoi_user' => $user->getId() ),
 				__METHOD__
 			);
 
 			foreach ( $res as $row ) {
-				$openid_urls_registration[] = $row;
+				$openid_urls[] = $row->uoi_openid;
 			}
 			$res->free();
 		}
-		return $openid_urls_registration;
+		return $openid_urls;
 	}
 
-	/**
-	 * @param $openid string
-	 * @return null|User
-	 */
 	public static function getUserFromUrl( $openid ) {
 		$dbr = wfGetDB( DB_SLAVE );
 
@@ -477,10 +366,6 @@ class SpecialOpenID extends SpecialPage {
 		}
 	}
 
-	/**
-	 * @param $user User
-	 * @param $url string
-	 */
 	public static function addUserUrl( $user, $url ) {
 		$dbw = wfGetDB( DB_MASTER );
 
@@ -488,18 +373,13 @@ class SpecialOpenID extends SpecialPage {
 			'user_openid',
 			array(
 				'uoi_user' => $user->getId(),
-				'uoi_openid' => $url,
-				'uoi_user_registration' => wfTimestamp( TS_MW )
+				'uoi_openid' => $url
 			),
 			__METHOD__
 		);
+
 	}
 
-	/**
-	 * @param $user User
-	 * @param $url string
-	 * @return bool
-	 */
 	public static function removeUserUrl( $user, $url ) {
 		$dbw = wfGetDB( DB_MASTER );
 

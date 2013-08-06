@@ -20,13 +20,11 @@
  *
  * @file
  * @author Evan Prodromou <evan@prodromou.name>
- * @author Thomas Gries
  * @ingroup Extensions
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit( 1 );
-}
+if ( !defined( 'MEDIAWIKI' ) )
+  exit( 1 );
 
 require_once( "Auth/OpenID/Server.php" );
 require_once( "Auth/OpenID/Consumer.php" );
@@ -54,7 +52,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 	}
 
 	function execute( $par ) {
-		global $wgOut, $wgOpenIDConsumerAndAlsoProvider, $wgOpenIDIdentifierSelect, $wgRequest, $wgUser;
+		global $wgOut, $wgOpenIDClientOnly;
 
 		$this->setHeaders();
 
@@ -62,7 +60,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		# Note: special page is un-registered if this flag is set,
 		# so it'd be unusual to get here.
 
-		if ( !$wgOpenIDConsumerAndAlsoProvider ) {
+		if ( $wgOpenIDClientOnly ) {
 			$wgOut->showErrorPage( 'openiderror', 'openidclientonlytext' );
 			return;
 		}
@@ -71,50 +69,8 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		$server = $this->getServer();
 		wfRestoreWarnings();
 
-		if ( $par === $wgOpenIDIdentifierSelect ) {
-
-			$out = $this->getOutput();
-			$out->addLink( array(
-				'ref' => 'openid.server',
-				'href' => $this->serverUrl(),
-			) );
-			$out->addLink( array(
-				'ref' => 'openid2.provider',
-				'href' => $this->serverUrl(),
-			) );
-
-			$rt = SpecialPage::getTitleFor( 'OpenIDXRDS', $wgOpenIDIdentifierSelect );
-			$xrdsUrl = $rt->getFullURL( '', false, PROTO_CANONICAL  );
-
-			$out->addMeta( 'http:X-XRDS-Location', $xrdsUrl );
-			$this->getRequest()->response()->header( 'X-XRDS-Location: ' . $xrdsUrl );
-
-			$out->addWikiMsg( 'openid-server-identity-page-text');
-
-			return;
-		}
-
-		switch ( strtolower( $par ) ) {
-
-		case 'continue':
-
-			# case 'Continue' must stay here
-			# because it is followed by case 'Login' when the user is not logged in on this OpenID server wiki
-
-			if ( $this->getUser()->isLoggedIn() ) {
-				list( $request, $sreg ) = $this->FetchValues();
-				break;
-			}
-
-			# no break here !
-			# continue with the next case 'Login'
-
-		case 'login':
-
-			wfDebug( "OpenID: SpecialOpenIDServer/Login. You should not pass this point.\n" );
-			$wgOut->showErrorPage( 'openiderror', 'openiderrortext' );
-			return;
-
+		switch ( $par ) {
+		 case 'Login':
 			list( $request, $sreg ) = $this->FetchValues();
 			$result = $this->serverLogin( $request );
 			if ( $result ) {
@@ -127,14 +83,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 				}
 			}
 			break;
-
-		case 'trust':
-
-			if ( !$wgUser->matchEditToken( $wgRequest->getVal( 'openidTrustFormToken' ), 'openidTrustFormToken' ) ) {
-				$wgOut->showErrorPage( 'openiderror', 'openid-error-request-forgery' );
-				return;
-			}
-
+		case 'Trust':
 			list( $request, $sreg ) = $this->FetchValues();
 			$result = $this->Trust( $request, $sreg );
 			if ( $result ) {
@@ -147,21 +96,9 @@ class SpecialOpenIDServer extends SpecialOpenID {
 				}
 			}
 			break;
-
-		// request comes from OpenID preference page
-		// when user deletes a trusted site
-
-		case 'deletetrustedsite':
-
-			$this->deleteTrustedSite();
-			return;
-
-			break;
-
 		default:
-
 			if ( strlen( $par ) ) {
-				wfDebug( "OpenID: aborting in user validation because the request was missing. par: '{$par}'\n" );
+				wfDebug( "OpenID: aborting in user validation because the parameter was empty\n" );
 				$wgOut->showErrorPage( 'openiderror', 'openiderrortext' );
 				return;
 			} else {
@@ -189,25 +126,20 @@ class SpecialOpenIDServer extends SpecialOpenID {
 			return;
 		}
 
+		global $wgUser;
+
 		switch ( $request->mode ) {
-
-		case "checkid_setup":
-
+		 case "checkid_setup":
 			$response = $this->Check( $server, $request, $sreg, false );
 			break;
-
-		case "checkid_immediate":
-
+		 case "checkid_immediate":
 			$response = $this->Check( $server, $request, $sreg, true );
 			break;
-
-		default:
-		# For all the other parts, just let the libs do it
-
+		 default:
+			# For all the other parts, just let the libs do it
 			wfSuppressWarnings();
 			$response =& $server->handleRequest( $request );
 			wfRestoreWarnings();
-
 		}
 
 		# OpenIDServerCheck returns NULL if some output (like a form)
@@ -220,16 +152,13 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		}
 	}
 
+	# Returns the full URL of the special page; we need to pass it around
+	# for some requests
 
-	/**
-	 * Returns the full URL of the special page; we need to pass it around
-	 * for some requests
-	 * @return null|String
-	 */
 	function Url() {
 		$nt = SpecialPage::getTitleFor( 'OpenIDServer' );
 		if ( isset( $nt ) ) {
-			return $nt->getFullURL( '', false, PROTO_CANONICAL );
+			return $nt->getFullURL();
 		} else {
 			return null;
 		}
@@ -237,15 +166,9 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 	# Returns an Auth_OpenID_Server from the libraries. Utility.
 
-	/**
-	 * @return Auth_OpenID_Server
-	 */
 	function getServer() {
-		global $wgOpenIDServerStorePath, $wgOpenIDServerStoreType, $wgTmpDirectory, $wgDBname;
-
-		if ( !$wgOpenIDServerStorePath ) {
-			$wgOpenIDServerStorePath = $wgTmpDirectory . DIRECTORY_SEPARATOR . $wgDBname . DIRECTORY_SEPARATOR . "openid-server-store/";
-		}
+		global $wgOpenIDServerStorePath,
+		  $wgOpenIDServerStoreType;
 
 		$store = $this->getOpenIDStore(
 			$wgOpenIDServerStoreType,
@@ -256,41 +179,6 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		return new Auth_OpenID_Server( $store, $this->serverUrl() );
 	}
 
-
-	# respond with the authenticated local identity OpenID Url. Utility
-
-	/**
-	 * @param $user
-	 * @return getLocalIdentity
-	 */
-	static function getLocalIdentity( $user ) {
-		global $wgOpenIDIdentifiersURL;
-
-		if ( $wgOpenIDIdentifiersURL ) {
-			$local_identity = str_replace( '{ID}', $user->getID(), $wgOpenIDIdentifiersURL );
-		} else {
-			$local_identity = SpecialPage::getTitleFor( 'OpenIDIdentifier', $user->getID() );
-			$local_identity = $local_identity->getFullURL( '', false, PROTO_CANONICAL );
-		}
-
-		return $local_identity;
-
-	}
-
-	/**
-	 * @param $user
-	 * @return getLocalIdentityLink
-	 */
-	static function getLocalIdentityLink( $user ) {
-
-		return Xml::element( 'a',
-				array( 'href' => ( SpecialOpenIDServer::getLocalIdentity( $user ) ) ),
-				SpecialOpenIDServer::getLocalIdentity( $user )
-			);
-
-	}
-
-
 	# Checks a validation request. $imm means don't run any UI.
 	# Fairly meticulous and step-by step, and uses assertions
 	# to point out assumptions at each step.
@@ -299,6 +187,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 	# clarity.
 
 	function Check( $server, $request, $sreg, $imm = true ) {
+
 		global $wgUser, $wgOut, $wgOpenIDAllowServingOpenIDUserAccounts;
 
 		assert( isset( $wgUser ) && isset( $wgOut ) );
@@ -314,58 +203,47 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		assert( isset( $url ) && strlen( $url ) > 0 );
 
 		wfDebug( "OpenID: OpenIDServer received: '$url'.\n" );
-		wfDebug( "OpenID: OpenIDServer received request: " . print_r( $request, true ) . "\n" );
 
-		# by default, use the $wgUser if s/he is logged-in on this OpenID-Server-Wiki
+		$name = $this->UrlToUserName( $url );
 
-		# check, if there is an expressed request for a distinct OpenID-Server-Username
-		# from the received OpenID Url /User:Name
-
-		$otherName = $this->UrlToUserName( $url );
-		wfDebug( "OpenID: received name '$otherName'\n");
-
-		# if there is a expressed request for /User:Name and
-		# if this is an existing user Name on the OpenID-Server Wiki
-		# then fill in this Name into the login form
-
-		if ( $otherName != "" ) {
-			$otherUser = User::newFromName( $otherName );
-		} else {
-			unset( $otherUser );
+		if ( !isset( $name ) || strlen( $name ) == 0 ) {
+			wfDebug( "OpenID: '$url' not a user page.\n" );
+			return $request->answer( false, $this->serverUrl() );
 		}
 
-		# If the client is not logged-in in user on the OpenID Server, or
-		# if there is an expressed request for /User:Name and if this is not the current user
-		# then proceed to the login form, fill in the Name
+		assert( isset( $name ) && strlen( $name ) > 0 );
 
-		if ( ( $wgUser->getId() == 0 )
-			|| ( isset( $otherUser ) && ( $otherUser->getId() != $wgUser->getId() ) ) ) {
+		# Is there a logged in user?
 
-			wfDebug( "OpenID: User '$otherName' not logged in, prepare login form for '$otherName'\n" );
+		if ( $wgUser->getId() == 0 ) {
+			wfDebug( "OpenID: User not logged in.\n" );
 			if ( $imm ) {
 				return $request->answer( false, $this->serverUrl() );
 			} else {
 				# Bank these for later
 				$this->SaveValues( $request, $sreg );
-
-				$query = array(
-					'wpName' => $otherName,
-					'returnto' => $this->getTitle( 'Continue' )->getPrefixedURL(),
-				);
-				$title = SpecialPage::getTitleFor( 'Userlogin' );
-
-				$url = $title->getFullURL( $query, false, PROTO_CANONICAL );
-				$wgOut->redirect( $url );
+				$this->LoginForm( $request );
 				return null;
 			}
 		}
 
-		wfDebug( "OpenID: User is logged in\n" );
 		assert( $wgUser->getId() != 0 );
+
+		# Is the user page for the logged-in user?
+
+		$user = User::newFromName( $name );
+
+		if ( !isset( $user ) ||
+			$user->getId() != $wgUser->getId() ) {
+			wfDebug( "OpenID: User from url not logged in user.\n" );
+			return $request->answer( false, $this->serverUrl() );
+		}
+
+		assert( isset( $user ) && $user->getId() == $wgUser->getId() && $user->getId() != 0 );
 
 		# Is the user an OpenID user?
 
-		if ( !$wgOpenIDAllowServingOpenIDUserAccounts && $this->getUserOpenIDInformation( $wgUser ) ) {
+		if ( !$wgOpenIDAllowServingOpenIDUserAccounts && $this->getUserUrl( $user ) ) {
 			wfDebug( "OpenID: Not one of our users; logs in with OpenID.\n" );
 			return $request->answer( false, $this->serverUrl() );
 		}
@@ -377,7 +255,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		if ( array_key_exists( 'required', $sreg ) ) {
 			$notFound = false;
 			foreach ( $sreg['required'] as $reqfield ) {
-				if ( is_null( $this->GetUserField( $wgUser, $reqfield ) ) ) {
+				if ( is_null( $this->GetUserField( $user, $reqfield ) ) ) {
 					$notFound = true;
 					break;
 				}
@@ -394,7 +272,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 		assert( isset( $trust_root ) && is_string( $trust_root ) && strlen( $trust_root ) > 0 );
 
-		$trust = $this->GetUserTrust( $wgUser, $trust_root );
+		$trust = $this->GetUserTrust( $user, $trust_root );
 
 		# Is there a trust record?
 
@@ -429,7 +307,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 			$notFound = false;
 			foreach ( $sreg['required'] as $reqfield ) {
 				if ( !in_array( $reqfield, $trust ) ||
-					is_null( $this->GetUserField( $wgUser, $reqfield ) ) ) {
+					is_null( $this->GetUserField( $user, $reqfield ) ) ) {
 					$notFound = true;
 					break;
 				}
@@ -446,21 +324,17 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 		# SUCCESS
 
-		$response_fields = array_intersect(
-			array_unique( array_merge( $sreg['required'], $sreg['optional'] ) ), $trust
-		);
+		$response_fields = array_intersect( array_unique( array_merge( $sreg['required'], $sreg['optional'] ) ),
+										   $trust );
 
 		wfSuppressWarnings();
-
-		$response = $request->answer( true, $this->serverUrl(), $this->getLocalIdentity( $wgUser ), null );
-		wfDebug( "OpenID: response: " . print_r( $response, true ) . "\n" );
-
+		$response = $request->answer( true );
 		wfRestoreWarnings();
 
 		assert( isset( $response ) );
 
 		foreach ( $response_fields as $field ) {
-			$value = $this->GetUserField( $wgUser, $field );
+			$value = $this->GetUserField( $user, $field );
 			if ( !is_null( $value ) ) {
 				$response->addField( 'sreg', $field, $value );
 			}
@@ -494,9 +368,10 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		}
 	}
 
-	function SetUserTrust( &$user, $trust_root, $value = NULL ) {
+	function SetUserTrust( &$user, $trust_root, $value ) {
 
 		$trust_array = $this->GetUserTrustArray( $user );
+
 		if ( is_null( $value ) ) {
 			if ( array_key_exists( $trust_root, $trust_array ) ) {
 				unset( $trust_array[$trust_root] );
@@ -506,12 +381,11 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		}
 
 		$this->SetUserTrustArray( $user, $trust_array );
-
 	}
 
-	static function GetUserTrustArray( $user ) {
+	function GetUserTrustArray( $user ) {
 		$trust_array = array();
-		$trust_str = FormatJSON::decode( $user->getOption( 'openid_trust' ) );
+		$trust_str = $user->getOption( 'openid_trust' );
 		if ( strlen( $trust_str ) > 0 ) {
 			$trust_records = explode( "\x1E", $trust_str );
 			foreach ( $trust_records as $record ) {
@@ -521,7 +395,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 					$trust_array[$trust_root] = false;
 				} else {
 					$fields = array_map( 'trim', $fields );
-					$fields = array_filter( $fields, array( 'SpecialOpenIDServer', 'ValidField' ) );
+					$fields = array_filter( $fields, array( $this, 'ValidField' ) );
 					$trust_array[$trust_root] = $fields;
 				}
 			}
@@ -548,69 +422,18 @@ class SpecialOpenIDServer extends SpecialOpenID {
 			$trust_records[] = $record;
 		}
 		$trust_str = implode( "\x1E", $trust_records );
-		$user->setOption( 'openid_trust', FormatJSON::encode( $trust_str ) );
+		$user->setOption( 'openid_trust', $trust_str );
 	}
 
-	static function ValidField( $name ) {
+	function ValidField( $name ) {
 		# FIXME: eventually add timezone
 		static $fields = array( 'nickname', 'email', 'fullname', 'language' );
 		return in_array( $name, $fields );
 	}
 
-
-	function deleteTrustedSite() {
-		global $wgUser, $wgOut, $wgRequest;
-
-		$trustedSiteToBeDeleted = $wgRequest->getVal( 'url' );
-		$wgOut->setPageTitle( wfMessage( 'openid-trusted-sites-delete-confirmation-page-title' )->text() );
-
-		if ( $wgRequest->wasPosted()
-			&& $wgUser->matchEditToken( $wgRequest->getVal( 'openidDeleteTrustedSiteToken' ), $trustedSiteToBeDeleted ) ) {
-
-			if ( $trustedSiteToBeDeleted === "*" ) {
-
-				// NULL sets the default value: it removes this key
-				$wgUser->setOption( 'openid_trust', NULL );
-				$wgUser->saveSettings();
-				$wgOut->addWikiMsg( 'openid-trusted-sites-delete-all-confirmation-success-text' );
-
-			} else {
-
-				$this->SetUserTrust( $wgUser, $trustedSiteToBeDeleted, NULL );
-				$wgUser->saveSettings();
-				$wgOut->addWikiMsg( 'openid-trusted-sites-delete-confirmation-success-text', $trustedSiteToBeDeleted );
-
-			}
-
-			return;
-		}
-
-		if ( $trustedSiteToBeDeleted === "*" ) {
-			$wgOut->addWikiMsg( 'openid-trusted-sites-delete-all-confirmation-question' );
-		} else {
-			$wgOut->addWikiMsg( 'openid-trusted-sites-delete-confirmation-question', $trustedSiteToBeDeleted );
-		}
-
-		$wgOut->addHtml(
-			Xml::openElement( 'form',
-				array(
-					'action' => $this->getTitle( 'DeleteTrustedSite' )->getLocalUrl(),
-					'method' => 'post'
-				)
-			) .
-			Xml::submitButton( wfMessage( 'openid-trusted-sites-delete-confirmation-button-text' )->text() ) . "\n" .
-			Html::Hidden( 'url', $trustedSiteToBeDeleted ) . "\n" .
-			Html::Hidden( 'openidDeleteTrustedSiteToken', $wgUser->getEditToken( $trustedSiteToBeDeleted ) ) . "\n" .
-			Xml::closeElement( 'form' )
-		);
-	}
-
 	function SregFromQuery( $query ) {
-		$sreg = array( 
-			'required' => array(),
-			'optional' => array(),
-			'policy_url' => null
-		);
+		$sreg = array( 'required' => array(), 'optional' => array(),
+					  'policy_url' => null );
 		if ( array_key_exists( 'openid.sreg.required', $query ) ) {
 			$sreg['required'] = explode( ',', $query['openid.sreg.required'] );
 		}
@@ -623,45 +446,41 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		return $sreg;
 	}
 
-	/**
-	 * @param $user User
-	 * @param $field string
-	 * @param $value string
-	 * @return bool
-	 */
 	function SetUserField( &$user, $field, $value ) {
 		switch ( $field ) {
-		case 'fullname':
+		 case 'fullname':
 			$user->setRealName( $value );
 			return true;
-		case 'email':
+			break;
+		 case 'email':
 			# FIXME: deal with validation
 			$user->setEmail( $value );
 			return true;
+			break;
 		 case 'language':
 			$user->setOption( 'language', $value );
 			return true;
-		default:
+			break;
+		 default:
 			return false;
 		}
 	}
 
-	/**
-	 * @param $user User
-	 * @param $field string
-	 * @return null
-	 */
 	function GetUserField( $user, $field ) {
 		switch ( $field ) {
-		case 'nickname':
+		 case 'nickname':
 			return $user->getName();
-		case 'fullname':
+			break;
+		 case 'fullname':
 			return $user->getRealName();
-		case 'email':
+			break;
+		 case 'email':
 			return $user->getEmail();
-		case 'language':
+			break;
+		 case 'language':
 			return $user->getOption( 'language' );
-		default:
+			break;
+		 default:
 			return null;
 		}
 	}
@@ -692,23 +511,18 @@ class SpecialOpenIDServer extends SpecialOpenID {
 	}
 
 	function LoginForm( $request, $msg = null ) {
-	// is this really used by someone ?
 		global $wgOut, $wgUser;
-
-		wfDebug( "OpenID: SpecialOpenIDServer.body::LoginForm. You should not pass this point.\n" );
-		$wgOut->showErrorPage( 'openiderror', 'openiderrortext' );
-		return;
 
 		$url = $request->identity;
 		$name = $this->UrlToUserName( $url );
 		$trust_root = $request->trust_root;
 
-		$instructions = wfMessage( 'openidserverlogininstructions', $url, $name, $trust_root )->text();
+		$instructions = wfMsg( 'openidserverlogininstructions', $url, $name, $trust_root );
 
-		$username = wfMessage( 'yourname' )->text();
-		$password = wfMessage( 'yourpassword' )->text();
-		$ok = wfMessage( 'ok' )->text();
-		$cancel = wfMessage( 'cancel' )->text();
+		$username = wfMsg( 'yourname' );
+		$password = wfMsg( 'yourpassword' );
+		$ok = wfMsg( 'ok' );
+		$cancel = wfMsg( 'cancel' );
 
 		if ( !is_null( $msg ) ) {
 			$wgOut->addHTML( "<p class='error'>{$msg}</p>" );
@@ -717,16 +531,15 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		$sk = $wgUser->getSkin();
 
 		$wgOut->addHTML( "<p>{$instructions}</p>" .
-			'<form action="' . $sk->makeSpecialUrl( 'OpenIDServer/Login' ) . '" method="POST">' .
-			'<table>' .
-			"<tr><td><label for='username'>{$username}</label></td>" .
-			'    <td><span id="username">' . htmlspecialchars( $name ) . '</span></td></tr>' .
-			"<tr><td><label for='password'>{$password}</label></td>" .
-			'    <td><input type="password" name="wpPassword" size="32" value="" /></td></tr>' .
-			"<tr><td colspan='2'><input type='submit' name='wpOK' value='{$ok}' /> <input type='submit' name='wpCancel' value='{$cancel}' /></td></tr>" .
-			'</table>' .
-			'</form>'
-		);
+						'<form action="' . $sk->makeSpecialUrl( 'OpenIDServer/Login' ) . '" method="POST">' .
+						'<table>' .
+						"<tr><td><label for='username'>{$username}</label></td>" .
+						'    <td><span id="username">' . htmlspecialchars( $name ) . '</span></td></tr>' .
+						"<tr><td><label for='password'>{$password}</label></td>" .
+						'    <td><input type="password" name="wpPassword" size="32" value="" /></td></tr>' .
+						"<tr><td colspan='2'><input type='submit' name='wpOK' value='{$ok}' /> <input type='submit' name='wpCancel' value='{$cancel}' /></td></tr>" .
+						'</table>' .
+						'</form>' );
 	}
 
 	function SaveValues( $request, $sreg ) {
@@ -745,10 +558,8 @@ class SpecialOpenIDServer extends SpecialOpenID {
 	}
 
 	function ClearValues() {
-		if ( isset( $_SESSION ) ) {
-			unset( $_SESSION['openid_server_request'] );
-			unset( $_SESSION['openid_server_sreg'] );
-		}
+		unset( $_SESSION['openid_server_request'] );
+		unset( $_SESSION['openid_server_sreg'] );
 		return true;
 	}
 
@@ -766,7 +577,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		$password = $wgRequest->getText( 'wpPassword' );
 
 		if ( !isset( $password ) || strlen( $password ) == 0 ) {
-			return wfMessage( 'wrongpasswordempty' )->text();
+			return wfMsg( 'wrongpasswordempty' );
 		}
 
 		assert ( isset( $password ) && strlen( $password ) > 0 );
@@ -784,8 +595,9 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		assert( isset( $user ) );
 
 		if ( !$user->checkPassword( $password ) ) {
-			return wfMessage( 'wrongpassword' )->text();
+			return wfMsg( 'wrongpassword' );
 		} else {
+			$id = $user->getId();
 			$wgUser = $user;
 			wfSetupSession();
 			$wgUser->SetCookies();
@@ -798,61 +610,58 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 		global $wgOut, $wgUser;
 
+		$url = $request->identity;
+		$name = $this->UrlToUserName( $url );
 		$trust_root = $request->trust_root;
 
-		$instructions = wfMessage( 'openidtrustinstructions', $trust_root )->text();
-		$allow = wfMessage( 'openidallowtrust', $trust_root )->text();
+		$instructions = wfMsg( 'openidtrustinstructions', $trust_root );
+		$allow = wfMsg( 'openidallowtrust', $trust_root );
+
+		if ( is_null( $sreg['policy_url'] ) ) {
+			$policy = wfMsg( 'openidnopolicy' );
+		} else {
+			$policy = wfMsg( 'openidpolicy', $sreg['policy_url'] );
+		}
 
 		if ( isset( $msg ) ) {
 			$wgOut->addHTML( "<p class='error'>{$msg}</p>" );
 		}
 
-		$ok = wfMessage( 'ok' )->text();
-		$cancel = wfMessage( 'cancel' )->text();
+		$ok = wfMsg( 'ok' );
+		$cancel = wfMsg( 'cancel' );
 
 		$sk = $wgUser->getSkin();
 
 		$wgOut->addHTML( "<p>{$instructions}</p>" .
-			'<form action="' . $sk->makeSpecialUrl( 'OpenIDServer/Trust' ) . '" method="POST">' .
-			'<input name="wpAllowTrust" type="checkbox" value="on" checked="checked" id="wpAllowTrust">' .
-			'<label for="wpAllowTrust">' . $allow . '</label><br />'
-		);
+						'<form action="' . $sk->makeSpecialUrl( 'OpenIDServer/Trust' ) . '" method="POST">' .
+						'<input name="wpAllowTrust" type="checkbox" value="on" checked="checked" id="wpAllowTrust">' .
+						'<label for="wpAllowTrust">' . $allow . '</label><br />' );
 
 		$fields = array_filter( array_unique( array_merge( $sreg['optional'], $sreg['required'] ) ),
 							   array( $this, 'ValidField' ) );
 
 		if ( count( $fields ) > 0 ) {
-
 			$wgOut->addHTML( '<table>' );
-
 			foreach ( $fields as $field ) {
-
 				$wgOut->addHTML( "<tr>" );
 				$wgOut->addHTML( "<th><label for='wpAllow{$field}'>" );
-				$wgOut->addHTML( wfMessage( "openid$field" )->text() );
+				$wgOut->addHTML( wfMsg( "openid$field" ) );
 				$wgOut->addHTML( "</label></th>" );
 				$value = $this->GetUserField( $wgUser, $field );
 				$wgOut->addHTML( "</td>" );
 				$wgOut->addHTML( "<td> " . ( ( is_null( $value ) ) ? '' : $value ) . "</td>" );
-				$wgOut->addHTML( "<td>" . ( ( in_array( $field, $sreg['required'] ) ) ? wfMessage( 'openidrequired' )->text() : wfMessage( 'openidoptional' )->text() ) . "</td>" );
+				$wgOut->addHTML( "<td>" . ( ( in_array( $field, $sreg['required'] ) ) ? wfMsg( 'openidrequired' ) : wfMsg( 'openidoptional' ) ) . "</td>" );
 				$wgOut->addHTML( "<td><input name='wpAllow{$field}' id='wpAllow{$field}' type='checkbox'" );
-
 				if ( !is_null( $value ) ) {
 					$wgOut->addHTML( " value='on' checked='checked' />" );
 				} else {
 					$wgOut->addHTML( " disabled='disabled' />" );
 				}
-
 				$wgOut->addHTML( "</tr>" );
-
 			}
-
 			$wgOut->addHTML( '</table>' );
 		}
-		$wgOut->addHTML( "<input type='submit' name='wpOK' value='{$ok}' /> <input type='submit' name='wpCancel' value='{$cancel}' />" .
-			Html::Hidden( 'openidTrustFormToken', $wgUser->getEditToken( 'openidTrustFormToken' ) ) . "\n" .
-			"</form>"
-		);
+		$wgOut->addHTML( "<input type='submit' name='wpOK' value='{$ok}' /> <input type='submit' name='wpCancel' value='{$cancel}' /></form>" );
 		return null;
 	}
 
@@ -874,12 +683,14 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		# If they don't want us to allow trust, save that.
 
 		if ( !$wgRequest->getCheck( 'wpAllowTrust' ) ) {
+
 			$this->SetUserTrust( $wgUser, $trust_root, false );
 			# Set'em and sav'em
 			$wgUser->saveSettings();
 		} else {
+
 			$fields = array_filter( array_unique( array_merge( $sreg['optional'], $sreg['required'] ) ),
-				array( $this, 'ValidField' ) );
+								   array( $this, 'ValidField' ) );
 
 			$allow = array();
 
@@ -893,14 +704,11 @@ class SpecialOpenIDServer extends SpecialOpenID {
 			# Set'em and sav'em
 			$wgUser->saveSettings();
 		}
+
 	}
 
-	/**
-	 * Converts an URL /User:Name to a user name, if possible
-	 *
-	 * @param $url string
-	 * @return null|String
-	 */
+	# Converts an URL to a user name, if possible
+
 	function UrlToUserName( $url ) {
 
 		global $wgArticlePath, $wgServer;
@@ -913,11 +721,6 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 		# it must start with our server, case doesn't matter
 
-		// Remove the protocol if $wgServer is protocol-relative.
-		if ( substr( $wgServer, 0, 2 ) == '//' ) {
-			$url = substr( $url, strpos( $url, ':' ) + 1 );
-		}
-
 		if ( strpos( strtolower( $url ), strtolower( $wgServer ) ) !== 0 ) {
 			return null;
 		}
@@ -925,7 +728,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		$parts = parse_url( $url );
 
 		$relative = $parts['path'];
-		if ( array_key_exists( 'query', $parts ) && strlen( $parts['query'] ) > 0 ) {
+		if ( !is_null( $parts['query'] ) && strlen( $parts['query'] ) > 0 ) {
 			$relative .= '?' . $parts['query'];
 		}
 
@@ -935,12 +738,8 @@ class SpecialOpenIDServer extends SpecialOpenID {
 
 		/* remove "Special:OpenIDXRDS/" to allow construction of a valid user page name */
 		$specialPagePrefix = SpecialPage::getTitleFor( 'OpenIDXRDS' );
-
-		if ( $specialPagePrefix != "Special:OpenIDXRDS" ) {
-			$specialPagePrefix = "( {$specialPagePrefix} | Special:OpenIDXRDS )";
-		}
-
-		$relative = preg_replace( "!" . preg_quote( $specialPagePrefix, "!" ) . "/!", "", $relative );
+		if ( $specialPagePrefix != "Special:OpenIDXRDS" ) $specialPagePrefix = "({$specialPagePrefix}|Special:OpenIDXRDS)";
+		$relative = preg_replace( "!" . $specialPagePrefix . "/!", "", $relative );
 
 		# Can't have a pound-sign in the relative, since that's for fragments
 		if ( !preg_match( "#$pattern#", $relative, $matches ) ) {
@@ -956,10 +755,7 @@ class SpecialOpenIDServer extends SpecialOpenID {
 		}
 	}
 
-	/**
-	 * @return String
-	 */
 	function serverUrl() {
-		return $this->getTitle()->getFullURL( '', false, PROTO_CANONICAL );
+		return $this->getTitle()->getFullUrl();
 	}
 }
