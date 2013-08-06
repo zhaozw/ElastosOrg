@@ -142,7 +142,7 @@ $wgSMTP = array(
 require_once( "$IP/extensions/ConfirmEdit/ConfirmEdit.php" );
 require_once( "$IP/extensions/Gadgets/Gadgets.php" );
 require_once( "$IP/extensions/Nuke/Nuke.php" );
-#require_once( "$IP/extensions/OpenID/OpenID.php" );
+require_once( "$IP/extensions/OpenID/OpenID.php" );
 require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 require_once( "$IP/extensions/Renameuser/Renameuser.php" );
 require_once( "$IP/extensions/Vector/Vector.php" );
@@ -155,7 +155,7 @@ require_once( "$IP/skins/Erudite/erudite.php" );
 # Add more configuration options below.
 
 $wgGroupPermissions['*']['edit'] = false;
-$wgGroupPermissions['*' ]['createaccount'] = false;
+$wgGroupPermissions['*' ]['createaccount'] = true;
 #require_once("$IP/extensions/FCKeditor/FCKeditor.php");
 require_once("$IP/extensions/SyntaxHighlight_GeSHi/SyntaxHighlight_GeSHi.php");
 #require_once("$IP/extensions/ConfirmAccount/SpecialConfirmAccount.php");
