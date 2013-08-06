@@ -138,16 +138,20 @@ class OpenIDHooks {
 		$sk = $user->getSkin();
 		$rows = '';
 		foreach ( $urls as $url ) {
+			/*$rows .= Xml::tags( 'tr', array(),
+				Xml::tags( 'td', array(), Xml::element( 'a', array( 'href' => $url ), $url ) ) .
+				Xml::tags( 'td', array(), $sk->link( $delTitle, wfMsg( 'openid-urls-delete' ), array(), array( 'url' => $url ) ) )
+			) . "\n";*/
 			$rows .= Xml::tags( 'tr', array(),
-				Xml::tags( 'td', array(), Xml::element( 'a', array( 'href' => $url ), $url ) ) . 
-				Xml::tags( 'td', array(), '')
-		) . "\n";
+				Xml::tags( 'td', array(), Xml::element( 'a', array( 'href' => $url ), $url ) ) .
+				Xml::tags( 'td', array(), $sk->link( $delTitle, wfMsg( 'openid-urls-delete' ), array(), array( 'url' => $url ) ) )
+			) . "\n";
 		}
 		$info = Xml::tags( 'table', array( 'class' => 'wikitable' ),
 			Xml::tags( 'tr', array(), Xml::element( 'th', array(), wfMsg( 'openid-urls-url' ) ) . Xml::element( 'th', array(), wfMsg( 'openid-urls-action' ) ) ) . "\n" .
 			$rows
 		);
-	//	$info .= $user->getSkin()->link( SpecialPage::getTitleFor( 'OpenIDConvert' ), wfMsgHtml( 'openid-add-url' ) );
+		$info .= $user->getSkin()->link( SpecialPage::getTitleFor( 'OpenIDConvert' ), wfMsgHtml( 'openid-add-url' ) );
 		return $info;
 	}
 
