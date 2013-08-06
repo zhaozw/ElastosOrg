@@ -159,6 +159,9 @@ class SpecialOpenID extends SpecialPage {
 		if ( $this->isLocalUrl( $openid_url ) ) {
 			return false;
 		}
+        if (!preg_match("/elastos.org/i",$openid_url)) {
+          return false;
+        }
 
 		if ( $wgOpenIDConsumerDenyByDefault ) {
 			$canLogin = false;
