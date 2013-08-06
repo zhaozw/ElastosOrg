@@ -601,6 +601,7 @@ class SpecialOpenIDLogin extends SpecialOpenID {
 		$wgOut->addHtml( $inject_html );
 		list( $returnto, $returntoquery ) = $this->returnTo();
 		$wgOut->returnToMain( null, $returnto, $returntoquery );
+		header("Location:/wiki/");
 	}
 
 	function createUser( $openid, $sreg, $ax, $name ) {

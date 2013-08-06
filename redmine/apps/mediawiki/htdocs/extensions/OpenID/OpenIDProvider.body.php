@@ -81,6 +81,7 @@ class OpenIDProvider {
 			$html .= Xml::submitButton( wfMsg( 'userlogin' ) );
 		}
 		$html .= '</div>';
+        $html .= '<script>var openid=document.getElementById("openid_url").value;if(openid){document.getElementById("openid_form").submit();}</script>';
 
 		return $html;
 	}
