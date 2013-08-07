@@ -662,10 +662,11 @@ class SkinTemplate extends Skin {
 					'class' => $usertalkUrlDetails['exists'] ? false : 'new',
 					'active' => ( $pageurl == $href )
 				);
-				$personal_urls['anonlogin'] = $login_url;
-			} else {
+				//$personal_urls['anonlogin'] = $login_url;
+			} 
+			/*else {
 				$personal_urls['login'] = $login_url;
-			}
+			}*/
 			if ( isset($createaccount_url) ) {
 				$personal_urls['createaccount'] = $createaccount_url;
 			}
