@@ -74,7 +74,7 @@
     
 		function body_header() // adds login bar, user navigation and search at top of page in place of custom header content
 		{
-			$this->output('<div id="qa-login-bar"><div id="qa-login-group">');
+			$this->output('<div id="qa-login-bar"><div id="qa-login-group"><div style="float:left;padding-right:10px;"><a href="http://elastos.org/" title="elastos.org"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="width:25px;height:25px;"/></a></div>');
 			$this->nav_user_search();
             $this->output('</div></div>');
         }
