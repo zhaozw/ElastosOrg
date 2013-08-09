@@ -124,7 +124,7 @@
 	{
 		$publicusername=$logged_in_user['publicusername'];
 		
-		return '<a href="'.htmlspecialchars($relative_url_prefix.'user/'.urlencode($publicusername)).
+		return '<a href="'.htmlspecialchars('http://elastos.org/members/'.urlencode($publicusername)).
 			'" class="qa-user-link">'.htmlspecialchars($publicusername).'</a>';
 	}
 
@@ -141,7 +141,7 @@
 			$usershtml[$userid]=htmlspecialchars($publicusername);
 			
 			if ($should_include_link)
-				$usershtml[$userid]='<a href="'.htmlspecialchars($relative_url_prefix.'user/'.urlencode($publicusername)).
+				$usershtml[$userid]='<a href="'.htmlspecialchars('http://elastos.org/members/'.urlencode($publicusername)).
 					'" class="qa-user-link">'.$usershtml[$userid].'</a>';
 		}
 			
