@@ -151,6 +151,23 @@
 	
 	function qa_avatar_html_from_userid($userid, $size, $padding)
 	{
+
+		$avatar_folder_dir = '/opt/redmine/apps/wordpress/htdocs/wp-content/uploads/avatars/' . $userid;
+		if ( $av_dir = opendir( $avatar_folder_dir ) ) {
+			while ( false !== ( $avatar_file = readdir($av_dir) ) ) {
+				if ( preg_match( "/-bpthumb/", $avatar_file )  && '.' != $avatar_file && '..' != $avatar_file )
+					break;
+			}
+			closedir($av_dir);
+		}
+
+		if (isset($avatar_file)) {
+			return  '<img src="http://elastos.org/wp-content/uploads/avatars/' . $userid . '/' . $avatar_file . '" width=' . $size . ' height=' . $size . ' class="qa-avatar-image" alt="">';
+		}
+
+		return  null;
+
+		/*
 		require_once QA_INCLUDE_DIR.'qa-app-format.php';
 		
 		global $qa_cache_wp_user_emails;
@@ -159,6 +176,7 @@
 			return qa_get_gravatar_html($qa_cache_wp_user_emails[$userid], $size);
 		
 		return null;
+		*/
 	}
 
 
