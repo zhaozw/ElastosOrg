@@ -67,7 +67,7 @@ class SpecialPageFactory {
 
 		// Login/create account
 		'Userlogin'                 => 'LoginForm',
-		'CreateAccount'             => 'SpecialCreateAccount',
+		//'CreateAccount'             => 'SpecialCreateAccount',
 
 		// Users and rights
 		'Block'                     => 'SpecialBlock',
