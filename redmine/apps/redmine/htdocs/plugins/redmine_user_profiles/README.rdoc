@@ -1,0 +1,15 @@
+= Redmine User Profiles Plugin
+
+User Profiles is a plugin let you can write your own profile with wiki formatting in a user page.
+
+http://www.r-labs.org/projects/userprofile
+
+=== Plugin installation
+
+1. Copy the plugin directory into the vendor/plugins directory
+
+2. Retart Redmine
+
+=== Language contributors
+
+* ko.yml - Ki Won Kim
