@@ -1,6 +1,7 @@
 function observeIssueSubjectField(project_id, issue_id, event_type) {
-  
+  var $=window.$; 
   if (window.jQuery) {
+    $=jQuery;
     $(document).ready(moveSimilarIssuesRoot)
   } else {
     document.observe("dom:loaded", moveSimilarIssuesRoot)
@@ -104,6 +105,7 @@ function getElem(element_id) {
   var the_id = element_id;
   if (window.jQuery) {
     the_id = '#' + the_id;
+    return jQuery(the_id); 
   }
   return $(the_id);
 }
