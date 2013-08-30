@@ -141,7 +141,7 @@
 			$usershtml[$userid]=htmlspecialchars($publicusername);
 			
 			if ($should_include_link)
-				$usershtml[$userid]='<a href="'.htmlspecialchars('http://elastos.org/members/'.urlencode($publicusername)).
+				$usershtml[$userid]='<a href="'.htmlspecialchars('http://elastos.org/q2a/index.php?qa=user&qa_1='.urlencode($publicusername)).
 					'" class="qa-user-link">'.$usershtml[$userid].'</a>';
 		}
 			
@@ -151,9 +151,8 @@
 	
 	function qa_avatar_html_from_userid($userid, $size, $padding)
 	{
-
 		$avatar_folder_dir = '/opt/redmine/apps/wordpress/htdocs/wp-content/uploads/avatars/' . $userid;
-		if ( $av_dir = opendir( $avatar_folder_dir ) ) {
+		if ( $av_dir = @opendir( $avatar_folder_dir ) ) {
 			while ( false !== ( $avatar_file = readdir($av_dir) ) ) {
 				if ( preg_match( "/-bpthumb/", $avatar_file )  && '.' != $avatar_file && '..' != $avatar_file )
 					break;
@@ -162,7 +161,11 @@
 		}
 
 		if (isset($avatar_file)) {
-			return  '<img src="http://elastos.org/wp-content/uploads/avatars/' . $userid . '/' . $avatar_file . '" width=' . $size . ' height=' . $size . ' class="qa-avatar-image" alt="">';
+			$useridtopublic=qa_get_public_from_userids($userid);
+			$publicusername=$useridtopublic[$userid];
+
+			return  '<a href="'.htmlspecialchars('http://elastos.org/members/'.urlencode($publicusername)).
+					'"><img src="http://elastos.org/wp-content/uploads/avatars/' . $userid . '/' . $avatar_file . '" width=' . $size . ' height=' . $size . ' class="qa-avatar-image" alt=""></a>';
 		}
 
 		return  null;
