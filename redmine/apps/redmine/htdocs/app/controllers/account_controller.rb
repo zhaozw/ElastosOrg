@@ -135,7 +135,7 @@ class AccountController < ApplicationController
     if Setting.openid? && using_open_id?
       open_id_authenticate(params[:openid_url])
     else
-      password_authentication
+      invalid_credentials#password_authentication
     end
   end
 
