@@ -881,9 +881,9 @@ function mss_search_results() {
 					$resultinfo['id'] = $docid;
 					$docteaser = $teasers[$docid];
 					if ($docteaser->content) {
-						$resultinfo['teaser'] = sprintf(__("...%s..."), implode("...", $docteaser->content));
+						$resultinfo['teaser'] = sprintf(__("...%s..."), implode("...", htmlspecialchars($docteaser->content)));
 					} else {
-						$words = split(' ', $doc->content);
+						$words = split(' ', htmlspecialchars($doc->content));
 						$teaser = implode(' ', array_slice($words, 0, 30));
 						$resultinfo['teaser'] = sprintf(__("%s..."), $teaser);
 					}
