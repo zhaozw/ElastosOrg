@@ -42,7 +42,7 @@ function logger($cmd, $result, $args, $elfinder) {
 
 	
 	$log = sprintf("[%s] %s: %s \n", date('r'), strtoupper($cmd), var_export($result, true));
-	$logfile = '../files/temp/log.txt';
+	$logfile = '../logs/log.txt';
 	$dir = dirname($logfile);
 	if (!is_dir($dir) && !mkdir($dir)) {
 		return;
@@ -229,9 +229,16 @@ function validName($name) {
 }
 
 
-$logger = new elFinderSimpleLogger('../files/temp/log.txt');
+$logger = new elFinderSimpleLogger('../logs/log.txt');
 
-
+require_once  '/opt/redmine/apps/wordpress/htdocs/wp-load.php';
+$wordpressuser=wp_get_current_user();
+$disableCommands = array('mkdir', 'mkfile', 'rm', 'rename', 'put', 'duplicate', 'paste', 'upload', 'put', 'archive', 'extract', 'resize', 'netmount', 'tmb');
+if ($wordpressuser->ID != 0) {
+	if (current_user_can('administrator')) {
+		$disableCommands = array();
+	}
+}
 
 $opts = array(
 	'locale' => 'en_US.UTF-8',
@@ -239,7 +246,7 @@ $opts = array(
 		'*' => 'logger'
 		// 'mkdir mkfile rename duplicate upload rm paste' => 'logger'
 	),
-	'debug' => true,
+	'debug' => false,
 	'uploadMaxSize' => '10G',
 	'roots' => array(
 		array(
@@ -257,7 +264,8 @@ $opts = array(
 			'accessControl' => 'access',
 			'acceptedName'    => '/^[^\.].*$/',
 			// 'tmbSize' => 128,
-			'attributes' => array(
+			'disabled'	=> $disableCommands,
+/*			'attributes' => array(
 				array(
 					'pattern' => '/\.js$/',
 					'read' => true,
@@ -269,7 +277,7 @@ $opts = array(
 					'write' => false
 				)
 			)
-			// 'uploadDeny' => array('application', 'text/xml')
+*/			// 'uploadDeny' => array('application', 'text/xml')
 		),
 		// array(
 		// 	'driver'     => 'LocalFileSystem',
