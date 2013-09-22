@@ -233,8 +233,9 @@ $logger = new elFinderSimpleLogger('../logs/log.txt');
 
 $str = isset($_COOKIE['repo_path']) ? $_COOKIE['repo_path'] : '.:r';
 $pos = strpos($str,'..');
-if ($pos !== false)
-	$srt = '.:r';
+if ($pos !== false) {
+	$str = '.:r';
+}
 $strs = explode(':', $str);
 $redmineProject = $strs[0];
 
