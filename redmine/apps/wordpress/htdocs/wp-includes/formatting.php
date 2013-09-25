@@ -2157,9 +2157,16 @@ function wp_trim_words( $text, $num_words = 55, $more = null ) {
 	if ( count( $words_array ) > $num_words ) {
 		array_pop( $words_array );
 		$text = implode( $sep, $words_array );
+		if (mb_strlen($text) != strlen($text)) {
+			$text = mb_substr($text, 0, $num_words * 5);
+		}
 		$text = $text . $more;
 	} else {
 		$text = implode( $sep, $words_array );
+		if (mb_strlen($text) != strlen($text)) {
+			$text = mb_substr($text, 0, $num_words * 5);
+			$text = $text . $more;
+		}
 	}
 	return apply_filters( 'wp_trim_words', $text, $num_words, $more, $original_text );
 }
