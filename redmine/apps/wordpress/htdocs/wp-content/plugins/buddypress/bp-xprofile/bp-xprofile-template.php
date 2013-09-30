@@ -369,6 +369,15 @@ function bp_the_profile_field_type() {
 		return apply_filters( 'bp_the_profile_field_type', $field->type );
 	}
 
+function bp_the_profile_readonly() {
+	global $field;
+
+	if ( $field->id <= 1 ) {
+		echo '" readonly="readonly';
+	}
+}
+
+
 function bp_the_profile_field_description() {
 	echo bp_get_the_profile_field_description();
 }
