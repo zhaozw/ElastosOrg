@@ -4,6 +4,8 @@
 
 	<?php while ( bp_profile_groups() ) : bp_the_profile_group(); ?>
 
+		<?php if ( 'private' == bp_get_the_profile_group_name() ) continue; ?>
+
 		<?php if ( bp_profile_group_has_fields() ) : ?>
 
 			<?php do_action( 'bp_before_profile_field_content' ); ?>
