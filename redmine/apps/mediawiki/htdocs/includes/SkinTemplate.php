@@ -609,7 +609,7 @@ class SkinTemplate extends Skin {
 				),
 				'active' => false
 			);
-		} else {
+		} else {/*
 			$useCombinedLoginLink = $this->useCombinedLoginLink();
 			$loginlink = $this->getUser()->isAllowed( 'createaccount' ) && $useCombinedLoginLink
 				? 'nav-login-createaccount'
@@ -663,14 +663,13 @@ class SkinTemplate extends Skin {
 					'active' => ( $pageurl == $href )
 				);
 				//$personal_urls['anonlogin'] = $login_url;
-			} 
-			/*else {
-				$personal_urls['login'] = $login_url;
-			}*/
-			if ( isset($createaccount_url) ) {
-				$personal_urls['createaccount'] = $createaccount_url;
+			} else {
+				//$personal_urls['login'] = $login_url;
 			}
-		}
+			if ( isset($createaccount_url) ) {
+			//	$personal_urls['createaccount'] = $createaccount_url;
+			}
+		*/}
 
 		wfRunHooks( 'PersonalUrls', array( &$personal_urls, &$title ) );
 		wfProfileOut( __METHOD__ );

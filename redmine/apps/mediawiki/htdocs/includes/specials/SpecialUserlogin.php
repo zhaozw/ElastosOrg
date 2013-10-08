@@ -162,7 +162,7 @@ class LoginForm extends SpecialPage {
 			$this->onCookieRedirectCheck( $this->mCookieCheck );
 			return;
 		} elseif( $this->mPosted ) {
-			/*if( $this->mCreateaccount ) {
+		/*	if( $this->mCreateaccount ) {
 				return $this->addNewAccount();
 			} elseif ( $this->mCreateaccountMail ) {
 				return $this->addNewAccountMailPassword();
