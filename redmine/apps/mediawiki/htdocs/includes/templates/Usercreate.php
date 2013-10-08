@@ -40,7 +40,6 @@ class UsercreateTemplate extends QuickTemplate {
 <!--
 <div id="signupstart"><?php $this->msgWiki( 'signupstart' ); ?></div>
 <div id="userlogin">
-
 <form name="userlogin2" id="userlogin2" method="post" action="<?php $this->text('action') ?>">
 	<h2><?php $this->msg('createaccount') ?></h2>
 	<p id="userloginlink"><?php $this->html('link') ?></p>
