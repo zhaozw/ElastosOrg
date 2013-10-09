@@ -1,0 +1,2882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="217" name="验证隐私保密界面操作的时候断电/关机 - 验证切换程序列表上下页的时候">
+	<node_order><![CDATA[100]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>
+	<strong>交互事件:</strong></p>
+<p>
+	关机/断电</p>
+<p>
+	<strong>测试目的:</strong></p>
+<p>
+	验证隐私保密界面操作的时候断电/关机</p>
+<p>
+	<strong>测试描述:</strong></p>
+<p>
+	验证切换程序列表上下页的时候</p>
+<p>
+	<strong>操作步骤:</strong></p>
+<p>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</p>
+<p>
+	<strong>期望结果:</strong></p>
+<div>
+	1. 重启后，重新回到该操作界面各项操作正常</div>
+<div>
+	2. 重启之后，先前已经保存的各项设置值不变</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="219" name="验证隐私保密界面操作的时候断电/关机 - 验证根据程序设置权限的时候">
+	<node_order><![CDATA[101]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	关机/断电</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候断电/关机</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 设置GPS</div>
+<div>
+	2. 账户设备列表</div>
+<div>
+	3. 账户授权码</div>
+<div>
+	4. 屏幕截图</div>
+<div>
+	5. 行事历</div>
+<div>
+	6. 系统日志</div>
+<div>
+	7. 书签，历史记录，收藏夹</div>
+<div>
+	8. 备忘录</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 重启后，重新回到该操作界面各项操作正常</div>
+<div>
+	2. 重启之后，先前已经保存的各项设置值不变</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="221" name="验证隐私保密界面操作的时候断电/关机 - 验证根据权限设置程序的时候">
+	<node_order><![CDATA[102]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	关机/断电</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 设置GPS</div>
+<div>
+	2. 账户设备列表</div>
+<div>
+	3. 账户授权码</div>
+<div>
+	4. 屏幕截图</div>
+<div>
+	5. 行事历</div>
+<div>
+	6. 系统日志</div>
+<div>
+	7. 书签，历史记录，收藏夹</div>
+<div>
+	8. 备忘录</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 重启后，重新回到该操作界面各项操作正常</div>
+<div>
+	2. 重启之后，先前已经保存的各项设置值不变</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="223" name="验证隐私保密界面操作的时候断电/关机 - 验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[103]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	关机/断电</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 重启后，重新回到该操作界面各项操作正常</div>
+<div>
+	2. 重启之后，先前已经保存的各项设置值不变</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="229" name="验证切换程序列表上下页的时候">
+	<node_order><![CDATA[104]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	蓝牙</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候蓝牙传输文件/进行蓝牙配对</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 配对消息/传输文件消息可以正确取消或者接收</div>
+<div>
+	2. 点掉提示窗口之后，之前的设置操作/显示正常</div>
+<div>
+	3. 点击的操作能够正常响应(蓝牙设备配对/拒绝，蓝牙文件传输)</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="231" name="验证根据程序设置权限的时候">
+	<node_order><![CDATA[105]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	蓝牙</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候蓝牙传输文件/进行蓝牙配对</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 设置GPS</div>
+<div>
+	2. 账户设备列表</div>
+<div>
+	3. 账户授权码</div>
+<div>
+	4. 屏幕截图</div>
+<div>
+	5. 行事历</div>
+<div>
+	6. 系统日志</div>
+<div>
+	7. 书签，历史记录，收藏夹</div>
+<div>
+	8. 备忘录</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 配对消息/传输文件消息可以正确取消或者接收</div>
+<div>
+	2. 点掉提示窗口之后，之前的设置操作/显示正常</div>
+<div>
+	3. 点击的操作能够正常响应(蓝牙设备配对/拒绝，蓝牙文件传输)</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="233" name="验证根据权限设置程序的时候">
+	<node_order><![CDATA[106]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	蓝牙</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候蓝牙传输文件/进行蓝牙配对</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 配对消息/传输文件消息可以正确取消或者接收</div>
+<div>
+	2. 点掉提示窗口之后，之前的设置操作/显示正常</div>
+<div>
+	3. 点击的操作能够正常响应(蓝牙设备配对/拒绝，蓝牙文件传输)</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="235" name="验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[107]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	蓝牙</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候蓝牙传输文件/进行蓝牙配对</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 配对消息/传输文件消息可以正确取消或者接收</div>
+<div>
+	2. 点掉提示窗口之后，之前的设置操作/显示正常</div>
+<div>
+	3. 点击的操作能够正常响应(蓝牙设备配对/拒绝，蓝牙文件传输)</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="237" name="屏幕保护-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[108]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候进入屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 恢复之后，返回先前的界面</div>
+	<div>
+		2. 先前界面的操作/显示正常</div>
+	<div>
+		3. 其他设置项不变</div>
+</div>
+<p>
+	&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="239" name="屏幕保护-验证根据程序设置权限的时候">
+	<node_order><![CDATA[109]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候进入屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="241" name="屏幕保护-验证根据权限设置程序的时候">
+	<node_order><![CDATA[110]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候进入屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="243" name="屏幕保护-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[111]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候进入屏幕保护</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="245" name="功能键-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[112]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	功能键</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候按HOME KEY返回主页界面</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<div>
+			1. 返回正常，界面显示正常</div>
+		<div>
+			2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="247" name="功能键-验证根据程序设置权限的时候">
+	<node_order><![CDATA[113]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	功能键</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候按HOME KEY返回主页界面</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="249" name="功能键-验证根据权限设置程序的时候">
+	<node_order><![CDATA[114]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	功能键</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候按HOME KEY返回主页界面</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="251" name="功能键-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[115]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	功能键</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候按HOME KEY返回主页界面</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="253" name="其他应用操作-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[116]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行多媒体播放/查看(音频/视频/图片)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 多媒体各项操作播放正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="255" name="其他应用操作-验证根据程序设置权限的时候">
+	<node_order><![CDATA[117]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行多媒体播放/查看(音频/视频/图片)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 多媒体各项操作播放正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="257" name="其他应用操作-验证根据权限设置程序的时候">
+	<node_order><![CDATA[118]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行多媒体播放/查看(音频/视频/图片)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 多媒体各项操作播放正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="259" name="其他应用操作-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[119]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行多媒体播放/查看(音频/视频/图片)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 多媒体各项操作播放正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="261" name="其他应用操作-QQ-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[120]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行其他操作/查看(QQ，天气，游戏等)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 第三方软件各项操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="263" name="其他应用操作-QQ-验证根据程序设置权限的时候">
+	<node_order><![CDATA[121]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行其他操作/查看(QQ，天气，游戏等)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 第三方软件各项操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="265" name="其他应用操作-QQ-验证根据权限设置程序的时候">
+	<node_order><![CDATA[122]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行其他操作/查看(QQ，天气，游戏等)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 第三方软件各项操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="267" name="其他应用操作-QQ-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[123]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	其他应用操作</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候切出去进行其他操作/查看(QQ，天气，游戏等)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 返回正常，界面显示正常</div>
+	<div>
+		2. 重新回到设置后回到先前的界面，显示/操作正常</div>
+	<div>
+		3. 第三方软件各项操作正常</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="269" name="插拔硬件-USB-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[124]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<div>
+			1. 设置显示，操作正常</div>
+		<div>
+			2. 通知声音正常</div>
+		<div>
+			3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+		<div>
+			4. 蓝牙传输文件？</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="271" name="插拔硬件-USB-验证根据程序设置权限的时候">
+	<node_order><![CDATA[125]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="273" name="插拔硬件-USB-验证根据权限设置程序的时候">
+	<node_order><![CDATA[126]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="275" name="插拔硬件-USB-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[127]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+<testcase internalid="277" name="插拔硬件-HDMI-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[124]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<div>
+			1. 设置显示，操作正常</div>
+		<div>
+			2. 通知声音正常</div>
+		<div>
+			3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+		<div>
+			4. 蓝牙传输文件？</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="279" name="插拔硬件-HDMI-验证根据程序设置权限的时候">
+	<node_order><![CDATA[125]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="281" name="插拔硬件-HDMI-验证根据权限设置程序的时候">
+	<node_order><![CDATA[126]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="283" name="插拔硬件-HDMI-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[127]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+<testcase internalid="285" name="插拔硬件-网线-验证切换程序列表上下页的时候">
+	<node_order><![CDATA[124]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证切换程序列表上下页的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	1. 点击&ldquo;^&rdquo;,&quot;v&quot;箭头</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<div>
+			1. 设置显示，操作正常</div>
+		<div>
+			2. 通知声音正常</div>
+		<div>
+			3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+		<div>
+			4. 蓝牙传输文件？</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="287" name="插拔硬件-网线-验证根据程序设置权限的时候">
+	<node_order><![CDATA[125]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据程序设置权限的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="289" name="插拔硬件-网线-验证根据权限设置程序的时候">
+	<node_order><![CDATA[126]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证根据权限设置程序的时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置GPS</div>
+	<div>
+		2. 账户设备列表</div>
+	<div>
+		3. 账户授权码</div>
+	<div>
+		4. 屏幕截图</div>
+	<div>
+		5. 行事历</div>
+	<div>
+		6. 系统日志</div>
+	<div>
+		7. 书签，历史记录，收藏夹</div>
+	<div>
+		8. 备忘录</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+
+<testcase internalid="291" name="插拔硬件-网线-验证开启应用弹出隐私保密声明时候">
+	<node_order><![CDATA[127]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>
+	<strong>交互事件:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	插拔硬件</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试目的:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证隐私保密界面操作的时候拔插USB设备(鼠标/外接存储设备)</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>测试描述:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	验证开启应用弹出隐私保密声明时候</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>操作步骤:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>期望结果:</strong></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		1. 设置显示，操作正常</div>
+	<div>
+		2. 通知声音正常</div>
+	<div>
+		3. 移除相关设备后，设置相关部分?(鼠标设置，SD卡部分)</div>
+	<div>
+		4. 蓝牙传输文件？</div>
+</div>
+<div>
+	&nbsp;</div>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+
+<custom_fields>
+	<custom_field>
+		<name><![CDATA[autotest_type]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Java_Class]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[script_info]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[issue_management]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>	<custom_field>
+		<name><![CDATA[Feature_Issues]]></name>
+		<value><![CDATA[]]></value>
+	</custom_field>
+</custom_fields></testcase>
+</testcases>
