@@ -3,14 +3,12 @@
 require_once "common.php";
 session_start();
 
-define(DB_HOST , 'localhost');
-define(DB_USER , 'root');
-define(DB_PASS , 'kortide');
-define(DB_DATABASENAME , 'bitnami_testlink');
-define(DB_TABLENAME , 'users');
-
-
-define(ROLE_ID , '7');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', 'kortide');
+define('DB_DATABASENAME', 'testlink');
+define('DB_TABLENAME', 'users');
+define('ROLE_ID', '7');
 
 function escape($thing) {
     return htmlentities($thing);
@@ -18,16 +16,16 @@ function escape($thing) {
 
 function findUser($name)
 {
-    $conn = mysql_connect(DB_HOST , DB_USER , DB_PASS);
-    mysql_select_db(DB_DATABASENAME , $conn);
+    $conn = mysql_connect(DB_HOST, DB_USER, DB_PASS);
+    mysql_select_db(DB_DATABASENAME, $conn);
 
-    $sql = sprintf("select * from %s where login = '%s'",DB_TABLENAME , $name);
-    $result = mysql_query($sql , $conn);
+    $sql = sprintf("select * from %s where login = '%s'", DB_TABLENAME, $name);
+    $result = mysql_query($sql, $conn);
 
     if ($result) {
-	$count = mysql_fetch_row($result);
+		$count = mysql_fetch_row($result);
     } else {
-	$count = null;
+		$count = null;
     }
 
     mysql_free_result($result);  
@@ -35,7 +33,7 @@ function findUser($name)
 
 
     if ($count) {
-	return true;
+		return true;
     }
 
     return false;
@@ -55,10 +53,9 @@ function register($nickname,$password,$email) {
 
     $sql = sprintf("insert into %s(login , password , email , cookie_string , role_id)values('%s','%s','%s','%s','%s')",DB_TABLENAME , $nickname , md5($password),$email,auth_generate_cookie_string(),ROLE_ID);
     $result = mysql_query($sql , $conn);
-	if ($result == 1)
-	{
+	if ($result == 1) {
 		$r = 1;
-	}else{
+	} else {
 		$r = 0;
 	}
 	
@@ -113,7 +110,7 @@ function run() {
         $sreg_resp = Auth_OpenID_SRegResponse::fromSuccessResponse($response);
 
         $sreg = $sreg_resp->contents();
-        if(!findUser($sreg['nickname'])) {
+        if (!findUser($sreg['nickname'])) {
 		/*$success .= "<form action='finish_auth.php'>";
 		if (@$sreg['email']) {
 		    $success .= "</br>Email:<input value='".escape($sreg['email']).
@@ -138,14 +135,16 @@ function run() {
 		$success .= "</form>";
 		$pape_resp = Auth_OpenID_PAPE_Response::fromSuccessResponse($response);
                 */
-                register(@$sreg['nickname'],"kortide",@$sreg['email']);
+                register(@$sreg['nickname'], "kortide", @$sreg['email']);
+				$pape_resp = false;
         } 
         else {
 		/*$success .= "<form action='finish_auth.php'>";
 		$success .= "</br><input value='Login' type='submit'/>";
 		$success .= "</br><input name='action' value='login' type='hidden'/>";
 		$success .= "</form>";*/
-                login(@$sreg['nickname'],"kortide");
+                login(@$sreg['nickname'], "kortide");
+				$pape_resp = false;
         }
 
 	if ($pape_resp) {
@@ -181,13 +180,14 @@ function run() {
 
     include 'index.php';
 }
-if($_GET['action']=="register"){
-	register();
-}
-else if($_GET['action']=="login"){
-	login();
-}
-else {
+
+if (isset($_GET['action'])) {
+	if ($_GET['action'] == 'register'){
+		register();
+	} else if ($_GET['action'] == 'login'){
+		login();
+	} 
+} else {
 	run();
 }
 
