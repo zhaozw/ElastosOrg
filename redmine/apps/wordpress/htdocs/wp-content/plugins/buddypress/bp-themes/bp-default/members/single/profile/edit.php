@@ -144,10 +144,10 @@ if ( bp_has_profile( 'profile_group_id=' . bp_get_current_profile_group_id() ) )
 
 	<div class="submit">
 		<input name="profile-group-edit-submit" id="profile-group-edit-submit" style="border-color: #298cba; color: #fff; background: #21759b repeat-x scroll left top;" value="<?php _e( 'Save Changes', 'buddypress' ); ?> " <?php 
-		if ( is_super_admin() ) 
+		//if ( is_super_admin() ) 
 			echo 'type="submit"';
-		else
-			echo 'type="hidden"';
+		//else
+		//	echo 'type="hidden"';
  		?>
 		 />
 	</div>
