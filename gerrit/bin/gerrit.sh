@@ -9,6 +9,17 @@
 # processname: gerrit
 # ========================
 
+### BEGIN INIT INFO
+# Provides:          gerrit
+# Required-Start:    $named $remote_fs $syslog
+# Required-Stop:     $named $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start/stop Gerrit Code Review
+# Description:       Gerrit is a web based code review system, facilitating online code reviews
+#                    for projects using the Git version control system.
+### END INIT INFO
+
 # Configuration files:
 #
 # /etc/default/gerritcodereview
@@ -36,7 +47,7 @@
 
 usage() {
     me=`basename "$0"`
-    echo >&2 "Usage: $me {start|stop|restart|check|run|supervise} [-d site]"
+    echo >&2 "Usage: $me {start|stop|restart|check|status|run|supervise} [-d site]"
     exit 1
 }
 
@@ -108,7 +119,7 @@ test -z "$START_STOP_DAEMON" && START_STOP_DAEMON=1
 ##################################################
 # See if there's a default configuration file
 ##################################################
-if test -f /etc/default/gerritcodereview ; then 
+if test -f /etc/default/gerritcodereview ; then
   . /etc/default/gerritcodereview
 fi
 
@@ -126,7 +137,7 @@ TMPJ=$TMP/j$$
 GERRIT_INSTALL_TRACE_FILE=etc/gerrit.config
 
 ##################################################
-# No git in PATH? Needed for gerrit.confg parsing
+# No git in PATH? Needed for gerrit.config parsing
 ##################################################
 if type git >/dev/null 2>&1 ; then
   : OK
@@ -139,10 +150,9 @@ fi
 # Try to determine GERRIT_SITE if not set
 ##################################################
 if test -z "$GERRIT_SITE" ; then
-  GERRIT_SITE_1=`dirname "$0"`
-  GERRIT_SITE_1=`dirname "$GERRIT_SITE_1"`
-  if test -f "${GERRIT_SITE_1}/${GERRIT_INSTALL_TRACE_FILE}" ; then 
-    GERRIT_SITE=${GERRIT_SITE_1} 
+  GERRIT_SITE_1=`dirname "$0"`/..
+  if test -f "${GERRIT_SITE_1}/${GERRIT_INSTALL_TRACE_FILE}" ; then
+    GERRIT_SITE=${GERRIT_SITE_1}
   fi
 fi
 
@@ -150,10 +160,11 @@ fi
 # No GERRIT_SITE yet? We're out of luck!
 ##################################################
 if test -z "$GERRIT_SITE" ; then
-    echo >&2 "** ERROR: GERRIT_SITE not set" 
+    echo >&2 "** ERROR: GERRIT_SITE not set"
     exit 1
 fi
 
+INITIAL_DIR=`pwd`
 if cd "$GERRIT_SITE" ; then
   GERRIT_SITE=`pwd`
 else
@@ -176,6 +187,8 @@ test -r "$GERRIT_CONFIG" || {
 
 GERRIT_PID="$GERRIT_SITE/logs/gerrit.pid"
 GERRIT_RUN="$GERRIT_SITE/logs/gerrit.run"
+GERRIT_TMP="$GERRIT_SITE/tmp"
+export GERRIT_TMP
 
 ##################################################
 # Check for JAVA_HOME
@@ -204,7 +217,7 @@ if test -z "$JAVA_HOME" ; then
     "
     for N in java jdk jre ; do
       for L in $JAVA_LOCATIONS ; do
-        test -d "$L" || continue 
+        test -d "$L" || continue
         find $L -name "$N" ! -type d | grep -v threads | while read J ; do
           test -x "$J" || continue
           VERSION=`eval "$J" -version 2>&1`
@@ -239,7 +252,9 @@ if test -z "$JAVA" \
 fi
 
 if test -z "$JAVA" ; then
-  echo >&2 "Cannot find a JRE or JDK. Please set JAVA_HOME to a >=1.6 JRE"
+  echo >&2 "Cannot find a JRE or JDK. Please set JAVA_HOME or"
+  echo >&2 "container.javaHome in $GERRIT_SITE/etc/gerrit.config"
+  echo >&2 "to a >=1.6 JRE"
   exit 1
 fi
 
@@ -302,7 +317,7 @@ if test -z "$GERRIT_WAR" -a -n "$GERRIT_USER" ; then
   done
 fi
 if test -z "$GERRIT_WAR" ; then
-  echo >&2 "** ERROR: Cannot find gerrit.war (try setting gerrit.war)"
+  echo >&2 "** ERROR: Cannot find gerrit.war (try setting \$GERRIT_WAR)"
   exit 1
 fi
 
@@ -338,7 +353,7 @@ case "$ACTION" in
   start)
     printf '%s' "Starting Gerrit Code Review: "
 
-    if test 1 = "$NO_START" ; then 
+    if test 1 = "$NO_START" ; then
       echo "Not starting gerrit - NO_START=1 in /etc/default/gerritcodereview"
       exit 0
     fi
@@ -363,22 +378,22 @@ case "$ACTION" in
           echo >&2 "fatal: start-stop-daemon failed"
           rc=1
         fi
-        exit $rc 
+        exit $rc
       fi
     else
       if test -f "$GERRIT_PID" ; then
         if running "$GERRIT_PID" ; then
           echo "Already Running!!"
-          exit 1
+          exit 0
         else
           rm -f "$GERRIT_PID" "$GERRIT_RUN"
         fi
       fi
 
-      if test $UID = 0 -a -n "$GERRIT_USER" ; then 
+      if test $UID = 0 -a -n "$GERRIT_USER" ; then
         touch "$GERRIT_PID"
         chown $GERRIT_USER "$GERRIT_PID"
-        su - $GERRIT_USER -c "
+        su - $GERRIT_USER -s /bin/sh -c "
           JAVA='$JAVA' ; export JAVA ;
           $RUN_EXEC $RUN_Arg1 '$RUN_Arg2' $RUN_Arg3 $RUN_ARGS </dev/null >/dev/null 2>&1 &
           PID=\$! ;
@@ -424,7 +439,7 @@ case "$ACTION" in
 
     if test 1 = "$START_STOP_DAEMON" && type start-stop-daemon >/dev/null 2>&1
     then
-      start-stop-daemon -K -p "$GERRIT_PID" -s HUP 
+      start-stop-daemon -K -p "$GERRIT_PID" -s HUP
       sleep 1
       if running "$GERRIT_PID" ; then
         sleep 3
@@ -456,8 +471,13 @@ case "$ACTION" in
     if test -f "$GERRIT_SH" ; then
       : OK
     else
-      echo >&2 "** ERROR: Cannot locate gerrit.sh"
-      exit 1
+      GERRIT_SH="$INITIAL_DIR/$GERRIT_SH"
+      if test -f "$GERRIT_SH" ; then
+        : OK
+      else
+        echo >&2 "** ERROR: Cannot locate gerrit.sh"
+        exit 1
+      fi
     fi
     $GERRIT_SH stop $*
     sleep 5
@@ -478,7 +498,7 @@ case "$ACTION" in
     if test -f "$GERRIT_PID" ; then
         if running "$GERRIT_PID" ; then
           echo "Already Running!!"
-          exit 1
+          exit 0
         else
           rm -f "$GERRIT_PID"
         fi
@@ -487,11 +507,12 @@ case "$ACTION" in
     exec "$RUN_EXEC" $RUN_Arg1 "$RUN_Arg2" $RUN_Arg3 $RUN_ARGS --console-log
   ;;
 
-  check)
+  check|status)
     echo "Checking arguments to Gerrit Code Review:"
     echo "  GERRIT_SITE     =  $GERRIT_SITE"
     echo "  GERRIT_CONFIG   =  $GERRIT_CONFIG"
     echo "  GERRIT_PID      =  $GERRIT_PID"
+    echo "  GERRIT_TMP      =  $GERRIT_TMP"
     echo "  GERRIT_WAR      =  $GERRIT_WAR"
     echo "  GERRIT_FDS      =  $GERRIT_FDS"
     echo "  GERRIT_USER     =  $GERRIT_USER"
@@ -507,7 +528,7 @@ case "$ACTION" in
             exit 0
         fi
     fi
-    exit 1
+    exit 3
   ;;
 
   *)
