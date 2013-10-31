@@ -2115,3 +2115,18 @@ function esplanade_is_wp_version( $is_ver ) {
 		if( $wp_ver[$i] < $is_val ) return false;
 	return true;
 }
+
+/**
+ * Display the post excerpt.
+ *
+ * Xilong Pei
+ */
+function esplanade_the_excerpt() {
+	$text = get_the_content('');
+	$text = strip_shortcodes( $text );
+	$text = str_replace(']]>', ']]&gt;', $text);
+	$text = wp_trim_words( $text, 300, $excerpt_more );
+
+	echo $text;
+}
+

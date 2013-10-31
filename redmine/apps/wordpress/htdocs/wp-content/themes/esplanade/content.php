@@ -20,7 +20,7 @@
 		</header><!-- .entry-header -->
 	<?php endif; ?>
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<?php esplanade_the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<div class="clear"></div>
 </article><!-- .post -->

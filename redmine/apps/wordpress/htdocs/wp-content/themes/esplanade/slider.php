@@ -20,7 +20,7 @@
 									<?php if( has_post_format( 'audio' ) ) : ?>
 										<?php esplanade_post_audio(); ?>
 									<?php endif; ?>
-									<?php the_excerpt(); ?>
+									<?php esplanade_the_excerpt(); ?>
 								</div><!-- .entry-summary -->
 								<div class="clear"></div>
 							</div><!-- .entry-container -->

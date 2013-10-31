@@ -8,7 +8,7 @@
 		</figure>
 	<?php endif; ?>
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<?php esplanade_the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php if( is_paged() || ! esplanade_is_teaser() ) : ?>
 		<aside class="entry-meta">
