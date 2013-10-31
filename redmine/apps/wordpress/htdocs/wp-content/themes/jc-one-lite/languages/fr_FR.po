@@ -2,10 +2,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jc-one-lite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-11 11:15+0100\n"
+"POT-Creation-Date: 2013-02-03 05:58+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Julien Chanséaume <info@madeby-jc.com>\n"
-"Language-Team: madeby-jc <info@madeby-jc.com>\n"
+"Language-Team: Netcodes <contact@netcod.es>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,27 +13,19 @@ msgstr ""
 "X-Poedit-Language: French\n"
 "X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
 "X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: content-page.php:11
-#: loop.php:26
-#: content-single.php:19
-msgid "Pages:"
-msgstr "Pages:"
+#: tag.php:6
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archives du Tags: %s"
 
-#: content-page.php:15
-#: page-sitemap.php:100
-#: functions.php:452
-#: functions.php:485
-msgid "Edit"
-msgstr "Modifier"
-
-#: index.php:10
-#: functions.php:420
-msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
-msgstr "Désolé, mais aucun résultat.  Peut-être qu'une recherche vous permettra de retrouver un article."
+#: tag.php:23
+msgid "Apologies, but no results were found for the requested tag. Perhaps searching will help find a related post."
+msgstr "Désolé, mais aucun résultat pour le tag recherché. Peut-être qu'une recherche vous permettra de retrouver un article."
 
 #: archive.php:7
 #, php-format
@@ -50,154 +42,29 @@ msgstr "Archives Mensuelles: %s"
 msgid "Yearly Archives: %s"
 msgstr "Archives Annuelles: %s"
 
-#: archive.php:13
+#: archive.php:14
+#, php-format
+msgid "All posts by: %s"
+msgstr "Tous les articles de : %s"
+
+#: archive.php:18
 msgid "Blog Archives"
 msgstr "Archives du blog"
 
-#: archive.php:24
+#: archive.php:29
 msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr "Désolé, mais aucun résultat pour cette archive.  Peut-être qu'une recherche vous permettra de retrouver un article."
-
-#: tag.php:6
-#, php-format
-msgid "Tag Archives: %s"
-msgstr "Archives du Tags: %s"
-
-#: tag.php:23
-msgid "Apologies, but no results were found for the requested tag. Perhaps searching will help find a related post."
-msgstr "Désolé, mais aucun résultat pour le tag recherché. Peut-être qu'une recherche vous permettra de retrouver un article."
-
-#: category.php:6
-#, php-format
-msgid "Category Archives: %s"
-msgstr "Archives pour la catégorie : %s"
-
-#: category.php:22
-msgid "Apologies, but no results were found for the requested category. Perhaps searching will help find a related post."
-msgstr "Désolé, mais aucun résultat pour la catégorie recherchée. Peut-être qu'une recherche vous permettra de retrouver un article."
-
-#: loop.php:7
-msgid "More ..."
-msgstr "Voir ..."
-
-#: loop.php:12
-#: content-single.php:7
-#, php-format
-msgid "by %s on"
-msgstr "de %s le"
-
-#: loop.php:30
-#: loop.php:31
-#: content-single.php:23
-#: content-single.php:24
-msgid ", "
-msgstr ","
-
-#: loop.php:38
-#: content-single.php:31
-#, php-format
-msgid "<span>Posted in</span> %1$s"
-msgstr "<span>Dans</span> %1$s"
-
-#: loop.php:46
-#: content-single.php:39
-#, php-format
-msgid "<span>Tagged</span> %1$s"
-msgstr "<span>Tagué</span> %1$s"
-
-#: page-sitemap.php:30
-msgid "The Pages:"
-msgstr "Les Pages:"
-
-#: page-sitemap.php:41
-msgid "Categories:"
-msgstr "Catégories:"
-
-#: page-sitemap.php:52
-msgid "Posts by Category"
-msgstr "Articles par céatégorie"
-
-#: page-sitemap.php:61
-msgid "Commentaires"
-msgstr "Commentaires"
-
-#: page-sitemap.php:72
-msgid "All Posts"
-msgstr "Tous les articles"
-
-#: page-sitemap.php:81
-msgid "All Posts By Month"
-msgstr "Les Articles Par Mois"
-
-#: page-sitemap.php:90
-msgid "Try a search:"
-msgstr "Essayez une recherche"
-
-#: functions.php:35
-msgid "Primary Menu"
-msgstr "Menu Principal"
-
-#: functions.php:253
-msgid "Main Sidebar"
-msgstr "Sidebar Principale"
-
-#: functions.php:264
-msgid "Footer Sidebar 1"
-msgstr "Sidebar en pied 1"
-
-#: functions.php:273
-msgid "Footer Sidebar 2"
-msgstr "Sidebar en pied 2"
-
-#: functions.php:282
-msgid "Footer Sidebar 3"
-msgstr "Sidebar en pied 3"
-
-#: functions.php:398
-msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Nouveaux articles"
-
-#: functions.php:399
-msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Anciens articles <span class=\"meta-nav\">&rarr;</span>"
-
-#: functions.php:405
-msgid "<span class=\"meta-nav\">&larr;</span> %title"
-msgstr "<span class=\"meta-nav\">&larr;</span> %title"
-
-#: functions.php:406
-msgid "%title <span class=\"meta-nav\">&rarr;</span>"
-msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
-
-#: functions.php:424
-msgid "Nothing Found"
-msgstr "Introuvable"
-
-#: functions.php:452
-msgid "Pingback:"
-msgstr ""
-
-#: functions.php:474
-#, php-format
-msgid "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
-msgstr "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
-
-#: functions.php:480
-#, php-format
-msgid "%1$s at %2$s"
-msgstr "%1$s, %2$s"
-
-#: functions.php:488
-msgid "Your comment is awaiting moderation."
-msgstr "Votre commentaire est en attente de validation"
-
-#: functions.php:495
-msgid "Reply <span>&darr;</span>"
-msgstr "Répondre <span>&darr;</span>"
 
 #: comments.php:3
 msgid "This post is password protected. Enter the password to view any comments."
 msgstr "Cet article est protégé par un mot de passe. Saisissez le mot de passe pour voir les commentaires."
+
+#: comments.php:13
+#, php-format
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "un commentaire"
+msgstr[1] "%1$s commentaires"
 
 #: comments.php:17
 #: comments.php:18
@@ -219,6 +86,85 @@ msgstr "&larr; Anciens Commentaires"
 msgid "Newer Comments &rarr;"
 msgstr "Nouveaux Commentaires &arr;"
 
+#: content-page.php:11
+#: loop.php:42
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-page.php:15
+#: page-sitemap.php:100
+#: functions.php:519
+#: functions.php:552
+msgid "Edit"
+msgstr "Modifier"
+
+#: loop.php:7
+msgid "More ..."
+msgstr "Voir ..."
+
+#: loop.php:21
+#, php-format
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles par %s"
+
+#: loop.php:24
+#, php-format
+msgid "by %s on %s"
+msgstr "de %s le %s"
+
+#: loop.php:26
+msgid "Leave a reply"
+msgstr "Laissez une réponse"
+
+#: loop.php:26
+msgid "1 Reply"
+msgstr "1 Réponse"
+
+#: loop.php:26
+msgid "% Replies"
+msgstr "% Réponses"
+
+#: loop.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:46
+#: loop.php:47
+msgid ", "
+msgstr ","
+
+#: loop.php:54
+#, php-format
+msgid "<span>Posted in</span> %1$s"
+msgstr "<span>Dans</span> %1$s"
+
+#: loop.php:62
+#, php-format
+msgid "<span>Tagged</span> %1$s"
+msgstr "<span>Tagué</span> %1$s"
+
+#: 404.php:5
+msgid "404: Page Not Found"
+msgstr "404 : Page Introuvable"
+
+#: 404.php:8
+msgid "We are terribly sorry, but the URL you typed no longer exists. It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
+msgstr "Nous sommes désolé, mais l'adresse que vous avez tapé n'existe plus. Elle a certainement été déplacé ou supprimé, ou vous avez peut-être fait une faute. Essayez de faire une recherche:"
+
+#: searchform.php:4
+#: searchform.php:5
+msgid "Search"
+msgstr "Rechercher"
+
+#: category.php:6
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archives pour la catégorie : %s"
+
+#: category.php:22
+msgid "Apologies, but no results were found for the requested category. Perhaps searching will help find a related post."
+msgstr "Désolé, mais aucun résultat pour la catégorie recherchée. Peut-être qu'une recherche vous permettra de retrouver un article."
+
 #: search.php:5
 #, php-format
 msgid "Search Results for: %s"
@@ -228,23 +174,117 @@ msgstr "Résultats de recherche pour : %s"
 msgid "Apologies, but no results were found for the requested search. Perhaps searching will help find a related post."
 msgstr "Désolé, mais aucun résultat pour cette recherche. Peut-être qu'une recherche vous permettra de retrouver un article."
 
-#: header.php:17
+#: page-sitemap.php:30
+msgid "The Pages:"
+msgstr "Les Pages :"
+
+#: page-sitemap.php:41
+msgid "Categories:"
+msgstr "Catégories :"
+
+#: page-sitemap.php:52
+msgid "Posts by Category"
+msgstr "Articles par céatégorie"
+
+#: page-sitemap.php:61
+msgid "Commentaires"
+msgstr "Commentaires"
+
+#: page-sitemap.php:72
+msgid "All Posts"
+msgstr "Tous les articles"
+
+#: page-sitemap.php:81
+msgid "All Posts By Month"
+msgstr "Les Articles Par Mois"
+
+#: page-sitemap.php:90
+msgid "Try a search:"
+msgstr "Essayez une recherche"
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr "Menu Principal"
+
+#: functions.php:278
+msgid "Main Sidebar"
+msgstr "Sidebar Principale"
+
+#: functions.php:289
+msgid "Footer Sidebar 1"
+msgstr "Sidebar en pied 1"
+
+#: functions.php:298
+msgid "Footer Sidebar 2"
+msgstr "Sidebar en pied 2"
+
+#: functions.php:307
+msgid "Footer Sidebar 3"
+msgstr "Sidebar en pied 3"
+
+#: functions.php:339
 #, php-format
 msgid "Page %s"
 msgstr "Page %s"
 
-#: searchform.php:4
-#: searchform.php:5
-msgid "Search"
-msgstr "Rechercher"
+#: functions.php:458
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Nouveaux articles"
 
-#: 404.php:5
-msgid "404: Page Not Found"
-msgstr "404: Page Introuvable"
+#: functions.php:459
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Anciens articles <span class=\"meta-nav\">&rarr;</span>"
 
-#: 404.php:8
-msgid "We are terribly sorry, but the URL you typed no longer exists. It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
-msgstr "Nous sommes désolé, mais l'adresse que vous avez tapé n'existe plus. Elle a certainement été déplacé ou supprimé, ou vous avez peut-être fait une faute. Essayez de faire une recherche:"
+#: functions.php:465
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: functions.php:466
+msgid "Next &rarr;"
+msgstr "Suivant &arr;"
+
+#: functions.php:472
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:473
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:487
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Désolé, mais aucun résultat.  Peut-être qu'une recherche vous permettra de retrouver un article."
+
+#: functions.php:491
+msgid "Nothing Found"
+msgstr "Introuvable"
+
+#: functions.php:519
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: functions.php:541
+#, php-format
+msgid "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
+msgstr "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
+
+#: functions.php:547
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s, %2$s"
+
+#: functions.php:555
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de validation"
+
+#: functions.php:562
+msgid "Reply <span>&darr;</span>"
+msgstr "Répondre <span>&darr;</span>"
+
+#: content-image.php:8
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publié le </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> sur <a href=\"%3$s\" title=\"Lien vers l'image non redimensionnée\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Returner à %7$s\" rel=\"gallery\">%8$s</a>."
 
 #: include/_params.php:29
 msgid "General Settings"
@@ -259,175 +299,195 @@ msgid "Select your themes alternative color scheme."
 msgstr "Choississez un thème de couleurs alternatif"
 
 #: include/_params.php:44
+msgid "Layout"
+msgstr "Mise en page"
+
+#: include/_params.php:45
+msgid "Select the layout style of the container"
+msgstr "Choisissez la mise en page de la page. "
+
+#: include/_params.php:49
+msgid "default"
+msgstr "défaut"
+
+#: include/_params.php:50
+msgid "empty"
+msgstr "vide"
+
+#: include/_params.php:51
+msgid "overlay"
+msgstr "transparence"
+
+#: include/_params.php:56
 msgid "Custom CSS"
 msgstr "CSS Personnalisée"
 
-#: include/_params.php:45
+#: include/_params.php:57
 msgid "Custom CSS code"
 msgstr "Code CSS Personnalisée"
 
-#: include/_params.php:54
+#: include/_params.php:66
 msgid "Custom JS"
 msgstr "Javascript personnalisé"
 
-#: include/_params.php:55
+#: include/_params.php:67
 msgid "Custom JavaScript code"
 msgstr "Code Javascript personnalisé"
 
-#: include/_params.php:64
-#: include/_params.php:128
+#: include/_params.php:76
+#: include/_params.php:140
 msgid "Sidebar ?"
 msgstr "Sidebar ?"
 
-#: include/_params.php:65
+#: include/_params.php:77
 msgid "Display a sidebar or not ?"
 msgstr "Afficher une sidebar ou pas ?"
 
-#: include/_params.php:69
-#: include/_params.php:80
-#: include/_params.php:133
-#: include/_params.php:172
-#: include/_params.php:237
-#: include/_params.php:258
-#: include/_params.php:269
+#: include/_params.php:81
+#: include/_params.php:92
+#: include/_params.php:145
+#: include/_params.php:184
+#: include/_params.php:249
+#: include/_params.php:270
+#: include/_params.php:281
 msgid "no"
 msgstr "non"
 
-#: include/_params.php:70
-#: include/_params.php:81
-#: include/_params.php:134
-#: include/_params.php:173
-#: include/_params.php:238
-#: include/_params.php:259
-#: include/_params.php:270
+#: include/_params.php:82
+#: include/_params.php:93
+#: include/_params.php:146
+#: include/_params.php:185
+#: include/_params.php:250
+#: include/_params.php:271
+#: include/_params.php:282
 msgid "yes"
 msgstr "oui"
 
-#: include/_params.php:75
+#: include/_params.php:87
 msgid "Search Box ?"
 msgstr "Recherche ?"
 
-#: include/_params.php:76
+#: include/_params.php:88
 msgid "Display a search box in the nav ?"
 msgstr "Afficher une zone de recherche dans le menu ?"
 
-#: include/_params.php:87
+#: include/_params.php:99
 msgid "Header settings"
 msgstr "Options de l'en-tête"
 
-#: include/_params.php:93
+#: include/_params.php:105
 msgid "Custom Logo Image"
 msgstr "Logo personnalisé"
 
-#: include/_params.php:94
+#: include/_params.php:106
 msgid "Upload an image for the logo, at the top center of the page, or specify the image address of your online image. (http://yoursite.com/logo.png)"
 msgstr "Uploader une image pour le logo, dans le centre- haut de la page, ou renseigner l'url d'une image. (http://monsite.com/logo.png)"
 
-#: include/_params.php:100
+#: include/_params.php:112
 msgid "CSS Placement for Logo"
 msgstr "Placement CSS pour le logo"
 
-#: include/_params.php:101
+#: include/_params.php:113
 msgid "Css for the logo. Don't use the url() statement which is automatically define"
 msgstr "Css pour le logo. N'utilisez pas le paramètre url() qui est automatiquement renseigné"
 
-#: include/_params.php:110
+#: include/_params.php:122
 msgid "Logo's height"
 msgstr "Hauteur du logo"
 
-#: include/_params.php:111
+#: include/_params.php:123
 msgid "Height of the logo (in px)."
 msgstr "Hauteur du logo (en px)."
 
-#: include/_params.php:122
+#: include/_params.php:134
 msgid "Footer settings"
 msgstr "Options du pied de page"
 
-#: include/_params.php:129
+#: include/_params.php:141
 msgid "Display a sidebar or not in the footer ?"
 msgstr "Afficher une sidebar dans le pied de page ?"
 
-#: include/_params.php:139
+#: include/_params.php:151
 msgid "Custom Footer Content"
 msgstr "Contenu personnalisé du pied de page"
 
-#: include/_params.php:140
+#: include/_params.php:152
 msgid "Html Code For the extra footer content"
 msgstr "Code Html du contenu personnalisé du pied de page"
 
-#: include/_params.php:149
+#: include/_params.php:161
 msgid "Copyright"
 msgstr "Copyright"
 
-#: include/_params.php:150
+#: include/_params.php:162
 msgid "Display a custom copyright"
 msgstr "afficher un copyright personnalisé"
 
-#: include/_params.php:161
+#: include/_params.php:173
 msgid "Under Construction Settings"
 msgstr "En Contruction"
 
-#: include/_params.php:167
+#: include/_params.php:179
 msgid "Is under contruction"
 msgstr "Est en construction"
 
-#: include/_params.php:168
+#: include/_params.php:180
 msgid "Is the website under contruction.<br />note: soon you signin, you can see your site website."
 msgstr "Est-ce que le site est en construction.<br />note: une fois connecté, cette page ne s'affichera plus pour vous."
 
-#: include/_params.php:178
+#: include/_params.php:190
 msgid "Custom Content"
 msgstr "Contenu Personnalisé"
 
-#: include/_params.php:179
+#: include/_params.php:191
 msgid "Html Code For the custom under contruction page.<br /> Contains all the html code for the page."
 msgstr "Code HTML pour la page en construction.<br /> Doit contenir l'ensemble du code HTML de la page."
 
-#: include/_params.php:184
+#: include/_params.php:196
 msgid "under Construction"
 msgstr "En Construction"
 
-#: include/_params.php:185
+#: include/_params.php:197
 msgid "Sorry, but the site is under contruction..."
 msgstr "Désolé, mais le site est en construction..."
 
-#: include/_params.php:196
+#: include/_params.php:208
 msgid "Social Networks"
 msgstr "Réseaux Sociaux"
 
-#: include/_params.php:226
+#: include/_params.php:238
 msgid "Miscellanious"
 msgstr "Divers"
 
-#: include/_params.php:232
+#: include/_params.php:244
 msgid "Use Shortcodes"
 msgstr "Utiliser les Shortcodes"
 
-#: include/_params.php:233
+#: include/_params.php:245
 msgid "Enables the plugin's shortcodes."
 msgstr "Active les shortcodes : boutons, blocs, ..."
 
-#: include/_params.php:243
+#: include/_params.php:255
 msgid "Prefix For Schortcode"
 msgstr "Prefixe pour les shortcodes"
 
-#: include/_params.php:244
+#: include/_params.php:256
 msgid "If shortcodes names are in conflict with other plugin shortcode use this field<br />Ex: with prefix &quot;custom&quot; use &quot;[custom_button ...]...[/custom_button]&quot;"
 msgstr "Si les shortcodes rentrent en conflit avec d'autres shortcodes utilisez ce prefixe.<br />Ex.: avec comme préfixe &quot;custom&quot; utilisez &quot;[custom_button ...]...[/custom_button]&quot;"
 
-#: include/_params.php:253
+#: include/_params.php:265
 msgid "Automatic Html correction"
 msgstr "Correction HTML automatique"
 
-#: include/_params.php:254
+#: include/_params.php:266
 msgid "Let Wordpress correct your Html and auto-generate &lt;p&gt; elements.<br />For advence Html editing and intense shortcodes usage, disable this options."
 msgstr "Laissez Wordpress corrigé votre code HTML et générer automatiquement les balise  &lt;p&gt;.<br /> Pour un usage avancé du HTML, veuillez désactiver cette option. "
 
-#: include/_params.php:264
+#: include/_params.php:276
 msgid "FancyBox"
-msgstr ""
+msgstr "FancyBox"
 
-#: include/_params.php:265
+#: include/_params.php:277
 msgid "Display image in a Mac-style \"lightbox\" that floats overtop of web page."
 msgstr "Affiche les images avec un style Mac  \"lightbox\" qui flotte au dessus de la page."
 
@@ -439,177 +499,222 @@ msgstr "Options enregistrées avec des erreurs"
 msgid "Options saved"
 msgstr "Options enregistrées"
 
-#: include/admin.php:84
+#: include/admin.php:83
 msgid "Why not make a donation :)"
 msgstr "Pourquoi en pas faire un petit don :)"
 
+#: include/admin.php:84
+msgid "You know, making a theme is a hard work and is time (and beer) consuming. So if you like this theme, any kind of contribution would be <strong>highly appreciated</strong>."
+msgstr "Vous savez, faire un thème est une tâche difficile, très consommatrice en temps et en bière. Donc si vous aimez ce thème, toute contribution sera appréciée <strong>avec plaisir</strong>."
+
 #: include/admin.php:85
-msgid "You know, making a theme is a hard work and is time and beer consuming. So if you like this theme, any kind of contribution would be <strong>highly appreciated</strong>."
-msgstr "Vous savez, faire un thème est un tâche difficile, très consommatrice en temps et en bière. Donc si vous aimez ce thème, toute contribution sera acceptée <strong>avec plaisir</strong>."
+msgid "You can also just make <strong><a href=\"https://twitter.com/intent/tweet?source=webclient&text=JC%20One%20Lite%20%3A%20A%20nice%20%23wordpress%20theme%20by%20%40netcod_es%20%3A%20http%3A%2F%2Fwww.netcod.es%2F\" target=\"_blank\">a simple tweet</a></strong>."
+msgstr "Vous pouvez également simplement faire <strong><a href=\"https://twitter.com/intent/tweet?source=webclient&text=JC%20One%20Lite%20%3A%20A%20nice%20%23wordpress%20theme%20by%20%40netcod_es%20%3A%20http%3A%2F%2Fwww.netcod.es%2F\" target=\"_blank\">un petit tweet</a></strong>."
 
 #: include/admin.php:86
-msgid "Just buy me a beer &mdash; <em>I like it (too much ?!)</em> &mdash; or any amount, <strong>even 1$</strong>."
-msgstr "Payez-moi juste une bière &mdash; <em>j'adore ça (trop peut-être ?!)</em> &mdash; ou n'importe quel montant, <strong>même 1 €</strong>."
-
-#: include/admin.php:87
 msgid "Thank you."
 msgstr "Merci."
 
-#: include/admin.php:116
+#: include/admin.php:114
 msgid "Theme Options"
 msgstr "Options Du Thème"
 
-#: include/admin.php:226
+#: include/admin.php:224
 msgid "Save Changes"
 msgstr "Enregistrez"
 
-#: include/admin.php:237
+#: include/admin.php:235
 msgid "upload file : "
 msgstr "uploader un fichier:"
 
-#: include/admin.php:239
+#: include/admin.php:237
 msgid "or the url : "
 msgstr "Ou indiquez son adresse :"
 
-#: include/admin.php:344
-#: include/admin.php:345
+#: include/admin.php:352
+#: include/admin.php:353
 msgid "Page Options"
 msgstr "Options"
 
-#: include/admin.php:358
+#: include/admin.php:366
 msgid "Display the sidebar"
 msgstr "Afficher la sidebar"
 
-#: include/admin.php:360
+#: include/admin.php:368
 msgid "No"
 msgstr "Non"
 
-#: include/admin.php:361
+#: include/admin.php:369
 msgid "Yes"
 msgstr "Oui"
 
+#~ msgid ""
+#~ "Just buy me a beer &mdash; <em>I like it (too much ?!)</em> &mdash; or "
+#~ "any amount, <strong>even 1$</strong>."
+#~ msgstr ""
+#~ "Payez-moi juste une bière &mdash; <em>j'adore ça (trop peut-être ?!)</em> "
+#~ "&mdash; ou n'importe quel montant, <strong>même 1 €</strong>."
+
 #~ msgid "Container Appearence"
 #~ msgstr "Apparence du conteneur"
-#~ msgid "Select the layout of the container."
-#~ msgstr "Choisissez la mise en page de la page. "
+
 #~ msgid "Default (shadow, radius)"
 #~ msgstr "Défaut (ombre, bords ronds)"
+
 #~ msgid "Overlay (shadow, radius, opacity)"
 #~ msgstr "Transparent (ombre, bords ronds, transparence)"
-#~ msgid "Empty"
-#~ msgstr "Vide"
+
 #~ msgid "Google Analitycs Account ID"
 #~ msgstr "ID du compte Google Analitycs "
-#~ msgid "Leave a reply"
-#~ msgstr "Laissez une réponse"
-#~ msgid "<b>1</b> Reply"
-#~ msgstr "<b>1</b> Réponse"
-#~ msgid "<b>%</b> Replies"
-#~ msgstr "<b>%</b> Réponses"
+
 #~ msgid "Default"
 #~ msgstr "Défaut"
+
 #~ msgid "Shadow"
 #~ msgstr "Ombre"
+
 #~ msgid "no icon"
 #~ msgstr "Pas d'icône"
+
 #~ msgid "book"
 #~ msgstr "livre"
+
 #~ msgid "calendar"
 #~ msgstr "calendrier"
+
 #~ msgid "camera"
 #~ msgstr "appareil photo"
+
 #~ msgid "cd"
 #~ msgstr "cd"
+
 #~ msgid "chart"
 #~ msgstr "graphique"
+
 #~ msgid "chat"
 #~ msgstr "conversation"
+
 #~ msgid "clock"
 #~ msgstr "horloge"
-#~ msgid "comment"
-#~ msgstr "commentaire"
+
 #~ msgid "compass"
 #~ msgstr "boussole"
+
 #~ msgid "denied"
 #~ msgstr "interdit"
+
 #~ msgid "document"
 #~ msgstr "document"
+
 #~ msgid "download"
 #~ msgstr "téléchargement"
+
 #~ msgid "equalizer"
 #~ msgstr "equalizer"
+
 #~ msgid "eye"
 #~ msgstr "oeil"
+
 #~ msgid "heaphones"
 #~ msgstr "écouteurs"
+
 #~ msgid "heart"
 #~ msgstr "coeur"
+
 #~ msgid "home"
 #~ msgstr "maison"
+
 #~ msgid "image"
 #~ msgstr "image"
+
 #~ msgid "key"
 #~ msgstr "clé"
+
 #~ msgid "layers"
 #~ msgstr "calques"
+
 #~ msgid "lightbulb"
 #~ msgstr "ampoule"
+
 #~ msgid "link"
 #~ msgstr "lien"
+
 #~ msgid "movie"
 #~ msgstr "film"
+
 #~ msgid "question-mark"
 #~ msgstr "point d'interrogation"
+
 #~ msgid "reload"
 #~ msgstr "recharger"
+
 #~ msgid "rss"
 #~ msgstr "rss"
+
 #~ msgid "share"
 #~ msgstr "partage"
+
 #~ msgid "star"
 #~ msgstr "étoile"
+
 #~ msgid "target"
 #~ msgstr "cible"
+
 #~ msgid "transfer"
 #~ msgstr "transfert"
+
 #~ msgid "trash"
 #~ msgstr "corbeille"
+
 #~ msgid "umbrella"
 #~ msgstr "parapluie"
+
 #~ msgid "user"
 #~ msgstr "utilisateur"
+
 #~ msgid "left"
 #~ msgstr "gauche"
+
 #~ msgid "right"
 #~ msgstr "droite"
+
 #~ msgid "up"
 #~ msgstr "haut"
+
 #~ msgid "down"
 #~ msgstr "bas"
+
 #~ msgid "at"
 #~ msgstr "arobase"
+
 #~ msgid "check"
 #~ msgstr "coche"
+
 #~ msgid "minus"
 #~ msgstr "moins"
+
 #~ msgid "plus"
 #~ msgstr "plus"
+
 #~ msgid "play"
 #~ msgstr "lecture"
-#~ msgid "default"
-#~ msgstr "défaut"
+
 #~ msgid "Portfolio"
 #~ msgstr "Portfolio"
+
 #~ msgid "filter by category"
 #~ msgstr "filtrer par cétagorie"
 
 #, fuzzy
 #~ msgid "Demo"
 #~ msgstr "Demo"
+
 #~ msgid "Download"
 #~ msgstr "Téléchargement"
+
 #~ msgid "Donate"
 #~ msgstr "Donation"
+
 #~ msgid "Purchase"
 #~ msgstr "Acheter"
 
@@ -620,89 +725,124 @@ msgstr "Oui"
 #~ msgstr ""
 #~ "Désolé, mais aucun résultat pour cette archive. Essayez notre formulaire "
 #~ "de recherche suivant. "
+
 #~ msgid "Column"
 #~ msgstr "Colonne"
+
 #~ msgid "Welcome in the Shortcode Generator"
 #~ msgstr "Bienvenue dans le générateur de shortcode"
-#~ msgid "Layout"
-#~ msgstr "Mise en page"
+
 #~ msgid "Box"
 #~ msgstr "Box"
+
 #~ msgid "Insert into Post"
 #~ msgstr "Insérer dans l'article"
+
 #~ msgid "Type"
 #~ msgstr "Type"
+
 #~ msgid "Icon"
 #~ msgstr "Icon"
+
 #~ msgid "CSS class"
 #~ msgstr "Classe CSS"
+
 #~ msgid "CSS style"
 #~ msgstr "Style CSS"
+
 #~ msgid "Button"
 #~ msgstr "Bouton"
+
 #~ msgid "Text"
 #~ msgstr "Texte"
+
 #~ msgid "Link"
 #~ msgstr "Lien"
+
 #~ msgid "Add a button link."
 #~ msgstr "Ajouter un lien \"bouton\""
+
 #~ msgid "Paragraph"
 #~ msgstr "Paragraphe"
+
 #~ msgid ""
 #~ "Just add a simple parapraph. Usefull if you have desactivated the "
 #~ "automatic correction of wordpress."
 #~ msgstr ""
 #~ "Ajoute un simple paragraphe. Utile lorsque la correction automatique du "
 #~ "code par wordpress est désactivée."
+
 #~ msgid "br - Line break"
 #~ msgstr "br - Saut de ligne"
+
 #~ msgid ""
 #~ "Just add a simple line break. Usefull if you have desactivated the "
 #~ "automatic correction of wordpress."
 #~ msgstr ""
 #~ "Ajoute un simple saut de ligne. Utile lorsque la correction automatique "
 #~ "du code par wordpress est désactivée."
+
 #~ msgid "hr - Horizontal line"
 #~ msgstr "hr - séparation horizontale"
+
 #~ msgid "Add a simple horizontal break."
 #~ msgstr "Ajoute une simple séparation horizontale"
+
 #~ msgid "List"
 #~ msgstr "Liste"
+
 #~ msgid "Add style to your html list."
 #~ msgstr "Ajouter un style à votre liste HTML"
+
 #~ msgid "Quote"
 #~ msgstr "Citation"
+
 #~ msgid "Add a quote element."
 #~ msgstr "Ajoute une citation"
+
 #~ msgid "Dropcap"
 #~ msgstr "Lettrine"
+
 #~ msgid "Letter"
 #~ msgstr "Lettre"
+
 #~ msgid "Color"
 #~ msgstr "Couleur"
+
 #~ msgid "Add a beautiful drop cap."
 #~ msgstr "Ajoute une jolie lettrine"
+
 #~ msgid "Iframe"
 #~ msgstr "Iframe"
+
 #~ msgid "Source URL"
 #~ msgstr "URL"
+
 #~ msgid "Width"
 #~ msgstr "Largeur"
+
 #~ msgid "Height"
 #~ msgstr "Hauteur"
+
 #~ msgid "Frameborder"
 #~ msgstr "Bordure"
+
 #~ msgid "Margin Width"
 #~ msgstr "Marge horizontale"
+
 #~ msgid "Margin Height"
 #~ msgstr "Marge verticale"
+
 #~ msgid "Add an iframe. Usefull to add map, video, page, ..."
 #~ msgstr ""
 #~ "Ajoute une iframe. Utile pour insérer une carte (plan), vidéo, page "
+
 #~ msgid "Var"
 #~ msgstr "Variable"
+
 #~ msgid "Variable Name"
 #~ msgstr "Nom de la variable"
+
 #~ msgid ""
 #~ "Add the content of the custom field called \"Variable Name\" of the "
 #~ "current post, page, custom post type. Usefull for adding anything in the "
@@ -711,18 +851,24 @@ msgstr "Oui"
 #~ "Ajoute le contenue du champs personnalisé \"Nom de variable\" de "
 #~ "l'article, page en cours. Utile pour ajouter un contenu verbatim dans le "
 #~ "texte, comme des iframe complexes, ..."
+
 #~ msgid "Auto"
 #~ msgstr "Auto"
+
 #~ msgid "Perform the automatic correction (p, br, ...) inside this shortcode."
 #~ msgstr ""
 #~ "Utilise la fonction de wordpress pour corriger (mettre en forme avec des "
 #~ "balises p, br, ...) automatiquement le contenu."
+
 #~ msgid "Length"
 #~ msgstr "Longueur"
+
 #~ msgid "Count"
 #~ msgstr "Nombre"
+
 #~ msgid "html"
 #~ msgstr "html"
+
 #~ msgid ""
 #~ "Generate the classic \"lorem ipsum\".<br /><em>length</em>: number of "
 #~ "character<br /><em>count</em>: number of paragraph<br /><em>html</em>: "
@@ -731,74 +877,103 @@ msgstr "Oui"
 #~ "Génère le classique \"lorem ipsum\".<br /><em>longueur</em>: nombre de "
 #~ "caractères<br /><em>nombre</em>: nombre de paragraphe<br /><em>html</em>: "
 #~ "utiliser du code html ?"
+
 #~ msgid "Existing Theme"
 #~ msgstr "Thème existant"
+
 #~ msgid "Load"
 #~ msgstr "Charger"
 
 #, fuzzy
 #~ msgid "Save As"
 #~ msgstr "Enregistrez"
+
 #~ msgid "Save"
 #~ msgstr "Enregistrer"
+
 #~ msgid "Fonts"
 #~ msgstr "Polices"
+
 #~ msgid "Default font"
 #~ msgstr "Police par défaut"
+
 #~ msgid "Heading font"
 #~ msgstr "Police des titres"
+
 #~ msgid "Colors"
 #~ msgstr "Couleurs"
+
 #~ msgid "Default text"
 #~ msgstr "Texte par défaut"
+
 #~ msgid "Active text (link)"
 #~ msgstr "Texte actif (lien)"
+
 #~ msgid "Alternative active text"
 #~ msgstr "texte actif alternatif"
+
 #~ msgid "Darker color"
 #~ msgstr "Couleur plus sombre"
+
 #~ msgid "Lighter color"
 #~ msgstr "Couleur plus claire"
+
 #~ msgid "Dark color"
 #~ msgstr "Couleur sombre"
+
 #~ msgid "Light color"
 #~ msgstr "Couleur claire"
+
 #~ msgid "Icons"
 #~ msgstr "Icônes"
+
 #~ msgid "black"
 #~ msgstr "noir"
+
 #~ msgid "blue"
 #~ msgstr "bleu"
+
 #~ msgid "dark brown"
 #~ msgstr "marron foncé"
+
 #~ msgid "light brown"
 #~ msgstr "marron clair"
+
 #~ msgid "dark gray"
 #~ msgstr "gris foncé"
+
 #~ msgid "light gray"
 #~ msgstr "gris clair"
+
 #~ msgid "green"
 #~ msgstr "vert"
+
 #~ msgid "red"
 #~ msgstr "rouge"
+
 #~ msgid "white"
 #~ msgstr "blanc"
+
 #~ msgid "yellow"
 #~ msgstr "jaune"
+
 #~ msgid "Slider images"
 #~ msgstr "Images du diaporama"
+
 #~ msgid "Theme roller"
 #~ msgstr "Générateur de thème"
+
 #~ msgid "<em>Theme Roller</em> let you create your own color theme :"
 #~ msgstr ""
 #~ "<em>Theme Roller</em> vous permet de créer votre propre thème de "
 #~ "couleurs :"
+
 #~ msgid "Use Portfolio"
 #~ msgstr "Utiliser le Portfolio"
 
 #, fuzzy
 #~ msgid "More Options"
 #~ msgstr "Options Du Thème"
+
 #~ msgid "Is the website under contruction"
 #~ msgstr "Est-ce que le site est en contruction"
-

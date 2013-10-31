@@ -1,0 +1,560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jc-one-lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-03 05:58+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: tuscale <admin@tuscale.ro>\n"
+"Language-Team: tuscale <admin@tuscale.ro>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: iso-8859-2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tag.php:6
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Arhive marcate: %s"
+
+#: tag.php:23
+msgid "Apologies, but no results were found for the requested tag. Perhaps searching will help find a related post."
+msgstr "Regretăm, dar nu avem rezultate pentru etichetele solicitate. Poate un căutat mai serios va scoate la iveală o postare relevantă."
+
+#: archive.php:7
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Arhive zilnice: %s"
+
+#: archive.php:9
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Arhive lunare: %s"
+
+#: archive.php:11
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Arhive anuale: %s"
+
+#: archive.php:14
+#, fuzzy, php-format
+msgid "All posts by: %s"
+msgstr "Toate postările după lună"
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr "Arhive de blog"
+
+#: archive.php:29
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Regretăm, dar nu s-au găsit rezultate pentru arhiva căutată. Poate un căutat mai serios va scoate la iveală o postare relevantă."
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Această postare este protejată prin parolă. Introduceți parola pentru a vizualiza eventualele comentarii."
+
+#: comments.php:13
+#, php-format
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 comentariu"
+msgstr[1] "%1$s comentarii"
+
+#: comments.php:17
+#: comments.php:18
+msgid "&mdash; post a comment"
+msgstr "&mdash; postează un comentariu"
+
+#: comments.php:23
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Navighează comentariile"
+
+#: comments.php:24
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarii mai vechi"
+
+#: comments.php:25
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: content-page.php:11
+#: loop.php:42
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-page.php:15
+#: page-sitemap.php:100
+#: functions.php:519
+#: functions.php:552
+msgid "Edit"
+msgstr "Modifică"
+
+#: loop.php:7
+msgid "More ..."
+msgstr "Mai mult ..."
+
+#: loop.php:21
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: loop.php:24
+#, fuzzy, php-format
+msgid "by %s on %s"
+msgstr "de %s pe"
+
+#: loop.php:26
+msgid "Leave a reply"
+msgstr ""
+
+#: loop.php:26
+msgid "1 Reply"
+msgstr ""
+
+#: loop.php:26
+msgid "% Replies"
+msgstr ""
+
+#: loop.php:39
+#, fuzzy
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:46
+#: loop.php:47
+msgid ", "
+msgstr ","
+
+#: loop.php:54
+#, php-format
+msgid "<span>Posted in</span> %1$s"
+msgstr "<span>Postat în</span> %1$s"
+
+#: loop.php:62
+#, php-format
+msgid "<span>Tagged</span> %1$s"
+msgstr "<span>Marcat</span> %1$s"
+
+#: 404.php:5
+msgid "404: Page Not Found"
+msgstr "404: Pagina nu s-a găsit"
+
+#: 404.php:8
+msgid "We are terribly sorry, but the URL you typed no longer exists. It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
+msgstr "Ne cerem mii de scuze, dar adresa căutată nu mai există. S-ar putea să se fi mutat, ștearsă sau este posibil să o fi introdus greșit de la tastatură. Vă sugerăm să căutați în sait :"
+
+#: searchform.php:4
+#: searchform.php:5
+msgid "Search"
+msgstr "Caută"
+
+#: category.php:6
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arhive de categorii: %s"
+
+#: category.php:22
+msgid "Apologies, but no results were found for the requested category. Perhaps searching will help find a related post."
+msgstr "Regretăm, dar nu am găsit rezultate pentru categoria solicitată. Poate un căutat mai serios va scoate la iveală o postare relevantă."
+
+#: search.php:5
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#: search.php:15
+msgid "Apologies, but no results were found for the requested search. Perhaps searching will help find a related post."
+msgstr "Regretăm, dar nu avem nici un rezultat pentru căutarea dumneavoastră. Poate o căutare amănunțită va avea mai mult succes."
+
+#: page-sitemap.php:30
+msgid "The Pages:"
+msgstr "Paginile:"
+
+#: page-sitemap.php:41
+msgid "Categories:"
+msgstr "Categorii:"
+
+#: page-sitemap.php:52
+msgid "Posts by Category"
+msgstr "Postări după categorie:"
+
+#: page-sitemap.php:61
+msgid "Commentaires"
+msgstr "Comentarii"
+
+#: page-sitemap.php:72
+msgid "All Posts"
+msgstr "Toate postările"
+
+#: page-sitemap.php:81
+msgid "All Posts By Month"
+msgstr "Toate postările după lună"
+
+#: page-sitemap.php:90
+msgid "Try a search:"
+msgstr "Încearcați o căutare:"
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr "Meniu principal"
+
+#: functions.php:278
+msgid "Main Sidebar"
+msgstr "Bară principală"
+
+#: functions.php:289
+msgid "Footer Sidebar 1"
+msgstr "Bară de subsol 1"
+
+#: functions.php:298
+msgid "Footer Sidebar 2"
+msgstr "Bară de subsol 2"
+
+#: functions.php:307
+msgid "Footer Sidebar 3"
+msgstr "Bară de subsol 3"
+
+#: functions.php:339
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: functions.php:458
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postări noi"
+
+#: functions.php:459
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Posări vechi <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:465
+msgid "&larr; Previous"
+msgstr ""
+
+#: functions.php:466
+#, fuzzy
+msgid "Next &rarr;"
+msgstr "Comentarii mai noi &rarr;"
+
+#: functions.php:472
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:473
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:487
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Ne cerem scuze, dar nu am găsit nimic. Poate un căutat mai serios va scoate la iveală o postare relevantă."
+
+#: functions.php:491
+msgid "Nothing Found"
+msgstr "Nimic nu s-a găsit"
+
+#: functions.php:519
+msgid "Pingback:"
+msgstr "Răspunde:"
+
+#: functions.php:541
+#, php-format
+msgid "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
+msgstr "%1$s <span class=\"datetime\">&mdash; %2$s</span>"
+
+#: functions.php:547
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: functions.php:555
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul dumneavoastră așteaptă moderare."
+
+#: functions.php:562
+msgid "Reply <span>&darr;</span>"
+msgstr "Răspunde <span>&darr;</span>"
+
+#: content-image.php:8
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: include/_params.php:29
+msgid "General Settings"
+msgstr "Setări generale"
+
+#: include/_params.php:36
+msgid "Theme Stylesheet"
+msgstr "Foaia de stil a temei"
+
+#: include/_params.php:37
+msgid "Select your themes alternative color scheme."
+msgstr "Selectează paleta de culori alternativă pentru tema dumneavoastră."
+
+#: include/_params.php:44
+msgid "Layout"
+msgstr ""
+
+#: include/_params.php:45
+msgid "Select the layout style of the container"
+msgstr ""
+
+#: include/_params.php:49
+msgid "default"
+msgstr ""
+
+#: include/_params.php:50
+msgid "empty"
+msgstr ""
+
+#: include/_params.php:51
+msgid "overlay"
+msgstr ""
+
+#: include/_params.php:56
+msgid "Custom CSS"
+msgstr "CSS Propriu"
+
+#: include/_params.php:57
+msgid "Custom CSS code"
+msgstr "Cod de CSS propriu"
+
+#: include/_params.php:66
+msgid "Custom JS"
+msgstr "JavaScript Propriu"
+
+#: include/_params.php:67
+msgid "Custom JavaScript code"
+msgstr "Cod de JavaScript propriu"
+
+#: include/_params.php:76
+#: include/_params.php:140
+msgid "Sidebar ?"
+msgstr "Bară laterală ?"
+
+#: include/_params.php:77
+msgid "Display a sidebar or not ?"
+msgstr "Afișați sau nu bara laterală ?"
+
+#: include/_params.php:81
+#: include/_params.php:92
+#: include/_params.php:145
+#: include/_params.php:184
+#: include/_params.php:249
+#: include/_params.php:270
+#: include/_params.php:281
+msgid "no"
+msgstr "nu"
+
+#: include/_params.php:82
+#: include/_params.php:93
+#: include/_params.php:146
+#: include/_params.php:185
+#: include/_params.php:250
+#: include/_params.php:271
+#: include/_params.php:282
+msgid "yes"
+msgstr "da"
+
+#: include/_params.php:87
+msgid "Search Box ?"
+msgstr "Cutie de căutare ?"
+
+#: include/_params.php:88
+msgid "Display a search box in the nav ?"
+msgstr "Plasează o cutie de căutare în navigator ?"
+
+#: include/_params.php:99
+msgid "Header settings"
+msgstr "Setări ale regiunii de deasupra"
+
+#: include/_params.php:105
+msgid "Custom Logo Image"
+msgstr "Imagine de logo proprie"
+
+#: include/_params.php:106
+msgid "Upload an image for the logo, at the top center of the page, or specify the image address of your online image. (http://yoursite.com/logo.png)"
+msgstr "Încărcați o imagine pentru logo-ul ce va fi arătat în regiunea centrală și de sus a paginii sau specificați o adresă a unei imagini online."
+
+#: include/_params.php:112
+msgid "CSS Placement for Logo"
+msgstr "Containerul CSS pentru logo"
+
+#: include/_params.php:113
+msgid "Css for the logo. Don't use the url() statement which is automatically define"
+msgstr "Css pentru logo. Nu invocați funcția url() pentru că ea este automat definită"
+
+#: include/_params.php:122
+msgid "Logo's height"
+msgstr "Înălțime logo"
+
+#: include/_params.php:123
+msgid "Height of the logo (in px)."
+msgstr "Înălțimea logo-ului (exprimată în pixeli)."
+
+#: include/_params.php:134
+msgid "Footer settings"
+msgstr "Opțiuni pentru regiunea de subsol"
+
+#: include/_params.php:141
+msgid "Display a sidebar or not in the footer ?"
+msgstr "Arătați sau nu bara de navigație în regiunea de subsol ?"
+
+#: include/_params.php:151
+msgid "Custom Footer Content"
+msgstr "Conținut de subsol propriu"
+
+#: include/_params.php:152
+msgid "Html Code For the extra footer content"
+msgstr "Cod Html pentru zona de subsol"
+
+#: include/_params.php:161
+msgid "Copyright"
+msgstr "Drepturi de autor"
+
+#: include/_params.php:162
+msgid "Display a custom copyright"
+msgstr "Afișează drepturi de autor personalizate"
+
+#: include/_params.php:173
+msgid "Under Construction Settings"
+msgstr "Opțiuni de \"În construcție\""
+
+#: include/_params.php:179
+msgid "Is under contruction"
+msgstr "Este în construcție"
+
+#: include/_params.php:180
+msgid "Is the website under contruction.<br />note: soon you signin, you can see your site website."
+msgstr "Sait-ul este sub construcție. <br />notă: de îndată ce vă înregistrați, puteți vedea conținutu paginii dumneavoastră."
+
+#: include/_params.php:190
+msgid "Custom Content"
+msgstr "Conținut personalizat"
+
+#: include/_params.php:191
+msgid "Html Code For the custom under contruction page.<br /> Contains all the html code for the page."
+msgstr "Cod Html pentru varianta proprie a paginii în construcție. <br />Conține tot codul html a paginii."
+
+#: include/_params.php:196
+msgid "under Construction"
+msgstr "în construcție"
+
+#: include/_params.php:197
+msgid "Sorry, but the site is under contruction..."
+msgstr "Regretăm, dar sait-ul este în construcție..."
+
+#: include/_params.php:208
+msgid "Social Networks"
+msgstr "Rețele sociale"
+
+#: include/_params.php:238
+msgid "Miscellanious"
+msgstr "Complicăciuni"
+
+#: include/_params.php:244
+msgid "Use Shortcodes"
+msgstr "Folosește scurtături"
+
+#: include/_params.php:245
+msgid "Enables the plugin's shortcodes."
+msgstr "Activează scurtăturile plugin-ului."
+
+#: include/_params.php:255
+msgid "Prefix For Schortcode"
+msgstr "Prefix pentru scurtături"
+
+#: include/_params.php:256
+msgid "If shortcodes names are in conflict with other plugin shortcode use this field<br />Ex: with prefix &quot;custom&quot; use &quot;[custom_button ...]...[/custom_button]&quot;"
+msgstr "Dacă scurtăturile sunt în conflict cu scurtăturile altor plugin-uri folosește acest câmp<br />Ex: cu prefix &quot;propriu&quot; folosiți &quot;[buton_propriu ...]...[/buton_propriu]&quot;"
+
+#: include/_params.php:265
+msgid "Automatic Html correction"
+msgstr "Corectarea automată a Html-ului"
+
+#: include/_params.php:266
+msgid "Let Wordpress correct your Html and auto-generate &lt;p&gt; elements.<br />For advence Html editing and intense shortcodes usage, disable this options."
+msgstr "Permite Wordpress-ului să corecteze codul dumneavoastră Html și să auto-genereze &lt;p&gt; elemente.<br />Pentru o editare mai avansată și scurtături mai solicitante, dezactivează aceste opțiuni."
+
+#: include/_params.php:276
+msgid "FancyBox"
+msgstr "CutieStilată"
+
+#: include/_params.php:277
+msgid "Display image in a Mac-style \"lightbox\" that floats overtop of web page."
+msgstr "Afișează imaginile într-o cutie plutitoare asemeni \"lightbox\"-ului din Mac."
+
+#: include/admin.php:63
+msgid "Options saved with errors"
+msgstr "Opțiunile au fost salvate cu erori"
+
+#: include/admin.php:68
+msgid "Options saved"
+msgstr "Opțiuni salvate"
+
+#: include/admin.php:83
+msgid "Why not make a donation :)"
+msgstr "De ce nu faceți o donație :) ?"
+
+#: include/admin.php:84
+#, fuzzy
+msgid "You know, making a theme is a hard work and is time (and beer) consuming. So if you like this theme, any kind of contribution would be <strong>highly appreciated</strong>."
+msgstr "Știți, fabricatul de teme artistice este o muncă solicitantă atât din punct de vedere a timpului cât și a cantităților de bere implicate. Dacă simpatizați această tempă, atunci <b>orice</b> contribuție este <strong>apreciată</strong>."
+
+#: include/admin.php:85
+msgid "You can also just make <strong><a href=\"https://twitter.com/intent/tweet?source=webclient&text=JC%20One%20Lite%20%3A%20A%20nice%20%23wordpress%20theme%20by%20%40netcod_es%20%3A%20http%3A%2F%2Fwww.netcod.es%2F\" target=\"_blank\">a simple tweet</a></strong>."
+msgstr ""
+
+#: include/admin.php:86
+msgid "Thank you."
+msgstr "Vă mulțumim."
+
+#: include/admin.php:114
+msgid "Theme Options"
+msgstr "Opțiunile temei"
+
+#: include/admin.php:224
+msgid "Save Changes"
+msgstr "Salvează modificările"
+
+#: include/admin.php:235
+msgid "upload file : "
+msgstr "încarcă fișier :"
+
+#: include/admin.php:237
+msgid "or the url : "
+msgstr "sau a url-ului :"
+
+#: include/admin.php:352
+#: include/admin.php:353
+msgid "Page Options"
+msgstr "Opțiunile paginii"
+
+#: include/admin.php:366
+msgid "Display the sidebar"
+msgstr "Arată bara laterală"
+
+#: include/admin.php:368
+msgid "No"
+msgstr "Nu"
+
+#: include/admin.php:369
+msgid "Yes"
+msgstr "Da"
+
+#~ msgid ""
+#~ "Just buy me a beer &mdash; <em>I like it (too much ?!)</em> &mdash; or "
+#~ "any amount, <strong>even 1$</strong>."
+#~ msgstr ""
+#~ "Cumpărați-mi o bere &mdash; <em>Orice bere pentru că îmi place berea "
+#~ "foarte mult (poate prea mult?!)</em> &mdash; sau donați orice sumă, "
+#~ "<strong>chiar și 1Ron</strong>."

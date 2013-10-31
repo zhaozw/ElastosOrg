@@ -1,16 +1,16 @@
 Theme Name: Terminally
 Description: HTML5 and CSS3 Theme for Geeks inspired by the popular Mac SSH client, Terminal!
 Author: Stinkyink
-Version: 1.3.7
+Version: 2.0.0
 Tags: black, green, dark, one-column, two-columns, fixed-width, right-sidebar, custom-background, editor-style, threaded-comments, sticky-post
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Theme URI: http://www.stinkyinkshop.co.uk/themes/t/terminally-theme/
-Author URI: http://www.stinkyinkshop.co.uk/themes/
 
 == Change Log ==
 
-1.3.6 	- Added HTML5 Shiv to improve support in IE8 and below
+2.0.0 	- No longer require link attribution
+
+1.3.7 	- Added HTML5 Shiv to improve support in IE8 and below
 
 1.3.6 	- Killed invisible files
 

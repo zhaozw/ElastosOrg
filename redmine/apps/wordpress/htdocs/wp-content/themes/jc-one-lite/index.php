@@ -6,9 +6,9 @@
             <?php get_template_part('loop'); ?>
         <?php } ?>
         <?php jc_one_content_nav('nav-below'); ?>
-    <?php } else { 
-	    jc_one_no_results(__('Apologies, but no results were found. Perhaps searching will help find a related post.', 'jc-one-lite'));
-	} ?>
+    <?php } else {
+        jc_one_no_results(__('Apologies, but no results were found. Perhaps searching will help find a related post.', 'jc-one-lite'));
+    } ?>
 <?php get_footer(); ?>
 
 

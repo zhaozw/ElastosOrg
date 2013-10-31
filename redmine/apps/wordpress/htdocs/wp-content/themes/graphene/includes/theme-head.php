@@ -78,7 +78,7 @@ function graphene_minify_css( $css ){
 	/* Minify */
 	$css = preg_replace('/[\n\r \t]/',' ', $css);
 	$css = preg_replace('/ +/',' ', $css);
-	$css = preg_replace('/ ?([,:;{}]) ?/','$1',$css);
+	$css = preg_replace('/ ?([,:;{}] ) ?/','$1',$css);
 
 	/* Kill trailing semicolon */
 	$css = preg_replace('/;}/','}',$css);
@@ -119,11 +119,11 @@ function graphene_get_custom_style(){
 		$style .= '.header_title, .header_title a, .header_title a:visited, .header_title a:hover, .header_desc {color:#' . $header_textcolour . ';}';
 		
 	/* Set the width of the bottom widget items if number of columns is specified */
-	if ( $widgetcolumn != $graphene_defaults['footerwidget_column'] && $widgetcolumn) {
+	if ( ( $widgetcolumn != $graphene_defaults['footerwidget_column'] || $container_width != $graphene_defaults['container_width'] ) && $widgetcolumn ) {
 		$widget_width = floor( ( ( ( $container_width - $gutter * 2 ) - 20 * ( $widgetcolumn - 1 ) ) / $widgetcolumn ) - 20 );
 		$style .= '#sidebar_bottom .sidebar-wrap{width:' . $widget_width . 'px}';
 	}
-	if ( $graphene_settings['alt_home_footerwidget'] && $widgetcolumn_alt != $graphene_defaults['alt_footerwidget_column'] && $widgetcolumn_alt ) {
+	if ( $graphene_settings['alt_home_footerwidget'] && ( $widgetcolumn_alt != $graphene_defaults['alt_footerwidget_column'] || $container_width != $graphene_defaults['container_width'] ) && $widgetcolumn_alt ) {
 		$widget_width = floor( ( ( ( $container_width - $gutter * 2 ) - 20 * ( $widgetcolumn_alt - 1 ) ) / $widgetcolumn_alt ) - 20 );
 		$style .= '.home #sidebar_bottom .sidebar-wrap{width:' . $widget_width . 'px}';
 	}
@@ -170,41 +170,41 @@ function graphene_get_custom_style(){
 	
 	/* Header title text style */ 
 	$font_style = '';
-	$font_style .= ( $graphene_settings['header_title_font_type']) ? 'font-family:'.$graphene_settings['header_title_font_type'].';' : '';
-	$font_style .= ( $graphene_settings['header_title_font_lineheight']) ? 'line-height:'.$graphene_settings['header_title_font_lineheight'].';' : '';
-	$font_style .= ( $graphene_settings['header_title_font_size']) ? 'font-size:'.$graphene_settings['header_title_font_size'].';' : '';
-	$font_style .= ( $graphene_settings['header_title_font_weight']) ? 'font-weight:'.$graphene_settings['header_title_font_weight'].';' : '';
-	$font_style .= ( $graphene_settings['header_title_font_style']) ? 'font-style:'.$graphene_settings['header_title_font_style'].';' : '';
+	$font_style .= ( $graphene_settings['header_title_font_type'] ) ? 'font-family:'.$graphene_settings['header_title_font_type'].';' : '';
+	$font_style .= ( $graphene_settings['header_title_font_lineheight'] ) ? 'line-height:'.$graphene_settings['header_title_font_lineheight'].';' : '';
+	$font_style .= ( $graphene_settings['header_title_font_size'] ) ? 'font-size:'.$graphene_settings['header_title_font_size'].';' : '';
+	$font_style .= ( $graphene_settings['header_title_font_weight'] ) ? 'font-weight:'.$graphene_settings['header_title_font_weight'].';' : '';
+	$font_style .= ( $graphene_settings['header_title_font_style'] ) ? 'font-style:'.$graphene_settings['header_title_font_style'].';' : '';
 	if ( $font_style ) { $style .= '#header .header_title { '.$font_style.' }'; }
 
 	/* Header description text style */ 
 	$font_style = '';
-	$font_style .= ( $graphene_settings['header_desc_font_type']) ? 'font-family:'.$graphene_settings['header_desc_font_type'].';' : '';
-	$font_style .= ( $graphene_settings['header_desc_font_size']) ? 'font-size:'.$graphene_settings['header_desc_font_size'].';' : '';
-	$font_style .= ( $graphene_settings['header_desc_font_lineheight']) ? 'line-height:'.$graphene_settings['header_desc_font_lineheight'].';' : '';
-	$font_style .= ( $graphene_settings['header_desc_font_weight']) ? 'font-weight:'.$graphene_settings['header_desc_font_weight'].';' : '';
-	$font_style .= ( $graphene_settings['header_desc_font_style']) ? 'font-style:'.$graphene_settings['header_desc_font_style'].';' : '';
+	$font_style .= ( $graphene_settings['header_desc_font_type'] ) ? 'font-family:'.$graphene_settings['header_desc_font_type'].';' : '';
+	$font_style .= ( $graphene_settings['header_desc_font_size'] ) ? 'font-size:'.$graphene_settings['header_desc_font_size'].';' : '';
+	$font_style .= ( $graphene_settings['header_desc_font_lineheight'] ) ? 'line-height:'.$graphene_settings['header_desc_font_lineheight'].';' : '';
+	$font_style .= ( $graphene_settings['header_desc_font_weight'] ) ? 'font-weight:'.$graphene_settings['header_desc_font_weight'].';' : '';
+	$font_style .= ( $graphene_settings['header_desc_font_style'] ) ? 'font-style:'.$graphene_settings['header_desc_font_style'].';' : '';
 	if ( $font_style ) { $style .= '#header .header_desc { '.$font_style.' }'; }
 	
 	/* Content text style */ 
 	$font_style = '';
-	$font_style .= ( $graphene_settings['content_font_type']) ? 'font-family:'.$graphene_settings['content_font_type'].';' : '';
-	$font_style .= ( $graphene_settings['content_font_size']) ? 'font-size:'.$graphene_settings['content_font_size'].';' : '';
-	$font_style .= ( $graphene_settings['content_font_lineheight']) ? 'line-height:'.$graphene_settings['content_font_lineheight'].';' : '';
-	$font_style .= ( $graphene_settings['content_font_colour'] != $graphene_defaults['content_font_colour']) ? 'color:'.$graphene_settings['content_font_colour'].';' : '';
+	$font_style .= ( $graphene_settings['content_font_type'] ) ? 'font-family:'.$graphene_settings['content_font_type'].';' : '';
+	$font_style .= ( $graphene_settings['content_font_size'] ) ? 'font-size:'.$graphene_settings['content_font_size'].';' : '';
+	$font_style .= ( $graphene_settings['content_font_lineheight'] ) ? 'line-height:'.$graphene_settings['content_font_lineheight'].';' : '';
+	$font_style .= ( $graphene_settings['content_font_colour'] != $graphene_defaults['content_font_colour'] ) ? 'color:'.$graphene_settings['content_font_colour'].';' : '';
 	if ( $font_style ) { $style .= '.entry-content, .sidebar, .comment-entry { '.$font_style.' }'; }
 	
     /* Adjust post title if author's avatar is shown */
-	if ( $graphene_settings['show_post_avatar']) {
+	if ( $graphene_settings['show_post_avatar'] ) {
 		$tmp_margin = !is_rtl() ? 'margin-right' : 'margin-left';
 		$style .= '.post-title a, .post-title a:visited{display:block;'.$tmp_margin.':45px;padding-bottom:0;}';
 	}
 	
 	/* Slider */
-	if ( $graphene_settings['slider_height']) {
+	if ( $graphene_settings['slider_height'] ) {
 		$style .= '.featured_slider #slider_root{height:'.$graphene_settings['slider_height'].'px;}';
 	}
-	if ( $graphene_settings['slider_full_width']) {
+	if ( $graphene_settings['slider_full_width'] ) {
 		$style .= '#content .featured_slider, .container_16 #content .slider_post {width:' . graphene_grid_width( '', 16 ) . 'px;}';
 	}
 	
@@ -270,7 +270,7 @@ function graphene_get_custom_colours( $hook_suffix = '', $force_all = false ){
 													background: -moz-linear-gradient(%1$s, %2$s);
 													background: -webkit-linear-gradient(%1$s, %2$s);
 													background: -o-linear-gradient(%1$s, %2$s);
-													-ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
+													-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
 													background: linear-gradient(%1$s, %2$s);
 												}',
 					'top_bar_border' 		=> '#top-bar,.top-bar-preview .top-bar{border-color:%s}',
@@ -314,7 +314,7 @@ function graphene_get_custom_colours( $hook_suffix = '', $force_all = false ){
 														background: -moz-linear-gradient(%1$s, %2$s);
 														background: -webkit-linear-gradient(%1$s, %2$s);
 														background: -o-linear-gradient(%1$s, %2$s);
-														-ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
+														-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
 														background: linear-gradient(%1$s, %2$s);
 													}',
 					'menu_primary_dd_item' 		=> '#header-menu ul li a,.primary-menu-preview.dropdown ul > li > a{color: %s}',
@@ -350,7 +350,7 @@ function graphene_get_custom_colours( $hook_suffix = '', $force_all = false ){
 														background: -moz-linear-gradient(%1$s, %2$s);
 														background: -webkit-linear-gradient(%1$s, %2$s);
 														background: -o-linear-gradient(%1$s, %2$s);
-														-ms-filter: "progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
+														-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%2$s\')";
 														background: linear-gradient(%1$s, %2$s);
 													}',
 					'menu_sec_dd_item' 		=> '#secondary-menu ul li a,.secondary-menu-preview .sub-menu > li > a{color: %s}',
@@ -376,6 +376,8 @@ function graphene_get_custom_colours( $hook_suffix = '', $force_all = false ){
 						'bg_meta_border'		=> '.post-title, .post-title a, .post-title a:visited, .entry-footer{border-color: %s;}',
 						'bg_post_top_border'	=> '.post{border-top-color: %s}',
 						'bg_post_bottom_border'	=> '.post{border-bottom-color: %s}',
+						'bg_sticky_content' 	=> '.sticky{background-color: %s;}',
+						'bg_child_page_content' => '.child-page{background-color: %s;}',
 					);
 		$style .= graphene_build_style( $colours );
 		
@@ -422,30 +424,33 @@ function graphene_get_custom_colours( $hook_suffix = '', $force_all = false ){
 		
 		// Block button
 		$colours = array(
-						'bg_button|bg_button_label|bg_button_label_textshadow|bg_button_box_shadow' 
-							=> '.block-button, .block-button:visited, .Button, .button, #commentform #submit, .wpsc_buy_button{
-									background: %5$s;
+						'bg_button|bg_button_label|bg_button_label_textshadow' 
+							=> '.block-button, .block-button:visited, .Button, .button, #commentform #submit, .wpsc_buy_button {
+									background: %4$s;
+									background: -moz-linear-gradient(%1$s,%4$s);
+									background: -webkit-linear-gradient(%1$s,%4$s);
+									background: -o-linear-gradient(%1$s, %4$s);
+									-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%4$s\')";
+									background: linear-gradient(%1$s,%4$s);
+									border-color: %4$s;
+									text-shadow: 0 -1px 1px %3$s;
+									color: %2$s;
+								}
+								.block-button:hover, .button:hover, #commentform #submit:hover,.wpsc_buy_button:hover {
+									background: %4$s;
 									background: -moz-linear-gradient(%1$s,%5$s);
 									background: -webkit-linear-gradient(%1$s,%5$s);
 									background: -o-linear-gradient(%1$s, %5$s);
 									-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%5$s\')";
 									background: linear-gradient(%1$s,%5$s);
-									border-color: %5$s;
-									text-shadow: 0 -1px 1px %3$s;
 									color: %2$s;
-									-moz-box-shadow: 0 0 5px %4$s;
-									-webkit-box-shadow: 0 0 5px %4$s;
-									box-shadow: 0 0 5px %4$s
-								}
-								.block-button:hover, .button:hover, #commentform #submit:hover,.wpsc_buy_button:hover {
-									background: %5$s;
-									background: -moz-linear-gradient(%1$s,%6$s);
-									background: -webkit-linear-gradient(%1$s,%6$s);
-									background: -o-linear-gradient(%1$s, %6$s);
-									-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr=\'%1$s\', EndColorStr=\'%6$s\')";
-									background: linear-gradient(%1$s,%6$s);
-									color: %2$s;
-								}'
+								}',
+						'bg_button_box_shadow' 
+							=> '.block-button, .block-button:visited, .Button, .button, #commentform #submit, .wpsc_buy_button {
+									-moz-box-shadow: 0 1px 2px %1$s;
+									-webkit-box-shadow: 0 1px 2px %1$s;
+									box-shadow: 0 1px 2px %1$s;
+								}',
 					);
 		$extra_args = array( graphene_hex_addition( $graphene_settings['bg_button'], -26), graphene_hex_addition( $graphene_settings['bg_button'], -52) );
 		$style .= graphene_build_style( $colours, $extra_args );
@@ -701,7 +706,7 @@ add_action( 'wp_head', 'graphene_ie_css3' );
 function graphene_ie8_img(){ ?>
 	<!--[if IE 8]>
     <script type="text/javascript">
-        (function( $) {
+        (function($) {
             var imgs, i, w;
             var imgs = document.getElementsByTagName( 'img' );
             maxwidth = 0.98 * $( '.entry-content' ).width();
@@ -725,9 +730,9 @@ add_action( 'wp_footer', 'graphene_ie8_img' );
  */ 
 function graphene_google_analytics(){
 	global $graphene_settings;
-    if ( $graphene_settings['show_ga']) : ?>
+    if ( $graphene_settings['show_ga'] ) : ?>
     <!-- BEGIN Google Analytics script -->
-    	<?php echo stripslashes( $graphene_settings['ga_code']); ?>
+    	<?php echo stripslashes( $graphene_settings['ga_code'] ); ?>
     <!-- END Google Analytics script -->
     <?php endif; 
 }
@@ -748,12 +753,13 @@ function graphene_title( $title, $sep = '&raquo;', $seplocation = '' ){
 		
 	} elseif ( is_front_page() ) { 
 	
-		if ( $graphene_settings['custom_site_title_frontpage']) {
+		if ( $graphene_settings['custom_site_title_frontpage'] ) {
 			$title = $graphene_settings['custom_site_title_frontpage'];
-			$title = str_replace( '#site-name', get_bloginfo( 'name' ), $title);
-			$title = str_replace( '#site-desc', get_bloginfo( 'description' ), $title);
+			$title = str_replace( '#site-name', get_bloginfo( 'name' ), $title );
+			$title = str_replace( '#site-desc', get_bloginfo( 'description' ), $title );
 		} else {
-			$title = get_bloginfo( 'name' ) . " &raquo; " . get_bloginfo( 'description' );
+			$title = get_bloginfo( 'name' );
+			$title .= ( $desc = get_bloginfo( 'description' ) ) ? " &raquo; " . $desc : '';
 		}
 		
 	} else {
@@ -768,7 +774,7 @@ function graphene_title( $title, $sep = '&raquo;', $seplocation = '' ){
 		}
 	}
 	
-	return ent2ncr( apply_filters( 'graphene_title', $title ) );
+	return ent2ncr( apply_filters( 'graphene_title', trim( $title ) ) );
 }
 add_filter( 'wp_title', 'graphene_title', 10, 3 );
 

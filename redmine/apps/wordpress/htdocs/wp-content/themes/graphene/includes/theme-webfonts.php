@@ -31,5 +31,5 @@ function graphene_webfont_script(){
     </script>
     <?php
 }
-add_action( 'wp_head', 'graphene_webfont_script' );
+add_action( 'wp_head', 'graphene_webfont_script', 5 );
 add_action( 'admin_head-appearance_page_custom-header', 'graphene_webfont_script' );

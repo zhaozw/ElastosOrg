@@ -1,14 +1,15 @@
 
+/*
 html .mceContentBody {
-	max-width: 584px;
+    max-width: 584px;
 }
-
+*/
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { font-size: 87.5%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
@@ -63,20 +64,20 @@ input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 td { vertical-align: top; }
-body, button, input, select, textarea, p { 
+body, button, input, select, textarea, p {
     font-family: Muli, "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
 
 body{
-    font-size: 14px; 
+    font-size: 14px;
     line-height: 1.5;
 }
 
 a:link, a:visited {
-	text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-	text-decoration: underline; 
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,41 +94,41 @@ h4 { font-size: 1.1em; }
 h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link,
 h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
 }
-   
+
 p {
     margin: .5em 0 1.5em;
 }
 
 pre {
-	margin: 10px 0;
-	padding: 1em 10px;
-	overflow: auto;
+    margin: 10px 0;
+    padding: 1em 10px;
+    overflow: auto;
 }
 
 code {
-	padding: 2px 3px;
-	font: 1.1em Consolas, Courier New, sans-serif;
+    padding: 2px 3px;
+    font: 1.1em Consolas, Courier New, sans-serif;
 }
 
 pre code { font-size: 1.2em; }
 
 blockquote {
-	clear: both;
-	display: block;
-	padding: 20px 20px 10px 45px;
-	margin: 20px 0;
-	font-style: italic;
-	font-size: 1.1em;
+    clear: both;
+    display: block;
+    padding: 20px 20px 10px 45px;
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.1em;
 }
 
 blockquote em, blockquote i, blockquote cite {
-	font-style: normal;
+    font-style: normal;
 }
 
 blockquote cite {
-	font-weight: 300;
-	letter-spacing: 0.05em;
-	text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-align: center;
 }
 blockquote cite a, blockquote cite a:link {
 }
@@ -176,117 +177,117 @@ div#site-description {
 
 /* Alignment */
 .alignleft {
-	display: inline;
-	float: left;
-	margin-right: 1.625em;
+    display: inline;
+    float: left;
+    margin-right: 1.625em;
 }
 .alignright {
-	display: inline;
-	float: right;
-	margin-left: 1.625em;
+    display: inline;
+    float: right;
+    margin-left: 1.625em;
 }
 .aligncenter {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Tables */
 table {
-	border: none !important;
-	border-bottom: 1px solid #ddd !important;
-	border-collapse: collapse;
-	border-spacing: 0;
-	text-align: left;
-	margin: 0 0 1.625em;
-	width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    margin: 0 0 1.625em;
+    width: 100%;
 }
 tr th {
-	border: none !important;
-	color: #666;
-	font-size: 10px;
-	font-weight: 500;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
+    border: none !important;
+    color: #666;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 2.6em;
+    text-transform: uppercase;
 }
 td {
-	border: none !important;
-	border-top: 1px solid #ddd !important;
-	padding: 6px 10px 6px 0;
+    border: none !important;
+    border-top: 1px solid #ddd !important;
+    padding: 6px 10px 6px 0;
 }
 
 /* Images */
 img[class*="wp-image-"] {
-	height: auto;
-	max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 img.size-full {
-	width: auto; /* Prevent stretching of full-size images in IE8 */
+    width: auto; /* Prevent stretching of full-size images in IE8 */
 }
 img.wp-smiley {
-	border: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
 }
 p img,
 .wp-caption {
-	margin-top: 0.4em;
+    margin-top: 0.4em;
 }
 img {
-	border: 1px solid #ddd;
-	padding: 6px;
+    border: 1px solid #ddd;
+    padding: 6px;
 }
 img.alignleft,
 img.alignright,
 img.aligncenter {
-	margin-bottom: 1.625em;
+    margin-bottom: 1.625em;
 }
 .wp-caption {
-	background: #eee;
-	border: none;
-	margin-bottom: 1.625em;
-	max-width: 96%;
-	padding: 9px;
+    background: #eee;
+    border: none;
+    margin-bottom: 1.625em;
+    max-width: 96%;
+    padding: 9px;
 }
 .wp-caption img {
-	display: block;
-	margin: 5px auto 0 !important;
-	max-width: 98%;
-	border-color: #eee;
+    display: block;
+    margin: 5px auto 0 !important;
+    max-width: 98%;
+    border-color: #eee;
 }
 .wp-caption .wp-caption-text,
 .wp-caption-dd {
-	color: #666;
-	font-family: Georgia, serif !important;
-	font-size: 12px;
-	margin: 0 0 0.6em 0 !important;
-	padding: 0 0 5px 40px;
-	position: relative;
-	text-align: left;
+    color: #666;
+    font-family: Georgia, serif !important;
+    font-size: 12px;
+    margin: 0 0 0.6em 0 !important;
+    padding: 0 0 5px 40px;
+    position: relative;
+    text-align: left;
 }
 .wp-caption .wp-caption-text:before {
-	color: #666;
-	content: '\2014';
-	font-size: 14px;
-	font-style: normal;
-	font-weight: bold;
-	margin-right: 5px;
-	position: absolute;
-	left: 10px;
-	top: 7px;
+    color: #666;
+    content: '\2014';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+    top: 7px;
 }
 a:focus img[class*="wp-image-"],
 a:hover img[class*="wp-image-"],
 a:active img[class*="wp-image-"] {
-	background: #eee;
-	border-color: #bbb;
+    background: #eee;
+    border-color: #bbb;
 }
 .wp-caption a:focus img,
 .wp-caption a:active img,
 .wp-caption a:hover img {
-	background: #fff;
-	border-color: #ddd;
+    background: #fff;
+    border-color: #ddd;
 }

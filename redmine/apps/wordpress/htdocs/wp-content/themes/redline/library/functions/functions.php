@@ -9,8 +9,8 @@
  * @since 0.2.3
  */
 function framework_media() {
-	if( is_admin() ) return;
-	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array() );	
+	if ( is_admin() ) return;
+	wp_enqueue_script( 'modernizr', JS . '/modernizr.js', array(), '2.6.2', false );	
 	wp_enqueue_script( 'combo', JS . '/combo.js', array( 'jquery' ), false, true );
 	wp_enqueue_script( 'screen_js', JS . '/screen.js', array( 'jquery' ), false, true );
 }
@@ -212,7 +212,8 @@ function include_all( $path, $ignore = false ) {
 function header_style() {
 ?>
 <style type="text/css">
-#logo { background: #fff url(<?php header_image(); ?>) bottom center no-repeat;
+#logo {
+background: #8E8E8E url(<?php header_image(); ?>) bottom center no-repeat;
 height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
 width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 }
@@ -236,22 +237,25 @@ width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
 function admin_header_style() {
 ?>
 <style type="text/css">
-#headimg { background: #fff url(<?php header_image() ?>) bottom center no-repeat;
-height: <?php echo HEADER_IMAGE_HEIGHT; ?>px;
-width: <?php echo HEADER_IMAGE_WIDTH; ?>px;
-text-align: center; min-height: 85px !important;
+#headimg {
+background: #fff url(<?php header_image() ?>) bottom center no-repeat;
+text-align: center;
 }
 
-#headimg h1 { font-size: 48px; line-height: 1.5em; font-weight:bold; text-align:center; font-family: "Trebuchet MS", "DejaVu Sans Serif", sans-serif; margin:0; }
+#headimg h1 {
+font-size: 48px;
+line-height: 1.75em;
+font-weight: bold;
+text-align: center;
+font-family: "Franklin Gothic Medium", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
+margin: 0;
+}
+
 #headimg h1 a { text-decoration:none; }
 
 #desc { display: none; }
 </style>
 <?php
-}
-
-if ( function_exists( 'add_custom_image_header' ) ) {
-	add_custom_image_header( 'header_style', 'admin_header_style' );
 }
 
 

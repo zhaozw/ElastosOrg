@@ -1,6 +1,6 @@
 <?php
 /**
- * Graphene WordPress Theme, Copyright 2010-2012 Syahir Hakim
+ * Graphene WordPress Theme, Copyright 2010-2013 Syahir Hakim
  * Graphene is distributed under the terms of the GNU GPL version 3
  *
  * Graphene functions and definitions
@@ -28,11 +28,11 @@ require( $graphene_settings['template_dir'] . '/includes/theme-head.php' );			//
 require( $graphene_settings['template_dir'] . '/includes/theme-menu.php' );			// Functions for navigation menus
 require( $graphene_settings['template_dir'] . '/includes/theme-loop.php' );			// Functions for posts/pages loops
 require( $graphene_settings['template_dir'] . '/includes/theme-comments.php' );		// Functions for comments
-require( $graphene_settings['template_dir'] . '/includes/theme-widgets.php' );		// Functions for custom widgets
 require( $graphene_settings['template_dir'] . '/includes/theme-slider.php' );		// Functions for the slider
 require( $graphene_settings['template_dir'] . '/includes/theme-panes.php' );		// Functions for the homepage panes
 require( $graphene_settings['template_dir'] . '/includes/theme-plugins.php' );		// Native plugins support
 require( $graphene_settings['template_dir'] . '/includes/theme-shortcodes.php' );	// Theme shortcodes
 require( $graphene_settings['template_dir'] . '/includes/theme-webfonts.php' );		// Theme webfonts
+require( $graphene_settings['template_dir'] . '/includes/theme-compat.php' );		// For backward compatibility
 require( $graphene_settings['template_dir'] . '/includes/theme-functions.php' );	// Other functions that are not categorised above
 require( $graphene_settings['template_dir'] . '/includes/theme-setup.php' );		// Theme setup

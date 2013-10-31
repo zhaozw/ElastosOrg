@@ -3,7 +3,7 @@ Theme Name: Twenty Ten
 Description: Used to style the TinyMCE editor.
 */
 html .mceContentBody {
-	max-width: 640px;
+/*	max-width: 640px;*/
 }
 * {
 	color: #444;

@@ -1,8 +1,8 @@
 /***
 Theme Name:		RedLine
 Theme URI:		http://post-scriptum.info/redline-theme/
-Version:		2.1.0
-Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports diferent post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> (<a href="http://www.access-board.gov/sec508/standards.htm">Section 508</a>) standards. Currently RedLine is available in English (default), Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian and Czech languages.
+Version:		2.6.0
+Description:	A lightweight but powerful WordPress theme built on WP Framework. It has very printer-friendly layout and other features like microformats, a traditional template structure, clean semantic code and atomic template system. RedLine includes custom menus, changeable header and background. The theme has 7 widgetized areas (3 in sidebars and 4 in footer) and supports different post formats. Moreover its code is compatible with <strong>HTML5, CSS3</strong> and <strong>Accessibility</strong> standards. Currently RedLine is available by default in English but it's also localized in Bulgarian, French, German, Spanish, Russian, Turkish, Italian, Vietnamese, Swedish, Belarusian, Romanian, Czech, Filipino and Polish languages.
 Author: 		Yulian Yordanov
 Author URI:		http://post-scriptum.info/
 Tags:			light, white, red, two-columns, three-columns, right-sidebar, custom-header, custom-background, custom-menu, fixed-width, sticky-post, threaded-comments, microformats, post-formats, translation-ready
@@ -14,6 +14,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WP Framework: Copyright 2008 Ptah Dunbar <http://ptahdunbar.com> All rights reserved.
 WP Framework is licensed under the terms of the GNU General Public License version 2.
 !-----------------------------------------------------------------------------------!
+
+The header image is Public Domain - http://www.flickr.com/photos/nasacommons/7610988192/sizes/l/
 
 ***/
 
@@ -95,15 +97,15 @@ a img {
 /* Document Body */
 
 body, input, textarea {
-	background: #C0C0C0;
+	background: #FFF;
 	color: #333;
-	font: 0.81em/1.62 Georgia, "Times New Roman", Times, serif;
+	font: 0.8125em/1.62 Georgia, "Times New Roman", Times, serif;
 }
 	
 /* Basic 2 column, (content)(aside), fixed layout */
  
 #container {
-	background: url("library/media/images/carbon.png") #EBEBEB;
+	background: url("library/media/images/bg.png") #EBEBEB;
 	border-radius: 10px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	clear: both;
@@ -116,22 +118,29 @@ body, input, textarea {
 	box-shadow: 0 0 4px #333;
 	float: left;
 	padding: 10px 5px;
-	text-align: justify;
+	text-align: left;
 	width: 530px;
+	word-wrap: break-word;
+	-ms-word-wrap: break-word;	
 }
 #secondary {
 	background: #F5F5F5;
-	box-shadow: 0 0 4px #BCB8BA;
+	box-shadow: 0 0 4px #333;
 	float: right;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	padding: 10px 5px;
-	width: 405px;
+	width: 400px;
+	word-wrap: break-word;
+	-ms-word-wrap: break-word;	
 }
 #footer {
 	background: #333;
 	clear: both;
 	color: #B0B0AD;
 	margin-bottom: 0;
-	padding: 5px 0;
+	padding: 5px;
+	word-wrap: break-word;
+	-ms-word-wrap: break-word;	
 }
 
 
@@ -150,13 +159,12 @@ body, input, textarea {
 }
 #sidebar_right {
 	float: right;
-	width: 200px;
+	width: 190px;
 }
 #footer-widget-area {
 	font-size: 12px;
 	overflow: hidden;
-	padding: 0 10px;
-	text-align: justify;
+	padding: 0 5px;
 }
 #footer-widget-area .widget-area {
 	float: left;
@@ -174,19 +182,20 @@ body, input, textarea {
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 .sans-serif {
-	font-family: "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+	font-family: "Century Gothic", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 }
 
 
 /* Vertical Rhythm */
 
 .entry-header {
-	border-top: 2px solid #92000A;
+	border-top: 2px solid #A51C30;
 	clear: both;
 }
 .entry-meta {
 	clear: both;
 	color: #333;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	padding-right: 5px;
 	text-align: right;
@@ -204,27 +213,23 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 
 
-/*Feed Area */
+/* Feed Area */
 
 #feedarea {
+	border: medium none;
 	clear: both;
 	color: #111;
-	float: right;
-	font: 11px/1.5 Helvetica, Arial, sans-serif;
-	text-align: right;
-	width: 100%;
-}
-#feedarea dl {
+	font: bold 11px/1.3 Helvetica, Arial, sans-serif;
 	margin: 0 auto;
-	width: 89em;
+	width: 78%;
 }
-#feedarea dl dt {
+#feedarea tr {
+	border: medium none;
+}
+#feedarea tr td {
+	border: medium none;
 	display: inline;
-	line-height: 24px;
 	margin: 0 10px;
-}
-#feedarea dl dd{
-	display: none;
 }
 
 
@@ -235,11 +240,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 #blog_header,
 #blog_header a {
-	font-family: "Franklin Gothic Medium", "Trebuchet MS", "DejaVu Sans Serif", sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 	line-height: 1.5em;
 	margin: 0 5px;
+	padding-top: 27px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -277,6 +282,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 
 #topmenu {
 	height: 24px;
+	margin-bottom: 10px;	
 	width: 100%;
 }
 .menu {
@@ -293,7 +299,7 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 .nav {
 	color: #111;
 	float: left;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	width: 100%;
 }
 .nav, .nav * {
@@ -312,10 +318,11 @@ p, pre, ul, ol, dl, dd, blockquote, address, table, fieldset, form,
 }
 ul.nav li.current_page_item a,
 ul.nav li.current-menu-item a {
-	background: #638D00;
+	background: #CD143C;
 	color: #FFF;
 	font-size: 11px;
 	font-weight: bold;
+	height: 35px;
 	text-decoration: none;
 	text-shadow: none;
 }
@@ -401,8 +408,9 @@ ul.nav li.current-menu-item a {
 
 #catg {
 	background: #FFF;
-	box-shadow: 0 2px 3px #8D8B8C;
+	box-shadow: 0 0 3px #8D8B8C;
 	float: left;
+	margin: 10px 0;
 	position: relative;
 	width: 100%;
 }
@@ -477,10 +485,9 @@ ul.nav li.current-menu-item a {
 	color: #111;
 	display: block;
 	font-size: 10px;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 0 10px;
 	position: relative;
-	text-shadow: 0 1px 0 #FFF;
 }
 #catg .nav a:hover {
 	background: #009188;
@@ -499,11 +506,15 @@ ul.nav li.current-menu-item a {
 #catg ul.nav li.current-cat a,
 #catg ul.nav li.current-menu-item a,
 .current-category-ancestor a {
-	background: #007A8F;
-	color: #FFF !important;
+	background: #369319;
+	color: #FFF;
 	text-decoration: none;
-	text-shadow: 0.1em 0.1em 0 #111 !important;
+	text-shadow: 0.1em 0.1em 0 #111;
 }
+#catg .sub-menu .current-menu-item a {
+	height: auto;
+}
+
 
 /* [#catg] bugfix */
 .ie7 #catg .nav:hover {
@@ -514,7 +525,7 @@ ul.nav li.current-menu-item a {
 /* Links */
 
 #secondary a {
-	color: #682860;
+	color: #55073E;
 	text-shadow: 0 0.5px 0 #FFF;
 }
 a {
@@ -527,31 +538,41 @@ a:hover {
 }
 .entry-content a:link,
 .entry-content a:active {
-	color: #91003A;
-	text-decoration: none;
+	border-bottom: 1px dotted;
+	color: #831662;
 }
 .entry-content a:hover {
-	text-decoration: underline;
+	background: #C169A6;
+	color: #FFF;
+	text-decoration: none;
 }
 .entry-content a:visited {
 	color: #9D724F;
 }
 .entry-content a:visited:hover {
 	color: #9D4F4F;
-	text-decoration: underline;
+	text-decoration: none;
 }
 .more-link {
-	background: #91003A;
-	color: #FFF !important;
+	border: 1px solid !important;
 	padding: 3px;
 }
-
+#page-links {
+	padding-top: 5px;
+}
+#page-links a {
+	border: 1px solid;
+	padding: 3px;
+}
+#page-links a:hover {
+	background: #C169A6;
+}
 
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-weight: bold;
 }
 h1 {
@@ -600,7 +621,7 @@ h6 {
 } 
 .format-chat .entry-content p{
 	border-left: 2px dotted #666;
-	font-family: Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+	font-family: Consolas, Monaco, "Courier New", monospace;
 	margin-left: 15px;
 	padding-left: 5px;
 }
@@ -614,11 +635,12 @@ h6 {
 	font-style: italic;
 }
 .entry-title a {
-	color: #434343;
+	color: #333;
+	text-shadow: 2px 2px 2px #B0B0B0;
 }
 .entry-title {
 	color: #333;
-	font-family: "Franklin Gothic Medium", "Arial Black", sans-serif;
+	font-family: "Arial Black", Arial, sans-serif;
 	font-size: 2em;
 	letter-spacing: -1px;
 	line-height: 1em;
@@ -631,6 +653,7 @@ h6 {
 	text-shadow: 0 1px 0 #FFF;
 }
 .entry-content {
+	font-size: 1.077em;
 	padding: 5px;
 }
 .sticky .entry-content {
@@ -656,8 +679,6 @@ abbr[title], acronym[title], dfn[title] {
 blockquote {
 	background: #F5F5EF;
 	border-left: 4px solid #638D00;
-	color: #333;
-	font-size: 12px;
 	font-style: italic;
 	margin-left: 15px;
 	margin-right: 25px;
@@ -690,8 +711,8 @@ ins {
 	text-decoration: underline;
 }
 var, kbd, samp, code, pre {
-	background: #F4F4F0;
-	font: 12px/1.62 Consolas, Monaco, "Lucida Console", "Courier New", monospace;
+	background: #F5F5F5;
+	font: 12px/1.5 Consolas, Monaco, "Courier New", monospace;
 }
 kbd {
 	font-weight: bold;
@@ -765,10 +786,9 @@ dt {
 #search-query {
 	margin-left: 35px;
 }
-#sidebar_bottom ul {
+#secondary ul {
 	list-style-image: none;
 	list-style-type: none;
-	margin: 0 0 0 16px;
 }
 #sidebar_bottom li {
 	margin: 0;
@@ -827,7 +847,7 @@ textarea:focus,
 button:hover, 
 .form-submit input:hover {
 	background: #FFF;
-	border-color: #777 #ccc #ccc #777;
+	border-color: #777 #CCC #CCC #777;
 }
 input[type="submit"] {
 	cursor: pointer;
@@ -850,7 +870,7 @@ input[type="submit"] {
 .widget-title {
 	background: url("library/media/images/widget_bg.png") repeat-y scroll left center #B0B0AD;
 	border-bottom: 1px solid #8D8B8C;
-	border-left: 4px solid #92000A;
+	border-left: 4px solid #A51C30;
 	border-right: 1px solid #8D8B8C;
 	color: #111;
 	font-size: 12px;
@@ -889,6 +909,7 @@ input[type="submit"] {
 	padding: 10px;
 }
 .comment-meta {
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 10px;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -969,6 +990,7 @@ input[type="submit"] {
 
 .pings-list {
 	font-size: 11px;
+	padding-left: 10px;
 }
 
 
@@ -981,7 +1003,7 @@ input[type="submit"] {
 	color: #FFF;
 }
 #copyright {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Century Gothic", Arial, "DejaVu Sans Serif", sans-serif;
 	font-size: 11px;
 	margin-bottom: 0;
 	padding-right: 10px;
@@ -994,7 +1016,8 @@ input[type="submit"] {
 
 /* Images */
 
-img {
+img { /* prevent too-wide images from breaking layout */
+	height: auto;
 	max-width: 100%;
 }
 img.alignleft {
@@ -1005,7 +1028,7 @@ img.alignleft {
 	padding: 3px;
 }
 img.alignright {
-	background: #fff;
+	background: #FFF;
 	border: 1px solid #999;
 	display: inline;
 	float: right;
@@ -1034,11 +1057,9 @@ img.aligncenter {
 	background: #F3F3F3;
 	border: 1px solid #DDD;
 	margin: 0 5px;
+	max-width: 95%;
 	padding: 2px;
 	text-align: center;
-}
-.wp-caption {
-	max-width: 100%; /* prevent too-wide images from breaking layout */
 }
 .wp-caption img {
 	border: 0 none;
@@ -1066,6 +1087,9 @@ img.aligncenter {
 	margin-left: 0;
 	padding: 1px;
 }
+.gallery-icon a {
+	border: none !important;
+}
 .gallery-caption {
 	font-size: 12px;
 	margin-left: 0;
@@ -1080,7 +1104,7 @@ img.aligncenter {
 	width: 50%;
 }
 .gallery-columns-3 .gallery-item {
-	width: 33.333%;
+	width: 33%;
 }
 .gallery-columns-4 .gallery-item {
 	width: 25%;
@@ -1170,7 +1194,7 @@ img.aligncenter {
 /* Dropcap */
 
 .dropcap {
-	color: #971A24;
+	color: #A51C30;
 	display: inline;
 	float: left;
 	font-family: Palatino, "Palatino Linotype", "Times New Roman", serif;

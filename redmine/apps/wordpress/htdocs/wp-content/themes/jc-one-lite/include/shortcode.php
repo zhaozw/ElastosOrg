@@ -23,7 +23,7 @@ Author URI: http://www.bibichette.com/
 
 add_action("init", 'jc_sc_add_shortcode_support');
 function jc_sc_add_shortcode_support(){
-    
+
     if (is_admin()) {
         // TODO add init function when theme is activated or updated
         // jc_sc_init_shortcode_options();
@@ -70,22 +70,22 @@ function jc_sc_add_shortcode_support(){
         add_shortcode($sc_prefixe.'raw', 'jc_sc_raw');
         // var
         add_shortcode($sc_prefixe.'var', 'jc_sc_var');
-        
-    }            
+
+    }
 }
 
 
 /**
 * buttons
-* 
-* type: button (simple colored button) 
+*
+* type: button (simple colored button)
 *   style: general colors
 * type: icon-button (simple button with icon)
-*   style: 
-------------------------------------------------------------------------------*/
+*   style:
+*/
 
 function jc_sc_button($args = '', $text= ''){
-    
+
     $r = shortcode_atts(
         array(
             'link' => '',
@@ -95,20 +95,18 @@ function jc_sc_button($args = '', $text= ''){
     $out = '';
     if ($r['link'] != ''){
         $out = '<a href="'.$r['link'].'"';
-        $out .= ' class="button'; 
+        $out .= ' class="button';
         if ($r['style'])
             $out .= ' button-'.$r['style'];
         $out .= '">';
-        if ($r['icon'] != '') 
-            $out .= '<span class="icon">';
+        if ($r['icon'] != '')
+            $out .= '<i class="icon icon-'.$r['icon'].'"></i> ';
         $out .= $text;
-        //$out .= '<span>'.$text.'</span>';
-        if ($r['icon'] != '') $out .= '</span><span class="image icon-'.$r['icon'].'"></span>'; 
         $out .= '</a>';
     }else{
         $out = $text;
     }
-    
+
     return $out;
 }
 
@@ -119,7 +117,7 @@ function jc_sc_button($args = '', $text= ''){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_p( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'class' => '',
         'style' => ''
@@ -128,7 +126,7 @@ function jc_sc_p( $atts, $content ){
     $return = '<p';
     if ($class != "") $return .= ' class="'.$class."'";
     if ($style != "") $return .= ' style="'.$style."'";
-    $return .= '>'.do_shortcode($content).'</p>';        
+    $return .= '>'.do_shortcode($content).'</p>';
     return $return;
 }
 
@@ -138,7 +136,7 @@ function jc_sc_p( $atts, $content ){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_box( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'type' => 'default',
         'icon' => '',
@@ -147,19 +145,19 @@ function jc_sc_box( $atts, $content ){
     ), $atts));
 
     $return = '<div class="';
-    // if ($empty == "") 
+    // if ($empty == "")
     $return .= 'box ';
-    if ($type != "") 
+    if ($type != "")
         $return .= 'box-type-'.$type.' ';
-    if ($icon != "") 
-        $return .= 'box-icon box-icon-'.$icon.' ';
+    //if ($icon != "")
+    //    $return .= 'box-icon box-icon-'.$icon.' ';
     if ($class != "") $return .= $class;
     $return .= '"';
     if ($style != "") $return .= ' style="'.$style.'"';
     $return .= '>';
-    if ($icon != "") 
-        $return .= '<div class="box-image"></div>';
-    $return .= '<div class="box-content">'.do_shortcode($content).'</div></div>';        
+    if ($icon != "")
+        $return .= '<i class="icon icon-'.$icon.'"></i>';
+    $return .= '<div class="box-content">'.do_shortcode($content).'</div></div>';
     return $return;
 }
 
@@ -206,14 +204,14 @@ function jc_sc_col_three_fourth_last( $atts, $content = null ) {
 ------------------------------------------------------------------------------*/
 
 function jc_sc_dropcap( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'color' => ''
     ), $atts));
 
     $return = '<span class="dropcap"';
     if ($color != "") $return .= ' style="color: '.$color.';"';
-    $return .= '>'.$content.'</span>';        
+    $return .= '>'.$content.'</span>';
     return $return;
 }
 
@@ -224,25 +222,25 @@ function jc_sc_dropcap( $atts, $content ){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_quote( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'type' => 'simple',
         'width' => ''
     ), $atts));
-    
+
     $return = '<blockquote class="';
     if ($type == 'double'){
-        $return .= 'double">'; 
+        $return .= 'double">';
     } else if ($type == 'pull'){
-        $return .= 'double pull"'; 
+        $return .= 'double pull"';
         if ($width != "")
             $return .= ' style="width: '.$width.'px;"';
         $return .= '>';
     } else {
-        $return .= 'simple">'; 
+        $return .= 'simple">';
     }
-    
-    $return .= do_shortcode($content).'</blockquote>';        
+
+    $return .= do_shortcode($content).'</blockquote>';
     return $return;
 }
 
@@ -252,14 +250,14 @@ function jc_sc_quote( $atts, $content ){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_list( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'type' => ''
     ), $atts));
 
     $return = '<div class="list';
     if ($type != "") $return .= ' list-'.$type;
-    $return .= '">'.do_shortcode($content).'</div>';        
+    $return .= '">'.do_shortcode($content).'</div>';
     return $return;
 }
 
@@ -268,7 +266,7 @@ function jc_sc_list( $atts, $content ){
   iFrame
 ------------------------------------------------------------------------------*/
 function jc_sc_iframe( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'src' => '',
         'width' => '320',
@@ -277,7 +275,7 @@ function jc_sc_iframe( $atts, $content ){
         'marginheight' => '0',
         'marginwidth' => '0'
     ), $atts));
-    
+
     $return = '';
     if ($src != '')
         $return = '<iframe src="'.$src.'" width="'.$width.'" height="'.$height.'" frameborder="'.$frameborder.'" marginheight="'.$marginheight.'" marginwidth="'.$marginwidth.'" ></iframe>';
@@ -311,14 +309,14 @@ function jc_sc_br( $atts, $content ){
 }
 
 function jc_sc_hr( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'type' => ''
     ), $atts));
 
     $return = '<hr';
     if ($type != "") $return .= ' class="'.$type.'"';
-    $return .= ' />';        
+    $return .= ' />';
     return $return;
 }
 
@@ -327,32 +325,32 @@ function jc_sc_hr( $atts, $content ){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_lorem_ipsum( $atts, $content ){
-    
+
     extract(shortcode_atts(array(
         'length' => '100',
         'count' => '1',
         'html' => '0'
     ), $atts));
-    
+
     $lorem = array(
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper, nunc ultrices faucibus rhoncus, lectus ligula cursus lacus, eget sagittis lectus dui eu risus. Aliquam sollicitudin enim a augue aliquet at condimentum augue dictum. Nam diam turpis, convallis a tempus id, cursus ut tellus. Donec sed rhoncus velit. Vivamus ut risus purus, ac congue leo. Aenean et libero lacus, non molestie turpis. Mauris urna leo, pharetra et accumsan id, facilisis laoreet erat. Vestibulum sit amet dignissim mauris. Curabitur accumsan massa ut turpis euismod suscipit sed eu ante. Etiam non volutpat urna. In et orci eget quam congue commodo at eu diam. Nullam at dolor massa, et vehicula est. Integer pellentesque molestie facilisis. Vestibulum quis varius leo. Pellentesque in sodales ligula. Quisque imperdiet interdum bibendum.',
         'Cras viverra metus nec nunc pulvinar posuere. Suspendisse potenti. Suspendisse in purus at nibh lobortis fermentum nec sit amet justo. Curabitur libero lectus, dapibus euismod iaculis vitae, euismod eget lorem. Donec ac dolor nisi. Sed sit amet mi nisi, vitae cursus dolor. Integer et nunc quam. Praesent ultrices magna ac justo convallis molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu massa est, vitae aliquam lacus. Nam blandit tincidunt tellus, nec tincidunt nibh euismod vel. Vestibulum ante ipsum primis in faucibus orci. In et orci eget quam congue commodo at eu diam. Nullam at dolor massa, et vehicula est. Integer pellentesque molestie facilisis. Sed gravida eros eget massa porta id vulputate sapien fringilla. Nullam risus diam, hendrerit et facilisis ut, tincidunt at odio.',
-        'In tincidunt magna lacus, id accumsan ante. Praesent tempor augue ac est lobortis blandit imperdiet justo tempor. Nunc eu lobortis lorem. Aliquam dui massa, mattis et placerat sed, sollicitudin sed nibh. Nullam in metus et magna volutpat feugiat id quis urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam bibendum neque sit amet metus lacinia interdum. Nulla neque metus, sodales tincidunt eleifend ut, sollicitudin sed quam. Curabitur bibendum varius felis at vestibulum. Sed gravida eros eget massa porta id vulputate sapien fringilla. Nunc hendrerit pellentesque urna vitae feugiat. Mauris mattis elit in eros pellentesque eu tincidunt arcu egestas. Pellentesque aliquet placerat tincidunt. Proin magna odio, aliquet non consequat non, interdum sed arcu.', 
+        'In tincidunt magna lacus, id accumsan ante. Praesent tempor augue ac est lobortis blandit imperdiet justo tempor. Nunc eu lobortis lorem. Aliquam dui massa, mattis et placerat sed, sollicitudin sed nibh. Nullam in metus et magna volutpat feugiat id quis urna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam bibendum neque sit amet metus lacinia interdum. Nulla neque metus, sodales tincidunt eleifend ut, sollicitudin sed quam. Curabitur bibendum varius felis at vestibulum. Sed gravida eros eget massa porta id vulputate sapien fringilla. Nunc hendrerit pellentesque urna vitae feugiat. Mauris mattis elit in eros pellentesque eu tincidunt arcu egestas. Pellentesque aliquet placerat tincidunt. Proin magna odio, aliquet non consequat non, interdum sed arcu.',
         'Etiam vulputate, nibh nec semper consectetur, elit augue interdum orci, in tempus velit massa rutrum ipsum. Etiam porta luctus urna, at aliquet magna condimentum eu. Proin ac rhoncus augue. Nunc ac malesuada dolor. Etiam non arcu ut tortor dictum facilisis ut sit amet nisl. Duis vel eros eget leo consectetur mollis vitae id nulla. Donec est augue, tristique feugiat vulputate non, blandit in sapien. Vestibulum elementum aliquam nunc varius hendrerit. Curabitur ac felis mi, vitae scelerisque mi. Nunc non odio vitae nisl tincidunt suscipit commodo at turpis. Aliquam eu tempus lorem. Mauris vel felis aliquet quam ultricies dictum a a nunc. Nulla et eros urna. Proin quis justo eu mauris faucibus feugiat. Nulla facilisi. Maecenas commodo tellus placerat felis aliquam pulvinar. Mauris mattis elit in eros pellentesque.',
         'Proin rhoncus sagittis ligula eu dignissim. Aliquam non aliquet odio. Sed lacus mi, convallis ac tincidunt non, suscipit ut orci. Morbi non ligula magna, ac volutpat nunc. Quisque congue porttitor mauris, vel posuere neque rutrum sit amet. Nunc dui justo, ullamcorper a eleifend in, sodales et leo. Cras at augue mauris, in faucibus tellus. Nullam risus diam, hendrerit et facilisis ut, tincidunt at odio. Nam urna nibh, accumsan eu congue at, malesuada a enim. Cras laoreet rhoncus tellus, nec bibendum nisi blandit vel. Duis molestie blandit semper. Aenean cursus, tellus ut iaculis tempus, sapien arcu ornare dui, faucibus interdum velit urna feugiat elit. Aenean vestibulum, enim id eleifend aliquet, nisi erat dapibus ipsum, et semper nisi tellus quis nuncet ultrices posuere cubilia luctus Curae.'
     );
-    
+
     if ($length > 800) $length = 800;
     $count = intval($count);
-    
+
     $out = '';
     for ($i=0 ; $i<$count ; $i++){
         if ($html != '0') $out .= '<p>';
-        $out .= substr($lorem[rand(0,4)], 0, $length);    
-        if ($html != '0') $out .= '</p>';        
+        $out .= substr($lorem[rand(0,4)], 0, $length);
+        if ($html != '0') $out .= '</p>';
         $out .= "\n";
-    }    
-    
+    }
+
     return $out;
 }
 
@@ -361,13 +359,13 @@ function jc_sc_lorem_ipsum( $atts, $content ){
 ------------------------------------------------------------------------------*/
 
 function jc_sc_auto( $atts, $content ){
-    
+
     if (jc_get_option('sc_wpauto') != 'yes'){
         $return = wpautop($content);
         $return = wptexturize($return);
     }
     $return = do_shortcode($return);
-    
+
     return $return;
 }
 

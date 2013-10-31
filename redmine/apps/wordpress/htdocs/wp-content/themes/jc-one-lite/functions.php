@@ -17,11 +17,13 @@ add_action('after_setup_theme', 'jc_one_setup');
 if (! function_exists('jc_one_setup')){
 
     function jc_one_setup() {
-        
+
+        global $wp_version;
+
         // load theme options
         jc_load_options();
 
-        // Loading languages 
+        // Loading languages
         load_theme_textdomain('jc-one-lite', get_template_directory() . '/languages');
 
         // Add custom post type
@@ -37,19 +39,32 @@ if (! function_exists('jc_one_setup')){
         register_nav_menu('primary', __('Primary Menu', 'jc-one-lite'));
 
         // Add support for custom backgrounds
-        add_custom_background();
+        if ( version_compare( $wp_version, '3.4', '>=' ) )
+            add_theme_support( 'custom-background' );
+        else
+            add_custom_background();
+
+        // Add support for custom headers
+        if ( version_compare( $wp_version, '3.4', '>=' ) )
+            add_theme_support( 'custom-header' );
+        else
+            add_custom_image_header();
+
 
         // Add support for Featured Images
         add_theme_support('post-thumbnails');
         set_post_thumbnail_size(200, 100, true);
         add_image_size('large-feature', 500, 375, true); // Used for large feature (header) images
-        
+        add_image_size('small-feature', 800, 200, true); // Used for small feature (header) images
 
         // set the good content width
         if (jc_get_option('sidebar') != 'no'){
             global $content_width;
             $content_width = 560;
         }
+
+        // Disable default gallery css styles
+        add_filter( 'use_default_gallery_style', '__return_false' );
 
         // Add Shortcodes
         if (jc_get_option('sc') != 'no'){
@@ -60,7 +75,7 @@ if (! function_exists('jc_one_setup')){
             add_filter('get_the_excerpt', 'do_shortcode');
         }
 
-        if (jc_get_option('sc_wpauto') != 'no'){
+        if (jc_get_option('sc_wpauto') == 'no'){
             remove_filter('the_content', 'wpautop');
             remove_filter('the_content', 'wptexturize');
         } else {
@@ -71,13 +86,13 @@ if (! function_exists('jc_one_setup')){
             add_filter('the_excerpt', 'jc_sc_wpautop', 99);
             add_filter('get_the_excerpt', 'jc_sc_wpautop', 99);
         }
-        
+
         if (is_admin()){
             add_action('init', 'jc_init_theme_options');
             add_action('admin_menu', 'jc_theme_menu');
             add_action('admin_menu', 'jc_admin_load');
             add_action('admin_menu', 'jc_admin_resources');
-        
+
             if (is_admin() && isset($_GET['activated'])) {
                 jc_init_default_themes_options(true);
             }
@@ -91,7 +106,7 @@ if (! function_exists('jc_one_setup')){
         global $pagenow;
         if (!(is_admin() || $pagenow == 'wp-login.php')){
             if (!is_user_logged_in()) {
-                if (get_option('under_contruction') == 'yes'){
+                if (jc_get_option('under_contruction') == 'yes'){
                     add_action('template_redirect', jc_under_contruction());
                 }
             }
@@ -102,9 +117,9 @@ if (! function_exists('jc_one_setup')){
 
 
 function jc_load_options() {
-    
+
     global $jc_options;
-    
+
     if (count($jc_options) == 0){
         // load theme options
         $jc_options = get_option('jc_theme_options', false);
@@ -124,7 +139,7 @@ function jc_get_option($key, $default=false) {
         $ret = $jc_options[$key];
     }
 
-    return $ret; 
+    return $ret;
 }
 
 function jc_add_option($key, $value) {
@@ -194,7 +209,7 @@ function jc_wp_head(){
 
     $css = jc_get_option('css');
     $js = jc_get_option('js');
-    
+
     $out = '';
     if ($css != '') $out .= '<style type="text/css">'."\n".$css."\n".'</style>'."\n";
     if ($js != '') $out .= '<script type="text/javascript">'."\n".'/* <![CDATA[ */'."\n".$js."\n".'/* ]]> */'."\n</script>\n";
@@ -221,11 +236,11 @@ function jc_wp_footer(){
  *
  * Load php file located in the types directory.
  */
-function jc_one_custom(){   
-    
+function jc_one_custom(){
+
     $custom_post_path = get_template_directory() . "/types/";
     if (!is_dir($custom_post_path)) return;
-        
+
     if ($custom_post_dir = opendir($custom_post_path)) {
         while (($custom_post_file = readdir($custom_post_dir)) !== false) {
             if (preg_match("#\.php$#i", $custom_post_file)){
@@ -236,9 +251,22 @@ function jc_one_custom(){
             }
         }
     }
-    
+
 }
 
+/**
+ * Add support for custom layout.
+ */
+function jc_body_class(){
+
+    $layout = jc_get_option('layout', 'default');
+    $layouts = array('default', 'empty', 'overlay');
+    if (!in_array($layout, $layouts)) {
+        $layout = 'default';
+    }
+    return 'layout-' . $layout;
+
+}
 
 /**
  * Register sidebar
@@ -255,7 +283,7 @@ function jc_register_sidebar() {
             'after_title' => '</h3>',
        ));
     }
-    
+
     if (jc_get_option('footer_sidebar') != 'no'){
         register_sidebar(array(
             'name' => __('Footer Sidebar 1', 'jc-one-lite'),
@@ -288,6 +316,41 @@ function jc_register_sidebar() {
 }
 add_action('widgets_init', 'jc_register_sidebar');
 
+/**
+ * Creates a nicely formatted and more specific title element text
+ * for output in head of document, based on current view.
+ */
+function jc_wp_title( $title, $sep ) {
+    global $paged, $page;
+
+    if ( is_feed() )
+        return $title;
+
+    // Add the site name.
+    $title .= get_bloginfo( 'name' );
+
+    // Add the site description for the home/front page.
+    $site_description = get_bloginfo( 'description', 'display' );
+    if ( $site_description && ( is_home() || is_front_page() ) )
+        $title = "$title $sep $site_description";
+
+    // Add a page number if necessary.
+    if ( $paged >= 2 || $page >= 2 )
+        $title = "$title $sep " . sprintf( __( 'Page %s', 'jc-one-lite' ), max( $paged, $page ) );
+
+    return $title;
+}
+add_filter( 'wp_title', 'jc_wp_title', 10, 2 );
+
+/**
+ * enqueue comment-reply
+ */
+function jc_enqueue_comment_reply() {
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'jc_enqueue_comment_reply' );
 
 /**
  * Test if a sidebar is activated
@@ -299,22 +362,22 @@ add_action('widgets_init', 'jc_register_sidebar');
  * @return boolean if there is a sidebar to display
  */
 function jc_has_sidebar($context) {
-    
+
     global $post;
-    
+
     if (is_page() || is_single()) {
         $sidebar = get_post_meta($post->ID, '_sidebar', true);
         if (isset($sidebar) && $sidebar == "0")
             return false;
     }
-    
+
     if ($context == 'primary') return (jc_get_option('sidebar') == 'yes' && is_active_sidebar('primary'));
-    if ($context == 'footer') 
-        return (jc_get_option('footer_sidebar') == 'yes' && 
+    if ($context == 'footer')
+        return (jc_get_option('footer_sidebar') == 'yes' &&
             (is_active_sidebar('footer_1')
             || is_active_sidebar('footer_2')
             || is_active_sidebar('footer_3')));
-    
+
     return false;
 }
 
@@ -325,35 +388,43 @@ function jc_has_sidebar($context) {
  *
  */
 function jc_one_get_social($before='<ul class="social-bar clearfix">', $after='</ul>') {
-    
+
     $out = '';
     $socials = array (
-        'twitter' => 'Twitter',
-        'facebook' => 'Facebook',
-        'myspace' => 'MySpace',
-        'flickr' => 'Flickr',
-        'skype' => 'Skype',
-        'youtube' => 'Youtube',
-        'vimeo' => 'Vimeo',
-        'dailymotion' => 'Daily Motion'
-    );    
+        'twitter' => 'u',
+        'facebook' => 'f',
+        'myspace' => 'k',
+        'flickr' => 'e',
+        'skype' => 'n',
+        'youtube' => 'w',
+        'vimeo' => 'v',
+        'dailymotion' => 'c',
+        'blogger' => 'b',
+        'digg' => 'd',
+        'linkedin' => 'i',
+        'reddit' => 'm',
+        'stumbleuppon' => 'o',
+        'tumblr' => 'p',
+        'viadeo' => 'q',
+        'wordpress' => 's',
+    );
     foreach ($socials as $sid => $sname) {
         $temp = jc_get_option($sid);
         if (isset($temp) && trim($temp) != ''){
-            $out .= '<li class="social-'.$sid.'"><a href="'.esc_url($temp).'" target="_blank">'.$sname.'</a></li>';            
+            $out .= '<li class="social-'.$sid.'"><a href="'.esc_url($temp).'" target="_blank">'.$sname.'</a></li>';
         }
     }
-    
+
     if ($out != ''){
         $out = $before.$out.$after;
     }
-    
+
     return $out;
 }
 
 
 
-        
+
 /**
  * Sets the post excerpt length to 50 words.
  *
@@ -367,7 +438,7 @@ function jc_one_get_the_excerpt($length=100, $end=' ...') {
     $out = get_the_excerpt();
     if (strlen($out) > $length)
         $out = substr($out, 0, $length).$end;
-        
+
     return $out;
 }
 
@@ -388,23 +459,30 @@ add_filter('wp_page_menu_args', 'jc_one_page_menu_args');
  */
 function jc_one_content_nav($nav_id, $context='loop') {
     global $wp_query;
-    
+
     if ($context == 'loop'){
         if ($wp_query->max_num_pages > 1) { ?>
-        <nav id="<?php echo $nav_id; ?>" class="clearfix">
+        <nav id="<?php echo $nav_id; ?>" class="clearfix" role="navigation">
             <div class="nav-previous"><?php previous_posts_link(__('<span class="meta-nav">&larr;</span> Newer posts', 'jc-one-lite')); ?></div>
             <div class="nav-next"><?php next_posts_link(__('Older posts <span class="meta-nav">&rarr;</span>', 'jc-one-lite')); ?></div>
         </nav>
         <?php }
+    } else if ($context == 'image') {
+        ?>
+        <nav id="<?php echo $nav_id; ?>" class="navigation clearfix" role="navigation">
+            <span class="nav-previous"><?php previous_image_link( false, __( '&larr; Previous', 'jc-one-lite' ) ); ?></span>
+            <span class="nav-next"><?php next_image_link( false, __( 'Next &rarr;', 'jc-one-lite' ) ); ?></span>
+        </nav><!-- #image-navigation -->
+        <?php
     } else {
         ?>
-        <nav id="<?php echo $nav_id; ?>" class="clearfix">
+        <nav id="<?php echo $nav_id; ?>" class="clearfix" role="navigation">
             <div class="nav-previous"><?php previous_post_link('%link', __('<span class="meta-nav">&larr;</span> %title', 'jc-one-lite')); ?></div>
             <div class="nav-next"><?php next_post_link('%link', __('%title <span class="meta-nav">&rarr;</span>', 'jc-one-lite')); ?></div>
         </nav>
-        <?php 
+        <?php
     }
-    
+
 }
 
 
@@ -412,7 +490,7 @@ function jc_one_content_nav($nav_id, $context='loop') {
  * Display A non results block in an empty categorie, tag, search, ...
  */
 function jc_one_no_results($message = '') {
-    
+
     if ($message == '')
         $message = __('Apologies, but no results were found. Perhaps searching will help find a related post.', 'jc-one-lite');
     ?>

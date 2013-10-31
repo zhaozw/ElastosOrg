@@ -33,7 +33,7 @@ class WPFramework {
 	 * @since 0.2.3
 	 */
 	function enviroment() {	
-		define( 'THEMELIB', TEMPLATEPATH . '/library' ); // Shortcut to point to the /library/ dir
+		define( 'THEMELIB', get_template_directory() . '/library' ); // Shortcut to point to the /library/ dir
 		define( 'THEMECORE', THEMELIB . '/functions/' ); // Shortcut to point to the /functions/ dir
 		define( 'THEMEMORE', THEMELIB . '/extensions/' ); // Shortcut to point to the /extensions/ dir
 		define( 'THEMEMEDIA', THEMELIB . '/media' ); // Shortcut to point to the /media/ URI
@@ -45,7 +45,7 @@ class WPFramework {
 		define( 'THEME', get_template_directory_uri() , true );
 		define( 'LIBRARY', THEME . '/library', true ); // Shortcut to point to the /library/ URI
 
-		if ( STYLESHEETPATH !== TEMPLATEPATH ) define( 'MEDIA', get_stylesheet_directory_uri(), true ); // Shortcut to point to the /media/ URI
+		if ( get_stylesheet_directory() !== get_template_directory() ) define( 'MEDIA', get_stylesheet_directory_uri(), true ); // Shortcut to point to the /media/ URI
 		else define( 'MEDIA', LIBRARY . '/media', true ); // Shortcut to point to the /media/ URI
 
 		define( 'CSS', MEDIA . '/css', true );
@@ -90,7 +90,8 @@ class WPFramework {
 		add_filter( 'the_generator', 'remove_generator_link', 1 ); // remove_generator_link() Removes generator link - Credits: (http://www.plaintxt.org)
 		add_filter( 'use_default_gallery_style', '__return_false' ); // remove inline styles printed when the gallery shortcode is used
 		add_filter( 'wp_page_menu', 'framework_menu_ulclass' ); // adds a .nav class to the ul wp_page_menu generates
-		add_custom_background(); // allows users to set a custom background
+		add_theme_support( 'custom-background' ); // allows users to set a custom background
+		add_editor_style();
 	}
 
 	/**

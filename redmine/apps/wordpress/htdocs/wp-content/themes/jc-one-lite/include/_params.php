@@ -4,7 +4,7 @@ function jc_init_theme_options(){
 
     global $jc_params;
     $theme = JC_OPTIONS_THEME;
-    
+
     // css
     $alt_stylesheet_path = get_template_directory() . '/styles/';
     $alt_stylesheets = array();
@@ -30,7 +30,7 @@ function jc_init_theme_options(){
         'type' => 'set',
         'help' => ''
     );
-    
+
     $options[] = array(
         'id' => 'stylesheet',
         "name" => __("Theme Stylesheet", 'jc-one-lite'),
@@ -38,6 +38,18 @@ function jc_init_theme_options(){
         "default" => "default.css",
         "type" => "select",
         "choices" => $alt_stylesheets
+    );
+    $options[] = array(
+        'id' => 'layout',
+        'name' => __('Layout', 'jc-one-lite'),
+        'help' => __('Select the layout style of the container', 'jc-one-lite'),
+        'default' => 'default',
+        'type' => 'select',
+        'choices' => array(
+            array( 'name' => __('default', 'jc-one-lite'), 'value' => 'default'),
+            array( 'name' => __('empty', 'jc-one-lite'), 'value' => 'empty'),
+            array( 'name' => __('overlay', 'jc-one-lite'), 'value' => 'overlay'),
+        )
     );
     $options[] = array(
         'id' => 'css',
@@ -81,7 +93,7 @@ function jc_init_theme_options(){
             array( 'name' => __('yes', 'jc-one-lite'), 'value' => 'yes'),
         )
     );
-    
+
     $options[] = array(
         'id' => 'header_settings',
         'name' => __('Header settings', 'jc-one-lite'),
@@ -115,8 +127,8 @@ function jc_init_theme_options(){
             'style' => 'style="width: 100px;"'
         )
     );
-    
-    
+
+
     $options[] = array(
         'id' => 'footer_settings',
         'name' => __('Footer settings', 'jc-one-lite'),
@@ -148,13 +160,13 @@ function jc_init_theme_options(){
         'id' => 'footer_copyright',
         'name' => __('Copyright', 'jc-one-lite'),
         'help' => __('Display a custom copyright', 'jc-one-lite'),
-        'default' => '<a href="http://www.madeby-jc.com/" target="_blank">made by JC</a>',
+        'default' => '<a href="http://www.netcod.es/" target="_blank">design by Netcodes</a>',
         'type' => 'text',
         'options' => array(
             'style' => 'style="width: 98%;"'
         )
     );
-    
+
     // Under Construction Settings
     $options[] = array(
         'id' => 'under_construction_settings',
@@ -190,24 +202,32 @@ function jc_init_theme_options(){
             'style' => 'style="width: 98%; height: 200px;"'
         )
     );
-    
+
     $options[] = array(
         'id' => 'social',
         'name' => __('Social Networks', 'jc-one-lite'),
         'type' => 'set',
         'help' => 'Just set the url profile for each social networks you want.'
     );
-    
+
     $socials = array (
-        'twitter' => 'Twitter',
-        'facebook' => 'Facebook',
+        'twitter' => 'twitter',
+        'facebook' => 'facebook',
         'myspace' => 'MySpace',
         'flickr' => 'Flickr',
         'skype' => 'Skype',
         'youtube' => 'Youtube',
         'vimeo' => 'Vimeo',
-        'dailymotion' => 'DailyMotion'
-    );    
+        'dailymotion' => 'DailyMotion',
+        'blogger' => 'Blogger',
+        'digg' => 'digg',
+        'linkedin' => 'Linkedin',
+        'reddit' => 'reddit',
+        'stumbleuppon' => 'StumbleUppon',
+        'tumblr' => 'tumblr',
+        'viadeo' => 'viadeo',
+        'wordpress' => 'WordPress'
+    );
     foreach ($socials as $sid => $sname) {
         $options[] = array(
             'id' => $sid,
@@ -220,7 +240,7 @@ function jc_init_theme_options(){
             )
         );
     }
-    
+
     $options[] = array(
         'id' => 'miscellanious',
         'name' => __('Miscellanious', 'jc-one-lite'),
@@ -252,7 +272,7 @@ function jc_init_theme_options(){
         'id' => 'sc_wpauto',
         'name' => __('Automatic Html correction', 'jc-one-lite'),
         'help' => __('Let Wordpress correct your Html and auto-generate &lt;p&gt; elements.<br />For advence Html editing and intense shortcodes usage, disable this options.', 'jc-one-lite'),
-        'default' => 'no',
+        'default' => 'yes',
         'type' => 'select',
         'choices' => array(
             array( 'name' => __('no', 'jc-one-lite'), 'value' => 'no'),
@@ -270,7 +290,7 @@ function jc_init_theme_options(){
             array( 'name' => __('yes', 'jc-one-lite'), 'value' => 'yes'),
         )
     );
-    
+
     $jc_params = $options;
     //update_option('jc_theme_options', $options);
 }
