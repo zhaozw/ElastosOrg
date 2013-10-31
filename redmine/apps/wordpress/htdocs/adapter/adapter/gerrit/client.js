@@ -1,24 +1,43 @@
 ﻿(function(){
-  adapter.log("gerrit client");
-  console.log(adapter.utils.getOpenID());
   adapter.utils.wait(adapter.utils.domReady,init);
   function init(){
-    var register = document.getElementsByTagName("a")[8];
-    var sign = document.getElementsByTagName("a")[9];
+    var register = document.getElementsByTagName("a")[13];
+    var openid = document.getElementById("f_openid");
 
-	if (!register || !sign) {
+	if (!register && !openid) {
 	  setTimeout(function(){init()},100);
 	  return;
 	}
 
-    if (sign.innerHTML == "Sign In" || sign.innerHTML == "登录") {
+	if (!register ) {
+	  setopenid();
+	  return;
+	}
+
+    if (register.innerHTML == "Register" || register.innerHTML == "注册") {
 		register.style.display="none";
-		login();
-
-    	adapter.utils.addEvent(sign,"click",function(){login();});
     }
+    addHover();
   }
-
+ function addHover(){
+	if(jQuery&&(jQuery('.changeTable').length>0)){
+          jQuery(".changeTable").find("tr").live({
+   mouseenter:
+   function()
+   {
+      this.color=this.style.backgroundColor;jQuery(this).css({backgroundColor:"lightblue"});
+   },
+   mouseleave:
+   function()
+   {
+     jQuery(this).css({backgroundColor:this.color});
+   }
+});
+	}
+        else {
+          setTimeout(addHover,200);
+       }
+}
   function checkIt(y) {
 	if(y.value.indexOf("elastos.org")<0) {
 		openID = adapter.utils.getOpenID();
@@ -29,22 +48,20 @@
 	}
   }
 
-  function login() {
-        var openID, input;
-		var sign = adapter.utils.$tag("a")[9];
-
-		adapter.utils.fireEvent(sign, "click");
-		adapter.utils.$class("GFE-PU4BIM")[0].style.display="none";
-		adapter.utils.$class("GFE-PU4BIM")[1].style.display="none";
+  function setopenid() {
+		document.getElementById("provider_google").style.display="none";
+		document.getElementById("provider_yahoo").style.display="none";
+		document.getElementsByTagName("a")[3].style.display="none";
 		
 		openID = adapter.utils.getOpenID();
-		input = document.getElementsByClassName('GFE-PU4BKM')[0];
-		if (openID) {
+		input = document.getElementById("f_openid");
+		if (openID)
             input.value = openID;
-        }
+        else
+			input.value = "http://xxxxxxxx.elastos.org";
 
 		if (!input.onchange) 
-			input.onchange=function(){var x=document.getElementsByClassName('GFE-PU4BKM')[0]; checkIt(x);}
+			input.onchange=function(){var x=document.getElementById("f_openid"); checkIt(x);}
 
 		function keyEnter(e) {
 			var iKeyCode=window.event.keyCode;
