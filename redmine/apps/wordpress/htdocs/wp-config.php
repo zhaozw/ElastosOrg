@@ -14,6 +14,7 @@
  * @package WordPress
  */
 define('WP_ALLOW_MULTISITE',true);
+define( 'SUNRISE', 'on' ); //WordPress MU Domain Mapping
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'wordpress');
@@ -88,7 +89,7 @@ define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 define( 'COOKIEHASH', 'd13577c3b31c835f8930e733eb2d5def' );
-define( 'COOKIE_DOMAIN', '.elastos.org' );
+//define( 'COOKIE_DOMAIN', '.elastos.org' );
 define( 'SITECOOKIEPATH', '/' );
 define( 'COOKIEPATH', '/' );
 
