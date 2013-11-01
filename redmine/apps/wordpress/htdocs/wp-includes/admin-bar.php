@@ -21,6 +21,10 @@ function _wp_admin_bar_init() {
 	if ( ! is_admin_bar_showing() )
 		return false;
 
+ 	if ( ! strstr($_SERVER['HTTP_HOST'], DOMAIN_CURRENT_SITE) ) {
+ 		return  false;
+	}
+
 	/* Load the admin bar class code ready for instantiation */
 	require( ABSPATH . WPINC . '/class-wp-admin-bar.php' );
 
