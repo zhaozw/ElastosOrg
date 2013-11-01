@@ -1826,7 +1826,7 @@ add_filter( 'the_permalink', 'esplanade_post_link' );
 if ( ! function_exists( 'esplanade_first_blockquote' ) ) :
 function esplanade_first_blockquote() {
 	$document = new DOMDocument();
-	$document->loadHTML( apply_filters( 'the_content', get_the_content( '', true ) ) );
+	@$document->loadHTML( apply_filters( 'the_content', get_the_content( '', true ) ) );
 	$blockquotes = $document->getElementsByTagName( 'blockquote' );
 	for( $i = 0; $i < $blockquotes->length; $i++ ) {
 		$blockquote = $blockquotes->item($i);
