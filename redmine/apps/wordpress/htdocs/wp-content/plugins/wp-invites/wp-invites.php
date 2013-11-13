@@ -229,7 +229,7 @@ function invites_add_signup_fields($errors_mu) {
 	<div style="width:100%;"><hr style="clear: both; margin-bottom: 1.5em; border: 0; border-top: 1px solid #999; height: 1px;" /></div>
   <p>
 		<label for="wp-invites"><?php _e('Invite code', 'wp-invites') ?></label><br />
-		<?php _e('Please, input here invitation code, received from <a href="mailto:pei.xilong@kortide.com.cn?subject=Apply for invitation code&body=New User frome elastos.org">Elastos Developer</a>', 'wp-invites') ?><br>
+		<?php _e('Input invitation code here.&nbsp; You can apply it from <a href="mailto:pei.xilong@kortide.com?subject=Apply for invitation code&body=New User from elastos.org">Elastos Developer</a>', 'wp-invites') ?><br>
 		<input type="text" name="invite_code" value="<?php echo $_REQUEST['invite_code'];?>" style="width:200px">
 	</p>
 	<?php
