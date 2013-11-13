@@ -1019,9 +1019,15 @@
 			return $qa_phrases_custom[$group][$label];
 			
 	//	Second look for a localized file
-	
-		$languagecode=qa_opt('site_language');
-		
+
+		$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 4);
+		//whether the request come from Chinese
+		if (preg_match("/zh-c/i", $lang)) {
+			$languagecode='zh';
+		} else {
+			$languagecode=qa_opt('site_language');
+		}
+
 		if (strlen($languagecode)) {
 			if (!isset($qa_phrases_lang[$group])) {
 				if (isset($qa_lang_file_pattern[$group]))
