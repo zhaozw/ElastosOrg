@@ -217,12 +217,12 @@ $tlCfg->loggerFilter = null; // default defined on logger.class.php ;
  * Configure using custom_config.inc.php
  * @uses lib/functions/email_api.php
  */
-$g_smtp_host        = '[smtp_host_not_configured]';  # SMTP server MUST BE configured
+$g_smtp_host        ='192.168.3.15';// '[smtp_host_not_configured]';  # SMTP server MUST BE configured
 
 # Configure using custom_config.inc.php
-$g_tl_admin_email     = '[testlink_sysadmin_email_not_configured]'; # for problem/error notification
-$g_from_email         = '[from_email_not_configured]';  # email sender
-$g_return_path_email  = '[return_path_email_not_configured]';
+$g_tl_admin_email     = 'elastos_pm@elastos.org';//'[testlink_sysadmin_email_not_configured]'; # for problem/error notification
+$g_from_email         = 'elastos_pm@elastos.org'; //'[from_email_not_configured]';  # email sender
+$g_return_path_email  = 'elastos_pm@elastos.org';//'[return_path_email_not_configured]';
 
 /**
  * Email notification priority (low by default)
@@ -240,8 +240,8 @@ $g_mail_priority = 5;
 $g_phpMailer_method = PHPMAILER_METHOD_SMTP;
 
 /** Configure only if SMTP server requires authentication */
-$g_smtp_username    = '';  # user
-$g_smtp_password    = '';  # password
+$g_smtp_username    = 'elastos_pm';  # user
+$g_smtp_password    = 'Elastos123';  # password
 
 /**
  * This control the connection mode to SMTP server. 
