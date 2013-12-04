@@ -214,6 +214,7 @@ $wpdb->check_tcp_responsiveness = true;
  * This adds the DB defined in wp-config.php as a read/write server for
  * the 'global' dataset. (Every table is in 'global' by default.)
  */
+
 $wpdb->add_database(array(
 	'host'     => DB_HOST,     // If port is other than 3306, use host:port.
 	'user'     => DB_USER,
@@ -225,25 +226,30 @@ $wpdb->add_database(array(
  * This adds the same server again, only this time it is configured as a slave.
  * The last three parameters are set to the defaults but are shown for clarity.
  */
+
 $wpdb->add_database(array(
 	'host'     => DB_HOST,     // If port is other than 3306, use host:port.
-	'user'     => DB_USER,
-	'password' => DB_PASSWORD,
-	'name'     => DB_NAME .'_1',
-	'write'    => 0,
+	'user'     => 'root',
+	'password' => 'kortide',
+	'name'     => 'wordpress_1',
+	'write'    => 1,
 	'read'     => 1,
 	'dataset'  => 'global_1',
 	'timeout'  => 0.2,
 ));
-$randomID = rand(0,1);
+
 $wpdb->add_callback('my_db_callback');
 function my_db_callback($query, $wpdb) {
-	// Multisite blog tables are "{$base_prefix}{$blog_id}_*"
-	//if ( preg_match("/^{$wpdb->base_prefix}\d+_/i", $wpdb->table) )
-        if($randomID==0)
-		return 'global';
-        else 
-                return 'global_1'
+		 
+			// Multisite blog tables are "{$base_prefix}{$blog_id}_*"		//if ( preg_match("/^{$wpdb->base_prefix}\d+_/i", $wpdb->table) )
+	$ptn = "/^([a-zA-Z_]+)([0-9]+)/";
+	$str = $wpdb->table;
+	preg_match($ptn, $str, $matches);
+	$dbID = intval(intval($matches[2]) / 5000);
+	if ($dbID > 0) {  
+	  return 'global_' . $dbID;
+	}
+	//	return 'global'
 }
 /** Sample Configuration 2: Partitioning **/
 
