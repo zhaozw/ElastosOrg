@@ -14,6 +14,7 @@
  * @package WordPress
  */
 define('WP_ALLOW_MULTISITE',true);
+define('DB_CONFIG_FILE', dirname(__FILE__) . '/db-config.php');
 define( 'SUNRISE', 'on' ); //WordPress MU Domain Mapping
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
