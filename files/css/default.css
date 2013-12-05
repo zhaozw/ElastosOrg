@@ -5,7 +5,7 @@
 
 body {
 background-color: white;
-background-image: url("img/bg-falling.png");
+background-image: url("/download/img/bg-falling.png");
 background-repeat: repeat-x;
   font-size: 100%;
   font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -16,17 +16,13 @@ h1, h2, h3 { font-family: 'Trebuchet MS', helvetica, sans-serif; }
 
 .wrap { width: 100%; margin: 0 auto; }
 
-.header { margin: 20px 0 20px 0; }
+.header { margin: 10px 0 10px 0; }
   .header .logo img {
     float: left;
-    height: 100px;
   }
 
   .header h1 {
     padding-left: 10px;
-    padding-top: 12px;
-    font-family: 'Ubuntu', serif;
-    font-size: 3em;
     font-style: normal;
     font-weight: 700;
     text-shadow: none;
@@ -68,9 +64,15 @@ h1, h2, h3 { font-family: 'Trebuchet MS', helvetica, sans-serif; }
   .content a       { color: #222; }
   .content a:hover { color: #555; }
 
-.footer { text-align: center; margin-top: 40px; font-size: 0.8em; }
-  .footer a { font-style: italic; text-decoration: none; color: #222; }
-  .footer a:hover { text-decoration: underline; }
+#footer {
+    clear: both;
+    margin: 2em 0 1em;
+}
+#footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+}
 
 /* elFinder wide icons */
 #elfinder .elfinder-cwd-view-icons .elfinder-cwd-file {
