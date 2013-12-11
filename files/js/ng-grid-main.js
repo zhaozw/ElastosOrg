@@ -1,4 +1,11 @@
-var app = angular.module('myApp', ['ngGrid']);
+var app = angular.module('myApp', ['ngGrid']).directive('ngBlur', function () {
+    return function (scope, elem, attrs) {
+        elem.bind('blur', function () {
+            scope.$apply(attrs.ngBlur);
+        });
+    };
+});
+
 app.controller('MyCtrl', function($scope, $http) {
     $scope.filterOptions = {
         filterText: "",
@@ -50,12 +57,32 @@ app.controller('MyCtrl', function($scope, $http) {
         }
     }, true);
 	
+	var cellEditableTemplate = "<input style=\"width: 90%\" step=\"any\" type=\"text\" ng-class=\"'colt' + col.index\" ng-input=\"COL_FIELD\" ng-model=\"COL_FIELD\" ng-blur=\"updateEntity(col, row)\"/>";
+	
     $scope.gridOptions = {
         data: 'myData',
         enablePaging: true,
         showFooter: true,
         totalServerItems:'totalServerItems',
         pagingOptions: $scope.pagingOptions,
-        filterOptions: $scope.filterOptions
+        filterOptions: $scope.filterOptions,
+        
+        enableCellSelection: true,
+        enableCellEdit: true,
+        enableRowSelection: false,
+        columnDefs: [{field: 'name', displayName: 'Name', enableCellEdit: false}, 
+        {field: 'allowance', displayName: 'Allowance', enableCellEdit: true, editableCellTemplate: cellEditableTemplate}, 
+        {field: 'paid', displayName: 'paid', enableCellEdit: true, editableCellTemplate: cellEditableTemplate},
+        {field: 'id', displayName: 'id', enableCellEdit: true},
+        {displayName: 'Options', cellTemplate: '<input type="button" onclick="alert(\'You clicked delete on item ID: {{row.entity.id}} \')" name="delete" value="Delete">'}]
     };
+    
+    // Update Entity on the server side
+    $scope.updateEntity = function (column, row) {
+        console.log(row.entity);
+        console.log(column.field);
+        // code for saving data to the server...
+        // row.entity.$update() ... <- the simple case
+    };
+    
 });

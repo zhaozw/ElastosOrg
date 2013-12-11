@@ -1,5 +1,5 @@
-[{"name": "Moroni", "allowance": 505050505050505050,  "paid": true},
-{"name": "Tiancum", "allowance": 53,  "paid": false},
+[{"name": "Moroni", "allowance": 505050505050505050,  "paid": true, "id": "1"},
+{"name": "Tiancum", "allowance": 53,  "paid": false, "id": "2"},
 {"name": "Jacob", "allowance": 27,  "paid": false},
 {"name": "Nephi", "allowance": 29,  "paid": false},
 {"name": "Enos", "allowance": 34,  "paid": false},
