@@ -1,116 +1,29 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
-    <head lang="en">
-        <meta charset="utf-8">
-        <title>Custom Plunker</title>  
-        <link rel="stylesheet" type="text/css" href="./css/ng-grid.css" />
-        <link rel="stylesheet" type="text/css" href="./css/ng-grid-2-style.css" />
-        <script src="./jquery/jquery.min.js"></script>
-        <script src="./js/angular.min.js"></script>
-        <script type="text/javascript" src="./js/ng-grid.min.js"></script>
-        <script type="text/javascript" src="./js/ng-grid-main.js"></script>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Custom Plunker</title>  
+	<link rel="stylesheet" type="text/css" href="./css/ng-grid.css" />
+	<link rel="stylesheet" type="text/css" href="./css/ng-grid-2-style.css" />
 
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<style type="text/css">
-	
-	/* common page styles */
-	body
-	{	background: #6595A3;
-		padding: 0 20px}
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
 
-	.clear
-	{	clear: both;
-		overflow: hidden;
-		height: 0}
+	<script src="./jquery/jquery.min.js"></script>
+	<script src="./js/angular.min.js"></script>
+	<script type="text/javascript" src="./js/ng-grid.min.js"></script>
+	<script type="text/javascript" src="./js/ng-grid-main.js"></script>
+</head>
 
-	#all
-	{	width: 80%;
-		min-width: 650px;
-		/*margin: 40px auto 0 auto;*/
-		background: #FCFFED;
-		padding: 20px 35px}
+<body  ng-controller="MyCtrl">
+	<div class="wrap">
+		<div class="header clearfix">
+        	<div class="logo">
+        		<a href="http://elastos.org"><img src="/elorg_common/img/ElastosOrg.png"></a>
+        		<h1><a href="http://elastos.org/download">Download<span>resource for Elastos world</span></a></h1>
+        	</div>
 
-	h1
-	{	font: 26px tahoma, arial;
-		color: #324143}
-
-	p
-	{	font: 12px tahoma, arial;
-		color: #171F26;
-		margin-bottom: 25px}
-
-	a
-	{	color: #324143}
-
-	a:hover
-	{	color: #7B8D3B}
-
-	#copyright
-	{	width: 80%;
-		min-width: 650px;
-		margin: 0 auto;
-		padding: 20px 35px;
-		background: #B6C28B;
-		font: 12px tahoma, arial;
-		color: #324143}
-
-	#copyright a
-	{	color: #324143}
-
-	#copyright a:hover
-	{	color: #171F26}
-	</style>
-
-
-    </head>
-    <body ng-controller="MyCtrl">
-
-<div id="all">
-
-<style type="text/css">
-/* menu styles */
-#jsddm
-{	margin: 0;
-	padding: 0}
-
-	#jsddm li
-	{	float: left;
-		list-style: none;
-		font: 12px Tahoma, Arial}
-
-	#jsddm li a
-	{	display: block;
-		background: #324143;
-		padding: 5px 12px;
-		text-decoration: none;
-		border-right: 1px solid white;
-		width: 70px;
-		color: #EAFFED;
-		white-space: nowrap}
-
-	#jsddm li a:hover
-	{	background: #24313C}
-		
-		#jsddm li ul
-		{	margin: 0;
-			padding: 0;
-			position: absolute;
-			visibility: hidden;
-			border-top: 1px solid white}
-		
-			#jsddm li ul li
-			{	float: none;
-				display: inline}
-			
-			#jsddm li ul li a
-			{	width: auto;
-				background: #A9C251;
-				color: #24313C}
-			
-			#jsddm li ul li a:hover
-			{	background: #8EA344}
-</style>
+		<div id="all-menu">
 
 <script type="text/javascript">
 var timeout         = 500;
@@ -141,32 +54,23 @@ document.onclick = jsddm_close;
 </script>
 
 <ul id="jsddm">
-	<li><a href="#">JavaScript</a>
-		<ul>
-			<li><a href="#">Drop Down Menu</a></li>
-			<li><a href="#">jQuery Plugin</a></li>
-			<li><a href="#">Ajax Navigation</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Effect</a>
-		<ul>
-			<li><a href="#">Slide Effect</a></li>
-			<li><a href="#">Fade Effect</a></li>
-			<li><a href="#">Opacity Mode</a></li>
-			<li><a href="#">Drop Shadow</a></li>
-			<li><a href="#">Semitransparent</a></li>
-		</ul>
-	</li>
-	<li><a href="#">Navigation</a></li>
-	<li><a href="#">HTML/CSS</a></li>
-	<li><a href="#">Help</a></li>
+	<li><a href="admin.html">Users & Resources</a></li>
+	<li><a href="#">My Resources</a></li>
+	<li><a href="#">Online Work</a></li>
 </ul>
 <div class="clear"> </div>
 
 <br>
 
 </div>
+    </div>
+    
         <div class="gridStyle" ng-grid="gridOptions"></div>
-    </body>
+        
+<div id="footer">
+     <p>Copyright &copy; 2012-2013 <a href="http://elastos.org" title="Elastos Org">ElastosOrg</a></p>
+</div>
+
+</body>
 
 </html>
