@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /opt/rubystack/scripts/setenv.sh
+
+exec /opt/rubystack/nginx/sbin/.nginx.bin -p /opt/rubystack/nginx/ "$@"

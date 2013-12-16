@@ -1,0 +1,2 @@
+192.168.4.93 - - [16/Dec/2013:11:18:16 +0800] "GET / HTTP/1.1" 200 1409 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36"
+192.168.4.93 - - [16/Dec/2013:11:18:16 +0800] "GET /favicon.ico HTTP/1.1" 404 198 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36"
