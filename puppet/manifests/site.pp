@@ -1,4 +1,6 @@
 import 'tests'
+import 'autostart'
+
 #import 'file.pp'
 node 'lhg-desktop'
 {
@@ -10,4 +12,27 @@ node 'lhg-desktop'
 #	include execute
 #	include cron
 	include service
+}
+
+node 'EOS'
+{
+		file
+		{
+				"/etc/init.d/autostart":
+					name => "/etc/init.d/autostart",
+					ensure => present,
+#					content => "123",
+					source => "puppet://EOS2/files/autostart",
+#					purge => true,
+#					force => true,
+#					ignore => ['mysql','tmp'],
+#					recurse => true,
+					group => root,
+					owner => root,
+					mode => 600
+		}
+}
+node 'EOS6'
+{
+		include autostart
 }
