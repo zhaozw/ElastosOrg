@@ -1,5 +1,6 @@
 import 'tests'
 import 'autostart'
+include 'addusers'
 
 #import 'file.pp'
 node 'lhg-desktop'
@@ -31,6 +32,7 @@ node 'EOS'
 					owner => root,
 					mode => 600
 		}
+		include user
 }
 node 'EOS6'
 {
