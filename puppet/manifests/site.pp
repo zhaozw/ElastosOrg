@@ -1,40 +1,16 @@
 import 'tests'
 import 'autostart'
-include 'addusers'
+import 'addusers'
 
 #import 'file.pp'
-node 'lhg-desktop'
-{
-#create a group
-#       include addgroup
-#create a user
-#	include adduser
-#	include files
-#	include execute
-#	include cron
-	include service
-}
 
 node 'EOS'
 {
-		file
-		{
-				"/etc/init.d/autostart":
-					name => "/etc/init.d/autostart",
-					ensure => present,
-#					content => "123",
-					source => "puppet://EOS2/files/autostart",
-#					purge => true,
-#					force => true,
-#					ignore => ['mysql','tmp'],
-#					recurse => true,
-					group => root,
-					owner => root,
-					mode => 600
-		}
+#create new users(mysql&daemon)
 		include user
 }
 node 'EOS6'
 {
+#change file 'autoatart'
 		include autostart
 }
