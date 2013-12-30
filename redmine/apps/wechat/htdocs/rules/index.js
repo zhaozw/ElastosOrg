@@ -26,9 +26,9 @@ module.exports = exports = function(webot){
     },
     handler: function(info){
       var reply = {
-        title: '感谢你收听webot机器人',
-        pic: 'https://raw.github.com/node-webot/webot-example/master/qrcode.jpg',
-        url: 'https://github.com/node-webot/webot-example',
+        title: 'Lamobo -- 比Raspberry Pi更便宜计算能力更强的可玩的计算机',
+        pic: 'http://lamobo.org/bbs/static/image/common/logo.png',
+        url: 'http://lamobo.org/',
         description: [
           '建议你试试这几条指令:',
             '1. game : 玩玩猜数字的游戏吧',
@@ -63,7 +63,20 @@ module.exports = exports = function(webot){
     // pattern 既可以是函数，也可以是 regexp 或 字符串(模糊匹配)
     pattern: /who|你是[谁\?]+/i,
     // 回复handler也可以直接是字符串或数组，如果是数组则随机返回一个子元素
-    handler: ['我是神马机器人', '微信机器人']
+    handler: function(info){
+      var reply = {
+        title: 'who are you',
+        pic: 'http://lamobo.org/bbs/static/image/common/logo.png',
+        url: 'http://lamobo.org/',
+        description: [
+          'I am 1',
+            'I am hello',
+            'PS: 点击下面的「查看全文」将跳转到我的github页'
+        ].join('\n')
+      };
+      // 返回值如果是list，则回复图文消息列表
+      return reply;
+    }
   });
 
   // 正则匹配后的匹配组存在 info.query 中
@@ -71,11 +84,11 @@ module.exports = exports = function(webot){
     description: '自我介绍下吧, 发送: I am [enter_your_name]',
     pattern: /^(?:my name is|i am|我(?:的名字)?(?:是|叫)?)\s*(.*)$/i,
 
-    // handler: function(info, action){
-    //   return '你好,' + info.param[1]
-    // }
+    handler: function(info, action){
+       return '你好,' + info.param[1];
+    }
     // 或者更简单一点
-    handler: '你好,{1}'
+    // handler: '你好,{1}'
   });
 
   // 简单的纯文本对话，可以用单独的 yaml 文件来定义

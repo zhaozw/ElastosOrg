@@ -38,7 +38,18 @@ do_action( 'bp_before_group_header' );
 </div><!-- #item-header-avatar -->
 
 <div id="item-header-content">
-	<h2><a href="<?php bp_group_permalink(); ?>" title="<?php bp_group_name(); ?>"><?php bp_group_name(); ?></a></h2>
+
+<?php
+$id = get_groupblog_blog_id(bp_get_group_id());
+if ($id > 1) {
+	switch_to_blog($id);
+	$str = get_bloginfo( 'wpurl' );
+	restore_current_blog();
+} else {
+	$str = bp_get_group_permalink();
+}
+?>
+	<h2><a href="<?php echo $str; ?>" title="<?php bp_group_name(); ?>"><?php bp_group_name(); ?></a></h2>
 	<span class="highlight"><?php bp_group_type(); ?></span> <span class="activity"><?php printf( __( 'active %s', 'buddypress' ), bp_get_group_last_active() ); ?></span>
 
 	<?php do_action( 'bp_before_group_header_meta' ); ?>
