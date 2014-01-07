@@ -4,7 +4,9 @@
  * 
  * @author Justin Greer
  */
+ 
 global $wp_query;
+
 /**
 * Require OAuth Storage
 */
@@ -22,7 +24,7 @@ $method = $wp_query->get('oauth');
 
 $allowed = array(
 				'authorize', 		// Authorize a user
-				'request_token',	// Request a Token
+				'access_token',		// Request a Token
 				'request_access',	// Request Access
 				'login'				// This is for the authorization login screen
 				);
@@ -45,18 +47,18 @@ $allowed = array(
 /**
  * Check to make sure only parameters defined are used and nothing else
  */				
-if (!in_array($method,$allowed)){
+if (! in_array($method, $allowed)) {
 	header("Content-Type: application/json");
 	header("Cache-Control: no-store");
-	$error = json_encode(array('error' => 'Paramter method', 'error_description' => 'The method parameter is required and seems to be missing'));
+	$error = json_encode(array('error' => 'Paramter method', 'error_description' => 'The method (' . $method . ') parameter is required and seems to be missing'));
 	echo $error;
 	exit;
-	}
+}
 	
 /**
 * Check and run the right method based on the method passed in the query
 */
-switch($method){
+switch( $method ) {
 	
 	case 'authorize':
 		
@@ -118,7 +120,7 @@ switch($method){
 	
 	break;
 	
-	case 'request_token':
+	case 'access_token':
 
 		header('X-Frame-Options: DENY');
 		
@@ -161,19 +163,19 @@ switch($method){
 		
 	break;
 	
-}// END SWITCH OF METHOD
+} // END SWITCH OF METHOD
 
 /**
  * Contains the HTML layout for the authorization login page
  */
-function oauth2LoginLayout(){
+function oauth2LoginLayout() {
 	
 	/**
 	 * Form handler
 	 */
 		
 	// CHECK IF THE LOGIN FORM HAS BEEN SUBMITTED
-	if(isset($_POST['login'])) {
+	if (isset($_POST['login'])) {
 		
 		$user 	= $_POST['user'];
 		$pwd	= $_POST['pwd'];
