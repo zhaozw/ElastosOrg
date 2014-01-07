@@ -17,13 +17,13 @@ function wp_oauth2_complete_init_dashboard() {
 	
   	wp_enqueue_style('wp_oauth2_provider_stylesheet');
 
-	if(isset($_POST['op2action']) && $_POST['op2action'] == 'Add Client'){
-		$oauthStorage->addClient($_POST['mdop_name'], $_POST['mdop_redirect_uri']);
-		}
-	if(isset($_GET['delete']) && $_GET['delete'] != ''){
+	if (isset($_POST['op2action']) && $_POST['op2action'] == 'Add Client') {
+		$oauthStorage->addClient($_POST['mdop_name'], $_POST['mdop_redirect_uri'], $_POST['mdop_users_id']);
+	}
+	if (isset($_GET['delete']) && $_GET['delete'] != '') {
 		global $wpdb;
 		$wpdb->delete('oauth2_clients', array('client_id'=> $_GET['delete']));
-		}
+	}
 	
 	// Added to be used through out the plugin backend
 	$adminUrl = admin_url();
@@ -72,10 +72,11 @@ function wp_oauth2_complete_init_dashboard() {
 			<table class="tablesorter" cellspacing="0"> 
 			<thead> 
 				<tr> 
-   					<th>Name</th> 
+   				<th>Name</th> 
     				<th>Key</th> 
     				<th>Secret</th> 
     				<th>Redirect URI</th> 
+    				<th>Users(id;id;)</th>
     				<th>Actions</th> 
 				</tr> 
 			</thead> 
@@ -97,12 +98,14 @@ function wp_oauth2_complete_init_dashboard() {
 			<header><h3>Add Client</h3></header>
 			<div class="module_content">
 				<form name="mdop_add_client" method="post" action="<?php print $adminUrl; ?>admin.php?page=wp_oauth2_complete">
-                	<table width="564" border="0">
+                	<table width="95%" border="0">
                       <tr>
                         <td>Name:</td>
                         <td><input type="text" name="mdop_name" id="mdop" value=""/></td>
                         <td>Redirect URI</td>
                         <td><input type="text" name="mdop_redirect_uri" id="mdop_redirect_uri" value="" /></td>
+                        <td>Users(id;id;)</td>
+                        <td><textarea name="mdop_users_id" id="mdop_users_id"></textarea></td>
                       </tr>
                       <tr>
                         <td>&nbsp;</td>

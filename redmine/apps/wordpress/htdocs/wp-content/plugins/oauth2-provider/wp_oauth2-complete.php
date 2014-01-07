@@ -94,6 +94,7 @@ function wp_oauth2_complete_install() {
 	client_id varchar(40) NOT NULL,
 	client_secret varchar(20) NOT NULL,
 	redirect_uri varchar(255) NOT NULL,
+	users_id varchar(4096),
 	PRIMARY KEY (client_id)
   	) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
 	  

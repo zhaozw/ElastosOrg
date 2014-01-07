@@ -635,7 +635,7 @@ class OAuth2 {
 	 * 
 	 * @ingroup oauth2_section_3
 	 */
-	public function getAuthorizeParams($inputData) {
+	public function getAuthorizeParams($inputData, $userId) {
 		
 		if (!isset($inputData)) {
 			$inputData = $_GET;
@@ -655,6 +655,16 @@ class OAuth2 {
 		$stored = $this->storage->getClientDetails($input["client_id"]);
 		//print_r($inputData);
 		
+		if ( !empty($stored['users_id']) ) {
+			if ( !strstr($stored['users_id'], $userId . ';') ) {
+				header("Content-Type: application/json");
+				header("Cache-Control: no-store");
+				$error = json_encode(array('Error' => 'User is not allowed'));
+				echo $error;
+				exit;
+			}
+		}
+
 		if ($stored === FALSE) {
 			header("Content-Type: application/json");
 			header("Cache-Control: no-store");
@@ -776,7 +786,7 @@ class OAuth2 {
 		
 		// We repeat this, because we need to re-validate. In theory, this could be POSTed
 		// by a 3rd-party (because we are not internally enforcing NONCEs, etc)
-		$params = $this->getAuthorizeParams($params);
+		$params = $this->getAuthorizeParams($params, $user_id);
 		
 		$params += array('scope' => NULL, 'state' => NULL);
 		extract($params);		

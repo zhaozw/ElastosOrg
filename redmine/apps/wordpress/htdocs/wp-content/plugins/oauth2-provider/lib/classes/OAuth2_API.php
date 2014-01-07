@@ -106,12 +106,12 @@ switch($method){
 		$userId = $current_user->ID;
 		
 		// JUST IN CASE ONLY RUN IF $user_id HAS BEEN SET
-		if($userId != ''){
+		if ($userId != '') {
 			$oauth->finishClientAuthorization(TRUE, $userId, $_GET); // AUTO AUTHORIZE
 		}
 		
 		try {
-			$auth_params = $oauth->getAuthorizeParams();
+			$auth_params = $oauth->getAuthorizeParams(NULL, $userId);
 		} catch (OAuth2ServerException $oauthError) {
 			$oauthError->sendHttpResponse();
 		}
@@ -119,35 +119,35 @@ switch($method){
 	break;
 	
 	case 'request_token':
-	
-	header('X-Frame-Options: DENY');
-	
-	try {
-		$oauth->grantAccessToken();
-	} catch (OAuth2ServerException $oauthError) {
-		$oauthError->sendHttpResponse();
-	}
-	
+
+		header('X-Frame-Options: DENY');
+		
+		try {
+			$oauth->grantAccessToken();
+		} catch (OAuth2ServerException $oauthError) {
+			$oauthError->sendHttpResponse();
+		}
+
 	break;
 	
 	case 'request_access':
 	
-	try {
-		$token = $oauth->getBearerToken();
-		$data = $oauth->verifyAccessToken($token);
-		
-		// GET THE USER ID FROM THE TOKEN AND NOT THE REQUESTING PARTY
-		$user_id = $data['user_id'];
-		
-		global $wpdb;
-		$info = $wpdb->get_row("SELECT * FROM wp_users WHERE ID = ".$user_id."");
-		header('Cache-Control: no-cache, must-revalidate');
-		header('Content-type: application/json');
-		print_r(json_encode($info));
-		
-	} catch (OAuth2ServerException $oauthError) {
-		$oauthError->sendHttpResponse();
-	}
+		try {
+			$token = $oauth->getBearerToken();
+			$data = $oauth->verifyAccessToken($token);
+			
+			// GET THE USER ID FROM THE TOKEN AND NOT THE REQUESTING PARTY
+			$user_id = $data['user_id'];
+			
+			global $wpdb;
+			$info = $wpdb->get_row("SELECT * FROM wp_users WHERE ID = ".$user_id."");
+			header('Cache-Control: no-cache, must-revalidate');
+			header('Content-type: application/json');
+			print_r(json_encode($info));
+			
+		} catch (OAuth2ServerException $oauthError) {
+			$oauthError->sendHttpResponse();
+		}
 	
 	break;
 	// RETURN EVERYTHING ABOUT THE CURRENT USER
@@ -161,9 +161,6 @@ switch($method){
 		
 	break;
 	
-	
-	
-
 }// END SWITCH OF METHOD
 
 /**

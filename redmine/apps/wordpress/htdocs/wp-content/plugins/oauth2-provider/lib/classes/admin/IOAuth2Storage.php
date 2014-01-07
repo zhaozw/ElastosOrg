@@ -43,17 +43,22 @@ class IOAuth2StorageWP implements IOAuth2GrantCode, IOAuth2RefreshTokens{
 	 * 
 	 * @todo Add Parameter "$client_name" to be more friendly in the WP OAuth2 Complete Dashboard
 	 */
-	public function addClient($mdop_name, $client_redirect) {
+	public function addClient($mdop_name, $client_redirect, $users_id)
+	{
+		if (empty($mdop_name) || empty($client_redirect) || empty($users_id)) {
+			return  FALSE;
+		}
+		
 		$client_id 		= $this->generateKey();
 		$client_secret 	= $this->generateSecret();
 		
 		global $wpdb;
 		$addClient = $wpdb->insert('oauth2_clients',array('name'=>$mdop_name, 'client_id' => trim(rtrim($client_id)), 'client_secret' => $client_secret, 'redirect_uri' => $client_redirect));
-		if (!$addClient){
+		if (! $addClient) {
 			$this->handleException('Could not add Client');
-			}else{
-				return TRUE;
-				}
+		} else {
+			return TRUE;
+		}
 	}
 
 	/**
@@ -69,11 +74,11 @@ class IOAuth2StorageWP implements IOAuth2GrantCode, IOAuth2RefreshTokens{
 	public function checkClientCredentials($client_id, $client_secret) {
 		global $wpdb;
 		$wpdb->query("SELECT client_id, client_secret FROM oauth2_clients WHERE client_id = '$client_id' AND client_secret = '$client_secret'");
-		if ($wpdb->num_rows > 0){
+		if ($wpdb->num_rows > 0) {
 			return TRUE;
-		}else{
+		} else {
 			return FALSE;
-			}		
+		}		
 	}
 
 	/**
@@ -86,11 +91,11 @@ class IOAuth2StorageWP implements IOAuth2GrantCode, IOAuth2RefreshTokens{
 	public function getClientDetails($client_id) {
 		global $wpdb;
 		$info = $wpdb->get_results("SELECT * FROM oauth2_clients WHERE client_id = '$client_id'", ARRAY_A );
-		if ($wpdb->num_rows > 0){
+		if ($wpdb->num_rows > 0) {
 			return $info[0];
-			}else{
+		} else {
 			return FALSE;
-			}
+		}
 	}
 
 	/**
@@ -165,11 +170,11 @@ class IOAuth2StorageWP implements IOAuth2GrantCode, IOAuth2RefreshTokens{
 	 * @param $scope We are currently not using this 
 	 */
 	public function setAuthCode($code, $client_id, $user_id, $redirect_uri, $expires, $scope = NULL) {
-		  global $wpdb;
-		  $set = $wpdb->insert('oauth2_auth_codes',array('code' => $code, 'client_id' => $client_id, 'user_id' => $user_id, 'redirect_uri' => $redirect_uri, 'expires' => $expires, 'scope' => $scope ));
-		  if (!$set){
-			  $this->handleException('Failed to set token');
-			  }
+		global $wpdb;
+		$set = $wpdb->insert('oauth2_auth_codes',array('code' => $code, 'client_id' => $client_id, 'user_id' => $user_id, 'redirect_uri' => $redirect_uri, 'expires' => $expires, 'scope' => $scope ));
+		if (! $set) {
+			$this->handleException('Failed to set token');
+		}
 	}
 
 	/**

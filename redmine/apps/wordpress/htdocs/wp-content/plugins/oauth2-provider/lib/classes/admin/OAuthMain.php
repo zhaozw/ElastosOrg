@@ -36,6 +36,7 @@ class oauthAdmin {
     			print 	'<td>' . $single->client_id . '</td>'; 
     			print 	'<td>' . $single->client_secret . '</td>'; 
     			print 	'<td>' . $single->redirect_uri . '</td>';
+    			print 	'<td>' . $single->users_id . '</td>';
 				print 	'<td><a href="' . admin_url() . 'admin.php?page=wp_oauth2_complete&delete=' . $single->client_id . '" title="Delete this client" onclick="return confirm(\'Are you sure you want to delete this client\')">Delete</a></td>';
 				print '</tr>'; 
 						
