@@ -20,11 +20,19 @@ function wp_oauth2_complete_init_dashboard() {
 	if (isset($_POST['op2action']) && $_POST['op2action'] == 'Add Client') {
 		$oauthStorage->addClient($_POST['mdop_name'], $_POST['mdop_redirect_uri'], $_POST['mdop_users_id']);
 	}
+
 	if (isset($_GET['delete']) && $_GET['delete'] != '') {
 		global $wpdb;
 		$wpdb->delete('oauth2_clients', array('client_id'=> $_GET['delete']));
 	}
-	
+
+	// the URL look like:
+	// http://elastos.org/wp-admin/admin.php?page=wp_oauth2_complete&edit=8f867fde7f6caa336edf64e611ec4804ae2547a1&name=test&redirectURL=http://test.elastos.org
+	if (isset($_GET['edit']) && $_GET['edit'] != '') {
+		global $wpdb;
+		$wpdb->update('oauth2_clients', array('name'=> $_GET['name'], 'redirect_uri'=> $_GET['redirectURL']), array('client_id'=> $_GET['edit']));
+	}
+
 	// Added to be used through out the plugin backend
 	$adminUrl = admin_url();
 ?>
@@ -105,7 +113,7 @@ function wp_oauth2_complete_init_dashboard() {
                         <td>Redirect URI</td>
                         <td><input type="text" name="mdop_redirect_uri" id="mdop_redirect_uri" value="" /></td>
                         <td>Users(id;id;)</td>
-                        <td><textarea name="mdop_users_id" id="mdop_users_id"></textarea></td>
+                        <td><textarea name="mdop_users_id" id="mdop_users_id" style="width:100%;height:65px;"></textarea></td>
                       </tr>
                       <tr>
                         <td>&nbsp;</td>
