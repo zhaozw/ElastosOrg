@@ -247,3 +247,8 @@ div.solr_noresult {
 .clear {
 	clear: both;
 }
+
+.searchform{width:178px;margin:15px auto;position:relative;height:30px;}
+.searchform_text{padding:5px 5px;width:168px;border:1px solid #ccc;}
+.searchform_text:focus{outline:none;border-color:#7BD6F6;box-shadow:0 0 3px rgba(123,214,246,.6);} 
+.searchform_text_big{width:670px;}

@@ -27,8 +27,15 @@ function spanOrder($sort, $order, $thisSpan) {
             } ?>
 
             <form name="searchbox" method="get" id="searchbox" action="">
-			    <input id="qrybox" name="solr" type="text" class="solr_field" value="<?php echo $results['query'] ?>"/><input id="searchbtn" type="submit" value="Search" />
+				<table id="mw-search-top-table" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>
+				<input id="qrybox" name="solr" size="50" class="searchform_text searchform_text_big" autofocus="" style="padding-left:4px !important;" name="search" value="<?php echo $results['query'] ?>"/>
+				<?php
+					global $this_plugin_dir_url;
+					echo '<input id="searchbtn" type="submit" value="" class="searchform_btn" style="position:absolute;width:20px;left:670px;top:32px;border-width:0px;background: url(' . $this_plugin_dir_url . 'template/search.gif) 4px 4px no-repeat;" >';
+				?>
+				</td></tr></tbody></table>
             </form>
+
             <ul class="solr_facets">
             <li class="solr_active">
 				<ol>
