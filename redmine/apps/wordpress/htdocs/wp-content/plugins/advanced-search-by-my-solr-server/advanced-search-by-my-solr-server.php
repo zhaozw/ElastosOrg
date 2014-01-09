@@ -652,7 +652,7 @@ function mss_handle_status_change( $post_id ) {
 		if ( ($_POST['prev_status'] == 'publish' || $_POST['original_post_status'] == 'publish') && ($post_info->post_status == 'draft' || $post_info->post_status == 'private') ) {
 			$solr = new Mss_Solr();
 			if ($solr->connect($options, true)) {
-				$solr->deleteById( $post_info->ID );
+				$solr->deleteById( get_blog_permalink($post_info->blog_id, $post_info->ID) );
 			}
 		}
 	}
@@ -668,7 +668,7 @@ function mss_handle_delete( $post_id ) {
 	if (in_array($post_info->post_type, $aPostTypes)) {
 		$solr = new Mss_Solr();
 		if ($solr->connect($options, true)) {
-			$solr->deleteById( $post_info->ID );
+			$solr->deleteById( get_blog_permalink($post_info->blog_id, $post_info->ID) );
 		}
 	}
 }
