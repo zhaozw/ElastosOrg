@@ -106,9 +106,11 @@ function spanOrder($sort, $order, $thisSpan) {
 			} else {
 				printf("<ol>\n");
 					foreach($results['results'] as $result) {
-							printf("<li onclick=\"window.location='%s'\">\n", $result['permalink']);
-							printf("<h2><a href='%s'>%s</a></h2>\n", $result['permalink'], $result['title']);
-							printf("<p>%s <a href='%s'>(comment match)</a></p>\n", $result['teaser'], $result['comment_link']);
+							//printf("<li onclick=\"window.location='%s'\">\n", $result['permalink']);
+							printf("<li>\n");
+							printf("<h2><a href='%s' target=\"_blank\">%s</a></h2>\n", $result['permalink'], $result['title']);
+							$value = htmlspecialchars($result['teaser'], ENT_NOQUOTES, 'UTF-8');
+							printf("<p>%s</p>\n", $value);
 							printf("<label> By <a href='%s'>%s</a> in %s %s - <a href='%s'>%s comments</a></label>\n", 
 							            $result['authorlink'], 
 							            $result['author'], 

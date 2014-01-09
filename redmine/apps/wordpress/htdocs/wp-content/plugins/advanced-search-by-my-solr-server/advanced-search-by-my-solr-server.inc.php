@@ -137,7 +137,7 @@ function mss_load_all($options, $prev) {
 	global $wpdb;
 	$documents = array();
 	$cnt = 0;
-	$batchsize = 100;
+	$batchsize = 50;
 	$last = "";
 	$found = FALSE;
 	$end = FALSE;
@@ -211,15 +211,23 @@ function mss_build_document( $options, $post_info ) {
 		$auth_info = get_userdata( $post_info->post_author );
 
 		//$doc->setField( 'id', 'blog' . $post_info->blog_id . 'post' . $post_info->ID );
-		$doc->setField( 'url', get_blog_permalink( $post_info->blog_id, $post_info->ID ) );
+		$doc->setField( 'url', get_blog_permalink($post_info->blog_id, $post_info->ID) );
 		$doc->setField( 'wp', 'wp');
 
 		$numcomments = 0;
 		if ($index_comments) {
+			
+			//error_log( $post_info->blog_id . get_blog_permalink($post_info->blog_id, $post_info->ID) );
+			$new_blog = switch_to_blog($post_info->blog_id);
+			
 			$comments = get_comments("status=approve&post_id={$post_info->ID}");
 			foreach ($comments as $comment) {
 				$doc->addField( 'comments', $comment->comment_content );
 				$numcomments += 1;
+			}
+			
+			if ($new_blog) {
+				restore_current_blog();
 			}
 		}
 

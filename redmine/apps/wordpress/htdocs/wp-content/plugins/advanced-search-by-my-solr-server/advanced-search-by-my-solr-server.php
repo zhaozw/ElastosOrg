@@ -864,28 +864,40 @@ function mss_search_results() {
 				foreach ( $response->docs as $doc ) {
 					$resultinfo = array();
 					$docid = strval($doc->id);
-					$resultinfo['permalink'] = $doc->permalink;
-					$resultinfo['title'] = $doc->title;
+					$resultinfo['permalink'] = $doc->url;
+					if (mb_strlen($doc->title) < 1) {
+						$resultinfo['title'] = $doc->url;
+					} else {
+						$resultinfo['title'] = $doc->title;
+					}
 					$resultinfo['author'] = $doc->author;
 					$resultinfo['authorlink'] = htmlspecialchars($doc->author_s);
 					$resultinfo['numcomments'] = $doc->numcomments;
 					$resultinfo['date'] = $doc->displaydate;
 
-					if ($doc->numcomments === 0) {
-						$resultinfo['comment_link'] = $doc->permalink . "#respond";
+					if (intval($doc->numcomments) == 0) {
+						$resultinfo['comment_link'] = $doc->url . "#respond";
 					} else {
-						$resultinfo['comment_link'] = $doc->permalink . "#comments";
+						$resultinfo['comment_link'] = $doc->url . "#comments";
 					}
 
 					$resultinfo['score'] = $doc->score;
 					$resultinfo['id'] = $docid;
 					$docteaser = $teasers[$docid];
 					if ($docteaser->content) {
-						$resultinfo['teaser'] = sprintf(__("...%s..."), implode("...", strip_tags($docteaser->content)));
+						$resultinfo['teaser'] = sprintf(__("...%s..."), implode("...", $docteaser->content));
 					} else {
-						$words = split(' ', strip_tags($doc->content));
+        				if (mb_strlen($doc->content) > 300) {
+        				    $teaser = mb_substr($doc->content,0,300);
+							$resultinfo['teaser'] = sprintf(__("%s..."), $teaser);
+						} else {
+							$resultinfo['teaser'] = $doc->content; 
+						}
+						/*old method:
+						$words = split(' ', $doc->content);
 						$teaser = implode(' ', array_slice($words, 0, 30));
 						$resultinfo['teaser'] = sprintf(__("%s..."), $teaser);
+						*/
 					}
 					$resultout[] = $resultinfo;
 				}
