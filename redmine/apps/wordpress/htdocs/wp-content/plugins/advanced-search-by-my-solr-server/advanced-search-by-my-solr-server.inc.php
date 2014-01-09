@@ -432,6 +432,10 @@ function mss_autocomplete($q, $limit) {
 			return;
 		}
 
+		if ( is_null($response->terms->spell) ) {
+			return;
+		}
+		
 		$terms = get_object_vars($response->terms->spell);
 		foreach($terms as $term => $count) {
 			printf("%s\n", $term);
