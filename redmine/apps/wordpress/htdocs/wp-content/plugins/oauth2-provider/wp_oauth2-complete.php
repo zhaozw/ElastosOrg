@@ -27,6 +27,10 @@ License: GPL2
  * Adds the menu to the the WordPress Administrator Panel 
  */
 function wp_oauth2_complete_menu() {
+	if ( ! is_super_admin() ) {
+		return;
+	}
+
 	add_menu_page( 'WP OAuth2 Complete', 'Provider', 'manage_options', 'wp_oauth2_complete', 'wp_oauth2_complete_init_dashboard' );
 }
 add_action( 'admin_menu', 'wp_oauth2_complete_menu' );
