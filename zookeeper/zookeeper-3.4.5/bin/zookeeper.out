@@ -1,0 +1,43 @@
+2014-01-10 15:46:26,453 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /opt/zookeeper/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2014-01-10 15:46:26,456 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2014-01-10 15:46:26,457 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2014-01-10 15:46:26,457 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2014-01-10 15:46:26,457 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2014-01-10 15:46:26,465 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /opt/zookeeper/zookeeper-3.4.5/bin/../conf/zoo.cfg
+2014-01-10 15:46:26,465 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2014-01-10 15:46:26,470 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+2014-01-10 15:46:26,470 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=EOS2
+2014-01-10 15:46:26,470 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.6.0_33
+2014-01-10 15:46:26,470 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Sun Microsystems Inc.
+2014-01-10 15:46:26,471 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/opt/jdk/jre
+2014-01-10 15:46:26,471 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/opt/zookeeper/zookeeper-3.4.5/bin/../build/classes:/opt/zookeeper/zookeeper-3.4.5/bin/../build/lib/*.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../lib/slf4j-log4j12-1.6.1.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../lib/slf4j-api-1.6.1.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../lib/netty-3.2.2.Final.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../lib/log4j-1.2.15.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../lib/jline-0.9.94.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../zookeeper-3.4.5.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../src/java/lib/*.jar:/opt/zookeeper/zookeeper-3.4.5/bin/../conf:
+2014-01-10 15:46:26,471 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/opt/jdk/jre/lib/amd64/server:/opt/jdk/jre/lib/amd64:/opt/jdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2014-01-10 15:46:26,471 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2014-01-10 15:46:26,472 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2014-01-10 15:46:26,472 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2014-01-10 15:46:26,472 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2014-01-10 15:46:26,472 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=3.2.0-23-generic
+2014-01-10 15:46:26,473 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=root
+2014-01-10 15:46:26,473 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/root
+2014-01-10 15:46:26,473 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/opt/zookeeper/zookeeper-3.4.5/bin
+2014-01-10 15:46:26,478 [myid:] - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2014-01-10 15:46:26,478 [myid:] - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2014-01-10 15:46:26,479 [myid:] - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2014-01-10 15:46:26,558 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2014-01-10 15:46:26,567 [myid:] - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0x0 to /opt/zookeeper/zoo/version-2/snapshot.0
+2014-01-10 15:46:59,546 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:32877
+2014-01-10 15:46:59,589 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:32877
+2014-01-10 15:46:59,592 [myid:] - INFO  [SyncThread:0:FileTxnLog@199] - Creating new log file: log.1
+2014-01-10 15:46:59,670 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x1437b1dca8a0000 with negotiated timeout 30000 for client /127.0.0.1:32877
+2014-01-10 15:59:41,293 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /127.0.0.1:50734
+2014-01-10 15:59:41,294 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@793] - Connection request from old client /127.0.0.1:50734; will be dropped if server is in r-o mode
+2014-01-10 15:59:41,295 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /127.0.0.1:50734
+2014-01-10 15:59:41,330 [myid:] - INFO  [SyncThread:0:ZooKeeperServer@595] - Established session 0x1437b1dca8a0001 with negotiated timeout 10000 for client /127.0.0.1:50734
+2014-01-10 16:00:34,357 [myid:] - WARN  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@349] - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x1437b1dca8a0001, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:662)
+2014-01-10 16:00:34,359 [myid:] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /127.0.0.1:50734 which had sessionid 0x1437b1dca8a0001
+2014-01-10 16:00:44,000 [myid:] - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x1437b1dca8a0001, timeout of 10000ms exceeded
+2014-01-10 16:00:44,001 [myid:] - INFO  [ProcessThread(sid:0 cport:-1)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x1437b1dca8a0001
