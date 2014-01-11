@@ -316,7 +316,9 @@ function highlighter_action_links( $links, $file ) {
     array_unshift( $links, $settings_link );
     return $links;
 }
-register_activation_hook(__FILE__, 'highlighter_activate');
+if (function_exists('register_activation_hook')) {
+	register_activation_hook(__FILE__, 'highlighter_activate');
+}
 add_action( 'init' , 'highlighter_init');
 add_filter( 'plugin_action_links', 'highlighter_action_links',10,2);
 add_action('admin_menu','highlighter_menu');
