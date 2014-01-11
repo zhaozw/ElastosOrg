@@ -1,0 +1,65 @@
+<html>
+   <head><title>Create path</title>
+         <script type="text/javascript" src="lib/jquery.js"></script>
+         <script type="text/javascript">
+            $.ajaxSetup({cache:false});
+            function login(){
+                var form=$("#login_form");
+                if(form.is(":hidden")){
+                    form.show();
+                }else{
+                    form.hide();
+                }
+            }
+         </script>
+		  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+		  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+   </head>
+   <body>
+	 <div class= "container">
+     <div id='login'>
+       <% if(user) { %>
+       <h3>Welcome,<%= user %> </h3>
+       <% }else{ %>
+       <a href='#' onclick='login();'><label>Signin</label></a>
+       <div id='login_form' style='display:none;'>
+         <form method="post" action="/node-zk/login">
+		   <label>Username</label>
+           <input type="text" name="user[name]" />
+		   <label>Password</label>
+           <input type="password" name="user[password]" />
+           <input type="submit" value="Submit" />
+         </form>
+       </div>
+       <% } %>
+     </div>
+     </br>
+     <div>
+      <form action="/node-zk/create" method="post">
+        <table class= "table table-bordered">
+          <tr>
+           <td>Path </td>
+           <td><input type='text' name="path"> </td>
+          </tr>
+         <tr>
+           <td>Data</td>
+           <td><input type='text' name="data"> </td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>
+         PERSISTENT&nbsp;<input type='radio' name='flag' value="0" checked="true"/></br>
+         PERSISTENT_SEQUENTIAL&nbsp;<input type='radio' name='flag' value="2"/> </br>
+         EPHEMERAL&nbsp;<input type='radio' name='flag' value="1"/> </br>
+         EPHEMERAL_SEQUENTIAL&nbsp;<input type='radio' name='flag' value="3"/> </br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type='submit' value="Create"/></td>
+        </tr>
+       <table>
+     </form>
+	  </container>
+     </div>
+   </body>
+</html>

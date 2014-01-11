@@ -1,0 +1,117 @@
+<html>
+        <head>
+          <script type="text/javascript" src="lib/jquery.js"></script>
+          <script type="text/javascript">
+            $.ajaxSetup({cache:false});
+            function login(){
+                var form=$("#login_form");
+                if(form.is(":hidden")){
+                    form.show();
+                }else{
+                    form.hide();
+                }
+            }
+             function delete_path(){
+                  var path=$('#delete_form').find("input[name='path']").val();
+                  var lastPartIndex=path.lastIndexOf("/");
+                  var parenPath=path.substring(0,lastPartIndex);
+
+                  if(confirm("Are you sure want to delete "+path+"?")){
+                        $.post("/node-zk/delete",$('#delete_form').serialize(),function(rt){
+                            alert(rt);
+                            if(rt=='Delete ok'){
+                               $(parent.document.body).find('#tree').attr('src', "/node-zk/tree?path="+parenPath);
+                               window.location.href="/node-zk/get?path="+parenPath;
+                            }
+                        });
+                  }
+             }
+
+            var editing=false;
+            function edit(){
+               <% if(user) { %>
+               if(!editing){
+                 editing=true;
+                 var value=$("#data").val();
+                 $("#data_container").html("<form id='edit_form'>"+
+                                          "<input type='hidden' name='path' value='<%= path %>'/>"+
+                                          "<input type='hidden' name='version' value='<%= stat.version %>'/>"+
+                                          "<table><tr><td colspan='2'><textarea cols='90' rows='10' name='new_data' id='new_data'>"+value+"</textarea></td></tr>"+
+                                          "<tr><td colspan='2'><input type='submit' value='Save' id='save_data'/></td></tr>"+
+                                          "</table></form>");
+
+                $("#new_data").focus();
+                $("#save_data").click(function(e){
+                      var new_data=$("#new_data").val();
+                      if(new_data!=value){
+                            $.post("/node-zk/edit",$("#edit_form").serialize(),function(data){
+                                 alert(data);
+                                 window.location.href="/node-zk/get?path=<%= path %>";
+                            });
+                      }else
+                            $("#data_container").html(value);
+                      editing=false;
+                      return false;
+                 });
+               }
+             <% } else { %>
+               alert ("Please sign in first.");
+            <% } %>
+            }
+
+          </script>
+		  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+		  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <head>
+        <body>
+		  <div class= "container">
+                <div id='login'>
+                  <% if(user) { %>
+                    <h3>Welcome,<%= user %> </h3>
+                  <% }else{ %>
+                      <a href='#' onclick='login();'><label>Signin</label></a>
+                      <div id='login_form' style='display:none;'>
+                         <form method="post" action="/node-zk/login">
+						   <label>Username</label>
+                           <input type="text" name="user[name]" />
+						   <label>Password</label>
+                           <input type="password" name="user[password]" />
+                           <input type="submit" value="Submit" />
+                         </form>
+                      </div>
+                  <% } %>
+                </div>
+                <label>Path:</label> <h4><%= path %> &nbsp;&nbsp; 
+                  <% if(user){ %>
+                  <a href='#' onclick="delete_path();">delete</a>
+                  <form id='delete_form' onsubmit="return;">
+                    <input type='hidden' name='path' value='<%= path %>'/>
+                    <input type='hidden' name='version' value='<%= stat.version %>'/>
+                  </form>
+                <% } %>
+				  </h4>
+				<label>Stat:</label>
+                <table class= "table table-bordered">
+                   <tr>
+                     <td>name</td>
+                     <td>value</td>
+                   </tr>
+                   <% for(var p in stat){ %>
+                   <tr>
+                     <td><%= p %></td>
+                     <td><%= stat[p] %> </td>
+                   </tr>
+                   <%} %>
+                </table>
+                <label>Data (Click on the value to edit it) : </label>
+                <input type='hidden' value='<%= data %>' id='data' />
+                <div id='data_container' onclick='edit();'>
+				  <% if (data && data != ''){ %>
+                  <%= data %>
+				  <% } else {%>
+				     NO DATA OR EMPTY VALUE
+                 <% } %>
+                </div>
+			</div>
+        </body>
+</html>
