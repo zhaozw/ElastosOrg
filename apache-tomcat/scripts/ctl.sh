@@ -1,9 +1,9 @@
 #!/bin/sh
 
-CATALINA_HOME=/opt/tomcatstack-7.0.50-0/apache-tomcat
-TOMCAT_BINDIR=/opt/tomcatstack-7.0.50-0/apache-tomcat/bin
-JRE_HOME=/opt/tomcatstack-7.0.50-0/java
-CATALINA_PID=/opt/tomcatstack-7.0.50-0/apache-tomcat/temp/catalina.pid
+CATALINA_HOME=/opt/apache-tomcat
+TOMCAT_BINDIR=/opt/apache-tomcat/bin
+JRE_HOME=/opt/jdk/jre
+CATALINA_PID=/opt/apache-tomcat/temp/catalina.pid
 export CATALINA_PID
 TOMCAT_STATUS=""
 ERROR=0

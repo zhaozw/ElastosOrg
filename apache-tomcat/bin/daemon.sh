@@ -88,7 +88,7 @@ esac
 test ".$MAX_FD" = . && MAX_FD="maximum"
 # Setup parameters for running the jsvc
 #
-test ".$TOMCAT_USER" = . && TOMCAT_USER=tomcat
+test ".$TOMCAT_USER" = . && TOMCAT_USER=elastos
 # Set JAVA_HOME to working JDK or JRE
 # JAVA_HOME=/opt/jdk-1.6.0.22
 # If not set we'll try to guess the JAVA_HOME
