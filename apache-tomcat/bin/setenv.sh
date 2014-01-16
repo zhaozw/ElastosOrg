@@ -1,5 +1,6 @@
 JAVA_HOME=/opt/jdk
 JRE_HOME=$JAVA_HOME
+JAVA_OPTS=-DconfigFilePath="/opt/java_apps/taokeeper-monitor/ZookeeperStore/taokeeper-monitor-config.properties"
 JAVA_OPTS="-Djava.awt.headless=true -XX:+UseG1GC $JAVA_OPTS "
 JAVA_OPTS="-XX:MaxPermSize=256M -Xms256M -Xmx512M $JAVA_OPTS " # java-memory-settings
 export JAVA_HOME
