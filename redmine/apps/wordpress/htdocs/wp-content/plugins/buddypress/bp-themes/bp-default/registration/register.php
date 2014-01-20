@@ -36,7 +36,7 @@
 
 					<label for="signup_username"><?php _e( 'Username', 'buddypress' ); ?> <?php _e( '(required)', 'buddypress' ); ?></label>
 					<?php do_action( 'bp_signup_username_errors' ); ?>
-					<input type="text" name="signup_username" id="signup_username" value="<?php bp_signup_username_value(); ?>" onchange="val=document.getElementById('signup_username').value;document.getElementById('signup_blog_url').value=val;document.getElementById('signup_blog_title').value=val+'\'s BLOG';"/>
+					<input type="text" name="signup_username" id="signup_username" value="<?php bp_signup_username_value(); ?>" onchange="val=document.getElementById('signup_username').value;document.getElementById('signup_blog_url').value=val;document.getElementById('mblog_url').innerHTML=val;document.getElementById('signup_blog_title').value=val+'\'s BLOG';"/>
 
 					<label for="signup_email"><?php _e( 'Email Address', 'buddypress' ); ?> <?php _e( '(required)', 'buddypress' ); ?></label>
 					<?php do_action( 'bp_signup_email_errors' ); ?>
@@ -208,11 +208,11 @@
 
 						<div id="blog-details"<?php if ( true|| (int) bp_get_signup_with_blog_value() ) : ?>class="show"<?php endif; ?>>
 
-							<label for="signup_blog_url"><?php _e( 'Blog URL', 'buddypress' ); ?> <?php _e( '(required)', 'buddypress' ); ?></label>
+							<label for="signup_blog_url"><?php _e( 'Blog URL', 'buddypress' ); ?> <?php _e( '(readonly)', 'buddypress' ); ?></label>
 							<?php do_action( 'bp_signup_blog_url_errors' ); ?>
 
 							<?php if ( is_subdomain_install() ) : ?>
-								http:// <input type="text" name="signup_blog_url" id="signup_blog_url" readonly="readonly" value="<?php bp_signup_blog_url_value(); ?>" /> .<?php bp_blogs_subdomain_base(); ?>
+								http://<span id="mblog_url"></span><input type="hidden" name="signup_blog_url" id="signup_blog_url" readonly="readonly" value="<?php bp_signup_blog_url_value(); ?>" style="border-width:0px;"/>.<?php bp_blogs_subdomain_base(); ?>
 							<?php else : ?>
 								<?php echo site_url(); ?>/ <input type="text" name="signup_blog_url" id="signup_blog_url" value="<?php bp_signup_blog_url_value(); ?>" />
 							<?php endif; ?>
