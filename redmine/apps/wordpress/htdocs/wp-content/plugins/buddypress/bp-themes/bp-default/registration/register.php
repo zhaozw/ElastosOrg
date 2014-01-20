@@ -212,7 +212,7 @@
 							<?php do_action( 'bp_signup_blog_url_errors' ); ?>
 
 							<?php if ( is_subdomain_install() ) : ?>
-								http://<span id="mblog_url"></span><input type="hidden" name="signup_blog_url" id="signup_blog_url" readonly="readonly" value="<?php bp_signup_blog_url_value(); ?>" style="border-width:0px;"/>.<?php bp_blogs_subdomain_base(); ?>
+								http://<span id="mblog_url"><?php bp_signup_blog_url_value(); ?></span><input type="hidden" name="signup_blog_url" id="signup_blog_url" readonly="readonly" value="<?php bp_signup_blog_url_value(); ?>" style="border-width:0px;"/>.<?php bp_blogs_subdomain_base(); ?>
 							<?php else : ?>
 								<?php echo site_url(); ?>/ <input type="text" name="signup_blog_url" id="signup_blog_url" value="<?php bp_signup_blog_url_value(); ?>" />
 							<?php endif; ?>
