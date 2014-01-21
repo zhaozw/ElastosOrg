@@ -117,6 +117,17 @@ class WP_Themes_List_Table extends WP_List_Table {
 		$themes = $this->items;
 
 		foreach ( $themes as $theme ):
+
+			if (in_array('ElastosOrgApp', $theme->get('Tags'))) {
+				if (is_super_admin()) {
+					$AppMark = '(ElastosOrgApp)';
+				} else {
+					continue;
+				}
+			} else {
+				$AppMark = '';
+			}
+
 			?><div class="available-theme"><?php
 
 			$template   = $theme->get_template();
@@ -128,7 +139,7 @@ class WP_Themes_List_Table extends WP_List_Table {
 			$activate_link = wp_nonce_url( "themes.php?action=activate&amp;template=" . urlencode( $template ) . "&amp;stylesheet=" . urlencode( $stylesheet ), 'switch-theme_' . $stylesheet );
 
 			$preview_link = esc_url( add_query_arg(
-				array( 'preview' => 1, 'template' => urlencode( $template ), 'stylesheet' => urlencode( $stylesheet ), 'preview_iframe' => true, 'TB_iframe' => 'true' ),
+				array( 'preview' => 1, 'template' => $template, 'stylesheet' => $stylesheet, 'preview_iframe' => true, 'TB_iframe' => 'true' ),
 				home_url( '/' ) ) );
 
 			$actions = array();
@@ -164,7 +175,7 @@ class WP_Themes_List_Table extends WP_List_Table {
 				<?php endif; ?>
 			</a>
 
-			<h3><?php echo $title; ?></h3>
+			<h3><?php echo $AppMark . $title; ?></h3>
 			<div class="theme-author"><?php printf( __( 'By %s' ), $author ); ?></div>
 			<div class="action-links">
 				<ul>
