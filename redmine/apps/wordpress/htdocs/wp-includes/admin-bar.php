@@ -21,8 +21,8 @@ function _wp_admin_bar_init() {
 	if ( ! is_admin_bar_showing() )
 		return false;
 
- 	if ( ! strstr($_SERVER['HTTP_HOST'], DOMAIN_CURRENT_SITE) ) {
- 		return  false;
+	if ( ! strstr($_SERVER['HTTP_HOST'], DOMAIN_CURRENT_SITE) ) {
+		return  false;
 	}
 
 	/* Load the admin bar class code ready for instantiation */
@@ -77,8 +77,17 @@ add_action( 'in_admin_header', 'wp_admin_bar_render', 0 );
  */
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
     $wp_admin_bar->add_menu( array(
+        'id'    => 'elastos-com-logo',
+        'title' => '<span><img src="/elorg_common/img/ElastosCom_Logo.png" style="height:26px;width:26px;"/></span>',
+        'href'  => 'http://elastos.com/',
+        'meta'  => array(
+            'title' => __('elastos.com'),
+        ),
+    ) );
+
+    $wp_admin_bar->add_menu( array(
         'id'    => 'wp-logo',
-        'title' => '<span><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="height:26px;width:26px;"/></span>',
+        'title' => '<span><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="height:26px;width:26px;"/></span>',
         'href'  => 'http://elastos.org/',
         'meta'  => array(
             'title' => __('ElastosOrg Home Page'),
@@ -98,7 +107,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
     $wp_admin_bar->add_menu( array(
         'parent'    => 'wp-logo-external',
         'id'        => 'wporg',
-        'title'     => '<img src="http://elastos.org/favicon.ico"> ElastosOrg',
+        'title'     => '<img src="/favicon.ico"> ElastosOrg',
         'href'      => 'http://elastos.org/',
     ) );
 
