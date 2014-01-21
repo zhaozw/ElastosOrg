@@ -83,8 +83,11 @@ window.onload=function()
 <table frame="hsides" border="0" style="float:left;border-top-width:thin;border-bottom-width:thin;width:100%;">
 <tr>
 <td width="40">
+  <a href="http://elastos.com"><img src="/elorg_common/img/ElastosCom_Logo.png" style="vertical-align:middle;"/></a>
+</td>
+<td width="40">
   <a href="http://elastos.org" target="_top"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;"/></a>
-</td><td width="168">
+</td><td width="168px">
   <ul id="footernav1">
     <li>
       <a href="http://elastos.org/project/" target="_top">Project</a>
@@ -93,7 +96,7 @@ window.onload=function()
       <a href="http://elastos.org/wiki/" target="_top">Documentation</a>
     </li>
   </ul>
-</td><td>
+</td><td width="238px">
   <ul id="footernav2">
     <li>
       <a href="http://elastos.org/review/" target="_top">Code Review</a>
@@ -102,6 +105,12 @@ window.onload=function()
       <a href="http://elastos.org/jenkins/" target="_top">CI, Continuous Integration</a>
     </li>
   </ul>
+</td><td>
+   <ul id="footernav3">
+     <li>
+       <a href="http://elastos.org/q2a/" target="_top">Elastos Q2A</a>
+     </li>
+   </ul>
 </td>
 </tr>
 </table>
