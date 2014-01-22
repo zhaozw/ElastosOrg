@@ -59,7 +59,7 @@ function register($nickname,$password,$email) {
 		$r = 0;
 	}
 	
-	mysql_free_result($result);  
+	//mysql_free_result($result);  
 	mysql_close($conn);
 	login($nickname,$password);
 	return $r;
