@@ -2,10 +2,14 @@
 <%= link_to(l(:button_edit), edit_user_path(@user), :class => 'icon icon-edit') if User.current.admin? %>
 </div>
 
-<h2><%= avatar @user, :size => "50" %> <%=h @user.name %></h2>
+<h2><a href="/members/<%= @user.name %>"><%= avatar @user, :size => "50" %> <%=h @user.name %></a></h2>
 
 <div class="splitcontentleft">
 <ul>
+  <% unless @user.identity_url.nil? %>
+    <li><%=l(:field_identity_url)%>: <a href="<%= @user.identity_url %>"><%= @user.identity_url %></a></li>
+  <% end %>
+
   <% unless @user.pref.hide_mail %>
     <li><%=l(:field_mail)%>: <%= mail_to(h(@user.mail), nil, :encode => 'javascript') %></li>
   <% end %>
