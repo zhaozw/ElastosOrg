@@ -8,6 +8,9 @@ Author: leo108
 Author URI: http://leo108.com/
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
+
+if ( ! defined('ABSPATH')) exit('restricted access');
+
 function highlighter_init() {
     $plugin_dir = dirname(plugin_basename(__FILE__));
     load_plugin_textdomain( 'sh', false , $plugin_dir.'/lang' );
