@@ -328,7 +328,7 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 		$wp_admin_bar->add_menu( array(
 			'id'    => 'my-sns',
 			'title' => '<img src="http://elastos.org/elorg_common/img/buddypress.png">',
-			'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename'),
+			'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename', get_current_user_id()),
 		) );
 	}
 
