@@ -7,7 +7,7 @@
 /* erasing your paid for WPMU DEV Premium plugins/themes. Please don't */
 /* remove these notices!  More information: http://wp.mu/dashboard     */
 /////////////////////////////////////////////////////////////////////////
-if ( !class_exists('WPMUDEV_Dashboard_Notice') ) {
+if ( false && !class_exists('WPMUDEV_Dashboard_Notice') ) {
 	class WPMUDEV_Dashboard_Notice {
 
 		var $version = '2.1';
