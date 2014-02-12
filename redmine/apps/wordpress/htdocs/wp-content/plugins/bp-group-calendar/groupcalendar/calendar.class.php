@@ -184,7 +184,7 @@ class Calendar{
 
 			//---------------------------------- start table cell, apply classes
 
-			$output .= "\t<td" . $day_class . " title=\"" . ucwords(date_i18n("l d F Y", strtotime($day_date))) . "\">";
+			$output .= "\t<td" . $day_class . " title=\"" . ucwords(date_i18n(get_option(date_format), strtotime($day_date))) . "\">";
 
 			//----------------------------------------- unset to keep loop clean
 			unset($day_class, $classes);
@@ -199,7 +199,7 @@ class Calendar{
 				if( empty($this->formatted_link_to) ){
 					$output .= "<a href=\"" . $this->link_to . "?date=" . $day_date . "\">" . $day . "</a>";
 				} else {
-					$output .= "<a href=\"" . strftime($this->formatted_link_to, strtotime($day_date)) . "\">" . $day . "</a>";
+					$output .= "<a href=\"" . $this->formatted_link_to . strftime('/%Y/%m/%d/', strtotime($day_date)) . "\">" . $day . "</a>";
 				}
 				break;
 
@@ -207,9 +207,9 @@ class Calendar{
 				if( is_array($this->highlighted_dates) ){
 					if( in_array($day_date, $this->highlighted_dates) ){
 						if( empty($this->formatted_link_to) ){
-							$output .= "<a href=\"" . $this->link_to . "?date=" . $day_date . "\">";
+							$output .= '<a href="' . $this->link_to . "?date=" . $day_date . '">';
 						} else {
-							$output .= "<a href=\"" . strftime($this->formatted_link_to, strtotime($day_date)) . "\">";
+							$output .= '<a href="' . $this->formatted_link_to . strftime('/%Y/%m/%d/', strtotime($day_date)) . '">';
 						}
 					}
 				}

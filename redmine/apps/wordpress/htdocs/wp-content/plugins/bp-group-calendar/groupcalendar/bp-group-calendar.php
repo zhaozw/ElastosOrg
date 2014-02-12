@@ -846,7 +846,7 @@ function bp_group_calendar_widget_day($date) {
 	$cal = new Calendar($date['day'], $date['year'], $date['month']);
 	$cal->week_start = $bgc_locale['week_start'];
 	$url = bp_get_group_permalink( $bp->groups->current_group ).'calendar';
-	$cal->formatted_link_to = $url.'/%Y/%m/%d/';
+	$cal->formatted_link_to = $url;
   ?>
   <div class="bp-widget">
 		<h4><?php _e('Day View', 'groupcalendar'); ?>: <?php echo date_i18n(get_option('date_format'), strtotime($day)); ?></h4>
@@ -880,7 +880,7 @@ function bp_group_calendar_widget_month($date) {
 
 	$cal->week_start = $bgc_locale['week_start'];
 	$url = bp_get_group_permalink( $bp->groups->current_group ).'calendar';
-	$cal->formatted_link_to = $url.'/%Y/%m/%d/';
+	$cal->formatted_link_to = $url;
 
 	//first day of month for calulation previous and next months
 	$first_day = $cal->year . "-" . $cal->month . "-01";
@@ -943,7 +943,7 @@ function bp_group_calendar_widget_year($date) {
     for ($i = 1; $i <= 12; $i++) {
     	$cal = new Calendar('', $year, $month);
     	$cal->week_start = $bgc_locale['week_start'];
-    	$cal->formatted_link_to = $url.'/%Y/%m/%d/';
+    	$cal->formatted_link_to = $url;
     	$first_day = $cal->year . "-" . $cal->month . "-01";
     	$cal->highlighted_dates = bp_group_calendar_highlighted_events($bp->groups->current_group->id, $first_day);
     	echo '<div class="year-cal-item">';
