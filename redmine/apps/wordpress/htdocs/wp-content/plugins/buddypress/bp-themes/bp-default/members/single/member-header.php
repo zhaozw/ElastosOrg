@@ -21,8 +21,13 @@
 
 <div id="item-header-content">
 
+<?php
+	$usr = new WP_User(bp_displayed_user_id());
+	$url = get_blogaddress_by_id($usr->primary_blog);
+?>
+
 	<h2>
-		<a href="<?php bp_displayed_user_link(); ?>"><?php bp_displayed_user_fullname(); ?></a>
+		<a href="<?php echo $url; ?>"><?php bp_displayed_user_fullname(); ?></a>
 	</h2>
 
 	<span class="user-nicename">@<?php bp_displayed_user_username(); ?></span>
