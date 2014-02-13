@@ -222,7 +222,7 @@ function bp_core_fetch_avatar( $args = '' ) {
 
 	// Set title tag, if it's been provided
 	if ( !empty( $title ) )
-		$title = " title='" . esc_attr( apply_filters( 'bp_core_avatar_title', $title, $item_id, $object, $params ) ) . "'";
+		$title = " title='SNS: " . esc_attr( apply_filters( 'bp_core_avatar_title', $title, $item_id, $object, $params ) ) . "'";
 
 	// Set CSS ID if passed
 	if ( !empty( $css_id ) )

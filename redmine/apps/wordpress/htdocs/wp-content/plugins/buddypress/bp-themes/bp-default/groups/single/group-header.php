@@ -30,7 +30,7 @@ do_action( 'bp_before_group_header' );
 </div><!-- #item-actions -->
 
 <div id="item-header-avatar">
-	<a href="<?php bp_group_permalink(); ?>" title="<?php bp_group_name(); ?>">
+	<a href="<?php bp_group_permalink(); ?>" title="SNS: <?php bp_group_name(); ?>">
 
 		<?php bp_group_avatar(); ?>
 
@@ -49,7 +49,7 @@ if ($id > 1) {
 	$str = bp_get_group_permalink();
 }
 ?>
-	<h2><a href="<?php echo $str; ?>" title="<?php bp_group_name(); ?>"><?php bp_group_name(); ?></a></h2>
+	<h2><a href="<?php echo $str; ?>" title="BLOG: <?php bp_group_name(); ?>"><?php bp_group_name(); ?></a></h2>
 	<span class="highlight"><?php bp_group_type(); ?></span> <span class="activity"><?php printf( __( 'active %s', 'buddypress' ), bp_get_group_last_active() ); ?></span>
 
 	<?php do_action( 'bp_before_group_header_meta' ); ?>

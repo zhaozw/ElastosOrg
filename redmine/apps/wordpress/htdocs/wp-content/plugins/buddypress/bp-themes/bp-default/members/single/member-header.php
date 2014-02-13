@@ -27,7 +27,7 @@
 ?>
 
 	<h2>
-		<a href="<?php echo $url; ?>"><?php bp_displayed_user_fullname(); ?></a>
+		<a href="<?php echo $url; ?>" title="BLOG: <?php bp_displayed_user_fullname(); ?>"><?php bp_displayed_user_fullname(); ?></a>
 	</h2>
 
 	<span class="user-nicename">@<?php bp_displayed_user_username(); ?></span>
