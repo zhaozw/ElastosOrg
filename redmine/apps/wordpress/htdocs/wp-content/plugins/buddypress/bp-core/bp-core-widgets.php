@@ -58,15 +58,20 @@ class BP_Core_Members_Widget extends WP_Widget {
 				<?php while ( bp_members() ) : bp_the_member(); ?>
 					<li class="vcard">
 						<div class="item-avatar">
-							<a href="<?php bp_member_permalink() ?>" title="<?php bp_member_name() ?>"><?php bp_member_avatar() ?></a>
+							<a href="<?php bp_member_permalink() ?>" title="SNS: <?php bp_member_name() ?>"><?php bp_member_avatar() ?></a>
 						</div>
 
 						<div class="item">
 							<div class="item-title fn">
 							<?php
 								$usr = new WP_User(bp_get_member_user_id());
-								$url = get_blogaddress_by_id($usr->primary_blog);
-								echo '<a href="' . $url . '" title="' . $url .'">';
+								//$url = get_blogaddress_by_id($usr->primary_blog);
+								switch_to_blog($usr->primary_blog);
+								$url = get_bloginfo( 'wpurl' );
+								$blog_name = get_bloginfo('name');
+								restore_current_blog();
+
+								echo '<a href="' . $url . '" title="BLOG: ' . $blog_name .'">';
 								bp_member_name();
 							?>
 							</a></div>

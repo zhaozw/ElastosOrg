@@ -1,7 +1,9 @@
 <?php
 
 /**
- * BuddyPress - Users Header
+ * BuddyPress - Groups Loop
+ *
+ * Querystring is set via AJAX in _inc/ajax.php - bp_dtheme_object_filter()
  *
  * @package BuddyPress
  * @subpackage bp-default
@@ -9,63 +11,102 @@
 
 ?>
 
-<?php do_action( 'bp_before_member_header' ); ?>
+<?php do_action( 'bp_before_groups_loop' ); ?>
 
-<div id="item-header-avatar">
-	<a href="<?php bp_displayed_user_link(); ?>">
+<?php if ( bp_has_groups( bp_ajax_querystring( 'groups' ) ) ) : ?>
 
-		<?php bp_displayed_user_avatar( 'type=full' ); ?>
+	<div id="pag-top" class="pagination">
 
-	</a>
-</div><!-- #item-header-avatar -->
+		<div class="pag-count" id="group-dir-count-top">
 
-<div id="item-header-content">
+			<?php bp_groups_pagination_count(); ?>
 
+		</div>
+
+		<div class="pagination-links" id="group-dir-pag-top">
+
+			<?php bp_groups_pagination_links(); ?>
+
+		</div>
+
+	</div>
+
+	<?php do_action( 'bp_before_directory_groups_list' ); ?>
+
+	<ul id="groups-list" class="item-list" role="main">
+
+	<?php while ( bp_groups() ) : bp_the_group(); ?>
+
+		<li>
+			<div class="item-avatar">
+				<a href="<?php bp_group_permalink(); ?>"><?php bp_group_avatar( 'type=thumb&width=50&height=50' ); ?></a>
+			</div>
 <?php
-	$usr = new WP_User(bp_displayed_user_id());
-	$url = get_blogaddress_by_id($usr->primary_blog);
+$id = get_groupblog_blog_id(bp_get_group_id());
+if ($id > 1) {
+	switch_to_blog($id);
+	$str = get_bloginfo( 'wpurl' );
+	$blog_name = get_bloginfo('name');
+	restore_current_blog();
+} else {
+	$str = bp_get_group_permalink();
+	$blog_name = $str;
+}
 ?>
 
-	<h2>
-		<a href="<?php echo $url; ?>" title="BLOG: <?php bp_displayed_user_fullname(); ?>"><?php bp_displayed_user_fullname(); ?></a>
-	</h2>
+			<div class="item">
+				<div class="item-title"><a href="<?php echo $str; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_group_name(); ?></a></div>
+				<div class="item-meta"><span class="activity"><?php printf( __( 'active %s', 'buddypress' ), bp_get_group_last_active() ); ?></span></div>
 
-	<span class="user-nicename">@<?php bp_displayed_user_username(); ?></span>
-	<span class="activity"><?php bp_last_activity( bp_displayed_user_id() ); ?></span>
+				<div class="item-desc"><?php bp_group_description_excerpt(); ?></div>
 
-	<?php do_action( 'bp_before_member_header_meta' ); ?>
-
-	<div id="item-meta">
-
-		<?php if ( bp_is_active( 'activity' ) ) : ?>
-
-			<div id="latest-update">
-
-				<?php bp_activity_latest_update( bp_displayed_user_id() ); ?>
+				<?php do_action( 'bp_directory_groups_item' ); ?>
 
 			</div>
 
-		<?php endif; ?>
+			<div class="action">
 
-		<div id="item-buttons">
+				<?php do_action( 'bp_directory_groups_actions' ); ?>
 
-			<?php do_action( 'bp_member_header_actions' ); ?>
+				<div class="meta">
 
-		</div><!-- #item-buttons -->
+					<?php bp_group_type(); ?> / <?php bp_group_member_count(); ?>
 
-		<?php
-		/***
-		 * If you'd like to show specific profile fields here use:
-		 * bp_member_profile_data( 'field=About Me' ); -- Pass the name of the field
-		 */
-		 do_action( 'bp_profile_header_meta' );
+				</div>
 
-		 ?>
+			</div>
 
-	</div><!-- #item-meta -->
+			<div class="clear"></div>
+		</li>
 
-</div><!-- #item-header-content -->
+	<?php endwhile; ?>
 
-<?php do_action( 'bp_after_member_header' ); ?>
+	</ul>
 
-<?php do_action( 'template_notices' ); ?>
+	<?php do_action( 'bp_after_directory_groups_list' ); ?>
+
+	<div id="pag-bottom" class="pagination">
+
+		<div class="pag-count" id="group-dir-count-bottom">
+
+			<?php bp_groups_pagination_count(); ?>
+
+		</div>
+
+		<div class="pagination-links" id="group-dir-pag-bottom">
+
+			<?php bp_groups_pagination_links(); ?>
+
+		</div>
+
+	</div>
+
+<?php else: ?>
+
+	<div id="message" class="info">
+		<p><?php _e( 'There were no groups found.', 'buddypress' ); ?></p>
+	</div>
+
+<?php endif; ?>
+
+<?php do_action( 'bp_after_groups_loop' ); ?>
