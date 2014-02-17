@@ -10,6 +10,9 @@
  *
  * @package P2
  */
+ 
+ if ( ! defined('ABSPATH')) exit('restricted access');
+ 
 ?>
 <?php get_header(); ?>
 
