@@ -342,13 +342,13 @@ function network_latest_posts( $parameters ) {
         // By blog ID except those ignored
         if( !empty($blog_id) && $blog_id != NULL ) {
             $blogs = $wpdb->get_col("SELECT blog_id FROM $wpdb->blogs WHERE
-                public = '1' AND archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0' $display
+                archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0' $display
                     $ignore AND last_updated >= DATE_SUB(CURRENT_DATE(), INTERVAL $time_frame DAY)
                         ORDER BY last_updated DESC");
         // Everything but ignored blogs
         } else {
             $blogs = $wpdb->get_col("SELECT blog_id FROM $wpdb->blogs WHERE
-                public = '1' AND archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0'
+                archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0'
                     $ignore AND last_updated >= DATE_SUB(CURRENT_DATE(), INTERVAL $time_frame DAY)
                         ORDER BY last_updated DESC");
         }
@@ -357,12 +357,12 @@ function network_latest_posts( $parameters ) {
         // By blog ID except those ignored
         if( !empty($blog_id) && $blog_id != NULL ) {
             $blogs = $wpdb->get_col("SELECT blog_id FROM $wpdb->blogs WHERE
-                public = '1' AND archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0' $display
+                archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0' $display
                     $ignore ORDER BY last_updated DESC");
         // Everything but ignored blogs
         } else {
             $blogs = $wpdb->get_col("SELECT blog_id FROM $wpdb->blogs WHERE
-                public = '1' AND archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0'
+                archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0'
                     $ignore ORDER BY last_updated DESC");
         }
     }
