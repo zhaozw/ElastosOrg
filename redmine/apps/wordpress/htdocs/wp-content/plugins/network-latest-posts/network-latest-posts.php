@@ -181,6 +181,9 @@ require_once dirname( __FILE__ ) . '/network-latest-posts-widget.php';
 function network_latest_posts( $parameters ) {
     // Global variables
     global $wpdb;
+
+    $in_my_blog = false;
+
     //global $nlp_time_frame;
     // Default values
     $defaults = array(
@@ -262,6 +265,7 @@ function network_latest_posts( $parameters ) {
 
             if ((int)$blog_id <= 0) {
                 $blog_id = get_current_blog_id();
+                $in_my_blog = true;
             }
 
             // and put the sql
@@ -276,6 +280,7 @@ function network_latest_posts( $parameters ) {
 
             if ((int)$display_arr[$counter] <= 0) {
                 $display_arr[$counter] = get_current_blog_id();
+                $in_my_blog = true;
             }
 
             // Add AND the first time
@@ -705,7 +710,12 @@ if ($ii > 200)
                             $author_url = ${'blog_url_'.$all_blogkeys[$field->guid]}.'/author/'.$author->user_login;
                         }
                         // Print metainfo
-                        echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        
+                        if ($in_my_blog) {
+                        	echo __('Published on','trans-nlp') . ' ' . $datepost;
+                        } else {
+                        	echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        }
                         // Close meta box
                         echo $html_tags['meta_c'];
                     }
@@ -760,7 +770,11 @@ if ($ii > 200)
                             $author_url = ${'blog_url_'.$all_blogkeys[$field->guid]}.'/author/'.$author->user_login;
                         }
                         // Print metainfo
-                        echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        if ($in_my_blog) {
+                        	echo __('Published on','trans-nlp') . ' ' . $datepost;
+                        } else {
+                        	echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        }
                         // Close meta box
                         echo $html_tags['meta_c'];
                     }
@@ -923,7 +937,11 @@ if ($ii > 200)
                             $author_url = ${'blog_url_'.$all_blogkeys[$field->guid]}.'/author/'.$author->user_login;
                         }
                         // Print metainfo
-                        echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        if ($in_my_blog) {
+                        	echo __('Published on','trans-nlp') . ' ' . $datepost;
+                        } else {
+                        	echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        }
                         // Close meta box
                         echo $html_tags['meta_c'];
                     }
@@ -978,7 +996,11 @@ if ($ii > 200)
                             $author_url = ${'blog_url_'.$all_blogkeys[$field->guid]}.'/author/'.$author->user_login;
                         }
                         // Print metainfo
-                        echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        if ($in_my_blog) {
+                        	echo __('Published on','trans-nlp') . ' ' . $datepost;
+                        } else {
+                        	echo $blog_name . ' - ' . __('Published on','trans-nlp') . ' ' . $datepost . ' ' . __('by','trans-nlp') . ' ' . '<a href="' . $author_url . '">' . $author->display_name . '</a>';
+                        }
                         // Close meta box
                         echo $html_tags['meta_c'];
                     }
