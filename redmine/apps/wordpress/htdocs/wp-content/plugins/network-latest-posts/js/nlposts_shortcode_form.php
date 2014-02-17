@@ -104,7 +104,7 @@ $thumbnail_h = $thumbnail_size[1];
 global $wpdb;
 $blog_ids = $wpdb->get_results("SELECT blog_id FROM $wpdb->blogs WHERE
     public = '1' AND archived = '0' AND mature = '0' AND spam = '0' AND deleted = '0'
-        ORDER BY last_updated DESC");
+        ORDER BY last_updated DESC LIMIT 200");
 // Basic HTML Tags
 $br = "<br />";
 $p_o = "<p>";

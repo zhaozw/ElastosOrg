@@ -259,6 +259,11 @@ function network_latest_posts( $parameters ) {
         $blog_id = (int)htmlspecialchars($blog_id);
         // Check if it's numeric
         if( is_numeric($blog_id) ) {
+
+            if ((int)$blog_id <= 0) {
+                $blog_id = get_current_blog_id();
+            }
+
             // and put the sql
             $display = " AND blog_id = $blog_id ";
         }
@@ -267,7 +272,12 @@ function network_latest_posts( $parameters ) {
         // create an array
         $display_arr = explode(",",$blog_id);
         // and repeat the sql for each ID found
-        for( $counter=0; $counter < count($display_arr); $counter++){
+        for ($counter=0; $counter < count($display_arr); $counter++) {
+
+            if ((int)$display_arr[$counter] <= 0) {
+                $display_arr[$counter] = get_current_blog_id();
+            }
+
             // Add AND the first time
             if( $counter == 0 ) {
                 $display .= " AND blog_id = ".(int)$display_arr[$counter];
@@ -371,7 +381,14 @@ function network_latest_posts( $parameters ) {
         // Count blogs found
         $count_blogs = count($blogs);
         // Dig into each blog
+$ii = 0;
         foreach( $blogs as $blog_key ) {
+
+$ii++;
+
+if ($ii > 200)
+		break;
+
             // Options: Site URL, Blog Name, Date Format
             ${'blog_url_'.$blog_key} = get_blog_option($blog_key,'siteurl');
             ${'blog_name_'.$blog_key} = get_blog_option($blog_key,'blogname');
