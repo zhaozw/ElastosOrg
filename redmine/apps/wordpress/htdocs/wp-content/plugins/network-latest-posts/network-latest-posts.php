@@ -224,12 +224,15 @@ function network_latest_posts( $parameters ) {
         'post_ignore'      => NULL,          // Post ID(s) to ignore
         'where'            => 'main'         // Post ID(s) to ignore
     );
+
     // Parse & merge parameters with the defaults
     $settings = wp_parse_args( $parameters, $defaults );
     // Paranoid mode activated (yes I'm a security freak)
     foreach($settings as $parameter => $value) {
         // Strip everything
-        $settings[$parameter] = strip_tags($value);
+        if (! is_null($settings[$parameter])) {
+        	$settings[$parameter] = strip_tags($value);
+        }
     }
     // Extract each parameter as its own variable
     extract( $settings, EXTR_SKIP );
@@ -259,17 +262,19 @@ function network_latest_posts( $parameters ) {
     // if the user passes one value
     if( !preg_match("/,/",$blog_id) ) {
         // Always clean this stuff ;) (oh.. told you I'm a paranoid)
-        $blog_id = (int)htmlspecialchars($blog_id);
-        // Check if it's numeric
-        if( is_numeric($blog_id) ) {
+        if ( ! is_null($blog_id) ) {
+        	$blog_id = (int)htmlspecialchars($blog_id);
+        	// Check if it's numeric
+        	if( is_numeric($blog_id) ) {
 
-            if ((int)$blog_id <= 0) {
-                $blog_id = get_current_blog_id();
-                $in_my_blog = true;
+            	if ((int)$blog_id <= 0) {
+                	$blog_id = get_current_blog_id();
+                	$in_my_blog = true;
+                }
+
+            	// and put the sql
+            	$display = " AND blog_id = $blog_id ";
             }
-
-            // and put the sql
-            $display = " AND blog_id = $blog_id ";
         }
     // if the user passes more than one value separated by commas
     } else {
@@ -280,7 +285,7 @@ function network_latest_posts( $parameters ) {
 
             if ((int)$display_arr[$counter] <= 0) {
                 $display_arr[$counter] = get_current_blog_id();
-                $in_my_blog = true;
+                //$in_my_blog = true;
             }
 
             // Add AND the first time
