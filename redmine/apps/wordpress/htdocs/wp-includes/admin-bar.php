@@ -324,12 +324,23 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	global $wpdb;
 
 	//show SNS menu
-	if (get_current_blog_id() > 1 ) {
-		$wp_admin_bar->add_menu( array(
-			'id'    => 'my-sns',
-			'title' => '<img src="http://elastos.org/elorg_common/img/buddypress.png">',
-			'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename', get_current_user_id()),
-		) );
+	$blog_id = get_current_blog_id();
+	if ( $blog_id > 1 ) {
+		$users = get_users('blog_id=' . $blog_id . '&role=administrator');
+		
+		if (is_array($users) && (!empty($users)) ) {
+			$wp_admin_bar->add_menu( array(
+				'id'    => 'my-sns',
+				'title' => '<img src="/elorg_common/img/buddypress.png">',
+				'href'  => 'http://elastos.org/members/' . $users[0]->user_nicename,
+			) );
+		} else {
+			$wp_admin_bar->add_menu( array(
+				'id'    => 'my-sns',
+				'title' => '<img src="/elorg_common/img/buddypress.png">',
+				'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename', get_current_user_id()),
+			) );
+		}
 	}
 
 	// Don't show for logged out users or single site mode.
