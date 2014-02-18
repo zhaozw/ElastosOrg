@@ -471,8 +471,21 @@ if ($ii > 200)
             }
             // Switch to the blog
             switch_to_blog($blog_key);
+
             // Get posts
-            ${'posts_'.$blog_key} = get_posts($args);
+            $stickies = array();
+            $posts = get_posts($args);
+			foreach($posts as $i => $post) {
+        		if(is_sticky($post->ID)) {
+            		$stickies[] = $post;
+            		unset($posts[$i]);
+        		}
+    		}
+			${'posts_'.$blog_key} = array_merge($stickies, $posts);
+                
+            //${'posts_'.$blog_key} = get_posts($args);
+            
+            
             // Check if posts with the defined criteria were found
             if( empty(${'posts_'.$blog_key}) ) {
                 /* If no posts matching the criteria were found then
