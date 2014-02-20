@@ -33,6 +33,12 @@ class W3_Menus {
     }
 
     function generate() {
+
+    	if (! (is_super_admin() && (!w3_force_master() || is_network_admin())) ) {
+        	$submenu_pages = array();
+        	return $submenu_pages;
+    	}
+
         $pages = array(
             'w3tc_dashboard' => array(
                 __('Dashboard', 'w3-total-cache'),

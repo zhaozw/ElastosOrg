@@ -218,6 +218,9 @@ class W3_Plugin_TotalCache extends W3_Plugin {
     function admin_bar_menu() {
         global $wp_admin_bar;
 
+        //do nothing!! elastos.org don't like this
+        return;
+
         if (current_user_can('manage_options')) {
             /**
              * @var $modules W3_ModuleStatus
