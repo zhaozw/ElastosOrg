@@ -1688,7 +1688,7 @@ class BP_Groups_Group_Members_Template {
 
 		$this->pag_page = isset( $_REQUEST['mlpage'] ) ? intval( $_REQUEST['mlpage'] ) : 1;
 		$this->pag_num  = isset( $_REQUEST['num'] ) ? intval( $_REQUEST['num'] ) : $per_page;
-		$this->members  = BP_Groups_Member::get_all_for_group( $group_id, $this->pag_num, $this->pag_page, $exclude_admins_mods, $exclude_banned, $exclude );
+		$this->members  = BP_Groups_Member::get_all_for_group( $group_id, $this->pag_num, $this->pag_page, $exclude_admins_mods, $exclude_banned, $exclude, $_REQUEST['s'] );
 
 		if ( !$max || $max >= (int) $this->members['count'] )
 			$this->total_member_count = (int) $this->members['count'];

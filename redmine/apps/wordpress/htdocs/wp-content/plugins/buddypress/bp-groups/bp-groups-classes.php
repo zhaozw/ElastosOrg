@@ -1164,7 +1164,7 @@ class BP_Groups_Member {
 		return $wpdb->get_col( $wpdb->prepare( "SELECT user_id FROM {$bp->groups->table_name_members} WHERE group_id = %d AND is_confirmed = 0 AND inviter_id = 0", $group_id ) );
 	}
 
-	function get_all_for_group( $group_id, $limit = false, $page = false, $exclude_admins_mods = true, $exclude_banned = true, $exclude = false ) {
+	function get_all_for_group( $group_id, $limit = false, $page = false, $exclude_admins_mods = true, $exclude_banned = true, $exclude = false, $search_terms = false ) {
 		global $bp, $wpdb;
 
 		$pag_sql = '';
@@ -1179,9 +1179,18 @@ class BP_Groups_Member {
 		if ( !empty( $exclude_banned ) )
 			$banned_sql = $wpdb->prepare( " AND is_banned = 0" );
 
-		$exclude_sql = '';
-		if ( !empty( $exclude ) )
-			$exclude_sql = $wpdb->prepare( " AND m.user_id NOT IN ({$exclude})" );
+		if ( !empty($search_terms) ) {
+			$search_terms = ' AND (u.user_login like "%%%%' . $search_terms . '%%%%" OR u.user_nicename like "%%%%' . $search_terms . '%%%%" OR u.display_name like "%%%%' . $search_terms . '%%%%")';
+		} else {
+			$search_terms = '';
+		}
+
+		//$exclude_sql = '';
+		if ( !empty( $exclude ) ) {
+			$exclude_sql = $wpdb->prepare( " AND m.user_id NOT IN ({$exclude})" . $search_terms);
+		} else {
+			$exclude_sql = $wpdb->prepare($search_terms);
+		}
 
 		if ( bp_is_active( 'xprofile' ) )
 			$members = $wpdb->get_results( apply_filters( 'bp_group_members_user_join_filter', $wpdb->prepare( "SELECT m.user_id, m.date_modified, m.is_banned, u.user_login, u.user_nicename, u.user_email, pd.value as display_name FROM {$bp->groups->table_name_members} m, {$wpdb->users} u, {$bp->profile->table_name_data} pd WHERE u.ID = m.user_id AND u.ID = pd.user_id AND pd.field_id = 1 AND group_id = %d AND is_confirmed = 1 {$banned_sql} {$exclude_admins_sql} {$exclude_sql} ORDER BY m.date_modified DESC {$pag_sql}", $group_id ) ) );
@@ -1191,10 +1200,14 @@ class BP_Groups_Member {
 		if ( empty( $members ) )
 			return false;
 
-		if ( empty( $pag_sql ) )
+		if ( empty( $pag_sql ) ) {
 			$total_member_count = count( $members );
-		else
-			$total_member_count = $wpdb->get_var( apply_filters( 'bp_group_members_count_user_join_filter', $wpdb->prepare( "SELECT COUNT(user_id) FROM {$bp->groups->table_name_members} WHERE group_id = %d AND is_confirmed = 1 {$banned_sql} {$exclude_admins_sql} {$exclude_sql}", $group_id ) ) );
+		} else {
+			//old buddypress method
+			//$total_member_count = $wpdb->get_var( apply_filters( 'bp_group_members_count_user_join_filter', $wpdb->prepare( "SELECT COUNT(user_id) FROM {$bp->groups->table_name_members} WHERE group_id = %d AND is_confirmed = 1 {$banned_sql} {$exclude_admins_sql} {$exclude_sql}", $group_id ) ) );
+
+			$total_member_count = $wpdb->get_var( apply_filters( 'bp_group_members_count_user_join_filter', $wpdb->prepare( "SELECT COUNT(m.user_id) FROM {$bp->groups->table_name_members} m, {$wpdb->users} u WHERE u.ID = m.user_id AND group_id = %d AND is_confirmed = 1 {$banned_sql} {$exclude_admins_sql} {$exclude_sql}", $group_id ) ) );
+		}
 
 		// Fetch whether or not the user is a friend
 		foreach ( (array) $members as $user )

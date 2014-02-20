@@ -7,6 +7,14 @@
 
 			<?php do_action( 'bp_members_directory_member_sub_types' ); ?>
 
+			<?php
+				$default_search_value = bp_get_search_default_text( 'members' );
+				$search_value         = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users'; 
+			?>
+			<form action="" method="get" id="search-members-form">
+			<input type="submit" id="members_search_submit" name="members_search_submit" value="<?php _e( 'Filter', 'buddypress' ) ?>" />
+			<label><input type="text" name="s" id="members_search" placeholder="<?php echo esc_attr( $search_value ) ?>" /></label>
+			</form>
 		</ul>
 	</div>
 
@@ -33,13 +41,20 @@
 		<?php while ( bp_group_members() ) : bp_group_the_member(); ?>
 
 			<li>
-				<a href="<?php bp_group_member_domain(); ?>">
+				<a href="<?php bp_group_member_domain(); ?>" title="SNS: <?php bp_member_name() ?>">
 
 					<?php bp_group_member_avatar_thumb(); ?>
 
 				</a>
 
-				<h5><a href="<?php $usr = new WP_User(bp_get_group_member_id()); echo get_blogaddress_by_id($usr->primary_blog);?>"><?php bp_member_name(); ?></a></h5>
+				<h5><a href="<?php 
+					$usr = new WP_User(bp_get_group_member_id());
+					//$url = get_blogaddress_by_id($usr->primary_blog);
+					switch_to_blog($usr->primary_blog);
+					$url = get_bloginfo( 'wpurl' );
+					$blog_name = get_bloginfo('name');
+					restore_current_blog();
+					echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?></a></h5>
 				<span class="activity"><?php bp_group_member_joined_since(); ?></span>
 
 				<?php do_action( 'bp_group_members_list_item' ); ?>
