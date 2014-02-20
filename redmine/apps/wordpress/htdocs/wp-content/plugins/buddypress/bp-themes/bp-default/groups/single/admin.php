@@ -229,7 +229,15 @@
 
 	<div class="bp-widget">
 		<h4><?php _e("Members", "buddypress"); ?></h4>
-
+		<div style="margin-bottom:20px;">
+		<?php
+			$search_value = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users'; 
+		?>
+		<form action="" method="get" id="search-members-form">
+		<input type="submit" id="members_search_submit" name="members_search_submit" value="<?php _e( 'Filter', 'buddypress' ) ?>" />
+		<input type="text" name="s" id="members_search" placeholder="<?php echo esc_attr( $search_value ) ?>" />
+		</form>
+		</div>
 		<?php if ( bp_group_has_members( 'per_page=15&exclude_banned=false' ) ) : ?>
 
 			<?php if ( bp_group_member_needs_pagination() ) : ?>

@@ -8,8 +8,7 @@
 			<?php do_action( 'bp_members_directory_member_sub_types' ); ?>
 
 			<?php
-				$default_search_value = bp_get_search_default_text( 'members' );
-				$search_value         = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users'; 
+				$search_value = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users'; 
 			?>
 			<form action="" method="get" id="search-members-form">
 			<input type="submit" id="members_search_submit" name="members_search_submit" value="<?php _e( 'Filter', 'buddypress' ) ?>" />
