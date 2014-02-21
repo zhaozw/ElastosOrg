@@ -498,6 +498,10 @@ if ( !function_exists('wp_logout') ) :
 function wp_logout() {
 	wp_clear_auth_cookie();
 	do_action('wp_logout');
+
+	if (function_exists('w3tc_pgcache_flush')) {
+		w3tc_pgcache_flush();
+	}
 }
 endif;
 
