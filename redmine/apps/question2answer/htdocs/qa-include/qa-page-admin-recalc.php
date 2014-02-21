@@ -85,7 +85,9 @@
 			
 			echo qa_html(qa_recalc_get_message($state)).str_repeat('    ', 1024)."<br>\n";
 
-			flush();
+			//conflict with wordpress plugin W3 Total Cache
+			//flush();
+
 			sleep(1); // ... then rest for one
 		}
 

@@ -1462,7 +1462,9 @@
 */
 	{
 		echo qa_html($text).str_repeat('    ', 1024)."<br><br>\n";
-		flush();
+
+		//conflict with wordpress plugin W3 Total Cache
+		//flush();
 	}
 
 

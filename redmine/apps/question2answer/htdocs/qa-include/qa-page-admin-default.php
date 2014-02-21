@@ -879,8 +879,10 @@
 					break;
 				
 				echo qa_html($message).str_repeat('    ', 1024)."<br>\n";
-				
-				flush();
+
+				//conflict with wordpress plugin W3 Total Cache
+				//flush();
+
 				sleep(1);
 			}
 			

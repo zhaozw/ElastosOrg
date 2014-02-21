@@ -237,8 +237,10 @@
 		global $oneread;
 		
 		echo ($oneread ? ', ' : '').htmlspecialchars(basename($file));
-		flush();
-		
+
+		//conflict with wordpress plugin W3 Total Cache
+		//flush();
+
 		$oneread=true;
 	}
 
