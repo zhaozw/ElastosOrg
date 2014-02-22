@@ -26,6 +26,13 @@
 
 //	Set base path here so this works with symbolic links for multiple installations
 
+	//elastos.org
+	define('DONOTCACHEPAGE', true);
+	define('DONOTCACHEDB', true);
+	define('DONOTMINIFY', true);
+	define('DONOTCDN', true);
+
+
 	define('QA_BASE_DIR', dirname(empty($_SERVER['SCRIPT_FILENAME']) ? __FILE__ : $_SERVER['SCRIPT_FILENAME']).'/');
 	
 	require 'qa-include/qa-index.php';

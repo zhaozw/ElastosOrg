@@ -646,7 +646,9 @@ class W3_PgCache {
     function _check_request_uri() {
         $auto_reject_uri = array(
             'wp-login',
-            'wp-register'
+            'openid',
+            'register'
+            //'wp-register'
         );
 
         foreach ($auto_reject_uri as $uri) {
