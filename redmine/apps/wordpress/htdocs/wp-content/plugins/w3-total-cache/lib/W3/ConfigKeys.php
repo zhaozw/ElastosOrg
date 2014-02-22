@@ -334,6 +334,7 @@ $keys = array(
         'type' => 'array',
         'default' => array(
             'wp-.*\.php',
+            '/openid*',
             'index\.php'
         )
     ),
