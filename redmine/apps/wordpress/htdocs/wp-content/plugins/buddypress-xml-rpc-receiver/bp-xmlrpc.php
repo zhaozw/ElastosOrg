@@ -1296,6 +1296,7 @@ class bp_xmlrpc_server extends IXR_Server {
 			return false;
 		}
 
+		/*
 		if(!$this->check_user_allowed( $username )) {
 			$this->error = array(
 				'confirmation' => false,
@@ -1304,6 +1305,7 @@ class bp_xmlrpc_server extends IXR_Server {
 			);
 			return false;
 		}
+		*/
 
 		return $user;
 	}
@@ -1316,6 +1318,7 @@ class bp_xmlrpc_server extends IXR_Server {
 	 * @return true if user is allowed to access functions (or per user allowance not true), false otherwise
 	 */
 
+	/*
 	function check_user_allowed( $username ) {
 		
 		if(!bp_get_option('bp_xmlrpc_require_approval'))
@@ -1327,6 +1330,7 @@ class bp_xmlrpc_server extends IXR_Server {
 
 		return false;
 	}
+	*/
 
 	/**
 	 * Actually get a user's info (internal function

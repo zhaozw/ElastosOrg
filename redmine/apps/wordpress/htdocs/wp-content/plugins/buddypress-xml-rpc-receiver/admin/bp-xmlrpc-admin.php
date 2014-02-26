@@ -97,7 +97,8 @@ function bp_xmlrpc_caps_options() {
 }
 
 function bp_xmlrpc_admin_tabs( $current = 'main' ) {
-    $tabs = array( 'main' => 'Settings', 'access' => 'Access' );
+    //$tabs = array( 'main' => 'Settings', 'access' => 'Access' );
+    $tabs = array( 'main' => 'Settings' );
     echo '<div id="icon-options-general" class="icon32"><br></div>';
     echo '<h2 class="nav-tab-wrapper">';
     foreach( $tabs as $tab => $name ){
