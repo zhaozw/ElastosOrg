@@ -24,9 +24,9 @@ if ( isset( $HTTP_RAW_POST_DATA ) )
 	$HTTP_RAW_POST_DATA = trim( $HTTP_RAW_POST_DATA );
 
 if ( isset( $_GET['rsd'] ) ) { // http://archipelago.phrasewise.com/rsd
-header( 'Content-Type: text/xml; charset=' . get_option( 'blog_charset' ), true );
+header( 'Content-Type: text/xml; charset=' . bp_get_option( 'blog_charset' ), true );
 ?>
-<?php echo '<?xml version="1.0" encoding="'.get_option( 'blog_charset' ).'"?'.'>'; ?>
+<?php echo '<?xml version="1.0" encoding="'.bp_get_option( 'blog_charset' ).'"?'.'>'; ?>
 <rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
   <service>
 	<engineName>BuddyPress</engineName>
@@ -135,7 +135,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getNotifications', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getNotifications is disabled. ', 'bp-xmlrpc' ) );
 
@@ -255,7 +255,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getMessages', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getMessages is disabled. ', 'bp-xmlrpc' ) );
 
@@ -358,7 +358,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.sendMessage', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.sendMessage is disabled. ', 'bp-xmlrpc' ) );
 
@@ -413,7 +413,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.updateProfileStatus', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.updateProfileStatus is disabled. ', 'bp-xmlrpc' ) );
 
@@ -460,7 +460,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.deleteProfileStatus', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.deleteProfileStatus is disabled. ', 'bp-xmlrpc' ) );
 
@@ -515,7 +515,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.postComment', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.postComment is disabled. ', 'bp-xmlrpc' ) );
 
@@ -565,7 +565,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.updateExternalBlogPostStatus', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.updateExternalBlogPostStatus is disabled. ', 'bp-xmlrpc' ) );
 
@@ -641,7 +641,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.deleteExternalBlogPostStatus', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.deleteExternalBlogPostStatus is disabled. ', 'bp-xmlrpc' ) );
 
@@ -698,7 +698,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getMyFriends', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getMyFriends is disabled.', 'bp-xmlrpc' ) );
 
@@ -822,7 +822,7 @@ class bp_xmlrpc_server extends IXR_Server {
 			return new IXR_Error( 405, __( 'BuddyPress Groups is not activated.', 'bp-xmlrpc' ) );
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getGroups', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getGroups is disabled.', 'bp-xmlrpc' ) );
 
@@ -962,7 +962,7 @@ class bp_xmlrpc_server extends IXR_Server {
 			return new IXR_Error( 405, __( 'BuddyPress Activity Stream is not activated.', 'bp-xmlrpc' ) );
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getActivity', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getActivity is disabled.', 'bp-xmlrpc' ) );
 
@@ -1153,7 +1153,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.getMemberInfo', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.getMemberInfo is disabled.', 'bp-xmlrpc' ) );
 
@@ -1224,7 +1224,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		global $bp;
 
 		//check options if this is callable
-		$call = (array) maybe_unserialize( get_option( 'bp_xmlrpc_enabled_calls' ) );
+		$call = (array) maybe_unserialize( bp_get_option( 'bp_xmlrpc_enabled_calls' ) );
 		if ( !bp_xmlrpc_calls_enabled_check( 'bp.deleteMember', $call ) )
 			return new IXR_Error( 405, __( 'XML-RPC call bp.deleteMember is disabled.', 'bp-xmlrpc' ) );
 
@@ -1267,7 +1267,7 @@ class bp_xmlrpc_server extends IXR_Server {
 		
 		global $bp;
 
-		if ( !get_option( 'bp_xmlrpc_enabled' ) ) {
+		if ( !bp_get_option( 'bp_xmlrpc_enabled' ) ) {
 			$this->error = new IXR_Error( 405, __( 'XML-RPC services disabled on this blog.', 'bp-xmlrpc' ) );
 			return false;
 		}
@@ -1282,7 +1282,7 @@ class bp_xmlrpc_server extends IXR_Server {
 
 		wp_set_current_user( $user->ID );
 
-		if ( !current_user_can( get_option( 'bp_xmlrpc_cap_low' ) ) ) {
+		if ( !current_user_can( bp_get_option( 'bp_xmlrpc_cap_low' ) ) ) {
 			$this->error = new IXR_Error( 405, __( 'XML-RPC services disabled on this user capability.', 'bp-xmlrpc' ) );
 			return false;
 		}
@@ -1318,10 +1318,10 @@ class bp_xmlrpc_server extends IXR_Server {
 
 	function check_user_allowed( $username ) {
 		
-		if(!get_option('bp_xmlrpc_require_approval'))
+		if(!bp_get_option('bp_xmlrpc_require_approval'))
 			return true;
 		
-		$users = explode("\n",get_option('bp_xmlrpc_allowed_users'));
+		$users = explode("\n",bp_get_option('bp_xmlrpc_allowed_users'));
 		if(in_array($username,$users))
 			return true;
 

@@ -145,7 +145,7 @@ function is_limit_login_ok() {
 	$ip = limit_login_get_address();
 
 	/* lockout active? */
-	$lockouts = get_option('limit_login_lockouts');
+	$lockouts = bp_get_option('limit_login_lockouts');
 	return (!is_array($lockouts) || !isset($lockouts[$ip]) || time() >= $lockouts[$ip]);
 }
 
@@ -209,7 +209,7 @@ function limit_login_failed($arg) {
 	$ip = limit_login_get_address();
 
 	/* if currently locked-out, do not add to retries */
-	$lockouts = get_option('limit_login_lockouts');
+	$lockouts = bp_get_option('limit_login_lockouts');
 	if(is_array($lockouts) && isset($lockouts[$ip]) && time() < $lockouts[$ip]) {
 		return;
 	} elseif (!is_array($lockouts)) {
@@ -217,8 +217,8 @@ function limit_login_failed($arg) {
 	}
 
 	/* Get the arrays with retries and retries-valid information */
-	$retries = get_option('limit_login_retries');
-	$valid = get_option('limit_login_retries_valid');
+	$retries = bp_get_option('limit_login_retries');
+	$valid = bp_get_option('limit_login_retries_valid');
 	if ($retries === false) {
 		$retries = array();
 		add_option('limit_login_retries', $retries, '', 'no');
@@ -272,7 +272,7 @@ function limit_login_failed($arg) {
 		limit_login_notify($user);
 
 		/* increase statistics */
-		$total = get_option('limit_login_lockouts_total');
+		$total = bp_get_option('limit_login_lockouts_total');
 		if ($total === false) {
 			add_option('limit_login_lockouts_total', 1, '', 'no');
 		} else {
@@ -288,7 +288,7 @@ function limit_login_failed($arg) {
 /* Clean up any old lockouts and old retries */
 function limit_login_cleanup($retries = null, $lockouts = null, $valid = null) {
 	$now = time();
-	$lockouts = !is_null($lockouts) ? $lockouts : get_option('limit_login_lockouts');
+	$lockouts = !is_null($lockouts) ? $lockouts : bp_get_option('limit_login_lockouts');
 
 	/* remove old lockouts */
 	if (is_array($lockouts)) {
@@ -301,8 +301,8 @@ function limit_login_cleanup($retries = null, $lockouts = null, $valid = null) {
 	}
 
 	/* remove retries that are no longer valid */
-	$valid = !is_null($valid) ? $valid : get_option('limit_login_retries_valid');
-	$retries = !is_null($retries) ? $retries : get_option('limit_login_retries');
+	$valid = !is_null($valid) ? $valid : bp_get_option('limit_login_retries_valid');
+	$retries = !is_null($retries) ? $retries : bp_get_option('limit_login_retries');
 	if (!is_array($valid) || !is_array($retries)) {
 		return;
 	}
@@ -329,7 +329,7 @@ function limit_login_cleanup($retries = null, $lockouts = null, $valid = null) {
 /* Email notification of lockout to admin (if configured) */
 function limit_login_notify_email($user) {
 	$ip = limit_login_get_address();
-	$retries = get_option('limit_login_retries');
+	$retries = bp_get_option('limit_login_retries');
 
 	if (!is_array($retries)) {
 		$retries = array();
@@ -359,7 +359,7 @@ function limit_login_notify_email($user) {
 	}
 
 	$subject = sprintf(__("[%s] Too many failed login attempts", 'limit-login-attempts')
-					   , get_option('blogname'));
+					   , bp_get_option('blogname'));
 	$message = sprintf(__("%d failed login attempts (%d lockout(s)) from IP: %s"
 						  , 'limit-login-attempts') . "\r\n\r\n"
 					   , $count, $lockouts, $ip);
@@ -369,13 +369,13 @@ function limit_login_notify_email($user) {
 	}
 	$message .= sprintf(__("IP was blocked for %s", 'limit-login-attempts'), $when);
 
-	@wp_mail(get_option('admin_email'), $subject, $message);
+	@wp_mail(bp_get_option('admin_email'), $subject, $message);
 }
 
 
 /* Logging of lockout (if configured) */
 function limit_login_notify_log($user) {
-	$log = get_option('limit_login_logged');
+	$log = bp_get_option('limit_login_logged');
 	$ip = limit_login_get_address();
 	if ($log === false) {
 		$log = array($ip => array($user => 1));
@@ -420,7 +420,7 @@ function limit_login_notify($user) {
 /* Construct informative error message */
 function limit_login_error_msg() {
 	$ip = limit_login_get_address();
-	$lockouts = get_option('limit_login_lockouts');
+	$lockouts = bp_get_option('limit_login_lockouts');
 
 	$msg = __('<strong>ERROR</strong>: Too many failed login attempts.', 'limit-login-attempts') . ' ';
 
@@ -445,8 +445,8 @@ function limit_login_error_msg() {
 /* Construct retries remaining message */
 function limit_login_retries_remaining_msg() {
 	$ip = limit_login_get_address();
-	$retries = get_option('limit_login_retries');
-	$valid = get_option('limit_login_retries_valid');
+	$retries = bp_get_option('limit_login_retries');
+	$valid = bp_get_option('limit_login_retries_valid');
 
 	/* Should we show retries remaining? */
 
@@ -595,8 +595,8 @@ function limit_login_guess_proxy() {
 
 
 /* Only change var if option exists */
-function limit_login_get_option($option, $var_name) {
-	$a = get_option($option);
+function limit_login_bp_get_option($option, $var_name) {
+	$a = bp_get_option($option);
 
 	if ($a !== false) {
 		global $limit_login_options;
@@ -608,15 +608,15 @@ function limit_login_get_option($option, $var_name) {
 
 /* Setup global variables from options */
 function limit_login_setup_options() {
-	limit_login_get_option('limit_login_client_type', 'client_type');
-	limit_login_get_option('limit_login_allowed_retries', 'allowed_retries');
-	limit_login_get_option('limit_login_lockout_duration', 'lockout_duration');
-	limit_login_get_option('limit_login_valid_duration', 'valid_duration');
-	limit_login_get_option('limit_login_cookies', 'cookies');
-	limit_login_get_option('limit_login_lockout_notify', 'lockout_notify');
-	limit_login_get_option('limit_login_allowed_lockouts', 'allowed_lockouts');
-	limit_login_get_option('limit_login_long_duration', 'long_duration');
-	limit_login_get_option('limit_login_notify_email_after', 'notify_email_after');
+	limit_login_bp_get_option('limit_login_client_type', 'client_type');
+	limit_login_bp_get_option('limit_login_allowed_retries', 'allowed_retries');
+	limit_login_bp_get_option('limit_login_lockout_duration', 'lockout_duration');
+	limit_login_bp_get_option('limit_login_valid_duration', 'valid_duration');
+	limit_login_bp_get_option('limit_login_cookies', 'cookies');
+	limit_login_bp_get_option('limit_login_lockout_notify', 'lockout_notify');
+	limit_login_bp_get_option('limit_login_allowed_lockouts', 'allowed_lockouts');
+	limit_login_bp_get_option('limit_login_long_duration', 'long_duration');
+	limit_login_bp_get_option('limit_login_notify_email_after', 'notify_email_after');
 
 	limit_login_sanitize_variables();
 }
@@ -774,8 +774,8 @@ function limit_login_option_page()	{
 			. '</p></div>';
 	}
 
-	$lockouts_total = get_option('limit_login_lockouts_total', 0);
-	$lockouts = get_option('limit_login_lockouts');
+	$lockouts_total = bp_get_option('limit_login_lockouts_total', 0);
+	$lockouts = bp_get_option('limit_login_lockouts');
 	$lockouts_now = is_array($lockouts) ? count($lockouts) : 0;
 
 	if (!limit_login_support_cookie_option()) {
@@ -890,7 +890,7 @@ function limit_login_option_page()	{
 		</p>
 	  </form>
 	  <?php
-		$log = get_option('limit_login_logged');
+		$log = bp_get_option('limit_login_logged');
 
 		if (is_array($log) && count($log) > 0) {
 	  ?>

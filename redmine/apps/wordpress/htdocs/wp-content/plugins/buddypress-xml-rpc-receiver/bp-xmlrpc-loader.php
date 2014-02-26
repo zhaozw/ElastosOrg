@@ -51,6 +51,9 @@ function bp_xmlrpc_admin_add_admin_menu() {
     if ( !is_super_admin() )
         return false;
 
+    if ( get_current_blog_id() > 1 )
+        return  false;
+
     // Add the component's administration tab under the "Settings" menu for site administrators
     require ( dirname( __FILE__ ) . '/admin/bp-xmlrpc-admin.php' );
 

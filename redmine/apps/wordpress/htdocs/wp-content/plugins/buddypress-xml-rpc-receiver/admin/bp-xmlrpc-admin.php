@@ -87,7 +87,7 @@ function bp_xmlrpc_admin_calls_check( $type, $currenttypes ) {
 function bp_xmlrpc_caps_options() {
 	$out = '';
 	
-	$selected = get_option( 'bp_xmlrpc_cap_low' );
+	$selected = bp_get_option( 'bp_xmlrpc_cap_low' );
 	$caps = bp_xmlrpc_admin_get_role_capabilities();
 	
 	foreach($caps as $cap => $val) {
@@ -166,7 +166,7 @@ function bp_xmlrpc_admin() {
         $updated = true;
     }
     
-    $allowed_users = explode("\n",get_option('bp_xmlrpc_allowed_users'));
+    $allowed_users = explode("\n",bp_get_option('bp_xmlrpc_allowed_users'));
     
 	// if adding access
 
@@ -187,7 +187,7 @@ function bp_xmlrpc_admin() {
 		<?php
 				switch ( $tab ){
 					case 'main' :
-						$enabled = get_option( 'bp_xmlrpc_enabled' ); 
+						$enabled = bp_get_option( 'bp_xmlrpc_enabled' ); 
 		?>
             <h3><?php _e( 'Enable Plugin:', 'bp-xmlrpc' ); ?></h3>
 
@@ -204,7 +204,7 @@ function bp_xmlrpc_admin() {
             <table class="form-table">
                 <?php
 
-                $enabledcalls = (array) get_option( 'bp_xmlrpc_enabled_calls' );
+                $enabledcalls = (array) bp_get_option( 'bp_xmlrpc_enabled_calls' );
                 $totalcalls = bp_xmlrpc_admin_calls();
 
                 foreach ( $totalcalls as $call ) { ?>
@@ -221,7 +221,7 @@ function bp_xmlrpc_admin() {
 
             <p><?php _e( 'By default, only the URL that the user should use to connect is displayed.', 'bp-xmlrpc' ); ?></p>
 
-            <textarea id="ab_xmlrpc_more_info" name="ab_xmlrpc_more_info" cols="80" rows="10" style="font-family: monospace"><?php echo preg_replace("/\\\+(['\"])/","$1",get_option( 'bp_xmlrpc_more_info' )); ?></textarea>
+            <textarea id="ab_xmlrpc_more_info" name="ab_xmlrpc_more_info" cols="80" rows="10" style="font-family: monospace"><?php echo preg_replace("/\\\+(['\"])/","$1",bp_get_option( 'bp_xmlrpc_more_info' )); ?></textarea>
 
 			<?php
 						break;
@@ -235,7 +235,7 @@ function bp_xmlrpc_admin() {
                 </tr>
                 <tr valign="top">
                     <th><label for="require_approval"><?php _e( 'Require per user admin approval', 'bp-xmlrpc' ) ?></label></th>
-                    <td><input id="require_approval" type="checkbox" <?php if ( get_option( 'bp_xmlrpc_require_approval' ) ) echo 'checked'; ?> name="require_approval" value="1" /></td>
+                    <td><input id="require_approval" type="checkbox" <?php if ( bp_get_option( 'bp_xmlrpc_require_approval' ) ) echo 'checked'; ?> name="require_approval" value="1" /></td>
                 </tr>
             </table>
 
