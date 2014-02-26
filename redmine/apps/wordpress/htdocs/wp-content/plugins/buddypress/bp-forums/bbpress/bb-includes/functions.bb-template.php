@@ -202,7 +202,7 @@ function bb_head()
  * @since 1.0
  */
 function bb_rsd_link() {
-	if (bb_get_option('enable_xmlrpc'))
+	//if (bb_get_option('enable_xmlrpc'))
 		echo '<link rel="EditURI" type="application/rsd+xml" title="RSD" href="' . bb_get_uri('xmlrpc.php', 'rsd', BB_URI_CONTEXT_LINK_OTHER + BB_URI_CONTEXT_BB_XMLRPC) . '" />' . "\n";
 }
 

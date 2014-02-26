@@ -470,7 +470,7 @@ function bb_cache_all_options()
 		'wordpress_mu_primary_blog_id',
 		'enable_loginless',
 		'enable_subscriptions',
-		'enable_xmlrpc',
+		//'enable_xmlrpc',
 		'enable_pingback',
 		'throttle_time',
 		'bb_xmlrpc_allow_user_switching',

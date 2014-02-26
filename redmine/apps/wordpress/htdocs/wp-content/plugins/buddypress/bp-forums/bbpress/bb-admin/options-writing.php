@@ -48,6 +48,7 @@ $general_options = array(
 	)
 );
 
+/*
 $remote_options = array(
 	'enable_xmlrpc' => array(
 		'title' => __( 'XML-RPC' ),
@@ -57,6 +58,7 @@ $remote_options = array(
 		)
 	)
 );
+*/
 
 $bb_admin_body_class = ' bb-admin-settings';
 

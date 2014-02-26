@@ -109,7 +109,7 @@ class BB_XMLRPC_Server extends IXR_Server
 	function BB_XMLRPC_Server()
 	{
 		// bbPress publishing API
-		if ( bb_get_option( 'enable_xmlrpc' ) ) {
+		//if ( bb_get_option( 'enable_xmlrpc' ) ) {
 			$this->methods = array(
 				// - Demo
 				'demo.sayHello'         => 'this:sayHello',
@@ -154,7 +154,7 @@ class BB_XMLRPC_Server extends IXR_Server
 				'bb.getOptions'        => 'this:bb_getOptions',
 				'bb.setOptions'        => 'this:bb_setOptions'
 			);
-		}
+		//}
 
 		// Pingback
 		if ( bb_get_option( 'enable_pingback' ) ) {

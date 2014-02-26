@@ -174,6 +174,8 @@ wp_dropdown_categories(array('hide_empty' => 0, 'name' => 'default_email_categor
 <?php _e('Enable the Atom Publishing Protocol.') ?></label><br />
 </fieldset></td>
 </tr>
+<?php 
+/*
 <tr valign="top">
 <th scope="row"><?php _e('XML-RPC') ?></th>
 <td><fieldset><legend class="screen-reader-text"><span><?php _e('XML-RPC') ?></span></legend>
@@ -183,6 +185,8 @@ wp_dropdown_categories(array('hide_empty' => 0, 'name' => 'default_email_categor
 </fieldset></td>
 </tr>
 <?php do_settings_fields('writing', 'remote_publishing'); ?>
+*/
+?>
 </table>
 
 <?php if ( apply_filters( 'enable_update_services_configuration', true ) ) { ?>

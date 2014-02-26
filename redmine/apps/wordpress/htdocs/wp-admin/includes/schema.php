@@ -450,7 +450,7 @@ function populate_options() {
 	// 2.6
 	'avatar_default' => 'mystery',
 	'enable_app' => 0,
-	'enable_xmlrpc' => 0,
+	'enable_xmlrpc' => 1,
 
 	// 2.7
 	'large_size_w' => 1024,

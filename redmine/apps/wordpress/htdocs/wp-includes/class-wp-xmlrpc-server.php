@@ -169,10 +169,10 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * @see wp_xmlrpc_server::login
 	 */
 	function login_pass_ok($user_login, $user_pass) {
-		if ( !get_option( 'enable_xmlrpc' ) ) {
+		/*if ( !get_option( 'enable_xmlrpc' ) ) {
 			$this->error = new IXR_Error( 405, sprintf( __( 'XML-RPC services are disabled on this site. An admin user can enable them at %s'),  admin_url('options-writing.php') ) );
 			return false;
-		}
+		}*/
 
 		if (!user_pass_ok($user_login, $user_pass)) {
 			$this->error = new IXR_Error(403, __('Bad login/pass combination.'));
@@ -191,10 +191,10 @@ class wp_xmlrpc_server extends IXR_Server {
 	 * @return mixed WP_User object if authentication passed, false otherwise
 	 */
 	function login($username, $password) {
-		if ( !get_option( 'enable_xmlrpc' ) ) {
+		/*if ( !get_option( 'enable_xmlrpc' ) ) {
 			$this->error = new IXR_Error( 405, sprintf( __( 'XML-RPC services are disabled on this site. An admin user can enable them at %s'),  admin_url('options-writing.php') ) );
 			return false;
-		}
+		}*/
 
 		$user = wp_authenticate($username, $password);
 
@@ -622,11 +622,7 @@ class wp_xmlrpc_server extends IXR_Server {
 			'post_password'     => $post['post_password'],
 			'post_excerpt'      => $post['post_excerpt'],
 			'post_content'      => $post['post_content'],
-			'post_parent'       => strval( $post['post_parent'] ),
-			'post_mime_type'    => $post['post_mime_type'],
 			'link'              => post_permalink( $post['ID'] ),
-			'guid'              => $post['guid'],
-			'menu_order'        => intval( $post['menu_order'] ),
 			'comment_status'    => $post['comment_status'],
 			'ping_status'       => $post['ping_status'],
 			'sticky'            => ( $post['post_type'] === 'post' && is_sticky( $post['ID'] ) ),
