@@ -737,8 +737,16 @@ function groups_screen_group_admin_requests() {
 
 	if ( 'membership-requests' == bp_get_group_current_admin_tab() ) {
 
-		if ( ! bp_is_item_admin() || ( 'public' == $bp->groups->current_group->status ) )
+		if ( ! bp_is_item_admin() ) {
 			return false;
+		}
+
+		if ( 'public' == $bp->groups->current_group->status ) {
+			// Remove any screen notifications
+			bp_core_delete_notifications_by_type( bp_loggedin_user_id(), $bp->groups->id, 'new_membership_request' );
+
+			return false;
+		}
 
 		// Remove any screen notifications
 		bp_core_delete_notifications_by_type( bp_loggedin_user_id(), $bp->groups->id, 'new_membership_request' );
