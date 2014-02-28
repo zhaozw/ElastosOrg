@@ -38,11 +38,11 @@ function PopupContact()
       </div>
       <div id="PopupContact_BoxLabel"> <?php _e('Your Email', 'popup-contact'); ?> </div>
       <div id="PopupContact_BoxLabel">
-        <input name="PopupContact_email" class="PopupContact_TextBox" type="text" id="PopupContact_email" maxlength="120">
+        <input name="PopupContact_email" class="PopupContact_TextBox" type="text" id="PopupContact_email" maxlength="120" style="width:100%;">
       </div>
       <div id="PopupContact_BoxLabel"> <?php _e('Enter Your Message', 'popup-contact'); ?> </div>
       <div id="PopupContact_BoxLabel">
-        <textarea name="PopupContact_message" class="PopupContact_TextArea" rows="3" id="PopupContact_message"></textarea>
+        <textarea name="PopupContact_message" class="PopupContact_TextArea" rows="3" id="PopupContact_message" style="width:100%;"></textarea>
       </div>
       <div id="PopupContact_BoxLabel">
         <input type="button" name="button" class="PopupContact_Button" value="Submit" onClick="javascript:PopupContact_Submit(this.parentNode,'<?php echo get_option('siteurl'); ?>/wp-content/plugins/popup-contact-form/');">
@@ -174,11 +174,11 @@ function PopupContact_shortcode( $atts )
 		  $html .= '</div>';
 		  $html .= '<div id="PopupContact_BoxLabel_Page"> '.__('Your Email', 'popup-contact').' </div>';
 		  $html .= '<div id="PopupContact_BoxLabel_Page">';
-			$html .= '<input name="PopupContact_email" class="PopupContact_TextBox" type="text" id="PopupContact_email" maxlength="120">';
+			$html .= '<input name="PopupContact_email" class="PopupContact_TextBox" type="text" id="PopupContact_email" maxlength="120" style="width:100%;">';
 		  $html .= '</div>';
 		  $html .= '<div id="PopupContact_BoxLabel_Page"> '.__('Enter Your Message', 'popup-contact').' </div>';
 		  $html .= '<div id="PopupContact_BoxLabel_Page">';
-			$html .= '<textarea name="PopupContact_message" class="PopupContact_TextArea" rows="3" id="PopupContact_message"></textarea>';
+			$html .= '<textarea name="PopupContact_message" class="PopupContact_TextArea" rows="3" id="PopupContact_message" style="width:100%;"></textarea>';
 		  $html .= '</div>';
 		  $html .= '<div id="PopupContact_BoxLabel_Page">';
 			$html .= '<input type="button" name="button" class="PopupContact_Button" value="Submit" onClick="javascript:PopupContact_Submit(this.parentNode,'.$siteurl.');">';

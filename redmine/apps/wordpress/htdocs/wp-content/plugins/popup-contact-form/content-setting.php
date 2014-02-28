@@ -5,6 +5,13 @@
     <h2><?php _e('Popup contact form', 'popup-contact'); ?></h2>
     <?php
 	$PopupContact_title = get_option('PopupContact_title');
+
+	if ( empty($PopupContact_title) ) {
+		PopupContact_install();
+
+		$PopupContact_title = get_option('PopupContact_title');
+	}
+
 	$PopupContact_On_Homepage = get_option('PopupContact_On_Homepage');
 	$PopupContact_On_Posts = get_option('PopupContact_On_Posts');
 	$PopupContact_On_Pages = get_option('PopupContact_On_Pages');
