@@ -30,7 +30,7 @@ do_action( 'bp_before_group_header' );
 </div><!-- #item-actions -->
 
 <div id="item-header-avatar">
-	<a href="<?php bp_group_permalink(); ?>" title="SNS: <?php bp_group_name(); ?>">
+	<a href="<?php bp_group_permalink(); ?>">
 
 		<?php bp_group_avatar(); ?>
 

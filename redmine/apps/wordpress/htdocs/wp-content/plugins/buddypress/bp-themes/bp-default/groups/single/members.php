@@ -40,7 +40,7 @@
 		<?php while ( bp_group_members() ) : bp_group_the_member(); ?>
 
 			<li>
-				<a href="<?php bp_group_member_domain(); ?>" title="SNS: <?php bp_member_name() ?>">
+				<a href="<?php bp_group_member_domain(); ?>">
 
 					<?php bp_group_member_avatar_thumb(); ?>
 

@@ -66,7 +66,7 @@ class BP_Groups_Widget extends WP_Widget {
 				<?php while ( bp_groups() ) : bp_the_group(); ?>
 					<li>
 						<div class="item-avatar">
-							<a href="<?php bp_group_permalink() ?>" title="<?php bp_group_name() ?>"><?php bp_group_avatar_thumb() ?></a>
+							<a href="<?php bp_group_permalink() ?>"><?php bp_group_avatar_thumb() ?></a>
 						</div>
 <?php
 $id = get_groupblog_blog_id(bp_get_group_id());
