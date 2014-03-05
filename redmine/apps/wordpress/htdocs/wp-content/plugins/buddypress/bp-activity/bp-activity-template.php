@@ -428,7 +428,9 @@ function bp_has_activities( $args = '' ) {
 	// Support for basic filters in earlier BP versions is disabled by default. To enable, put
 	//   add_filter( 'bp_activity_enable_afilter_support', '__return_true' );
 	// into bp-custom.php or your theme's functions.php
-	if ( isset( $_GET['afilter'] ) && apply_filters( 'bp_activity_enable_afilter_support', false ) )
+	if ( isset( $_GET['action'] ) ) {
+		$filter = array( 'action' => $_GET['action'], 'primary_id' => $_GET['primary_id'], 'secondary_id' => $_GET['secondary_id'] );
+	} else if ( isset( $_GET['afilter'] ) && apply_filters( 'bp_activity_enable_afilter_support', false ) )
 		$filter = array( 'object' => $_GET['afilter'] );
 	else if ( !empty( $user_id ) || !empty( $object ) || !empty( $action ) || !empty( $primary_id ) || !empty( $secondary_id ) )
 		$filter = array( 'user_id' => $user_id, 'object' => $object, 'action' => $action, 'primary_id' => $primary_id, 'secondary_id' => $secondary_id );
