@@ -92,7 +92,17 @@
 
 						<?php do_action( 'bp_group_forum_post_meta' ); ?>
 
-						<a href="#post-<?php bp_the_topic_post_id(); ?>" title="<?php _e( 'Permanent link to this post', 'buddypress' ); ?>">#</a>
+						<?php
+							global $topic_template;
+
+							// Never show for the first post in a topic.
+							if ( 0 == $topic_template->current_post && 1 == $topic_template->pag_page ) {
+								$str = '/groups/' . bp_get_current_group_slug() . '?action=new_forum_topic&primary_id=' . bp_get_current_group_id() . '&secondary_id=' . bp_get_the_topic_id();
+							} else {
+								$str = '/groups/' . bp_get_current_group_slug() . '?action=new_forum_post&primary_id=' . bp_get_current_group_id() . '&secondary_id=' . bp_get_the_topic_post_id();
+							}
+						?>
+						<a href="<?php echo $str; ?>" title="<?php _e( 'More about this post', 'buddypress' ); ?>">#</a>
 					</div>
 				</li>
 
