@@ -787,7 +787,8 @@ function bp_group_forum_topic_count( $args = '' ) {
 		$r = wp_parse_args( $args, $defaults );
 		extract( $r, EXTR_SKIP );
 
-		if ( !$forum_id = groups_get_groupmeta( $groups_template->group->id, 'forum_id' ) )
+		$forum_id = groups_get_groupmeta( $groups_template->group->id, 'forum_id' );
+		if ( empty($forum_id) )
 			return false;
 
 		if ( !bp_is_active( 'forums' ) )
@@ -821,7 +822,8 @@ function bp_group_forum_post_count( $args = '' ) {
 		$r = wp_parse_args( $args, $defaults );
 		extract( $r, EXTR_SKIP );
 
-		if ( !$forum_id = groups_get_groupmeta( $groups_template->group->id, 'forum_id' ) )
+		$forum_id = groups_get_groupmeta( $groups_template->group->id, 'forum_id' );
+		if ( empty($forum_id) )
 			return false;
 
 		if ( !bp_is_active( 'forums' ) )

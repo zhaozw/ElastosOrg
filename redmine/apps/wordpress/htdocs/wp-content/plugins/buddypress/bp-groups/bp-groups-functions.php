@@ -175,7 +175,8 @@ function groups_edit_group_settings( $group_id, $enable_forum, $status, $invite_
 
 	// If forums have been enabled, and a forum does not yet exist, we need to create one.
 	if ( $group->enable_forum ) {
-		if ( bp_is_active( 'forums' ) && !groups_get_groupmeta( $group->id, 'forum_id' ) ) {
+		$var = groups_get_groupmeta($group->id, 'forum_id');
+		if ( bp_is_active('forums') && empty($var) ) {
 			groups_new_group_forum( $group->id, $group->name, $group->description );
 		}
 	}
