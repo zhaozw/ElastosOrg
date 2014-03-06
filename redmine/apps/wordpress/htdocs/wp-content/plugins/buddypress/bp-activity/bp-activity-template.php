@@ -425,6 +425,11 @@ function bp_has_activities( $args = '' ) {
 	if ( !empty( $max ) && ( (int) $per_page > (int) $max ) )
 		$per_page = $max;
 
+	// Support for search_terms passed through URL
+	if ( isset( $_GET['search_terms'] ) ) {
+		$search_terms = $_GET['search_terms'];
+	}
+
 	// Support for basic filters in earlier BP versions is disabled by default. To enable, put
 	//   add_filter( 'bp_activity_enable_afilter_support', '__return_true' );
 	// into bp-custom.php or your theme's functions.php
