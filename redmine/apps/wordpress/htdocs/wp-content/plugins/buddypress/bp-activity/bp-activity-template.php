@@ -151,7 +151,7 @@ class BP_Activity_Template {
 			'filter'           => false,
 			'search_terms'     => false,
 			'display_comments' => 'threaded',
-			'show_hidden'      => false,
+			'show_hidden'      => bp_group_is_visible(),
 			'spam'             => 'ham_only',
 		);
 		$r = wp_parse_args( $args, $defaults );
@@ -308,7 +308,7 @@ function bp_has_activities( $args = '' ) {
 	$include     = false;
 	$exclude     = false;
 	$in          = false;
-	$show_hidden = false;
+	$show_hidden = bp_group_is_visible();
 	$object      = false;
 	$primary_id  = false;
 
