@@ -241,6 +241,11 @@ function bbp_get_group_forum_ids( $group_id = 0 ) {
 	if ( !empty( $group_id ) )
 		$forum_ids = groups_get_groupmeta( $group_id, 'forum_id' );
 
+	/*
+	 * $forum_ids should not be an array,  it is just a number	244
+	 * elastos.org
+	 */
+
 	// Make sure result is an array
 	if ( !is_array( $forum_ids ) )
 		$forum_ids = (array) $forum_ids;
@@ -295,8 +300,17 @@ function bbp_update_group_forum_ids( $group_id = 0, $forum_ids = array() ) {
 	// Trim out any empties
 	$forum_ids = array_filter( $forum_ids );
 
+	/*
+	 * elastos.org
+	 */
+	if ( count($forum_ids) >= 1)
+		$forum_id = $forum_ids[0];
+	else
+		return false;
+
 	// Get the forums
-	return groups_update_groupmeta( $group_id, 'forum_id', $forum_ids );
+	//return groups_update_groupmeta( $group_id, 'forum_id', $forum_ids );
+	return groups_update_groupmeta( $group_id, 'forum_id', $forum_id );
 }
 
 /**
@@ -407,6 +421,14 @@ function bbp_remove_forum_id_from_group( $group_id = 0, $forum_id = 0 ) {
 
 	// Get current group IDs
 	$forum_ids = bbp_get_group_forum_ids( $group_id );
+
+	/*
+	 * elastos.org
+	 */
+	if (! is_array($forum_ids))
+		return false;
+	if (count($forum_ids) <= 1)
+		return false;
 
 	// Maybe update the groups forums
 	if ( in_array( $forum_id, $forum_ids ) ) {
