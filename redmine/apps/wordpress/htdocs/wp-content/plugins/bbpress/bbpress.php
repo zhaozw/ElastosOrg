@@ -17,7 +17,7 @@
  * Description: bbPress is forum software with a twist from the creators of WordPress.
  * Author:      The bbPress Community
  * Author URI:  http://bbpress.org
- * Version:     2.2.4
+ * Version:     99.2.2.4
  * Text Domain: bbpress
  * Domain Path: /languages/
  */
