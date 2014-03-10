@@ -888,7 +888,7 @@ final class WP_Screen {
 				<?php
 					meta_box_prefs( $this );
 
-					if ( 'dashboard' === $this->id && current_user_can( 'edit_theme_options' ) ) {
+					/* if ( 'dashboard' === $this->id && current_user_can( 'edit_theme_options' ) ) {
 						if ( isset( $_GET['welcome'] ) ) {
 							$welcome_checked = empty( $_GET['welcome'] ) ? 0 : 1;
 							update_user_meta( get_current_user_id(), 'show_welcome_panel', $welcome_checked );
@@ -900,7 +900,7 @@ final class WP_Screen {
 						echo '<label for="wp_welcome_panel-hide">';
 						echo '<input type="checkbox" id="wp_welcome_panel-hide"' . checked( (bool) $welcome_checked, true, false ) . ' />';
 						echo _x( 'Welcome', 'Welcome panel' ) . "</label>\n";
-					}
+					} */
 				?>
 				<br class="clear" />
 			</div>
