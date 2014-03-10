@@ -54,6 +54,7 @@ function wp_dashboard_setup() {
 		wp_add_dashboard_widget( 'dashboard_recent_comments', $recent_comments_title, 'wp_dashboard_recent_comments', 'wp_dashboard_recent_comments_control' );
 	}
 
+/*
 	// Incoming Links Widget
 	if ( is_blog_admin() && current_user_can('publish_posts') ) {
 		if ( !isset( $widget_options['dashboard_incoming_links'] ) || !isset( $widget_options['dashboard_incoming_links']['home'] ) || $widget_options['dashboard_incoming_links']['home'] != get_option('home') ) {
@@ -69,6 +70,7 @@ function wp_dashboard_setup() {
 		}
 		wp_add_dashboard_widget( 'dashboard_incoming_links', __( 'Incoming Links' ), 'wp_dashboard_incoming_links', 'wp_dashboard_incoming_links_control' );
 	}
+*/
 
 	// WP Plugins Widget
 	if ( ( ! is_multisite() && is_blog_admin() && current_user_can( 'install_plugins' ) ) || ( is_network_admin() && current_user_can( 'manage_network_plugins' ) && current_user_can( 'install_plugins' ) ) )
@@ -82,6 +84,7 @@ function wp_dashboard_setup() {
 	if ( is_blog_admin() && current_user_can('edit_posts') )
 		wp_add_dashboard_widget( 'dashboard_recent_drafts', __('Recent Drafts'), 'wp_dashboard_recent_drafts' );
 
+/*
 	// Primary feed (Dev Blog) Widget
 	if ( !isset( $widget_options['dashboard_primary'] ) ) {
 		$update = true;
@@ -111,6 +114,7 @@ function wp_dashboard_setup() {
 		);
 	}
 	wp_add_dashboard_widget( 'dashboard_secondary', $widget_options['dashboard_secondary']['title'], 'wp_dashboard_secondary', 'wp_dashboard_secondary_control' );
+*/
 
 	// Hook to register new widgets
 	// Filter widget order
@@ -400,7 +404,7 @@ function wp_dashboard_right_now() {
 		echo "<p><a href='options-privacy.php' title='$title'>$content</a></p>";
 	}
 
-	update_right_now_message();
+	//update_right_now_message();
 
 	echo "\n\t".'<br class="clear" /></div>';
 	do_action( 'rightnow_end' );

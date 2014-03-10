@@ -124,7 +124,7 @@ class BBP_Admin {
 		add_action( 'bbp_register_admin_settings', array( $this, 'register_admin_settings'    ) ); // Add settings
 		add_action( 'bbp_activation',              array( $this, 'new_install'                ) ); // Add menu item to settings menu
 		add_action( 'admin_enqueue_scripts',       array( $this, 'enqueue_scripts'            ) ); // Add enqueued JS and CSS
-		add_action( 'wp_dashboard_setup',          array( $this, 'dashboard_widget_right_now' ) ); // Forums 'Right now' Dashboard widget
+		//add_action( 'wp_dashboard_setup',          array( $this, 'dashboard_widget_right_now' ) ); // Forums 'Right now' Dashboard widget
 
 		/** Ajax **************************************************************/
 
