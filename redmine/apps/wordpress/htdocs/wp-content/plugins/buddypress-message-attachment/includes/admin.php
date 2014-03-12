@@ -82,7 +82,7 @@ function bp_msgat_admin() {
 
 		<?php if ( isset($updated) ) : ?><?php echo "<div id='message' class='updated fade'><p>" . __( 'Settings Updated.', 'bp-msgat' ) . "</p></div>" ?><?php endif; ?>
 
-		<form action="<?php echo site_url() . '/wp-admin/admin.php?page=bp-msgat-settings' ?>" name="msgat-settings-form" id="msgat-settings-form" method="post">
+		<form action="<?php echo site_url() . '/wp-admin/network/admin.php?page=bp-msgat-settings' ?>" name="msgat-settings-form" id="msgat-settings-form" method="post">
 
 			<table class="form-table">
 				<tr valign="top">
