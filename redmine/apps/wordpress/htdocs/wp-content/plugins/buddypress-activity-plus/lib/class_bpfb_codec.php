@@ -44,7 +44,23 @@ class BpfbCodec {
 	 * Relies on `wp_oembed_get()` for markup rendering.
 	 */
 	function process_video_tag ($atts, $content) {
-		return wp_oembed_get($content, array('width' => Bpfb_Data::get('oembed_width', 450)));
+		$ret = wp_oembed_get($content, array('width' => Bpfb_Data::get('oembed_width', 450)));
+
+		if( ! $ret ) {
+			if ( strpos($content, 'http://') === 0 ) {
+				if ( strpos($content, '.swf') > 0 ) {
+					$ret = '<iframe height=498 width=510 src="' . $content . '" frame border=0 allowfullscreen></iframe>';
+				}
+			} else if ( strpos($content, '<embed') === 0 ) {
+				$ret = $content;
+			} else if ( strpos($content, '<iframe') === 0 ) {
+				$ret = $content;
+			} else {
+				$ret = esc_html($content);
+			}
+		}
+
+		return $ret;
 	}
 
 	/**

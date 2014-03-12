@@ -180,6 +180,19 @@ EOFontIconCSS;
 		$warning = __('There has been an error processing your request', 'bpfb');
 		$response = $url ? __('Processing...', 'bpfb') : $warning;
 		$ret = wp_oembed_get($url);
+
+		if( ! $ret ) {
+			if ( strpos($content, 'http://') === 0 ) {
+				if ( strpos($content, '.swf') > 0 ) {
+					$ret = '<iframe height=498 width=510 src="' . $content . '" frame border=0 allowfullscreen></iframe>';
+				}
+			} else if ( strpos($content, '<embed') === 0 ) {
+				$ret = $content;
+			} else if ( strpos($content, '<iframe') === 0 ) {
+				$ret = $content;
+			}
+		}
+
 		echo ($ret ? $ret : $warning);
 		exit();
 	}
