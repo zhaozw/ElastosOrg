@@ -67,7 +67,7 @@ define('BPFB_TEMP_IMAGE_URL', $wp_upload_dir['baseurl'] . '/bpfb/tmp/', true);
 define('BPFB_BASE_IMAGE_DIR', $wp_upload_dir['basedir'] . '/bpfb/', true);
 define('BPFB_BASE_IMAGE_URL', $wp_upload_dir['baseurl'] . '/bpfb/', true);
 
-
+define('BPFB_USE_THICKBOX', '', true);
 
 // Hook up the installation routine and check if we're really, really set to go
 require_once BPFB_PLUGIN_BASE_DIR . '/lib/class_bpfb_installer.php';

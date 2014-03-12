@@ -126,7 +126,10 @@ EOFontIconCSS;
 	 */
 	function js_load_scripts () {
 		wp_enqueue_script('jquery');
-		wp_enqueue_script('thickbox');
+
+		//elastos.org use fancybox
+		//wp_enqueue_script('thickbox');
+
 		if (!current_theme_supports('bpfb_file_uploader')) {
 			wp_enqueue_script('file_uploader', BPFB_PLUGIN_URL . '/js/external/fileuploader.js', array('jquery'));
 		}
