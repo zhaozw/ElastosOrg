@@ -56,6 +56,12 @@
 
 			</select>
 		</li>
+		<li class="last">
+			<form action="" method="get" id="search-contents-form">
+			<input type="submit" id="contents_search_submit" name="contents_search_submit" value="Filter">
+			<label><input type="text" name="search_terms" id="content_search" placeholder="Filter contents"></label>
+			</form>
+		</li>
 	</ul>
 </div><!-- .item-list-tabs -->
 
