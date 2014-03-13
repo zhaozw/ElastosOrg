@@ -416,7 +416,7 @@ View this Event: %s
 View this Group: %s
 
 %s
-", 'groupcalendar' ), $email_subject, stripslashes($event_title), $date, $event_description, $location, $url, $group_link, $site_name );
+", 'groupcalendar' ), $email_subject, htmlspecialchars_decode(stripslashes($event_title),ENT_QUOTES), $date, $event_description, $location, $url, $group_link, $site_name );
 
 		$message .= sprintf( __( 'To unsubscribe from these emails please login and visit: %s', 'groupcalendar' ), $settings_link );
 
