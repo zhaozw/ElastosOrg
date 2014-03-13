@@ -138,7 +138,7 @@ EOFontIconCSS;
 			'add_photos' => __('Add photos', 'bpfb'),
 			'add_remote_image' => __('Add image URL', 'bpfb'),
 			'add_another_remote_image' => __('Add another image URL', 'bpfb'),
-			'add_videos' => __('Add videos', 'bpfb'),
+			'add_videos' => __('Add (.swf) videos', 'bpfb'),
 			'add_video' => __('Add video', 'bpfb'),
 			'add_links' => __('Add links', 'bpfb'),
 			'add_link' => __('Add link', 'bpfb'),
@@ -176,20 +176,27 @@ EOFontIconCSS;
 	 */
 	function ajax_preview_video () {
 		$url = $_POST['data'];
+
+/*
+ * only support http://......swf type URL
+		if ( (strpos($url, '<embed') === 0) && (strrchr($url, '/embed>') == '/embed>') ) {
+			$ret = stripslashes($url);
+			echo $ret;
+			exit();			
+		} else if ( (strpos($url, '<iframe') === 0) && (strrchr($url, '/iframe>') == '/iframe>') ) {
+			$ret = stripslashes($url);
+			echo $ret;
+			exit();
+		}			
+*/
 		$url = preg_match('/^https?:\/\//i', $url) ? $url : BPFB_PROTOCOL . $url;
 		$warning = __('There has been an error processing your request', 'bpfb');
 		$response = $url ? __('Processing...', 'bpfb') : $warning;
 		$ret = wp_oembed_get($url);
 
 		if( ! $ret ) {
-			if ( strpos($content, 'http://') === 0 ) {
-				if ( strpos($content, '.swf') > 0 ) {
-					$ret = '<iframe height=498 width=510 src="' . $content . '" frame border=0 allowfullscreen></iframe>';
-				}
-			} else if ( strpos($content, '<embed') === 0 ) {
-				$ret = $content;
-			} else if ( strpos($content, '<iframe') === 0 ) {
-				$ret = $content;
+			if ( strrchr($url, '.swf') == '.swf' ) {
+				$ret = '<iframe height=498 width=510 src="' . $url . '" frame border=0 allowfullscreen></iframe>';
 			}
 		}
 
