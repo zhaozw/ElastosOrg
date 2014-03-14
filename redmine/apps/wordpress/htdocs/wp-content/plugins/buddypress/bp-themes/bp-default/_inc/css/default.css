@@ -305,9 +305,9 @@ div#sidebar .widget_search input[type=text] {
 }
 #footer-widget-area ul.item-list img.avatar,
 div#sidebar ul.item-list img.avatar {
-	height: 20px;
-	margin-right: 10px;
-	width: 20px;
+	height: 30px;
+	/*margin-right: 10px;*/
+	width: 30px;
 }
 #footer-widget-area div.item-avatar img,
 div#sidebar div.item-avatar img {
@@ -351,7 +351,8 @@ div#sidebar div.tags div#tag-text {
 3.0 - Non-structural
 --------------------------------------------------------------*/
 p {
-	margin-bottom: 15px;
+	margin-bottom: 8px;
+/*	text-indent: 2em;*/
 }
 p:last-child {
 	margin-bottom: 0;
@@ -435,7 +436,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 5px 0 15px 0;
+	margin: 5px 0 5px 0;
 }
 h1 {
 	font-size: 28px;
@@ -517,11 +518,11 @@ div.page ul ol {
 4.0 - Navigation
 --------------------------------------------------------------*/
 a {
-	color: #1fb3dd;
+	color: #41728D;
 }
 a:hover,
 a:active {
-	color: #888;
+	color: #4C99A2;
 }
 a:focus {
 	outline: 1px dotted #ccc;
@@ -542,6 +543,14 @@ a:focus {
 	list-style: none;
 	padding: 0;
 	float: right;
+	border: 2px solid #d7d7d7;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+	margin-right: 36px;
 }
 #nav li a {
 	background: url( ../images/60pc_black.png );
@@ -552,7 +561,8 @@ a:focus {
 	text-align: left;
 }
 #nav li {
-	margin-left: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
 	display: inline-block;
 	float: left;
 }
@@ -598,7 +608,7 @@ background:#CEE1E8;
 	z-index: 1000;
 }
 #nav ul {
-	border: 1px solid #222;
+	border: 2px solid #d7d7d7;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius-topleft: 0;
@@ -676,7 +686,7 @@ div.pagination {
 	height: 19px;
 	margin: -20px -19px 0px -19px;
 	padding: 8px 20px;
-	position: relative;
+/*	position: relative;*/
 }
 div.pagination .pag-count {
 	float: left;
@@ -948,7 +958,7 @@ dd.wp-caption p.wp-caption-text,
 5.4 - Images
 --------------------------------------------------------------*/
 img.avatar {
-	border: 2px solid #eee;
+	/*border: 2px solid #eee;*/
 	float: left;
 }
 img.wp-smiley {
@@ -1106,8 +1116,8 @@ span.sticky-post {
 }
 #item-body form#whats-new-form {
 	border-bottom: 1px solid #ddd;
-	margin: 20px 0 10px;
-	padding-bottom: 20px;
+/*	margin: 20px 0 10px;
+	padding-bottom: 20px;*/
 }
 .home-page form#whats-new-form {
 	border-bottom: none;

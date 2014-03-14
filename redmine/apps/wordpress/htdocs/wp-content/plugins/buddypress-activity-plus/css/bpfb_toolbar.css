@@ -11,7 +11,7 @@
 	text-decoration: none;
 	display: block;
 	float: left;
-	height: 32px;
+	height: 16px;
 	width: 32px;
 	margin-right: 1ex;
 	overflow: hidden;
@@ -61,8 +61,8 @@
 .bpfb_actions_container.bpfb-theme-new #bpfb_addDocuments {
 	background: none;
 	font-family:'bpfb';
-	font-size: 24px;
-	line-height: 32px;
+	font-size: 16px;
+	line-height: 16px;
 	font-weight:normal;
 	margin-right: .5em;
 	text-align: center;
