@@ -328,6 +328,9 @@ function bp_core_fetch_avatar( $args = '' ) {
 
 	// If no avatars could be found, try to display a gravatar
 
+/*
+ * elastos.org don't support http://www.gravatar.com/avatar/
+ *
 	// Skips gravatar check if $no_grav is passed
 	if ( ! apply_filters( 'bp_core_fetch_avatar_no_grav', $no_grav ) ) {
 
@@ -375,8 +378,9 @@ function bp_core_fetch_avatar( $args = '' ) {
 
 	// No avatar was found, and we've been told not to use a gravatar.
 	} else {
+*/
 		$gravatar = apply_filters( "bp_core_default_avatar_$object", BP_PLUGIN_URL . 'bp-core/images/mystery-man.jpg', $params );
-	}
+//	}
 
 	if ( true === $html )
 		return apply_filters( 'bp_core_fetch_avatar', '<img src="' . $gravatar . '" alt="' . esc_attr( $alt ) . '" class="' . esc_attr( $class ) . '"' . $css_id . $html_width . $html_height . $title . ' />', $params, $item_id, $avatar_dir, $css_id, $html_width, $html_height, $avatar_folder_url, $avatar_folder_dir );
