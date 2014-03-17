@@ -152,9 +152,9 @@ class BP_Activity_Component extends BP_Component {
 		// Unread message count
 		$count = bp_get_total_mention_count_for_user( $user_id );
 		if ( !empty( $count ) ) {
-			$title = sprintf( __( 'Mentions <span class="count">%s</span>', 'buddypress' ), number_format_i18n( $count ) );
+			$title = sprintf( __( 'Mentions(@) <span class="count">%s</span>', 'buddypress' ), number_format_i18n( $count ) );
 		} else {
-			$title = __( 'Mentions', 'buddypress' );
+			$title = __( 'Mentions(@)', 'buddypress' );
 		}
 
 		// @ mentions
