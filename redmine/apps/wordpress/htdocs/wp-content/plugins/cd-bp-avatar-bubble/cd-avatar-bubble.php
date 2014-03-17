@@ -346,7 +346,7 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
                     $field_link = is_array($field_value) ? implode(", ", $field_value) : $field_value;
                     $field_link = apply_filters('cd_ab_field_text', $field_link, $ID, $field_id, $field_data['type'], $field_value );
                 }
-                $output .= '<p class="popupLine"'. $class .'><strong>' . $field_data['name'] . '</strong>: ' . $field_link . '</p>';
+                $output .= '<p class="popupLine"'. $class .'><strong>' . $field_data['name'] . '</strong>: ' . nl2br($field_link) . '</p>';
             }
             $i++;
         }
