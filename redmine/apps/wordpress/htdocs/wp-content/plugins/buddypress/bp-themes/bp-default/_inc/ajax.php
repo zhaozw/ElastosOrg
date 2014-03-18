@@ -874,7 +874,11 @@ function bp_dtheme_ajax_messages_autocomplete_results() {
 	$limit    = $_GET['limit'] ? $_GET['limit'] : apply_filters( 'bp_autocomplete_max_results', 10 );
 
 	// Get the user ids based on the search terms
+
+/*
+ * elastos.org
 	if ( ! empty( $autocomplete_all ) ) {
+*/
 		$users = BP_Core_User::search_users( $_GET['q'], $limit, $pag_page );
 
 		if ( ! empty( $users['users'] ) ) {
@@ -888,7 +892,9 @@ function bp_dtheme_ajax_messages_autocomplete_results() {
 			$user_ids = apply_filters( 'bp_core_autocomplete_ids', $user_ids, $_GET['q'], $limit );
 		}
 
-	} else {
+/*
+ * elastos.org
+ 	} else {
 		if ( bp_is_active( 'friends' ) ) {
 			$users = friends_search_friends( $_GET['q'], bp_loggedin_user_id(), $limit, 1 );
 
@@ -899,7 +905,7 @@ function bp_dtheme_ajax_messages_autocomplete_results() {
 				$user_ids = apply_filters( 'bp_friends_autocomplete_ids', $users['friends'], $_GET['q'], $limit );
 		}
 	}
-
+*/
 	if ( ! empty( $user_ids ) ) {
 		foreach ( $user_ids as $user_id ) {
 			$ud = get_userdata( $user_id );
@@ -913,7 +919,7 @@ function bp_dtheme_ajax_messages_autocomplete_results() {
 
 			// Note that the final line break acts as a delimiter for the
 			// autocomplete javascript and thus should not be removed
-			echo '<span id="link-' . $username . '" href="' . bp_core_get_user_domain( $user_id ) . '"></span>' . bp_core_fetch_avatar( array( 'item_id' => $user_id, 'type' => 'thumb', 'width' => 15, 'height' => 15, 'alt' => $ud->display_name ) ) . ' &nbsp;' . bp_core_get_user_displayname( $user_id ) . ' (' . $username . ')' . "\n";
+			echo '<span id="link-' . $username . '" href="' . bp_core_get_user_domain( $user_id ) . '"></span>' . bp_core_fetch_avatar( array( 'item_id' => $user_id, 'type' => 'thumb', 'width' => 20, 'height' => 20, 'alt' => $ud->display_name ) ) . ' &nbsp;' . bp_core_get_user_displayname( $user_id ) . ' (' . $username . ')' . "\n";
 		}
 	}
 
