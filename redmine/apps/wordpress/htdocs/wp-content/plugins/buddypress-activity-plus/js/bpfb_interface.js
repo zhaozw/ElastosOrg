@@ -607,7 +607,7 @@ function createMarkup () {
 			'&nbsp;' +
 			'<a href="#links" class="bpfb_toolbarItem" title="' + l10nBpfb.add_links + '" id="bpfb_addLinks"><span>' + l10nBpfb.add_links + '</span></a>' +
 			'&nbsp;' +
-			'<a href="#smiles" class="" title="' + 'smiles' + '" id="bpfb_addSmiles"><span>' + 'smiles' + '</span></a>' +
+			'<a href="#smiles" class="" title="' + 'smiles' + '" id="bpfb_addSmiles"><img src="/wp-includes/images/smilies/icon_smile.gif" alt=":smile:" /></a>' +
 		'</div>' +
 		'<div class="bpfb_controls_container">' +
 		'</div>' +
