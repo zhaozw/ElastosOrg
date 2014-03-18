@@ -711,5 +711,11 @@ $(".bpfb_final_link img").each(function () {
 	$(this).width($(this).parents('div').width());
 });
 
+
+jQuery(".bpfb_actions_container").css("height","52px");
+jQuery("#whats-new-options").css({position: "static",height:"40px",width:"20    0px",float:"right",marginTop:"-50px"});
+jQuery("#whats-new-content").css({height:"auto"});
+
+
 });
 })(jQuery);
