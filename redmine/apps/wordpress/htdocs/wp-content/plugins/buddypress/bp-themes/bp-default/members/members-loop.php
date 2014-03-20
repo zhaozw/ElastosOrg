@@ -37,7 +37,7 @@
 
 	<?php while ( bp_members() ) : bp_the_member(); ?>
 
-		<li>
+		<li style="float: left;border-color:#e6e6e6;padding: 10px;border-width: 2px;border-style: solid;border-radius: 2px;box-shadow: 0px 1px 2px 0px #ededed;width: 268px;height: 100px;margin: 40px 20px 0 0;cursor: pointer;">
 			<div class="item-avatar">
 				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
 			</div>
@@ -77,7 +77,7 @@
 				?>
 			</div>
 
-			<div class="action">
+			<div class="action" style="position:relative;bottom:5px;">
 
 				<?php do_action( 'bp_directory_members_actions' ); ?>
 
@@ -89,6 +89,21 @@
 	<?php endwhile; ?>
 
 	</ul>
+	<script type="text/javascript">
+	var $=jQuery;
+	$(document).ready(function(){
+	$("#members-list").find('li').mouseover(
+			function (){
+				$(this).css("border-width","2px");
+				$(this).css("border-color","#fda316");
+				});
+	$("#members-list").find('li').mouseout(
+			function(){
+				$(this).css("border-width","2px");
+				$(this).css("border-color","#e6e6e6");
+				});
+	});
+	</script>
 
 	<?php do_action( 'bp_after_directory_members_list' ); ?>
 
