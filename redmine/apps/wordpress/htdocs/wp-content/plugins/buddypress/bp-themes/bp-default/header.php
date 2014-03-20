@@ -9,7 +9,6 @@
 <?php echo '<link rel="shortcut icon" type="image/x-icon" href="' . 'http://'.$_SERVER['SERVER_NAME']. '/favicon.ico">'; ?>
 		<?php do_action( 'bp_head' ); ?>
 		<?php wp_head(); ?>
-
 	</head>
 
 	<body <?php body_class(); ?> id="bp-default">
@@ -37,7 +36,7 @@
 			</div><!-- #search-bar -->
 
 			<div id="navigation" role="navigation">
-					<h1 id="logo" role="banner"><a href="<?php echo home_url(); ?>" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
+					<h1 id="logo" role="banner"><a href="http://www.elastos.org" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
 
 				<?php wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); ?>
 			</div>

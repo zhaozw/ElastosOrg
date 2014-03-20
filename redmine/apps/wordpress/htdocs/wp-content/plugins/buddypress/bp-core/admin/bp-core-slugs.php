@@ -113,7 +113,8 @@ function bp_core_admin_slugs_options() {
 
 							<?php endif; ?>
 
-							<?php if ( !bp_is_root_blog() )
+							<?php // Will bail if not switched
+								//if ( !bp_is_root_blog() )
 								restore_current_blog() ?>
 
 						</td>

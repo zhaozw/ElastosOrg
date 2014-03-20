@@ -1,24 +1,29 @@
-<?php if ( bp_group_has_members( 'exclude_admins_mods=0' ) ) : ?>
+<?php
 
-	<?php do_action( 'bp_before_group_members_content' ); ?>
+/**
+ * BuddyPress - Members Loop
+ *
+ * Querystring is set via AJAX in _inc/ajax.php - bp_dtheme_object_filter()
+ *
+ * @package BuddyPress
+ * @subpackage bp-default
+ */
 
-	<div class="item-list-tabs" id="subnav" role="navigation">
-		<ul>
+?>
 
-			<?php do_action( 'bp_members_directory_member_sub_types' ); ?>
+<?php do_action( 'bp_before_members_loop' ); ?>
 
-		</ul>
-	</div>
+<?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
 
-	<div id="pag-top" class="pagination no-ajax">
+	<div id="pag-top" class="pagination">
 
-		<div class="pag-count" id="member-count-top">
+		<div class="pag-count" id="member-dir-count-top">
 
 			<?php bp_members_pagination_count(); ?>
 
 		</div>
 
-		<div class="pagination-links" id="member-pag-top">
+		<div class="pagination-links" id="member-dir-pag-top">
 
 			<?php bp_members_pagination_links(); ?>
 
@@ -26,72 +31,91 @@
 
 	</div>
 
-	<?php do_action( 'bp_before_group_members_list' ); ?>
+	<?php do_action( 'bp_before_directory_members_list' ); ?>
 
-	<ul id="member-list" class="item-list" role="main">
+	<ul id="members-list" class="item-list" role="main">
 
-		<?php while ( bp_group_members() ) : bp_group_the_member(); ?>
+	<?php while ( bp_members() ) : bp_the_member(); ?>
 
-			<li>
-				<a href="<?php bp_group_member_domain(); ?>">
+		<li>
+			<div class="item-avatar">
+				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
+			</div>
 
-					<?php bp_group_member_avatar_thumb(); ?>
+			<div class="item">
+				<div class="item-title">
+					<a href="<?php 
+						$usr = new WP_User(bp_get_member_user_id());
+						//$url = get_blogaddress_by_id($usr->primary_blog);
+						switch_to_blog($usr->primary_blog);
+						$url = get_bloginfo( 'wpurl' );
+						$blog_name = get_bloginfo('name');
+						restore_current_blog();
 
-				</a>
+						echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?></a>
 
-				<h5><a href="<?php 
-					$usr = new WP_User(bp_get_group_member_id());
-					//$url = get_blogaddress_by_id($usr->primary_blog);
-					switch_to_blog($usr->primary_blog);
-					$url = get_bloginfo( 'wpurl' );
-					$blog_name = get_bloginfo('name');
-					restore_current_blog();
-					echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?></a></h5>
-				<span class="activity"><?php bp_group_member_joined_since(); ?></span>
+					<?php if ( bp_get_member_latest_update() ) : ?>
 
-				<?php do_action( 'bp_group_members_list_item' ); ?>
+						<span class="update"> <?php bp_member_latest_update(); ?></span>
 
-				<?php if ( bp_is_active( 'friends' ) ) : ?>
+					<?php endif; ?>
 
-					<div class="action">
+				</div>
 
-						<?php bp_add_friend_button( bp_get_group_member_id(), bp_get_group_member_is_friend() ); ?>
+				<div class="item-meta"><span class="activity"><?php bp_member_last_active(); ?></span></div>
 
-						<?php do_action( 'bp_group_members_list_item_action' ); ?>
+				<?php do_action( 'bp_directory_members_item' ); ?>
 
-					</div>
+				<?php
+				 /***
+				  * If you want to show specific profile fields here you can,
+				  * but it'll add an extra query for each member in the loop
+				  * (only one regardless of the number of fields you show):
+				  *
+				  * bp_member_profile_data( 'field=the field name' );
+				  */
+				?>
+			</div>
 
-				<?php endif; ?>
-			</li>
+			<div class="action">
 
-		<?php endwhile; ?>
+				<?php do_action( 'bp_directory_members_actions' ); ?>
+
+			</div>
+
+			<div class="clear"></div>
+		</li>
+
+	<?php endwhile; ?>
 
 	</ul>
 
-	<?php do_action( 'bp_after_group_members_list' ); ?>
+	<?php do_action( 'bp_after_directory_members_list' ); ?>
 
-	<div id="pag-bottom" class="pagination no-ajax">
+	<?php bp_member_hidden_fields(); ?>
 
-		<div class="pag-count" id="member-count-bottom">
+	<div id="pag-bottom" class="pagination">
+
+		<div class="pag-count" id="member-dir-count-bottom">
 
 			<?php bp_members_pagination_count(); ?>
 
 		</div>
 
-		<div class="pagination-links" id="member-pag-bottom">
+		<div class="pagination-links" id="member-dir-pag-bottom">
 
 			<?php bp_members_pagination_links(); ?>
 
 		</div>
 
 	</div>
-
-	<?php do_action( 'bp_after_group_members_content' ); ?>
 
 <?php else: ?>
 
 	<div id="message" class="info">
-		<p><?php _e( 'This group has no members.', 'buddypress' ); ?></p>
+		<p><?php _e( "Sorry, no members were found.", 'buddypress' ); ?></p>
 	</div>
 
 <?php endif; ?>
+
+<?php do_action( 'bp_after_members_loop' ); ?>

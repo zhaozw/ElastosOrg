@@ -12,7 +12,7 @@
 
 			<div id="site-generator" role="contentinfo">
 				<?php do_action( 'bp_dtheme_credits' ) ?>
-				<p>Copyright&nbsp;&copy;&nbsp;2012&nbsp;<a href="http://elastos.org">elastos.org</a><?php printf( __( '    Proudly powered by <a href="%1$s">WordPress</a> and <a href="%2$s">BuddyPress</a>.', 'buddypress' ), 'http://wordpress.org', 'http://buddypress.org' ) ?></p>
+				<p>Copyright&nbsp;&copy;&nbsp;2012-2014&nbsp;<a href="http://elastos.org">elastos.org</a>&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn">ICP 08101992</a></p>
 			</div>
 
 			<?php do_action( 'bp_footer' ); ?>

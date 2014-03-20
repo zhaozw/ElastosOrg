@@ -46,14 +46,16 @@ $id = get_groupblog_blog_id(bp_get_group_id());
 if ($id > 1) {
 	switch_to_blog($id);
 	$str = get_bloginfo( 'wpurl' );
+	$blog_name = get_bloginfo('name');
 	restore_current_blog();
 } else {
 	$str = bp_get_group_permalink();
+	$blog_name = $str;
 }
 ?>
 
 			<div class="item">
-				<div class="item-title"><a href="<?php echo $str; ?>"><?php bp_group_name(); ?></a></div>
+				<div class="item-title"><a href="<?php echo $str; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_group_name(); ?></a></div>
 				<div class="item-meta"><span class="activity"><?php printf( __( 'active %s', 'buddypress' ), bp_get_group_last_active() ); ?></span></div>
 
 				<div class="item-desc"><?php bp_group_description_excerpt(); ?></div>

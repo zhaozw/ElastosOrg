@@ -767,7 +767,8 @@ class BP_Core_Setup_Wizard {
 			$blog_pages   = $this->setup_pages( (array) $_POST['bp_pages'] );
 			bp_update_option( 'bp-pages', $blog_pages );
 
-			if ( !empty( $wpdb->blogid ) && ( $wpdb->blogid != bp_get_root_blog_id() ) && ( !defined( 'BP_ENABLE_MULTIBLOG' ) ) )
+			// Will bail if not switched
+			//if ( !empty( $wpdb->blogid ) && ( $wpdb->blogid != bp_get_root_blog_id() ) && ( !defined( 'BP_ENABLE_MULTIBLOG' ) ) )
 				restore_current_blog();
 
 			return true;
@@ -923,7 +924,8 @@ class BP_Core_Setup_Wizard {
 					break;
 			}
 
-			if ( is_multisite() )
+			// Will bail if not switched
+			//if ( is_multisite() )
 				restore_current_blog();
 
 			return true;

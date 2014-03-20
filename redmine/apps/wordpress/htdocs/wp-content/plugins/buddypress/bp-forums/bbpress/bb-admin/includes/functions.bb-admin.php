@@ -1037,9 +1037,9 @@ function bb_update_forum( $args ) {
 
 	extract($args, EXTR_SKIP);
 
-	if ( !($forum_id = (int) $forum_id) )
+	if ( !$forum_id = (int) $forum_id )
 		return false;
-	if ( !($forum = bb_get_forum( $forum_id )) )
+	if ( !$forum = bb_get_forum( $forum_id ) )
 		return false;
 	$forum_order = (int) $forum_order;
 	$forum_parent = (int) $forum_parent;
