@@ -282,7 +282,7 @@ function bp_has_members( $args = '' ) {
 	$defaults = array(
 		'type'            => $type,
 		'page'            => $page,
-		'per_page'        => 20,
+		'per_page'        => 24,
 		'max'             => false,
 
 		'page_arg'        => 'upage',       // See https://buddypress.trac.wordpress.org/ticket/3679
