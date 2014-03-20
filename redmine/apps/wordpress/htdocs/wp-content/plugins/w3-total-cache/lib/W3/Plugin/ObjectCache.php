@@ -240,6 +240,9 @@ class W3_Plugin_ObjectCache extends W3_Plugin {
     function switch_blog($blog_id, $previous_blog_id) {
         $o = w3_instance('W3_ObjectCache');
         $o->switch_blog($blog_id);
+
+        //elastos.org
+        wp_cache_flush();
     }
 
 
