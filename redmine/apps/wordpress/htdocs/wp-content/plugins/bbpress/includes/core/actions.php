@@ -102,7 +102,11 @@ add_action( 'bbp_setup_theme', 'bbp_add_forums_roles', 1 );
  *
  * We also hook to 'bbp_setup_current_user' -- naturally.
  */
-add_action( 'switch_blog',            'bbp_set_current_user_default_role' );
+
+/*
+ * elastos.org
+ * add_action( 'switch_blog',            'bbp_set_current_user_default_role' );
+ */
 add_action( 'bbp_setup_current_user', 'bbp_set_current_user_default_role' );
 
 /**
