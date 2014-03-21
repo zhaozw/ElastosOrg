@@ -13,6 +13,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 /* Register widgets for groups component */
 function groups_register_widgets() {
 	add_action('widgets_init', create_function('', 'return register_widget("BP_Groups_Widget");') );
+	add_action('widgets_init', create_function('', 'return register_widget("BP_Groups_Recently_Active_Widget");') );
 }
 add_action( 'bp_register_widgets', 'groups_register_widgets' );
 
@@ -158,6 +159,71 @@ if ($id > 1) {
 	<?php
 	}
 }
+
+/*** RECENTLY ACTIVE WIDGET *****************/
+
+class BP_Groups_Recently_Active_Widget extends WP_Widget {
+
+	function __construct() {
+		$widget_ops = array( 'description' => __( 'Avatars of recently active groups', 'buddypress' ) );
+		parent::__construct( false, $name = __( 'Recently Active Group Avatars', 'buddypress' ), $widget_ops );
+	}
+
+	function widget( $args, $instance ) {
+
+		extract( $args );
+
+		echo $before_widget;
+		echo $before_title
+		   . $instance['title']
+		   . $after_title; ?>
+
+		<?php if ( bp_has_groups( 'user_id=0&type=active&per_page=' . $instance['max_groups'] . '&max=' . $instance['max_groups'] . '&populate_extras=0' ) ) : ?>
+			<div class="avatar-block">
+				<?php while ( bp_groups() ) : bp_the_group(); ?>
+					<div class="item-avatar">
+						<a href="<?php bp_group_permalink() ?>"><?php bp_group_avatar_thumb() ?></a>
+					</div>
+				<?php endwhile; ?>
+			</div>
+		<?php else: ?>
+
+			<div class="widget-error">
+				<?php _e( 'There are no recently active groups', 'buddypress' ) ?>
+			</div>
+
+		<?php endif; ?>
+
+		<?php echo $after_widget; ?>
+	<?php
+	}
+
+	function update( $new_instance, $old_instance ) {
+		$instance = $old_instance;
+		$instance['title'] = strip_tags( $new_instance['title'] );
+		$instance['max_groups'] = strip_tags( $new_instance['max_groups'] );
+
+		return $instance;
+	}
+
+	function form( $instance ) {
+		$defaults = array(
+			'title' => 'Recently Active Groups',
+			'max_groups' => 15
+		);
+		$instance = wp_parse_args( (array) $instance, $defaults );
+
+		$title = strip_tags( $instance['title'] );
+		$max_groups = strip_tags( $instance['max_groups'] );
+		?>
+
+		<p><label for="bp-core-widget-members-title"><?php _e('Title:', 'buddypress'); ?> <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" style="width: 100%" /></label></p>
+
+		<p><label for="bp-core-widget-members-max"><?php _e('Max Members to show:', 'buddypress'); ?> <input class="widefat" id="<?php echo $this->get_field_id( 'max_groups' ); ?>" name="<?php echo $this->get_field_name( 'max_groups' ); ?>" type="text" value="<?php echo esc_attr( $max_groups ); ?>" style="width: 30%" /></label></p>
+	<?php
+	}
+}
+
 
 function groups_ajax_widget_groups_list() {
 
