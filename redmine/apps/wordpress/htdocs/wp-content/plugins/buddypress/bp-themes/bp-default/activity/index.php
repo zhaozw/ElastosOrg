@@ -84,8 +84,12 @@ get_header( 'buddypress' ); ?>
 
 			<div class="item-list-tabs no-ajax" id="subnav" role="navigation">
 				<ul>
-					<li class="feed"><a href="<?php bp_sitewide_activity_feed_link(); ?>" title="<?php _e( 'RSS Feed', 'buddypress' ); ?>"><?php _e( 'RSS', 'buddypress' ); ?></a></li>
-
+					<?php $search_value = !empty( $_REQUEST['search_terms'] ) ? stripslashes( $_REQUEST['search_terms'] ) : 'Filter contents'; ?><li class="feed">
+					<form action="" method="get" id="search-contents-form">
+					<input type="submit" id="contents_search_submit" name="contents_search_submit" value="<?php _e( 'Filter', 'buddypress' ) ?>" />
+					<label><input type="text" name="search_terms" id="content_search" placeholder="<?php echo esc_attr( $search_value ) ?>" /></label>
+					</form>
+					</li>
 					<?php do_action( 'bp_activity_syndication_options' ); ?>
 
 					<li id="activity-filter-select" class="last">
