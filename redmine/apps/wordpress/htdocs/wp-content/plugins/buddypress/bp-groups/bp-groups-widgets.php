@@ -175,7 +175,7 @@ class BP_Groups_Recently_Active_Widget extends WP_Widget {
 
 		echo $before_widget;
 		echo $before_title
-		   . $instance['title']
+		   . '<a href="' . trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() ) . '">' . $instance['title'] . '</a>'
 		   . $after_title; ?>
 
 		<?php if ( bp_has_groups( 'user_id=0&type=active&per_page=' . $instance['max_groups'] . '&max=' . $instance['max_groups'] . '&populate_extras=0' ) ) : ?>

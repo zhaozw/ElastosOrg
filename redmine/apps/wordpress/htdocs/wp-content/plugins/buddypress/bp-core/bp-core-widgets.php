@@ -232,7 +232,7 @@ class BP_Core_Recently_Active_Widget extends WP_Widget {
 
 		echo $before_widget;
 		echo $before_title
-		   . $instance['title']
+		   . '<a href="' . trailingslashit( bp_get_root_domain() . '/' . bp_get_members_root_slug() ) . '">' . $instance['title'] . '</a>'
 		   . $after_title; ?>
 
 		<?php if ( bp_has_members( 'user_id=0&type=active&per_page=' . $instance['max_members'] . '&max=' . $instance['max_members'] . '&populate_extras=0' ) ) : ?>
