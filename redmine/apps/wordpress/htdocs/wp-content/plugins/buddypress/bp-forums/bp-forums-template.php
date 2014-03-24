@@ -1163,7 +1163,7 @@ function bp_the_topic_post_content() {
 	function bp_get_the_topic_post_content() {
 		global $topic_template;
 
-		return apply_filters( 'bp_get_the_topic_post_content', stripslashes( $topic_template->post->post_text ) );
+		return apply_filters( 'bp_get_the_topic_post_content', wm_make_clickable(stripslashes( $topic_template->post->post_text )) );
 	}
 
 function bp_the_topic_post_css_class() {

@@ -1486,12 +1486,7 @@ function wp_upload_dir( $time = null ) {
 
 	// Make sure we have an uploads dir
 	if ( ! wp_mkdir_p( $uploads['path'] ) ) {
-		if ( 0 === strpos( $uploads['basedir'], ABSPATH ) )
-			$error_path = str_replace( ABSPATH, '', $uploads['basedir'] ) . $uploads['subdir'];
-		else
-			$error_path = basename( $uploads['basedir'] ) . $uploads['subdir'];
-
-		$message = sprintf( __( 'Unable to create directory %s. Is its parent directory writable by the server?' ), $error_path );
+		$message = sprintf( __( 'Unable to create directory %s. Is its parent directory writable by the server?' ), $uploads['path'] );
 		return array( 'error' => $message );
 	}
 
@@ -1609,12 +1604,7 @@ function wp_upload_bits( $name, $deprecated, $bits, $time = null ) {
 
 	$new_file = $upload['path'] . "/$filename";
 	if ( ! wp_mkdir_p( dirname( $new_file ) ) ) {
-		if ( 0 === strpos( $upload['basedir'], ABSPATH ) )
-			$error_path = str_replace( ABSPATH, '', $upload['basedir'] ) . $upload['subdir'];
-		else
-			$error_path = basename( $upload['basedir'] ) . $upload['subdir'];
-
-		$message = sprintf( __( 'Unable to create directory %s. Is its parent directory writable by the server?' ), $error_path );
+		$message = sprintf( __( 'Unable to create directory %s. Is its parent directory writable by the server?' ), dirname( $new_file ) );
 		return array( 'error' => $message );
 	}
 
@@ -2429,7 +2419,7 @@ function wp_list_filter( $list, $args = array(), $operator = 'AND' ) {
 
 		$matched = 0;
 		foreach ( $args as $m_key => $m_value ) {
-			if ( $m_value == $to_match[ $m_key ] )
+			if ( array_key_exists( $m_key, $to_match ) && $m_value == $to_match[ $m_key ] )
 				$matched++;
 		}
 
@@ -3520,7 +3510,7 @@ function wp_find_hierarchy_loop_tortoise_hare( $callback, $start, $override = ar
  * @return none
  */
 function send_frame_options_header() {
-	@header( 'X-Frame-Options: SAMEORIGIN' );
+//	@header( 'X-Frame-Options: SAMEORIGIN' );
 }
 
 /**
@@ -3631,5 +3621,16 @@ function _device_can_upload() {
 	} else {
 		return true;
 	}
+}
+
+/**
+ * make an URL clickable.
+ *
+ * @elastos.org
+ *
+ * @return the content
+ */
+function wm_make_clickable($ret) {
+    return preg_replace('/(http|https|ftp):\/\/[!-~]+/i', '<a href="\\0" rel="external nofollow">\\0</a>', $ret);
 }
 

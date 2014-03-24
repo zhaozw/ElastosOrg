@@ -1184,7 +1184,7 @@ function bp_activity_content_body() {
 		if ( empty( $activities_template->activity->action ) && !empty( $activities_template->activity->content ) )
 			$activities_template->activity->content = bp_insert_activity_meta( $activities_template->activity->content );
 
-		return apply_filters_ref_array( 'bp_get_activity_content_body', array( $activities_template->activity->content, &$activities_template->activity ) );
+		return apply_filters_ref_array( 'bp_get_activity_content_body', array( wm_make_clickable($activities_template->activity->content), &$activities_template->activity ) );
 	}
 
 /**
