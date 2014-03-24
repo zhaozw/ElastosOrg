@@ -270,7 +270,7 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
     if ( $cd_ab['messages'] == 'yes') {
         $i++;
 
-        $profile .= '<strong><a href="'. bp_core_get_user_domain( $ID, false, false ) .'" title="'. __('Go to profile page',  'cd_ab') .'">#</a></strong>';
+        $profile .= '<strong><a href="'. bp_core_get_user_domain( $ID, false, false ) .'" title="'. __('Go to this user\'s SNS page',  'cd_ab') .'"><img src="/elorg_common/img/buddypress.png" style="width:16px"></a></strong>';
 
         if ( $cd_ab['action'] == 'click') {
             $action = 'true';
@@ -281,20 +281,32 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
                 $mention .= '<strong><a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_ACTIVITY_SLUG .'/?r='.bp_core_get_username( $ID, false, false ).'" title="'. __('Mention this user', 'cd_ab') .'">@'. bp_core_get_username( $ID, false, false ) .'</a></strong>';
             }
             if ( bp_is_active( 'messages' ) ) {
-                $message = '<a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_MESSAGES_SLUG . '/compose/?r=' . bp_core_get_username( $ID, false, false ) .'" title="'. __('Send a private message to this user', 'cd_ab') .'">'. __('Private Message', 'cd_ab') .'</a>';
+                $message = '<a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_MESSAGES_SLUG . '/compose/?r=' . bp_core_get_username( $ID, false, false ) .'" title="'. __('Send a private message to this user', 'cd_ab') .'"><img src="/wp-content/plugins/popup-contact-form/popup-contact-form.jpg" style="width:16px"></a>';
             }
         }else{
             if ( bp_is_active( 'activity' ) ) {
                 $mention .= '<strong><a href="' . $bp->root_domain . '/wp-login.php?redirect_to=' . urlencode( $bp->root_domain ) . '" title="'.__('You should be logged in to mention this user', 'cd_ab') .'">@'. bp_core_get_username( $ID, false, false ) .'</a></strong>';
             }
             if ( bp_is_active( 'messages' ) ) {
-                $message = '<strong><a href="' . $bp->root_domain . '/wp-login.php?redirect_to=' . urlencode( $bp->root_domain ) . '" title="'. __('You should be logged in to send a private message', 'cd_ab') .'">'. __('Private Message', 'cd_ab') .'</a></strong>';
+                $message = '<strong><a href="' . $bp->root_domain . '/wp-login.php?redirect_to=' . urlencode( $bp->root_domain ) . '" title="'. __('You should be logged in to send a private message', 'cd_ab') .'"><img src="/wp-content/plugins/popup-contact-form/popup-contact-form.jpg" style="width:16px"></a></strong>';
             }
         }
         if(empty($message) && empty($mention)){
             $profile .= ' | @'.bp_core_get_username( $ID, false, false );
         }
-        $output .= '<p class="popupLine" style="padding-top:0px">'. $profile . (bp_is_active('activity')?' | '.$mention:'') . (bp_is_active('messages')?' | '.$message:'') .'</p>';
+        
+		$usr = new WP_User($ID);
+		switch_to_blog($usr->primary_blog);
+		$url = get_bloginfo( 'wpurl' );
+		$blog_name = get_bloginfo('name');
+		restore_current_blog();
+        $blog_url .= ' | <a href="'. $url .'" title="'. __('Go to BLOG: ',  'cd_ab') . $blog_name . '"><img src="/elorg_common/img/blog.jpg" style="width:16px"></a>';
+
+        /*
+         * elastos.org needn't check bp_is_active('activity') and (bp_is_active('messages')
+         */
+        //$output .= '<p class="popupLine" style="padding-top:0px;padding-bottom:0px;background-color:#f2f2f2">' . (bp_is_active('activity')?' | '.$mention:'') . (bp_is_active('messages')?' | '.$message:'') . $profile . $blog_url . '</p>';
+        $output .= '<p class="popupLine" style="padding-top:0px;padding-bottom:0px;background-color:#f2f2f2">'.$mention . ' | ' . $message . ' | ' . $profile .  $blog_url . '</p>';
     }
 
     if ( $cd_ab['friend'] == 'yes' && $ID != $bp->loggedin_user->id && is_user_logged_in() && bp_is_active('friends') ) {
@@ -342,8 +354,9 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
                         $field_value = implode(',', $field_value);
                     $field_link = xprofile_filter_link_profile_data( $field_value, $field_data['type'] );
                     $field_link = apply_filters('cd_ab_field_link', $field_link, $ID, $field_id, $field_data['type'], $field_value );
-                }else{
+                } else {
                     $field_link = is_array($field_value) ? implode(", ", $field_value) : $field_value;
+                    $field_link = wm_make_clickable($field_link);
                     $field_link = apply_filters('cd_ab_field_text', $field_link, $ID, $field_id, $field_data['type'], $field_value );
                 }
                 $output .= '<p class="popupLine"'. $class .'><strong>' . $field_data['name'] . '</strong>: ' . nl2br($field_link) . '</p>';
