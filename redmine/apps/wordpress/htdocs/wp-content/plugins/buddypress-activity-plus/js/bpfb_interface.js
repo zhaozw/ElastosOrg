@@ -716,6 +716,9 @@ jQuery(".bpfb_actions_container").css("height","52px");
 jQuery("#whats-new-options").css({position: "static",height:"50px",width:"300px",float:"right",marginTop:"-50px"});
 jQuery("#whats-new-content").css({height:"auto"});
 
+setTimeout(function(){
+jQuery("#whats-new-textarea").append(jQuery("#mentions-autosuggest"));
+},1000);
 
 });
 })(jQuery);
