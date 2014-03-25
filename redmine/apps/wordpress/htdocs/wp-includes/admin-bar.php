@@ -94,6 +94,31 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
         ),
     ) );
 
+$prj = '<a href="/project/"><img src="http://elastos.org/redmine/themes/gitmike/images/logo.png" style="width:20px;">Elastos Project Management</a>';
+$code_view = '<a href="/review/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Code Review System</a>';
+$tst = '<a href="/testlink/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Test and Requirements</a>';
+$wiki = '<a href="/wiki/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Documentation</a>';
+$download = '<a href="/download/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Download</a>';
+
+$members = '<a href="/members/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">members</a>';
+$activity = '<a href="/activity/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">activity</a>';
+$groups = '<a href="/groups/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">groups</a>';
+$blogs = '<a href="/blogs/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">blogs</a>';
+$org_forums = '<a href="/org_forums/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">org_forums</a>';
+$q2a = '<a href="/q2a/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">q2a</a>';
+$community = '<div style="background-color=red; margin-left:20px;">' . $members . $activity . $groups . $blogs . $org_forums . $q2a . '</div>';
+
+$args = array(
+    'parent' => 'wp-logo',
+    'id'    => 'counter',
+    'title'  => 'ElastosOrg',
+    'meta'  => array(
+        'html' => '<div style="width:500px;height:320px;opacity:100;background-color:lightblue;">' . $prj . $code_view . $tst . $wiki . $download . $community),
+    'href' => '#',
+);
+$wp_admin_bar->add_node( $args );
+return;
+
     if ( is_user_logged_in() ) {
         // Add "About WordPress" link
         $wp_admin_bar->add_menu( array(

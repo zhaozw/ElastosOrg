@@ -66,8 +66,8 @@ a img{border:none;}
 2.0 - Structural
 --------------------------------------------------------------*/
 body {
-	background-color: #eaeaea;
-	background-image: url( ../images/background.gif );
+	background-color: lightblue;
+/*	background-image: url( ../images/background.gif );*/
 	background-repeat: repeat-x;
 	background-position: top left;
 	color: #555;
