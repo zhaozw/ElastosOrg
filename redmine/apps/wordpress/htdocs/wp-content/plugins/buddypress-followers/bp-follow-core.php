@@ -188,7 +188,12 @@ class BP_Follow_Component extends BP_Component {
 	 * @global obj $bp BuddyPress instance
 	 */
 	function setup_admin_bar() {
-		// Prevent debug notices
+/*
+ * elastos.org
+ */
+return;
+ 
+ 		// Prevent debug notices
 		$wp_admin_nav = array();
 
 		// Menus for logged in user

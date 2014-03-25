@@ -242,6 +242,11 @@ class BBP_Forums_Component extends BP_Component {
 	 */
 	public function setup_admin_bar() {
 
+/*
+ * elastos.org
+ */
+ return;
+ 
 		// Prevent debug notices
 		$wp_admin_nav = array();
 

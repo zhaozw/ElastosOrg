@@ -139,6 +139,11 @@ class BP_Blogs_Component extends BP_Component {
 	function setup_admin_bar() {
 		global $bp;
 
+/*
+ * elastos.org
+ */
+ return;
+ 
 		/**
 		 * Blog/post/comment menus should not appear on single WordPress setups.
 		 * Although comments and posts made by users will still show on their

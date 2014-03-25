@@ -179,7 +179,7 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
 		return;
 
 	$avatar = get_avatar( $user_id, 16 );
-	$howdy  = sprintf( __('Howdy, %1$s'), $current_user->display_name );
+	$howdy  = sprintf( __('Hi, %1$s'), $current_user->display_name );
 	$class  = empty( $avatar ) ? '' : 'with-avatar';
 
 	$wp_admin_bar->add_menu( array(
@@ -213,7 +213,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 	) );
 
 	$user_info  = get_avatar( $user_id, 64 );
-	$user_info .= "<span class='display-name'>{$current_user->display_name}</span>";
+	$user_info .= '<img src="/elorg_common/img/buddypress.png" style="width:16px"><span class="display-name" style="float:left;">' . "{$current_user->display_name}</span>";
 
 	if ( $current_user->display_name !== $current_user->user_nicename )
 		$user_info .= "<span class='username'>{$current_user->user_nicename}</span>";
@@ -222,7 +222,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 		'parent' => 'user-actions',
 		'id'     => 'user-info',
 		'title'  => $user_info,
-		'href'   => $profile_url,
+		'href'   => bp_core_get_user_domain($user_id),
 		'meta'   => array(
 			'tabindex' => -1,
 		),
@@ -311,7 +311,7 @@ function wp_admin_bar_site_menu( $wp_admin_bar ) {
 		) );
 
 		// Add the appearance submenu items.
-		wp_admin_bar_appearance_menu( $wp_admin_bar );
+		//wp_admin_bar_appearance_menu( $wp_admin_bar );
 	}
 }
 
