@@ -3630,7 +3630,27 @@ function _device_can_upload() {
  *
  * @return the content
  */
-function wm_make_clickable($ret) {
-    return preg_replace('/(http|https|ftp):\/\/[!-~]+/i', '<a href="\\0" rel="external nofollow">\\0</a>', $ret);
+function wm_make_clickable($content) {
+	preg_match_all('/<img[^>]+>/im',$content,$imgList);
+	$imgList=$imgList[0];
+	$str = preg_replace('/<img[^>]+>/im','<{img}>', $content);
+
+	preg_match_all('/<a.*?href=".*?".*?>.*?<\/a>/i', $content, $linkList);
+	$linkList = $linkList[0];
+	$str = preg_replace('/<a.*?href=".*?".*?>.*?<\/a>/i','<{link}>', $str);
+
+    $str = preg_replace('/(http|https|ftp):\/\/[!-~]+/i', '<a href="\\0" rel="external nofollow">\\0</a>', $str);
+
+	$arrLen = count($linkList);
+	for($i=0; $i<$arrLen; $i++) {
+		$str = preg_replace('/<{link}>/', $linkList[$i], $str, 1); 
+	}
+
+	$arrLen2 = count($imgList);
+	for($i=0; $i<$arrLen2; $i++) {
+		$str = preg_replace('/<{img}>/', $imgList[$i], $str, 1); 
+	}
+
+	return $str;
 }
 
