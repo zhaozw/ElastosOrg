@@ -2489,3 +2489,18 @@ div.elmpg-container a:active {
     text-decoration: underline;
 }
 
+.follow {
+    float:left;
+}
+.unfollow {
+    float:left;
+}
+.not_friends {
+    float:right;
+}
+.follow-button {
+    float:left;
+}
+.friendship-button-ext {
+    float:right;
+}

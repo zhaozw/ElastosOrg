@@ -153,13 +153,13 @@ function bp_follow_add_follow_button( $args = '' ) {
 			$id        = 'following';
 			$action    = 'stop';
 			$class     = 'unfollow';
-			$link_text = $link_title = sprintf( __( 'Stop Following %s', 'bp-follow' ), apply_filters( 'bp_follow_leader_name', bp_get_user_firstname( $leader_fullname ), $leader_id ) );
+			$link_text = $link_title = __( 'Stop Following', 'bp-follow' );
 		}
 		else {
 			$id        = 'not-following';
 			$action    = 'start';
 			$class     = 'follow';
-			$link_text = $link_title = sprintf( __( 'Follow %s', 'bp-follow' ), apply_filters( 'bp_follow_leader_name', bp_get_user_firstname( $leader_fullname ), $leader_id ) );
+			$link_text = $link_title = __( 'Follow', 'bp-follow' );
 		}
 
 		// setup the button arguments
