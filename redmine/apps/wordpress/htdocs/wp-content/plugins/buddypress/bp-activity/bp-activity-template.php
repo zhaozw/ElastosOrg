@@ -430,6 +430,13 @@ function bp_has_activities( $args = '' ) {
 		$search_terms = $_GET['search_terms'];
 	}
 
+	// Support ID list
+	if ( isset( $_GET['ids'] ) ) {
+		$ids = $_GET['ids'];
+		$include          = implode( ',', (array) $ids );
+		$display_comments = true;
+	}
+
 	// Support for basic filters in earlier BP versions is disabled by default. To enable, put
 	//   add_filter( 'bp_activity_enable_afilter_support', '__return_true' );
 	// into bp-custom.php or your theme's functions.php
