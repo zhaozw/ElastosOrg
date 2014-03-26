@@ -31,12 +31,19 @@ function bpaa_init() {
 	
 	global $bp;
 	// create the new activity and save to activity table
-	
+
+	$content = $_POST['bpaa_textarea'];
+
+	//save URL
+	if (isset($_POST['bpaa_video_link']) && !empty($_POST['bpaa_video_link']) ) {
+		$content .= "\n" . $_POST['bpaa_video_link']; 
+	}
+
 	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && ( !empty($_POST['bpaa_textarea']) || !empty($_POST['bpaa_video_link']) ) ) {	
 		
 		$activity_args = array(
 			'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
-			'content' => $_POST['bpaa_textarea'],
+			'content' => $content,
 			'component' => 'profile', 
 			'type' => 'activity_update', 
 			'primary_link' => '', 
@@ -47,23 +54,8 @@ function bpaa_init() {
 			'hide_sitewide' => false 
 		);
 		$activity_id = bp_activity_add($activity_args);
-		
-		//save video to activity meta
-		if (isset($_POST['bpaa_video_link']) && !empty($_POST['bpaa_video_link']) ) bp_activity_update_meta( $activity_id, 'bpaa_video_link', $_POST['bpaa_video_link'] );
 	}
-	
-	// display link as video in activity
-	function bpaa_display_video_activity() {
-		global $bp;	
-		$bpaa_vl = bp_activity_get_meta( bp_get_activity_id(), 'bpaa_video_link' );
-		if( isset( $bpaa_vl )  && !empty( $bpaa_vl ) ) {
-			echo 	'<div class="activity-video-wrapper">'; 
-			echo  	wp_oembed_get( $bpaa_vl );
-			echo 	'</div>';
-		}
-	}
-	add_action( 'bp_activity_entry_content', 'bpaa_display_video_activity' );
-	
+
 	// add link to toobar
 	function bpaa_admin_bar_button($admin_bar){
 		global $wp_admin_bar; 
@@ -77,7 +69,7 @@ function bpaa_init() {
 		));
 	}
 	add_action('admin_bar_menu', 'bpaa_admin_bar_button', 100); 	
-	
+
 	function bpaa_form() { ?>
 		<style>
 			#wp-admin-bar-post-update {
