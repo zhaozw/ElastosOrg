@@ -4,7 +4,7 @@ Plugin Name: Buddypress Activity Anywhere
 Plugin URI: http://geomywp.com
 Description: Post update to activity stream from anywhere in the main site or any other subsite in a multisite installation. 
 Author: Eyal Fitoussi
-Version: 1.0
+Version: 99.1.0
 Author URI: http://geomywp.com
 
 */
@@ -69,10 +69,10 @@ function bpaa_init() {
 		global $wp_admin_bar; 
 		$admin_bar->add_menu( array(
 				'id'    => 'post-update',
-				'title' => 'Say Something',
+				'title' => 'What\'s new',
 				'href'  => '#',	
 				'meta'  => array(
-				'title' => __('Say Something'),
+				'title' => __('What\'s new'),
 			),
 		));
 	}
@@ -86,7 +86,7 @@ function bpaa_init() {
 			}
 			#bpaa-form-wrapper {
 				position: absolute;
-				width: 200px;
+				width: 800px;
 				padding: 10px;
 				background: rgba(255,255,255,0.98);
 				top: 29px;
@@ -102,31 +102,38 @@ function bpaa_init() {
 			
 			#bpaa-form-wrapper form textarea {
 				float: left;
-				width: 100% !important;
-				font-family: Helvetica, Arial, sans-serif;
-				font-size: 12px;
-				line-height: 12px;
-				padding: 7px;
-				margin: 0px;
-				color: #777;
-				border: 1px solid rgb(238, 238, 238);
-				background-color: white;
-				-webkit-box-shadow: rgba(2, 2, 2, 0980392) 0px 0px 5px inset;
-				box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 5px inset;
-				border-top-left-radius: 4px;
-				border-top-right-radius: 4px;
-				border-bottom-right-radius: 4px;
-				border-bottom-left-radius: 4px;
-				box-sizing: border-box;
-				height: 70px;
-				text-shadow: none !important;
+				width: 98%% !important;
+				color:#666;
+				font-size:14px;
+				-moz-border-radius: 8px; -webkit-border-radius: 8px;
+				margin:5px 0px 10px 0px;
+				padding:10px;
+				height:75px;
+				border:#999 1px solid;
+				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				transition: all 0.25s ease-in-out;
+				-webkit-transition: all 0.25s ease-in-out;
+				-moz-transition: all 0.25s ease-in-out;
+				box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
 			}
-			
+
+			#bpaa-form-wrapper form textarea:focus{
+				color:#000;
+				outline:none;
+				border:#35a5e5 1px solid;
+				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+			}
+
 			#bpaa-buttons-wrapper {
 				float: left;
 				margin-top: 5px;
 			}
-			
+
 			#bpaa-form-wrapper form input[type="text"] {
 				float: left;
 				width: 100% !important;
@@ -148,18 +155,18 @@ function bpaa_init() {
 				text-shadow: none !important;
 				margin-top: 5px;
 			}
-			
+
 			#bpaa-form-wrapper form input[type="button"], #bpaa-form-wrapper form input[type="submit"]  {
 				font: normal 12px sans-serif;
 				padding: 5px;
 				color: #777;
 				text-shadow: none;
 			}
-			
+
 			.bpaa-warning {
 				border: 1px solid rgb(233, 130, 130) !important;
 			}
-				
+
 		</style>
 		<!-- form -->
 		<div id="bpaa-form-wrapper" hidden >
