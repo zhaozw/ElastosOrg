@@ -2754,4 +2754,29 @@ function bp_activity_sitewide_feed() {
 }
 add_action( 'bp_head', 'bp_activity_sitewide_feed' );
 
+/**
+ * bp_activity_get_forward_count from activity_meta
+ */
+function bp_activity_get_forward_count() {
+	$forward_count = bp_activity_get_meta( bp_get_activity_id(), 'forward_count' );
+	return $forward_count;
+}
+
+/**
+ * bp_activity_get_forward_count from activity_meta
+ */
+function bp_activity_set_forward_count($activity_id) {
+	$forward_count = bp_activity_get_meta($activity_id, 'forward_count');
+	
+	if (empty($forward_count)) {
+		$forward_count = 1;
+	} else {
+		$forward_count++;
+	}
+	bp_activity_update_meta($activity_id, 'forward_count', $forward_count);
+	
+	return $forward_count;
+}
+
+
 ?>

@@ -49,6 +49,10 @@ function bpaa_init() {
 			'hide_sitewide' => false 
 		);
 		$activity_id = bp_activity_add($activity_args);
+		
+		if ( intval($_POST['o_id']) > 0 ) {
+			bp_activity_set_forward_count($_POST['o_id']);
+		}
 	}
 
 	// add link to toobar
@@ -160,6 +164,7 @@ function bpaa_init() {
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
+				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
 					<input type="button" class="button" id="bpaa-submit" value="submit" name="bpaa_submit">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />

@@ -2504,3 +2504,14 @@ div.elmpg-container a:active {
 .friendship-button-ext {
     float:right;
 }
+a.bp-secondary-action span,
+#reply-title small a span {
+	background: #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 90%;
+	margin-left: 2px;
+	padding: 0 5px;
+}
