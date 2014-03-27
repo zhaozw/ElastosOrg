@@ -34,12 +34,7 @@ function bpaa_init() {
 
 	$content = $_POST['bpaa_textarea'];
 
-	//save URL
-	if (isset($_POST['bpaa_video_link']) && !empty($_POST['bpaa_video_link']) ) {
-		$content .= "\n" . $_POST['bpaa_video_link']; 
-	}
-
-	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && ( !empty($_POST['bpaa_textarea']) || !empty($_POST['bpaa_video_link']) ) ) {	
+	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($_POST['bpaa_textarea'])) ) {	
 		
 		$activity_args = array(
 			'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
@@ -165,7 +160,6 @@ function bpaa_init() {
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
-				<input type="text" name="bpaa_video_link" id="bpaa-video-link" class="bpaa-input" placeholder="http://myvideo.com" />
 				<div id="bpaa-buttons-wrapper">
 					<input type="button" class="button" id="bpaa-submit" value="submit" name="bpaa_submit">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
@@ -181,17 +175,15 @@ function bpaa_init() {
 				//remove warning when in input fields
 				$('.bpaa-input').focus(function() {
 					$('#bpaa-textarea').removeClass('bpaa-warning');
-					$('#bpaa-video-link').removeClass('bpaa-warning');
 				});
 				//when submit check if at least one filed as value and if so submit the form
 				//otherwise add warning
 				$("#bpaa-submit").click(function() {
 					//if(!$.trim($('#bpaa-textarea').value).length) { // zero-length string AFTER a trim
-					if ( $('#bpaa-textarea').val() || $('#bpaa-video-link').val() ) {
+					if ( $('#bpaa-textarea').val() ) {
 						$("#bpaa-form").submit();
 					} else {
 						$('#bpaa-textarea').addClass('bpaa-warning');
-						$('#bpaa-video-link').addClass('bpaa-warning');
 					}
 				});
 				// show and hide the form
