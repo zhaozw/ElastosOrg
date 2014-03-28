@@ -315,7 +315,7 @@ var BpfbSmileHandler = function () {
 		html.find("li").css({"float":"left","padding":"2px"});
 		html.find("li").click(function(){
 			value=$("#whats-new").val();
-			value=value.replace(value.substring(0,jQuery("#whats-new").getCurPos()),value.substring(0,jQuery("#whats-new").getCurPos())+$(this).find('img').attr('alt')+" ");
+			value=value.replace(value.substring(0,jQuery("#whats-new").getCurPos()),value.substring(0,jQuery("#whats-new").getCurPos())+" "+$(this).find('img').attr('alt')+" ");
 			$("#whats-new").val(value);
 		});
 		$container.empty().append(html);
@@ -712,7 +712,7 @@ $(".bpfb_final_link img").each(function () {
 });
 
 
-jQuery(".bpfb_actions_container").css("height","52px");
+//jQuery(".bpfb_actions_container").css("height","52px");
 jQuery("#whats-new-options").css({position: "static",height:"50px",width:"300px",float:"right",marginTop:"-50px"});
 jQuery("#whats-new-content").css({height:"auto"});
 
