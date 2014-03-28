@@ -156,7 +156,7 @@ function bpaa_init() {
 		<!-- form -->
 		<div id="bpaa-form-wrapper" hidden draggable="true">
 			<div class="title">
-				<span>Post MicroBLOG</span>
+				<span style="color:#333;">Post MicroBLOG</span>
 			</div>		
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
