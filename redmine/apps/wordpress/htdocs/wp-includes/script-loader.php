@@ -429,6 +429,9 @@ function wp_default_scripts( &$scripts ) {
 		$scripts->add( 'custom-background', "/wp-admin/js/custom-background$suffix.js", array('farbtastic'), false, 1 );
 		$scripts->add( 'media-gallery', "/wp-admin/js/media-gallery$suffix.js", array('jquery'), false, 1 );
 	}
+
+	//elastos.org
+	$scripts->add( 'mb-menu', "/wp-includes/js/mbMenu.js" );
 }
 
 /**
@@ -492,6 +495,9 @@ function wp_default_styles( &$styles ) {
 		if ( $suffix && ! in_array( $rtl_style, $no_suffix ) )
 			$styles->add_data( $rtl_style, 'suffix', $suffix );
 	}
+
+	//elastos.org
+	$styles->add( 'menu_black', "/wp-admin/css/menu_black.css" );
 }
 
 /**
