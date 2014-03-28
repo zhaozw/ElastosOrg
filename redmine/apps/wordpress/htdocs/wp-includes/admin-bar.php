@@ -94,6 +94,37 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
         ),
     ) );
 
+$elastos_org_main_menu = '
+<div id="box_menu" class="mbmenu boxMenu">
+    <table style="border:0;">
+        <tbody><tr>
+            <td>
+                <div style="height:130px"><img src="/wp-includes/images/project_management.png" alt="patapage" style="width:150px;"></div>
+                <a href="/project/"><img src="http://elastos.org/redmine/themes/gitmike/images/logo.png" style="width:20px;">Elastos Project Management</a>
+                <a href="/review/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Code Review System</a>
+                <a href="/testlink/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Test and Requirements</a>
+            </td>
+            <td>
+                <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:250px;" style="padding-top:30px"></div>
+                <a href="/wiki/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Documentation</a>
+                <a href="/download/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Download</a>
+            </td>
+            <td>
+                <div style="height:130px"><img src="/wp-includes/images/elorg_SNS.png" alt="bugsvoice" style="width:200px;"></div>
+                <a href="/members/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">members</a>
+                <a href="/activity/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">MicroBLOG</a>
+                <a href="/groups/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">groups</a>
+                <a href="/blogs/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">blogs</a>
+                <a href="/org_forums/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">org_forums</a>
+            </td>
+            <td>
+                <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:100px;"></div>
+                <a href="/q2a/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">q2a</a>
+            </td>
+        </tr>
+    </tbody></table>
+</div>';
+
 $prj = '<a href="/project/"><img src="http://elastos.org/redmine/themes/gitmike/images/logo.png" style="width:20px;">Elastos Project Management</a>';
 $code_view = '<a href="/review/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Code Review System</a>';
 $tst = '<a href="/testlink/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Test and Requirements</a>';
@@ -113,7 +144,8 @@ $args = array(
     'id'    => 'counter',
     'title'  => 'ElastosOrg',
     'meta'  => array(
-        'html' => '<div style="width:500px;height:320px;opacity:100;background-color:lightblue;">' . $prj . $code_view . $tst . $wiki . $download . $community),
+//        'html' => '<div style="width:500px;height:320px;opacity:100;background-color:lightblue;">' . $prj . $code_view . $tst . $wiki . $download . $community),
+        'html' => '<div style="opacity:100;background-color:lightblue;">' . $elastos_org_main_menu),
     'href' => '#',
 );
 $wp_admin_bar->add_node( $args );

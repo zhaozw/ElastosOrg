@@ -431,7 +431,8 @@ function wp_default_scripts( &$scripts ) {
 	}
 
 	//elastos.org
-	$scripts->add( 'mb-menu', "/wp-includes/js/mbMenu.js" );
+	$scripts->add( 'mb-menu', "/wp-includes/js/mbMenu.js", array('jquery'), "2.9.7" );
+	$scripts->add( 'elastos-org-mb-menu', "/wp-includes/js/ElastosOrgMainMenu.js", array('jquery'), "1.0" );
 }
 
 /**
@@ -497,7 +498,7 @@ function wp_default_styles( &$styles ) {
 	}
 
 	//elastos.org
-	$styles->add( 'menu_black', "/wp-admin/css/menu_black.css" );
+	$styles->add( 'menu_black', "/wp-includes/css/menu_black.css", array(), '1.0' );
 }
 
 /**

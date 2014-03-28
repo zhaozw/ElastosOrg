@@ -50,6 +50,10 @@ class WP_Admin_Bar {
 		wp_enqueue_script( 'admin-bar' );
 		wp_enqueue_style( 'admin-bar' );
 
+		wp_enqueue_script('mb-menu');
+		wp_enqueue_script('elastos-org-mb-menu');
+		wp_enqueue_style('menu_black');
+
 		do_action( 'admin_bar_init' );
 	}
 
