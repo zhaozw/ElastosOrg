@@ -28,39 +28,13 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 function bpaa_init() {
 	//if user logged out no need to load the plugin
 	if (!is_user_logged_in()) return;
-	
-	global $bp;
-	// create the new activity and save to activity table
-
-	$content = $_POST['bpaa_textarea'];
-
-	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($_POST['bpaa_textarea'])) ) {	
-		
-		$activity_args = array(
-			'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
-			'content' => $content,
-			'component' => 'profile', 
-			'type' => 'activity_update', 
-			'primary_link' => '', 
-			'user_id' => $bp->loggedin_user->id,
-			'item_id' => false,
-			'secondary_item_id' => false, 
-			'recorded_time' => gmdate( "Y-m-d H:i:s" ), 
-			'hide_sitewide' => false 
-		);
-		$activity_id = bp_activity_add($activity_args);
-		
-		if ( intval($_POST['o_id']) > 0 ) {
-			bp_activity_set_forward_count($_POST['o_id']);
-		}
-	}
 
 	// add link to toobar
 	function bpaa_admin_bar_button($admin_bar){
 		global $wp_admin_bar; 
 		$admin_bar->add_menu( array(
 				'id'    => 'post-update',
-				'title' => 'What\'s new',
+				'title' => 'MicroBLOG',
 				'href'  => '#',	
 				'meta'  => array(
 				'title' => __('What\'s new'),
@@ -73,11 +47,11 @@ function bpaa_init() {
 		<style>
 			#wp-admin-bar-post-update {
 				position: relative;
-				width: 120px;
+				width: 90px;
 			}
 			#bpaa-form-wrapper {
 				position: absolute;
-				width: 800px;
+				width: 600px;
 				padding: 10px;
 				background: rgba(255,255,255,0.98);
 				top: 29px;
@@ -93,7 +67,7 @@ function bpaa_init() {
 			
 			#bpaa-form-wrapper form textarea {
 				float: left;
-				width: 98%% !important;
+				width: 96% !important;
 				color:#666;
 				font-size:14px;
 				-moz-border-radius: 8px; -webkit-border-radius: 8px;
@@ -158,15 +132,38 @@ function bpaa_init() {
 				border: 1px solid rgb(233, 130, 130) !important;
 			}
 
+			[draggable=true] {
+				cursor: move;
+			}
+			
+			.title {
+				background: #f2f2f2;
+				height: 30px;
+				line-height: 30px;
+				font-weight: 700;
+				padding: 0 0 0 20px;
+				font-size: 12px;
+				vertical-align: middle;
+				cursor: move;
+			}
+
+			#bpaa-submit {
+				color: red;
+				border-color: red;
+			}
 		</style>
+
 		<!-- form -->
-		<div id="bpaa-form-wrapper" hidden >
+		<div id="bpaa-form-wrapper" hidden draggable="true">
+			<div class="title">
+				<span>Post MicroBLOG</span>
+			</div>		
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
 				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
-					<input type="button" class="button" id="bpaa-submit" value="submit" name="bpaa_submit">
+					<input type="button" class="post-button" id="bpaa-submit" value="Post it" name="bpaa_submit">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
 				</div>
 			</form>
@@ -186,7 +183,20 @@ function bpaa_init() {
 				$("#bpaa-submit").click(function() {
 					//if(!$.trim($('#bpaa-textarea').value).length) { // zero-length string AFTER a trim
 					if ( $('#bpaa-textarea').val() ) {
-						$("#bpaa-form").submit();
+						//$("#bpaa-form").submit();
+					   	var data = {
+							action: 'activity_add_anywhere',
+							bpaa_textarea: $("#bpaa-textarea").val(),
+							bpaa_update_activity: $("#bpaa_update_activity").val(),
+							o_id: $("#o_id").val()
+						};
+
+						$.post(ajaxurl, data, function(response) {
+							$('#bpaa-form-wrapper').stop().fadeOut('fast');
+							$("#bpaa-textarea").val("");
+							$("#o_id").val("0");
+						});
+						
 					} else {
 						$('#bpaa-textarea').addClass('bpaa-warning');
 					}
@@ -207,4 +217,39 @@ function bpaa_init() {
 }
 // load plugin
 add_action('bp_init','bpaa_init');
+
+
+function ajax_activity_add_anywhere() {
+	//if user logged out no need to load the plugin
+	if (!is_user_logged_in()) return;
+	
+	global $bp;
+	// create the new activity and save to activity table
+
+	$content = $_POST['bpaa_textarea'];
+
+	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($content)) ) {	
+		
+		$activity_args = array(
+			'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
+			'content' => $content,
+			'component' => 'profile', 
+			'type' => 'activity_update', 
+			'primary_link' => '', 
+			'user_id' => $bp->loggedin_user->id,
+			'item_id' => false,
+			'secondary_item_id' => false, 
+			'recorded_time' => gmdate( "Y-m-d H:i:s" ), 
+			'hide_sitewide' => false 
+		);
+		$activity_id = bp_activity_add($activity_args);
+		
+		if ( intval($_POST['o_id']) > 0 ) {
+			bp_activity_set_forward_count($_POST['o_id']);
+		}
+	}
+}
+
+add_action('wp_ajax_activity_add_anywhere', 'ajax_activity_add_anywhere');
+
 ?>
