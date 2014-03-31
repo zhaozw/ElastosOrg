@@ -70,12 +70,12 @@ function bpaa_init() {
 				width: 96% !important;
 				color:#666;
 				font-size:14px;
+				line-height:normal;
 				-moz-border-radius: 8px; -webkit-border-radius: 8px;
 				margin:5px 0px 10px 0px;
 				padding:10px;
-				height:75px;
+				height:160px;
 				border:#999 1px solid;
-				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 				transition: all 0.25s ease-in-out;
 				-webkit-transition: all 0.25s ease-in-out;
 				-moz-transition: all 0.25s ease-in-out;
@@ -84,11 +84,11 @@ function bpaa_init() {
 				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
 			}
 
-			#bpaa-form-wrapper form textarea:focus{
+			#bpaa-form-wrapper form textarea:focus {
 				color:#000;
 				outline:none;
 				border:#35a5e5 1px solid;
-				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				line-height:normal;
 				box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
@@ -96,28 +96,6 @@ function bpaa_init() {
 
 			#bpaa-buttons-wrapper {
 				float: left;
-				margin-top: 5px;
-			}
-
-			#bpaa-form-wrapper form input[type="text"] {
-				float: left;
-				width: 100% !important;
-				font-family: Helvetica, Arial, sans-serif;
-				font-size: 12px;
-				line-height: 12px;
-				padding: 7px;
-				margin: 0px;
-				color: #777;
-				border: 1px solid rgb(238, 238, 238);
-				background-color: white;
-				-webkit-box-shadow: rgba(2, 2, 2, 0980392) 0px 0px 5px inset;
-				box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 5px inset;
-				border-top-left-radius: 4px;
-				border-top-right-radius: 4px;
-				border-bottom-right-radius: 4px;
-				border-bottom-left-radius: 4px;
-				box-sizing: border-box;
-				text-shadow: none !important;
 				margin-top: 5px;
 			}
 

@@ -100,26 +100,27 @@ $elastos_org_main_menu = '
         <tbody><tr>
             <td>
                 <div style="height:130px"><img src="/wp-includes/images/project_management.png" alt="patapage" style="width:150px;"></div>
-                <a href="/project/"><img src="http://elastos.org/redmine/themes/gitmike/images/logo.png" style="width:20px;">Elastos Project Management</a>
-                <a href="/review/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Code Review System</a>
-                <a href="/testlink/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Test and Requirements</a>
+                <a href="/project/"><img src="/redmine/favicon.ico" style="width:16px;">Elastos Project Management</a>
+                <a href="/review/"><img src="/review/favicon.ico" style="width:16px;">Code Review System</a>
+                <a href="/testlink/"><img src="/testlink/gui/themes/default/images/favicon.ico" style="width:16px;">Test and Requirements</a>
+                <a href="/jenkins/"><img src="/jenkins/static/d974b1d4/favicon.ico" style="width:16px;">Test and Requirements</a>
             </td>
             <td>
                 <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:250px;" style="padding-top:30px"></div>
-                <a href="/wiki/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Documentation</a>
-                <a href="/download/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">Download</a>
+                <a href="/wiki/"><img src="/wiki/favicon.ico" style="width:16px;">Documentation</a>
+                <a href="/download/"><img src="/download/favicon.ico" style="width:16px;">Download</a>
             </td>
             <td>
                 <div style="height:130px"><img src="/wp-includes/images/elorg_SNS.png" alt="bugsvoice" style="width:200px;"></div>
-                <a href="/members/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">members</a>
-                <a href="/activity/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">MicroBLOG</a>
-                <a href="/groups/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">groups</a>
-                <a href="/blogs/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">blogs</a>
-                <a href="/org_forums/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">org_forums</a>
+                <a href="/members/"><img src="/wp-includes/images/thousands-of-members-icon.png" style="width:16px;">members</a>
+                <a href="/activity/"><img src="/wp-includes/images/MicroBLOG.ico" style="width:16px;">MicroBLOG</a>
+                <a href="/groups/"><img src="/wp-includes/images/elorg-groups.png" style="width:16px;">groups</a>
+                <a href="/blogs/"><img src="/elorg_common/img/blog.jpg" style="width:16px;">blogs</a>
+                <a href="/org_forums/"><img src="/wp-includes/images/bbforum.ico" style="width:16px;">org_forums</a>
             </td>
             <td>
                 <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:100px;"></div>
-                <a href="/q2a/"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="width:20px;">q2a</a>
+                <a href="/q2a/"><img src="/wp-includes/images/question2answer.ico" style="width:16px;">q2a</a>
             </td>
         </tr>
     </tbody></table>
