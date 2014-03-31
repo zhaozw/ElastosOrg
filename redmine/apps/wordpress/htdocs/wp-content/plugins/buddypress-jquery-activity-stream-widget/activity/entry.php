@@ -12,10 +12,19 @@
 	<div class="activity-content" >
 
 		<div class="activity-header">
-			<?php bp_activity_action() ?>
+			<?php
+			$str_bpaa = bp_get_activity_action();
+			echo $str_bpaa;
+			?>
 		</div>
-		<?php do_action( 'bp_activity_entry_content' ) ?>
-
+		<?php if ( bp_activity_has_content() ) :
+			$len = mb_strlen(str_replace(PHP_EOL,'',strip_tags($str_bpaa)));
+			if ( $len < 120 ) {
+				echo '<div class="activity-inner">';
+				echo mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,120-$len);
+				echo '</div>';
+			}
+		endif; ?>
 	</div>
 
 	<?php //do_action( 'bp_before_activity_entry_comments' ) ?>

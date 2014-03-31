@@ -5,7 +5,7 @@ Plugin URI: http://clubkoncepto.com
 Description: Let your site viewers/users easily read the activity streams by adding a simple yet customizable widget that displays streams in an animated manner.  <br />Note: This is a <a href="http://buddypress.org/">buddypress</a> plugin so you must install one.
 Author: dunhakdis
 Author URI: http://clubkoncepto.com
-Version: 0.0.1
+Version: 99.0.0.1
 */
 
 // $show_blog_list_widget = true;  // Uncomment this if you want this widget available for all users
@@ -14,19 +14,24 @@ function BPjQueryActivityStream_init() {
 		
         if (!function_exists('register_sidebar_widget') )
             return;
-				function BPjQueryActivityStream($args) {
+
+			function BPjQueryActivityStream($args) {
+			
 				$options = get_option("BPjQueryActivityStream");
+
+				if (is_array($args))
 					extract($args);
-					//Override controller
-					$activityURI = 'activity/activity-loop.php';
-					  echo $before_widget;
-						echo $before_title;
-							echo $options['BPjQueryActivityStream_title'];
-						echo $after_title;
-					include $activityURI;	echo '<div style="clear:both"><br /></div>';
-					echo $after_widget;
-					
-				}
+
+				//Override controller
+				$activityURI = 'activity/activity-loop.php';
+				echo $before_widget;
+				echo $before_title;
+				echo '<a href="/activity/">' . $options['BPjQueryActivityStream_title'] . '</a>';
+				echo $after_title;
+				include $activityURI;	echo '<div style="clear:both"><br /></div>';
+				echo $after_widget;			
+			}
+
 		if (function_exists('wp_register_sidebar_widget') ) // fix for wordpress 2.2.1
 			wp_register_sidebar_widget(sanitize_title('BP jQuery Activity Streams' ), 'BP jQuery Activity Streams', 'BPjQueryActivityStream', array(), 1);
 		else
