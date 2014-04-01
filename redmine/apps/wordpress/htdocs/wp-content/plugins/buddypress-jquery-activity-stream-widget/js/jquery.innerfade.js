@@ -89,6 +89,11 @@
     };
 
     $.innerfade.next = function(elements, settings, current, last) {
+       if(jQuery("#news").data("over")){
+            console.log('nochange');
+            return;
+        }
+
         if (settings.animationtype == 'slide') {
             $(elements[last]).slideUp(settings.speed);
             $(elements[current]).slideDown(settings.speed);
@@ -126,3 +131,11 @@ function removeFilter(element) {
 		element.style.removeAttribute('filter');
 	}
 }
+
+
+jQuery(function(){
+ jQuery("#news").hover(
+     function(){jQuery("#news").data("over",true);},
+     function(){jQuery("#news").data("over",false);}
+  );
+ });
