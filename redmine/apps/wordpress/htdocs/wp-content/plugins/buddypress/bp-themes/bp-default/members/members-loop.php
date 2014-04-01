@@ -104,7 +104,7 @@
 
 	<div id="pag-bottom" class="pagination">
 
-		<div class="pag-count" id="member-dir-count-bottom">
+		<div class="pag-count" id="member-dir-count-bottom" style="min-width:630px">
 
 			<?php bp_members_pagination_count(); ?>
 
