@@ -32,11 +32,12 @@ function BPjQueryActivityStream_init() {
 				echo $after_widget;			
 			}
 
-		if (function_exists('wp_register_sidebar_widget') ) // fix for wordpress 2.2.1
+		if (function_exists('wp_register_sidebar_widget') ) { // fix for wordpress 2.2.1
 			wp_register_sidebar_widget(sanitize_title('BP jQuery Activity Streams' ), 'BP jQuery Activity Streams', 'BPjQueryActivityStream', array(), 1);
-		else
+		} else {
 			register_sidebar_widget('BP jQuery Activity Streams', 'BPjQueryActivityStream', 1);
-			register_widget_control('BP jQuery Activity Streams', 'BPjQueryActivityStream_control', 100, 200 );
+		}
+		register_widget_control('BP jQuery Activity Streams', 'BPjQueryActivityStream_control', 100, 200 );
 }
 
 

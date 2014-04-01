@@ -106,12 +106,12 @@ $elastos_org_main_menu = '
                 <a href="/jenkins/"><img src="/jenkins/static/d974b1d4/favicon.ico" style="width:16px;">Test and Requirements</a>
             </td>
             <td>
-                <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:250px;" style="padding-top:30px"></div>
+                <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:200px;" style="padding-top:30px"></div>
                 <a href="/wiki/"><img src="/wiki/favicon.ico" style="width:16px;">Documentation</a>
                 <a href="/download/"><img src="/download/favicon.ico" style="width:16px;">Download</a>
             </td>
             <td>
-                <div style="height:130px"><img src="/wp-includes/images/elorg_SNS.png" alt="bugsvoice" style="width:200px;"></div>
+                <div style="height:130px"><img src="/wp-includes/images/social-media.png" alt="bugsvoice" style="width:150px;"></div>
                 <a href="/members/"><img src="/wp-includes/images/thousands-of-members-icon.png" style="width:16px;">members</a>
                 <a href="/activity/"><img src="/wp-includes/images/MicroBLOG.ico" style="width:16px;">MicroBLOG</a>
                 <a href="/groups/"><img src="/wp-includes/images/elorg-groups.png" style="width:16px;">groups</a>
@@ -119,7 +119,7 @@ $elastos_org_main_menu = '
                 <a href="/org_forums/"><img src="/wp-includes/images/bbforum.ico" style="width:16px;">org_forums</a>
             </td>
             <td>
-                <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:100px;"></div>
+                <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:120px;"></div>
                 <a href="/q2a/"><img src="/wp-includes/images/question2answer.ico" style="width:16px;">q2a</a>
             </td>
         </tr>
