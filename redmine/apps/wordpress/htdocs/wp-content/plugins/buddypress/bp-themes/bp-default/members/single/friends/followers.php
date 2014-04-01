@@ -121,7 +121,7 @@
 <?php else: ?>
 
 	<div id="message" class="info">
-		<p><?php _e( "Sorry, no members were found.", 'buddypress' ); ?></p>
+		<p><?php _e( "Sorry, no follower was found.", 'buddypress' ); ?></p>
 	</div>
 
 <?php endif; ?>

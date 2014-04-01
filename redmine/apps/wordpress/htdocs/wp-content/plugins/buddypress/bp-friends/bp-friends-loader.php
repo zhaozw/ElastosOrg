@@ -92,9 +92,11 @@ class BP_Friends_Component extends BP_Component {
 
 		$sub_nav = array();
 
+		$ff = bp_follow_total_follow_counts('user_id='.bp_displayed_user_id());
+
 		// Add 'Friends' to the main navigation
 		$main_nav = array(
-			'name'                => sprintf( __( 'Contacts <span>%d</span>', 'buddypress' ), friends_get_total_friend_count()+intval(bp_follow_total_follow_counts()) ),
+			'name'                => sprintf( __( 'Contacts <span>%d</span>', 'buddypress' ), friends_get_total_friend_count()+intval($ff['followers'])+intval($ff['following']) ),
 			'slug'                => $this->slug,
 			'position'            => 60,
 			'screen_function'     => 'friends_screen_my_friends',
@@ -102,13 +104,14 @@ class BP_Friends_Component extends BP_Component {
 			'item_css_id'         => $bp->friends->id
 		);
 
-		$friends_link = trailingslashit( bp_loggedin_user_domain() . bp_get_friends_slug() );
+		//$friends_link = trailingslashit( bp_loggedin_user_domain() . bp_get_friends_slug() );
+		$my_link = trailingslashit( bp_core_get_user_domain(bp_displayed_user_id()) . bp_get_friends_slug() );
 
 		// Add the subnav items to the friends nav item
 		$sub_nav[] = array(
 			'name'            => __( 'Friendships', 'buddypress' ),
 			'slug'            => 'my-friends',
-			'parent_url'      => $friends_link,
+			'parent_url'      => $my_link,
 			'parent_slug'     => bp_get_friends_slug(),
 			'screen_function' => 'friends_screen_my_friends',
 			'position'        => 10,
@@ -118,7 +121,7 @@ class BP_Friends_Component extends BP_Component {
 		$sub_nav[] = array(
 			'name'            => __( 'Requests',   'buddypress' ),
 			'slug'            => 'requests',
-			'parent_url'      => $friends_link,
+			'parent_url'      => $my_link,
 			'parent_slug'     => bp_get_friends_slug(),
 			'screen_function' => 'friends_screen_requests',
 			'position'        => 20,
@@ -128,7 +131,7 @@ class BP_Friends_Component extends BP_Component {
 		$sub_nav[] = array(
 			'name'            => __( 'Following',   'buddypress' ),
 			'slug'            => 'following',
-			'parent_url'      => $friends_link,
+			'parent_url'      => $my_link,
 			'parent_slug'     => bp_get_friends_slug(),
 			'screen_function' => 'friends_screen_following',
 			'position'        => 30,
@@ -139,7 +142,7 @@ class BP_Friends_Component extends BP_Component {
 		$sub_nav[] = array(
 			'name'            => __( 'Followers',   'buddypress' ),
 			'slug'            => 'followers',
-			'parent_url'      => $friends_link,
+			'parent_url'      => $my_link,
 			'parent_slug'     => bp_get_friends_slug(),
 			'screen_function' => 'friends_screen_followers',
 			'position'        => 40,
