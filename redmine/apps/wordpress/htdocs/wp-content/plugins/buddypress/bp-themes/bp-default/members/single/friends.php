@@ -35,10 +35,13 @@
 
 <?php
 
-if ( bp_is_current_action( 'requests' ) ) :
+if ( bp_is_current_action('followers') ) {
+	 locate_template(array('members/single/friends/followers.php'), true);
+} else if ( bp_is_current_action('following') ) {
+	 locate_template(array( 'members/single/friends/following.php'), true);
+} else if ( bp_is_current_action( 'requests' ) ) {
 	 locate_template( array( 'members/single/friends/requests.php' ), true );
-
-else :
+} else {
 	do_action( 'bp_before_member_friends_content' ); ?>
 
 	<div class="members friends">
@@ -49,4 +52,4 @@ else :
 
 	<?php do_action( 'bp_after_member_friends_content' ); ?>
 
-<?php endif; ?>
+<?php } ?>

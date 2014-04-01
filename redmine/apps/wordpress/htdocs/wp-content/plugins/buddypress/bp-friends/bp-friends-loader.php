@@ -94,7 +94,7 @@ class BP_Friends_Component extends BP_Component {
 
 		// Add 'Friends' to the main navigation
 		$main_nav = array(
-			'name'                => sprintf( __( 'Friends <span>%d</span>', 'buddypress' ), friends_get_total_friend_count() ),
+			'name'                => sprintf( __( 'Contacts <span>%d</span>', 'buddypress' ), friends_get_total_friend_count()+intval(bp_follow_total_follow_counts()) ),
 			'slug'                => $this->slug,
 			'position'            => 60,
 			'screen_function'     => 'friends_screen_my_friends',
@@ -123,6 +123,27 @@ class BP_Friends_Component extends BP_Component {
 			'screen_function' => 'friends_screen_requests',
 			'position'        => 20,
 			'user_has_access' => bp_is_my_profile()
+		);
+
+		$sub_nav[] = array(
+			'name'            => __( 'Following',   'buddypress' ),
+			'slug'            => 'following',
+			'parent_url'      => $friends_link,
+			'parent_slug'     => bp_get_friends_slug(),
+			'screen_function' => 'friends_screen_following',
+			'position'        => 30,
+			'site_admin_only' => false,
+			'user_has_access' => true
+		);
+
+		$sub_nav[] = array(
+			'name'            => __( 'Followers',   'buddypress' ),
+			'slug'            => 'followers',
+			'parent_url'      => $friends_link,
+			'parent_slug'     => bp_get_friends_slug(),
+			'screen_function' => 'friends_screen_followers',
+			'position'        => 40,
+			'user_has_access' => true
 		);
 
 		parent::setup_nav( $main_nav, $sub_nav );

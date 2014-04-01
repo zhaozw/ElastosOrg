@@ -68,6 +68,14 @@ function friends_screen_requests() {
 	bp_core_load_template( apply_filters( 'friends_template_requests', 'members/single/home' ) );
 }
 
+function friends_screen_following() {
+	bp_core_load_template( apply_filters( 'friends_template_following', 'members/single/home' ) );
+}
+
+function friends_screen_followers() {
+	bp_core_load_template( apply_filters( 'friends_template_followers', 'members/single/home' ) );
+}
+
 function friends_screen_notification_settings() {
 
 	if ( !$send_requests = bp_get_user_meta( bp_displayed_user_id(), 'notification_friends_friendship_request', true ) )

@@ -138,7 +138,9 @@ class BP_Follow_Component extends BP_Component {
 		$domain = bp_displayed_user_domain() ? bp_displayed_user_domain() : bp_loggedin_user_domain();
 
 		/** FOLLOWERS NAV ************************************************/
-
+/*
+ * elastos.org
+ *
 		bp_core_new_nav_item( array(
 			'name'                => sprintf( __( 'Following <span>%d</span>', 'bp-follow' ), $counts['following'] ),
 			'slug'                => $bp->follow->following->slug,
@@ -148,7 +150,7 @@ class BP_Follow_Component extends BP_Component {
 			'item_css_id'         => 'members-following'
 		) );
 
-		/** FOLLOWING NAV ************************************************/
+		//** FOLLOWING NAV ************************************************
 
 		bp_core_new_nav_item( array(
 			'name'                => sprintf( __( 'Followers <span>%d</span>', 'bp-follow' ), $counts['followers'] ),
@@ -158,7 +160,7 @@ class BP_Follow_Component extends BP_Component {
 			'default_subnav_slug' => 'followers',
 			'item_css_id'         => 'members-followers'
 		) );
-
+*/
 		/** ACTIVITY SUBNAV **********************************************/
 
 		// Add activity sub nav item
