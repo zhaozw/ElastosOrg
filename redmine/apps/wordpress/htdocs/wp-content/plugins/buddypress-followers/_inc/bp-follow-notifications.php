@@ -56,7 +56,7 @@ function bp_follow_format_notifications( $action, $item_id, $secondary_item_id, 
 
 	switch ( $action ) {
 		case 'new_follow':
-			$link = bp_loggedin_user_domain() . $bp->follow->followers->slug . '/?new';
+			$link = bp_loggedin_user_domain() . 'friends/' . $bp->follow->followers->slug . '/?new';
 
 			if ( 1 == $total_items ) {
 				$text = __( '1 more user is now following you', 'bp-follow' );

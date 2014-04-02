@@ -69,10 +69,18 @@ function friends_screen_requests() {
 }
 
 function friends_screen_following() {
+	global $bp;
+
+	bp_core_delete_notifications_by_type( bp_loggedin_user_id(), $bp->follow->id, 'new_follow' );
+
 	bp_core_load_template( apply_filters( 'friends_template_following', 'members/single/home' ) );
 }
 
 function friends_screen_followers() {
+	global $bp;
+
+	bp_core_delete_notifications_by_type( bp_loggedin_user_id(), $bp->follow->id, 'new_follow' );
+
 	bp_core_load_template( apply_filters( 'friends_template_followers', 'members/single/home' ) );
 }
 
