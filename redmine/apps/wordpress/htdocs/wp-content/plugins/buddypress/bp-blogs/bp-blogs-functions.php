@@ -179,10 +179,14 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 			// Record this in activity streams
 			$post_permalink   = get_permalink( $post_id );
 
+			$post_title = $post->post_title;
+			if (mb_strlen($post_title) > 60)
+				$post_title = mb_substr($post_title,0,60) . "...";
+
 			if ( is_multisite() )
-				$activity_action  = sprintf( __( '%1$s wrote a new post, %2$s, on the site %3$s', 'buddypress' ), bp_core_get_userlink( (int) $post->post_author ), '<a href="' . $post_permalink . '">' . $post->post_title . '</a>', '<a href="' . get_blog_option( $blog_id, 'home' ) . '">' . get_blog_option( $blog_id, 'blogname' ) . '</a>' );
+				$activity_action  = sprintf( __( '%1$s wrote a new post, %2$s, on the site %3$s', 'buddypress' ), bp_core_get_userlink( (int) $post->post_author ), '<a href="' . $post_permalink . '">' . $post_title . '</a>', '<a href="' . get_blog_option( $blog_id, 'home' ) . '">' . get_blog_option( $blog_id, 'blogname' ) . '</a>' );
 			else
-				$activity_action  = sprintf( __( '%1$s wrote a new post, %2$s', 'buddypress' ), bp_core_get_userlink( (int) $post->post_author ), '<a href="' . $post_permalink . '">' . $post->post_title . '</a>' );
+				$activity_action  = sprintf( __( '%1$s wrote a new post, %2$s', 'buddypress' ), bp_core_get_userlink( (int) $post->post_author ), '<a href="' . $post_permalink . '">' . $post_title . '</a>' );
 
 			// Make sure there's not an existing entry for this post (prevent bumping)
 			if ( bp_is_active( 'activity' ) ) {
