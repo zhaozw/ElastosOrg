@@ -43,7 +43,7 @@ jq(document).ready( function() {
 			height:'40px'
 		});
 		jq("form#whats-new-form textarea").animate({
-			height:'50px'
+			height:'160px'
 		});
 		jq("#aw-whats-new-submit").prop("disabled", false);
 	});
