@@ -102,7 +102,7 @@
 
 	<?php bp_member_hidden_fields(); ?>
 
-	<div id="pag-bottom" class="pagination">
+	<div id="pag-bottom" class="pagination" style="float:left;width:100%;">
 
 		<div class="pag-count" id="member-dir-count-bottom" style="min-width:680px">
 

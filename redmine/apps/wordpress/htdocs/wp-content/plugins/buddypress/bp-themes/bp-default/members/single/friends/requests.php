@@ -46,7 +46,7 @@
 
 	<?php do_action( 'bp_friend_requests_content' ); ?>
 
-	<div id="pag-bottom" class="pagination no-ajax">
+	<div id="pag-bottom" class="pagination no-ajax" style="float:left;width:100%;">
 
 		<div class="pag-count" id="member-dir-count-bottom" style="min-width:680px">
 
