@@ -10,7 +10,6 @@
 	</div>
 
 	<div class="activity-content" >
-
 		<div class="activity-header">
 			<?php
 			$str_bpaa = bp_get_activity_action();
@@ -26,16 +25,6 @@
 			}
 		endif; ?>
 	</div>
-
-	<?php //do_action( 'bp_before_activity_entry_comments' ) ?>
-
-	<?php if ( bp_activity_can_comment() ) : ?>
-		<div class="activity-comments">
-			<?php bp_activity_comments() ?>
-		</div>
-	<?php endif; ?>
-
-	<?php do_action( 'bp_after_activity_entry_comments' ) ?>
 </li>
 
 <?php do_action( 'bp_after_activity_entry' ) ?>
