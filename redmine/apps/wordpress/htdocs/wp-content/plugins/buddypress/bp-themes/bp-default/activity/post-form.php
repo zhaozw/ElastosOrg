@@ -25,7 +25,7 @@
 			printf( __( "What's new, %s?", 'buddypress' ), bp_get_user_firstname() );
 	?></h5>
 
-	<div id="whats-new-content" style="height:102px;">
+	<div id="whats-new-content" style="height:160px;">
 		<div id="whats-new-textarea">
 			<textarea name="whats-new" id="whats-new" cols="50" rows="10"><?php if ( isset( $_GET['r'] ) ) : ?>@<?php echo esc_attr( $_GET['r'] ); ?> <?php endif; ?></textarea>
 		</div>
@@ -36,25 +36,27 @@
 			</div>
 
 			<?php if ( bp_is_active( 'groups' ) && !bp_is_my_profile() && !bp_is_group() ) : ?>
-
+<?php /*
 				<div id="whats-new-post-in-box">
 
-					<?php _e( 'Post in', 'buddypress' ); ?>:
+					<?php _e( 'Post in', 'buddypress' ); ? >:
 
 					<select id="whats-new-post-in" name="whats-new-post-in">
-						<option selected="selected" value="0"><?php _e( 'My Profile', 'buddypress' ); ?></option>
+						<option selected="selected" value="0"><?php _e( 'My Profile', 'buddypress' ); ? ></option>
 
 						<?php if ( bp_has_groups( 'user_id=' . bp_loggedin_user_id() . '&type=alphabetical&max=100&per_page=100&populate_extras=0' ) ) :
-							while ( bp_groups() ) : bp_the_group(); ?>
+							while ( bp_groups() ) : bp_the_group(); ? >
 
-								<option value="<?php bp_group_id(); ?>"><?php bp_group_name(); ?></option>
+								<option value="<?php bp_group_id(); ? >"><?php bp_group_name(); ? ></option>
 
 							<?php endwhile;
-						endif; ?>
+						endif; ? >
 
 					</select>
 				</div>
+*/ ?>
 				<input type="hidden" id="whats-new-post-object" name="whats-new-post-object" value="groups" />
+				<input type="hidden" id="whats-new-post-in" name="whats-new-post-in" value="0" />
 
 			<?php elseif ( bp_is_group_home() ) : ?>
 
