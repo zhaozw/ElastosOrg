@@ -691,7 +691,14 @@ function bp_message_get_recipient_usernames() {
 	echo bp_get_message_get_recipient_usernames();
 }
 	function bp_get_message_get_recipient_usernames() {
-		$recipients = isset( $_GET['r'] ) ? stripslashes( $_GET['r'] ) : '';
+		//$recipients = isset( $_GET['r'] ) ? stripslashes( $_GET['r'] ) : '';
+		if (isset($_GET['r'])) {
+			$recipients = stripslashes( $_GET['r'] );
+		} else if (isset($_POST['send_to_usernames'])) {
+			$recipients = stripslashes( $_POST['send_to_usernames'] );
+		} else {
+			$recipients = '';
+		}
 
 		return apply_filters( 'bp_get_message_get_recipient_usernames', $recipients );
 	}
