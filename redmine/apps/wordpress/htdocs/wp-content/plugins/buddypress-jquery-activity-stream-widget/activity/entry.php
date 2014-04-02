@@ -26,6 +26,3 @@
 		endif; ?>
 	</div>
 </li>
-
-<?php do_action( 'bp_after_activity_entry' ) ?>
-
