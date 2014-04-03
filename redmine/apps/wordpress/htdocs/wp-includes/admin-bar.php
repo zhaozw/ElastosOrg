@@ -103,7 +103,7 @@ $elastos_org_main_menu = '
                 <a href="/project/"><img src="/redmine/favicon.ico" style="width:16px;">Elastos Project Management</a>
                 <a href="/review/"><img src="/review/favicon.ico" style="width:16px;">Code Review System</a>
                 <a href="/testlink/"><img src="/testlink/gui/themes/default/images/favicon.ico" style="width:16px;">Test and Requirements</a>
-                <a href="/jenkins/"><img src="/jenkins/static/d974b1d4/favicon.ico" style="width:16px;">Test and Requirements</a>
+                <a href="/jenkins/"><img src="/jenkins/static/d974b1d4/favicon.ico" style="width:16px;">Continuous Integration System</a>
             </td>
             <td>
                 <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:200px;" style="padding-top:30px"></div>
