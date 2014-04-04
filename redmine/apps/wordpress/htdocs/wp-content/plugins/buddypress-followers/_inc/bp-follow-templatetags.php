@@ -153,7 +153,8 @@ function bp_follow_add_follow_button( $args = '' ) {
 			$id        = 'following';
 			$action    = 'stop';
 			$class     = 'unfollow';
-			$link_text = $link_title = __( 'Stop Following', 'bp-follow' );
+			$link_text =  __( 'Unfollow', 'bp-follow' );
+			$link_title = __( 'Stop Following', 'bp-follow' );
 		}
 		else {
 			$id        = 'not-following';

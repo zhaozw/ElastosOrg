@@ -2493,11 +2493,20 @@ div.elmpg-container a:active {
     text-decoration: underline;
 }
 
+.activity-button {
+    float:left;
+}
+.send-message {
+    float:left;
+}
 .follow {
     float:left;
 }
 .unfollow {
     float:left;
+}
+.unfollow:hover{
+    font-weight:bold;
 }
 .not_friends {
     float:right;
@@ -2519,3 +2528,4 @@ a.bp-secondary-action span,
 	margin-left: 2px;
 	padding: 0 5px;
 }
+
