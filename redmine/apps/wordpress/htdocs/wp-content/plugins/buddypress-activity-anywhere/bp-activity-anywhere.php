@@ -53,7 +53,7 @@ function bpaa_init() {
 				position: absolute;
 				width: 600px;
 				padding: 10px;
-				background: rgba(255,255,255,0.98);
+				background: #E5F2F7;
 				top: 29px;
 				-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 				-webkit-border-radius: 3px;
@@ -141,7 +141,7 @@ function bpaa_init() {
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
 				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
-					<input type="button" class="post-button" id="bpaa-submit" value="Post it" name="bpaa_submit">
+					<input type="button" class="post-button" id="bpaa-submit" value="Post it" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
 				</div>
 			</form>
