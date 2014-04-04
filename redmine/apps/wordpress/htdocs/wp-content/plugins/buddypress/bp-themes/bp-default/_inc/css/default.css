@@ -80,6 +80,10 @@ body {
 }
 .padder {
 	padding: 19px;
+	margin-top: -22px;
+}
+.ms-global-search {
+	margin-top: -22px;
 }
 div#container {
 	background: #fff;
