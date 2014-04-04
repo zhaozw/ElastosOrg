@@ -271,10 +271,10 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 	) );
 
 	$user_info  = get_avatar( $user_id, 64 );
-	$user_info .= '<img src="/elorg_common/img/buddypress.png" style="width:16px"><span class="display-name" style="float:left;">' . "{$current_user->display_name}</span>";
+	$user_info .= '<img src="/elorg_common/img/buddypress.png" style="float:left;width:16px"><span class="display-name" style="float:left;">' . "{$current_user->display_name}</span>";
 
 	if ( $current_user->display_name !== $current_user->user_nicename )
-		$user_info .= "<span class='username'>{$current_user->user_nicename}</span>";
+		$user_info .= "<span class='username'>&nbsp;&nbsp;{$current_user->user_nicename}</span>";
 
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'user-actions',
