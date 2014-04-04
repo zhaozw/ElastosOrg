@@ -160,7 +160,8 @@ function bp_follow_add_follow_button( $args = '' ) {
 			$id        = 'not-following';
 			$action    = 'start';
 			$class     = 'follow';
-			$link_text = $link_title = __( 'Follow', 'bp-follow' );
+			$link_text = __( 'Follow', 'bp-follow' );
+			$link_title = __( 'Follow it', 'bp-follow' );
 		}
 
 		// setup the button arguments
