@@ -1585,9 +1585,9 @@ if ( !function_exists( 'get_avatar' ) ) :
  * @return string <img> tag for the user's avatar
 */
 function get_avatar( $id_or_email, $size = '96', $default = '', $alt = false ) {
-	if ( ! get_option('show_avatars') )
+/*	if ( ! get_option('show_avatars') )
 		return false;
-
+*/
 	if ( false === $alt)
 		$safe_alt = '';
 	else
