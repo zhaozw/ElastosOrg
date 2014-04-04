@@ -318,6 +318,7 @@ div#sidebar div.item-avatar img {
 	height: 40px;
 	margin: 1px;
 	width: 40px;
+	border-radius:5px;
 }
 #footer-widget-area .avatar-block,
 div#sidebar .avatar-block {
@@ -964,6 +965,7 @@ dd.wp-caption p.wp-caption-text,
 img.avatar {
 	/*border: 2px solid #eee;*/
 	float: left;
+	border-radius:5px;
 }
 img.wp-smiley {
 	border: none !important;
@@ -2225,6 +2227,7 @@ ul.single-line li {
 ul.item-list li img.avatar {
 	float: left;
 	margin: 0 10px 0 0;
+	border-radius:5px;
 }
 ul.item-list li div.item-title,
 ul.item-list li h4 {
