@@ -112,11 +112,11 @@ $elastos_org_main_menu = '
             </td>
             <td>
                 <div style="height:130px"><img src="/wp-includes/images/social-media.png" alt="bugsvoice" style="width:150px;"></div>
-                <a href="/members/"><img src="/wp-includes/images/thousands-of-members-icon.png" style="width:16px;">members</a>
-                <a href="/activity/"><img src="/wp-includes/images/MicroBLOG.ico" style="width:16px;">MicroBLOG</a>
-                <a href="/groups/"><img src="/wp-includes/images/elorg-groups.png" style="width:16px;">groups</a>
-                <a href="/blogs/"><img src="/elorg_common/img/blog.jpg" style="width:16px;">blogs</a>
-                <a href="/org_forums/"><img src="/wp-includes/images/bbforum.ico" style="width:16px;">org_forums</a>
+                <a href="http://elastos.org/members/"><img src="/wp-includes/images/thousands-of-members-icon.png" style="width:16px;">members</a>
+                <a href="http://elastos.org/activity/"><img src="/wp-includes/images/MicroBLOG.ico" style="width:16px;">MicroBLOG</a>
+                <a href="http://elastos.org/groups/"><img src="/wp-includes/images/elorg-groups.png" style="width:16px;">groups</a>
+                <a href="http://elastos.org/blogs/"><img src="/elorg_common/img/blog.jpg" style="width:16px;">blogs</a>
+                <a href="http://elastos.org/org_forums/"><img src="/wp-includes/images/bbforum.ico" style="width:16px;">org_forums</a>
             </td>
             <td>
                 <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:120px;"></div>
