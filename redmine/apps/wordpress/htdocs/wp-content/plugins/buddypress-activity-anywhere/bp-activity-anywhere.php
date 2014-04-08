@@ -144,6 +144,17 @@ function bpaa_init() {
 					<input type="button" class="post-button" id="bpaa-submit" value="Post it" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
 				</div>
+				<div id="group-id-box" style="float:right;color:#14A0CD;">
+					<?php _e( 'Post in', 'buddypress' ); ?>
+					<select id="group-id" name="group-id" style="color:#14A0CD;background:#F7F8FF;">
+						<option selected="selected" value="0" style="color:#333;"><?php _e( 'My MicroBLOG', 'buddypress' ); ?></option>
+						<?php if ( bp_has_groups( 'user_id=' . bp_loggedin_user_id() . '&type=alphabetical&max=100&per_page=100&populate_extras=0' ) ) :
+							while ( bp_groups() ) : bp_the_group(); ?>
+								<option value="<?php bp_group_id(); ?>" style="color:#333;"><?php bp_group_name(); ?></option>
+							<?php endwhile;
+						endif; ?>
+					</select>
+				</div>				
 			</form>
 		</div>
 		<script>
@@ -207,21 +218,36 @@ function ajax_activity_add_anywhere() {
 	$content = $_POST['bpaa_textarea'];
 
 	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($content)) ) {	
-		
-		$activity_args = array(
-			'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
-			'content' => $content,
-			'component' => 'profile', 
-			'type' => 'activity_update', 
-			'primary_link' => '', 
-			'user_id' => $bp->loggedin_user->id,
-			'item_id' => false,
-			'secondary_item_id' => false, 
-			'recorded_time' => gmdate( "Y-m-d H:i:s" ), 
-			'hide_sitewide' => false 
-		);
-		$activity_id = bp_activity_add($activity_args);
-		
+
+		$group_id = $_POST['group-id'];
+		if (isset($group_id) && (intval($group_id) > 0)) { 
+			$activity_args = array(
+				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
+				'component' => 'groups',
+				'content' => $content,
+				'type' => 'activity_update', 
+				'primary_link' => $bp->loggedin_user->domain, 
+				'item_id' => $group_id,
+				'secondary_item_id' => false, 
+			);
+			$activity_id = groups_record_activity($activity_args);	
+			groups_update_groupmeta($group_id, 'last_activity', bp_core_current_time());
+		} else {
+			$activity_args = array(
+				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
+				'content' => $content,
+				'component' => 'profile', 
+				'type' => 'activity_update', 
+				'primary_link' => '', 
+				'user_id' => $bp->loggedin_user->id,
+				'item_id' => false,
+				'secondary_item_id' => false, 
+				'recorded_time' => gmdate( "Y-m-d H:i:s" ), 
+				'hide_sitewide' => false 
+			);
+			$activity_id = bp_activity_add($activity_args);
+		}
+
 		if ( intval($_POST['o_id']) > 0 ) {
 			bp_activity_set_forward_count($_POST['o_id']);
 		}
