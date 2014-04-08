@@ -3635,9 +3635,9 @@ function wm_make_clickable($content) {
 	$imgList=$imgList[0];
 	$str = preg_replace('/<img[^>]+>/im','<{img}>', $content);
 
-	preg_match_all('/<a.*?href=".*?".*?>.*?<\/a>/i', $content, $linkList);
+	preg_match_all('/<a.*?href=[\'\"].*?[\'\"].*?>.*?<\/a>/i', $content, $linkList);
 	$linkList = $linkList[0];
-	$str = preg_replace('/<a.*?href=".*?".*?>.*?<\/a>/i','<{link}>', $str);
+	$str = preg_replace('/<a.*?href=[\'\"].*?[\'\"].*?>.*?<\/a>/i','<{link}>', $str);
 
     $str = preg_replace('/(http|https|ftp):\/\/[!-~]+/i', '<a href="\\0" rel="external nofollow">\\0</a>', $str);
 
