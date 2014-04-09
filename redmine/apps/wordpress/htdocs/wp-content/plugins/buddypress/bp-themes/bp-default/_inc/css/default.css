@@ -2534,3 +2534,6 @@ a.bp-secondary-action span,
 .activity-item:hover {
 	background: #F5F8FA;
 }
+ul.item-list li:hover {
+	background: #F5F8FA;
+}
