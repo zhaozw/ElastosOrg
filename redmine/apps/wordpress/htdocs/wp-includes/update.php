@@ -430,6 +430,11 @@ function wp_schedule_update_checks() {
 		wp_schedule_event(time(), 'twicedaily', 'wp_update_themes');
 }
 
+/**
+  * elastos.org, do nothing.
+  */
+  return;
+  
 if ( ( ! is_main_site() && ! is_network_admin() ) || ( defined( 'DOING_AJAX' ) && DOING_AJAX ) )
 	return;
 
