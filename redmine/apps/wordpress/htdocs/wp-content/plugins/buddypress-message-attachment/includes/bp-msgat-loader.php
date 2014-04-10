@@ -88,7 +88,7 @@ class BP_Msgat_Component extends BP_Component {
 			'label'	   => __( 'Message Attachement', 'bp-msgat' ),
 			'labels'   => $labels,
 			'public'   => false,
-			'show_ui'  => true,
+			'show_ui'  => false,
 			'supports' => array( 'title','editor','author','custom-fields' )
 		);
 
