@@ -50,8 +50,6 @@ class BP_Msgat_Attachement {
 	function save() {
 		global $wpdb, $bp;
 
-		
-
 		if ( $this->id ) {
 			// Set up the arguments for wp_insert_post()
 			$wp_update_post_args = array(

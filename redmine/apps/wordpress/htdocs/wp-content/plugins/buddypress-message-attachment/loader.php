@@ -3,7 +3,7 @@
 Plugin Name: BuddyPress Message Attachment
 Plugin URI: http://webdeveloperswall.com/buddypress/buddypress-message-attachment
 Description: This Buddypress plugin enables users to send attachements in private messages
-Version: 1.1
+Version: 99.1.1
 Revision Date: 08 21, 2012
 Requires at least: WP 3.2.1, BuddyPress 1.5
 Tested up to: WP 3.2.1, BuddyPress 1.6
