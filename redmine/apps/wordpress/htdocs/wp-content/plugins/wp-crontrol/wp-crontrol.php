@@ -754,4 +754,7 @@ if ( defined( 'WP_CLI' ) and WP_CLI and is_readable( $wp_cli = dirname( __FILE__
 	include_once $wp_cli;
 
 // Get this show on the road
-Crontrol::init();
+if ( get_current_blog_id() <= 1 ) {
+	Crontrol::init();
+}
+
