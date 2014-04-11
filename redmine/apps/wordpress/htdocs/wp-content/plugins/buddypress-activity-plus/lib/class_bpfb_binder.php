@@ -33,7 +33,7 @@ class BpfbBinder {
 		$ret = array();
 
 		list($thumb_w,$thumb_h) = Bpfb_Data::get_thumbnail_size();
-		
+
 		$processed = 0;
 		foreach ($imgs as $img) {
 			$processed++;
@@ -42,7 +42,7 @@ class BpfbBinder {
 				$ret[] = $img;
 				continue;
 			}
-			
+
 			$pfx = $bp->loggedin_user->id . '_' . preg_replace('/[^0-9]/', '-', microtime());
 			$tmp_img = realpath(BPFB_TEMP_IMAGE_DIR . $img);
 			$new_img = BPFB_BASE_IMAGE_DIR . "{$pfx}_{$img}";
@@ -52,7 +52,7 @@ class BpfbBinder {
 					if (!is_wp_error($image)) {
 						$thumb_filename  = $image->generate_filename('bpfbt');
 						$image->resize($thumb_w, $thumb_h, false);
-						
+
 						// Alright, now let's rotate if we can
 						if (function_exists('exif_read_data')) {
 							$exif = exif_read_data($new_img); // Okay, we now have the data
@@ -135,7 +135,7 @@ EOFontIconCSS;
 		}
 		wp_enqueue_script('bpfb_interface_script', BPFB_PLUGIN_URL . '/js/bpfb_interface.js', array('jquery'));
 		wp_localize_script('bpfb_interface_script', 'l10nBpfb', array(
-			'add_photos' => __('Add photos', 'bpfb'),
+			'add_photos' => __('Post MicroBLOG', 'bpfb'),
 			'add_remote_image' => __('Add image URL', 'bpfb'),
 			'add_another_remote_image' => __('Add another image URL', 'bpfb'),
 			'add_videos' => __('Add (.swf) videos', 'bpfb'),
@@ -182,12 +182,12 @@ EOFontIconCSS;
 		if ( (strpos($url, '<embed') === 0) && (strrchr($url, '/embed>') == '/embed>') ) {
 			$ret = stripslashes($url);
 			echo $ret;
-			exit();			
+			exit();
 		} else if ( (strpos($url, '<iframe') === 0) && (strrchr($url, '/iframe>') == '/iframe>') ) {
 			$ret = stripslashes($url);
 			echo $ret;
 			exit();
-		}			
+		}
 */
 		$url = preg_match('/^https?:\/\//i', $url) ? $url : BPFB_PROTOCOL . $url;
 		$warning = __('There has been an error processing your request', 'bpfb');
@@ -244,7 +244,7 @@ EOFontIconCSS;
 			else if ($meta_description && $meta_description->content) $text = $meta_description->content;
 			else if ($first_paragraph && $first_paragraph->plaintext) $text = $first_paragraph->plaintext;
 			else $text = $title;
-			
+
 			$images = array_filter($images);
 		} else {
 			$url = '';
@@ -382,7 +382,7 @@ EOFontIconCSS;
 	 * This is where the plugin registers itself.
 	 */
 	function add_hooks () {
-		
+
 		add_action('init', array($this, '_add_js_css_hooks'));
 
 		// Step2: Add AJAX request handlers
@@ -394,7 +394,7 @@ EOFontIconCSS;
 		add_action('wp_ajax_bpfb_update_activity_contents', array($this, 'ajax_update_activity_contents'));
 
 		do_action('bpfb_add_ajax_hooks');
-		
+
 		// Step 3: Register and process shortcodes
 		BpfbCodec::register();
 	}

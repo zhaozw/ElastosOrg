@@ -2,7 +2,7 @@
 /*
 Plugin Name: Buddypress Activity Anywhere
 Plugin URI: http://geomywp.com
-Description: Post update to activity stream from anywhere in the main site or any other subsite in a multisite installation. 
+Description: Post update to activity stream from anywhere in the main site or any other subsite in a multisite installation.
 Author: Eyal Fitoussi
 Version: 99.1.0
 Author URI: http://geomywp.com
@@ -31,17 +31,17 @@ function bpaa_init() {
 
 	// add link to toobar
 	function bpaa_admin_bar_button($admin_bar){
-		global $wp_admin_bar; 
+		global $wp_admin_bar;
 		$admin_bar->add_menu( array(
 				'id'    => 'post-update',
 				'title' => 'MicroBLOG',
-				'href'  => '#',	
+				'href'  => '#',
 				'meta'  => array(
 				'title' => __('What\'s new'),
 			),
 		));
 	}
-	add_action('admin_bar_menu', 'bpaa_admin_bar_button', 100); 	
+	add_action('admin_bar_menu', 'bpaa_admin_bar_button', 100);
 
 	function bpaa_form() { ?>
 		<style>
@@ -60,11 +60,11 @@ function bpaa_init() {
 				border: 1px solid rgba(100, 100, 100, .4);
 				-webkit-background-clip: padding-box;
 				padding-bottom: 10px;
-				-webkit-border-radius: 3px; 
-				-moz-border-radius: 3px; 
-				border-radius: 3px; 
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
 			}
-			
+
 			#bpaa-form-wrapper form textarea {
 				float: left;
 				width: 96% !important;
@@ -113,7 +113,7 @@ function bpaa_init() {
 			[draggable=true] {
 				cursor: move;
 			}
-			
+
 			.title {
 				background: #f2f2f2;
 				height: 30px;
@@ -135,13 +135,13 @@ function bpaa_init() {
 		<div id="bpaa-form-wrapper" hidden draggable="true">
 			<div class="title">
 				<span style="color:#333;">Post MicroBLOG</span>
-			</div>		
+			</div>
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
 				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
-					<input type="button" class="post-button" id="bpaa-submit" value="Post it" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;">
+					<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
 				</div>
 				<div id="group-id-box" style="float:right;color:#14A0CD;">
@@ -154,14 +154,14 @@ function bpaa_init() {
 							<?php endwhile;
 						endif; ?>
 					</select>
-				</div>				
+				</div>
 			</form>
 		</div>
 		<script>
 			jQuery(document).ready(function($) {
 				//append the form into our admin button
 				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-post-update');
-				
+
 				$('li#wp-admin-bar-post-update a').addClass('bpaa-trigger');
 				//remove warning when in input fields
 				$('.bpaa-input').focus(function() {
@@ -185,7 +185,7 @@ function bpaa_init() {
 							$("#bpaa-textarea").val("");
 							$("#o_id").val("0");
 						});
-						
+
 					} else {
 						$('#bpaa-textarea').addClass('bpaa-warning');
 					}
@@ -200,7 +200,7 @@ function bpaa_init() {
 				});
 			});
 		</script>
-	<?php 
+	<?php
 	}
 	add_action('wp_footer','bpaa_form');
 }
@@ -211,39 +211,39 @@ add_action('bp_init','bpaa_init');
 function ajax_activity_add_anywhere() {
 	//if user logged out no need to load the plugin
 	if (!is_user_logged_in()) return;
-	
+
 	global $bp;
 	// create the new activity and save to activity table
 
 	$content = $_POST['bpaa_textarea'];
 
-	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($content)) ) {	
+	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($content)) ) {
 
 		$group_id = $_POST['group-id'];
-		if (isset($group_id) && (intval($group_id) > 0)) { 
+		if (isset($group_id) && (intval($group_id) > 0)) {
 			$activity_args = array(
-				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
+				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update',
 				'component' => 'groups',
 				'content' => $content,
-				'type' => 'activity_update', 
-				'primary_link' => $bp->loggedin_user->domain, 
+				'type' => 'activity_update',
+				'primary_link' => $bp->loggedin_user->domain,
 				'item_id' => $group_id,
-				'secondary_item_id' => false, 
+				'secondary_item_id' => false,
 			);
-			$activity_id = groups_record_activity($activity_args);	
+			$activity_id = groups_record_activity($activity_args);
 			groups_update_groupmeta($group_id, 'last_activity', bp_core_current_time());
 		} else {
 			$activity_args = array(
-				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update', 
+				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update',
 				'content' => $content,
-				'component' => 'profile', 
-				'type' => 'activity_update', 
-				'primary_link' => '', 
+				'component' => 'profile',
+				'type' => 'activity_update',
+				'primary_link' => '',
 				'user_id' => $bp->loggedin_user->id,
 				'item_id' => false,
-				'secondary_item_id' => false, 
-				'recorded_time' => gmdate( "Y-m-d H:i:s" ), 
-				'hide_sitewide' => false 
+				'secondary_item_id' => false,
+				'recorded_time' => gmdate( "Y-m-d H:i:s" ),
+				'hide_sitewide' => false
 			);
 			$activity_id = bp_activity_add($activity_args);
 		}
