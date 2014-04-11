@@ -75,7 +75,7 @@ function bp_message_attachement_add_attachement($msg) {
 
 				//check if folder exists
 				if (!file_exists($upload_folder)) {
-					mkdir($upload_folder, 0777);
+					mkdir($upload_folder, 0777, true);
 				}
 
 				if (file_exists($upload_folder . "/" . $org_name)) {
