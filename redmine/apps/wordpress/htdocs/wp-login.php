@@ -308,7 +308,7 @@ function register_new_user( $user_login, $user_email ) {
 	} elseif ( ! validate_username( $user_login ) ) {
 		$errors->add( 'invalid_username', __( '<strong>ERROR</strong>: This username is invalid because it uses illegal characters. Please enter a valid username.' ) );
 		$sanitized_user_login = '';
-	} elseif ( username_exists( $sanitized_user_login ) ) {
+	} elseif ( username_exists( $sanitized_user_login ) || domain_exists($sanitized_user_login . '.' . DOMAIN_CURRENT_SITE, '/') ) {
 		$errors->add( 'username_exists', __( '<strong>ERROR</strong>: This username is already registered, please choose another one.' ) );
 	}
 

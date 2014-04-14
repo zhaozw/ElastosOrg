@@ -1029,7 +1029,7 @@ function bp_core_validate_user_signup( $user_name, $user_email ) {
 	}
 
 	// Check if the username has been used already.
-	if ( username_exists( $user_name ) )
+	if ( username_exists($user_name) || domain_exists($user_name . '.' . DOMAIN_CURRENT_SITE, '/'))
 		$errors->add( 'user_name', __( 'Sorry, that username already exists!', 'buddypress' ) );
 
     //elastos.org changed
