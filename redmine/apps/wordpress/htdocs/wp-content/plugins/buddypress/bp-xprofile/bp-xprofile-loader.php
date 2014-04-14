@@ -98,8 +98,8 @@ class BP_XProfile_Component extends BP_Component {
 			'multiselectbox',
 			'datebox'
 		) );
-		
-		// Register the visibility levels. See bp_xprofile_get_visibility_levels() to filter		
+
+		// Register the visibility levels. See bp_xprofile_get_visibility_levels() to filter
 		$this->visibility_levels = array(
 			'public'  => array(
 				'id'	=> 'public',
@@ -110,7 +110,7 @@ class BP_XProfile_Component extends BP_Component {
 				'label' => __( 'Logged In Users', 'buddypress' )
 			)
 		);
-		
+
 		if ( bp_is_active( 'friends' ) ) {
 			$this->visibility_levels['friends'] = array(
 				'id'	=> 'friends',
@@ -179,7 +179,7 @@ class BP_XProfile_Component extends BP_Component {
 
 		// Change Avatar
 		$sub_nav[] = array(
-			'name'            => __( 'Change Avatar', 'buddypress' ),
+			'name'            => __( 'Change Photo', 'buddypress' ),
 			'slug'            => 'change-avatar',
 			'parent_url'      => $profile_link,
 			'parent_slug'     => $this->slug,
@@ -240,7 +240,7 @@ class BP_XProfile_Component extends BP_Component {
 			$wp_admin_nav[] = array(
 				'parent' => 'my-account-' . $this->id,
 				'id'     => 'my-account-' . $this->id . '-change-avatar',
-				'title'  => __( 'Change Avatar', 'buddypress' ),
+				'title'  => __( 'Change Photo', 'buddypress' ),
 				'href'   => trailingslashit( $profile_link . 'change-avatar' )
 			);
 
