@@ -138,6 +138,8 @@ function login_footer($input_id = '') {
 	<?php endif; ?>
 
 	</div>
+	</div>
+	</div>
 
 	<?php if ( !empty($input_id) ) : ?>
 	<script type="text/javascript">
@@ -668,6 +670,76 @@ default:
 	$rememberme = ! empty( $_POST['rememberme'] );
 ?>
 
+<style>
+@font-face {
+    font-family: 'FranchiseRegular';
+    src: url('css/fonts/franchise-bold-webfont.eot');
+    src: url('css/fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('css/fonts/franchise-bold-webfont.woff') format('woff'),
+         url('css/fonts/franchise-bold-webfont.ttf') format('truetype'),
+         url('css/fonts/franchise-bold-webfont.svg#FranchiseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.wrapper{
+	width: 60%;
+	right: 0px;
+	margin: 0px auto;
+	width: 500px;
+	position: relative;
+}
+.mylogin{
+	position: absolute;
+	top: 0px;
+	width: 320px;
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
+}
+.wrapper h1{
+	font-size: 48px;
+	color: rgb(6, 106, 117);
+	padding: 2px 0 10px 0;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/** For the moment only webkit supports the background-clip:text; */
+.wrapper h1{
+    background: -webkit-repeating-linear-gradient(-45deg,
+	rgb(18, 83, 93) ,
+	rgb(18, 83, 93) 20px,
+	rgb(64, 111, 118) 20px,
+	rgb(64, 111, 118) 40px,
+	rgb(18, 83, 93) 40px);
+	-webkit-background-clip: text;
+}
+.wrapper h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0)));
+	background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+	background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+	background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+	background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+}
+</style>
+<div class="wrapper">
+<div class="mylogin">
+<h1>Log in</h1>
 <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( 'wp-login.php', 'login_post' ) ); ?>" method="post">
 	<p>
 		<label for="user_login"><?php _e('Username') ?><br />
