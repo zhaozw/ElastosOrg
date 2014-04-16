@@ -25,6 +25,9 @@ class bpModDefaultContentTypes
 
 		// TODO: check if corrisponding bp components are active before adding useless data
 
+/*
+ *  elastos.org, Activity => MicroBLOG, needn't flag function
+ *
 		//  status updates
 		$bpmod->content_types['status_update'] = new stdClass();
 		$bpmod->content_types['status_update']->label = __('Status update', 'bp-moderation');
@@ -52,6 +55,7 @@ class bpModDefaultContentTypes
 			add_filter('bp_moderation_activity_loop_link_args_activity_comment', array(__CLASS__, 'activity_correct_ids'));
 			add_action('bp_after_activity_comment', array(__CLASS__, 'activity_comments_print_link'));
 		}
+*/
 
 		//  blog posts
 		$bpmod->content_types['blog_post'] = new stdClass();
@@ -97,6 +101,9 @@ class bpModDefaultContentTypes
 			add_filter('get_comment_text', array(__CLASS__, 'blog_comment_append_link'));
 		}
 
+/*
+ *  elastos.org, Activity => MicroBLOG, needn't flag function
+ *
 		//  profiles
 		$bpmod->content_types['member'] = new stdClass();
 		$bpmod->content_types['member']->label = __('Member', 'bp-moderation');
@@ -151,7 +158,7 @@ class bpModDefaultContentTypes
 			add_filter('bp_moderation_activity_loop_link_args_new_forum_topic', array(__CLASS__, 'forum_post_convert_activity_args'));
 			add_action('bp_group_forum_post_meta', array(__CLASS__, 'forum_post_print_link'));
 		}
-
+*/
 
 		//  load custom content types
 		if (defined('BPMOD_LOAD_CUSTOM_CONTENT_TYPES') && BPMOD_LOAD_CUSTOM_CONTENT_TYPES) {
