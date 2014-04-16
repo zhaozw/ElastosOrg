@@ -532,7 +532,7 @@ var BpfbPhotoHandler = function () {
 			$('.bpfb_preview_container').html(html);
 		});
 		$('.bpfb_action_container').html(
-			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" /> ' +
+			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 			'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		);
 		$("#bpfb_cancel_action").hide();
@@ -544,7 +544,7 @@ var BpfbPhotoHandler = function () {
 			'<input type="hidden" class="bpfb_photos_to_add" name="bpfb_photos[]" value="' + resp.file + '" />';
 		$('.bpfb_preview_container').append(html);
 		$('.bpfb_action_container').html(
-			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" /> ' +
+			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 			'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		);
 		$("#bpfb_cancel_action").hide();

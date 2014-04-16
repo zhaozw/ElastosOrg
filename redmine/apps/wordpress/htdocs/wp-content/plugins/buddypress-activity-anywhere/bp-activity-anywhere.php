@@ -141,7 +141,7 @@ function bpaa_init() {
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
 				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
-					<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;">
+					<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;color:red;border-width:2px;">
 					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
 				</div>
 				<div id="group-id-box" style="float:right;color:#14A0CD;">
