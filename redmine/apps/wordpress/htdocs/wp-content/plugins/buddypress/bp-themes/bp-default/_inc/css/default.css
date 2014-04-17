@@ -1166,7 +1166,7 @@ form#whats-new-form #whats-new-options select {
 }
 form#whats-new-form #whats-new-submit {
 	float: right;
-	margin-top: 12px;
+	margin-top: 10px;
 	background-color: red;
 }
 #whats-new-options {
