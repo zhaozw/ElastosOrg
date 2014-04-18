@@ -86,7 +86,7 @@ var BpfbVideoHandler = function () {
                         //handle preview error
                         if(data.match('<iframe')){
 			   $('.bpfb_action_container').html(
-				'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_video + '" /> ' +
+				'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.post_blog + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 				'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		           );
                         }
@@ -189,7 +189,7 @@ var BpfbLinkHandler = function () {
 		'</table>';
 		$('.bpfb_preview_container').empty().html(html);
 		$('.bpfb_action_container').html(
-			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_link + '" /> ' +
+			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.post_blog + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 			'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		);
 		$("#bpfb_cancel_action").hide();
@@ -532,7 +532,7 @@ var BpfbPhotoHandler = function () {
 			$('.bpfb_preview_container').html(html);
 		});
 		$('.bpfb_action_container').html(
-			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
+			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.post_blog + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 			'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		);
 		$("#bpfb_cancel_action").hide();
@@ -544,7 +544,7 @@ var BpfbPhotoHandler = function () {
 			'<input type="hidden" class="bpfb_photos_to_add" name="bpfb_photos[]" value="' + resp.file + '" />';
 		$('.bpfb_preview_container').append(html);
 		$('.bpfb_action_container').html(
-			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.add_photos + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
+			'<p><input type="button" class="button-primary bpfb_primary_button" id="bpfb_submit" value="' + l10nBpfb.post_blog + '" style="font-weight:bold;color:red;border-color:red;border-width:2px;"/> ' +
 			'<input type="button" class="button" id="bpfb_cancel" value="' + l10nBpfb.cancel + '" /></p>'
 		);
 		$("#bpfb_cancel_action").hide();
@@ -601,7 +601,7 @@ var BpfbPhotoHandler = function () {
 function createMarkup () {
 	var html = '<div class="bpfb_actions_container bpfb-theme-' + _bpfb_data.theme.replace(/[^-_a-z0-9]/ig, '') + ' bpfb-alignment-' + _bpfb_data.alignment.replace(/[^-_a-z0-9]/ig, '') + '">' +
 		'<div class="bpfb_toolbar_container">' +
-			'<a href="#photos" class="bpfb_toolbarItem" title="Add photos" id="bpfb_addPhotos"><span>' + l10nBpfb.add_photos + '</span></a>' +
+			'<a href="#photos" class="bpfb_toolbarItem" title="' + l10nBpfb.add_photos + '" id="bpfb_addPhotos"><span>' + l10nBpfb.add_photos + '</span></a>' +
 			'&nbsp;' +
 			'<a href="#videos" class="bpfb_toolbarItem" title="' + l10nBpfb.add_videos + '" id="bpfb_addVideos"><span>' + l10nBpfb.add_videos + '</span></a>' +
 			'&nbsp;' +
