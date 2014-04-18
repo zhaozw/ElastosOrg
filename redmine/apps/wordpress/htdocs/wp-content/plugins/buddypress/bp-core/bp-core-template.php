@@ -409,6 +409,7 @@ function bp_create_excerpt( $text, $length = 225, $options = array() ) {
 	if ( !empty( $filter_shortcodes ) )
 		$text = strip_shortcodes( $text );
 
+	$truncate    = '';
 	// When $html is true, the excerpt should be created without including HTML tags in the
 	// excerpt length
 	if ( !empty( $html ) ) {
@@ -419,7 +420,7 @@ function bp_create_excerpt( $text, $length = 225, $options = array() ) {
 
 		$totalLength = mb_strlen( strip_tags( $ending ) );
 		$openTags    = array();
-		$truncate    = '';
+		//$truncate    = '';
 
 		// Find all the tags and put them in a stack for later use
 		preg_match_all( '/(<\/?([\w+]+)[^>]*>)?([^<>]*)/', $text, $tags, PREG_SET_ORDER );
@@ -488,6 +489,11 @@ function bp_create_excerpt( $text, $length = 225, $options = array() ) {
 			$truncate = mb_substr( $truncate, 0, $spacepos );
 		}
 	}
+
+	if ($truncate == '') {
+		$truncate = mb_substr($text, 0, $length);
+	}
+
 	$truncate .= $ending;
 
 	if ( $html ) {
