@@ -155,14 +155,27 @@ function cd_ab_the_avatardata(){
     die;
 }
 
+if ( !function_exists('check_is_member')) {
+	function check_is_member( $user_id, $group_id ) {
+		global $wpdb, $bp;
+
+		if ( empty( $user_id ) )
+			return false;
+
+		return $wpdb->query( $wpdb->prepare( "SELECT id FROM {$bp->groups->table_name_members} WHERE user_id = %d AND group_id = %d AND is_confirmed = 1 AND is_banned = 0", $user_id, $group_id ) );
+	}
+}
+
 // For groups
 function cd_ab_get_the_group_data($ID, $cd_ab){
     global $bp;
     echo $cd_ab['delay'].'|~|<div id="group_'.$ID.'">';
         $group = groups_get_group( array( 'group_id' => $ID ) );
-        if ( !in_array( $group->status, $cd_ab['groups']['type'] ) ) {
-            echo __('You don\'t have enough rights to view data of this group','cd_ab').'</div>';
-            die;
+        if ( !in_array($group->status, $cd_ab['groups']['type']) ) {
+        	if ( !check_is_member(bp_loggedin_user_id(), $ID) ) {
+	            echo __('You don\'t have enough rights to view data of this group','cd_ab').'</div>';
+	            die;
+        	}
         }
 
         $group_link = $bp->root_domain . '/' . BP_GROUPS_SLUG . '/' . $group->slug;
@@ -294,7 +307,7 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
         if(empty($message) && empty($mention)){
             $profile .= ' | @'.bp_core_get_username( $ID, false, false );
         }
-        
+
 		$usr = new WP_User($ID);
 		switch_to_blog($usr->primary_blog);
 		$url = get_bloginfo( 'wpurl' );
