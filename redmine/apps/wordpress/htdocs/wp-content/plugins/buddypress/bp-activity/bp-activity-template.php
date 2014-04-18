@@ -107,7 +107,7 @@ class BP_Activity_Template {
 	/**
 	 * Constructor method
 	 *
-	 * See definition of $defaults below, as well as $defaults in bp_has_activities(), for 
+	 * See definition of $defaults below, as well as $defaults in bp_has_activities(), for
 	 * description of $args array
 	 *
 	 * @param array $args
@@ -138,7 +138,7 @@ class BP_Activity_Template {
 			$func_args = func_get_args();
 			$args = bp_core_parse_args_array( $old_args_keys, $func_args );
 		}
-		
+
 		$defaults = array(
 			'page'             => 1,
 			'per_page'         => 20,
@@ -156,7 +156,7 @@ class BP_Activity_Template {
 		);
 		$r = wp_parse_args( $args, $defaults );
 		extract( $r );
-		
+
 		$this->pag_page = isset( $_REQUEST[$page_arg] ) ? intval( $_REQUEST[$page_arg] ) : $page;
 		$this->pag_num  = isset( $_REQUEST['num'] ) ? intval( $_REQUEST['num'] ) : $per_page;
 
@@ -1281,7 +1281,7 @@ function bp_insert_activity_meta( $content ) {
 
 	// Insert the permalink
 	if ( !bp_is_single_activity() )
-		$content = apply_filters_ref_array( 'bp_activity_permalink', array( sprintf( '%1$s <a href="%2$s" class="view activity-time-since" title="%3$s">%4$s</a>', $content, bp_activity_get_permalink( $activities_template->activity->id, $activities_template->activity ), esc_attr__( 'View Discussion', 'buddypress' ), $time_since ), &$activities_template->activity ) );
+		$content = apply_filters_ref_array( 'bp_activity_permalink', array( sprintf( '%1$s <a href="%2$s" class="view activity-time-since" title="%3$s">%4$s</a>', $content, bp_activity_get_permalink( $activities_template->activity->id, $activities_template->activity ), esc_attr__( 'View MicroBLOG', 'buddypress' ), $time_since ), &$activities_template->activity ) );
 	else
 		$content .= str_pad( $time_since, strlen( $time_since ) + 2, ' ', STR_PAD_BOTH );
 
@@ -2767,14 +2767,14 @@ function bp_activity_get_forward_count() {
  */
 function bp_activity_set_forward_count($activity_id) {
 	$forward_count = bp_activity_get_meta($activity_id, 'forward_count');
-	
+
 	if (empty($forward_count)) {
 		$forward_count = 1;
 	} else {
 		$forward_count++;
 	}
 	bp_activity_update_meta($activity_id, 'forward_count', $forward_count);
-	
+
 	return $forward_count;
 }
 

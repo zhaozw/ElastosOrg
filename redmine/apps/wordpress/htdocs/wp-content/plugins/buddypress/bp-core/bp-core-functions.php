@@ -383,17 +383,18 @@ function bp_core_time_since( $older_date, $newer_date = false ) {
 	// Setup the strings
 	$unknown_text   = apply_filters( 'bp_core_time_since_unknown_text',   __( 'sometime',  'buddypress' ) );
 	$right_now_text = apply_filters( 'bp_core_time_since_right_now_text', __( 'right now', 'buddypress' ) );
-	$ago_text       = apply_filters( 'bp_core_time_since_ago_text',       __( '%s ago',    'buddypress' ) );
+	//$ago_text       = apply_filters( 'bp_core_time_since_ago_text',       __( '%s ago',    'buddypress' ) );
+	$ago_text       = '<img src="/wp-includes/images/time_ago.png" style="width:12px"/>%s';
 
 	// array of time period chunks
 	$chunks = array(
-		array( 60 * 60 * 24 * 365 , __( 'year',   'buddypress' ), __( 'years',   'buddypress' ) ),
-		array( 60 * 60 * 24 * 30 ,  __( 'month',  'buddypress' ), __( 'months',  'buddypress' ) ),
-		array( 60 * 60 * 24 * 7,    __( 'week',   'buddypress' ), __( 'weeks',   'buddypress' ) ),
-		array( 60 * 60 * 24 ,       __( 'day',    'buddypress' ), __( 'days',    'buddypress' ) ),
-		array( 60 * 60 ,            __( 'hour',   'buddypress' ), __( 'hours',   'buddypress' ) ),
-		array( 60 ,                 __( 'minute', 'buddypress' ), __( 'minutes', 'buddypress' ) ),
-		array( 1,                   __( 'second', 'buddypress' ), __( 'seconds', 'buddypress' ) )
+		array( 60 * 60 * 24 * 365 , __( 'y', 'buddypress' ), __( 'y', 'buddypress' ) ),
+		array( 60 * 60 * 24 * 30 ,  __( 'm', 'buddypress' ), __( 'm', 'buddypress' ) ),
+		array( 60 * 60 * 24 * 7,    __( 'w', 'buddypress' ), __( 'w', 'buddypress' ) ),
+		array( 60 * 60 * 24 ,       __( 'd', 'buddypress' ), __( 'd', 'buddypress' ) ),
+		array( 60 * 60 ,            __( 'h', 'buddypress' ), __( 'h', 'buddypress' ) ),
+		array( 60 ,                 __( 'm', 'buddypress' ), __( 'm', 'buddypress' ) ),
+		array( 1,                   __( 's', 'buddypress' ), __( 's', 'buddypress' ) )
 	);
 
 	if ( !empty( $older_date ) && !is_numeric( $older_date ) ) {
@@ -442,7 +443,8 @@ function bp_core_time_since( $older_date, $newer_date = false ) {
 		} else {
 
 			// Set output var
-			$output = ( 1 == $count ) ? '1 '. $chunks[$i][1] : $count . ' ' . $chunks[$i][2];
+			//$output = ( 1 == $count ) ? '1 '. $chunks[$i][1] : $count . ' ' . $chunks[$i][2];
+			$output = '1'. $chunks[$i][1];
 
 			// Step two: the second chunk
 			if ( $i + 2 < $j ) {
@@ -452,7 +454,8 @@ function bp_core_time_since( $older_date, $newer_date = false ) {
 
 				// Add to output var
 				if ( 0 != $count2 ) {
-					$output .= ( 1 == $count2 ) ? _x( ',', 'Separator in time since', 'buddypress' ) . ' 1 '. $name2 : _x( ',', 'Separator in time since', 'buddypress' ) . ' ' . $count2 . ' ' . $chunks[$i + 1][2];
+					//$output .= ( 1 == $count2 ) ? _x( ',', 'Separator in time since', 'buddypress' ) . ' 1 '. $name2 : _x( ',', 'Separator in time since', 'buddypress' ) . ' ' . $count2 . ' ' . $chunks[$i + 1][2];
+					$output .= ',' . $count2 .  $chunks[$i + 1][2];
 				}
 			}
 
