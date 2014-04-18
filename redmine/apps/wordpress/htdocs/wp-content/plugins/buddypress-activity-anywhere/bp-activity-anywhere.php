@@ -107,7 +107,7 @@ function bpaa_init() {
 			}
 
 			.bpaa-warning {
-				border: 1px solid rgb(233, 130, 130) !important;
+				border: 3px solid rgb(233, 130, 130) !important;
 			}
 
 			[draggable=true] {
@@ -138,11 +138,12 @@ function bpaa_init() {
 			</div>
 			<form id="bpaa-form" action="" method="post">
 				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
+				<div name="bpaa_reply" id="bpaa_reply" value="" style="background-color:green;height:0px;visibility:hidden;"></div>
 				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
 				<input type="hidden" id="o_id" name="o_id" value="0" />
 				<div id="bpaa-buttons-wrapper">
 					<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;color:red;border-width:2px;">
-					<input type="button" class="button" id="bpaa-cancel" value="cancel" />
+					<input type="button" class="button" id="bpaa-cancel" value="cancel" onclick="clear_bpaa_reply();"/>
 				</div>
 				<div id="group-id-box" style="float:right;color:#14A0CD;">
 					<?php _e( 'Post in', 'buddypress' ); ?>
@@ -158,6 +159,11 @@ function bpaa_init() {
 			</form>
 		</div>
 		<script>
+			function clear_bpaa_reply() {
+				jQuery('#bpaa_reply').css({'height':'0px','visibility':'hidden'});
+				jQuery("#bpaa_reply").html("");
+			}
+
 			jQuery(document).ready(function($) {
 				//append the form into our admin button
 				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-post-update');
@@ -172,10 +178,14 @@ function bpaa_init() {
 				$("#bpaa-submit").click(function() {
 					//if(!$.trim($('#bpaa-textarea').value).length) { // zero-length string AFTER a trim
 					if ( $('#bpaa-textarea').val() ) {
+						var reply = $("#bpaa_reply").html();
+						if (reply!="")
+							reply = "\n//"+$("#bpaa_reply").html();
+
 						//$("#bpaa-form").submit();
 					   	var data = {
 							action: 'activity_add_anywhere',
-							bpaa_textarea: $("#bpaa-textarea").val(),
+							bpaa_textarea: $("#bpaa-textarea").val()+reply,
 							bpaa_update_activity: $("#bpaa_update_activity").val(),
 							o_id: $("#o_id").val()
 						};

@@ -77,16 +77,16 @@
 <?php
 	global $activities_template;
 
-    $msg = '//<a href=\\"' . bp_get_activity_user_link() . '\\">@' . $activities_template->activity->user_login . '</a> ';  
+    $msg = '//<a href=\\"' . bp_get_activity_user_link() . '\\">@' . $activities_template->activity->user_login . '</a> ';
     //$msg .= '<a href=\\\'' . bp_get_activity_user_link() . '?ids=' . bp_get_activity_id() . '\\\'>' . addslashes(mb_substr(bp_get_activity_content_body(),0,30)) . '</a>';
     $msg .= '<a href=\\"' . bp_get_activity_user_link() . '?ids=' . bp_get_activity_id() . '\\">' . 'addslashes' . '</a>';
-   
+
    $user_link = bp_get_activity_user_link();
    $user_login = $activities_template->activity->user_login;
    $activity_url = bp_get_activity_user_link() . '?ids=' . bp_get_activity_id();
-   $activity_content = addslashes(mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,30));
+   $activity_content = addslashes(mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,50)) . __('&hellip;', 'buddypress');
    $activity_content = str_replace('@', ' ', $activity_content);
-   
+
    $msg = $user_link . '\',\'' . $user_login . '\',\'' . $activity_url . '\',\'' . $activity_content . '\',\'' . bp_get_activity_id();
 ?>
 				<a class="button forward-trigger bp-secondary-action" id="acomment-forward-<?php bp_activity_id(); ?>"  onclick="forward_it('<?php echo $msg; ?>');"><?php printf( __( 'Forward <span>%s</span>', 'buddypress' ), bp_activity_get_forward_count() ); ?></a>
@@ -139,7 +139,8 @@
 <script>
 function forward_it(user_link, user_login, activity_url, activity_content, activity_id) {
 	jQuery('#bpaa-form-wrapper').stop().fadeIn('fast');
-	jQuery("#bpaa-textarea").val('//<a href="' + user_link + '">@' + user_login + '</a> ' + '<a href="' + activity_url + '">' + activity_content + '</a>');
+	jQuery("#bpaa_reply").html('<a href="' + user_link + '">@' + user_login + '</a> ' + '<a href="' + activity_url + '">' + activity_content + '</a>');
+	jQuery("#bpaa_reply").css({'background-color':'green','height':'56px','visibility':'visible'});
 	jQuery("#o_id").val(activity_id);
 }
 </script>
