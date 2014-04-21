@@ -194,6 +194,7 @@ function bpaa_init() {
 							$('#bpaa-form-wrapper').stop().fadeOut('fast');
 							$("#bpaa-textarea").val("");
 							$("#o_id").val("0");
+							clear_bpaa_reply();
 						});
 
 					} else {
