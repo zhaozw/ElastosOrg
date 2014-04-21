@@ -11,12 +11,12 @@ Version: 99.0.0.1
 // $show_blog_list_widget = true;  // Uncomment this if you want this widget available for all users
 
 function BPjQueryActivityStream_init() {
-		
+
         if (!function_exists('register_sidebar_widget') )
             return;
 
 			function BPjQueryActivityStream($args) {
-			
+
 				$options = get_option("BPjQueryActivityStream");
 
 				if (is_array($args))
@@ -28,8 +28,8 @@ function BPjQueryActivityStream_init() {
 				echo $before_title;
 				echo '<a href="/activity/">' . $options['BPjQueryActivityStream_title'] . '</a>';
 				echo $after_title;
-				include $activityURI;	echo '<div style="clear:both"><br /></div>';
-				echo $after_widget;			
+				include $activityURI;	echo '<div style="clear:both"></div>';
+				echo $after_widget;
 			}
 
 		if (function_exists('wp_register_sidebar_widget') ) { // fix for wordpress 2.2.1
@@ -44,7 +44,7 @@ function BPjQueryActivityStream_init() {
 function display_headers(){
 		$static_url = "/wp-content/plugins/buddypress-jquery-activity-stream-widget/css/jq_fade.css";
 		$options = get_option("BPjQueryActivityStream");
-		
+
 		?>
 			<script type="text/javascript" src="<?php bloginfo('url') ?>/wp-content/plugins/buddypress-jquery-activity-stream-widget/js/jquery.innerfade.js"></script>
 			<style type="text/css" media="screen, projection">
@@ -105,8 +105,8 @@ function BPjQueryActivityStream_control(){
 	<label for="BPjQueryActivityStream_effect"><?php echo 'Animation Type:'; ?> </label><br />
 	<select id="BPjQueryActivityStream_effect" name="BPjQueryActivityStream_effect">
 		<?php foreach($BPjQueryActivityStream_effectCollection as $BPjQueryActivityStream_effectCollection): ?>
-			<option <?php 
-			if($BPjQueryActivityStream_effectCollection == $options['BPjQueryActivityStream_effect']): 
+			<option <?php
+			if($BPjQueryActivityStream_effectCollection == $options['BPjQueryActivityStream_effect']):
 				echo 'selected';
 			endif;
 			?> value="<?php echo $BPjQueryActivityStream_effectCollection; ?>"><?php echo $BPjQueryActivityStream_effectCollection; ?></option>
@@ -118,7 +118,7 @@ function BPjQueryActivityStream_control(){
 	<input type="text" id="BPjQueryActivityStream_height" name="BPjQueryActivityStream_height" value="<?php echo $options['BPjQueryActivityStream_height'];?>" />px
   </p>
     <input type="hidden" id="BPjQueryActivityStream-submit" name="BPjQueryActivityStream-submit" value="1" />
-  
+
 	<?php
 }
 //End User Options//

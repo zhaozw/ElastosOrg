@@ -18,9 +18,9 @@
 		</div>
 		<?php if ( bp_activity_has_content() ) :
 			$len = mb_strlen(str_replace(PHP_EOL,'',strip_tags($str_bpaa)));
-			if ( $len < 120 ) {
+			if ( $len < 160 ) {
 				echo '<div class="activity-inner">';
-				echo mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,120-$len);
+				echo mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,160-$len);
 				echo '</div>';
 			}
 		endif; ?>
