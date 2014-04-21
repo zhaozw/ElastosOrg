@@ -53,6 +53,7 @@ class WP_Admin_Bar {
 		wp_enqueue_script('mb-menu');
 		wp_enqueue_script('elastos-org-mb-menu');
 		wp_enqueue_style('menu_black');
+		wp_enqueue_style('font-awesome');
 
 		do_action( 'admin_bar_init' );
 	}

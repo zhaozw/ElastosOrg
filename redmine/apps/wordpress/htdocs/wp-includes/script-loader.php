@@ -498,7 +498,8 @@ function wp_default_styles( &$styles ) {
 	}
 
 	//elastos.org
-	$styles->add( 'menu_black', "/wp-includes/css/menu_black.css", array(), '1.0' );
+	$styles->add('menu_black', "/wp-includes/css/menu_black.css", array(), '1.0');
+	$styles->add('font-awesome', "/wp-includes/css/font-awesome.min.css", array(), '1.0');
 }
 
 /**
