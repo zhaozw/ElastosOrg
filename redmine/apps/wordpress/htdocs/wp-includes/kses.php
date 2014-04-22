@@ -638,8 +638,8 @@ function _wp_kses_split_callback( $match ) {
  * @param array $allowed_protocols Allowed protocols to keep
  * @return string Fixed HTML element
  */
-function wp_kses_split2($string, $allowed_html, $allowed_protocols) {
-	$string = wp_kses_stripslashes($string);
+function wp_kses_split2($string_in, $allowed_html, $allowed_protocols) {
+	$string = wp_kses_stripslashes($string_in);
 
 	if (substr($string, 0, 1) != '<')
 		return '&gt;';
@@ -659,16 +659,20 @@ function wp_kses_split2($string, $allowed_html, $allowed_protocols) {
 	}
 	# Allow HTML comments
 
-	if (!preg_match('%^<\s*(/\s*)?([a-zA-Z0-9]+)([^>]*)>?$%', $string, $matches))
-		return '';
+	if (!preg_match('%^<\s*(/\s*)?([a-zA-Z0-9]+)([^>]*)>?$%', $string, $matches)) {
+		//return '';
+		return htmlentities($string_in, ENT_QUOTES);
+	}
 	# It's seriously malformed
 
 	$slash = trim($matches[1]);
 	$elem = $matches[2];
 	$attrlist = $matches[3];
 
-	if ( ! isset($allowed_html[strtolower($elem)]) )
-		return '';
+	if ( ! isset($allowed_html[strtolower($elem)]) ) {
+		//return '';
+		return htmlentities($string_in, ENT_QUOTES);
+	}
 	# They are using a not allowed HTML element
 
 	if ($slash != '')

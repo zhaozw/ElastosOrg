@@ -213,7 +213,7 @@ function bp_activity_filter_kses( $content ) {
 function bp_activity_at_name_filter( $content, $activity_id = 0 ) {
 	if ( $activity_id & bp_is_active( 'activity' ) ) {
 		$activity = new BP_Activity_Activity( $activity_id );
-		
+
 		// If this activity has been marked as spam, don't do anything. This prevents @notifications being sent.
 		if ( !empty( $activity ) && $activity->is_spam )
 			return $content;
@@ -260,7 +260,10 @@ function bp_activity_at_name_filter_updates( $activity ) {
 	remove_filter( 'bp_activity_after_save', 'bp_activity_at_name_filter_updates' );
 
 	// Run the content through the linking filter, making sure to increment mention count
-	$activity->content = bp_activity_at_name_filter( $activity->content, $activity->id );
+	$content = bp_activity_at_name_filter( $activity->content, $activity->id );
+	if ($activity->content == $content)
+		return;
+	$activity->content = $content;
 
 	// Resave the activity with the new content
 	$activity->save();
