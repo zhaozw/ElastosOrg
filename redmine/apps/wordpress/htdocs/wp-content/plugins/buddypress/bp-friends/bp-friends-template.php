@@ -299,7 +299,7 @@ function bp_add_friend_button( $potential_friend_id = 0, $friend_status = false 
 					'wrapper_class'     => 'friendship-button is_friend',
 					'wrapper_id'        => 'friendship-button-' . $potential_friend_id,
 					'link_href'         => wp_nonce_url( bp_loggedin_user_domain() . bp_get_friends_slug() . '/remove-friend/' . $potential_friend_id . '/', 'friends_remove_friend' ),
-					'link_text'         => __( 'Cancel Friendship', 'buddypress' ),
+					'link_text'         => '<i class="fa fa-eye-slash" style="color:#14A0CD;"></i> ' . __( 'Cancel Friendship', 'buddypress' ),
 					'link_title'        => __( 'Cancel Friendship', 'buddypress' ),
 					'link_id'           => 'friend-' . $potential_friend_id,
 					'link_rel'          => 'remove',
@@ -316,7 +316,7 @@ function bp_add_friend_button( $potential_friend_id = 0, $friend_status = false 
 					'wrapper_class'     => 'friendship-button not_friends',
 					'wrapper_id'        => 'friendship-button-' . $potential_friend_id,
 					'link_href'         => wp_nonce_url( bp_loggedin_user_domain() . bp_get_friends_slug() . '/add-friend/' . $potential_friend_id . '/', 'friends_add_friend' ),
-					'link_text'         => __( 'Add Friend', 'buddypress' ),
+					'link_text'         => '<i class="fa fa-eye" style="color:#14A0CD;"></i> ' . __( 'Add Friend', 'buddypress' ),
 					'link_title'        => __( 'Add Friend', 'buddypress' ),
 					'link_id'           => 'friend-' . $potential_friend_id,
 					'link_rel'          => 'add',
@@ -355,19 +355,19 @@ function bp_get_friendship_requests( $user_id = 0 ) {
 	if ( !$user_id ) {
 		$user_id = bp_displayed_user_id();
 	}
-	
+
 	if ( !$user_id ) {
-		return 0;	
+		return 0;
 	}
-	
+
 	$requests = friends_get_friendship_request_user_ids( $user_id );
-	
+
 	if ( !empty( $requests ) ) {
 		$requests = implode( ',', (array) $requests );
 	} else {
 		$requests = 0;
 	}
-	
+
 	return apply_filters( 'bp_get_friendship_requests', $requests );
 }
 

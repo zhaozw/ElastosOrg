@@ -153,14 +153,14 @@ function bp_follow_add_follow_button( $args = '' ) {
 			$id        = 'following';
 			$action    = 'stop';
 			$class     = 'unfollow';
-			$link_text =  __( 'Unfollow', 'bp-follow' );
+			$link_text =  '<i class="fa fa-flag-o" style="color:#14A0CD;"></i> ' . __( 'Unfollow', 'bp-follow' );
 			$link_title = __( 'Stop Following', 'bp-follow' );
 		}
 		else {
 			$id        = 'not-following';
 			$action    = 'start';
 			$class     = 'follow';
-			$link_text = __( 'Follow', 'bp-follow' );
+			$link_text = '<i class="fa fa-flag-checkered" style="color:#14A0CD;"></i> ' . __( 'Follow', 'bp-follow' );
 			$link_title = __( 'Follow it', 'bp-follow' );
 		}
 

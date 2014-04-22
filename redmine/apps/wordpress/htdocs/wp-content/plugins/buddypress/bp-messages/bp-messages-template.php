@@ -654,7 +654,7 @@ function bp_send_message_button() {
 				'wrapper_id'        => 'send-private-message',
 				'link_href'         => bp_get_send_private_message_link(),
 				'link_title'        => __( 'Send a private message to this user', 'buddypress' ),
-				'link_text'         => __( 'Private Message', 'buddypress' ),
+				'link_text'         => '<i class="fa fa-pencil-square-o" style="color:#14A0CD;"></i> ' . __( 'Private Message', 'buddypress' ),
 				'link_class'        => 'send-message',
 			) )
 		);

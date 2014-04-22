@@ -57,7 +57,7 @@
 
 				<?php if ( bp_activity_can_comment() ) : ?>
 
-					<a href="<?php bp_get_activity_comment_link(); ?>" class="button acomment-reply bp-primary-action" id="acomment-comment-<?php bp_activity_id(); ?>"><?php printf( __( 'Reply <span>%s</span>', 'buddypress' ), bp_activity_get_comment_count() ); ?></a>
+					<a href="<?php bp_get_activity_comment_link(); ?>" class="button acomment-reply bp-primary-action" id="acomment-comment-<?php bp_activity_id(); ?>"><i class="fa fa-reply" style="color:#14A0CD;"></i> <?php printf( __( 'Reply <span>%s</span>', 'buddypress' ), bp_activity_get_comment_count() ); ?></a>
 
 				<?php endif; ?>
 
@@ -65,11 +65,11 @@
 
 					<?php if ( !bp_get_activity_is_favorite() ) : ?>
 
-						<a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><?php _e( 'Favorite', 'buddypress' ); ?></a>
+						<a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><i class="fa fa-link" style="color:#14A0CD;"></i> <?php _e( 'Favorite', 'buddypress' ); ?></a>
 
 					<?php else : ?>
 
-						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><?php _e( 'Remove Favorite', 'buddypress' ); ?></a>
+						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><i class="fa fa-chain-broken" style="color:#14A0CD;"></i> <?php _e( 'Remove Favorite', 'buddypress' ); ?></a>
 
 					<?php endif; ?>
 
@@ -89,7 +89,7 @@
 
    $msg = $user_link . '\',\'' . $user_login . '\',\'' . $activity_url . '\',\'' . $activity_content . '\',\'' . bp_get_activity_id();
 ?>
-				<a class="button forward-trigger bp-secondary-action" id="acomment-forward-<?php bp_activity_id(); ?>"  onclick="forward_it('<?php echo $msg; ?>');"><?php printf( __( 'Forward <span>%s</span>', 'buddypress' ), bp_activity_get_forward_count() ); ?></a>
+				<a class="button forward-trigger bp-secondary-action" id="acomment-forward-<?php bp_activity_id(); ?>"  onclick="forward_it('<?php echo $msg; ?>');"><i class="fa fa-share" style="color:#14A0CD;"></i> <?php printf( __( 'Forward <span>%s</span>', 'buddypress' ), bp_activity_get_forward_count() ); ?></a>
 
 				<?php if ( bp_activity_user_can_delete() ) bp_activity_delete_link(); ?>
 

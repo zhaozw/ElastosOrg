@@ -2076,7 +2076,7 @@ function bp_activity_delete_link() {
 			$class = 'delete-activity-single';
 		}
 
-		$link = '<a href="' . wp_nonce_url( $url, 'bp_activity_delete_link' ) . '" class="button item-button bp-secondary-action ' . $class . ' confirm" rel="nofollow">' . __( 'Delete', 'buddypress' ) . '</a>';
+		$link = '<a href="' . wp_nonce_url( $url, 'bp_activity_delete_link' ) . '" class="button item-button bp-secondary-action ' . $class . ' confirm" rel="nofollow">' . '<i class="fa fa-eraser" style="color:#14A0CD;"></i> ' . __( 'Delete', 'buddypress' ) . '</a>';
 		return apply_filters( 'bp_get_activity_delete_link', $link );
 	}
 
@@ -2441,7 +2441,7 @@ function bp_send_public_message_button( $args = '' ) {
 			'wrapper_id'        => 'post-mention',
 			'link_href'         => bp_get_send_public_message_link(),
 			'link_title'        => __( 'Send a public message on your MicroBLOG', 'buddypress' ),
-			'link_text'         => __( 'at(@) it', 'buddypress' ),
+			'link_text'         => __( 'at(<span style="color:#14A0CD">@</span>) it', 'buddypress' ),
 			'link_class'        => 'activity-button mention'
 		);
 
