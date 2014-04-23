@@ -20,6 +20,6 @@
 	</div><!-- .padder -->
 </div><!-- #sidebar -->
 <script>
-jQuery("#sidebar").css({height:jQuery("#content").height(),"min-height":jQuery("#sidebar>.padder").height()+50,"background-color":"#ECF4F6"});
+jQuery("#sidebar").css({height:jQuery("#content").height(),"min-height":jQuery("#sidebar>.padder").height()+200,"background-color":"#ECF4F6"});
 </script>
 <?php do_action( 'bp_after_sidebar' ); ?>
