@@ -59,14 +59,14 @@ function friends_remove_friend( $initiator_userid, $friend_userid ) {
 
 	$friendship_id = BP_Friends_Friendship::get_friendship_id( $initiator_userid, $friend_userid );
 	$friendship    = new BP_Friends_Friendship( $friendship_id );
-
+/*
 	do_action( 'friends_before_friendship_delete', $friendship_id, $initiator_userid, $friend_userid );
 
 	// Remove the activity stream item for the user who canceled the friendship
 	friends_delete_activity( array( 'item_id' => $friendship_id, 'type' => 'friendship_accepted', 'user_id' => bp_displayed_user_id() ) );
 
 	do_action( 'friends_friendship_deleted', $friendship_id, $initiator_userid, $friend_userid );
-
+*/
 	if ( $friendship->delete() ) {
 		friends_update_friend_totals( $initiator_userid, $friend_userid, 'remove' );
 
@@ -89,7 +89,7 @@ function friends_accept_friendship( $friendship_id ) {
 
 		// Add a friend accepted notice for the initiating user
 		bp_core_add_notification( $friendship->friend_user_id, $friendship->initiator_user_id, $bp->friends->id, 'friendship_accepted' );
-
+/*
 		$initiator_link = bp_core_get_userlink( $friendship->initiator_user_id );
 		$friend_link = bp_core_get_userlink( $friendship->friend_user_id );
 
@@ -111,6 +111,7 @@ function friends_accept_friendship( $friendship_id ) {
 			'secondary_item_id' => $friendship->initiator_user_id,
 			'hide_sitewide'     => true // We've already got the first entry site wide
 		) );
+*/
 
 		// Send the email notification
 		friends_notification_accepted_request( $friendship->id, $friendship->initiator_user_id, $friendship->friend_user_id );
@@ -144,7 +145,7 @@ function friends_withdraw_friendship( $initiator_userid, $friend_userid ) {
 
 	$friendship_id = BP_Friends_Friendship::get_friendship_id( $initiator_userid, $friend_userid );
 	$friendship    = new BP_Friends_Friendship( $friendship_id, true, false );
-	
+
 	if ( !$friendship->is_confirmed && BP_Friends_Friendship::withdraw( $friendship_id ) ) {
 		// Remove the friend request notice
 		bp_core_delete_notifications_by_item_id( $friendship->friend_user_id, $friendship->initiator_user_id, $bp->friends->id, 'friendship_request' );
@@ -226,7 +227,7 @@ function friends_get_bulk_last_active( $friend_ids ) {
 
 /**
  * Get a list of friends that a user can invite into this group.
- * 
+ *
  * Excludes friends that are already in the group, and banned friends if the
  * user is not a group admin.
  *

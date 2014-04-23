@@ -140,14 +140,14 @@ function groups_action_create_group() {
 		if ( count( $bp->groups->completed_create_steps ) == count( $bp->groups->group_creation_steps ) && bp_get_groups_current_create_step() == array_pop( array_keys( $bp->groups->group_creation_steps ) ) ) {
 			unset( $bp->groups->current_create_step );
 			unset( $bp->groups->completed_create_steps );
-
+/*
 			// Once we compelete all steps, record the group creation in the activity stream.
 			groups_record_activity( array(
 				'action' => apply_filters( 'groups_activity_created_group_action', sprintf( __( '%1$s created the group %2$s', 'buddypress'), bp_core_get_userlink( bp_loggedin_user_id() ), '<a href="' . bp_get_group_permalink( $bp->groups->current_group ) . '">' . esc_attr( $bp->groups->current_group->name ) . '</a>' ) ),
 				'type' => 'created_group',
 				'item_id' => $bp->groups->new_group_id
 			) );
-
+*/
 			do_action( 'groups_group_create_complete', $bp->groups->new_group_id );
 
 			bp_core_redirect( bp_get_group_permalink( $bp->groups->current_group ) );

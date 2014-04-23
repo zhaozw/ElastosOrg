@@ -308,9 +308,10 @@ function groups_leave_group( $group_id, $user_id = 0 ) {
 	 * joined_group activity so users cannot flood the activity stream by
 	 * joining/leaving the group in quick succession.
 	 */
+/*
 	if ( bp_is_active( 'activity' ) && gmmktime() <= strtotime( '+5 minutes', (int)strtotime( $membership->date_modified ) ) )
 		bp_activity_delete( array( 'component' => $bp->groups->id, 'type' => 'joined_group', 'user_id' => $user_id, 'item_id' => $group_id ) );
-
+*/
 	bp_core_add_message( __( 'You successfully left the group.', 'buddypress' ) );
 
 	do_action( 'groups_leave_group', $group_id, $user_id );
@@ -352,7 +353,7 @@ function groups_join_group( $group_id, $user_id = 0 ) {
 		$group = groups_get_group( array( 'group_id' => $group_id ) );
 	else
 		$group = $bp->groups->current_group;
-
+/*
 	// Record this in activity streams
 	groups_record_activity( array(
 		'action'  => apply_filters( 'groups_activity_joined_group', sprintf( __( '%1$s joined the group %2$s', 'buddypress'), bp_core_get_userlink( $user_id ), '<a href="' . bp_get_group_permalink( $group ) . '">' . esc_attr( bp_get_group_name( $group ) ) . '</a>' ) ),
@@ -360,7 +361,7 @@ function groups_join_group( $group_id, $user_id = 0 ) {
 		'item_id' => $group_id,
 		'user_id' => $user_id
 	) );
-
+*/
 	// Modify group meta
 	groups_update_groupmeta( $group_id, 'total_member_count', (int) groups_get_groupmeta( $group_id, 'total_member_count') + 1 );
 	groups_update_groupmeta( $group_id, 'last_activity', bp_core_current_time() );
@@ -841,7 +842,7 @@ function groups_accept_membership_request( $membership_id, $user_id = 0, $group_
 
 	// Modify group member count
 	groups_update_groupmeta( $membership->group_id, 'total_member_count', (int) groups_get_groupmeta( $membership->group_id, 'total_member_count') + 1 );
-
+/*
 	// Record this in activity streams
 	$group = groups_get_group( array( 'group_id' => $membership->group_id ) );
 
@@ -851,7 +852,7 @@ function groups_accept_membership_request( $membership_id, $user_id = 0, $group_
 		'item_id' => $membership->group_id,
 		'user_id' => $membership->user_id
 	) );
-
+*/
 	// Send a notification to the user.
 	groups_notification_membership_request_completed( $membership->user_id, $membership->group_id, true );
 
