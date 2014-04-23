@@ -26,7 +26,7 @@ function BPjQueryActivityStream_init() {
 				$activityURI = 'activity/activity-loop.php';
 				echo $before_widget;
 				echo $before_title;
-				echo '<a href="/activity/">' . $options['BPjQueryActivityStream_title'] . '</a>';
+				echo '<a href="/activity/">' . '<i class="fa fa-weibo" style="color:#14A0CD;margin-left:-8px"></i> ' . $options['BPjQueryActivityStream_title'] . '</a>';
 				echo $after_title;
 				include $activityURI;	echo '<div style="clear:both"></div>';
 				echo $after_widget;

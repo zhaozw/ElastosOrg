@@ -49,9 +49,9 @@ class BP_Groups_Widget extends WP_Widget {
 			$instance['title'] = __( 'Groups', 'buddypress' );
 
 		echo $before_widget;
-		
+
 		$title = $instance['link_title'] ? '<a href="' . trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() ) . '">' . $instance['title'] . '</a>' : $instance['title'];
-		
+
 		echo $before_title
 		   . $title
 		   . $after_title; ?>
@@ -117,7 +117,7 @@ if ($id > 1) {
 
 	function update( $new_instance, $old_instance ) {
 		$instance = $old_instance;
-		
+
 		$instance['title']         = strip_tags( $new_instance['title'] );
 		$instance['max_groups']    = strip_tags( $new_instance['max_groups'] );
 		$instance['group_default'] = strip_tags( $new_instance['group_default'] );
@@ -142,7 +142,7 @@ if ($id > 1) {
 		?>
 
 		<p><label for="bp-groups-widget-title"><?php _e('Title:', 'buddypress'); ?> <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" style="width: 100%" /></label></p>
-		
+
 		<p><label for="<?php echo $this->get_field_name('link_title') ?>"><input type="checkbox" name="<?php echo $this->get_field_name('link_title') ?>" value="1" <?php checked( $link_title ) ?> /> <?php _e( 'Link widget title to Groups directory', 'buddypress' ) ?></label></p>
 
 		<p><label for="bp-groups-widget-groups-max"><?php _e('Max groups to show:', 'buddypress'); ?> <input class="widefat" id="<?php echo $this->get_field_id( 'max_groups' ); ?>" name="<?php echo $this->get_field_name( 'max_groups' ); ?>" type="text" value="<?php echo esc_attr( $max_groups ); ?>" style="width: 30%" /></label></p>
@@ -175,7 +175,7 @@ class BP_Groups_Recently_Active_Widget extends WP_Widget {
 
 		echo $before_widget;
 		echo $before_title
-		   . '<a href="' . trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() ) . '">' . $instance['title'] . '</a>'
+		   . '<a href="' . trailingslashit( bp_get_root_domain() . '/' . bp_get_groups_root_slug() ) . '">' . '<i class="fa fa-users" style="color:#14A0CD;margin-left:-8px"></i> ' . $instance['title'] . '</a>'
 		   . $after_title; ?>
 
 		<?php if ( bp_has_groups( 'user_id=0&type=active&per_page=' . $instance['max_groups'] . '&max=' . $instance['max_groups'] . '&populate_extras=0' ) ) : ?>
