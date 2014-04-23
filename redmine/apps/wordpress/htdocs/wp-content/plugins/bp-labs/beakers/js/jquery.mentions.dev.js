@@ -256,7 +256,7 @@
 				// Defocus
 				input_obj.bind('focusout.mentions', function(event) {
 					if (results_started) {
-						close_panel();
+						setTimeout(function(){close_panel();},500);
 					}
 				});
 
