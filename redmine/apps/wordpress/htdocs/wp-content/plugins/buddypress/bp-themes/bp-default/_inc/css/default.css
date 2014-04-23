@@ -2519,6 +2519,7 @@ div.elmpg-container a:active {
 }
 .friendship-button {
     float:left;
+    margin-left:-4px;
 }
 a.bp-secondary-action span,
 #reply-title small a span {

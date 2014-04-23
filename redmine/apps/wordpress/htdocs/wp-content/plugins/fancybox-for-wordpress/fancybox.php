@@ -219,7 +219,7 @@ function mfbfw_init() {
 	$settings = get_option( 'mfbfw' );
 	$version = get_option( 'mfbfw_active_version' );
 
-	echo "\n<!-- Fancybox for WordPress v" . $version . ' -->'; ?>
+//	echo "\n<!-- Fancybox for WordPress v" . $version . ' -->'; ?>
 
 <script type="text/javascript">
 jQuery(function(){
@@ -310,7 +310,7 @@ jQuery("a.fancybox").fancybox({
 
 })
 </script>
-<?php echo "<!-- END Fancybox for WordPress -->\n";
+<?php //echo "<!-- END Fancybox for WordPress -->\n";
 }
 add_action( 'wp_head', 'mfbfw_init' );
 
