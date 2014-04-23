@@ -291,10 +291,10 @@ function cd_ab_get_the_userdata($ID, $cd_ab) {
 
         if ( is_user_logged_in() ) {
             if ( bp_is_active( 'activity' ) ) {
-                $mention .= '<strong><a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_ACTIVITY_SLUG .'/?r='.bp_core_get_username( $ID, false, false ).'" title="'. __('Mention this user', 'cd_ab') .'">@'. bp_core_get_username( $ID, false, false ) .'</a></strong>';
+                $mention .= '<strong><a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_ACTIVITY_SLUG .'/?r='.bp_core_get_username( $ID, false, false ).'" title="'. __('Mention this user', 'cd_ab') .'"><span style="color:#14A0CD;">@</span>'. bp_core_get_username( $ID, false, false ) .'</a></strong>';
             }
             if ( bp_is_active( 'messages' ) ) {
-                $message = '<a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_MESSAGES_SLUG . '/compose/?r=' . bp_core_get_username( $ID, false, false ) .'" title="'. __('Send a private message to this user', 'cd_ab') .'"><img src="/wp-content/plugins/popup-contact-form/popup-contact-form.jpg" style="width:16px"></a>';
+                $message = '<a href="'. bp_core_get_user_domain( $bp->loggedin_user->id, false, false ) . BP_MESSAGES_SLUG . '/compose/?r=' . bp_core_get_username( $ID, false, false ) .'" title="'. __('Send a private message to this user', 'cd_ab') .'"><i class="fa fa-pencil-square-o" style="color:#14A0CD;"></i></a>';
             }
         }else{
             if ( bp_is_active( 'activity' ) ) {
