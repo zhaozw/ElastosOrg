@@ -1538,7 +1538,7 @@ function bp_group_join_button( $group = false ) {
 				'wrapper_class'     => 'group-button ' . $group->status,
 				'wrapper_id'        => 'groupbutton-' . $group->id,
 				'link_href'         => wp_nonce_url( bp_get_group_permalink( $group ) . 'leave-group', 'groups_leave_group' ),
-				'link_text'         => __( 'Leave Group', 'buddypress' ),
+				'link_text'         => '<i class="fa fa-sign-out" style="color:#14A0CD;"></i> ' . __( 'Leave Group', 'buddypress' ),
 				'link_title'        => __( 'Leave Group', 'buddypress' ),
 				'link_class'        => 'group-button leave-group',
 			);
@@ -1561,7 +1561,7 @@ function bp_group_join_button( $group = false ) {
 						'wrapper_class'     => 'group-button ' . $group->status,
 						'wrapper_id'        => 'groupbutton-' . $group->id,
 						'link_href'         => wp_nonce_url( bp_get_group_permalink( $group ) . 'join', 'groups_join_group' ),
-						'link_text'         => __( 'Join Group', 'buddypress' ),
+						'link_text'         => '<i class="fa fa-sign-in" style="color:#14A0CD;"></i> ' . __( 'Join Group', 'buddypress' ),
 						'link_title'        => __( 'Join Group', 'buddypress' ),
 						'link_class'        => 'group-button join-group',
 					);
@@ -1579,7 +1579,7 @@ function bp_group_join_button( $group = false ) {
 							'wrapper_class'     => 'group-button ' . $group->status,
 							'wrapper_id'        => 'groupbutton-' . $group->id,
 							'link_href'         => wp_nonce_url( bp_get_group_permalink( $group ) . 'request-membership', 'groups_request_membership' ),
-							'link_text'         => __( 'Request Membership', 'buddypress' ),
+							'link_text'         => '<i class="fa fa-envelope-o" style="color:#14A0CD;"></i> ' . __( 'Request Membership', 'buddypress' ),
 							'link_title'        => __( 'Request Membership', 'buddypress' ),
 							'link_class'        => 'group-button request-membership',
 						);
@@ -1594,7 +1594,7 @@ function bp_group_join_button( $group = false ) {
 							'wrapper_class'     => 'group-button pending ' . $group->status,
 							'wrapper_id'        => 'groupbutton-' . $group->id,
 							'link_href'         => bp_get_group_permalink( $group ),
-							'link_text'         => __( 'Request Sent', 'buddypress' ),
+							'link_text'         => '<i class="fa fa-paperclip" style="color:#14A0CD;"></i> ' . __( 'Request Sent', 'buddypress' ),
 							'link_title'        => __( 'Request Sent', 'buddypress' ),
 							'link_class'        => 'group-button pending membership-requested',
 						);
@@ -2211,13 +2211,13 @@ function bp_groups_current_create_step() {
 	 */
 	function bp_get_groups_current_create_step() {
 		global $bp;
-		
+
 		if ( !empty( $bp->groups->current_create_step ) ) {
 			$current_create_step = $bp->groups->current_create_step;
 		} else {
 			$current_create_step = '';
 		}
-		
+
 		return apply_filters( 'bp_get_groups_current_create_step', $current_create_step );
 	}
 
@@ -2381,7 +2381,7 @@ function bp_group_current_admin_tab() {
 		} else {
 			$tab = '';
 		}
-		
+
 		return apply_filters( 'bp_get_current_group_admin_tab', $tab );
 	}
 

@@ -4,49 +4,49 @@
 	<div class="item-list-tabs no-ajax" id="subnav" role="navigation">
 		<ul>
 			<?php if ( is_user_logged_in() ) : ?>
-	
+
 				<li>
 					<a href="<?php bp_forum_topic_new_reply_link(); ?>" class="new-reply-link"><?php _e( 'New Reply', 'buddypress' ); ?></a>
 				</li>
-	
+
 			<?php endif; ?>
-	
+
 			<?php if ( bp_forums_has_directory() ) : ?>
-	
+
 				<li>
 					<a href="<?php bp_forums_directory_permalink(); ?>"><?php _e( 'Forum Directory', 'buddypress'); ?></a>
 				</li>
-	
+
 			<?php endif; ?>
-	
+
 		</ul>
 	</div>
-	
+
 	<div id="topic-meta">
 		<h3><?php bp_the_topic_title(); ?> (<?php bp_the_topic_total_post_count(); ?>)</h3>
-	
+
 		<?php if ( bp_forum_topic_has_tags() ) : ?>
-	
+
 			<div class="topic-tags">
-	
+
 				<?php _e( 'Topic tags:', 'buddypress' ); ?> <?php bp_forum_topic_tag_list(); ?>
-	
+
 			</div>
-	
+
 		<?php endif; ?>
-	
+
 		<?php if ( bp_group_is_admin() || bp_group_is_mod() || bp_get_the_topic_is_mine() ) : ?>
-	
+
 			<div class="last admin-links">
-	
+
 				<?php bp_the_topic_admin_links(); ?>
-	
+
 			</div>
-	
+
 		<?php endif; ?>
-	
+
 		<?php do_action( 'bp_group_forum_topic_meta' ); ?>
-	
+
 	</div>
 
 
@@ -102,7 +102,7 @@
 								$str = '/groups/' . bp_get_current_group_slug() . '?action=new_forum_post&primary_id=' . bp_get_current_group_id() . '&secondary_id=' . bp_get_the_topic_post_id();
 							}
 						?>
-						<a href="<?php echo $str; ?>" title="<?php _e( 'More about this post', 'buddypress' ); ?>">#</a>
+						<a href="<?php echo $str; ?>" title="<?php _e( 'More about this post', 'buddypress' ); ?>"><i class="fa fa-cogs"></i></a>
 					</div>
 				</li>
 
@@ -124,11 +124,11 @@
 		</div>
 
 	<?php else: ?>
-	
+
 		<div id="message" class="info">
 			<p><?php _e( 'There are no posts for this topic.', 'buddypress' ); ?></p>
 		</div>
-	
+
 	<?php endif;?>
 
 	<?php if ( ( is_user_logged_in() && 'public' == bp_get_group_status() ) || bp_group_is_member() ) : ?>
