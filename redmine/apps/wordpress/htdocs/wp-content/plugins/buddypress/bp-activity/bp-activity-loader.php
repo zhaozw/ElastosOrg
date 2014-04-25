@@ -114,7 +114,7 @@ class BP_Activity_Component extends BP_Component {
 		$sub_nav = array();
 		$user_id = bp_displayed_user_id();
 
-		// Add 'Activity(MicroBLOG)' to the main navigation
+		// Add 'Activity' to the main navigation
 		$main_nav = array(
 			'name'                => __( 'MicroBLOG', 'buddypress' ),
 			'slug'                => $this->slug,

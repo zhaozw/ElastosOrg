@@ -300,7 +300,7 @@ function bp_core_set_uri_globals() {
 	}
 
 	// Set the current action
-	$bp->current_action = isset( $bp_uri[$uri_offset + 1] ) ? $bp_uri[$uri_offset + 1] : '';
+	$bp->current_action = isset( $bp_uri[$uri_offset + 1] ) ? strtolower($bp_uri[$uri_offset + 1]) : '';
 
 	// Slice the rest of the $bp_uri array and reset offset
 	$bp_uri      = array_slice( $bp_uri, $uri_offset + 2 );
@@ -657,7 +657,7 @@ function bp_get_requested_url() {
 
 	if ( empty( $bp->canonical_stack['requested_url'] ) ) {
 		$bp->canonical_stack['requested_url']  = is_ssl() ? 'https://' : 'http://';
-		$bp->canonical_stack['requested_url'] .= $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+		$bp->canonical_stack['requested_url'] .= $_SERVER['HTTP_HOST'] . strtolower($_SERVER['REQUEST_URI']);
 	}
 
 	return $bp->canonical_stack['requested_url'];
