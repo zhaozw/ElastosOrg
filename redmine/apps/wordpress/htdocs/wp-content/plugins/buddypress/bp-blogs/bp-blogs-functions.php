@@ -78,7 +78,7 @@ function bp_blogs_record_existing_blogs() {
  * @param $bool $no_activity ; optional.
  * @uses BP_Blogs_Blog
  */
-function bp_blogs_record_blog( $blog_id, $user_id, $no_activity = false ) {
+function bp_blogs_record_blog( $blog_id, $user_id, $no_activity = true ) {
 
 	if ( empty( $user_id ) )
 		$user_id = bp_loggedin_user_id();
@@ -175,7 +175,7 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 
 	if ( 'publish' == $post->post_status && empty( $post->post_password ) ) {
 		if ( $is_blog_public || !is_multisite() ) {
-			
+
 			// Record this in activity streams
 			$post_permalink   = get_permalink( $post_id );
 
@@ -198,7 +198,7 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 						'secondary_id' => $post_id,
 					)
 				) );
-				
+
 				if ( !empty( $existing['activities'] ) ) {
 					return;
 				}
@@ -317,7 +317,7 @@ add_action( 'edit_comment', 'bp_blogs_record_comment', 10    );
 
 function bp_blogs_add_user_to_blog( $user_id, $role = false, $blog_id = 0 ) {
 	global $wpdb;
-	
+
 	if ( empty( $blog_id ) ) {
 		$blog_id = isset( $wpdb->blogid ) ? $wpdb->blogid : bp_get_root_blog_id();
 	}
