@@ -403,7 +403,9 @@ case 'logout' :
 	check_admin_referer('log-out');
 	wp_logout();
 
-	$redirect_to = !empty( $_REQUEST['redirect_to'] ) ? $_REQUEST['redirect_to'] : 'wp-login.php?loggedout=true';
+	//$redirect_to = !empty( $_REQUEST['redirect_to'] ) ? $_REQUEST['redirect_to'] : 'wp-login.php?loggedout=true';
+	$redirect_to = 'http://elastos.org';
+
 	wp_safe_redirect( $redirect_to );
 	exit();
 
@@ -630,6 +632,10 @@ default:
 			elseif ( !$user->has_cap('edit_posts') )
 				$redirect_to = admin_url('profile.php');
 		}
+
+		if (($redirect_to == 'http://elastos.org') || ($redirect_to == 'https://elastos.org'))
+			$redirect_to =  bp_core_get_user_domain( $user->ID, false, false );
+
 		wp_safe_redirect($redirect_to);
 		exit();
 	}
