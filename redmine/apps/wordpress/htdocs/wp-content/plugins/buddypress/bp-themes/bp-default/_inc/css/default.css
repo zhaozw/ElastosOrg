@@ -1651,7 +1651,6 @@ ul.button-nav li.current a {
 .standard-form label,
 .standard-form span.label {
 	display: block;
-	font-weight: bold;
 	margin: 15px 0 5px 0;
 }
 .standard-form div.checkbox label,
