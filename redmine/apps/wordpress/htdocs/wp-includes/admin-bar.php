@@ -383,19 +383,38 @@ function wp_admin_bar_my_sites_menu( $wp_admin_bar ) {
 	//show SNS menu
 	$blog_id = get_current_blog_id();
 	if ( $blog_id > 1 ) {
-		$users = get_users('blog_id=' . $blog_id . '&role=administrator');
-		
-		if (is_array($users) && (!empty($users)) ) {
-			$wp_admin_bar->add_menu( array(
-				'id'    => 'my-sns',
-				'title' => '<img src="/elorg_common/img/buddypress.png">',
-				'href'  => 'http://elastos.org/members/' . $users[0]->user_nicename,
-			) );
+		$group_id = get_groupblog_group_id($blog_id);
+		if ( !$group_id ) {
+			$users = get_users('blog_id=' . $blog_id . '&role=administrator');
+
+			if (is_array($users) && (!empty($users)) ) {
+				$wp_admin_bar->add_menu( array(
+					'id'    => 'my-sns',
+					'title' => '<img src="/elorg_common/img/buddypress.png">',
+					'href'  => 'http://elastos.org/members/' . $users[0]->user_nicename,
+			        'meta'  => array(
+			            'title' => $users[0]->user_nicename,
+			        )
+				) );
+			} else {
+				$wp_admin_bar->add_menu( array(
+					'id'    => 'my-sns',
+					'title' => '<img src="/elorg_common/img/buddypress.png">',
+					'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename', get_current_user_id()),
+			        'meta'  => array(
+			            'title' => get_the_author_meta('nicename', get_current_user_id())
+			        )
+				) );
+			}
 		} else {
+			$group = groups_get_group( array( 'group_id' => $group_id ) );
 			$wp_admin_bar->add_menu( array(
 				'id'    => 'my-sns',
 				'title' => '<img src="/elorg_common/img/buddypress.png">',
-				'href'  => 'http://elastos.org/members/' . get_the_author_meta('nicename', get_current_user_id()),
+				'href'  => bp_get_group_permalink($group),
+		        'meta'  => array(
+		            'title' => esc_attr($group->name)
+		        )
 			) );
 		}
 	}
