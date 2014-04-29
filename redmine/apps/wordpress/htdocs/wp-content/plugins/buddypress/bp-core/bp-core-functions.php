@@ -388,8 +388,8 @@ function bp_core_time_since( $older_date, $newer_date = false ) {
 
 	// array of time period chunks
 	$chunks = array(
-		array( 60 * 60 * 24 * 365 , __( 'y', 'buddypress' ), __( 'y', 'buddypress' ) ),
-		array( 60 * 60 * 24 * 30 ,  __( 'm', 'buddypress' ), __( 'm', 'buddypress' ) ),
+		array( 60 * 60 * 24 * 365 , __( 'Y', 'buddypress' ), __( 'Y', 'buddypress' ) ),
+		array( 60 * 60 * 24 * 30 ,  __( 'M', 'buddypress' ), __( 'M', 'buddypress' ) ),
 		array( 60 * 60 * 24 * 7,    __( 'w', 'buddypress' ), __( 'w', 'buddypress' ) ),
 		array( 60 * 60 * 24 ,       __( 'd', 'buddypress' ), __( 'd', 'buddypress' ) ),
 		array( 60 * 60 ,            __( 'h', 'buddypress' ), __( 'h', 'buddypress' ) ),
