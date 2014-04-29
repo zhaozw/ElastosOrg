@@ -7,9 +7,9 @@ RewriteRule ^files/(.+) wp-includes/ms-files.php?file=$1 [L]
 #RewriteRule .redmine/(.*) redmine/$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d [OR]
-RewriteCond %{REQUEST_URI} /redmine/* [OR]
-RewriteCond %{REQUEST_URI} /review/* 
+RewriteCond %{REQUEST_FILENAME} -d
+#RewriteCond %{REQUEST_URI} /redmine/* [OR]
+#RewriteCond %{REQUEST_URI} /review/* 
 RewriteRule ^ - [L]
 RewriteRule . index.php [L] 
 
