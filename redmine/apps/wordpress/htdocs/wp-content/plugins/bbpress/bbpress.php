@@ -102,6 +102,9 @@ final class bbPress {
 	 * @return The one true bbPress
 	 */
 	public static function instance() {
+
+		$_SERVER['REQUEST_URI'] = strtolower($_SERVER['REQUEST_URI']);
+
 		if ( ! isset( self::$instance ) ) {
 			self::$instance = new bbPress;
 			self::$instance->setup_globals();
