@@ -444,7 +444,7 @@ function bp_core_time_since( $older_date, $newer_date = false ) {
 
 			// Set output var
 			//$output = ( 1 == $count ) ? '1 '. $chunks[$i][1] : $count . ' ' . $chunks[$i][2];
-			$output = '1'. $chunks[$i][1];
+			$output = $count . $chunks[$i][1];
 
 			// Step two: the second chunk
 			if ( $i + 2 < $j ) {
