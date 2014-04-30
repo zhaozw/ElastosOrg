@@ -65,11 +65,11 @@
 
 					<?php if ( !bp_get_activity_is_favorite() ) : ?>
 
-						<a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><i class="fa fa-link" style="color:#14A0CD;"></i> <?php _e( 'Favorite', 'buddypress' ); ?></a>
+						<a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><i class="fa fa-link" style="color:#14A0CD;"></i> <?php printf( __('Favorite <span>%s</span>', 'buddypress'), bp_activity_get_favorite_count() ); ?></a>
 
 					<?php else : ?>
 
-						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><i class="fa fa-chain-broken" style="color:#14A0CD;"></i> <?php _e( 'Remove Favorite', 'buddypress' ); ?></a>
+						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><i class="fa fa-chain-broken" style="color:#14A0CD;"></i> <?php printf( __('Remove Favorite <span>%s</span>', 'buddypress'), bp_activity_get_favorite_count() ); ?></a>
 
 					<?php endif; ?>
 

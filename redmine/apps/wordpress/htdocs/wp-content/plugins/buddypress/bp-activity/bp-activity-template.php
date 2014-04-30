@@ -1760,11 +1760,14 @@ function bp_activity_comment_count() {
 		global $activities_template;
 
 		if ( !isset( $activities_template->activity->children ) || !$activities_template->activity->children )
-			return 0;
+			return null;
 
 		$count = bp_activity_recurse_comment_count( $activities_template->activity );
 
-		return apply_filters( 'bp_activity_get_comment_count', (int) $count );
+		if (intval($count) > 0)
+			return $count;
+
+		return null;
 	}
 
 		/**
@@ -2758,7 +2761,7 @@ add_action( 'bp_head', 'bp_activity_sitewide_feed' );
  * bp_activity_get_forward_count from activity_meta
  */
 function bp_activity_get_forward_count() {
-	$forward_count = bp_activity_get_meta( bp_get_activity_id(), 'forward_count' );
+	$forward_count = bp_activity_get_meta(bp_get_activity_id(), 'forward_count');
 	return $forward_count;
 }
 
@@ -2776,6 +2779,14 @@ function bp_activity_set_forward_count($activity_id) {
 	bp_activity_update_meta($activity_id, 'forward_count', $forward_count);
 
 	return $forward_count;
+}
+
+/**
+ * bp_activity_get_favorite_count from activity_meta
+ */
+function bp_activity_get_favorite_count() {
+	$fav_count = bp_activity_get_meta(bp_get_activity_id(), 'favorite_count');
+	return $fav_count;
 }
 
 
