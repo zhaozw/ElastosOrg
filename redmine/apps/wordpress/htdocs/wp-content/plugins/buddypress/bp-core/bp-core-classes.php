@@ -294,7 +294,7 @@ class BP_Core_User {
 
 		if ( !empty( $search_terms ) && bp_is_active( 'xprofile' ) ) {
 			$search_terms             = like_escape( $wpdb->escape( $search_terms ) );
-			$sql['where_searchterms'] = "AND spd.value LIKE '%%$search_terms%%'";
+			$sql['where_searchterms'] = "AND ((spd.value LIKE '%%$search_terms%%') OR (u.user_login LIKE '%%$search_terms%%') OR (u.user_nicename LIKE '%%$search_terms%%') OR (u.display_name LIKE '%%$search_terms%%'))";
 		}
 
 		if ( !empty( $meta_key ) ) {
