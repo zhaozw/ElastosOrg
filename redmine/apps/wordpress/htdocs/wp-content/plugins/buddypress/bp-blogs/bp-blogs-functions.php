@@ -188,6 +188,9 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 			else
 				$activity_action  = sprintf( __( '%1$s wrote a new post, %2$s', 'buddypress' ), bp_core_get_userlink( (int) $post->post_author ), '<a href="' . $post_permalink . '">' . $post_title . '</a>' );
 
+			/*
+			 * bp_blogs_record_activity() will Check for an existing entry and update if one exists.
+			 *
 			// Make sure there's not an existing entry for this post (prevent bumping)
 			if ( bp_is_active( 'activity' ) ) {
 				$existing = bp_activity_get( array(
@@ -203,6 +206,7 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 					return;
 				}
 			}
+			*/
 
 			$activity_content = $post->post_content;
 
