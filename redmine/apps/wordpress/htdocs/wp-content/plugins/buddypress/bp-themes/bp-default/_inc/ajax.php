@@ -234,7 +234,7 @@ function bp_dtheme_activity_template_loader() {
 
 	// Buffer the loop in the template to a var for JS to spit out.
 	ob_start();
-	locate_template( array( 'activity/activity-loop.php' ), true );
+	locate_template( array( 'activity/activity-loop-2.php' ), true );
 	$result['contents'] = ob_get_contents();
 	$result['feed_url'] = apply_filters( 'bp_dtheme_activity_feed_url', $feed_url, $scope );
 	ob_end_clean();
