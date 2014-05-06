@@ -15,6 +15,13 @@
 				<p>Copyright&nbsp;&copy;&nbsp;2012-<?php echo date('Y'); ?>&nbsp;<a href="http://elastos.org">elastos.org</a>&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn">ICP 08101992</a></p>
 			</div>
 
+			<script>
+			(new SidebarFollow()).init({
+			    element: jQuery('#bp_core_recently_active_widget-2'),
+			    distanceToTop: 15
+			});
+			</script>
+
 			<?php do_action( 'bp_footer' ); ?>
 
 		</div><!-- #footer -->

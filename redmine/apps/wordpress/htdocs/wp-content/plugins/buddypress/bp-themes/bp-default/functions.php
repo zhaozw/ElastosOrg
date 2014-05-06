@@ -153,6 +153,7 @@ function bp_dtheme_enqueue_scripts() {
 	// Enqueue the global JS - Ajax will not work without it
 	wp_enqueue_script( 'dtheme-ajax-js', get_template_directory_uri() . '/_inc/global.js', array( 'jquery' ), bp_get_version() );
 	wp_enqueue_script('activity-auto-loader',  get_template_directory_uri().'/_inc/activity-loader.js',array('jquery'));
+	wp_enqueue_script('sidebar-follow-jquery',  get_template_directory_uri().'/_inc/sidebar-follow-jquery.js',array('jquery'));
 
 	// Add words that we need to use in JS to the end of the page so they can be translated and still used.
 	$params = array(

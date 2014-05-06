@@ -236,7 +236,7 @@ class BP_Core_Recently_Active_Widget extends WP_Widget {
 		   . $after_title; ?>
 
 		<?php if ( bp_has_members( 'user_id=0&type=active&per_page=' . $instance['max_members'] . '&max=' . $instance['max_members'] . '&populate_extras=0' ) ) : ?>
-			<div class="avatar-block">
+			<div class="avatar-block" style="width:186px;">
 				<?php while ( bp_members() ) : bp_the_member(); ?>
 					<div class="item-avatar">
 						<a href="<?php bp_member_permalink() ?>"><?php bp_member_avatar() ?></a>

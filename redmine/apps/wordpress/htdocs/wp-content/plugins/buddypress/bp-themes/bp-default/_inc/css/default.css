@@ -86,7 +86,7 @@ body {
 	margin-top: -32px;
 }
 div#container {
-	background: #fff;
+	background: #fafafa;
 	border-right: 1px solid #e0e0e0;
 	border-bottom: 1px solid #e0e0e0;
 	-moz-border-radius: 6px;
@@ -97,7 +97,6 @@ div#container {
 	width: 100%;
 }
 body.activity-permalink div#container {
-	background: none;
 	border: none;
 }
 
