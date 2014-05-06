@@ -9,7 +9,7 @@ ul#portfolio li img{border: 1px solid #ccc;padding: 4px; margin-top:15px;}
 .dunhakdis-activity-list li{list-style:none;}
 .dunhakdis-activity-list a{ color: #0091C7; margin-right: 3px;text-decoration: none;}
 .activity-avatar{float:left;width:50px;}
-.time-since{color: #999999;}
+.time-since{color: #14A0CD;}
 /**** noscript ****/
 div#att {background-color: #fffeb8;border-bottom: 1px solid;height: 2.5em;line-height: 2.5em;position: absolute;top:0;width: 100%;}
 div#att p{background: transparent url(../images/att.png) no-repeat 0 46%;margin: 0;display: inline;padding: 6px 0 6px 26px;}
