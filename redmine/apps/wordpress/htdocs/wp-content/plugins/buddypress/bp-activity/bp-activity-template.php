@@ -2126,9 +2126,10 @@ function bp_activity_latest_update( $user_id = 0 ) {
 			return false;
 
 		$latest_update = apply_filters( 'bp_get_activity_latest_update_excerpt', trim( strip_tags( bp_create_excerpt( $update['content'], 358 ) ) ) );
-		$latest_update .= ' <a href="' . bp_get_root_domain() . '/' . bp_get_activity_root_slug() . '/p/' . $update['id'] . '/"> ' . __( 'View', 'buddypress' ) . '</a>';
+		$latest_update .= ' <a href="' . bp_get_root_domain() . '/' . bp_get_activity_root_slug() . '/p/' . $update['id'] . '/"><i class="fa fa-folder-open" style="color:#14A0CD;"></i>' . __( 'View', 'buddypress' ) . '</a>';
 
-		return apply_filters( 'bp_get_activity_latest_update', $latest_update  );
+		//return apply_filters( 'bp_get_activity_latest_update', $latest_update  );
+		return $latest_update;
 	}
 
 /**

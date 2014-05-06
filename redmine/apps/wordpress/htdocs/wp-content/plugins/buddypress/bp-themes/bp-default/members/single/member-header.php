@@ -52,7 +52,7 @@
 
 		<?php endif; ?>
 
-		<div id="item-buttons">
+		<div id="item-buttons" style="margin-left:4px;">
 
 			<?php do_action( 'bp_member_header_actions' ); ?>
 
