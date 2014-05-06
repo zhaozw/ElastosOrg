@@ -207,8 +207,10 @@ function bp_blogs_record_post( $post_id, $post, $user_id = 0 ) {
 				}
 			}
 			*/
-
-			$activity_content = $post->post_content;
+			if ( empty($post->post_excerpt) )
+				$activity_content = $post->post_content;
+			else
+				$activity_content = $post->post_excerpt;
 
 			bp_blogs_record_activity( array(
 				'user_id'           => (int) $post->post_author,
