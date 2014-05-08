@@ -229,7 +229,7 @@
 				}
 				
 				
-				close_panel();
+				//close_panel();
 			}
 
 			$(function() {
@@ -264,9 +264,13 @@
 				// Defocus
 				input_obj.bind('focusout.mentions', function(event) {
 					if (results_started) {
+<<<<<<< HEAD
 						setTimeout(function() {
 							close_panel();
 						},500);
+=======
+						setTimeout(function(){close_panel();},500);
+>>>>>>> 4b2b3314e579d29fb5a32d9be4a5d90044c48065
 					}
 				});
 
@@ -293,6 +297,7 @@
 		'complete'            : null,    // When we're finished (after success).
 		'error'               : null     // On any type of error.
 	};
+<<<<<<< HEAD
     appendAutosuggest();
 
 	function appendAutosuggest() {
@@ -302,7 +307,7 @@
 		 		window.cTextarea=this;
 		 		if(!jQuery(this).data("init")){
 		 			setTimeout(function(){
-		 				jQuery(window.cTextarea).mentions();
+		 				jQuery(this).mentions();
 		 			},1000);
 		 		} 
 		 		else {
@@ -318,3 +323,6 @@
 
 
 })(jQuery);
+=======
+})(jQuery);
+>>>>>>> 4b2b3314e579d29fb5a32d9be4a5d90044c48065
