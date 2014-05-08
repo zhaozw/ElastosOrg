@@ -32,7 +32,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 						</li>
 					</ul>
 
-					<p><?php _e( 'Select members from the directory:', 'bp-invite-anyone' ) ?> </p>
+					<p><?php _e( 'Select members:', 'bp-invite-anyone' ) ?> </p>
 
 					<div id="invite-anyone-member-list">
 						<ul>
@@ -84,7 +84,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 				<div class="clear"></div>
 
 			<?php if ( $event != 'create' ) : ?>
-				<p class="clear"><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" /></p>
+				<p class="clear"><i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" /></p>
 				<?php wp_nonce_field( 'groups_send_invites', '_wpnonce_send_invites') ?>
 			<?php endif; ?>
 
@@ -123,7 +123,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 		<?php wp_nonce_field( 'groups_invite_uninvite_user', '_wpnonce_invite_uninvite_user' ) ?>
 
 		<?php if ( ! invite_anyone_is_large_network( 'users' ) ) : ?>
-			<p><?php _e( 'Select members from the directory:', 'bp-invite-anyone' ) ?></p>
+			<p><?php _e( 'Select members:', 'bp-invite-anyone' ) ?></p>
 
 			<div id="invite-anyone-member-list">
 				<ul>
@@ -175,7 +175,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 
 	<?php if ( !bp_get_new_group_id() ) : ?>
 	<div class="submit">
-		<input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" />
+		<i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" />
 	</div>
 	<?php endif; ?>
 

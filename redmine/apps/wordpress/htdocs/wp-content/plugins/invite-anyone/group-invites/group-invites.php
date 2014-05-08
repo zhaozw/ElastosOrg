@@ -266,6 +266,7 @@ function invite_anyone_invite_query( $group_id = false, $search_terms = false, $
 		'exclude' => $group_members,
 		'search' => $search_terms,
 		'fields' => $fields,
+		'limit' => 200,				//elastos.org: at most, there are 200 users in result
 	) );
 
 	return $user_query->results;
@@ -356,6 +357,9 @@ function invite_anyone_ajax_invite_user() {
 
 	if ( 'invite' == $_POST['friend_action'] ) {
 
+		if ( ! bp_groups_user_can_send_invites( $_POST['group_id'] ) )
+			return;
+
 		if ( !groups_invite_user( array( 'user_id' => $_POST['friend_id'], 'group_id' => $_POST['group_id'] ) ) )
 			return false;
 
@@ -370,11 +374,11 @@ function invite_anyone_ajax_invite_user() {
 		}
 
 		echo '<li id="uid-' . $user->id . '">';
-		echo bp_core_fetch_avatar( array( 'item_id' => $user->id ) );
+		echo $user->avatar_thumb;
 		echo '<h4>' . bp_core_get_userlink( $user->id ) . '</h4>';
-		echo '<span class="activity">' . esc_html( $user->last_active ) . '</span>';
+		echo '<span class="activity">' . $user->last_active . '</span>';
 		echo '<div class="action">
-				<a class="remove" href="' . wp_nonce_url( $uninvite_url ) . '" id="uid-' . esc_html( $user->id ) . '">' . __( 'Remove Invite', 'buddypress' ) . '</a>
+				<a class="remove" href="' . wp_nonce_url( $uninvite_url ) . '" id="uid-' . $user->id . '">' . __( 'Remove Invite', 'buddypress' ) . '</a>
 			  </div>';
 		echo '</li>';
 
@@ -382,7 +386,7 @@ function invite_anyone_ajax_invite_user() {
 
 		groups_uninvite_user( $_POST['friend_id'], $_POST['group_id'] );
 
-        }
+	}
 
         die();
 }

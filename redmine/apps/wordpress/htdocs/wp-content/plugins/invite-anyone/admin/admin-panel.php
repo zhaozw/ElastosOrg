@@ -80,10 +80,6 @@ function invite_anyone_admin_panel() {
 				'email_limit_invites_toggle',
 				'limit_invites_per_user'
 			),
-			'cloudsponge' => array(
-				'cloudsponge_enabled',
-				'cloudsponge_key'
-			),
 			'general-settings' => array(
 				'can_send_group_invites_email',
 				'bypass_registration_lock',
@@ -119,10 +115,6 @@ function invite_anyone_admin_panel() {
 
     		<li<?php if ( 'access-control' == $subpage ) : ?> class="current"<?php endif ?>>
     			<a href="<?php echo add_query_arg( 'subpage', 'access-control', $url_base ) ?>"><?php _e( 'Access Control', 'bp-invite-anyone' ) ?></a>
-    		</li>
-
-    		<li<?php if ( 'cloudsponge' == $subpage ) : ?> class="current"<?php endif ?>>
-    			<a href="<?php echo add_query_arg( 'subpage', 'cloudsponge', $url_base ) ?>"><?php _e( 'CloudSponge', 'bp-invite-anyone' ) ?></a>
     		</li>
 
     		<li<?php if ( 'manage-invitations' == $subpage ) : ?> class="current"<?php endif ?>>
@@ -169,12 +161,6 @@ function invite_anyone_settings_setup() {
 			add_settings_field( 'invite_anyone_settings_group_invite_visibility', __( 'Limit group invitations', 'bp-invite-anyone' ), 'invite_anyone_settings_group_invite_visibility', 'invite_anyone', 'invite_anyone_access_settings' );
 
 			add_settings_field( 'invite_anyone_settings_limit_invites', __( 'Limit per-user invitations', 'bp-invite-anyone' ), 'invite_anyone_settings_limit_invites', 'invite_anyone', 'invite_anyone_access_settings' );
-
-			break;
-
-		case 'cloudsponge' :
-			/* Cloudsponge Settings */
-			add_settings_section( 'invite_anyone_cs', __( 'CloudSponge', 'bp-invite-anyone' ), 'invite_anyone_settings_cs_content', 'invite_anyone' );
 
 			break;
 
@@ -460,11 +446,6 @@ function invite_anyone_settings_mi_content() {
 			'title'		=> __( 'Accepted', 'bp-invite-anyone' ),
 			'css_class'	=> 'ia-accepted',
 			'default_order'	=> 'desc'
-		),
-		array(
-			'name'		=> 'cloudsponge',
-			'title'		=> __( 'CloudSponge', 'bp-invite-anyone' ),
-			'css_class'	=> 'ia-cloudsponge'
 		),
 	);
 

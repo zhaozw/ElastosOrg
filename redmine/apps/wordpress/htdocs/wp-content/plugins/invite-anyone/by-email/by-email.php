@@ -1,8 +1,8 @@
 <?php
 
 require( WP_PLUGIN_DIR . '/invite-anyone/by-email/by-email-db.php' );
-require( WP_PLUGIN_DIR . '/invite-anyone/widgets/widgets.php' );
-require( WP_PLUGIN_DIR . '/invite-anyone/by-email/cloudsponge-integration.php' );
+//require( WP_PLUGIN_DIR . '/invite-anyone/widgets/widgets.php' );
+//require( WP_PLUGIN_DIR . '/invite-anyone/by-email/cloudsponge-integration.php' );
 
 // Temporary function until bp_is_active is fully integrated
 function invite_anyone_are_groups_running() {
@@ -263,16 +263,6 @@ function invite_anyone_setup_nav() {
 
 	if ( !invite_anyone_access_test() )
 		return;
-
-	/* Add 'Send Invites' to the main user profile navigation */
-	bp_core_new_nav_item( array(
-		'name' => __( 'Send Invites', 'buddypress' ),
-		'slug' => $bp->invite_anyone->slug,
-		'position' => 80,
-		'screen_function' => 'invite_anyone_screen_one',
-		'default_subnav_slug' => 'invite-new-members',
-		'show_for_displayed_user' => invite_anyone_access_test()
-	) );
 
 	$invite_anyone_link = $bp->loggedin_user->domain . $bp->invite_anyone->slug . '/';
 
@@ -642,7 +632,13 @@ function invite_anyone_screen_one_content() {
 		</li>
 
 		<?php if ( invite_anyone_are_groups_running() ) : ?>
-			<?php if ( $iaoptions['can_send_group_invites_email'] == 'yes' && bp_has_groups( "per_page=10000&type=alphabetical&user_id=" . bp_loggedin_user_id() ) ) : ?>
+			<?php
+				/*
+				 * elastos.org
+				 *
+				 * one user can join 20 groups at most
+				 */
+				if ( $iaoptions['can_send_group_invites_email'] == 'yes' && bp_has_groups( "max=20&per_page=10000&type=alphabetical&user_id=" . bp_loggedin_user_id() ) ) : ?>
 			<li>
 				<p><?php _e( '(optional) Select some groups. Invitees will receive invitations to these groups when they join the site.', 'bp-invite-anyone' ) ?></p>
 				<ul id="invite-anyone-group-list">
@@ -666,7 +662,7 @@ function invite_anyone_screen_one_content() {
 	</ol>
 
 	<div class="submit">
-		<input type="submit" name="invite-anyone-submit" id="invite-anyone-submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?> " />
+		<i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="invite-anyone-submit" id="invite-anyone-submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?> " />
 	</div>
 
 
