@@ -211,7 +211,7 @@
 
 						results_started = true;
 					});
-                    jQuery("#mentions-autosuggest").insertAfter(jQuery(window.cTextarea));
+
 					if ($.isFunction(o.complete)) {
 						o.complete.call(response, textStatus, jqXHR);
 					}
@@ -220,16 +220,8 @@
 
 			// Put selected name into input_obj
 			function insert_name(name) {
-				//input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
-				if(window.cTextarea){
-					$(window.cTextarea).val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
-				}
-				else{
-					input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
-				}
-				
-				
-				//close_panel();
+				input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
+				close_panel();
 			}
 
 			$(function() {
@@ -264,13 +256,7 @@
 				// Defocus
 				input_obj.bind('focusout.mentions', function(event) {
 					if (results_started) {
-<<<<<<< HEAD
-						setTimeout(function() {
-							close_panel();
-						},500);
-=======
 						setTimeout(function(){close_panel();},500);
->>>>>>> 4b2b3314e579d29fb5a32d9be4a5d90044c48065
 					}
 				});
 
@@ -297,32 +283,4 @@
 		'complete'            : null,    // When we're finished (after success).
 		'error'               : null     // On any type of error.
 	};
-<<<<<<< HEAD
-    appendAutosuggest();
-
-	function appendAutosuggest() {
-		if(jQuery("textarea").length>0){
-		 jQuery("textarea").on('focus',function(){
-		 	if(window.cTextarea!=this){
-		 		window.cTextarea=this;
-		 		if(!jQuery(this).data("init")){
-		 			setTimeout(function(){
-		 				jQuery(this).mentions();
-		 			},1000);
-		 		} 
-		 		else {
-		 			jQuery(this).data("init",true)
-		 		}	
-		 	}
-		 	
-		 });
-		} else {
-		  setTimeout(appendAutosuggest,200);
-		}
-	}
-
-
 })(jQuery);
-=======
-})(jQuery);
->>>>>>> 4b2b3314e579d29fb5a32d9be4a5d90044c48065
