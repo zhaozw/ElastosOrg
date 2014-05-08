@@ -1,6 +1,6 @@
 table.popupBubble,table.popupBubble tr,table.popupBubble tr td,.popupBubble{padding:0;margin:0}
 table.popupBubble tr td, table.popupBubble tr th{padding:0;background:100%}
-#popupContainer{position:absolute;left:0;top:0;display:none;z-index:20000;width:auto;width:250px;padding:0;margin:0}
+#popupContainer{position:absolute;left:0;top:0;display:none;z-index:20000;width:auto;width:250px;padding:0;margin:0;max-height:300px;overflow:hidden;}
 p.popupLine{float:left;clear:both;margin:0;padding:5px 0;border-bottom:1px solid #eaeaea;background-color:#fff;width:100%}
 #popupContent span.popupBubble_name{float:left}
 #popupContent span.popupBubble_value{overflow:hidden;float:left}
