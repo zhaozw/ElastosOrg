@@ -165,10 +165,10 @@ function bpaa_init() {
 			}
 
 			jQuery(document).ready(function($) {
-				//append the form into our admin button
+				$('#bpaa-form-wrapper').stop().fadeOut('fast');
 				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-post-update');
-
 				$('li#wp-admin-bar-post-update a').addClass('bpaa-trigger');
+
 				//remove warning when in input fields
 				$('.bpaa-input').focus(function() {
 					$('#bpaa-textarea').removeClass('bpaa-warning');
