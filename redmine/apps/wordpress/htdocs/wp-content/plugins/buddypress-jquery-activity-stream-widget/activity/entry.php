@@ -9,7 +9,7 @@
 		</a>
 	</div>
 
-	<div class="activity-content" >
+	<div class="activity-content" style="max-width:210px;">
 		<div class="activity-header">
 			<?php
 			$str_bpaa = bp_get_activity_action();

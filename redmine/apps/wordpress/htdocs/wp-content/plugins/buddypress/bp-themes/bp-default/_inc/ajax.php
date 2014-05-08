@@ -570,7 +570,7 @@ function bp_dtheme_ajax_invite_user() {
 		echo '<li id="uid-' . $user->id . '">';
 		echo $user->avatar_thumb;
 		echo '<h4>' . $user->user_link . '</h4>';
-		echo '<span class="activity">' . esc_attr( $user->last_active ) . '</span>';
+		echo '<span class="activity">' . $user->last_active . '</span>';
 		echo '<div class="action">
 				<a class="button remove" href="' . wp_nonce_url( bp_loggedin_user_domain() . bp_get_groups_slug() . '/' . $_POST['group_id'] . '/invites/remove/' . $user->id, 'groups_invite_uninvite_user' ) . '" id="uid-' . esc_attr( $user->id ) . '">' . __( 'Remove Invite', 'buddypress' ) . '</a>
 			  </div>';
