@@ -44,7 +44,7 @@
 
 			// Add results box
 			function add_panel() {
-				var html = '<ul id="mentions-autosuggest"></ul>';
+				var html = '<ul id="' + o.mentions_autosuggest + '"></ul>';
 
 				if (o.resultsbox) {
 					if ('string' == typeof o.resultsbox) {
@@ -84,7 +84,7 @@
 					}
 				}
 
-				results = $('#mentions-autosuggest');
+				results = $('#' + o.mentions_autosuggest);
 			}
 
 			// Close the results panel
@@ -276,6 +276,7 @@
 		'max_name_parts'      : 3,       // Number of word parts that are identified as a name; i.e. "Boone B Gorges."
 		'max_suggestions'     : 6,       // Max number of suggestions to return.
 		'resultsbox'          : '',      // Used if dataType=html. jQuery identifier or object to append the results' container box to. If not set, defaults to "this'" parent element.
+		'mentions_autosuggest': 'mentions-autosuggest',
 
 		// Callbacks
 		'start'               : null,    // After a pattern match, before anything else.
@@ -284,3 +285,11 @@
 		'error'               : null     // On any type of error.
 	};
 })(jQuery);
+
+function forward_it(user_link, user_login, activity_url, activity_content, activity_id) {
+	jQuery('#bpaa-form-wrapper').stop().fadeIn('fast');
+	jQuery("#bpaa_reply").html('<a href="' + user_link + '">@' + user_login + '</a> ' + '<a href="' + activity_url + '">' + activity_content + '</a>');
+	jQuery("#bpaa_reply").css({'background-color':'green','height':'56px','visibility':'visible'});
+	jQuery("#o_id").val(activity_id);
+}
+

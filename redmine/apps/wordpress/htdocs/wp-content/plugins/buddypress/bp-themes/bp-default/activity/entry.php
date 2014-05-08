@@ -127,6 +127,9 @@
 					<?php wp_nonce_field( 'new_activity_comment', '_wpnonce_new_activity_comment' ); ?>
 
 				</form>
+<script>
+jQuery("#ac-input-<?php bp_activity_id(); ?>").mentions({ resultsbox:"#ac-input-<?php bp_activity_id(); ?>", mentions_autosuggest: "mentions-autosuggest-<?php bp_activity_id(); ?>", resultsbox_position : 'after' });
+</script>
 
 			<?php endif; ?>
 
@@ -137,14 +140,5 @@
 	<?php do_action( 'bp_after_activity_entry_comments' ); ?>
 
 </li>
-<script>
-function forward_it(user_link, user_login, activity_url, activity_content, activity_id) {
-	jQuery('#bpaa-form-wrapper').stop().fadeIn('fast');
-	jQuery("#bpaa_reply").html('<a href="' + user_link + '">@' + user_login + '</a> ' + '<a href="' + activity_url + '">' + activity_content + '</a>');
-	jQuery("#bpaa_reply").css({'background-color':'green','height':'56px','visibility':'visible'});
-	jQuery("#o_id").val(activity_id);
-}
-</script>
-
 
 <?php do_action( 'bp_after_activity_entry' ); ?>
