@@ -551,7 +551,7 @@ function invite_anyone_screen_one_content() {
 	$welcome_message = sprintf( __( 'Invite friends to join %s by following these steps:', 'bp-invite-anyone' ), $blogname );
 
   ?>
-	<form id="invite-anyone-by-email" action="<?php echo $bp->displayed_user->domain . $bp->invite_anyone->slug . '/sent-invites/send/' ?>" method="post">
+	<form id="invite-anyone-by-email" class="standard-form" action="<?php echo $bp->displayed_user->domain . $bp->invite_anyone->slug . '/sent-invites/send/' ?>" method="post">
 
 	<h4><?php _e( 'Invite New Members', 'bp-invite-anyone' ); ?></h4>
 
@@ -662,7 +662,7 @@ function invite_anyone_screen_one_content() {
 	</ol>
 
 	<div class="submit">
-		<i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="invite-anyone-submit" id="invite-anyone-submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?> " />
+		<input type="submit" name="invite-anyone-submit" id="invite-anyone-submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?> " />
 	</div>
 
 

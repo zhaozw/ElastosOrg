@@ -19,7 +19,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 		<?php do_action( 'bp_before_group_send_invites_content' ) ?>
 
 			<?php if ( $event != 'create' ) : ?>
-				<form action="<?php bp_group_send_invite_form_action() ?>" method="post" id="send-invite-form">
+				<form action="<?php bp_group_send_invite_form_action() ?>" method="post" id="send-invite-form" class="standard-form">
 			<?php endif; ?>
 
 				<div class="left-menu">
@@ -84,7 +84,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 				<div class="clear"></div>
 
 			<?php if ( $event != 'create' ) : ?>
-				<p class="clear"><i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" /></p>
+				<p class="clear"><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" /></p>
 				<?php wp_nonce_field( 'groups_send_invites', '_wpnonce_send_invites') ?>
 			<?php endif; ?>
 
@@ -108,7 +108,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 	<?php endif; ?>
 
 	<?php if ( !bp_get_new_group_id() ) : ?>
-		<form action="<?php invite_anyone_group_invite_form_action() ?>" method="post" id="send-invite-form">
+		<form action="<?php invite_anyone_group_invite_form_action() ?>" method="post" id="send-invite-form" class="standard-form">
 	<?php endif; ?>
 
 	<div class="left-menu">
@@ -175,7 +175,7 @@ if ( function_exists( 'bp_post_get_permalink' ) ) { // ugly ugly ugly hack to ch
 
 	<?php if ( !bp_get_new_group_id() ) : ?>
 	<div class="submit">
-		<i class="fa fa-lightbulb-o" style="color:#14A0CD;"></i><input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" />
+		<input type="submit" name="submit" id="submit" value="<?php _e( 'Send Invites', 'buddypress' ) ?>" />
 	</div>
 	<?php endif; ?>
 
