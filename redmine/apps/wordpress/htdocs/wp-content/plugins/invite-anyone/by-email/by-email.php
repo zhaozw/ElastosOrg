@@ -908,6 +908,14 @@ Visit %%INVITERNAME%%\'s profile at %%INVITERURL%%.', 'bp-invite-anyone' ), $blo
 		$text = $returned_message;
 	}
 
+	/*
+	 * elastos.org
+	 */
+	$invite=invites_make();
+	invites_add($invite);
+	$text = $text . "\n\nHere is the elastos.org invite code: " . invites_beautify($invite);
+
+
 	return apply_filters( 'invite_anyone_get_invitation_message', stripslashes( $text ) );
 }
 
