@@ -44,7 +44,7 @@
 
 			// Add results box
 			function add_panel() {
-				var html = '<ul id="' + o.mentions_autosuggest + '"></ul>';
+				var html = '<ul id="' + o.mentions_autosuggest + '" class="mentions-autosuggest"></ul>';
 
 				if (o.resultsbox) {
 					if ('string' == typeof o.resultsbox) {

@@ -131,7 +131,7 @@ class BPLabs_Autosuggest extends BPLabs_Beaker {
 		// Build results
 		foreach ( (array) $user_search_results as $user ) {
 			$result         = new stdClass;
-			$result->avatar = bp_core_fetch_avatar( array( 'item_id' => $user->ID, 'width' => 30, 'height' => 30, 'type' => 'thumb', 'alt' => __( 'Profile picture of %s', 'bpl' ) ) );
+			$result->avatar = bp_core_fetch_avatar( array( 'item_id' => $user->ID, 'width' => 24, 'height' => 24, 'type' => 'thumb', 'alt' => __( 'Profile picture of %s', 'bpl' ) ) );
 			$result->name   = bp_core_get_user_displayname( $user->ID );
 
 			if ( bp_is_username_compatibility_mode() )
@@ -172,7 +172,7 @@ class BPLabs_Autosuggest extends BPLabs_Beaker {
 					}
 
 					foreach ( $items as $item )
-						$html[] = sprintf( '<li class=%s><p>%s,  <span style="color:#4C99A2;">%s</span></p></li>', esc_attr( $item->id ), $item->avatar . esc_html( $item->name ), $item->id );
+						$html[] = sprintf( '<li class=%s><p>%s,  <span style="color:#4C99A2;">@%s</span></p></li>', esc_attr( $item->id ), $item->avatar . esc_html( $item->name ), $item->id );
 
 				// For third-party extensions
 				} else {
