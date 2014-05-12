@@ -631,7 +631,7 @@ function invite_anyone_screen_one_content() {
 
 		</li>
 
-		<?php if ( invite_anyone_are_groups_running() ) : ?>
+		<?php if ( false /*invite_anyone_are_groups_running()*/ ) : ?>
 			<?php
 				/*
 				 * elastos.org
