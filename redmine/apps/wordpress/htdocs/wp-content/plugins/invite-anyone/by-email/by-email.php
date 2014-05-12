@@ -911,9 +911,10 @@ Visit %%INVITERNAME%%\'s profile at %%INVITERURL%%.', 'bp-invite-anyone' ), $blo
 	/*
 	 * elastos.org
 	 */
-	$invite=invites_make();
+	$invite = invites_make();
 	invites_add($invite);
-	$text = $text . "\n\nHere is the elastos.org invite code: " . invites_beautify($invite);
+	$invite = invites_beautify($invite);
+	$text = $text . "\n\nHere is the elastos.org invite code (" . strlen($invite) . " characters): " . $invite;
 
 
 	return apply_filters( 'invite_anyone_get_invitation_message', stripslashes( $text ) );
