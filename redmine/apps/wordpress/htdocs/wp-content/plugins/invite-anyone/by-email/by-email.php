@@ -594,7 +594,7 @@ function invite_anyone_screen_one_content() {
 					<?php if( invite_anyone_allowed_domains() ) : ?> <?php _e( 'You can only invite people whose email addresses end in one of the following domains:', 'bp-invite-anyone' ) ?> <?php echo invite_anyone_allowed_domains(); ?><?php endif; ?>
 				</p>
 
-				<?php if ( false !== $max_no_invites = invite_anyone_max_invites() ) : ?>
+				<?php if ( 1 < ($max_no_invites = invite_anyone_max_invites()) ) : ?>
 					<p class="description"><?php printf( __( 'You can invite a maximum of %s people at a time.', 'bp-invite-anyone' ), $max_no_invites ) ?></p>
 				<?php endif ?>
 				<?php invite_anyone_email_fields( $returned_data['error_emails'] ) ?>
@@ -884,7 +884,7 @@ function invite_anyone_invitation_subject( $returned_message = false ) {
 	return stripslashes( $text );
 }
 
-function invite_anyone_invitation_message( $returned_message = false ) {
+function invite_anyone_invitation_message( $returned_message = false, $pure = false ) {
 	global $bp;
 
 	if ( !$returned_message ) {
@@ -907,6 +907,9 @@ Visit %%INVITERNAME%%\'s profile at %%INVITERURL%%.', 'bp-invite-anyone' ), $blo
 	} else {
 		$text = $returned_message;
 	}
+
+	if ($pure)
+		return apply_filters( 'invite_anyone_get_invitation_message', stripslashes( $text ) );
 
 	/*
 	 * elastos.org

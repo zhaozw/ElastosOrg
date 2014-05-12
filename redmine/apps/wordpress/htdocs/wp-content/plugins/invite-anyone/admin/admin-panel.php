@@ -267,7 +267,7 @@ function invite_anyone_settings_default_invitation_subject() {
 }
 
 function invite_anyone_settings_default_invitation_message() {
-	echo apply_filters( 'invite_anyone_settings_default_invitation_message', "<textarea name='invite_anyone[default_invitation_message]' cols=60 rows=5 >" . esc_html( invite_anyone_invitation_message() ) . "</textarea>" );
+	echo apply_filters( 'invite_anyone_settings_default_invitation_message', "<textarea name='invite_anyone[default_invitation_message]' cols=60 rows=5 >" . esc_html( invite_anyone_invitation_message(false, true) ) . "</textarea>" );
 }
 
 function invite_anyone_settings_addl_invitation_message() {
