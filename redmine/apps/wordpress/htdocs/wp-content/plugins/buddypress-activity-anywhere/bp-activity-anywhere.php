@@ -159,6 +159,8 @@ function bpaa_init() {
 			</form>
 		</div>
 		<script>
+			jQuery("#bpaa-textarea").mentions({ resultsbox:"#bpaa-textarea", mentions_autosuggest: "m-a-any", resultsbox_position : 'after' });
+
 			function clear_bpaa_reply() {
 				jQuery('#bpaa_reply').css({'height':'0px','visibility':'hidden'});
 				jQuery("#bpaa_reply").html("");
