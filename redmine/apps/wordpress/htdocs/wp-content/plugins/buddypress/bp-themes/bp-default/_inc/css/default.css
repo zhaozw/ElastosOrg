@@ -1564,11 +1564,12 @@ div.activity-comments form div.ac-reply-content {
 --------------------------------------------------------------*/
 div.dir-search {
 	float: right;
-	margin: -39px 0 0 0;
+	margin: -12px 0 0 0;
 }
 div.dir-search input[type=text] {
 	font-size: 12px;
 	padding: 1px 3px;
+	width: 360px;
 }
 
 
@@ -2512,6 +2513,9 @@ div.elmpg-container a:active {
     font-weight:bold;
 }
 .not_friends {
+    float:right;
+}
+.is_friend {
     float:right;
 }
 .follow-button {
