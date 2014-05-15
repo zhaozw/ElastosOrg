@@ -55,7 +55,7 @@ if ($id > 1) {
 ?>
 
 			<div class="item">
-				<div class="item-title"><a href="<?php echo $str; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_group_name(); ?></a></div>
+				<div class="item-title"><a href="<?php echo $str; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_group_name(); ?><img src="/elorg_common/img/blog.jpg" style="width:16px"></a></div>
 				<div class="item-meta"><span class="activity"><?php printf( __( 'active %s', 'buddypress' ), bp_get_group_last_active() ); ?></span></div>
 
 				<div class="item-desc"><?php bp_group_description_excerpt(); ?></div>

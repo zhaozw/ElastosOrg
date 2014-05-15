@@ -32,7 +32,7 @@
 ?>
 
 	<h2>
-		<a href="<?php echo $url; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_displayed_user_fullname(); ?></a>
+		<a href="<?php echo $url; ?>" title="BLOG: <?php echo $blog_name; ?>"><?php bp_displayed_user_fullname(); ?><img src="/elorg_common/img/blog.jpg" style="width:16px"></a>
 	</h2>
 
 	<span class="user-nicename">@<?php bp_displayed_user_username(); ?></span>

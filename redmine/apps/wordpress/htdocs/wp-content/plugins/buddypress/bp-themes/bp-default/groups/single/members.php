@@ -8,7 +8,7 @@
 			<?php do_action( 'bp_members_directory_member_sub_types' ); ?>
 
 			<?php
-				$search_value = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users'; 
+				$search_value = !empty( $_REQUEST['s'] ) ? stripslashes( $_REQUEST['s'] ) : 'Filter users';
 			?>
 			<form action="" method="get" id="search-members-form">
 			<input type="submit" id="members_search_submit" name="members_search_submit" value="<?php _e( 'Filter', 'buddypress' ) ?>" />
@@ -46,14 +46,14 @@
 
 				</a>
 
-				<h5><a href="<?php 
+				<h5><a href="<?php
 					$usr = new WP_User(bp_get_group_member_id());
 					//$url = get_blogaddress_by_id($usr->primary_blog);
 					switch_to_blog($usr->primary_blog);
 					$url = get_bloginfo( 'wpurl' );
 					$blog_name = get_bloginfo('name');
 					restore_current_blog();
-					echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?></a></h5>
+					echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?><img src="/elorg_common/img/blog.jpg" style="width:16px"></a></h5>
 				<span class="activity"><?php bp_group_member_joined_since(); ?></span>
 
 				<?php do_action( 'bp_group_members_list_item' ); ?>

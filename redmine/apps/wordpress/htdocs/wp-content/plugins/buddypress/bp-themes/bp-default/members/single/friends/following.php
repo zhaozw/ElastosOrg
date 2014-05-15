@@ -44,7 +44,7 @@
 
 			<div class="item">
 				<div class="item-title">
-					<a href="<?php 
+					<a href="<?php
 						$usr = new WP_User(bp_get_member_user_id());
 						//$url = get_blogaddress_by_id($usr->primary_blog);
 						switch_to_blog($usr->primary_blog);
@@ -52,7 +52,7 @@
 						$blog_name = get_bloginfo('name');
 						restore_current_blog();
 
-						echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?></a>
+						echo $url . '" title="BLOG: ' . $blog_name; ?>"><?php bp_member_name(); ?><img src="/elorg_common/img/blog.jpg" style="width:16px"></a>
 				</div>
 
 				<div class="item-meta"><span class="activity"><?php bp_member_last_active(); ?></span></div>
