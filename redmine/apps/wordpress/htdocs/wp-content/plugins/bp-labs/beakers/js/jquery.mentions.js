@@ -110,7 +110,12 @@
 					return;
 				}
 
-				query = at_regex.exec(input_obj.val());
+				//query = at_regex.exec(input_obj.val());
+				var value =input_obj.val();
+				value=input_obj.val().substring(0,$(input_obj).getCursorPosition());
+				value=value.substring(value.lastIndexOf("@"),value.length);
+				value=value.replace(/\s/,"");
+				query=value;
 				if (!query) {
 					previous_query = query = '';
 					return;
@@ -284,6 +289,20 @@
 		'complete'            : null,    // When we're finished (after success).
 		'error'               : null     // On any type of error.
 	};
+	$.fn.getCursorPosition = function() {
+        var el = $(this).get(0);
+        var pos = 0;
+        if ('selectionStart' in el) {
+            pos = el.selectionStart;
+        } else if ('selection' in document) {
+            el.focus();
+            var Sel = document.selection.createRange();
+            var SelLength = document.selection.createRange().text.length;
+            Sel.moveStart('character', -el.value.length);
+            pos = Sel.text.length - SelLength;
+        }
+        return pos;
+    }
 })(jQuery);
 
 function forward_it(user_link, user_login, activity_url, activity_content, activity_id) {
