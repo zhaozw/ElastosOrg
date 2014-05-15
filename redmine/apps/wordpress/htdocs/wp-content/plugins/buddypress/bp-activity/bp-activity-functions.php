@@ -532,16 +532,16 @@ function bp_activity_get_meta( $activity_id = 0, $meta_key = '' ) {
 	// No key so get all for activity_id
 	} else {
 		$metas = $wpdb->get_results( $wpdb->prepare( "SELECT meta_key, meta_value FROM {$bp->activity->table_name_meta} WHERE activity_id = %d", $activity_id ) );
-				
+
 		if ( !empty( $metas ) ) {
 			$metas = array_map( 'maybe_unserialize', (array) $metas );
-			
+
 			foreach( $metas as $mkey => $mvalue ) {
 				wp_cache_set( 'bp_activity_meta_' . $activity_id . '_' . $mkey, $mvalue, 'bp' );
 			}
 		}
 	}
-	
+
 	// No result so return false
 	if ( empty( $metas ) )
 		return false;
@@ -730,7 +730,7 @@ function bp_activity_ham_all_user_data( $user_id = 0 ) {
 		foreach ( $activity as $k => $v )
 			$activity_obj->$k = $v;
 
-		// Mark as not spam	
+		// Mark as not spam
 		bp_activity_mark_as_ham( $activity_obj );
 
 		/*
@@ -1027,7 +1027,7 @@ function bp_activity_post_update( $args = '' ) {
 		'type'         => 'activity_update'
 	) );
 
-	$activity_content = apply_filters( 'bp_activity_latest_update_content', $content ); 
+	$activity_content = apply_filters( 'bp_activity_latest_update_content', $content );
 
 	// Add this update to the "latest update" usermeta so it can be fetched anywhere.
 	bp_update_user_meta( bp_loggedin_user_id(), 'bp_latest_update', array( 'id' => $activity_id, 'content' => $content ) );
@@ -1388,7 +1388,8 @@ function bp_activity_get_permalink( $activity_id, $activity_obj = false ) {
 	}
 
 	if ( 'new_blog_post' == $activity_obj->type || 'new_blog_comment' == $activity_obj->type || 'new_forum_topic' == $activity_obj->type || 'new_forum_post' == $activity_obj->type ) {
-		$link = $activity_obj->primary_link;
+		//$link = $activity_obj->primary_link;
+		$link = bp_get_root_domain() . '/' . bp_get_activity_root_slug() . '/p/' . $activity_obj->id . '/';
 	} else {
 		if ( 'activity_comment' == $activity_obj->type ) {
 			$link = bp_get_root_domain() . '/' . bp_get_activity_root_slug() . '/p/' . $activity_obj->item_id . '/';
@@ -1397,7 +1398,8 @@ function bp_activity_get_permalink( $activity_id, $activity_obj = false ) {
 		}
 	}
 
-	return apply_filters_ref_array( 'bp_activity_get_permalink', array( $link, &$activity_obj ) );
+	return $link;
+	//return apply_filters_ref_array( 'bp_activity_get_permalink', array( $link, &$activity_obj ) );
 }
 
 /**
@@ -1432,7 +1434,7 @@ function bp_activity_thumbnail_content_images( $content, $link = false ) {
 
 	preg_match_all( '/<img[^>]*>/Ui', $content, $matches );
 	$content = preg_replace('|(\[caption(.*?)\])?<img[^>]*>(\[/caption\])?|', '', $content );
-	
+
 	if ( !empty( $matches ) && !empty( $matches[0] ) ) {
 		// Get the SRC value
 		preg_match( '/<img.*?(src\=[\'|"]{0,1}.*?[\'|"]{0,1})[\s|>]{1}/i', $matches[0][0], $src );
@@ -1549,7 +1551,7 @@ function bp_activity_mark_as_ham( &$activity, $source = 'by_a_person' ) {
 	}
 
 	do_action( 'bp_activity_mark_as_ham', $activity, $source );
-} 
+}
 
 
 /** Embeds *******************************************************************/
