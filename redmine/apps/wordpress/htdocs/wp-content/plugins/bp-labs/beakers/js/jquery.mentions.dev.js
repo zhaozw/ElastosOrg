@@ -115,6 +115,7 @@
 				value=input_obj.val().substring(0,$(input_obj).getCursorPosition());
 				value=value.substring(value.lastIndexOf("@"),value.length);
 				value=value.replace(/\s/,"");
+				$(input_obj).data("cursorPosition",$(input_obj).getCursorPosition());
 				query=value;
 				if (!query) {
 					previous_query = query = '';
@@ -225,7 +226,15 @@
 
 			// Put selected name into input_obj
 			function insert_name(name) {
-				input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
+				var cursorPosition = $(input_obj).data("cursorPosition");
+				var substring = input_obj.val().substring(0,cursorPosition);
+				substring = substring.replace(substring.substring(substring.lastIndexOf('@'),substring.length),'@'+name+' ');
+				if(cursorPosition!=input_obj.val().length) {
+				  input_obj.val(substring+input_obj.val().substring(cursorPosition,input_obj.val().length));
+			    }
+			    else {
+				  input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
+			    }
 				close_panel();
 			}
 
