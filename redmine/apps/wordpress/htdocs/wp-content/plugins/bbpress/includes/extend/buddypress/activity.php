@@ -169,8 +169,11 @@ class BBP_BuddyPress_Activity {
 		// Obey BuddyPress commenting rules
 		add_filter( 'bp_activity_can_comment',   array( $this, 'activity_can_comment'   )        );
 
+		/*
+		 * I don't like this design, so comment it out
+		 */
 		// Link directly to the topic or reply
-		add_filter( 'bp_activity_get_permalink', array( $this, 'activity_get_permalink' ), 10, 2 );
+		//add_filter( 'bp_activity_get_permalink', array( $this, 'activity_get_permalink' ), 10, 2 );
 
 		/** Mentions **********************************************************/
 
@@ -500,7 +503,7 @@ class BBP_BuddyPress_Activity {
 		if ( $activity_id = $this->get_activity_id( $topic_id ) )
 			return bp_activity_delete( array( 'id' => $activity_id ) );
 
-		return false;		
+		return false;
 	}
 
 	/**
@@ -651,7 +654,7 @@ class BBP_BuddyPress_Activity {
 		if ( $activity_id = $this->get_activity_id( $reply_id ) )
 			return bp_activity_delete( array( 'id' => $activity_id ) );
 
-		return false;		
+		return false;
 	}
 
 	/**
