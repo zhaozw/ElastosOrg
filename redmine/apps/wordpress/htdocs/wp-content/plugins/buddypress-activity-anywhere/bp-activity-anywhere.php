@@ -33,8 +33,9 @@ function bpaa_init() {
 	function bpaa_admin_bar_button($admin_bar){
 		global $wp_admin_bar;
 		$admin_bar->add_menu( array(
-				'id'    => 'post-update',
-				'title' => 'MicroBLOG',
+				'id'    => 'comments',
+				'parent'=> 'root-default',
+				'title' => '<span class="ab-icon"></span>MicroBLOG',
 				'href'  => '#',
 				'meta'  => array(
 				'title' => __('What\'s new'),
@@ -168,8 +169,8 @@ function bpaa_init() {
 
 			jQuery(document).ready(function($) {
 				$('#bpaa-form-wrapper').stop().fadeOut('fast');
-				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-post-update');
-				$('li#wp-admin-bar-post-update a').addClass('bpaa-trigger');
+				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-comments');
+				$('li#wp-admin-bar-comments a').addClass('bpaa-trigger');
 
 				//remove warning when in input fields
 				$('.bpaa-input').focus(function() {
