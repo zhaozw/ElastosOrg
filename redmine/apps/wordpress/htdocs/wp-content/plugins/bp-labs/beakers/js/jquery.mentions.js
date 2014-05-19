@@ -95,7 +95,7 @@
 					results.empty();
 
 					// Move caret to end
-					input_obj[0].setSelectionRange(input_obj.val().length, input_obj.val().length);
+					//input_obj[0].setSelectionRange(input_obj.val().length, input_obj.val().length);
 					input_obj.focus();
 				});
 
@@ -228,13 +228,15 @@
 			function insert_name(name) {
 				var cursorPosition = $(input_obj).data("cursorPosition");
 				var substring = input_obj.val().substring(0,cursorPosition);
-				substring = substring.replace(substring.substring(substring.lastIndexOf('@'),substring.length),'@'+name+' ');
+				var searchStr=substring.substring(substring.lastIndexOf('@'),substring.length);
+				substring = substring.replace(searchStr,'@'+name+' ');
 				if(cursorPosition!=input_obj.val().length) {
 				  input_obj.val(substring+input_obj.val().substring(cursorPosition,input_obj.val().length));
 			    }
 			    else {
 				  input_obj.val(input_obj.val().substring(0, input_obj.val().lastIndexOf('@')) + '@' + name + ' ');
 			    }
+			    $(input_obj).setSelection(cursorPosition-searchStr.length+ name.length+2,cursorPosition-searchStr.length+ name.length+2);
 				close_panel();
 			}
 
@@ -312,6 +314,23 @@
         }
         return pos;
     }
+    $.fn.setSelection = function(selectionStart, selectionEnd) {
+	    if(this.lengh == 0) return this;
+	    input = this[0];
+
+	    if (input.createTextRange) {
+	        var range = input.createTextRange();
+	        range.collapse(true);
+	        range.moveEnd('character', selectionEnd);
+	        range.moveStart('character', selectionStart);
+	        range.select();
+	    } else if (input.setSelectionRange) {
+	        input.focus();
+	        input.setSelectionRange(selectionStart, selectionEnd);
+	    }
+
+	    return this;
+	}
 })(jQuery);
 
 function forward_it(user_link, user_login, activity_url, activity_content, activity_id) {
