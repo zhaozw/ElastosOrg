@@ -226,7 +226,7 @@ class Ure_Lib extends Garvs_WP_Lib {
     <div id="poststuff">
         <div class="ure-sidebar" >
             <?php
-            $this->advertisement();
+            //$this->advertisement();
 ?>
         </div>
 
