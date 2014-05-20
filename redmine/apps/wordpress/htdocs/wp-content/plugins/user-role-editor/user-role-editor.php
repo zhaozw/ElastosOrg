@@ -23,7 +23,7 @@ if (defined('URE_PLUGIN_URL')) {
    wp_die('It seems that other version of User Role Editor is active. Please deactivate it before use this version');
 }
 
-define('URE_VERSION', '4.14');
+define('URE_VERSION', '99.4.14');
 define('URE_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('URE_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('URE_PLUGIN_FILE', basename(__FILE__));
@@ -34,17 +34,19 @@ if (!class_exists('Garvs_WP_Lib')) {
 }
 require_once(URE_PLUGIN_DIR.'includes/class-ure-lib.php');
 
+/*
 // check PHP version
 $ure_required_php_version = '5.2.4';
-$exit_msg = sprintf( 'User Role Editor requires PHP %s or newer.', $ure_required_php_version ) . 
+$exit_msg = sprintf( 'User Role Editor requires PHP %s or newer.', $ure_required_php_version ) .
                          '<a href="http://wordpress.org/about/requirements/"> ' . 'Please update!' . '</a>';
 Ure_Lib::check_version( PHP_VERSION, $ure_required_php_version, $exit_msg, __FILE__ );
 
 // check WP version
 $ure_required_wp_version = '3.5';
-$exit_msg = sprintf( 'User Role Editor requires WordPress %s or newer.', $ure_required_wp_version ) . 
+$exit_msg = sprintf( 'User Role Editor requires WordPress %s or newer.', $ure_required_wp_version ) .
                         '<a href="http://codex.wordpress.org/Upgrading_WordPress"> ' . 'Please update!' . '</a>';
 Ure_Lib::check_version(get_bloginfo('version'), $ure_required_wp_version, $exit_msg, __FILE__ );
+*/
 
 require_once(URE_PLUGIN_DIR .'includes/define-constants.php');
 require_once(URE_PLUGIN_DIR .'includes/misc-support-stuff.php');

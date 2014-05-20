@@ -16,6 +16,10 @@ if ( !defined('ABSPATH') )
 <div class="clear"></div></div><!-- wpcontent -->
 
 <div id="footer">
+</div>
+<?php
+/*
+<div id="footer">
 <?php do_action( 'in_admin_footer' ); ?>
 <p id="footer-left" class="alignleft"><?php
 $upgrade = apply_filters( 'update_footer', '' );
@@ -39,7 +43,7 @@ if ( function_exists('get_site_option') ) {
 		compression_test();
 }
 
-?>
+*/ ?>
 
 <div class="clear"></div></div><!-- wpwrap -->
 <script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
