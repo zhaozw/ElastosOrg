@@ -4,7 +4,7 @@
  * Author: Vladimir Garagulya
  * Author email: vladimir@shinephp.com
  * Author URI: http://shinephp.com
- * 
+ *
 */
 
 
@@ -13,15 +13,15 @@
  */
 class Garvs_WP_Lib {
 
-  private static $instance = null; // object exemplar reference  
+  private static $instance = null; // object exemplar reference
   protected $options_id = ''; // identifire to save/retrieve plugin options to/from wp_option DB table
   protected $options = array(); // plugin options data
   public $multisite = false;
   public $blog_ids = null;
-  protected $main_blog_id = 0; 
+  protected $main_blog_id = 0;
   public $log_to_file = false;  // set to true in order to record data about critical actions to log file
   private $log_file_name = '';  // file name to write log messages
-  
+
     /**
      * class constructor
      * @param string $option_name   identifire to save/retrieve plugin options to/from wp_option DB table
@@ -34,14 +34,14 @@ class Garvs_WP_Lib {
             // get Id of 1st (main) blog
             $this->main_blog_id = $this->blog_ids[0][0];
         }
-        
+
         $this->init_options($options_id);
 
         add_action('admin_notices', array(&$this, 'show_message'));
     }
     // end of __construct()
 
-    
+
     /**
      * Returns the array of multisite WP blogs IDs
      * @global wpdb $wpdb
@@ -49,14 +49,20 @@ class Garvs_WP_Lib {
      */
     protected function get_blog_ids() {
         global $wpdb;
-        
-        $blog_ids = $wpdb->get_col("select blog_id from $wpdb->blogs order by blog_id asc");
-        
+
+        /*
+         * disable direct_network_roles_update() wp_api_network_roles_update
+         * through limit 1 in SQL
+         *
+         * $blog_ids = $wpdb->get_col("select blog_id from $wpdb->blogs order by blog_id asc");
+         */
+        $blog_ids = $wpdb->get_col("select blog_id from $wpdb->blogs limit 1");
+
         return $blog_ids;
     }
     // end of get_blog_ids()
-    
-    
+
+
   /**
    * get current options for this plugin
    */
@@ -68,12 +74,12 @@ class Garvs_WP_Lib {
 
   /**
    * Return HTML formatted message
-   * 
+   *
    * @param string $message   message text
    * @param string $error_style message div CSS style
    */
   public function show_message($message, $error_style=false) {
-  
+
     if ($message) {
       if ($error_style) {
         echo '<div id="message" class="error" >';
@@ -85,11 +91,11 @@ class Garvs_WP_Lib {
 
   }
   // end of show_message()
-  
+
 
   /**
    * Returns value by name from GET/POST/REQUEST. Minimal type checking is provided
-   * 
+   *
    * @param string $var_name  Variable name to return
    * @param string $request_type  type of request to process get/post/request (default)
    * @param string $var_type  variable type to provide value checking
@@ -124,23 +130,23 @@ class Garvs_WP_Lib {
         $result = esc_attr($result);
       }
     }
-    
+
     return $result;
   }
   // end of get_request_var()
- 
+
 
   /**
    * returns option value for option with name in $option_name
    */
   public function get_option($option_name, $default = false) {
-    
+
     if ( isset( $this->options[ $option_name ] ) ) {
       return $this->options[$option_name];
     } else {
       return $default;
     }
-    
+
   }
   // end of get_option()
 
@@ -149,27 +155,27 @@ class Garvs_WP_Lib {
    * puts option value according to $option_name option name into options array property
    */
   public function put_option($option_name, $option_value, $flush_options=false) {
-    
+
     $this->options[$option_name] = $option_value;
     if ($flush_options) {
       $this->flush_options();
     }
-    
+
   }
   // end of put_option()
 
-  
+
   /**
    * saves options array into WordPress database wp_options table
-   */ 
+   */
   public function flush_options() {
-    
+
     update_option($this->options_id, $this->options);
-    
+
   }
   // end of flush_options()
 
-  
+
   /**
    * Check product versrion and stop execution if product version is not compatible
    * @param type $must_have_version
@@ -190,11 +196,11 @@ class Garvs_WP_Lib {
     }
   }
   // end of check_version()
-    
-  
+
+
   /**
    * returns 'selected' HTML cluster if $value matches to $etalon
-   * 
+   *
    * @param string $value
    * @param string $etalon
    * @return string
@@ -208,17 +214,17 @@ class Garvs_WP_Lib {
     return $selected;
   }
   // end of option_selected()
-  
-  
+
+
   public function get_current_url() {
       global $wp;
       $current_url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-      
+
       return $current_url;
   }
   // end of get_current_url()
-  
-  
+
+
 //
 }
 // end of Garvs_WP_Lib class
