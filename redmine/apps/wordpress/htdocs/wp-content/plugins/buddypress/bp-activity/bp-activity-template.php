@@ -1725,7 +1725,7 @@ function bp_activity_comment_content() {
 
 		$content = apply_filters( 'bp_get_activity_content', $activities_template->activity->current_comment->content );
 
-		return apply_filters( 'bp_activity_comment_content', $content );
+		return apply_filters( 'bp_activity_comment_content', wm_make_clickable($content) );
 	}
 
 /**
