@@ -44,8 +44,9 @@
 }
 
 #wpadminbar .quicklinks li#wp-admin-bar-bp-notifications #ab-pending-notifications.alert {
-	background-color: #1fb3dd;
-	color: #fff;
+	font-size: medium;
+	color: blue;
+	background: url(/elorg_common/img/wg.gif);
 }
 
 #wpadminbar .quicklinks li#wp-admin-bar-bp-notifications > a {
