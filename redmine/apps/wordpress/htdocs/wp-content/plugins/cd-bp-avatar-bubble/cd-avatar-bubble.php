@@ -261,7 +261,14 @@ function cd_ab_get_the_group_data($ID, $cd_ab){
             }
         }
 
-    echo '<div style="clear:both"></div></div>';
+		$blog_id = get_groupblog_blog_id($ID);
+		switch_to_blog($blog_id);
+		$str = get_bloginfo( 'wpurl' );
+		$blog_name = get_bloginfo( 'name' );
+		restore_current_blog();
+		echo '<p class="popupLine"><img src="/elorg_common/img/blog.jpg" style="width:16px">&nbsp;<a href="' . $str . '" title="Go to BLOG: ' . $blog_name . '">' . $blog_name . '</a></p>';
+
+	    echo '<div style="clear:both"></div></div>';
 }
 
 // For users
