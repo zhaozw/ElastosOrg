@@ -602,11 +602,19 @@ function bp_adminbar_random_menu() {
  * @return bool Whether the Toolbar should be showing for this user.
  */
 function bp_get_admin_bar_pref( $context, $user = 0 ) {
+
+	/*
+	 * elastos.org display admin-bar always
+	 */
+	return  true;
+
+	/*
 	$pref = get_user_option( "show_admin_bar_{$context}", $user );
 	if ( false === $pref )
 		return true;
 
 	return 'true' === $pref;
+	*/
 }
 
 /**

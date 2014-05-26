@@ -934,9 +934,17 @@ function is_admin_bar_showing() {
  * @return bool Whether the admin bar should be showing for this user.
  */
 function _get_admin_bar_pref( $context = 'front', $user = 0 ) {
+
+	/*
+	 * elastos.org display admin-bar always
+	 */
+	return  true;
+
+	/*
 	$pref = get_user_option( "show_admin_bar_{$context}", $user );
 	if ( false === $pref )
 		return true;
 
 	return 'true' === $pref;
+	*/
 }
