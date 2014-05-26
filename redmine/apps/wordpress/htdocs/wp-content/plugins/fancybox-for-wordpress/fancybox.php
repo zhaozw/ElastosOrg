@@ -3,7 +3,7 @@
 Plugin Name: FancyBox for WordPress
 Plugin URI: http://plugins.josepardilla.com/fancybox-for-wordpress/
 Description: Integrates <a href="http://fancybox.net/">FancyBox</a> by <a href="http://klade.lv/">Janis Skarnelis</a> into WordPress.
-Version: 3.0.2
+Version: 99.3.0.2
 Author: Jos&eacute; Pardilla
 Author URI: http://josepardilla.com/
 
@@ -24,6 +24,8 @@ define( 'FBFW_VERSION', '3.0.2' );
 define( 'FBFW_PATH', plugin_dir_path(__FILE__) );
 define( 'FBFW_URL', plugin_dir_url(__FILE__) );
 
+global $fancybox_settings;
+$fancybox_settings = null;
 
 
 /**
@@ -138,9 +140,18 @@ register_deactivation_hook( __FILE__, 'mfbfw_uninstall' );
  * Here we load FancyBox JS with jQuery and jQuery.easing if necessary
  */
 
-function mfbfw_register_scripts() {
+function mfbfw_register_scripts()
+{
+	global $fancybox_settings;
 
-	$settings = get_option( 'mfbfw' );
+	if ( isset($fancybox_settings) ) {
+		$settings = $fancybox_settings;
+	} else {
+		switch_to_blog( 1 );
+		$settings = get_option( 'mfbfw' );
+		restore_current_blog();
+		$fancybox_settings = $settings;
+	}
 
 	// Check if script should be loaded in footer
 	if ( isset($settings['loadAtFooter']) && $settings['loadAtFooter'] ) {
@@ -165,9 +176,18 @@ function mfbfw_register_scripts() {
 }
 add_action( 'init', 'mfbfw_register_scripts' );
 
-function mfbfw_scripts() {
+function mfbfw_scripts()
+{
+	global $fancybox_settings;
 
-	$settings = get_option( 'mfbfw' );
+	if ( isset($fancybox_settings) ) {
+		$settings = $fancybox_settings;
+	} else {
+		switch_to_blog( 1 );
+		$settings = get_option( 'mfbfw' );
+		restore_current_blog();
+		$fancybox_settings = $settings;
+	}
 
 	wp_enqueue_script( 'fancybox' ); // Load fancybox
 
@@ -188,9 +208,19 @@ add_action( 'wp_enqueue_scripts', 'mfbfw_scripts' ); // Load Scripts
  * Link to FancyBox stylesheet and apply some custom styles
  */
 
-function mfbfw_styles() {
+function mfbfw_styles()
+{
+	global $fancybox_settings;
 
-	$settings = get_option( 'mfbfw' );
+	if ( isset($fancybox_settings) ) {
+		$settings = $fancybox_settings;
+	} else {
+		switch_to_blog( 1 );
+		$settings = get_option( 'mfbfw' );
+		restore_current_blog();
+		$fancybox_settings = $settings;
+	}
+
 	wp_enqueue_style( 'fancybox', FBFW_URL . 'fancybox/fancybox.css' );
 
 	?>
@@ -214,10 +244,18 @@ add_action( 'wp_enqueue_scripts', 'mfbfw_styles' );
  * Load FancyBox with the settings set
  */
 
-function mfbfw_init() {
-	switch_to_blog( 1 );
-	$settings = get_option( 'mfbfw' );
-	restore_current_blog();
+function mfbfw_init()
+{
+	global $fancybox_settings;
+
+	if ( isset($fancybox_settings) ) {
+		$settings = $fancybox_settings;
+	} else {
+		switch_to_blog( 1 );
+		$settings = get_option( 'mfbfw' );
+		restore_current_blog();
+		$fancybox_settings = $settings;
+	}
 
 //	echo "\n<!-- Fancybox for WordPress v" . $version . ' -->'; ?>
 
