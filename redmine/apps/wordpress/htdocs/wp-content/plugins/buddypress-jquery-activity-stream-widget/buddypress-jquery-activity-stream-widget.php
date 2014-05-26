@@ -8,60 +8,50 @@ Author URI: http://clubkoncepto.com
 Version: 99.0.0.1
 */
 
-// $show_blog_list_widget = true;  // Uncomment this if you want this widget available for all users
-
 function BPjQueryActivityStream_init() {
 
-        if (!function_exists('register_sidebar_widget') )
-            return;
+	function BPjQueryActivityStream($args) {
 
-			function BPjQueryActivityStream($args) {
+		$options = get_option("BPjQueryActivityStream");
 
-				$options = get_option("BPjQueryActivityStream");
+		if (is_array($args))
+			extract($args);
 
-				if (is_array($args))
-					extract($args);
+		//Override controller
+		$activityURI = 'activity/activity-loop.php';
+		echo $before_widget;
+		echo $before_title;
+		echo '<a href="/activity/">' . '<i class="fa fa-weibo" style="color:#14A0CD;margin-left:-8px"></i> ' . $options['BPjQueryActivityStream_title'] . '</a>';
+		echo $after_title;
+		include $activityURI;	echo '<div style="clear:both"></div>';
+		echo $after_widget;
+	}
+	wp_register_sidebar_widget(sanitize_title('BP jQuery Activity Streams' ), 'BP jQuery Activity Streams', 'BPjQueryActivityStream', array(), 1);
 
-				//Override controller
-				$activityURI = 'activity/activity-loop.php';
-				echo $before_widget;
-				echo $before_title;
-				echo '<a href="/activity/">' . '<i class="fa fa-weibo" style="color:#14A0CD;margin-left:-8px"></i> ' . $options['BPjQueryActivityStream_title'] . '</a>';
-				echo $after_title;
-				include $activityURI;	echo '<div style="clear:both"></div>';
-				echo $after_widget;
-			}
-
-		if (function_exists('wp_register_sidebar_widget') ) { // fix for wordpress 2.2.1
-			wp_register_sidebar_widget(sanitize_title('BP jQuery Activity Streams' ), 'BP jQuery Activity Streams', 'BPjQueryActivityStream', array(), 1);
-		} else {
-			register_sidebar_widget('BP jQuery Activity Streams', 'BPjQueryActivityStream', 1);
-		}
-		register_widget_control('BP jQuery Activity Streams', 'BPjQueryActivityStream_control', 100, 200 );
+	register_widget_control('BP jQuery Activity Streams', 'BPjQueryActivityStream_control', 100, 200 );
 }
 
 
 function display_headers(){
-		$static_url = "/wp-content/plugins/buddypress-jquery-activity-stream-widget/css/jq_fade.css";
-		$options = get_option("BPjQueryActivityStream");
-
-		?>
-			<script type="text/javascript" src="<?php bloginfo('url') ?>/wp-content/plugins/buddypress-jquery-activity-stream-widget/js/jquery.innerfade.js"></script>
-			<style type="text/css" media="screen, projection">
-			@import url(<?php bloginfo('url')?><?php echo $static_url ?>);
-			</style>
-			<script type="text/javascript">
-				var noConfict = jQuery.noConflict();
-					noConfict(document).ready(
-						function(){
-							noConfict('#news').innerfade({
-							animationtype: '<?php echo $options["BPjQueryActivityStream_effect"]; ?>',
-							speed:   <?php echo $options["BPjQueryActivityStream_delay"]; ?>,
-							timeout: <?php echo $options["BPjQueryActivityStream_timeout"]; ?>,
-							containerheight: '<?php echo $options["BPjQueryActivityStream_height"].'px'; ?>'
-						});
+	$static_url = "/wp-content/plugins/buddypress-jquery-activity-stream-widget/css/jq_fade.css";
+	$options = get_option("BPjQueryActivityStream");
+	?>
+	<script type="text/javascript" src="<?php bloginfo('url') ?>/wp-content/plugins/buddypress-jquery-activity-stream-widget/js/jquery.innerfade.js"></script>
+	<style type="text/css" media="screen, projection">
+	@import url(<?php bloginfo('url')?><?php echo $static_url ?>);
+	</style>
+	<script type="text/javascript">
+		var noConfict = jQuery.noConflict();
+			noConfict(document).ready(
+				function(){
+					noConfict('#news').innerfade({
+					animationtype: '<?php echo $options["BPjQueryActivityStream_effect"]; ?>',
+					speed:   <?php echo $options["BPjQueryActivityStream_delay"]; ?>,
+					timeout: <?php echo $options["BPjQueryActivityStream_timeout"]; ?>,
+					containerheight: '<?php echo $options["BPjQueryActivityStream_height"].'px'; ?>'
 				});
-			</script>
+		});
+	</script>
 <?php
 }
 //User Options//
@@ -121,10 +111,9 @@ function BPjQueryActivityStream_control(){
 
 	<?php
 }
-//End User Options//
-add_action('wp_head','display_headers');
-        $show_blog_list_widget = true;
-if ($show_blog_list_widget)
-        add_action('plugins_loaded', 'BPjQueryActivityStream_init');
 
+if (get_current_blog_id() <= 1) {
+	add_action('wp_head','display_headers');
+	add_action('plugins_loaded', 'BPjQueryActivityStream_init');
+}
 ?>
