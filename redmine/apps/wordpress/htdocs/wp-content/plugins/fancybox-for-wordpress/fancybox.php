@@ -215,9 +215,9 @@ add_action( 'wp_enqueue_scripts', 'mfbfw_styles' );
  */
 
 function mfbfw_init() {
-
+	switch_to_blog( 1 );
 	$settings = get_option( 'mfbfw' );
-	$version = get_option( 'mfbfw_active_version' );
+	restore_current_blog();
 
 //	echo "\n<!-- Fancybox for WordPress v" . $version . ' -->'; ?>
 
@@ -381,7 +381,9 @@ function mfbfw_admin_menu() {
 	add_action( 'admin_print_scripts-' . $mfbfwadmin, 'mfbfw_admin_scripts' );
 
 }
-add_action('admin_menu', 'mfbfw_admin_menu');
+if (get_current_blog_id() <= 1) {
+	add_action('admin_menu', 'mfbfw_admin_menu');
+}
 
 
 
