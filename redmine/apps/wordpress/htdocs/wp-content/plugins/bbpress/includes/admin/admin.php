@@ -214,7 +214,7 @@ class BBP_Admin {
 		}
 
 		// Are settings enabled?
-		if ( current_user_can( 'bbp_settings_page' ) ) {
+		if ( is_super_admin() /*current_user_can( 'bbp_settings_page' )*/ ) {
 			add_options_page(
 				__( 'Forums',  'bbpress' ),
 				__( 'Forums',  'bbpress' ),
@@ -1364,7 +1364,7 @@ class BBP_Admin {
 				<div class="feature-section three-col">
 					<div>
 						<h4><?php _e( 'Template Logic', 'bbpress' ); ?></h4>
-						<p><?php _e( 'New functions and template stacks are in place to help plugin developers extend bbPress further.', 'bbpress' ); ?></p> 
+						<p><?php _e( 'New functions and template stacks are in place to help plugin developers extend bbPress further.', 'bbpress' ); ?></p>
 
 						<h4><?php _e( 'Plugin Directory Structure', 'bbpress' ); ?></h4>
 						<p><?php _e( 'We simplified the bbPress plugin directory structure, making it easier for plugin developers to find the relevant code.', 'bbpress' ); ?></p>
