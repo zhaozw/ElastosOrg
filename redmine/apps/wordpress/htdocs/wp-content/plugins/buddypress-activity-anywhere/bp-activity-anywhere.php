@@ -71,7 +71,7 @@ function bpaa_init() {
 				width: 96% !important;
 				color:#666;
 				font-size:14px;
-				line-height:normal;
+				line-height:1.5;
 				-moz-border-radius: 8px; -webkit-border-radius: 8px;
 				margin:5px 0px 10px 0px;
 				padding:10px;
@@ -89,7 +89,7 @@ function bpaa_init() {
 				color:#000;
 				outline:none;
 				border:#35a5e5 1px solid;
-				line-height:normal;
+				line-height:1.5;
 				box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);

@@ -1155,6 +1155,7 @@ form#whats-new-form textarea {
 	height: 20px;
 	padding: 6px;
 	width: 98%;
+	line-height: 1.5;
 }
 body.no-js form#whats-new-form textarea {
 	height: 50px;
@@ -1514,6 +1515,7 @@ div.activity-comments form .ac-textarea {
 	border-radius: 3px;
 	margin-bottom: 10px;
 	padding: 8px;
+	line-height: 1.5;
 }
 div.activity-comments form textarea {
 	border: none;
@@ -1523,6 +1525,7 @@ div.activity-comments form textarea {
 	height: 60px;
 	padding: 0;
 	width: 100%;
+	line-height: 1.5;
 }
 div.activity-comments form input {
 	margin-top: 5px;
