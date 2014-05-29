@@ -84,8 +84,10 @@
    $user_link = bp_get_activity_user_link();
    $user_login = $activities_template->activity->user_login;
    $activity_url = bp_get_activity_user_link() . '?ids=' . bp_get_activity_id();
-   $activity_content = addslashes(mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,50)) . __('&hellip;', 'buddypress');
+   $activity_content = mb_substr(str_replace(PHP_EOL,'',strip_tags(bp_get_activity_content_body())),0,50) . __('&hellip;', 'buddypress');
    $activity_content = str_replace('@', ' ', $activity_content);
+   $activity_content = str_replace("'", '`', $activity_content);
+   $activity_content = str_replace('"', '&quot;', $activity_content);
 
    $msg = $user_link . '\',\'' . $user_login . '\',\'' . $activity_url . '\',\'' . $activity_content . '\',\'' . bp_get_activity_id();
 ?>
