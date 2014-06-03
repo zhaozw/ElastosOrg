@@ -54,6 +54,8 @@ function groups_screen_group_invites() {
 		} else {
 			bp_core_add_message( __('Group invite accepted', 'buddypress') );
 
+			/*
+			 *
 			// Record this in activity streams
 			$group = groups_get_group( array( 'group_id' => $group_id ) );
 
@@ -62,6 +64,7 @@ function groups_screen_group_invites() {
 				'type'    => 'joined_group',
 				'item_id' => $group->id
 			) );
+			*/
 		}
 
 		bp_core_redirect( trailingslashit( bp_loggedin_user_domain() . bp_get_groups_slug() . '/' . bp_current_action() ) );
@@ -148,11 +151,11 @@ function groups_screen_group_forum() {
 					groups_join_group( $bp->groups->current_group->id, bp_loggedin_user_id() );
 
 				$topic_page = isset( $_GET['topic_page'] ) ? $_GET['topic_page'] : false;
-				
+
 				// Don't allow reply flooding
 				if ( bp_forums_reply_exists( $_POST['reply_text'], $topic_id, bp_loggedin_user_id() ) ) {
 					bp_core_add_message( __( 'It looks like you\'ve already said that!', 'buddypress' ), 'error' );
-				} else {	
+				} else {
 					if ( !$post_id = groups_new_group_forum_post( $_POST['reply_text'], $topic_id, $topic_page ) )
 						bp_core_add_message( __( 'There was an error when replying to that topic', 'buddypress'), 'error' );
 					else
@@ -160,7 +163,7 @@ function groups_screen_group_forum() {
 				}
 
 				$query_vars = isset( $_SERVER['QUERY_STRING'] ) ? '?' . $_SERVER['QUERY_STRING'] : '';
-				
+
 				$redirect = bp_get_group_permalink( groups_get_current_group() ) . 'forum/topic/' . $topic_slug . '/' . $query_vars;
 
 				if ( !empty( $post_id ) ) {
