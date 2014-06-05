@@ -36,7 +36,7 @@
 			</div><!-- #search-bar -->
 
 			<div id="navigation" role="navigation">
-					<h1 id="logo" role="banner"><a href="http://www.elastos.org" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
+					<h1 id="logo" role="banner"><a href="http://www.elastos.com" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
 
 				<?php /* wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); */ ?>
 			</div>

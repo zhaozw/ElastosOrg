@@ -78,10 +78,11 @@ add_action( 'in_admin_header', 'wp_admin_bar_render', 0 );
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
     $wp_admin_bar->add_menu( array(
         'id'    => 'elastos-com-logo',
-        'title' => '<span><img src="/elorg_common/img/ElastosCom_Logo.png" style="height:26px;width:26px;"/></span>',
-        'href'  => 'http://elastos.com/',
+//        'title' => '<span><img src="/elorg_common/img/programmer.jpg" style="height:26px;width:26px;"/></span>Developer',
+        'title' => 'Developer',
+        'href'  => '/elorg_common/develop/',
         'meta'  => array(
-            'title' => __('elastos.com'),
+            'title' => __('Elastos Developer'),
         ),
     ) );
 
@@ -143,11 +144,11 @@ $community = '<div style="background-color=red; margin-left:20px;">' . $members 
 $args = array(
     'parent' => 'wp-logo',
     'id'    => 'counter',
-    'title'  => 'ElastosOrg',
+    'title'  => 'Elastos Developer',
     'meta'  => array(
 //        'html' => '<div style="width:500px;height:320px;opacity:100;background-color:lightblue;">' . $prj . $code_view . $tst . $wiki . $download . $community),
         'html' => '<div style="opacity:100;background-color:lightblue;">' . $elastos_org_main_menu),
-    'href' => '#',
+    'href' => '/elorg_common/develop/',
 );
 $wp_admin_bar->add_node( $args );
 return;
