@@ -77,9 +77,9 @@ add_action( 'in_admin_header', 'wp_admin_bar_render', 0 );
  */
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
     $wp_admin_bar->add_menu( array(
-        'id'    => 'elastos-com-logo',
+        'id'    => 'developer',
 //        'title' => '<span><img src="/elorg_common/img/programmer.jpg" style="height:26px;width:26px;"/></span>Developer',
-        'title' => 'Developer',
+        'title' => '<span style="font-style:italic;font-weight:bolder;">Developer</span>',
         'href'  => '/elorg_common/develop/',
         'meta'  => array(
             'title' => __('Elastos Developer'),
