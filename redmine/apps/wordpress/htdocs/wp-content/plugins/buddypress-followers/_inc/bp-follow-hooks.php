@@ -131,6 +131,10 @@ add_filter( 'bp_group_has_members', 'bp_follow_inject_group_member_follow_status
  * @uses is_user_logged_in() Return true if you are logged in.
  */
 function bp_follow_add_profile_follow_button() {
+
+	if ( bp_displayed_user_id() == bp_loggedin_user_id() )
+		return false;
+
 	bp_follow_add_follow_button();
 }
 add_action( 'bp_member_header_actions', 'bp_follow_add_profile_follow_button' );
