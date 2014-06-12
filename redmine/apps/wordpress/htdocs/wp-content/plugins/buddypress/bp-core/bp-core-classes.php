@@ -270,13 +270,13 @@ class BP_Core_User {
 		} else {
 			if ( !empty( $include ) ) {
 				if ( is_array( $include ) ) {
-					$uids = $wpdb->escape( implode( ',', (array) $include ) );
+					$uids = implode( ',', (array) $include );
 				} else {
-					$uids = $wpdb->escape( $include );
+					$uids = $include;
 				}
 
 				if ( !empty( $uids ) ) {
-					$sql['where_users'] = "AND u.ID IN ({$uids})";
+					$sql['where_users'] = "AND (u.ID IN ({$uids}) OR u.user_login IN ({$uids}))";
 				}
 			} elseif ( !empty( $user_id ) && bp_is_active( 'friends' ) ) {
 				$friend_ids = friends_get_friend_user_ids( $user_id );

@@ -38,7 +38,19 @@
 			<div id="navigation" role="navigation">
 					<h1 id="logo" role="banner"><a href="http://www.elastos.com" title="<?php _ex( 'Home', 'Home page banner link title', 'buddypress' ); ?>"><img src="http://elastos.org/wp-admin/images/wordpress-logo.png"/></a></h1>
 
-				<?php /* wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); */ ?>
+				<?php
+				/* wp_nav_menu( array( 'container' => false, 'menu_id' => 'nav', 'theme_location' => 'primary', 'fallback_cb' => 'bp_dtheme_main_nav' ) ); */
+
+				require( ABSPATH . 'elorg_vips.php' );
+
+				bp_has_members( 'user_id=0&type=active&per_page=' . '10' . '&max=' . '10' . '&populate_extras=0' . '&include=' . $elorg_vips );  ?>
+				<div class="avatar-block" style="margin-top:12px;width:50%;float:right;">
+				<?php while ( bp_members() ) : bp_the_member(); ?>
+					<div class="item-avatar">
+						<a href="<?php bp_member_permalink() ?>"><?php bp_member_avatar() ?></a>
+					</div>
+				<?php endwhile; ?>
+				</div>
 			</div>
 
 			<?php do_action( 'bp_header' ); ?>

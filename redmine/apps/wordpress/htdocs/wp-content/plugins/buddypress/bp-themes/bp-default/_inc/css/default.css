@@ -319,6 +319,13 @@ div#sidebar div.item-avatar img {
 	width: 40px;
 	border-radius:5px;
 }
+div#navigation div.item-avatar img {
+	height: 40px;
+	margin: 1px;
+	width: 40px;
+	border-radius:5px;
+	float: right;        
+}
 #footer-widget-area .avatar-block,
 div#sidebar .avatar-block {
 	overflow: hidden;
