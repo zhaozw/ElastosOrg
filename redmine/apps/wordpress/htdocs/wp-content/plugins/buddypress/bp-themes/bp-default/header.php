@@ -44,7 +44,7 @@
 				require( ABSPATH . 'elorg_vips.php' );
 
 				bp_has_members( 'user_id=0&type=active&per_page=' . '10' . '&max=' . '10' . '&populate_extras=0' . '&include=' . $elorg_vips );  ?>
-				<div class="avatar-block" style="margin-top:11px;width:30%;float:right;border-bottom:3px solid #6fa833;">
+				<div class="avatar-block" style="margin-top:11px;width:70%;float:right;border-bottom:3px solid #6fa833;">
 				<?php while ( bp_members() ) : bp_the_member(); ?>
 					<div class="item-avatar">
 						<a href="<?php bp_member_permalink() ?>"><?php bp_member_avatar() ?></a>
