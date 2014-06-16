@@ -12,7 +12,7 @@
 
 			<div id="site-generator" role="contentinfo">
 				<?php do_action( 'bp_dtheme_credits' ) ?>
-				<p>Copyright&nbsp;&copy;&nbsp;2012-<?php echo date('Y'); ?>&nbsp;<a href="http://elastos.org">elastos.org</a>&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn">ICP 08101992</a></p>
+				<p>Copyright&nbsp;&copy;&nbsp;2012-<?php echo date('Y'); ?>&nbsp;<a href="http://elastos.org">elastos.org</a>&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn">沪ICP备08101992号-2</a></p>
 			</div>
 
 			<script>
