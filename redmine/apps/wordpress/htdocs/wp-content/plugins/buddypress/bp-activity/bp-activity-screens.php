@@ -225,7 +225,8 @@ function bp_activity_screen_single_activity_permalink() {
 			if ( 'public' != $group->status ) {
 
 				// User is not a member of group
-				if ( !groups_is_user_member( bp_loggedin_user_id(), $group->id ) ) {
+				$usr_id = bp_loggedin_user_id();
+				if ( (!groups_is_user_member($usr_id, $group->id)) && ($activity->user_id != $usr_id) ) {
 					$has_access = false;
 				}
 			}
