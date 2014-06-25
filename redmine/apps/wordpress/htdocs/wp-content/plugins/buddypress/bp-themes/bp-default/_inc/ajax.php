@@ -535,6 +535,8 @@ function bp_dtheme_get_single_activity_content() {
 	remove_filter( 'bp_get_activity_content_body', 'bp_activity_truncate_entry', 5 );
 	$content = apply_filters( 'bp_get_activity_content_body', $activity->content );
 
+	$content = wm_make_clickable($content);
+
 	exit( $content );
 }
 
