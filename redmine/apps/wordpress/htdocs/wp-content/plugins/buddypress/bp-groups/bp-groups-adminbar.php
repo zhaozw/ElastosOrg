@@ -68,6 +68,7 @@ function bp_groups_group_admin_menu() {
 	}
 
 	// Group Admin > Manage invitations
+	/*
 	if ( bp_is_active( 'friends' ) ) {
 		$wp_admin_bar->add_menu( array(
 			'parent' => $bp->group_admin_menu_id,
@@ -75,7 +76,7 @@ function bp_groups_group_admin_menu() {
 			'title'  => __( 'Manage Invitations', 'buddypress' ),
 			'href'   =>  bp_get_groups_action_link( 'send-invites' )
 		) );
-	}
+	} */
 
 	// Group Admin > Manage members
 	$wp_admin_bar->add_menu( array(
