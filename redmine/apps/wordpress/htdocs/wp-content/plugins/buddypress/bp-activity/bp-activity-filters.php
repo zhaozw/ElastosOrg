@@ -321,7 +321,7 @@ function bp_activity_truncate_entry( $text ) {
 	if ( bp_is_single_activity() )
 		return $text;
 
-	$append_text    = apply_filters( 'bp_activity_excerpt_append_text', __( '[Read more]', 'buddypress' ) );
+	$append_text    = apply_filters( 'bp_activity_excerpt_append_text', __( '<i class="fa fa-angle-double-right" style="color:#14A0CD;"></i> Read more', 'buddypress' ) );
 	$excerpt_length = apply_filters( 'bp_activity_excerpt_length', 358 );
 
 	// Run the text through the excerpt function. If it's too short, the original text will be
