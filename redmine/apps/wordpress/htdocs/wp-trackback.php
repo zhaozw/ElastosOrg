@@ -5,6 +5,18 @@
  * @package WordPress
  */
 
+
+/*
+ * elastos.org doesn't support trackback
+ */
+echo '<?xml version="1.0" encoding="utf-8"?'.">\n";
+echo "<response>\n";
+echo "<error>1</error>\n";
+echo "<message>elastos.org doesn't support trackback</message>\n";
+echo "</response>";
+die();
+
+
 if (empty($wp)) {
 	require_once('./wp-load.php');
 	wp( array( 'tb' => '1' ) );

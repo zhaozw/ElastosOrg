@@ -788,6 +788,11 @@ function comments_open( $post_id = null ) {
  */
 function pings_open( $post_id = null ) {
 
+	/*
+	 * elastos.org doesn't support trackback
+	 */
+	return false;
+
 	$_post = get_post($post_id);
 
 	$open = ( 'open' == $_post->ping_status );
