@@ -1961,6 +1961,7 @@ table {
 }
 table thead tr {
 	background: #eaeaea;
+	text-align: left;	
 }
 table#message-threads {
 	margin: 0 -19px;
@@ -2000,8 +2001,7 @@ table tr td.thread-info p.thread-excerpt {
 	font-size: 11px;
 	margin-top: 3px;
 }
-div#sidebar table td,
-table.forum td {
+div#sidebar table td {
 	text-align: center;
 }
 table tr.alt td {
