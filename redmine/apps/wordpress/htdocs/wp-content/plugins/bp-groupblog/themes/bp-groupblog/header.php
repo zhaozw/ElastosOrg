@@ -21,8 +21,6 @@
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> <?php _e( 'Blog Posts RSS Feed', 'buddypress' ) ?>" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> <?php _e( 'Blog Posts Atom Feed', 'buddypress' ) ?>" href="<?php bloginfo('atom_url'); ?>" />
 
-		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
 		<?php wp_head(); ?>
 
 	</head>

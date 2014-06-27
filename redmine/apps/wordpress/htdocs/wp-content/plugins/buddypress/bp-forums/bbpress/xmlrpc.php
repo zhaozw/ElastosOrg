@@ -156,6 +156,9 @@ class BB_XMLRPC_Server extends IXR_Server
 			);
 		//}
 
+		/* elastos.org
+		 * don't support PingBack
+		 * 
 		// Pingback
 		if ( bb_get_option( 'enable_pingback' ) ) {
 			$this->methods = array_merge( (array)$this->methods, array(
@@ -163,6 +166,7 @@ class BB_XMLRPC_Server extends IXR_Server
 				'pingback.extensions.getPingbacks' => 'this:pingback_extensions_getPingbacks'
 			) );
 		}
+		*/ 
 
 		// Tells read-only methods whether they require authentication or not
 		$this->auth_readonly = apply_filters( 'bb_xmlrpc_auth_readonly', $this->auth_readonly );

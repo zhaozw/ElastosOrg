@@ -103,7 +103,7 @@ case 'post-quickpress-save':
 
 	if ( 'post-quickpress-publish' == $action || 'post-quickpress-save' == $action ) {
 		$_POST['comment_status'] = get_option('default_comment_status');
-		$_POST['ping_status'] = get_option('default_ping_status');
+		//$_POST['ping_status'] = get_option('default_ping_status');
 		$post_id = edit_post();
 	} else {
 		$post_id = 'postajaxpost' == $action ? edit_post() : write_post();

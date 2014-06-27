@@ -316,7 +316,10 @@ class WP {
 	 * @since 2.0.0
 	 */
 	function send_headers() {
-		$headers = array('X-Pingback' => get_bloginfo('pingback_url'));
+
+		//$headers = array('X-Pingback' => get_bloginfo('pingback_url'));
+		$headers = array();
+
 		$status = null;
 		$exit_required = false;
 

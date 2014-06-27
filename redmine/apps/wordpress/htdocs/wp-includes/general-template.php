@@ -431,7 +431,8 @@ function get_bloginfo( $show = '', $filter = 'raw' ) {
 			$output = get_feed_link('comments_rss2');
 			break;
 		case 'pingback_url':
-			$output = get_option('siteurl') .'/xmlrpc.php';
+			//$output = get_option('siteurl') .'/xmlrpc.php';
+			$output = '';
 			break;
 		case 'stylesheet_url':
 			$output = get_stylesheet_uri();

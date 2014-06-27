@@ -115,9 +115,13 @@ class wp_xmlrpc_server extends IXR_Server {
 			'mt.getTrackbackPings' => 'this:mt_getTrackbackPings',
 			'mt.publishPost' => 'this:mt_publishPost',
 
-			// PingBack
+			/* elastos.org
+			 * don't support PingBack
+			 *
+			// Pingback
 			'pingback.ping' => 'this:pingback_ping',
 			'pingback.extensions.getPingbacks' => 'this:pingback_extensions_getPingbacks',
+			 */
 
 			'demo.sayHello' => 'this:sayHello',
 			'demo.addTwoNumbers' => 'this:addTwoNumbers'
@@ -420,12 +424,12 @@ class wp_xmlrpc_server extends IXR_Server {
 				'desc'          => __( 'Allow people to post comments on new articles' ),
 				'readonly'      => false,
 				'option'        => 'default_comment_status'
-			),
+			) /*,
 			'default_ping_status' => array(
 				'desc'          => __( 'Allow link notifications from other blogs (pingbacks and trackbacks)' ),
 				'readonly'      => false,
 				'option'        => 'default_ping_status'
-			)
+			)*/
 		);
 
 		$this->blog_options = apply_filters( 'xmlrpc_blog_options', $this->blog_options );
@@ -3811,7 +3815,8 @@ class wp_xmlrpc_server extends IXR_Server {
 						$ping_status = 'open';
 						break;
 					default:
-						$ping_status = get_option('default_ping_status');
+						$ping_status = 'closed';
+						//$ping_status = get_option('default_ping_status');
 						break;
 				}
 			} else {
@@ -3823,12 +3828,14 @@ class wp_xmlrpc_server extends IXR_Server {
 						$ping_status = 'open';
 						break;
 					default:
-						$ping_status = get_option('default_ping_status');
+						$ping_status = 'closed';
+						//$ping_status = get_option('default_ping_status');
 						break;
 				}
 			}
 		} else {
-			$ping_status = get_option('default_ping_status');
+			$ping_status = 'closed';
+			//$ping_status = get_option('default_ping_status');
 		}
 
 		if ( $post_more )
@@ -4086,7 +4093,8 @@ class wp_xmlrpc_server extends IXR_Server {
 						$ping_status = 'open';
 						break;
 					default:
-						$ping_status = get_option('default_ping_status');
+						$ping_status = 'closed';
+						//$ping_status = get_option('default_ping_status');
 						break;
 				}
 			} else {
@@ -4098,7 +4106,8 @@ class wp_xmlrpc_server extends IXR_Server {
 						$ping_status = 'open';
 						break;
 					default:
-						$ping_status = get_option('default_ping_status');
+						$ping_status = 'closed';
+						//$ping_status = get_option('default_ping_status');
 						break;
 				}
 			}

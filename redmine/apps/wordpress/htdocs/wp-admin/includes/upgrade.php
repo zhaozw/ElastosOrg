@@ -53,8 +53,10 @@ function wp_install( $blog_title, $user_name, $user_email, $public, $deprecated 
 	update_option('siteurl', $guessurl);
 
 	// If not a public blog, don't ping.
+	/*
 	if ( ! $public )
 		update_option('default_pingback_flag', 0);
+	*/
 
 	// Create default user. If the user already exists, the user tables are
 	// being shared among blogs. Just set the role in that case.

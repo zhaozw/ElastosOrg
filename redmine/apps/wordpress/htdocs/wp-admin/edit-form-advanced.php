@@ -129,10 +129,10 @@ if ( current_theme_supports( 'post-thumbnails', $post_type ) && post_type_suppor
 
 if ( post_type_supports($post_type, 'excerpt') )
 	add_meta_box('postexcerpt', __('Excerpt'), 'post_excerpt_meta_box', null, 'normal', 'core');
-
+/*
 if ( post_type_supports($post_type, 'trackbacks') )
 	add_meta_box('trackbacksdiv', __('Send Trackbacks'), 'post_trackback_meta_box', null, 'normal', 'core');
-
+*/
 if ( post_type_supports($post_type, 'custom-fields') )
 	add_meta_box('postcustom', __('Custom Fields'), 'post_custom_meta_box', null, 'normal', 'core');
 

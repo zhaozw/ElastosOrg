@@ -433,8 +433,14 @@ function get_default_post_to_edit( $post_type = 'post', $create_in_db = false ) 
 		$post->to_ping = '';
 		$post->pinged = '';
 		$post->comment_status = get_option( 'default_comment_status' );
+		/*
 		$post->ping_status = get_option( 'default_ping_status' );
 		$post->post_pingback = get_option( 'default_pingback_flag' );
+		*/
+		$post->comment_status = 'close';
+		$post->ping_status = 'close';
+		$post->post_pingback = 0;
+
 		$post->post_category = get_option( 'default_category' );
 		$post->page_template = 'default';
 		$post->post_parent = 0;

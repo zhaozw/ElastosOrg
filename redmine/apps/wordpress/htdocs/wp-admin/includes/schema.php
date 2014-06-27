@@ -379,9 +379,13 @@ function populate_options() {
 	'mailserver_pass' => 'password',
 	'mailserver_port' => 110,
 	'default_category' => 1,
+
 	'default_comment_status' => 'open',
+	/*
 	'default_ping_status' => 'open',
 	'default_pingback_flag' => 1,
+	*/
+
 	'default_post_edit_rows' => 20,
 	'posts_per_page' => 10,
 	/* translators: default date format, see http://php.net/date */

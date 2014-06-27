@@ -2461,7 +2461,7 @@ function wp_insert_post($postarr, $wp_error = false) {
 	global $wpdb, $user_ID;
 
 	$defaults = array('post_status' => 'draft', 'post_type' => 'post', 'post_author' => $user_ID,
-		'ping_status' => get_option('default_ping_status'), 'post_parent' => 0,
+		/*'ping_status' => get_option('default_ping_status'),*/ 'post_parent' => 0,
 		'menu_order' => 0, 'to_ping' =>  '', 'pinged' => '', 'post_password' => '',
 		'guid' => '', 'post_content_filtered' => '', 'post_excerpt' => '', 'import_id' => 0,
 		'post_content' => '', 'post_title' => '');
@@ -2578,8 +2578,10 @@ function wp_insert_post($postarr, $wp_error = false) {
 		else
 			$comment_status = get_option('default_comment_status');
 	}
+	/*
 	if ( empty($ping_status) )
 		$ping_status = get_option('default_ping_status');
+	*/
 
 	if ( isset($to_ping) )
 		$to_ping = sanitize_trackback_urls( $to_ping );
@@ -3653,7 +3655,7 @@ function wp_insert_attachment($object, $file = false, $parent = 0) {
 	global $wpdb, $user_ID;
 
 	$defaults = array('post_status' => 'inherit', 'post_type' => 'post', 'post_author' => $user_ID,
-		'ping_status' => get_option('default_ping_status'), 'post_parent' => 0,
+		/*'ping_status' => get_option('default_ping_status'),*/ 'post_parent' => 0,
 		'menu_order' => 0, 'to_ping' =>  '', 'pinged' => '', 'post_password' => '',
 		'guid' => '', 'post_content_filtered' => '', 'post_excerpt' => '', 'import_id' => 0, 'context' => '');
 
@@ -3719,8 +3721,10 @@ function wp_insert_attachment($object, $file = false, $parent = 0) {
 		else
 			$comment_status = get_option('default_comment_status');
 	}
+	/*
 	if ( empty($ping_status) )
 		$ping_status = get_option('default_ping_status');
+	*/
 
 	if ( isset($to_ping) )
 		$to_ping = preg_replace('|\s+|', "\n", $to_ping);
@@ -4585,11 +4589,14 @@ function _publish_post_hook($post_id) {
 	if ( defined('APP_REQUEST') )
 		do_action('app_publish_post', $post_id);
 
+	return;
+
 	if ( defined('WP_IMPORTING') )
 		return;
 
 	if ( get_option('default_pingback_flag') )
 		add_post_meta( $post_id, '_pingme', '1' );
+
 	add_post_meta( $post_id, '_encloseme', '1' );
 
 	wp_schedule_single_event(time(), 'do_pings');

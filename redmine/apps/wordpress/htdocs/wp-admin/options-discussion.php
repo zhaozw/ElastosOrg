@@ -42,14 +42,6 @@ include('./admin-header.php');
 <tr valign="top">
 <th scope="row"><?php _e('Default article settings'); ?></th>
 <td><fieldset><legend class="screen-reader-text"><span><?php _e('Default article settings'); ?></span></legend>
-<label for="default_pingback_flag">
-<input name="default_pingback_flag" type="checkbox" id="default_pingback_flag" value="1" <?php checked('1', get_option('default_pingback_flag')); ?> />
-<?php _e('Attempt to notify any blogs linked to from the article'); ?></label>
-<br />
-<label for="default_ping_status">
-<input name="default_ping_status" type="checkbox" id="default_ping_status" value="open" <?php checked('open', get_option('default_ping_status')); ?> />
-<?php _e('Allow link notifications from other blogs (pingbacks and trackbacks)'); ?></label>
-<br />
 <label for="default_comment_status">
 <input name="default_comment_status" type="checkbox" id="default_comment_status" value="open" <?php checked('open', get_option('default_comment_status')); ?> />
 <?php _e('Allow people to post comments on new articles'); ?></label>
@@ -160,88 +152,6 @@ printf( __('Comments should be displayed with the %s comments at the top of each
 </fieldset></td>
 </tr>
 <?php do_settings_fields('discussion', 'default'); ?>
-</table>
-
-<h3><?php _e('Avatars'); ?></h3>
-
-<p><?php _e('An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites. Here you can enable the display of avatars for people who comment on your site.'); ?></p>
-
-<?php // the above would be a good place to link to codex documentation on the gravatar functions, for putting it in themes. anything like that? ?>
-
-<table class="form-table">
-<tr valign="top">
-<th scope="row"><?php _e('Avatar Display'); ?></th>
-<td><fieldset><legend class="screen-reader-text"><span><?php _e('Avatar Display'); ?></span></legend>
-<?php
-	$yesorno = array( 0 => __( 'Don&#8217;t show Avatars' ), 1 => __( 'Show Avatars' ) );
-	foreach ( $yesorno as $key => $value) {
-		$selected = (get_option('show_avatars') == $key) ? 'checked="checked"' : '';
-		echo "\n\t<label><input type='radio' name='show_avatars' value='" . esc_attr($key) . "' $selected/> $value</label><br />";
-	}
-?>
-</fieldset></td>
-</tr>
-<tr valign="top">
-<th scope="row"><?php _e('Maximum Rating'); ?></th>
-<td><fieldset><legend class="screen-reader-text"><span><?php _e('Maximum Rating'); ?></span></legend>
-
-<?php
-$ratings = array(
-	/* translators: Content suitability rating: http://bit.ly/89QxZA */
-	'G' => __('G &#8212; Suitable for all audiences'),
-	/* translators: Content suitability rating: http://bit.ly/89QxZA */
-	'PG' => __('PG &#8212; Possibly offensive, usually for audiences 13 and above'),
-	/* translators: Content suitability rating: http://bit.ly/89QxZA */
-	'R' => __('R &#8212; Intended for adult audiences above 17'),
-	/* translators: Content suitability rating: http://bit.ly/89QxZA */
-	'X' => __('X &#8212; Even more mature than above')
-);
-foreach ($ratings as $key => $rating) :
-	$selected = (get_option('avatar_rating') == $key) ? 'checked="checked"' : '';
-	echo "\n\t<label><input type='radio' name='avatar_rating' value='" . esc_attr($key) . "' $selected/> $rating</label><br />";
-endforeach;
-?>
-
-</fieldset></td>
-</tr>
-<tr valign="top">
-<th scope="row"><?php _e('Default Avatar'); ?></th>
-<td class="defaultavatarpicker"><fieldset><legend class="screen-reader-text"><span><?php _e('Default Avatar'); ?></span></legend>
-
-<?php _e('For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address.'); ?><br />
-
-<?php
-$avatar_defaults = array(
-	'mystery' => __('Mystery Man'),
-	'blank' => __('Blank'),
-	'gravatar_default' => __('Gravatar Logo'),
-	'identicon' => __('Identicon (Generated)'),
-	'wavatar' => __('Wavatar (Generated)'),
-	'monsterid' => __('MonsterID (Generated)'),
-	'retro' => __('Retro (Generated)')
-);
-$avatar_defaults = apply_filters('avatar_defaults', $avatar_defaults);
-$default = get_option('avatar_default');
-if ( empty($default) )
-	$default = 'mystery';
-$size = 32;
-$avatar_list = '';
-foreach ( $avatar_defaults as $default_key => $default_name ) {
-	$selected = ($default == $default_key) ? 'checked="checked" ' : '';
-	$avatar_list .= "\n\t<label><input type='radio' name='avatar_default' id='avatar_{$default_key}' value='" . esc_attr($default_key) . "' {$selected}/> ";
-
-	$avatar = get_avatar( $user_email, $size, $default_key );
-	$avatar_list .= preg_replace("/src='(.+?)'/", "src='\$1&amp;forcedefault=1'", $avatar);
-
-	$avatar_list .= ' ' . $default_name . '</label>';
-	$avatar_list .= '<br />';
-}
-echo apply_filters('default_avatar_select', $avatar_list);
-?>
-
-</fieldset></td>
-</tr>
-<?php do_settings_fields('discussion', 'avatars'); ?>
 </table>
 
 <?php do_settings_sections('discussion'); ?>
