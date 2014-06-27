@@ -39,14 +39,6 @@
 		<?php endif; ?>
 
 	</div><!-- #comments -->
-<?php else : ?>
-
-	<?php if ( !comments_open() && ( is_single() || is_page() ) ) : ?>
-		<p class="comments-closed">
-			<?php _e( 'Comments are closed.', 'buddypress' ); ?>
-		</p>
-	<?php endif; ?>
-
 <?php endif; ?>
 
 <?php if ( comments_open() ) : ?>
