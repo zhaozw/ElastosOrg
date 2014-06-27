@@ -1498,7 +1498,7 @@ function bp_group_new_topic_button( $group = false ) {
 			'link_href'         => '#post-new',
 			'link_class'        => 'group-button show-hide-new',
 			'link_id'           => 'new-topic-button',
-			'link_text'         => __( 'New Topic', 'buddypress' ),
+			'link_text'         => '<i class="fa fa-plus-square" style="color:#14A0CD;"></i> ' . __( 'New Topic', 'buddypress' ),
 			'link_title'        => __( 'New Topic', 'buddypress' ),
 		) );
 
