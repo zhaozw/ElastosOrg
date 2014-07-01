@@ -148,7 +148,7 @@ function bpaa_init() {
 				</div>
 				<div id="group-id-box" style="float:right;color:#14A0CD;">
 					<?php _e( 'Post in', 'buddypress' ); ?>
-					<select id="group-id" name="group-id" style="color:#14A0CD;background:#F7F8FF;">
+					<select id="group_id" name="group_id" style="color:#14A0CD;background:#F7F8FF;">
 						<option selected="selected" value="0" style="color:#333;"><?php _e( 'My MicroBLOG', 'buddypress' ); ?></option>
 						<?php if ( bp_has_groups( 'user_id=' . bp_loggedin_user_id() . '&type=alphabetical&max=100&per_page=100&populate_extras=0' ) ) :
 							while ( bp_groups() ) : bp_the_group(); ?>
@@ -190,13 +190,15 @@ function bpaa_init() {
 							action: 'activity_add_anywhere',
 							bpaa_textarea: $("#bpaa-textarea").val()+reply,
 							bpaa_update_activity: $("#bpaa_update_activity").val(),
-							o_id: $("#o_id").val()
+							o_id: $("#o_id").val(),
+							group_id: $("#group_id").val()
 						};
 
 						$.post(ajaxurl, data, function(response) {
 							$('#bpaa-form-wrapper').stop().fadeOut('fast');
 							$("#bpaa-textarea").val("");
 							$("#o_id").val("0");
+							$("#group_id").val("0");
 							clear_bpaa_reply();
 						});
 
@@ -233,7 +235,7 @@ function ajax_activity_add_anywhere() {
 
 	if( $_SERVER['REQUEST_METHOD'] == 'POST' && isset( $_POST['bpaa_update_activity'] ) && wp_verify_nonce($_POST['bpaa_update_activity'], 'bpaa_submit_form') && (!empty($content)) ) {
 
-		$group_id = $_POST['group-id'];
+		$group_id = $_POST['group_id'];
 		if (isset($group_id) && (intval($group_id) > 0)) {
 			$activity_args = array(
 				'action' => '<a href="' . $bp->loggedin_user->domain .'profile">' . $bp->loggedin_user->fullname .'</a> posted an update',
