@@ -4,7 +4,7 @@ Plugin Name: BP Admin Actions
 Plugin URI: http://ovirium.com/plugins/bp-admin-actions/
 Description: Let admin do some more stuff with users - adding them to any group manually from members list
 Author: slaFFik
-Version: 1.0
+Version: 99.1.0
 Author URI: http://cosydale.com/
 Domain Path: /langs/
 Text Domain: bp_admin_actions
@@ -12,14 +12,14 @@ Text Domain: bp_admin_actions
 define('BPAA_URL', WP_PLUGIN_URL . '/bp-admin-actions');
 define('BPAA_DIR', WP_PLUGIN_DIR . '/bp-admin-actions');
 
-function bpaa_init() {
-    add_action('bp_loaded', 'bpaa_load_textdomain', 3);
+function bpaa_init_el() {
+    //add_action('bp_loaded', 'bpaa_load_textdomain', 3);
     add_action('wp_head','bpaa_add_user_to_group_inc_css');
     add_action('wp_print_scripts', 'bpaa_add_user_to_group_inc_js');
     add_action('wp_footer', 'bpaa_add_user_to_group_popup');
     add_action('bp_directory_members_actions','bpaa_add_user_to_group_button');
 }
-add_action( 'bp_include', 'bpaa_init' );
+add_action( 'bp_include', 'bpaa_init_el' );
 
 function bpaa_load_textdomain() {
     $locale = apply_filters( 'buddypress_locale', get_locale() );
@@ -29,7 +29,7 @@ function bpaa_load_textdomain() {
         load_textdomain( 'bp_admin_actions', $mofile );
 }
 
-function bpaa_add_user_to_group_inc_css(){
+function bpaa_add_user_to_group_inc_css() {
     wp_enqueue_style('bp-admin-actions-css', BPAA_URL . '/_inc/style.css');
     wp_print_styles();
 }
@@ -49,8 +49,9 @@ var bpaa_strings = {
 }
 
 function bpaa_add_user_to_group_popup(){
-    if(is_site_admin())
+    if (is_site_admin()) {
         echo '<div id="popupGroups"></div><div id="backgroundPopup"></div>';
+	}
 }
 
 function bpaa_add_user_to_group_ajax(){
@@ -71,12 +72,13 @@ function bpaa_add_user_to_group_ajax(){
         echo '<select id="selected_group">
                 <option value="0">'.__('select a group','bp_admin_actions').'</option>';
         while ( bp_groups() ) : bp_the_group();
-            if ( !groups_is_user_member($_GET['user'], bp_get_group_id()) )
+            if ( !groups_is_user_member($_GET['user'], bp_get_group_id()) ) {
                 echo '<option value="'.bp_get_group_id().'">'.bp_get_group_name().'</option>';
+            }
         endwhile;
         echo'</select><a href="#" style="float:right" rel="'.$_GET['user'].'" class="button" id="add_to_selected">'.__('Add to this group','bp_admin_actions').'</a>';
-        
-    }else{
+
+    } else {
         _e('No groups to display','bp_admin_actions');
     }
     echo '</p>
@@ -88,18 +90,17 @@ add_action('wp_ajax_bpaa_add_user_to_group_ajax','bpaa_add_user_to_group_ajax');
 function bpaa_add_user_to_group_silent_ajax(){
     if (!groups_join_group($_GET['group'], $_GET['user'])) {
         echo '0';
-    }else{
+    } else {
         echo '1';
     }
     die();
 }
 add_action('wp_ajax_bpaa_add_user_to_group_silent_ajax','bpaa_add_user_to_group_silent_ajax');
 
-function bpaa_add_user_to_group_button(){
-    if(is_site_admin())
-        echo '<div style="margin: 5px 0;" class="generic-button">
-            <a class="add_to_group" rel="'.bp_get_member_user_id().'" href="#">'.__('Add To Group','bp_admin_actions').'</a>
-            </div>';
+function bpaa_add_user_to_group_button() {
+    if (is_super_admin()) {
+        echo '<div style="margin:5px 0;float:right;" class="generic-button"><a class="add_to_group" rel="'.bp_get_member_user_id().'" href="#">Group</a></div>';
+    }
 }
 
 ?>
