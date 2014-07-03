@@ -229,42 +229,28 @@ return;
  *
  * @since 3.3.0
  */
-function wp_admin_bar_my_account_item( $wp_admin_bar ) {
-	$user_id      = get_current_user_id();
+function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 	$current_user = wp_get_current_user();
-	$profile_url  = get_edit_profile_url( $user_id );
-
+	$user_id = $current_user->ID;
 	if ( ! $user_id )
 		return;
 
 	$avatar = get_avatar( $user_id, 16 );
 	$howdy  = sprintf( __('Hi, %1$s'), $current_user->display_name );
 	$class  = empty( $avatar ) ? '' : 'with-avatar';
+	$user_domain = bp_core_get_user_domain($user_id);
+	$profile_url  = get_edit_profile_url( $user_id );
 
 	$wp_admin_bar->add_menu( array(
 		'id'        => 'my-account',
 		'parent'    => 'top-secondary',
 		'title'     => $howdy . $avatar,
-		'href'      => $profile_url,
+		'href'      => $user_domain,
 		'meta'      => array(
 			'class'     => $class,
-			'title'     => __('My Account'),
+			'title'     => __('My Home'),
 		),
 	) );
-}
-
-/**
- * Add the "My Account" submenu items.
- *
- * @since 3.1.0
- */
-function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
-	$user_id      = get_current_user_id();
-	$current_user = wp_get_current_user();
-	$profile_url  = get_edit_profile_url( $user_id );
-
-	if ( ! $user_id )
-		return;
 
 	$wp_admin_bar->add_group( array(
 		'parent' => 'my-account',
@@ -280,7 +266,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 		'parent' => 'user-actions',
 		'id'     => 'user-info',
 		'title'  => $user_info,
-		'href'   => bp_core_get_user_domain($user_id),
+		'href'   => $user_domain,
 		'meta'   => array(
 			'tabindex' => -1,
 		),
