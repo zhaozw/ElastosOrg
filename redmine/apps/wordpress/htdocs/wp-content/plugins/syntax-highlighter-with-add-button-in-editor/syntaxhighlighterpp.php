@@ -2,8 +2,8 @@
 /*
 Plugin Name: SyntaxHighlighter++
 Plugin URI: http://leo108.com/pid-1304.asp
-Description: 支持Bash/shell, C#, C++, CSS, Delphi, Diff, Groovy, JavaScript, Java, Perl, PHP, Plain Text, Python, Ruby, Scala, SQL, Visual Basic and XML等语言，并在编辑器下方增加一个代码输入框，直接将相关代码贴入编辑器中。 
-Version: 2.4.1
+Description: 支持Bash/shell, C#, C++, CSS, Delphi, Diff, Groovy, JavaScript, Java, Perl, PHP, Plain Text, Python, Ruby, Scala, SQL, Visual Basic and XML等语言，并在编辑器下方增加一个代码输入框，直接将相关代码贴入编辑器中。
+Version: 99.2.4.1
 Author: leo108
 Author URI: http://leo108.com/
 License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -49,57 +49,54 @@ function highlighter_footer() {
     $options = get_hl_option();
     $current_path = get_option('siteurl') .'/wp-content/plugins/' . basename(dirname(__FILE__)) .'/';
     ?>
-    <script type="text/javascript" src="<?php echo $current_path; ?>scripts/shCore.js"></script>
-    <script type="text/javascript" src="<?php echo $current_path; ?>scripts/shAutoloader.js"></script>
-    <script type="text/javascript">        
-    function path()
-    {
-      var args = arguments,
-          result = []
-          ;
-      for(var i = 0; i < args.length; i++)
-          result.push(args[i].replace('@', '<?php echo $current_path; ?>scripts/'));
-      return result
-    };
-    SyntaxHighlighter.autoloader.apply(null, path(
-      'applescript            @shBrushAppleScript.js',
-      'actionscript3 as3      @shBrushAS3.js',
-      'bash shell             @shBrushBash.js',
-      'coldfusion cf          @shBrushColdFusion.js',
-      'cpp c                  @shBrushCpp.js',
-      'c# c-sharp csharp      @shBrushCSharp.js',
-      'css                    @shBrushCss.js',
-      'delphi pascal          @shBrushDelphi.js',
-      'diff patch pas         @shBrushDiff.js',
-      'erl erlang             @shBrushErlang.js',
-      'groovy                 @shBrushGroovy.js',
-      'java                   @shBrushJava.js',
-      'jfx javafx             @shBrushJavaFX.js',
-      'js jscript javascript  @shBrushJScript.js',
-      'perl pl                @shBrushPerl.js',
-      'php                    @shBrushPhp.js',
-      'text plain             @shBrushPlain.js',
-      'ps                     @shBrushPowerShell.js',
-      'py python              @shBrushPython.js',
-      'ruby rails ror rb      @shBrushRuby.js',
-      'sass scss              @shBrushSass.js',
-      'scala                  @shBrushScala.js',
-      'sql                    @shBrushSql.js',
-      'vb vbnet               @shBrushVb.js',
-      'xml xhtml xslt html    @shBrushXml.js',
-      'other                  @shBrushOther.js'
-    ));
-    SyntaxHighlighter.defaults['auto-links'] = <?php echo $options['highlighter_autolinks']?$options['highlighter_autolinks']:'true';?>;
-    SyntaxHighlighter.defaults['collapse'] = <?php echo $options['highlighter_collapse']?$options['highlighter_collapse']:'false';?>;
-    SyntaxHighlighter.defaults['first-line'] = <?php echo $options['highlighter_firstline']?$options['highlighter_firstline']:'0';?>;
-    SyntaxHighlighter.defaults['gutter'] = <?php echo $options['highlighter_gutter']?$options['highlighter_gutter']:'true';?>;
-    SyntaxHighlighter.defaults['smart-tabs'] = <?php echo $options['highlighter_smarttabs']?$options['highlighter_smarttabs']:'true';?>;
-    SyntaxHighlighter.defaults['tab-size'] = <?php echo $options['highlighter_tabsize']?$options['highlighter_tabsize']:'4';?>;
-    SyntaxHighlighter.defaults['toolbar'] = <?php echo $options['highlighter_toolbar']?$options['highlighter_toolbar']:'true';?>;
-    SyntaxHighlighter.config.tagName = "<?php echo $options['highlighter_tagName']?$options['highlighter_tagName']:'pre';?>";
-	SyntaxHighlighter.config.clipboardSwf = '<?php echo $current_path; ?>scripts/clipboard.swf';
-    SyntaxHighlighter.all();
-    </script>
+<script type="text/javascript" src="<?php echo $current_path; ?>scripts/shCore.js"></script>
+<script type="text/javascript" src="<?php echo $current_path; ?>scripts/shAutoloader.js"></script>
+<script type="text/javascript">
+function path(){
+  var args=arguments,result=[];
+  for(var i=0;i<args.length;i++)
+    result.push(args[i].replace('@','<?php echo $current_path; ?>scripts/'));
+  return result
+};
+SyntaxHighlighter.autoloader.apply(null,path(
+  'applescript            @shBrushAppleScript.js',
+  'actionscript3 as3      @shBrushAS3.js',
+  'bash shell             @shBrushBash.js',
+  'coldfusion cf          @shBrushColdFusion.js',
+  'cpp c                  @shBrushCpp.js',
+  'c# c-sharp csharp      @shBrushCSharp.js',
+  'css                    @shBrushCss.js',
+  'delphi pascal          @shBrushDelphi.js',
+  'diff patch pas         @shBrushDiff.js',
+  'erl erlang             @shBrushErlang.js',
+  'groovy                 @shBrushGroovy.js',
+  'java                   @shBrushJava.js',
+  'jfx javafx             @shBrushJavaFX.js',
+  'js jscript javascript  @shBrushJScript.js',
+  'perl pl                @shBrushPerl.js',
+  'php                    @shBrushPhp.js',
+  'text plain             @shBrushPlain.js',
+  'ps                     @shBrushPowerShell.js',
+  'py python              @shBrushPython.js',
+  'ruby rails ror rb      @shBrushRuby.js',
+  'sass scss              @shBrushSass.js',
+  'scala                  @shBrushScala.js',
+  'sql                    @shBrushSql.js',
+  'vb vbnet               @shBrushVb.js',
+  'xml xhtml xslt html    @shBrushXml.js',
+  'other                  @shBrushOther.js'
+));
+SyntaxHighlighter.defaults['auto-links'] = <?php echo $options['highlighter_autolinks']?$options['highlighter_autolinks']:'true';?>;
+SyntaxHighlighter.defaults['collapse'] = <?php echo $options['highlighter_collapse']?$options['highlighter_collapse']:'false';?>;
+SyntaxHighlighter.defaults['first-line'] = <?php echo $options['highlighter_firstline']?$options['highlighter_firstline']:'0';?>;
+SyntaxHighlighter.defaults['gutter'] = <?php echo $options['highlighter_gutter']?$options['highlighter_gutter']:'true';?>;
+SyntaxHighlighter.defaults['smart-tabs'] = <?php echo $options['highlighter_smarttabs']?$options['highlighter_smarttabs']:'true';?>;
+SyntaxHighlighter.defaults['tab-size'] = <?php echo $options['highlighter_tabsize']?$options['highlighter_tabsize']:'4';?>;
+SyntaxHighlighter.defaults['toolbar'] = <?php echo $options['highlighter_toolbar']?$options['highlighter_toolbar']:'true';?>;
+SyntaxHighlighter.config.tagName = "<?php echo $options['highlighter_tagName']?$options['highlighter_tagName']:'pre';?>";
+SyntaxHighlighter.config.clipboardSwf = '<?php echo $current_path; ?>scripts/clipboard.swf';
+SyntaxHighlighter.all();
+</script>
     <?php
 }
 function highlighter_head() {
@@ -154,7 +151,7 @@ function codebox_init(){
 
 <script>
 function settext()
-{ 
+{
     var str='<<?php echo $options['highlighter_tagName']?$options['highlighter_tagName']:'pre';?> class="brush:';
     var lang=document.getElementById("language").value;
     var code=document.getElementById("code").value;
@@ -310,12 +307,12 @@ function highlighter_options_validate($input) {
     return $input;
 }
 function highlighter_menu() {
-    add_options_page('Syntax-highlighter++ Settings', __('Syntax-highlighter++','sh'), 'manage_options', 'Syntaxhighlighterpp', 'highlighter_options_page');
+    add_options_page('Syntax-highlighter++ Settings', __('Syntax-highlighter++','sh'), 'manage_options', 'syntaxhighlighterpp', 'highlighter_options_page');
 }
 function highlighter_action_links( $links, $file ) {
     if ( $file != plugin_basename( __FILE__ ))
         return $links;
-    $settings_link = '<a href="options-general.php?page=Syntaxhighlighterpp">Settings</a>';
+    $settings_link = '<a href="options-general.php?page=syntaxhighlighterpp">Settings</a>';
     array_unshift( $links, $settings_link );
     return $links;
 }
