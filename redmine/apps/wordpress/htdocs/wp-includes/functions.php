@@ -3635,20 +3635,20 @@ function wm_make_clickable($content) {
 	$imgList=$imgList[0];
 	$str = preg_replace('/<img[^>]+>/im','<{img}>', $content);
 
-	preg_match_all('/<a.*?href=[\'\"].*?[\'\"].*?>.*?<\/a>/i', $content, $linkList);
+	preg_match_all('/<a.*href=[\'\"].*[\'\"][.\n\r\t\h\H\v\V]*>[.\n\r\t\h\H\v\V]*<\/a>/i', $content, $linkList);
 	$linkList = $linkList[0];
-	$str = preg_replace('/<a.*?href=[\'\"].*?[\'\"].*?>.*?<\/a>/i','<{link}>', $str);
+	$str = preg_replace('/<a.*href=[\'\"].*[\'\"][.\n\r\t\h\H\v\V]*>[.\n\r\t\h\H\v\V]*<\/a>/i','<{link}>', $str);
 
     $str = preg_replace("/((https?:\/\/)(([a-zA-Z0-9_-]+((\.[a-zA-Z0-9_-]+)+)?\.([a-zA-Z]+))(\:[0-9]+)?)|(([0-1]?[0-9]?[0-9]|2[0-5][0-5])\.([0-1]?[0-9]?[0-9]|2[0-5][0-5])\.([0-1]?[0-9]?[0-9]|2[0-5][0-5])\.([0-1]?[0-9]?[0-9]|2[0-5][0-5]))(\:[0-9]+)?)(\/[\w-~.\/?;%&=\:#\[\]@\!\$'\(\)\*\+,]*)?/i", '<a href="\\0" rel="external nofollow">\\0</a>', $str);
 
 	$arrLen = count($linkList);
 	for($i=0; $i<$arrLen; $i++) {
-		$str = preg_replace('/<{link}>/', $linkList[$i], $str, 1); 
+		$str = preg_replace('/<{link}>/', $linkList[$i], $str, 1);
 	}
 
 	$arrLen2 = count($imgList);
 	for($i=0; $i<$arrLen2; $i++) {
-		$str = preg_replace('/<{img}>/', $imgList[$i], $str, 1); 
+		$str = preg_replace('/<{img}>/', $imgList[$i], $str, 1);
 	}
 
 	return $str;
