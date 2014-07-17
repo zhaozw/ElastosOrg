@@ -2,7 +2,7 @@ useradd git
 useradd daemon
 useradd mysql
 useradd redis
-useradd postgress
+useradd postgres
 touch apache2/logs/access_log
 touch apache2/logs/error_log
 chown -R daemon:daemon apache2/logs/
@@ -11,7 +11,7 @@ touch postgresql/postgresql.log
 chown -R postgres:root postgresql/postgresql.log
 chown -R postgres:root postgresql/data/
 touch mysql/data/mysqld.log
-chown -R mysql:root /mysql/data/
+chown -R mysql:root mysql/data/
 mkdir redis/var/log/
 touch redis/var/log/redis-server.log
 chown -R redis:root redis/var/log/
