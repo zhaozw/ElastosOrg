@@ -5,7 +5,8 @@ class JWP6_Plugin {
 
     public static $player_version = '6.8';
 
-    public static $cdn_http_player = 'http://p.jwpcdn.com/6/8/jwplayer.js';
+    //public static $cdn_http_player = 'http://p.jwpcdn.com/6/8/jwplayer.js';
+    public static $cdn_http_player = 'http://elastos.org/wp-content/plugins/jw-player-plugin-for-wordpress/js/jwplayer.js';
 
     public static $cdn_https_player = 'https://ssl.p.jwpcdn.com/6/8/jwplayer.js';
 
@@ -67,11 +68,11 @@ class JWP6_Plugin {
             'help_text' => 'How to resize the poster and video to fit the display.',
         ),
         'skin' => array(
-            'options' => array( 
+            'options' => array(
                 'NULL' => 'Six (default)',
                 'beelden' => 'Beelden',
-                'bekle' => 'Bekle', 
-                'five' => 'Five', 
+                'bekle' => 'Bekle',
+                'five' => 'Five',
                 'glow' => 'Glow',
                 'modieus' => 'Modieus',
                 'roundster' => 'Roundster',
@@ -101,7 +102,7 @@ class JWP6_Plugin {
         'mute' => array(
             'options' => false,
             'default' => false,
-            'help_text' => 'Whether to have the sound muted on startup or not.',  
+            'help_text' => 'Whether to have the sound muted on startup or not.',
             'text' => 'Mute player sound on startup.',
             'discard_if_default' => true,
         ),
@@ -114,7 +115,7 @@ class JWP6_Plugin {
         'repeat' => array(
             'options' => false,
             'default' => false,
-            'help_text' => 'Whether to loop playback of the playlist or not.', 
+            'help_text' => 'Whether to loop playback of the playlist or not.',
             'text' => 'Loop the playback of your video/playlist.',
             'discard_if_default' => true,
         ),
@@ -193,7 +194,7 @@ class JWP6_Plugin {
             'help_text' => 'URL to link to when clicking the right-click menu. The default is http://www.longtailvideo.com/jw-player/learn-more.',
         ),
 
-        // Google Analytics 
+        // Google Analytics
 
         'ga' => array (
             'licenses' => array('premium', 'ads'),
