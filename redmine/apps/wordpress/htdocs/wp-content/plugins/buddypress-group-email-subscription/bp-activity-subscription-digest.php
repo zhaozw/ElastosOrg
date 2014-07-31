@@ -466,6 +466,8 @@ function ass_convert_html_to_plaintext( $message ) {
 	$message = str_replace( "change email options for this group\n\n", '', $message );
 	$message = html_entity_decode( $message , ENT_QUOTES, 'UTF-8' );
 
+	$message = addslashes( $message );
+
 	return $message;
 }
 
