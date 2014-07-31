@@ -9,7 +9,7 @@ class easyFancyBox {
 	public static $add_scripts = false;
 
 	public static $options = array();
-	
+
 
 	/**********************
 	   MAIN SCRIPT OUTPUT
@@ -17,8 +17,10 @@ class easyFancyBox {
 
 	function main_script() {
 
+		/*
 		echo '
 	<!-- Easy FancyBox ' . EASY_FANCYBOX_VERSION . ' using FancyBox ' . FANCYBOX_VERSION . ' - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->';
+		*/
 
 		// check for any enabled sections
 		//if(!empty(self::$options['Global']['options']['Enable']['options']))
@@ -40,7 +42,7 @@ class easyFancyBox {
 
 		// running our IE alphaimageloader relative path styles here
 echo '
-<!--[if lt IE 8]>            
+<!--[if lt IE 8]>
 <style type="text/css">
 /* IE6 */
 .fancybox-ie6 #fancybox-close{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' . EASY_FANCYBOX_PLUGINURL . 'fancybox/fancy_close.png",sizingMethod="scale")}
@@ -65,7 +67,7 @@ echo '
 .fancybox-ie #fancybox-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' . EASY_FANCYBOX_PLUGINURL . 'fancybox/fancy_shadow_nw.png",sizingMethod="scale")}
 </style>
 <![endif]-->
-<!--[if IE 8]>            
+<!--[if IE 8]>
 <style type="text/css">
 .fancybox-ie .fancybox-bg{background:transparent !important}
 .fancybox-ie #fancybox-bg-n{-ms-filter:\'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' . EASY_FANCYBOX_PLUGINURL . 'fancybox/fancy_shadow_n.png",sizingMethod="scale")\'}
@@ -94,9 +96,9 @@ echo '
 		foreach (self::$options['Global']['options'] as $globals) {
 			foreach ($globals['options'] as $_key => $_value) {
 				if ( isset($_value['id']) )
-					if ( isset($_value['default']) ) 
+					if ( isset($_value['default']) )
 						$parm = get_option($_value['id'], $_value['default']);
-					else 
+					else
 						$parm = get_option($_value['id']);
 				elseif ( isset($_value['default']) )
 					$parm = $_value['default'];
@@ -120,7 +122,7 @@ echo '
 		}
 		echo ' };
 	var easy_fancybox_handler = function(){';
-	
+
 		foreach (self::$options as $key => $value) {
 			// check if not enabled or hide=true then skip
 			if ( isset($value['hide']) || !get_option(self::$options['Global']['options']['Enable']['options'][$key]['id'], self::$options['Global']['options']['Enable']['options'][$key]['default']) )
@@ -137,7 +139,7 @@ echo '
 				$attributeLimit = ':not(:empty)';
 			elseif($attributeLimit == '.has(\'img\')')
 				$attributeLimit = ':has(img)';
-		
+
 			if(!empty($autoAttribute)) {
 				if(is_numeric($autoAttribute)) {
 					echo '
@@ -198,10 +200,10 @@ echo '
 								echo '.attr(\'rel\', \'gallery\');';
 						}
 					}
-				
+
 				}
 			}
-		
+
 			$autoAttributeAlt = ( isset($value['options']['autoAttributeAlt']) ) ? get_option( $value['options']['autoAttributeAlt']['id'], $value['options']['autoAttributeAlt']['default'] ) : "";
 			if(!empty($autoAttributeAlt) && is_numeric($autoAttributeAlt)) {
 				echo '
@@ -210,7 +212,7 @@ echo '
 				//	echo '.attr(\'href\', function(index, attr){'.$value['options']['autoAttributeAlt']['href-replace']. '})';
 				echo '.addClass(\''.$value['options']['class']['default'].'\');';
 			}
-		
+
 			/*
 			 * Generate .fancybox() bind
 			 */
@@ -228,11 +230,11 @@ echo '
 			echo '.fancybox( jQuery.extend({}, fb_opts, {';
 			$more=0;
 			foreach ($value['options'] as $_key => $_value) {
-				if (isset($_value['id']) || isset($_value['default'])) 
+				if (isset($_value['id']) || isset($_value['default']))
 					$parm = (isset($_value['id']))? get_option($_value['id'], $_value['default']) : $_value['default'];
 				else
 					$parm = '';
-			
+
 				if( isset($_value['input']) && 'checkbox'==$_value['input'] )
 					$parm = ( '1' == $parm ) ? 'true' : 'false';
 
@@ -246,9 +248,9 @@ echo '
 				}
 			}
 			echo ' }) ';
-		
+
 			// use each() to allow different metadata values per instance; fix by Elron. Thanks!
-			if ( '1' == get_option(self::$options['Global']['options']['Links']['options']['metaData']['id'],self::$options['Global']['options']['Links']['options']['metaData']['default']) )		
+			if ( '1' == get_option(self::$options['Global']['options']['Links']['options']['metaData']['id'],self::$options['Global']['options']['Links']['options']['metaData']['default']) )
 				echo ');} ';
 
 			echo ')'.$trigger.';';
@@ -261,12 +263,12 @@ echo '
 				break;
 			case '1':
 				echo '
-	/* Auto-click */ 
+	/* Auto-click */
 	jQuery(\'#fancybox-auto\').trigger(\'click\');';
 				break;
 			case '99':
 				echo '
-	/* Auto-load */ 
+	/* Auto-load */
 	jQuery(\'a[class*="fancybox"]\').filter(\':first\').trigger(\'click\');';
 				break;
 		}
@@ -304,10 +306,10 @@ echo '
 			// check to see if the section is enabled, else skip to next
 			if ( array_key_exists($key, self::$options['Global']['options']['Enable']['options']) && !get_option( self::$options['Global']['options']['Enable']['options'][$key]['id'], self::$options['Global']['options']['Enable']['options'][$key]['default']) )
 				continue;
-			
+
 			switch($value['input']) {
 				case 'deep':
-					// go deeper by looping back on itself 
+					// go deeper by looping back on itself
 					self::register_settings($value['options']);
 					break;
 				case 'multiple':
@@ -428,14 +430,14 @@ echo '
 	 */
 	function add_action_link( $links ) {
 		$settings_link = '<a href="' . admin_url('options-media.php') . '">' . __('Settings') . '</a>';
-		array_unshift( $links, $settings_link ); 
+		array_unshift( $links, $settings_link );
 		return $links;
 	}
 
 	function intval($setting = '') {
 		if ($setting == '')
 			return '';
-	
+
 		if (substr($setting, -1) == '%') {
 			$val = intval(substr($setting, 0, -1));
 			$prc = '%';
@@ -443,7 +445,7 @@ echo '
 			$val = intval($setting);
 			$prc = '';
 		}
-	
+
 		return ( $val != 0 ) ? $val.$prc : 0;
 	}
 
@@ -452,8 +454,8 @@ echo '
 	    ACTIONS & FILTERS
 	 ***********************/
 
-	function register_scripts() {	
-	
+	function register_scripts() {
+
 	    if ( !is_admin() ) {
 		// ENQUEUE
 		// first get rid of previously registered variants of jquery.fancybox by other plugins or theme
@@ -479,7 +481,7 @@ echo '
 				wp_register_script('jquery-easing', EASY_FANCYBOX_PLUGINURL.'jquery.easing.pack.js', array('jquery'), EASING_VERSION, true);
 			}
 		}
-	
+
 		// mousewheel in IMG settings?
 		if ( '1' == get_option( self::$options['IMG']['options']['mouseWheel']['id'], self::$options['IMG']['options']['mouseWheel']['default']) ) {
 			// first get rid of previously registered variants of jquery.mousewheel (by other plugins)
@@ -491,7 +493,7 @@ echo '
 			// then register our version
 			wp_register_script('jquery-mousewheel', EASY_FANCYBOX_PLUGINURL.'jquery.mousewheel.pack.js', array('jquery'), MOUSEWHEEL_VERSION, true);
 		}
-		
+
 		// metadata in Link settings?
 		if ('1' == get_option( self::$options['Global']['options']['Links']['options']['metaData']['id'], self::$options['Global']['options']['Links']['options']['metaData']['default']) ) {
 			// first get rid of previously registered variants of jquery.metadata (by other plugins)
@@ -522,19 +524,19 @@ echo '
 		wp_enqueue_script('jquery-metadata');
 	}
 
-	function on_ready() {	
+	function on_ready() {
 		if (!self::$add_scripts) // abort mission, there is no need for any script files
 			return;
-		
+
 		// 'gform_post_render' for gForms content triggers an error... Why?
-		// 'post-load' is for Infinite Scroll by JetPack 
+		// 'post-load' is for Infinite Scroll by JetPack
 		echo '
 <script type="text/javascript">
 jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 </script>
 ';
 	}
-	
+
 	static function admin_init(){
 
 		add_filter('plugin_action_links_' . EASY_FANCYBOX_PLUGINBASENAME, array(__CLASS__, 'add_action_link') );
@@ -544,7 +546,7 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 		add_settings_section('fancybox_section', __('FancyBox','easy-fancybox'), array(__CLASS__, 'settings_section'), 'media');
 
 		self::register_settings( self::$options );
-	
+
 		// test with media upload resize... TODO : fix - because does not work anymore in the new uploader
 		//add_action( 'pre-upload-ui', 'media_upload_max_image_resize' );
 	}
@@ -566,23 +568,23 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 
 	static function init() {
 
-//		if ( is_admin() ) {			
+//		if ( is_admin() ) {
 //		}
-			
+
 		require_once(EASY_FANCYBOX_PLUGINDIR . 'easy-fancybox-settings.php');
-		
+
 		add_filter('embed_oembed_html', array(__CLASS__, 'add_video_wmode_opaque'), 10, 3);
 	}
-	
+
 	static function textdomain() {
-		if ( is_admin() ) {			
+		if ( is_admin() ) {
 			load_plugin_textdomain('easy-fancybox', false, dirname( EASY_FANCYBOX_PLUGINBASENAME ) . '/languages/');
 		}
 	}
 	/**********************
 	         ADMIN
 	 **********************/
-	 
+
 	public static function add_menu() {
 		/* Register our plugin page */
 		self::$pagehook = add_submenu_page( 'themes.php', __('Easy FancyBox Settings', 'easy-fancybox'), __('FancyBox', 'easy-fancybox'), 'manage_options', 'easy-fancybox', array(__CLASS__, 'admin') );
@@ -591,9 +593,9 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 	}
 
 	public static function admin() {
-		
+
 		add_filter( 'get_user_option_closedpostboxes_'.self::$pagehook, array(__CLASS__, 'closed_meta_boxes') );
-		
+
 		add_meta_box('submitdiv', __('Sections','easy-fancybox'), array(__CLASS__.'_Admin', 'meta_box_submit'), self::$pagehook, 'side', 'high');
 		add_meta_box('globaldiv', __('Global settings', 'easy-fancybox'), array(__CLASS__.'_Admin', 'meta_box_global'), self::$pagehook, 'normal', 'high');
 		add_meta_box('imgdiv', __('Images', 'easy-fancybox'), array(__CLASS__.'_Admin', 'meta_box_img'), self::$pagehook, 'normal', 'normal');
@@ -610,7 +612,7 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 	}
 
 	public function closed_meta_boxes( $closed ) {
-		
+
 		if ( false === $closed )
 			// set default closed metaboxes
 			$closed = array( 'advanceddiv', 'supportdiv', 'creditsdiv', 'resourcesdiv' );
@@ -627,17 +629,17 @@ jQuery(document).on(\'ready post-load\', easy_fancybox_handler );
 		wp_enqueue_script('common');
 		wp_enqueue_script('wp-list');
 		wp_enqueue_script('postbox');
-	
+
 		//add several metaboxes now, all metaboxes registered during load page can be switched off/on at "Screen Options" automatically, nothing special to do therefore
-		//add_meta_box('advanceddiv', __('Advanced Options', 'skype-online-status'), array(__CLASS__.'_Admin', 'meta_box_advanced'), self::$pagehook, 'normal', 'core'); 
-		
+		//add_meta_box('advanceddiv', __('Advanced Options', 'skype-online-status'), array(__CLASS__.'_Admin', 'meta_box_advanced'), self::$pagehook, 'normal', 'core');
+
 		add_meta_box('supportdiv', __('Support','easy-fancybox'), array(__CLASS__.'_Admin', 'meta_box_support'), self::$pagehook, 'side', 'core');
 		add_meta_box('resourcesdiv', __('Resources','skype-online-status'), array(__CLASS__.'_Admin', 'meta_box_resources'), self::$pagehook, 'side', 'low');
 		add_meta_box('discussiondiv', __('Discussion'), array(__CLASS__.'_Admin', 'meta_box_discussion'), self::$pagehook, 'normal', 'low');
 		add_meta_box('creditsdiv', __('Credits','skype-online-status'), array(__CLASS__.'_Admin', 'meta_box_credits'), self::$pagehook, 'side', 'default');
 
 	}
-	
+
 	/**********************
 	         RUN
 	 **********************/
