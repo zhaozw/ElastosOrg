@@ -18,7 +18,7 @@ function openid_server_url() {
 
 
 /**
- * Add XRDS entries for OpenID Server.  Entries added will be highly 
+ * Add XRDS entries for OpenID Server.  Entries added will be highly
  * dependant on the requested URL and plugin configuration.
  *
  * @uses apply_filters() Calls 'openid_server_xrds_types' before returning XRDS Types for OpenID authentication services.
@@ -41,7 +41,7 @@ function openid_provider_xrds_simple($xrds) {
 
 
 	$user = openid_server_requested_user();
-	
+
 	if (!$user && get_option('openid_blog_owner')) {
 		$url_parts = parse_url(get_option('home'));
 		$path = array_key_exists('path', $url_parts) ? $url_parts['path'] : '';
@@ -63,7 +63,7 @@ function openid_provider_xrds_simple($xrds) {
 	// if get_option('openid_blog_owner') --> false
 	// use the first user as its owner
 	if (!$user) {
-		//get the userID, it is login 
+		//get the userID, it is login
 		$users = get_users_of_blog();
 
 		if (!empty($users)) {
@@ -186,7 +186,7 @@ function openid_server_request() {
 			$html .= '<p>Nothing to see here&#8230; move along.</p>';
 		}
 
-		wp_die($html);
+		die($html);
 	}
 
 	// process request
@@ -249,8 +249,8 @@ function openid_server_auth_request($request) {
 				ob_start();
 
 				echo '<h1>'.__('OpenID Login Error', 'openid').'</h1>';
-				echo '<p>'; 
-				printf(__('Because you have delegated your OpenID, you cannot login with the URL <strong>%s</strong>. Instead, you must use your full OpenID when logging in.', 'openid'), trailingslashit(get_option('home')));  
+				echo '<p>';
+				printf(__('Because you have delegated your OpenID, you cannot login with the URL <strong>%s</strong>. Instead, you must use your full OpenID when logging in.', 'openid'), trailingslashit(get_option('home')));
 				echo'</p>';
 				echo '<p>' . sprintf(__('Your full OpenID is: %s', 'openid'), '<strong>'.$author_url.'</strong>') . '</p>';
 
@@ -278,9 +278,9 @@ function openid_server_auth_request($request) {
 		$trusted_sites[$site_hash]['last_login'] = time();
 		update_user_meta($user->ID, 'openid_trusted_sites', $trusted_sites);
 
-		if ($id_select) { 
+		if ($id_select) {
 			return $request->answer(true, null, $author_url);
-		} else { 
+		} else {
 			return $request->answer(true);
 		}
 	}
@@ -289,12 +289,12 @@ function openid_server_auth_request($request) {
 	if ($request->mode == 'checkid_immediate') {
 		return $request->answer(false);
 	}
-		
+
 	// finally, prompt the user to trust this site
 	if (openid_server_user_trust($request)) {
-		if ($id_select) { 
+		if ($id_select) {
 			return $request->answer(true, null, $author_url);
-		} else { 
+		} else {
 			return $request->answer(true);
 		}
 	} else {
@@ -491,7 +491,7 @@ function openid_server_user_trust($request) {
 			<p style="margin: 1.5em 0 1em 0;">'
 				. sprintf(__('%s has asked to verify your identity.', 'openid'), '<strong>'.$request->trust_root.'</strong>')
 				. '</p>
-			
+
 			<p style="margin: 1em 0;">'
 				. __('Click <strong>Continue</strong> to verify your identity and login without creating a new password.', 'openid')
 			. '</p>';
@@ -505,7 +505,7 @@ function openid_server_user_trust($request) {
 			</p>
 
 			<p style="margin: 3em 0 1em 0; font-size: 0.8em;">'
-				. sprintf(__('Manage or remove access on the <a href="%s" target="_blank">Trusted Sites</a> page.', 'openid'), 
+				. sprintf(__('Manage or remove access on the <a href="%s" target="_blank">Trusted Sites</a> page.', 'openid'),
 					admin_url((current_user_can('edit_users') ? 'users.php' : 'profile.php') . '?page=openid_trusted_sites'))
 				. '</p>
 			<p style="margin: 1em 0; font-size: 0.8em;">'
