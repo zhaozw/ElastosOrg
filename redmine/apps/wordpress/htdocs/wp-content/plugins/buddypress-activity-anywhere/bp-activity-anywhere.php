@@ -45,177 +45,175 @@ function bpaa_init() {
 	add_action('admin_bar_menu', 'bpaa_admin_bar_button', 100);
 
 	function bpaa_form() { ?>
-		<style>
-			#wp-admin-bar-post-update {
-				position: relative;
-				width: 90px;
-			}
-			#bpaa-form-wrapper {
-				position: absolute;
-				width: 600px;
-				padding: 10px;
-				background: #E5F2F7;
-				top: 29px;
-				-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
-				-webkit-border-radius: 3px;
-				border: 1px solid rgba(100, 100, 100, .4);
-				-webkit-background-clip: padding-box;
-				padding-bottom: 10px;
-				-webkit-border-radius: 3px;
-				-moz-border-radius: 3px;
-				border-radius: 3px;
-			}
+<style>
+#wp-admin-bar-post-update {
+	position: relative;
+	width: 90px;
+}
+#bpaa-form-wrapper {
+	position: absolute;
+	width: 600px;
+	padding: 10px;
+	background: #E5F2F7;
+	top: 29px;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	-webkit-border-radius: 3px;
+	border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-background-clip: padding-box;
+	padding-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
 
-			#bpaa-form-wrapper form textarea {
-				float: left;
-				width: 96% !important;
-				color:#666;
-				font-size:14px;
-				line-height:1.5;
-				-moz-border-radius: 8px; -webkit-border-radius: 8px;
-				margin:5px 0px 10px 0px;
-				padding:10px;
-				height:160px;
-				border:#999 1px solid;
-				transition: all 0.25s ease-in-out;
-				-webkit-transition: all 0.25s ease-in-out;
-				-moz-transition: all 0.25s ease-in-out;
-				box-shadow: 0 0 5px rgba(81, 203, 238, 0);
-				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
-				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
-			}
+#bpaa-form-wrapper form textarea {
+	float: left;
+	width: 96% !important;
+	color:#666;
+	font-size:14px;
+	line-height:1.5;
+	-moz-border-radius: 8px; -webkit-border-radius: 8px;
+	margin:5px 0px 10px 0px;
+	padding:10px;
+	height:160px;
+	border:#999 1px solid;
+	transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+}
 
-			#bpaa-form-wrapper form textarea:focus {
-				color:#000;
-				outline:none;
-				border:#35a5e5 1px solid;
-				line-height:1.5;
-				box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-				-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-				-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-			}
+#bpaa-form-wrapper form textarea:focus {
+	color:#000;
+	outline:none;
+	border:#35a5e5 1px solid;
+	line-height:1.5;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
 
-			#bpaa-buttons-wrapper {
-				float: left;
-				margin-top: 5px;
-			}
+#bpaa-buttons-wrapper {
+	float: left;
+	margin-top: 5px;
+}
 
-			#bpaa-form-wrapper form input[type="button"], #bpaa-form-wrapper form input[type="submit"]  {
-				font: normal 12px sans-serif;
-				padding: 5px;
-				color: #777;
-				text-shadow: none;
-			}
+#bpaa-form-wrapper form input[type="button"], #bpaa-form-wrapper form input[type="submit"]  {
+	font: normal 12px sans-serif;
+	padding: 5px;
+	color: #777;
+	text-shadow: none;
+}
 
-			.bpaa-warning {
-				border: 3px solid rgb(233, 130, 130) !important;
-			}
+.bpaa-warning {
+	border: 3px solid rgb(233, 130, 130) !important;
+}
 
-			[draggable=true] {
-				cursor: move;
-			}
+[draggable=true] {
+	cursor: move;
+}
 
-			.title {
-				background: #f2f2f2;
-				height: 30px;
-				line-height: 30px;
-				font-weight: 700;
-				padding: 0 0 0 20px;
-				font-size: 12px;
-				vertical-align: middle;
-				cursor: move;
-			}
+.title {
+	background: #f2f2f2;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	padding: 0 0 0 20px;
+	font-size: 12px;
+	vertical-align: middle;
+	cursor: move;
+}
 
-			#bpaa-submit {
-				color: red;
-				border-color: red;
-			}
-		</style>
-
-		<!-- form -->
-		<div id="bpaa-form-wrapper" hidden draggable="true">
-			<div class="title">
-				<span style="color:#333;">Post MicroBLOG</span>
-			</div>
-			<form id="bpaa-form" action="" method="post">
-				<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
-				<div name="bpaa_reply" id="bpaa_reply" value="" style="background-color:green;height:0px;visibility:hidden;"></div>
-				<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
-				<input type="hidden" id="o_id" name="o_id" value="0" />
-				<div id="bpaa-buttons-wrapper">
-					<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;color:red;border-width:2px;">
-					<input type="button" class="button" id="bpaa-cancel" value="cancel" onclick="clear_bpaa_reply();"/>
-				</div>
-				<div id="group-id-box" style="float:right;color:#14A0CD;">
-					<?php _e( 'Post in', 'buddypress' ); ?>
-					<select id="group_id" name="group_id" style="color:#14A0CD;background:#F7F8FF;">
-						<option selected="selected" value="0" style="color:#333;"><?php _e( 'My MicroBLOG', 'buddypress' ); ?></option>
-						<?php if ( bp_has_groups( 'user_id=' . bp_loggedin_user_id() . '&type=alphabetical&max=100&per_page=100&populate_extras=0' ) ) :
-							while ( bp_groups() ) : bp_the_group(); ?>
-								<option value="<?php bp_group_id(); ?>" style="color:#333;"><?php bp_group_name(); ?></option>
-							<?php endwhile;
-						endif; ?>
-					</select>
-				</div>
-			</form>
+#bpaa-submit {
+	color: red;
+	border-color: red;
+}
+</style>
+<div id="bpaa-form-wrapper" hidden draggable="true">
+	<div class="title">
+		<span style="color:#333;">Post MicroBLOG</span>
+	</div>
+	<form id="bpaa-form" action="" method="post">
+		<?php wp_nonce_field('bpaa_submit_form','bpaa_update_activity'); ?>
+		<div name="bpaa_reply" id="bpaa_reply" value="" style="background-color:green;height:0px;visibility:hidden;"></div>
+		<textarea name="bpaa_textarea" id="bpaa-textarea" value="" class="bpaa-input" placeholder="Post something to activity..."></textarea>
+		<input type="hidden" id="o_id" name="o_id" value="0" />
+		<div id="bpaa-buttons-wrapper">
+			<input type="button" class="post-button" id="bpaa-submit" value="Post MicroBLOG" name="bpaa_submit" style="font-weight:bold;background:#B7DBE9;color:red;border-width:2px;">
+			<input type="button" class="button" id="bpaa-cancel" value="cancel" onclick="clear_bpaa_reply();"/>
 		</div>
-		<script>
-			jQuery("#bpaa-textarea").mentions({ resultsbox:"#bpaa-textarea", mentions_autosuggest: "m-a-any", resultsbox_position : 'after' });
+		<div id="group-id-box" style="float:right;color:#14A0CD;">
+<?php _e( 'Post in', 'buddypress' ); ?>
+<select id="group_id" name="group_id" style="color:#14A0CD;background:#F7F8FF;">
+<option selected="selected" value="0" style="color:#333;"><?php _e( 'My MicroBLOG', 'buddypress' ); ?></option>
+<?php if ( bp_has_groups( 'user_id=' . bp_loggedin_user_id() . '&type=alphabetical&max=100&per_page=100&populate_extras=0' ) ) :
+while ( bp_groups() ) : bp_the_group(); ?>
+<option value="<?php bp_group_id(); ?>" style="color:#333;"><?php bp_group_name(); ?></option>
+<?php endwhile;
+endif; ?>
+</select>
+		</div>
+	</form>
+</div>
+<script>
+jQuery("#bpaa-textarea").mentions({ resultsbox:"#bpaa-textarea", mentions_autosuggest: "m-a-any", resultsbox_position : 'after' });
 
-			function clear_bpaa_reply() {
-				jQuery('#bpaa_reply').css({'height':'0px','visibility':'hidden'});
-				jQuery("#bpaa_reply").html("");
-			}
+function clear_bpaa_reply() {
+	jQuery('#bpaa_reply').css({'height':'0px','visibility':'hidden'});
+	jQuery("#bpaa_reply").html("");
+}
 
-			jQuery(document).ready(function($) {
+jQuery(document).ready(function($) {
+	$('#bpaa-form-wrapper').stop().fadeOut('fast');
+	$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-comments');
+	$('li#wp-admin-bar-comments a').addClass('bpaa-trigger');
+
+	//remove warning when in input fields
+	$('.bpaa-input').focus(function() {
+		$('#bpaa-textarea').removeClass('bpaa-warning');
+	});
+	//when submit check if at least one filed as value and if so submit the form
+	//otherwise add warning
+	$("#bpaa-submit").click(function() {
+		//if(!$.trim($('#bpaa-textarea').value).length) { // zero-length string AFTER a trim
+		if ( $('#bpaa-textarea').val() ) {
+			var reply = $("#bpaa_reply").html();
+			if (reply!="")
+				reply = "\n//"+$("#bpaa_reply").html();
+
+			//$("#bpaa-form").submit();
+		   	var data = {
+				action: 'activity_add_anywhere',
+				bpaa_textarea: $("#bpaa-textarea").val()+reply,
+				bpaa_update_activity: $("#bpaa_update_activity").val(),
+				o_id: $("#o_id").val(),
+				group_id: $("#group_id").val()
+			};
+
+			$.post(ajaxurl, data, function(response) {
 				$('#bpaa-form-wrapper').stop().fadeOut('fast');
-				$('#bpaa-form-wrapper').appendTo('#wp-admin-bar-comments');
-				$('li#wp-admin-bar-comments a').addClass('bpaa-trigger');
-
-				//remove warning when in input fields
-				$('.bpaa-input').focus(function() {
-					$('#bpaa-textarea').removeClass('bpaa-warning');
-				});
-				//when submit check if at least one filed as value and if so submit the form
-				//otherwise add warning
-				$("#bpaa-submit").click(function() {
-					//if(!$.trim($('#bpaa-textarea').value).length) { // zero-length string AFTER a trim
-					if ( $('#bpaa-textarea').val() ) {
-						var reply = $("#bpaa_reply").html();
-						if (reply!="")
-							reply = "\n//"+$("#bpaa_reply").html();
-
-						//$("#bpaa-form").submit();
-					   	var data = {
-							action: 'activity_add_anywhere',
-							bpaa_textarea: $("#bpaa-textarea").val()+reply,
-							bpaa_update_activity: $("#bpaa_update_activity").val(),
-							o_id: $("#o_id").val(),
-							group_id: $("#group_id").val()
-						};
-
-						$.post(ajaxurl, data, function(response) {
-							$('#bpaa-form-wrapper').stop().fadeOut('fast');
-							$("#bpaa-textarea").val("");
-							$("#o_id").val("0");
-							$("#group_id").val("0");
-							clear_bpaa_reply();
-						});
-
-					} else {
-						$('#bpaa-textarea').addClass('bpaa-warning');
-					}
-				});
-				// show and hide the form
-				$(".bpaa-trigger").click(function(event) {
-					event.preventDefault();
-					$('#bpaa-form-wrapper').stop().fadeIn('fast');
-				});
-				$("#bpaa-cancel").click(function() {
-					$('#bpaa-form-wrapper').stop().fadeOut('fast');
-				});
+				$("#bpaa-textarea").val("");
+				$("#o_id").val("0");
+				$("#group_id").val("0");
+				clear_bpaa_reply();
 			});
-		</script>
+
+		} else {
+			$('#bpaa-textarea').addClass('bpaa-warning');
+		}
+	});
+	// show and hide the form
+	$(".bpaa-trigger").click(function(event) {
+		event.preventDefault();
+		$('#bpaa-form-wrapper').stop().fadeIn('fast');
+	});
+	$("#bpaa-cancel").click(function() {
+		$('#bpaa-form-wrapper').stop().fadeOut('fast');
+	});
+});
+</script>
 	<?php
 	}
 	add_action('wp_footer','bpaa_form');
