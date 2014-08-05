@@ -619,7 +619,7 @@ function si_captcha_lostpassword_post() {
    $validate_result = $this->si_captcha_validate_code('reg', 'unlink');
    if($validate_result != 'valid') {
        $error = ($si_captcha_opt['si_captcha_error_error'] != '') ? $si_captcha_opt['si_captcha_error_error'] : __('ERROR', 'si-captcha');
-       wp_die( "<strong>$error</strong>: $validate_result" );
+       die( "<strong>$error</strong>: $validate_result" );
    }
    return;
 
@@ -662,7 +662,7 @@ function si_captcha_comment_post($comment) {
    $validate_result = $this->si_captcha_validate_code('com', 'unlink');
    if($validate_result != 'valid') {
        $error = ($si_captcha_opt['si_captcha_error_error'] != '') ? $si_captcha_opt['si_captcha_error_error'] : __('ERROR', 'si-captcha');
-       wp_die( "<strong>$error</strong>: $validate_result" );
+       die( "<strong>$error</strong>: $validate_result" );
    }
    return($comment);
 
