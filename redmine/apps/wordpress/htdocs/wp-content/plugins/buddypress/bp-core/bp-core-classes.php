@@ -507,8 +507,8 @@ class BP_Core_User {
 		$search_terms = like_escape( $wpdb->escape( $search_terms ) );
 		$status_sql   = bp_core_get_status_sql( 'u.' );
 
-		$total_users_sql = apply_filters( 'bp_core_search_users_count_sql', "SELECT COUNT(DISTINCT u.ID) as id FROM {$wpdb->users} u LEFT JOIN {$bp->profile->table_name_data} pd ON u.ID = pd.user_id WHERE {$status_sql} AND pd.value LIKE '%%$search_terms%%' ORDER BY pd.value ASC", $search_terms );
-		$paged_users_sql = apply_filters( 'bp_core_search_users_sql', "SELECT DISTINCT u.ID as id, u.user_registered, u.user_nicename, u.user_login, u.user_email FROM {$wpdb->users} u LEFT JOIN {$bp->profile->table_name_data} pd ON u.ID = pd.user_id WHERE {$status_sql} AND pd.value LIKE '%%$search_terms%%' ORDER BY pd.value ASC{$pag_sql}", $search_terms, $pag_sql );
+		$total_users_sql = apply_filters( 'bp_core_search_users_count_sql', "SELECT COUNT(DISTINCT u.ID) as id FROM {$wpdb->users} u LEFT JOIN {$bp->profile->table_name_data} pd ON u.ID = pd.user_id WHERE {$status_sql} AND ((pd.value LIKE '%%$search_terms%%') OR (user_login LIKE '%%$search_terms%%') OR (user_nicename LIKE '%%$search_terms%%') OR (user_email LIKE '%%$search_terms%%') OR (display_name LIKE '%%$search_terms%%')) ORDER BY pd.value ASC", $search_terms );
+		$paged_users_sql = apply_filters( 'bp_core_search_users_sql', "SELECT DISTINCT u.ID as id, u.user_registered, u.user_nicename, u.user_login, u.user_email FROM {$wpdb->users} u LEFT JOIN {$bp->profile->table_name_data} pd ON u.ID = pd.user_id WHERE {$status_sql} AND ((pd.value LIKE '%%$search_terms%%') OR (user_login LIKE '%%$search_terms%%') OR (user_nicename LIKE '%%$search_terms%%') OR (user_email LIKE '%%$search_terms%%') OR (display_name LIKE '%%$search_terms%%')) ORDER BY pd.value ASC{$pag_sql}", $search_terms, $pag_sql );
 
 		$total_users = $wpdb->get_var( $total_users_sql );
 		$paged_users = $wpdb->get_results( $paged_users_sql );
