@@ -287,7 +287,22 @@ class bpModDefaultContentTypes
 		if ( !empty( $id ) ) {
 			$activityId = '&nbsp;|&nbsp;<a href="' . bp_activity_get_permalink($id) . '" title="More about this post"><i class="fa fa-cogs" style="color:#14A0CD;"></i></a>';
 		} else {
-			$activityId = '';
+			$group_id = get_groupblog_group_id( $wpdb->blogid );
+
+			if ( !$group_id ) {
+				$activityId = '';
+			} else {
+				$id = bp_activity_get_activity_id( array(
+					'type'	=> 'new_groupblog_post',
+					'item_id'   => $group_id,
+					'secondary_item_id' => $post->ID
+				) );
+				if ( !empty( $id ) ) {
+					$activityId = '&nbsp;|&nbsp;<a href="' . bp_activity_get_permalink($id) . '" title="More about this post"><i class="fa fa-cogs" style="color:#14A0CD;"></i></a>';
+				} else {
+					$activityId = '';
+				}
+			}
 		}
 
 //		return "$content\n\n$link";
