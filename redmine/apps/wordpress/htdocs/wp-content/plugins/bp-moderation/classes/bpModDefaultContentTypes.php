@@ -277,11 +277,25 @@ class bpModDefaultContentTypes
 											 'unflagged_text' => __('Flag this post', 'bp-moderation')
 										));
 
-//		return "$content\n\n$link";
-		if (is_null($link))
-			return $content . '<p style="text-indent:0em;"><span class="bpm-inner-text" style="text-decoration:none;">&nbsp;</span>' . "|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</p>";
+		$id = bp_activity_get_activity_id( array(
+			'user_id'	=> (int) $post->post_author,
+			'type'	=> 'new_blog_post',
+			'item_id'   => $wpdb->blogid,
+			'secondary_item_id' => $post->ID
+		) );
 
-		return $content . '<p style="text-indent:0em;">' . $link . "&nbsp;|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags</p>";
+		if ( !empty( $id ) ) {
+			$activityId = '&nbsp;|&nbsp;<a href="' . bp_activity_get_permalink($id) . '" title="More about this post"><i class="fa fa-cogs" style="color:#14A0CD;"></i></a>';
+		} else {
+			$activityId = '';
+		}
+
+//		return "$content\n\n$link";
+		if (is_null($link)) {
+			return $content . '<p style="text-indent:0em;"><span class="bpm-inner-text" style="text-decoration:none;">&nbsp;</span>' . "|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags" . $activityId ."</p>";
+		}
+
+		return $content . '<p style="text-indent:0em;">' . $link . "&nbsp;|&nbsp;" . number_format_i18n(intval(post_custom('views'))) . "&nbsp;views&nbsp;|&nbsp;" . number_format_i18n($post->comment_count) . "&nbsp;comments&nbsp;|&nbsp;" . number_format_i18n($num). "&nbsp;flags" . $activityId ."</p>";
 
 	}
 
