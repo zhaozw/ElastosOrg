@@ -1389,7 +1389,7 @@ function bp_dtheme_hide_comments() {
 				jq(this).toggle();
 
 				if ( !i )
-					jq(this).before( '<li class="show-all"><a href="#' + parent_li.attr('id') + '/show-all/" title="' + BP_DTheme.show_all_comments + '">' + BP_DTheme.show_all + ' ' + comment_count + ' ' + BP_DTheme.comments + '</a></li>' );
+					jq(this).before( '<li class="show-all"><i class="fa fa-caret-square-o-down fa-lg" style="color:#14A0CD;"></i> <a href="#' + parent_li.attr('id') + '/show-all/" title="' + BP_DTheme.show_all_comments + '">' + BP_DTheme.show_all + ' ' + comment_count + ' ' + BP_DTheme.comments + '</a></li>' );
 			}
 		});
 
