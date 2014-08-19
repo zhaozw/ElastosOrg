@@ -344,7 +344,7 @@ function _do_upload(){
 		$this->_return_upload_error( sprintf(__('For uploading, file size must be less than %s Mbytes', $this->id), $opts['max_size']) );
 
 	add_filter( 'upload_dir', array(&$this, '_upload_dir') );
-	add_filter( 'sanitize_file_name', array(&$this, '_sanitize_file_name') );
+	//add_filter( 'sanitize_file_name', array(&$this, '_sanitize_file_name') );
 	//add_filter( 'upload_mimes', array(&$this, '_upload_mimes') );
 
 	$upload = wp_upload_bits($_FILES['file']['name'], null, file_get_contents($_FILES['file']['tmp_name']));
