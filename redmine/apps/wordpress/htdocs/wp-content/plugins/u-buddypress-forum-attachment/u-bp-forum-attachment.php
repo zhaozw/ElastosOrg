@@ -423,13 +423,13 @@ function _create_thumbnail($upload){
 
 function _do_download(){
 	if ( !wp_verify_nonce($_GET['_wpnonce'], $this->id.'_nonce') )
-		wp_die(__('Your nonce did not verify.', $this->id));
+		die(__('Your nonce did not verify.', $this->id));
 
 	$filename = basename($_GET['filename']);
 	$filepath = $this->get_upload_dir_path().$filename;
 
 	if( empty($filename) || !file_exists($filepath) ) {
-		wp_die(__('File does not exist', $this->id));
+		die(__('File does not exist', $this->id));
 	}else{
 		$this->_force_download($filename, file_get_contents($filepath));
 	}
@@ -446,7 +446,7 @@ function _force_download($filename = '', $data = ''){
 	$mime_type = $rs['type'];
 
 	if( empty($mime_type) ){
-		wp_die(__('Invalid file type'));
+		die(__('Invalid file type'));
 
 	}else{
 		if (strpos($_SERVER['HTTP_USER_AGENT'], "MSIE") !== FALSE){
@@ -633,7 +633,7 @@ function activation() {
 	global $wp_version;
 
 	if (version_compare($wp_version, "3.1", "<"))
-		wp_die("This plugin requires WordPress version 3.1 or higher.");
+		die("This plugin requires WordPress version 3.1 or higher.");
 
 	register_uninstall_hook( __FILE__, 'ubpfattach_uninstall' );
 
