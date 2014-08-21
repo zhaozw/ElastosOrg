@@ -112,21 +112,6 @@ get_header( 'buddypress' ); ?>
 
 							<?php endif; ?>
 
-							<?php if ( bp_is_active( 'groups' ) ) : ?>
-
-								<option value="created_group"><?php _e( 'New Groups', 'buddypress' ); ?></option>
-								<option value="joined_group"><?php _e( 'Group Memberships', 'buddypress' ); ?></option>
-
-							<?php endif; ?>
-
-							<?php if ( bp_is_active( 'friends' ) ) : ?>
-
-								<option value="friendship_accepted,friendship_created"><?php _e( 'Friendships', 'buddypress' ); ?></option>
-
-							<?php endif; ?>
-
-							<option value="new_member"><?php _e( 'New Members', 'buddypress' ); ?></option>
-
 							<?php do_action( 'bp_activity_filter_options' ); ?>
 
 						</select>

@@ -29,26 +29,12 @@
 
 					<?php
 					endif;
-
-					if ( bp_is_active( 'friends' ) ) : ?>
-
-						<option value="friendship_accepted,friendship_created"><?php _e( 'Friendships', 'buddypress' ); ?></option>
-
-					<?php endif;
-
 				endif;
 
 				if ( bp_is_active( 'forums' ) ) : ?>
 
 					<option value="new_forum_topic"><?php _e( 'Forum Topics', 'buddypress' ); ?></option>
 					<option value="new_forum_post"><?php _e( 'Forum Replies', 'buddypress' ); ?></option>
-
-				<?php endif;
-
-				if ( bp_is_active( 'groups' ) ) : ?>
-
-					<option value="created_group"><?php _e( 'New Groups', 'buddypress' ); ?></option>
-					<option value="joined_group"><?php _e( 'Group Memberships', 'buddypress' ); ?></option>
 
 				<?php endif;
 
