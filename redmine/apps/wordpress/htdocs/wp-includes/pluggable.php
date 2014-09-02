@@ -1741,3 +1741,16 @@ function wp_text_diff( $left_string, $right_string, $args = null ) {
 	return $r;
 }
 endif;
+
+if ( !function_exists('wp_sabre_password') ) :
+/**
+ * Create a hash (encrypt) of a plain text password for sabre.
+ *
+ * For integration with sabre http://sabre.io/
+ *
+ */
+function wp_sabre_password($username, $password) {
+	//md5('username:realm:password')
+	return md5($username . ':SabreDAV:' . $password);
+}
+endif;
