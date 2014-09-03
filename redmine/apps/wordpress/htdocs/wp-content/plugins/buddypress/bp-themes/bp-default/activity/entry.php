@@ -55,26 +55,44 @@
 
 			<div class="activity-meta">
 
-				<?php if ( bp_activity_can_comment() ) : ?>
+				<?php if ( bp_activity_can_comment() ) :
 
-					<a href="<?php bp_get_activity_comment_link(); ?>" class="button acomment-reply bp-primary-action" id="acomment-comment-<?php bp_activity_id(); ?>"><i class="fa fa-reply" style="color:#14A0CD;"></i> <?php printf( __( 'Reply <span>%s</span>', 'buddypress' ), bp_activity_get_comment_count() ); ?></a>
-
-				<?php endif; ?>
-
-				<?php if ( bp_activity_can_favorite() ) : ?>
-
-					<?php if ( !bp_get_activity_is_favorite() ) : ?>
-
-						<a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><i class="fa fa-link" style="color:#14A0CD;"></i> <?php printf( __('Favorite <span>%s</span>', 'buddypress'), bp_activity_get_favorite_count() ); ?></a>
-
-					<?php else : ?>
-
-						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><i class="fa fa-chain-broken" style="color:#14A0CD;"></i> <?php printf( __('Remove Favorite <span>%s</span>', 'buddypress'), bp_activity_get_favorite_count() ); ?></a>
-
-					<?php endif; ?>
+					?><a href="<?php bp_get_activity_comment_link(); ?>" class="button acomment-reply bp-primary-action" id="acomment-comment-<?php bp_activity_id(); ?>"><i class="fa fa-reply" style="color:#14A0CD;"></i> <?php
+						$n = bp_activity_get_comment_count();
+						if ($n > 0)
+							printf( __( 'Reply <span>%s</span>', 'buddypress' ), $n );
+						else
+							printf( __( 'Reply', 'buddypress' ));
+						?></a>
 
 				<?php endif; ?>
-<?php
+
+				<?php if ( bp_activity_can_favorite() ) :
+
+					if ( !bp_get_activity_is_favorite() ) :
+
+						?><a href="<?php bp_activity_favorite_link(); ?>" class="button fav bp-secondary-action" title="<?php esc_attr_e( 'Mark as Favorite', 'buddypress' ); ?>"><i class="fa fa-link" style="color:#14A0CD;"></i> <?php
+							$n = bp_activity_get_favorite_count();
+							if ($n > 0)
+								printf( __('Favorite <span>%s</span>', 'buddypress'), $n );
+							else
+								printf( __('Favorite', 'buddypress') );
+							?></a>
+
+					<?php else :
+
+						?><a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action" title="<?php esc_attr_e( 'Remove Favorite', 'buddypress' ); ?>"><i class="fa fa-chain-broken" style="color:#14A0CD;"></i> <?php
+							$n = bp_activity_get_favorite_count();
+							if ($n > 0)
+								printf( __('Remove Favorite <span>%s</span>', 'buddypress'), $n );
+							else
+								printf( __('Remove Favorite', 'buddypress') );
+							?></a>
+
+					<?php endif;
+
+				endif;
+
 	global $activities_template;
 
     $msg = '//<a href=\\"' . bp_get_activity_user_link() . '\\">@' . $activities_template->activity->user_login . '</a> ';
@@ -90,22 +108,28 @@
    $activity_content = str_replace('"', '&quot;', $activity_content);
 
    $msg = $user_link . '\',\'' . $user_login . '\',\'' . $activity_url . '\',\'' . $activity_content . '\',\'' . bp_get_activity_id();
-?>
-				<a class="button forward-trigger bp-secondary-action" id="acomment-forward-<?php bp_activity_id(); ?>"  onclick="forward_it('<?php echo $msg; ?>');"><i class="fa fa-share" style="color:#14A0CD;"></i> <?php printf( __( 'Forward <span>%s</span>', 'buddypress' ), bp_activity_get_forward_count() ); ?></a>
 
-				<?php if ( bp_activity_user_can_delete() ) bp_activity_delete_link(); ?>
+				?><a class="button forward-trigger bp-secondary-action" id="acomment-forward-<?php bp_activity_id(); ?>"  onclick="forward_it('<?php echo $msg; ?>');"><i class="fa fa-share" style="color:#14A0CD;"></i> <?php
+					$n = bp_activity_get_forward_count();
+					if ($n > 0)
+						printf( __( 'Forward <span>%s</span>', 'buddypress' ), $n );
+					else
+						printf( __( 'Forward', 'buddypress' ) );
+					?></a>
 
-				<?php do_action( 'bp_activity_entry_meta' ); ?>
+				<?php if ( bp_activity_user_can_delete() ) bp_activity_delete_link();
 
-			</div>
+				do_action( 'bp_activity_entry_meta' );
+
+			 ?></div>
 
 		<?php endif; ?>
 
 	</div>
 
-	<?php do_action( 'bp_before_activity_entry_comments' ); ?>
+	<?php do_action( 'bp_before_activity_entry_comments' );
 
-	<?php if ( ( is_user_logged_in() && bp_activity_can_comment() ) || bp_activity_get_comment_count() ) : ?>
+	if ( ( is_user_logged_in() && bp_activity_can_comment() ) || bp_activity_get_comment_count() ) : ?>
 
 		<div class="activity-comments">
 
