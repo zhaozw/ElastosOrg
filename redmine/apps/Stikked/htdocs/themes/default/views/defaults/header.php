@@ -34,7 +34,7 @@ $this->carabiner->css('print.css', 'print');
 $this->carabiner->css('codemirror.css');
 $this->carabiner->css('diff.css');
 
-$this->carabiner->display('css'); 
+$this->carabiner->display('css');
 
 ?>
 	<script type="text/javascript">
@@ -45,8 +45,9 @@ $this->carabiner->display('css');
 	</head>
 	<body>
 		<div id="container">
-			<div class="container">			
+			<div class="container">
 				<div class="header">
+					<a href="http://elastos.org/" title="elastos.org"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="width:25px;height:25px;float:left;"/></a>
 					<h1><a href="<?php echo base_url(); ?>" class="title"><?php echo $this->config->item('site_name'); ?></a></h1>
 					<ul class="tabs">
 						<?php $l = $this->uri->segment(1)?>
