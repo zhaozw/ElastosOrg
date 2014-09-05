@@ -133,9 +133,10 @@ if ( post_type_supports($post_type, 'excerpt') )
 if ( post_type_supports($post_type, 'trackbacks') )
 	add_meta_box('trackbacksdiv', __('Send Trackbacks'), 'post_trackback_meta_box', null, 'normal', 'core');
 */
+/*
 if ( post_type_supports($post_type, 'custom-fields') )
 	add_meta_box('postcustom', __('Custom Fields'), 'post_custom_meta_box', null, 'normal', 'core');
-
+*/
 do_action('dbx_post_advanced');
 if ( post_type_supports($post_type, 'comments') )
 	add_meta_box('commentstatusdiv', __('Discussion'), 'post_comment_status_meta_box', null, 'normal', 'core');
