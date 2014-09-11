@@ -191,6 +191,8 @@ if (defined('ENVIRONMENT'))
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
+     global $userName;
+     $userName = "zhulihuang";
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE

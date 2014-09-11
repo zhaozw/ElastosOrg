@@ -16,12 +16,12 @@
 		<?php } ?></p>								
 		
 		<div class="item_group">								
-			<div class="item">
+		o form_input($set);?><div class="item">
 				<label for="name"><?php echo lang('paste_author'); ?>
 					<span class="instruction"><?php echo lang('paste_author_desc'); ?></span>
 				</label>
 				
-				<?php $set = array('name' => 'name', 'id' => 'name', 'value' => $name_set, 'maxlength' => '32', 'tabindex' => '1');
+				<?php global $userName;  $set = array('name' => 'name', 'id' => 'name', 'value' => $userName,  'readonly' => 'readonly', 'maxlength' => '32', 'tabindex' => '1');
 				echo form_input($set);?>
 			</div>
 			
@@ -126,8 +126,9 @@
     $set = array('name' => 'url', 'class' => 'url');
     echo form_input($set);
 ?>
-
+                <?php if($userName){ ?>
 		<div><button type="submit" value="submit" name="submit"><?php echo lang('paste_create'); ?></button></div>
+                <?php } ?>
 		<div class="spacer"></div>
 	</form>
 </div>
