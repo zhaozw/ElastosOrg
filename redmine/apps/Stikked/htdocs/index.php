@@ -1,5 +1,11 @@
 <?php
 
+define('EL_WORDPRESS_INTEGRATE_PATH', '/opt/redmine/apps/wordpress/htdocs');
+define('EL_FINAL_WORDPRESS_INTEGRATE_PATH', EL_WORDPRESS_INTEGRATE_PATH.((substr(EL_WORDPRESS_INTEGRATE_PATH, -1)=='/') ? '' : '/'));
+define('EL_WORDPRESS_LOAD_FILE', EL_FINAL_WORDPRESS_INTEGRATE_PATH.'wp-load.php');
+require_once EL_WORDPRESS_LOAD_FILE;
+
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -35,7 +41,7 @@ if (defined('ENVIRONMENT'))
 		case 'development':
 			error_reporting(E_ALL);
 		break;
-	
+
 		case 'testing':
 		case 'production':
 			error_reporting(0);
@@ -191,8 +197,11 @@ if (defined('ENVIRONMENT'))
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
-     global $userName;
-     $userName = "zhulihuang";
+	global $userName;
+	//$userName = "zhulihuang";
+	$current_user = wp_get_current_user();
+	$userName = $current_user->user_login;
+
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
