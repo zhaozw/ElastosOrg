@@ -48,6 +48,10 @@ $this->carabiner->display('css');
 			<div class="container">
 				<div class="header">
 					<a href="http://elastos.org/" title="elastos.org"><img src="/elorg_common/img/ElastosOrg_RedLogo.png" style="width:25px;height:25px;float:left;"/></a>
+					<?php
+						global $user_avatar;
+						echo $user_avatar;
+					?>
 					<h1><a href="<?php echo base_url(); ?>" class="title"><?php echo $this->config->item('site_name'); ?></a></h1>
 					<ul class="tabs">
 						<?php $l = $this->uri->segment(1)?>

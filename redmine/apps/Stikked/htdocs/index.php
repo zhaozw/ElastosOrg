@@ -197,10 +197,16 @@ if (defined('ENVIRONMENT'))
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
 
-	global $userName;
+	global $userName, $user_avatar;
 	//$userName = "zhulihuang";
 	$current_user = wp_get_current_user();
-	$userName = $current_user->user_login;
+	if ( ! empty($current_user) ) {
+		$userName = $current_user->user_login;
+		$user_avatar  = get_avatar($current_user->ID, 24);
+	} else {
+		$userName = null;
+		$user_avatar  = null;
+	}
 
 /*
  * --------------------------------------------------------------------
