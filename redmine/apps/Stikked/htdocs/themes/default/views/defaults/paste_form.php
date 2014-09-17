@@ -16,7 +16,7 @@
 		<?php } ?></p>								
 		
 		<div class="item_group">								
-		o form_input($set);?><div class="item">
+		<div class="item">
 				<label for="name"><?php echo lang('paste_author'); ?>
 					<span class="instruction"><?php echo lang('paste_author_desc'); ?></span>
 				</label>
