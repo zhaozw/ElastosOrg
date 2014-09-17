@@ -249,7 +249,7 @@ class CI_Config {
 	 * @param	string	the URI string
 	 * @return	string
 	 */
-	function site_url($uri = '')
+	function st_site_url($uri = '')
 	{
 		if ($uri == '')
 		{
@@ -285,7 +285,7 @@ class CI_Config {
 	// -------------------------------------------------------------
 
 	/**
-	 * Build URI string for use in Config::site_url() and Config::base_url()
+	 * Build URI string for use in Config::st_site_url() and Config::base_url()
 	 *
 	 * @access protected
 	 * @param  $uri

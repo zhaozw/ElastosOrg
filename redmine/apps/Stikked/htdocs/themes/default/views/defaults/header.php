@@ -53,17 +53,17 @@ $this->carabiner->display('css');
 						<?php $l = $this->uri->segment(1)?>
 						<li><a <?php if($l == ""){ echo 'class="active"'; }?> href="<?php echo base_url()?>" title="<?php echo lang('menu_create_title'); ?>"><?php echo lang('menu_create'); ?></a></li>
 <?php if(! $this->config->item('private_only')){ ?>
-						<li><a <?php if($l == "lists"){ echo 'class="active"'; }?> href="<?php echo site_url('lists'); ?>" title="<?php echo lang('menu_recent_title'); ?>"><?php echo lang('menu_recent'); ?></a></li>
-						<li><a <?php if($l == "trends"){ echo 'class="active"'; }?> href="<?php echo site_url('trends'); ?>" title="<?php echo lang('menu_trending_title'); ?>"><?php echo lang('menu_trending'); ?></a></li>
+						<li><a <?php if($l == "lists"){ echo 'class="active"'; }?> href="<?php echo st_site_url('lists'); ?>" title="<?php echo lang('menu_recent_title'); ?>"><?php echo lang('menu_recent'); ?></a></li>
+						<li><a <?php if($l == "trends"){ echo 'class="active"'; }?> href="<?php echo st_site_url('trends'); ?>" title="<?php echo lang('menu_trending_title'); ?>"><?php echo lang('menu_trending'); ?></a></li>
 <?php } ?>
 <?php if(! $this->config->item('disable_api')){ ?>
-						<li><a  <?php if($l == "api"){ echo 'class="active"'; }?> href="<?php echo site_url('api'); ?>" title="<?php echo lang('menu_api'); ?>"><?php echo lang('menu_api'); ?></a></li>
+						<li><a  <?php if($l == "api"){ echo 'class="active"'; }?> href="<?php echo st_site_url('api'); ?>" title="<?php echo lang('menu_api'); ?>"><?php echo lang('menu_api'); ?></a></li>
 <?php } ?>
-						<li><a  <?php if($l == "about"){ echo 'class="active"'; }?> href="<?php echo site_url('about'); ?>" title="<?php echo lang('menu_about'); ?>"><?php echo lang('menu_about'); ?></a></li>
+						<li><a  <?php if($l == "about"){ echo 'class="active"'; }?> href="<?php echo st_site_url('about'); ?>" title="<?php echo lang('menu_about'); ?>"><?php echo lang('menu_about'); ?></a></li>
                         <?php
                             if ($this->config->item('require_auth') ){
                                 if ($this->auth_ldap->is_authenticated()){
-                                    echo "<li><a href=" . site_url('auth/logout') . ' title="' . lang('menu_logout') . '">' . lang('menu_logout') . '</a></li>';
+                                    echo "<li><a href=" . st_site_url('auth/logout') . ' title="' . lang('menu_logout') . '">' . lang('menu_logout') . '</a></li>';
                                 }
                             }
                         ?>

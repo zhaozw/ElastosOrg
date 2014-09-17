@@ -10,25 +10,25 @@
 	    <p class="explain border">Create pastes from the commandline</p>
 
         <h2>API URL</h2>
-        <p class="explain"><code><?php echo site_url('api'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api'); ?></code></p>
 
         <h2>Get paste</h2>
-        <p class="explain"><code><?php echo site_url('api/paste/[pasteid]'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/paste/[pasteid]'); ?></code></p>
 
         <h2>Get random paste</h2>
-        <p class="explain"><code><?php echo site_url('api/random'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/random'); ?></code></p>
 
         <h2>Get recent pastes</h2>
-        <p class="explain"><code><?php echo site_url('api/recent'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/recent'); ?></code></p>
 
         <h2>Get trending pastes</h2>
-        <p class="explain"><code><?php echo site_url('api/trending'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/trending'); ?></code></p>
 
         <h2>List available languages</h2>
-        <p class="explain"><code><?php echo site_url('api/langs'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/langs'); ?></code></p>
 
         <h2>Create a paste</h2>
-        <p class="explain"><code><?php echo site_url('api/create'); ?></code></p>
+        <p class="explain"><code><?php echo st_site_url('api/create'); ?></code></p>
 
 		<h3>POST parameters</h3>
 		<code>text=[your paste text]</code>
@@ -57,25 +57,25 @@
 
 		<h3>Return values</h3>
 	    <p class="explain">
-		On success, the API returns the paste URL: <code><?php echo site_url('view/[pasteid]'); ?></code><br />
+		On success, the API returns the paste URL: <code><?php echo st_site_url('view/[pasteid]'); ?></code><br />
 		On error, the API returns the error message: <code>Error: Missing paste text</code>
 	    </p>
 
 		<h2>Examples</h2>
 		<h3>Create paste</h3>
-		<code>curl -d text='this is my text' <?php echo site_url('api/create'); ?></code>
+		<code>curl -d text='this is my text' <?php echo st_site_url('api/create'); ?></code>
 	    <p class="explain">Create a paste with the text 'this is my text'.</p>
 
 		<h3>Create paste from a file</h3>
-		<code>curl -d private=1 -d name=Herbert --data-urlencode text@/etc/passwd <?php echo site_url('api/create'); ?></code>
+		<code>curl -d private=1 -d name=Herbert --data-urlencode text@/etc/passwd <?php echo st_site_url('api/create'); ?></code>
 	    <p class="explain">Create a private paste with the author 'Herbert' and the contents of '/etc/passwd'.</p>
 
 		<h3>Create paste from a php file</h3>
-		<code>curl -d lang=php --data-urlencode text@main.php <?php echo site_url('api/create'); ?></code>
+		<code>curl -d lang=php --data-urlencode text@main.php <?php echo st_site_url('api/create'); ?></code>
 	    <p class="explain">Create a paste with PHP syntax highlighting.</p>
 
 		<h3>Get paste ;-)</h3>
-		<code>curl <?php echo site_url('view/raw/[pasteid]'); ?></code>
+		<code>curl <?php echo st_site_url('view/raw/[pasteid]'); ?></code>
 	    <p class="explain">Display paste.</p>
 	</div>
 </div>

@@ -433,7 +433,7 @@ class Main extends CI_Controller
 			$paste = $this->pastes->getPaste(3);
 			$data = $this->pastes->getReplies(3);
 			$data['page_title'] = $paste['title'] . ' - ' . config_item('site_name');
-			$data['feed_url'] = site_url('view/rss/' . $this->uri->segment(3));
+			$data['feed_url'] = st_site_url('view/rss/' . $this->uri->segment(3));
 			$this->load->view('view/rss', $data);
 		}
 		else
@@ -493,7 +493,7 @@ class Main extends CI_Controller
 			{
 				$this->load->helper('text');
 				$data['page_title'] = config_item('site_name');
-				$data['feed_url'] = site_url('lists/rss');
+				$data['feed_url'] = st_site_url('lists/rss');
 				$data['replies'] = $data['pastes'];
 				unset($data['pastes']);
 				$this->load->view('view/rss', $data);

@@ -90,7 +90,7 @@ class Spamadmin extends CI_Controller
 		$data['blocked_ips'] = $query->result_array();
 
 		//pagination
-		$config['base_url'] = site_url('spamadmin/blacklist');
+		$config['base_url'] = st_site_url('spamadmin/blacklist');
 		$query = $this->db->get('blocked_ips');
 		$config['total_rows'] = $query->num_rows();
 		$config['per_page'] = $amount;

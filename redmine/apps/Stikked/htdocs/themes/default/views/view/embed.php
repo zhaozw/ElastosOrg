@@ -44,9 +44,9 @@ $this->carabiner->display('css');
 
 <div class="paste">
 <?php if($this->uri->segment(4) != 'diff'){ ?>
-    <p><a href="<?php echo site_url('view/' . $pid); ?>" target="_blank">This paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
+    <p><a href="<?php echo st_site_url('view/' . $pid); ?>" target="_blank">This paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo st_site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
 <?php }else{ ?>
-    <p><a href="<?php echo site_url('view/' . $pid . '/diff'); ?>" target="_blank">This diff</a> of <a href="<?php echo site_url('view/' . $pid); ?>" target="_blank">that paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
+    <p><a href="<?php echo st_site_url('view/' . $pid . '/diff'); ?>" target="_blank">This diff</a> of <a href="<?php echo st_site_url('view/' . $pid); ?>" target="_blank">that paste</a> brought to you by <a href="<?php echo base_url(); ?>" target="_blank"><?php echo $this->config->item('site_name'); ?></a>. <a class="right" href="<?php echo st_site_url('view/raw/' . $pid); ?>" target="_blank">View Raw</a></p>
 <?php } ?>
 	<div class="text_formatted">
 		<div class="container">

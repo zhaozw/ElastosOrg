@@ -1,6 +1,6 @@
 <?php $this->load->view('defaults/header');?>
 <h1>Spamadmin</h1>
-<p><?php echo $total_spam_attempts; ?> spam-pastes repelled. <a href="<?php echo site_url('spamadmin/blacklist'); ?>">View blocked IPs</a>.</p>
+<p><?php echo $total_spam_attempts; ?> spam-pastes repelled. <a href="<?php echo st_site_url('spamadmin/blacklist'); ?>">View blocked IPs</a>.</p>
 
 		<?php
 		function checkNum($num){
@@ -27,10 +27,10 @@
 		?>
 
 		<tr class="<?php echo $eo; ?>">
-			<td class="first"><a href="<?php echo site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
+			<td class="first"><a href="<?php echo st_site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
 			<td><?php echo $paste['name']; ?></td>
 			<td><?php $p = explode(",", timespan($paste['created'], time())); echo $p[0]; ?> ago.</td>
-			<td><a href="<?php echo site_url('spamadmin/' . $paste['ip_address']) ?>"><?php echo $paste['ip_address']; ?></a></td>
+			<td><a href="<?php echo st_site_url('spamadmin/' . $paste['ip_address']) ?>"><?php echo $paste['ip_address']; ?></a></td>
 			<td class="hidden"><a class="quick_remove" title="Quickly remove all entries with this IP" data-ip="<?php echo $paste['ip_address']; ?>" href="">X</a></td>
 		</tr>
 

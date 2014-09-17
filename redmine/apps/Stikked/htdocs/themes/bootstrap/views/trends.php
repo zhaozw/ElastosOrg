@@ -20,7 +20,7 @@
 		<?php	foreach($pastes as $paste) { ?>
 
 		<tr>
-			<td class="first"><a href="<?php echo site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
+			<td class="first"><a href="<?php echo st_site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
 			<td><?php echo $paste['name']; ?></td>
 			<td><?php echo $paste['lang']; ?></td>
 			<td class="hidden"><?php echo $paste['created']; ?></td>

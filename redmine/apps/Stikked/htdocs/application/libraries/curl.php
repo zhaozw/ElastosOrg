@@ -215,7 +215,7 @@ class Curl {
         // If no a protocol in URL, assume its a CI link
         if(!preg_match('!^\w+://! i', $url)) {
             $this->CI->load->helper('url');
-            $url = site_url($url);
+            $url = st_site_url($url);
         }
         
         $this->url = $url;

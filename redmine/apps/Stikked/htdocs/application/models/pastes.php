@@ -133,7 +133,7 @@ class Pastes extends CI_Model
 	function _get_url($pid) 
 	{
 		$override_url = $this->config->item('displayurl_override');
-		return ($override_url ? str_replace('$id', $pid, $override_url) : site_url('view/' . $pid));
+		return ($override_url ? str_replace('$id', $pid, $override_url) : st_site_url('view/' . $pid));
 	}
 	private 
 	function _shorten_url($url) 
@@ -254,7 +254,7 @@ class Pastes extends CI_Model
 				{
 					$data['inreply']['title'] = $row['title'];
 					$data['inreply']['name'] = $row['name'];
-					$data['inreply']['url'] = site_url('view/' . $inreply);
+					$data['inreply']['url'] = st_site_url('view/' . $inreply);
 				}
 			}
 			else
@@ -313,7 +313,7 @@ class Pastes extends CI_Model
 					$data['replies'][$n]['pid'] = $row['pid'];
 					$n++;
 				}
-				$config['base_url'] = site_url('view/' . $data['pid']);
+				$config['base_url'] = st_site_url('view/' . $data['pid']);
 				$config['total_rows'] = $this->countReplies($data['pid']);
 				$config['per_page'] = $amount;
 				$config['num_links'] = 9;
@@ -451,7 +451,7 @@ class Pastes extends CI_Model
 				$n++;
 			}
 		}
-		$config['base_url'] = site_url($root);
+		$config['base_url'] = st_site_url($root);
 		$config['total_rows'] = $this->countPastes();
 		$config['per_page'] = $amount;
 		$config['num_links'] = 9;
@@ -490,7 +490,7 @@ class Pastes extends CI_Model
 				$n++;
 			}
 		}
-		$config['base_url'] = site_url($root);
+		$config['base_url'] = st_site_url($root);
 		$config['total_rows'] = $this->countPastes();
 		$config['per_page'] = $amount;
 		$config['num_links'] = 9;
@@ -535,7 +535,7 @@ class Pastes extends CI_Model
 		}
 
 		//pagination
-		$config['base_url'] = site_url($root);
+		$config['base_url'] = st_site_url($root);
 		$config['total_rows'] = $this->countPastes($ip_address);
 		$config['per_page'] = $amount;
 		$config['num_links'] = 9;
@@ -618,7 +618,7 @@ class Pastes extends CI_Model
 					{
 						$data['inreply']['title'] = $row['title'];
 						$data['inreply']['name'] = $row['name'];
-						$data['inreply']['url'] = site_url('view/' . $inreply);
+						$data['inreply']['url'] = st_site_url('view/' . $inreply);
 					}
 				}
 				else

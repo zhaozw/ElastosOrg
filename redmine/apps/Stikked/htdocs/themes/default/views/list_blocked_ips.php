@@ -1,5 +1,5 @@
 <?php $this->load->view('defaults/header');?>
-<h1><a href="<?php echo site_url('spamadmin'); ?>">Spamadmin</a> - blacklist</h1>
+<h1><a href="<?php echo st_site_url('spamadmin'); ?>">Spamadmin</a> - blacklist</h1>
 
 		<?php
 		function checkNum($num){
@@ -31,7 +31,7 @@
 			<td class="first"><?php echo $ip_range; ?></td>
 			<td><?php $p = explode(",", timespan($ip_address['blocked_at'], time())); echo $p[0]; ?> ago.</td>
 			<td><?php echo $ip_address['spam_attempts']; ?></td>
-			<td><a href="<?php echo site_url('spamadmin/blacklist/unblock/' . $ip_address['ip_address']) ?>">Unblock</a></td>
+			<td><a href="<?php echo st_site_url('spamadmin/blacklist/unblock/' . $ip_address['ip_address']) ?>">Unblock</a></td>
 		</tr>
 
 		<?php }?>

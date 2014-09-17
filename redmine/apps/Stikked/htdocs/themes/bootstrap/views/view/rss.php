@@ -16,10 +16,10 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 <?php foreach($replies as $paste): ?>
 <item>
     <title><?php echo $paste['title']; ?></title>
-    <link><?php echo site_url('view/' . $paste['pid']) ?></link>
+    <link><?php echo st_site_url('view/' . $paste['pid']) ?></link>
     <pubDate><?php echo date('r', $paste['created']); ?></pubDate>
     <dc:creator><?php echo $paste['name']; ?></dc:creator>
-    <guid isPermaLink="false"><?php echo site_url('view/' . $paste['pid']) ?></guid>
+    <guid isPermaLink="false"><?php echo st_site_url('view/' . $paste['pid']) ?></guid>
     <description><![CDATA[<?php echo character_limiter($paste['raw'], 200); ?>]]></description>
     <content:encoded><![CDATA[<?php echo $paste['paste']; ?>]]></content:encoded>
 </item>

@@ -1,5 +1,5 @@
 <?php $this->load->view('defaults/header');?>
-<h1><a href="<?php echo site_url('spamadmin'); ?>">Spamadmin</a> - Pastes for ip <?php echo $ip_address; ?></h1>
+<h1><a href="<?php echo st_site_url('spamadmin'); ?>">Spamadmin</a> - Pastes for ip <?php echo $ip_address; ?></h1>
 
 <div class="space">&nbsp;</div>
 
@@ -41,7 +41,7 @@
 		?>
 
 		<tr class="<?php echo $eo; ?>">
-			<td class="first"><a href="<?php echo site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
+			<td class="first"><a href="<?php echo st_site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
 			<td><?php echo $paste['name']; ?></td>
 			<td><?php echo $paste['lang']; ?></td>
 			<td><?php $p = explode(",", timespan($paste['created'], time())); echo $p[0]; ?> ago.</td>

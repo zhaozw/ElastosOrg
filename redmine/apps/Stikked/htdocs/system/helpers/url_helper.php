@@ -37,12 +37,12 @@
  * @param	string
  * @return	string
  */
-if ( ! function_exists('site_url'))
+if ( ! function_exists('st_site_url'))
 {
-	function site_url($uri = '')
+	function st_site_url($uri = '')
 	{
 		$CI =& get_instance();
-		return $CI->config->site_url($uri);
+		return $CI->config->st_site_url($uri);
 	}
 }
 
@@ -52,7 +52,7 @@ if ( ! function_exists('site_url'))
  * Base URL
  * 
  * Create a local URL based on your basepath.
- * Segments can be passed in as a string or an array, same as site_url
+ * Segments can be passed in as a string or an array, same as st_site_url
  * or a URL to a file can be passed in, e.g. to an image file.
  *
  * @access	public
@@ -84,7 +84,7 @@ if ( ! function_exists('current_url'))
 	function current_url()
 	{
 		$CI =& get_instance();
-		return $CI->config->site_url($CI->uri->uri_string());
+		return $CI->config->st_site_url($CI->uri->uri_string());
 	}
 }
 
@@ -146,16 +146,16 @@ if ( ! function_exists('anchor'))
 
 		if ( ! is_array($uri))
 		{
-			$site_url = ( ! preg_match('!^\w+://! i', $uri)) ? site_url($uri) : $uri;
+			$st_site_url = ( ! preg_match('!^\w+://! i', $uri)) ? st_site_url($uri) : $uri;
 		}
 		else
 		{
-			$site_url = site_url($uri);
+			$st_site_url = st_site_url($uri);
 		}
 
 		if ($title == '')
 		{
-			$title = $site_url;
+			$title = $st_site_url;
 		}
 
 		if ($attributes != '')
@@ -163,7 +163,7 @@ if ( ! function_exists('anchor'))
 			$attributes = _parse_attributes($attributes);
 		}
 
-		return '<a href="'.$site_url.'"'.$attributes.'>'.$title.'</a>';
+		return '<a href="'.$st_site_url.'"'.$attributes.'>'.$title.'</a>';
 	}
 }
 
@@ -187,16 +187,16 @@ if ( ! function_exists('anchor_popup'))
 	{
 		$title = (string) $title;
 
-		$site_url = ( ! preg_match('!^\w+://! i', $uri)) ? site_url($uri) : $uri;
+		$st_site_url = ( ! preg_match('!^\w+://! i', $uri)) ? st_site_url($uri) : $uri;
 
 		if ($title == '')
 		{
-			$title = $site_url;
+			$title = $st_site_url;
 		}
 
 		if ($attributes === FALSE)
 		{
-			return "<a href='javascript:void(0);' onclick=\"window.open('".$site_url."', '_blank');\">".$title."</a>";
+			return "<a href='javascript:void(0);' onclick=\"window.open('".$st_site_url."', '_blank');\">".$title."</a>";
 		}
 
 		if ( ! is_array($attributes))
@@ -215,7 +215,7 @@ if ( ! function_exists('anchor_popup'))
 			$attributes = _parse_attributes($attributes);
 		}
 
-		return "<a href='javascript:void(0);' onclick=\"window.open('".$site_url."', '_blank', '"._parse_attributes($atts, TRUE)."');\"$attributes>".$title."</a>";
+		return "<a href='javascript:void(0);' onclick=\"window.open('".$st_site_url."', '_blank', '"._parse_attributes($atts, TRUE)."');\"$attributes>".$title."</a>";
 	}
 }
 
@@ -532,7 +532,7 @@ if ( ! function_exists('redirect'))
 	{
 		if ( ! preg_match('#^https?://#i', $uri))
 		{
-			$uri = site_url($uri);
+			$uri = st_site_url($uri);
 		}
 
 		switch($method)
