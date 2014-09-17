@@ -536,4 +536,8 @@ h4 {
 .login .form_wrapper label {
     width: 104px;
 }
-
+#loginoption {
+	font-size: 1em;
+	margin-left: 150px;
+	width:300px;
+}

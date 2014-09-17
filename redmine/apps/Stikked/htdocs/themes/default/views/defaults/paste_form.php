@@ -126,8 +126,10 @@
     $set = array('name' => 'url', 'class' => 'url');
     echo form_input($set);
 ?>
-                <?php if($userName){ ?>
+                <?php if (empty($userName)) { ?>
 		<div><button type="submit" value="submit" name="submit"><?php echo lang('paste_create'); ?></button></div>
+                <?php } else { ?>
+        	<div id="loginoption"><p><b> Please login elastos.org then create </b></p></div>
                 <?php } ?>
 		<div class="spacer"></div>
 	</form>
