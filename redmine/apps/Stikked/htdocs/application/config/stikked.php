@@ -125,7 +125,7 @@ $config['apikey'] = '';
  *
 **/
 $config['private_only'] = false;
-$config['enable_captcha'] = true;
+$config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
 $config['disable_api'] = false;

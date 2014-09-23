@@ -58,7 +58,7 @@ $this->carabiner->display('css');
 						<li><a <?php if($l == ""){ echo 'class="active"'; }?> href="<?php echo base_url()?>" title="<?php echo lang('menu_create_title'); ?>">
 						<?php 
 							global $userName;
-							if (empty($userName)) {
+							if (!empty($userName)) {
 							echo lang('menu_create');
 							} 
 						?></a></li>

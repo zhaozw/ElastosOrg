@@ -49,20 +49,7 @@
 			</label>
 			
 			<textarea id="code" name="code" cols="40" rows="20" tabindex="4"><?php if(isset($paste_set)){ echo $paste_set; }?></textarea>
-		</div>																											
-		
-		<div class="item_group">
-			<div class="item">
-				<label for="snipurl"><?php echo lang('paste_create_shorturl'); ?>
-					<span class="instruction"><?php echo lang('paste_shorturl_desc'); ?></span>
-				</label>
-				<div class="text_beside">
-					<?php
-						$set = array('name' => 'snipurl', 'id' => 'snipurl', 'value' => '1', 'tabindex' => '5', 'checked' => $snipurl_set);
-						echo form_checkbox($set);
-					?>
-				</div>
-			</div>
+		</div>																				
 		
 			<div class="item">
 				<label for="private"><?php echo lang('paste_private'); ?>
@@ -126,7 +113,7 @@
     $set = array('name' => 'url', 'class' => 'url');
     echo form_input($set);
 ?>
-                <?php if (empty($userName)) { ?>
+                <?php if (!empty($userName)) { ?>
 		<div><button type="submit" value="submit" name="submit"><?php echo lang('paste_create'); ?></button></div>
                 <?php } else { ?>
         	<div id="loginoption"><p><b> Please login elastos.org then create </b></p></div>
