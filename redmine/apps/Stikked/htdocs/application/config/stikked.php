@@ -128,7 +128,7 @@ $config['private_only'] = false;
 $config['enable_captcha'] = false;
 $config['recaptcha_publickey'] = '';
 $config['recaptcha_privatekey'] = '';
-$config['disable_api'] = false;
+$config['disable_api'] = true;
 $config['blocked_words'] = '';
 
 //spamadmin: accessible via /spamadmin (only active when user + pass is set)
