@@ -1,5 +1,12 @@
-<?php $this->load->view('defaults/header'); ?>
+<?php
 
-<?php $this->load->view('defaults/paste_form'); ?>
+	global $userName;
 
-<?php $this->load->view('defaults/footer');?>
+	if (empty($userName)) {
+		header('Location: /stikked/lists');
+	} else {
+		$this->load->view('defaults/header');
+		$this->load->view('defaults/paste_form');
+		$this->load->view('defaults/footer');
+	}
+?>

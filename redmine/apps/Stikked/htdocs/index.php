@@ -200,7 +200,7 @@ if (defined('ENVIRONMENT'))
 	global $userName, $user_avatar;
 	//$userName = "zhulihuang";
 	$current_user = wp_get_current_user();
-	if ( ! empty($current_user) ) {
+	if ( (! empty($current_user)) && ($current_user->ID > 0)) {
 		$userName = $current_user->user_login;
 		$user_avatar  = get_avatar($current_user->ID, 24);
 	} else {
