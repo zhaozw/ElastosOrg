@@ -30,13 +30,13 @@
 
 class Main extends CI_Controller
 {
-	
-	function __construct() 
+
+	function __construct()
 	{
 		parent::__construct();
 		$this->load->model('languages');
-		
-		if (config_item('require_auth')) 
+
+		if (config_item('require_auth'))
 		{
 			$this->load->library('auth_ldap');
 		}
@@ -45,14 +45,14 @@ class Main extends CI_Controller
 		$this->recaptcha_publickey = config_item('recaptcha_publickey');
 		$this->recaptcha_privatekey = config_item('recaptcha_privatekey');
 		$this->use_recaptcha = false;
-		
-		if ($this->recaptcha_publickey != '' && $this->recaptcha_privatekey != '') 
+
+		if ($this->recaptcha_publickey != '' && $this->recaptcha_privatekey != '')
 		{
 			$this->load->helper('recaptcha');
 			$this->use_recaptcha = true;
 		}
-		
-		if (!$this->db->table_exists('ci_sessions')) 
+
+		if (!$this->db->table_exists('ci_sessions'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -85,8 +85,8 @@ class Main extends CI_Controller
 			$this->dbforge->add_key('session_id', true);
 			$this->dbforge->create_table('ci_sessions', true);
 		}
-		
-		if (!$this->db->table_exists('pastes')) 
+
+		if (!$this->db->table_exists('pastes'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -168,9 +168,24 @@ class Main extends CI_Controller
 			$this->dbforge->add_key('hits');
 			$this->dbforge->add_key('hits_updated');
 			$this->dbforge->create_table('pastes', true);
+		} else {
+			//check whether there are some pastes expired
+			$now = now();
+			$this->db->where('toexpire', '1');
+			$query = $this->db->get('pastes');
+			foreach ($query->result_array() as $row)
+			{
+				$stamp = $row['expire'];
+
+				if ($now > $stamp)
+				{
+					$this->db->where('id', $row['id']);
+					$this->db->delete('pastes');
+				}
+			}
 		}
-		
-		if (!$this->db->table_exists('blocked_ips')) 
+
+		if (!$this->db->table_exists('blocked_ips'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -193,8 +208,8 @@ class Main extends CI_Controller
 			$this->dbforge->add_key('ip_address', true);
 			$this->dbforge->create_table('blocked_ips', true);
 		}
-		
-		if (!$this->db->table_exists('trending')) 
+
+		if (!$this->db->table_exists('trending'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -218,8 +233,8 @@ class Main extends CI_Controller
 			$this->dbforge->add_key('created');
 			$this->dbforge->create_table('trending', true);
 		}
-		
-		if (!$this->db->field_exists('ip_address', 'pastes')) 
+
+		if (!$this->db->field_exists('ip_address', 'pastes'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -231,8 +246,8 @@ class Main extends CI_Controller
 			);
 			$this->dbforge->add_column('pastes', $fields);
 		}
-		
-		if (!$this->db->field_exists('hits', 'pastes')) 
+
+		if (!$this->db->field_exists('hits', 'pastes'))
 		{
 			$this->load->dbforge();
 			$fields = array(
@@ -252,8 +267,8 @@ class Main extends CI_Controller
 			$this->dbforge->add_column('pastes', $fields);
 		}
 	}
-	
-	function _form_prep($lang = false, $title = '', $paste = '', $reply = false) 
+
+	function _form_prep($lang = false, $title = '', $paste = '', $reply = false)
 	{
 		$this->load->model('languages');
 		$this->load->helper('form');
@@ -266,10 +281,10 @@ class Main extends CI_Controller
 
 		//codemirror modes
 		$cmm = array();
-		foreach ($codemirror_languages as $geshi_name => $l) 
+		foreach ($codemirror_languages as $geshi_name => $l)
 		{
-			
-			if (gettype($l) == 'array') 
+
+			if (gettype($l) == 'array')
 			{
 				$cmm[$geshi_name] = $l['mode'];
 			}
@@ -279,17 +294,17 @@ class Main extends CI_Controller
 		//recaptcha
 		$data['use_recaptcha'] = $this->use_recaptcha;
 		$data['recaptcha_publickey'] = $this->recaptcha_publickey;
-		
-		if (!$this->input->post('submit')) 
+
+		if (!$this->input->post('submit'))
 		{
-			
-			if (!$this->db_session->userdata('expire')) 
+
+			if (!$this->db_session->userdata('expire'))
 			{
 				$default_expiration = config_item('default_expiration');
 				$this->db_session->set_userdata('expire', $default_expiration);
 			}
-			
-			if ($this->db_session->flashdata('settings_changed')) 
+
+			if ($this->db_session->flashdata('settings_changed'))
 			{
 				$data['status_message'] = 'Settings successfully changed';
 			}
@@ -300,8 +315,8 @@ class Main extends CI_Controller
 			$data['paste_set'] = $paste;
 			$data['title_set'] = $title;
 			$data['reply'] = $reply;
-			
-			if (!$lang) 
+
+			if (!$lang)
 			{
 				$lang = config_item('default_language');
 			}
@@ -320,13 +335,13 @@ class Main extends CI_Controller
 		}
 		return $data;
 	}
-	
-	function index() 
+
+	function index()
 	{
 		$this->_valid_authentication();
 		$this->load->helper('json');
-		
-		if (!$this->input->post('submit')) 
+
+		if (!$this->input->post('submit'))
 		{
 			$data = $this->_form_prep();
 			$this->load->view('home', $data);
@@ -374,21 +389,21 @@ class Main extends CI_Controller
 			$this->form_validation->set_rules($rules);
 			$this->form_validation->set_message('min_length', lang('empty'));
 			$this->form_validation->set_error_delimiters('<div class="message error"><div class="container">', '</div></div>');
-			
-			if ($this->form_validation->run() == FALSE) 
+
+			if ($this->form_validation->run() == FALSE)
 			{
 				$data = $this->_form_prep();
 				$this->load->view('home', $data);
 			}
 			else
 			{
-				
-				if (config_item('private_only')) 
+
+				if (config_item('private_only'))
 				{
 					$_POST['private'] = 1;
 				}
-				
-				if ($this->input->post('reply') == false) 
+
+				if ($this->input->post('reply') == false)
 				{
 					$user_data = array(
 						'name' => $this->input->post('name') ,
@@ -403,14 +418,14 @@ class Main extends CI_Controller
 			}
 		}
 	}
-	
-	function raw() 
+
+	function raw()
 	{
 		$this->_valid_authentication();
 		$this->load->model('pastes');
 		$check = $this->pastes->checkPaste(3);
-		
-		if ($check) 
+
+		if ($check)
 		{
 			$data = $this->pastes->getPaste(3);
 			$this->load->view('view/raw', $data);
@@ -420,14 +435,14 @@ class Main extends CI_Controller
 			show_404();
 		}
 	}
-	
-	function rss() 
+
+	function rss()
 	{
 		$this->_valid_authentication();
 		$this->load->model('pastes');
 		$check = $this->pastes->checkPaste(3);
-		
-		if ($check) 
+
+		if ($check)
 		{
 			$this->load->helper('text');
 			$paste = $this->pastes->getPaste(3);
@@ -441,14 +456,14 @@ class Main extends CI_Controller
 			show_404();
 		}
 	}
-	
-	function embed() 
+
+	function embed()
 	{
 		$this->_valid_authentication();
 		$this->load->model('pastes');
 		$check = $this->pastes->checkPaste(3);
-		
-		if ($check) 
+
+		if ($check)
 		{
 			$data = $this->pastes->getPaste(3, true, $this->uri->segment(4) == 'diff');
 			$this->load->view('view/embed', $data);
@@ -458,14 +473,14 @@ class Main extends CI_Controller
 			show_404();
 		}
 	}
-	
-	function download() 
+
+	function download()
 	{
 		$this->_valid_authentication();
 		$this->load->model('pastes');
 		$check = $this->pastes->checkPaste(3);
-		
-		if ($check) 
+
+		if ($check)
 		{
 			$data = $this->pastes->getPaste(3);
 			$this->load->view('view/download', $data);
@@ -475,12 +490,12 @@ class Main extends CI_Controller
 			show_404();
 		}
 	}
-	
-	function lists() 
+
+	function lists()
 	{
 		$this->_valid_authentication();
-		
-		if (config_item('private_only')) 
+
+		if (config_item('private_only'))
 		{
 			show_404();
 		}
@@ -488,8 +503,8 @@ class Main extends CI_Controller
 		{
 			$this->load->model('pastes');
 			$data = $this->pastes->getLists();
-			
-			if ($this->uri->segment(2) == 'rss') 
+
+			if ($this->uri->segment(2) == 'rss')
 			{
 				$this->load->helper('text');
 				$data['page_title'] = config_item('site_name');
@@ -504,12 +519,12 @@ class Main extends CI_Controller
 			}
 		}
 	}
-	
-	function trends() 
+
+	function trends()
 	{
 		$this->_valid_authentication();
-		
-		if (config_item('private_only')) 
+
+		if (config_item('private_only'))
 		{
 			show_404();
 		}
@@ -520,18 +535,18 @@ class Main extends CI_Controller
 			$this->load->view('trends', $data);
 		}
 	}
-	
-	function view() 
+
+	function view()
 	{
 		$this->_valid_authentication();
 		$this->load->helper('json');
 		$this->load->model('pastes');
 		$check = $this->pastes->checkPaste(2);
-		
-		if ($check) 
+
+		if ($check)
 		{
-			
-			if ($this->db_session->userdata('view_raw')) 
+
+			if ($this->db_session->userdata('view_raw'))
 			{
 				redirect('view/raw/' . $this->uri->segment(2));
 			}
@@ -544,13 +559,13 @@ class Main extends CI_Controller
 			show_404();
 		}
 	}
-	
-	function cron() 
+
+	function cron()
 	{
 		$this->load->model('pastes');
 		$key = $this->uri->segment(2);
-		
-		if ($key != config_item('cron_key')) 
+
+		if ($key != config_item('cron_key'))
 		{
 			show_404();
 		}
@@ -560,20 +575,20 @@ class Main extends CI_Controller
 			return 0;
 		}
 	}
-	
-	function about() 
+
+	function about()
 	{
 		$this->load->view('about');
 	}
-	
-	function captcha() 
+
+	function captcha()
 	{
 		$this->load->helper('captcha');
 
 		//get "word"
 		$pool = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ@';
 		$str = '';
-		for ($i = 0;$i < 8;$i++) 
+		for ($i = 0;$i < 8;$i++)
 		{
 			$str.= substr($pool, mt_rand(0, strlen($pool) - 1) , 1);
 		}
@@ -589,25 +604,25 @@ class Main extends CI_Controller
 			'word' => $word
 		));
 	}
-	
-	function _valid_lang($lang) 
+
+	function _valid_lang($lang)
 	{
 		$this->load->model('languages');
 		$this->form_validation->set_message('_valid_lang', lang('valid_lang'));
 		return $this->languages->valid_language($lang);
 	}
-	
-	function _valid_captcha($text) 
+
+	function _valid_captcha($text)
 	{
-		
-		if (config_item('enable_captcha') && $this->db_session->userdata('is_human') === false) 
+
+		if (config_item('enable_captcha') && $this->db_session->userdata('is_human') === false)
 		{
 			$this->form_validation->set_message('_valid_captcha', lang('captcha'));
-			
-			if ($this->use_recaptcha) 
+
+			if ($this->use_recaptcha)
 			{
-				
-				if ($this->_valid_recaptcha()) 
+
+				if ($this->_valid_recaptcha())
 				{
 					$this->db_session->set_userdata('is_human', true);
 					return true;
@@ -619,8 +634,8 @@ class Main extends CI_Controller
 			}
 			else
 			{
-				
-				if (strtolower($text) == strtolower($this->db_session->userdata('captcha'))) 
+
+				if (strtolower($text) == strtolower($this->db_session->userdata('captcha')))
 				{
 					$this->db_session->set_userdata('is_human', true);
 					return true;
@@ -636,11 +651,11 @@ class Main extends CI_Controller
 			return true;
 		}
 	}
-	
-	function _valid_recaptcha() 
+
+	function _valid_recaptcha()
 	{
-		
-		if ($this->input->post('recaptcha_response_field')) 
+
+		if ($this->input->post('recaptcha_response_field'))
 		{
 			$pk = $this->recaptcha_privatekey;
 			$ra = $_SERVER['REMOTE_ADDR'];
@@ -656,8 +671,8 @@ class Main extends CI_Controller
 			return false;
 		}
 	}
-	
-	function _valid_ip() 
+
+	function _valid_ip()
 	{
 
 		//get ip
@@ -674,8 +689,8 @@ class Main extends CI_Controller
 		$query = $this->db->get('blocked_ips');
 
 		//check
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
 
 			//update spamcount
@@ -694,8 +709,8 @@ class Main extends CI_Controller
 			return true;
 		}
 	}
-	
-	function _blockwords_check() 
+
+	function _blockwords_check()
 	{
 
 		//setup message
@@ -705,26 +720,26 @@ class Main extends CI_Controller
 		$blocked_words = config_item('blocked_words');
 		$post = $this->input->post();
 		$raw = $post['code'];
-		
-		if (!$blocked_words) 
+
+		if (!$blocked_words)
 		{
 			return true;
 		}
 
 		//we have blocked words
-		foreach (explode(',', $blocked_words) as $word) 
+		foreach (explode(',', $blocked_words) as $word)
 		{
 			$word = trim($word);
-			
-			if (stristr($raw, $word)) 
+
+			if (stristr($raw, $word))
 			{
 				return false;
 			}
 		}
 		return true;
 	}
-	
-	function _autofill_check() 
+
+	function _autofill_check()
 	{
 
 		//setup message
@@ -733,22 +748,22 @@ class Main extends CI_Controller
 		//check
 		return (!$this->input->post('email') && !$this->input->post('url'));
 	}
-	
-	function _valid_authentication() 
+
+	function _valid_authentication()
 	{
-		
-		if (config_item('require_auth')) 
+
+		if (config_item('require_auth'))
 		{
-			
-			if (!$this->auth_ldap->is_authenticated()) 
+
+			if (!$this->auth_ldap->is_authenticated())
 			{
 				$this->db_session->set_flashdata('tried_to', "/" . $this->uri->uri_string());
 				redirect('/auth');
 			}
 		}
 	}
-	
-	function get_cm_js() 
+
+	function get_cm_js()
 	{
 		$lang = $this->uri->segment(3);
 		$this->load->config('codemirror_languages');
@@ -756,25 +771,25 @@ class Main extends CI_Controller
 
 		//file path
 		$file_path = 'themes/' . config_item('theme') . '/js/';
-		
-		if (!file_exists($file_path)) 
+
+		if (!file_exists($file_path))
 		{
 			$file_path = 'themes/default/js/';
 		}
-		
-		if (isset($cml[$lang]) && gettype($cml[$lang]) == 'array') 
+
+		if (isset($cml[$lang]) && gettype($cml[$lang]) == 'array')
 		{
 			header('Content-Type: application/x-javascript; charset=utf-8');
 			header('Expires: ' . gmdate('D, d M Y H:i:s \G\M\T', time() + 60 * 60 * 24 * 30));
-			foreach ($cml[$lang]['js'] as $js) 
+			foreach ($cml[$lang]['js'] as $js)
 			{
 				echo file_get_contents($file_path . $js[0]);
 			}
 		}
 		exit;
 	}
-	
-	function error_404() 
+
+	function error_404()
 	{
 		show_404();
 	}
