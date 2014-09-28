@@ -25,32 +25,32 @@
 
 class Pastes extends CI_Model
 {
-	
-	function __construct() 
+
+	function __construct()
 	{
 		parent::__construct();
 	}
-	
-	function countPastes($ip_address = false) 
+
+	function countPastes($ip_address = false)
 	{
 		$this->db->where('private', 0);
-		
-		if ($ip_address) 
+
+		if ($ip_address)
 		{
 			$this->db->where('ip_address', $ip_address);
 		}
 		$query = $this->db->get('pastes');
 		return $query->num_rows();
 	}
-	
-	function countReplies($pid) 
+
+	function countReplies($pid)
 	{
 		$this->db->where('replyto', $pid);
 		$query = $this->db->get('pastes');
 		return $query->num_rows();
 	}
-	
-	function createPaste() 
+
+	function createPaste()
 	{
 		$data['created'] = time();
 
@@ -58,24 +58,24 @@ class Pastes extends CI_Model
 		$data['raw'] = htmlspecialchars($this->input->post('code'));
 		$data['lang'] = htmlspecialchars($this->input->post('lang'));
 		$data['replyto'] = $this->input->post('reply');
-		
-		if ($this->input->post('name')) 
+
+		if ($this->input->post('name'))
 		{
 			$data['name'] = htmlspecialchars($this->input->post('name'));
 		}
 		else
 		{
 			$data['name'] = $this->config->item('unknown_poster');
-			
-			if ($data['name'] == 'random') 
+
+			if ($data['name'] == 'random')
 			{
 				$nouns = $this->config->item('nouns');
 				$adjectives = $this->config->item('adjectives');
 				$data['name'] = $adjectives[array_rand($adjectives) ] . " " . $nouns[array_rand($nouns) ];
 			}
 		}
-		
-		if ($this->input->post('title')) 
+
+		if ($this->input->post('title'))
 		{
 			$data['title'] = htmlspecialchars($this->input->post('title'));
 		}
@@ -84,14 +84,14 @@ class Pastes extends CI_Model
 			$data['title'] = $this->config->item('unknown_title');
 		}
 		$data['private'] = $this->input->post('private');
-		do 
+		do
 		{
 			$data['pid'] = substr(md5(md5(mt_rand(0, 1000000) . mktime())) , rand(0, 24) , 8);
 			$this->db->select('id');
 			$this->db->where('pid', $data['pid']);
 			$query = $this->db->get('pastes');
-			
-			if ($query->num_rows > 0 or $data['pid'] == 'download') 
+
+			if ($query->num_rows > 0 or $data['pid'] == 'download')
 			{
 				$n = 0;
 				break;
@@ -103,8 +103,8 @@ class Pastes extends CI_Model
 			}
 		}
 		while ($n == 0);
-		
-		if ($this->input->post('expire') == 0) 
+
+		if ($this->input->post('expire') == 0)
 		{
 			$data['expire'] = 0;
 		}
@@ -114,8 +114,8 @@ class Pastes extends CI_Model
 			$data['toexpire'] = 1;
 			$data['expire'] = mktime() + (60 * $this->input->post('expire'));
 		}
-		
-		if ($this->input->post('snipurl') == false) 
+
+		if ($this->input->post('snipurl') == false)
 		{
 			$data['snipurl'] = false;
 		}
@@ -129,18 +129,18 @@ class Pastes extends CI_Model
 		$this->db->insert('pastes', $data);
 		return 'view/' . $data['pid'];
 	}
-	private 
-	function _get_url($pid) 
+	private
+	function _get_url($pid)
 	{
 		$override_url = $this->config->item('displayurl_override');
 		return ($override_url ? str_replace('$id', $pid, $override_url) : st_site_url('view/' . $pid));
 	}
-	private 
-	function _shorten_url($url) 
+	private
+	function _shorten_url($url)
 	{
 		$config_yourls_url = $this->config->item('yourls_url');
-		
-		if ($config_yourls_url) 
+
+		if ($config_yourls_url)
 		{
 
 			//use yourls
@@ -186,11 +186,11 @@ class Pastes extends CI_Model
 		}
 		return $shorturl;
 	}
-	
-	function checkPaste($seg = 2) 
+
+	function checkPaste($seg = 2)
 	{
-		
-		if ($this->uri->segment($seg) == "") 
+
+		if ($this->uri->segment($seg) == "")
 		{
 			return false;
 		}
@@ -198,8 +198,8 @@ class Pastes extends CI_Model
 		{
 			$this->db->where('pid', $this->uri->segment($seg));
 			$query = $this->db->get('pastes');
-			
-			if ($query->num_rows() > 0) 
+
+			if ($query->num_rows() > 0)
 			{
 				return true;
 			}
@@ -209,11 +209,11 @@ class Pastes extends CI_Model
 			}
 		}
 	}
-	
-	function getPaste($seg = 2, $replies = false, $diff = false) 
+
+	function getPaste($seg = 2, $replies = false, $diff = false)
 	{
-		
-		if ($this->uri->segment($seg) == '') 
+
+		if ($this->uri->segment($seg) == '')
 		{
 			redirect('');
 		}
@@ -225,7 +225,7 @@ class Pastes extends CI_Model
 		$this->load->library('process');
 		$this->db->where('pid', $pid);
 		$query = $this->db->get('pastes');
-		foreach ($query->result_array() as $row) 
+		foreach ($query->result_array() as $row)
 		{
 			$data['title'] = $row['title'];
 			$data['pid'] = $row['pid'];
@@ -241,16 +241,16 @@ class Pastes extends CI_Model
 			$data['snipurl'] = $row['snipurl'];
 			$inreply = $row['replyto'];
 		}
-		
-		if ($inreply) 
+
+		if ($inreply)
 		{
 			$this->db->select('name, title');
 			$this->db->where('pid', $inreply);
 			$query = $this->db->get('pastes');
-			
-			if ($query->num_rows() > 0) 
+
+			if ($query->num_rows() > 0)
 			{
-				foreach ($query->result_array() as $row) 
+				foreach ($query->result_array() as $row)
 				{
 					$data['inreply']['title'] = $row['title'];
 					$data['inreply']['name'] = $row['name'];
@@ -261,16 +261,16 @@ class Pastes extends CI_Model
 			{
 				$data['inreply'] = false;
 			}
-			
-			if ($diff) 
+
+			if ($diff)
 			{
 				$this->db->select('raw');
 				$this->db->where('pid', $inreply);
 				$query = $this->db->get('pastes');
-				
-				if ($query->num_rows() > 0) 
+
+				if ($query->num_rows() > 0)
 				{
-					foreach ($query->result_array() as $row) 
+					foreach ($query->result_array() as $row)
 					{
 
 						//diff
@@ -290,8 +290,8 @@ class Pastes extends CI_Model
 				}
 			}
 		}
-		
-		if ($replies) 
+
+		if ($replies)
 		{
 			$amount = $this->config->item('per_page');
 			$page = ($this->uri->segment(3) ? $this->uri->segment(3) : 0);
@@ -300,11 +300,11 @@ class Pastes extends CI_Model
 			$this->db->order_by('id', 'desc');
 			$this->db->limit($amount);
 			$query = $this->db->get('pastes', $amount, $page);
-			
-			if ($query->num_rows() > 0) 
+
+			if ($query->num_rows() > 0)
 			{
 				$n = 0;
-				foreach ($query->result_array() as $row) 
+				foreach ($query->result_array() as $row)
 				{
 					$data['replies'][$n]['title'] = $row['title'];
 					$data['replies'][$n]['name'] = $row['name'];
@@ -341,8 +341,8 @@ class Pastes extends CI_Model
 		$query = $this->db->get('trending');
 		$hits_count = $query->result_array();
 		$hits_count = $hits_count[0]['count'];
-		
-		if ($hits_count == 0) 
+
+		if ($hits_count == 0)
 		{
 			$this->db->insert('trending', array(
 				'paste_id' => $pid,
@@ -352,23 +352,23 @@ class Pastes extends CI_Model
 		}
 
 		//update hits counter every minute
-		
-		if (mktime() > (60 + $data['hits_updated'])) 
+
+		if (mktime() > (60 + $data['hits_updated']))
 		{
 			$this->calculate_hits($pid, $data['hits']);
 		}
 		return $data;
 	}
-	
-	function calculate_hits($pid, $current_hits) 
+
+	function calculate_hits($pid, $current_hits)
 	{
 		$this->db->select('count(paste_id) as count');
 		$this->db->where('paste_id', $pid);
 		$query = $this->db->get('trending');
 		$hits_count = $query->result_array();
 		$hits_count = $hits_count[0]['count'];
-		
-		if ($hits_count != $current_hits) 
+
+		if ($hits_count != $current_hits)
 		{
 
 			//update
@@ -379,12 +379,12 @@ class Pastes extends CI_Model
 			));
 		}
 	}
-	
-	function getReplies($seg = 3) 
+
+	function getReplies($seg = 3)
 	{
 		$amount = $this->config->item('per_page');
-		
-		if ($this->uri->segment($seg) == '') 
+
+		if ($this->uri->segment($seg) == '')
 		{
 			redirect('');
 		}
@@ -397,19 +397,19 @@ class Pastes extends CI_Model
 		$this->db->order_by('id', 'desc');
 		$this->db->limit($amount);
 		$query = $this->db->get('pastes', $amount);
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
 			$n = 0;
-			foreach ($query->result_array() as $row) 
+			foreach ($query->result_array() as $row)
 			{
 				$data['replies'][$n]['title'] = $row['title'];
 				$data['replies'][$n]['name'] = $row['name'];
 				$data['replies'][$n]['lang'] = $row['lang'];
 				$data['replies'][$n]['created'] = $row['created'];
 				$data['replies'][$n]['pid'] = $row['pid'];
-				
-				if ($this->uri->segment(2) == 'rss') 
+
+				if ($this->uri->segment(2) == 'rss')
 				{
 					$data['replies'][$n]['paste'] = $this->process->syntax(htmlspecialchars_decode($row['raw']) , $row['lang']);
 					$data['replies'][$n]['raw'] = $row['raw'];
@@ -419,22 +419,30 @@ class Pastes extends CI_Model
 		}
 		return $data;
 	}
-	
-	function getLists($root = 'lists/', $seg = 2) 
+
+	function getLists($root = 'lists/', $seg = 2)
 	{
+		global $userName;
+
 		$this->load->library('pagination');
 		$this->load->library('process');
 		$amount = $this->config->item('per_page');
 		$page = ($this->uri->segment(2) ? $this->uri->segment(2) : 0);
 		$this->db->select('id, title, name, created, pid, lang, raw');
-		$this->db->where('private', 0);
+
+		if ( ! empty($userName) ) {
+			$this->db->where('name', $userName);
+		} else {
+			$this->db->where('private', 0);
+		}
+
 		$this->db->order_by('created', 'desc');
 		$query = $this->db->get('pastes', $amount, $page);
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
 			$n = 0;
-			foreach ($query->result_array() as $row) 
+			foreach ($query->result_array() as $row)
 			{
 				$data['pastes'][$n]['id'] = $row['id'];
 				$data['pastes'][$n]['title'] = $row['title'];
@@ -442,8 +450,8 @@ class Pastes extends CI_Model
 				$data['pastes'][$n]['created'] = $row['created'];
 				$data['pastes'][$n]['lang'] = $row['lang'];
 				$data['pastes'][$n]['pid'] = $row['pid'];
-				
-				if ($this->uri->segment(2) == 'rss') 
+
+				if ($this->uri->segment(2) == 'rss')
 				{
 					$data['pastes'][$n]['paste'] = $this->process->syntax(htmlspecialchars_decode($row['raw']) , $row['lang']);
 				}
@@ -462,8 +470,8 @@ class Pastes extends CI_Model
 		$data['pages'] = $this->pagination->create_links();
 		return $data;
 	}
-	
-	function getTrends($root = 'trends/', $seg = 2) 
+
+	function getTrends($root = 'trends/', $seg = 2)
 	{
 		$this->load->library('pagination');
 		$amount = $this->config->item('per_page');
@@ -473,11 +481,11 @@ class Pastes extends CI_Model
 		$this->db->order_by('hits', 'desc');
 		$this->db->order_by('created', 'desc');
 		$query = $this->db->get('pastes', $amount, $page);
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
 			$n = 0;
-			foreach ($query->result_array() as $row) 
+			foreach ($query->result_array() as $row)
 			{
 				$data['pastes'][$n]['id'] = $row['id'];
 				$data['pastes'][$n]['title'] = $row['title'];
@@ -501,8 +509,8 @@ class Pastes extends CI_Model
 		$data['pages'] = $this->pagination->create_links();
 		return $data;
 	}
-	
-	function getSpamLists($root = 'spamadmin/', $seg = 2, $ip_address = false) 
+
+	function getSpamLists($root = 'spamadmin/', $seg = 2, $ip_address = false)
 	{
 		$this->load->library('pagination');
 		$this->load->library('process');
@@ -510,18 +518,18 @@ class Pastes extends CI_Model
 		$page = ($this->uri->segment($seg) ? $this->uri->segment($seg) : 0);
 		$this->db->select('id, title, name, created, pid, lang, ip_address');
 		$this->db->where('private', 0);
-		
-		if ($ip_address) 
+
+		if ($ip_address)
 		{
 			$this->db->where('ip_address', $ip_address);
 		}
 		$this->db->order_by('created', 'desc');
 		$query = $this->db->get('pastes', $amount, $page);
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
 			$n = 0;
-			foreach ($query->result_array() as $row) 
+			foreach ($query->result_array() as $row)
 			{
 				$data['pastes'][$n]['id'] = $row['id'];
 				$data['pastes'][$n]['title'] = $row['title'];
@@ -554,17 +562,17 @@ class Pastes extends CI_Model
 		//return
 		return $data;
 	}
-	
-	function cron() 
+
+	function cron()
 	{
 		$now = now();
 		$this->db->where('toexpire', '1');
 		$query = $this->db->get('pastes');
-		foreach ($query->result_array() as $row) 
+		foreach ($query->result_array() as $row)
 		{
 			$stamp = $row['expire'];
-			
-			if ($now > $stamp) 
+
+			if ($now > $stamp)
 			{
 				$this->db->where('id', $row['id']);
 				$this->db->delete('pastes');
@@ -572,24 +580,24 @@ class Pastes extends CI_Model
 		}
 		return;
 	}
-	
-	function delete_paste($pid) 
+
+	function delete_paste($pid)
 	{
 		$this->db->where('pid', $pid);
 		$this->db->delete('pastes');
 		return;
 	}
-	
-	function random_paste() 
+
+	function random_paste()
 	{
 		$this->load->library('process');
 		$this->db->order_by('id', 'RANDOM');
 		$this->db->limit(1);
 		$query = $this->db->get('pastes');
-		
-		if ($query->num_rows() > 0) 
+
+		if ($query->num_rows() > 0)
 		{
-			foreach ($query->result_array() as $row) 
+			foreach ($query->result_array() as $row)
 			{
 				$data['title'] = $row['title'];
 				$data['pid'] = $row['pid'];
@@ -605,16 +613,16 @@ class Pastes extends CI_Model
 				$data['snipurl'] = $row['snipurl'];
 				$inreply = $row['replyto'];
 			}
-			
-			if ($inreply) 
+
+			if ($inreply)
 			{
 				$this->db->select('name, title');
 				$this->db->where('pid', $inreply);
 				$query = $this->db->get('pastes');
-				
-				if ($query->num_rows() > 0) 
+
+				if ($query->num_rows() > 0)
 				{
-					foreach ($query->result_array() as $row) 
+					foreach ($query->result_array() as $row)
 					{
 						$data['inreply']['title'] = $row['title'];
 						$data['inreply']['name'] = $row['name'];
@@ -630,8 +638,8 @@ class Pastes extends CI_Model
 		}
 		return false;
 	}
-	private 
-	function _format_diff($text) 
+	private
+	function _format_diff($text)
 	{
 		$text = str_replace("\t", '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', $text);
 		$text = '<div class="text" style="font-family:monospace; font: normal normal 1em/1.2em monospace;">' . $text . '</div>';
