@@ -1,11 +1,11 @@
 <?php $this->load->view('defaults/header');?>
 <h1><?php echo lang('paste_trending'); ?></h1>
 
-		<?php 
+		<?php
 		function checkNum($num){
 			return ($num%2) ? TRUE : FALSE;
 		}
-		$n = 0;		
+		$n = 0;
 		if(!empty($pastes)){ ?>
 			<table class="recent">
 				<tbody>
@@ -23,11 +23,11 @@
 					$eo = "odd";
 				}
 				$n++;
-		?>	
+		?>
 
 		<tr class="<?php echo $eo; ?>">
 			<td class="first"><a href="<?php echo st_site_url("view/".$paste['pid']); ?>"><?php echo $paste['title']; ?></a></td>
-			<td><?php echo $paste['name']; ?></td>
+			<td><?php echo '<a href="/members/' . $paste['name'] . '/">'. $paste['name'] . '</a>'; ?></td>
 			<td><?php echo $paste['lang']; ?></td>
 			<td><?php echo number_format($paste['hits'], 0, '.', "'"); ?></td>
 			<td><?php $p = explode(",", timespan($paste['created'], time())); echo $p[0]; ?> <?php echo lang('paste_ago'); ?>.</td>
@@ -35,7 +35,7 @@
 
 		<?php }?>
 				</tbody>
-			</table> 
+			</table>
 		<?php } else { ?>
 			<p><?php echo lang('paste_missing'); ?> :(</p>
 		<?php }?>
