@@ -808,7 +808,7 @@ function bp_profile_group_tabs() {
 	$tabs = array();
 	for ( $i = 0, $count = count( $groups ); $i < $count; ++$i ) {
 
-		if ( ($groups[$i]->name == 'Base') || ($groups[$i]->name == 'private' ) )
+		if ( (($groups[$i]->name == 'Base') || ($groups[$i]->name == 'private' )) && (! is_super_admin()) )
 			continue;
 
 		if ( $group_name == $groups[$i]->name )
@@ -884,8 +884,12 @@ function bp_current_profile_group_id() {
 	echo bp_get_current_profile_group_id();
 }
 	function bp_get_current_profile_group_id() {
-		if ( !$profile_group_id = bp_action_variable( 3 ) )
-			$profile_group_id = 3;
+
+		if ( ! is_super_admin() )
+			return 3;
+
+		if ( !$profile_group_id = bp_action_variable( 1 ) )
+			$profile_group_id = 1;
 
 		return apply_filters( 'bp_get_current_profile_group_id', $profile_group_id ); // admin/profile/edit/[group-id]
 	}
