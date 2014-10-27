@@ -123,6 +123,7 @@ $elastos_org_main_menu = '
                 <div style="height:130px"><img src="/wp-includes/images/elorg_support.jpg" alt="bugsvoice" style="width:120px;"></div>
                 <a href="/q2a/"><img src="/wp-includes/images/question2answer.ico" style="width:16px;">q2a</a>
                 <a href="/stikked/"><img src="/stikked/favicon.ico" style="width:16px;">pastebin</a>
+                <a href="/owncloud/"><img src="/owncloud/core/img/favicon.png" style="width:16px;">owncloud</a>
             </td>
         </tr>
     </tbody></table>
