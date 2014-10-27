@@ -1289,7 +1289,6 @@ function wp_insert_user($userdata) {
 		$update = false;
 		// Hash the password
 		$user_pass = wp_hash_password($user_pass);
-		$sabre = wp_sabre_password($user_login, $user_pass);
 	}
 
 	$user_login = sanitize_user($user_login, true);
@@ -1370,7 +1369,7 @@ function wp_insert_user($userdata) {
 		$user_nicename = $alt_user_nicename;
 	}
 
-	$data = compact( 'user_pass', 'user_email', 'user_url', 'user_nicename', 'display_name', 'user_registered', 'sabre' );
+	$data = compact( 'user_pass', 'user_email', 'user_url', 'user_nicename', 'display_name', 'user_registered' );
 	$data = stripslashes_deep( $data );
 
 	if ( $update ) {
@@ -1443,7 +1442,6 @@ function wp_update_user($userdata) {
 	if ( ! empty($userdata['user_pass']) ) {
 		$plaintext_pass = $userdata['user_pass'];
 		$userdata['user_pass'] = wp_hash_password($userdata['user_pass']);
-		$userdata['sabre'] = wp_sabre_password($userdata['user_login'], $plaintext_pass);
 	}
 
 	wp_cache_delete($user[ 'user_email' ], 'useremail');
