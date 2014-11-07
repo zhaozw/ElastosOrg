@@ -10,14 +10,14 @@ define('EL_FINAL_WORDPRESS_INTEGRATE_PATH', EL_WORDPRESS_INTEGRATE_PATH.((substr
 define('EL_WORDPRESS_LOAD_FILE', EL_FINAL_WORDPRESS_INTEGRATE_PATH.'wp-load.php');
 require_once EL_WORDPRESS_LOAD_FILE;
 
-$nonce=$_REQUEST['_wpnonce'];
-if (! wp_verify_nonce($nonce, 'ElastosOrg') ) {
-	exit;
-}
-
 if ($_REQUEST['fun'] == 'usermail') {
 	if (!empty($_REQUEST['user_name'])) {
 		global $wpdb;
+
+		$nonce=$_REQUEST['_wpnonce'];
+		if (! wp_verify_nonce($nonce, 'ElastosOrg') ) {
+			exit;
+		}
 
 		$user_login = $_REQUEST['user_name'];
 		$user = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM $wpdb->signups WHERE user_login = %s", $user_login ) );
@@ -32,6 +32,22 @@ if ($_REQUEST['fun'] == 'usermail') {
 			wpmu_signup_user_notification( $user->user_login, $user->user_email, $user->activation_key, maybe_unserialize( $user->meta ) );
 		}
 	}
+} else if ($_REQUEST['fun'] == 'useravatar') {
+	if (!empty($_REQUEST['user_name'])) {
+
+		$user = $wpdb->get_row( $wpdb->prepare( "SELECT ID FROM $wpdb->users WHERE user_login = %s", $_REQUEST['user_name'] ) );
+		if ( !$user ) {
+			exit;
+		}
+
+		$str = bp_core_fetch_avatar( array(
+					'item_id' => $user->ID,
+					'type'    => 'full',
+					'html'    => false
+				) );
+		echo $str;
+	}
 }
+
 
 ?>
