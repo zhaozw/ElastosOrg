@@ -36,6 +36,8 @@ $this->carabiner->css('diff.css');
 
 $this->carabiner->display('css');
 
+$searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('search') : '');
+
 ?>
 	<script type="text/javascript">
 	//<![CDATA[

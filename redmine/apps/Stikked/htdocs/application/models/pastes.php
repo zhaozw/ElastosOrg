@@ -427,17 +427,48 @@ class Pastes extends CI_Model
 		$this->load->library('pagination');
 		$this->load->library('process');
 		$amount = $this->config->item('per_page');
-		$page = ($this->uri->segment(2) ? $this->uri->segment(2) : 0);
-		$this->db->select('id, title, name, created, pid, lang, raw');
 
-		if ( ! empty($userName) ) {
-			$this->db->where('name', $userName);
-		} else {
-			$this->db->where('private', 0);
+		$page = ($this->uri->segment($seg) ? $this->uri->segment($seg) : 0);
+		$search = '%' . $this->input->get('search') . '%';
+		
+		if ($search) 
+		{
+
+			// count total results
+			$sql = "SELECT id FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?)";
+			$query = $this->db->query($sql, array(
+				$search,
+				$search,
+			));
+			$total_rows = $query->num_rows();
+
+			// query
+			if($this->db->dbdriver == "postgre") {
+				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $amount OFFSET $page";
+			} else {
+				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $page,$amount";
+			}
+			$query = $this->db->query($sql, array(
+				$search,
+				$search,
+			));
 		}
+		else
+		{
 
-		$this->db->order_by('created', 'desc');
-		$query = $this->db->get('pastes', $amount, $page);
+			// count total results
+			$sql = "SELECT id FROM pastes WHERE name = '$userName'";
+			$query = $this->db->query($sql);
+			$total_rows = $query->num_rows();
+
+			// query
+			if($this->db->dbdriver == "postgre") {
+				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $amount OFFSET $page";
+			} else {
+				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $page,$amount";
+			} 
+			$query = $this->db->query($sql);
+		}
 
 		if ($query->num_rows() > 0)
 		{
@@ -466,6 +497,11 @@ class Pastes extends CI_Model
 		$config['full_tag_open'] = '<div class="pages">';
 		$config['full_tag_close'] = '</div>';
 		$config['uri_segment'] = $seg;
+		
+		$searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('search') : '');
+		$config['first_url'] = '0' . $searchparams;
+		$config['suffix'] = $searchparams;
+
 		$this->pagination->initialize($config);
 		$data['pages'] = $this->pagination->create_links();
 		return $data;
@@ -476,11 +512,47 @@ class Pastes extends CI_Model
 		$this->load->library('pagination');
 		$amount = $this->config->item('per_page');
 		$page = ($this->uri->segment(2) ? $this->uri->segment(2) : 0);
-		$this->db->select('id, title, name, created, pid, lang, raw, hits');
-		$this->db->where('private', 0);
-		$this->db->order_by('hits', 'desc');
-		$this->db->order_by('created', 'desc');
-		$query = $this->db->get('pastes', $amount, $page);
+		
+		$search = '%' . $this->input->get('search') . '%';
+		
+		if ($search) 
+		{
+
+			// count total results
+			$sql = "SELECT id FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?)";
+			$query = $this->db->query($sql, array(
+				$search,
+				$search,
+			));
+			$total_rows = $query->num_rows();
+
+			// query
+			if($this->db->dbdriver == "postgre") {
+				$sql = "SELECT id, title, name, created, pid, lang, raw, hits FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?) ORDER BY hits DESC, created DESC LIMIT $amount OFFSET $page";
+			} else {
+				$sql = "SELECT id, title, name, created, pid, lang, raw, hits FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?) ORDER BY hits DESC, created DESC LIMIT $page,$amount";
+			}
+			$query = $this->db->query($sql, array(
+				$search,
+				$search,
+			));
+		}
+		else
+		{
+
+			// count total results
+			$sql = "SELECT id FROM pastes WHERE private = 0";
+			$query = $this->db->query($sql);
+			$total_rows = $query->num_rows();
+
+			// query
+			if($this->db->dbdriver == "postgre") {
+				$sql = "SELECT id, title, name, created, pid, lang, raw, hits FROM pastes WHERE private = 0 ORDER BY hits DESC, created DESC LIMIT $amount OFFSET $page";
+			} else {
+				$sql = "SELECT id, title, name, created, pid, lang, raw, hits FROM pastes WHERE private = 0 ORDER BY hits DESC, created DESC LIMIT $page,$amount";
+			}
+			$query = $this->db->query($sql);
+		}
 
 		if ($query->num_rows() > 0)
 		{
@@ -505,6 +577,11 @@ class Pastes extends CI_Model
 		$config['full_tag_open'] = '<div class="pages">';
 		$config['full_tag_close'] = '</div>';
 		$config['uri_segment'] = $seg;
+
+		$searchparams = ($this->input->get('search') ? '?search=' . $this->input->get('search') : '');
+		$config['first_url'] = '0' . $searchparams;
+		$config['suffix'] = $searchparams;
+
 		$this->pagination->initialize($config);
 		$data['pages'] = $this->pagination->create_links();
 		return $data;
