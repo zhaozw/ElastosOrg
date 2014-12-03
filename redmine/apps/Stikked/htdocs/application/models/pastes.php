@@ -435,7 +435,12 @@ class Pastes extends CI_Model
 		{
 
 			// count total results
-			$sql = "SELECT id FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?)";
+			if ( ! empty($userName) ) {
+				$sql = "SELECT id FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?)";
+			} else {
+		    	$sql = "SELECT id FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?)";
+			}
+
 			$query = $this->db->query($sql, array(
 				$search,
 				$search,
@@ -444,9 +449,17 @@ class Pastes extends CI_Model
 
 			// query
 			if($this->db->dbdriver == "postgre") {
-				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $amount OFFSET $page";
+				if ( ! empty($userName) ) {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $amount OFFSET $page";
+				} else {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $amount OFFSET $page";
+				}
 			} else {
-				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $page,$amount";
+				if ( ! empty($userName) ) {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $page,$amount";
+				} else {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE private = 0 AND (title LIKE ? OR raw LIKE ?) ORDER BY created DESC LIMIT $page,$amount";
+				}
 			}
 			$query = $this->db->query($sql, array(
 				$search,
@@ -457,15 +470,27 @@ class Pastes extends CI_Model
 		{
 
 			// count total results
-			$sql = "SELECT id FROM pastes WHERE name = '$userName'";
+			if ( ! empty($userName) ) {
+				$sql = "SELECT id FROM pastes WHERE name = '$userName'";
+			} else {
+				$sql = "SELECT id FROM pastes WHERE private = 0";
+			}
 			$query = $this->db->query($sql);
 			$total_rows = $query->num_rows();
 
 			// query
 			if($this->db->dbdriver == "postgre") {
-				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $amount OFFSET $page";
+				if ( ! empty($userName) ) {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $amount OFFSET $page";
+				} else {	
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE private = 0 ORDER BY created DESC LIMIT $amount OFFSET $page";
+				}
 			} else {
-				$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $page,$amount";
+				if ( ! empty($userName) ) {
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE name = '$userName' ORDER BY created DESC LIMIT $page,$amount";
+				} else {	
+					$sql = "SELECT id, title, name, created, pid, lang, raw FROM pastes WHERE private = 0 ORDER BY created DESC LIMIT $page,$amount";
+     			}
 			} 
 			$query = $this->db->query($sql);
 		}
