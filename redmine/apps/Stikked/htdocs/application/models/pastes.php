@@ -516,7 +516,7 @@ class Pastes extends CI_Model
 			}
 		}
 		$config['base_url'] = st_site_url($root);
-		$config['total_rows'] = $this->countPastes();
+		$config['total_rows'] = $total_rows;
 		$config['per_page'] = $amount;
 		$config['num_links'] = 9;
 		$config['full_tag_open'] = '<div class="pages">';
@@ -596,7 +596,7 @@ class Pastes extends CI_Model
 			}
 		}
 		$config['base_url'] = st_site_url($root);
-		$config['total_rows'] = $this->countPastes();
+		$config['total_rows'] = $total_rows;
 		$config['per_page'] = $amount;
 		$config['num_links'] = 9;
 		$config['full_tag_open'] = '<div class="pages">';
