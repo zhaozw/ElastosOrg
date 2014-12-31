@@ -4,7 +4,13 @@ define('EL_WORDPRESS_INTEGRATE_PATH', '/opt/redmine/apps/wordpress/htdocs');
 define('EL_FINAL_WORDPRESS_INTEGRATE_PATH', EL_WORDPRESS_INTEGRATE_PATH.((substr(EL_WORDPRESS_INTEGRATE_PATH, -1)=='/') ? '' : '/'));
 define('EL_WORDPRESS_LOAD_FILE', EL_FINAL_WORDPRESS_INTEGRATE_PATH.'wp-load.php');
 require_once EL_WORDPRESS_LOAD_FILE;
+	
+	// /opt/redmine/apps/wordpress/htdocs/wp-includes/formatting.php on line 1387
 
+	$_POST = array_map('stripslashes_deep', $_POST);
+	$_GET = array_map('stripslashes_deep', $_GET);
+	$_COOKIE = array_map('stripslashes_deep', $_COOKIE);
+	$_REQUEST = array_map('stripslashes_deep', $_REQUEST);
 
 /*
  *---------------------------------------------------------------
