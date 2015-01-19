@@ -261,12 +261,16 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
           if ($user) {
             $envelope = new PhutilOpaqueEnvelope($request->getStr('password'));
 
+			require_once( 'class-phpass.php' );
+			$wp_hasher = new PasswordHash(8, true);
+			$passwd = $wp_hasher->HashPassword( $request->getStr('password') );
+
             /*
              * connect to elastos.org user-database
              */
 		    $myconn = mysql_connect("localhost","root", "kortide") or die("Could not connect : " . mysql_error());
 		    mysql_select_db("elastos_org", $myconn) or die("Could not select database");
-		    $strSql = 'select * from elorg_packages where $username_or_email = "' . $username_or_email . '" AND password="' . $request->getStr('password') . '"';
+		    $strSql = 'select * from elorg_packages where $username_or_email = "' . $username_or_email . '" AND password="' . $passwd . '"';
 		    $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());;
 
 			$num = mysql_num_rows($result);
