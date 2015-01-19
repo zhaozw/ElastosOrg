@@ -333,27 +333,28 @@ abstract class PhabricatorPasswordHasher extends Phobject {
    * @task hashing
    */
   public static function canUpgradeHash(PhutilOpaqueEnvelope $hash) {
-    if (!strlen($hash->openEnvelope())) {
-      throw new Exception(
-        pht('Expected a password hash, received nothing!'));
-    }
+  /**  if (!strlen($hash->openEnvelope())) {
+   *    throw new Exception(
+   *      pht('Expected a password hash, received nothing!')); 
+   *  }
 
-    $current_hasher = self::getHasherForHash($hash);
-    $best_hasher = self::getBestHasher();
+   *  $current_hasher = self::getHasherForHash($hash);
+   *  $best_hasher = self::getBestHasher();
 
-    if ($current_hasher->getHashName() != $best_hasher->getHashName()) {
-      // If the algorithm isn't the best one, we can upgrade.
-      return true;
-    }
+   *  if ($current_hasher->getHashName() != $best_hasher->getHashName()) {
+   *    // If the algorithm isn't the best one, we can upgrade.
+   *    return true;
+   *  }
 
-    $info = self::parseHashFromStorage($hash);
-    if ($current_hasher->canUpgradeInternalHash($info['hash'])) {
-      // If the algorithm provides an internal upgrade, we can also upgrade.
-      return true;
-    }
+   *  $info = self::parseHashFromStorage($hash);
+   *  if ($current_hasher->canUpgradeInternalHash($info['hash'])) {
+   *    // If the algorithm provides an internal upgrade, we can also upgrade.
+   *    return true;
+   *  }
 
-    // Already on the best algorithm with the best settings.
-    return false;
+   *  // Already on the best algorithm with the best settings.
+   *  return false;
+   */
   }
 
 
@@ -429,3 +430,5 @@ abstract class PhabricatorPasswordHasher extends Phobject {
   }
 
 }
+
+

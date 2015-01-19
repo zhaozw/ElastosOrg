@@ -260,31 +260,36 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
 
           if ($user) {
             $envelope = new PhutilOpaqueEnvelope($request->getStr('password'));
+            $passwd = $request->getStr('password');
 
-			require_once( 'class-phpass.php' );
-			$wp_hasher = new PasswordHash(8, true);
-			$passwd = $wp_hasher->HashPassword( $request->getStr('password') );
+      require_once( 'class-phpass.php' );
+      $wp_hasher = new PasswordHash(8, true);
 
             /*
              * connect to elastos.org user-database
              */
-		    $myconn = mysql_connect("localhost","root", "kortide") or die("Could not connect : " . mysql_error());
-		    mysql_select_db("elastos_org", $myconn) or die("Could not select database");
-		    $strSql = 'select * from elorg_packages where $username_or_email = "' . $username_or_email . '" AND password="' . $passwd . '"';
-		    $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());;
+      $myconn = mysql_connect("127.0.0.1","root", "elastos123") or die("Could not connect : " . mysql_error());
+        mysql_select_db("wordpress", $myconn) or die("Could not select database");
+        $strSql = 'select user_pass from wp_users where user_login = "' . $username_or_email . '"';
+        $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());;
 
-			$num = mysql_num_rows($result);
-			mysql_free_result($result);
-		    mysql_close($myconn);
+      $num = mysql_fetch_row($result);
+      $hash = $num[0];
+      error_log("--------$hash-----------hash");
+      error_log("--------$passwd-------passwd");
+      $pwdcheck = $wp_hasher->CheckPassword($passwd, $hash);
+      error_log("----$pwdcheck----------pwdcheck");
+      mysql_free_result($result);
+        mysql_close($myconn);
 
-			$yes = false;
-			if ($num > 0) {
-				$yes = true;
-			} else {
-            	if ($user->comparePassword($envelope)) {
-            		$yes = true;
-            	}
-			}
+      $yes = false;
+      if ($pwdcheck > 0) {
+        $yes = true;
+      } else {
+              if ($user->comparePassword($envelope)) {
+                $yes = true;
+              }
+      }  
             if ($yes) {
               $account = $this->loadOrCreateAccount($user->getPHID());
               $log_user = $user;
