@@ -257,13 +257,13 @@ final class AphrontWriteGuard {
    * @task disable
    */
   public static function allowDangerousUnguardedWrites($allow) {
-    if (self::$instance) {
-      throw new Exception(
-        'You can not unconditionally disable AphrontWriteGuard by calling '.
-        'allowDangerousUnguardedWrites() while a write guard is active. Use '.
-        'beginUnguardedWrites() to temporarily allow unguarded writes.');
-    }
-    self::$allowUnguardedWrites = true;
+   // if (self::$instance) {
+    //  throw new Exception(
+     //   'You can not unconditionally disable AphrontWriteGuard by calling '.
+    //    'allowDangerousUnguardedWrites() while a write guard is active. Use '.
+     //   'beginUnguardedWrites() to temporarily allow unguarded writes.');
+   // }
+  //  self::$allowUnguardedWrites = true;
   }
 
 
@@ -285,3 +285,4 @@ final class AphrontWriteGuard {
   }
 
 }
+
