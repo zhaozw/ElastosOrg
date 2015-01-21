@@ -1,6 +1,6 @@
 <?php
 
-include( 'connect-mysql.php' );
+include('connect-mysql.php');
 
 
 final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
@@ -258,6 +258,7 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
             $username_or_email);
 
           $yes = false;
+          $row = null;
 
           if (!$user) {
 
@@ -268,26 +269,29 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
               /*
               *if account is not in phabricator , but is in elastos.org ,create user in phabricator .
               */
-              $myconn = mysql_connect( RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD ) or die("Could not connect : " . mysql_error());
-              mysql_select_db( RMYSQL_DB, $myconn ) or die("Could not select database");
-              $strSql = 'select * from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
+              $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
+              mysql_select_db(RMYSQL_DB, $myconn ) or die("Could not select database");
+              $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
               $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
               $num = mysql_num_rows($result);
-              $row = mysql_fetch_row($result);
-              mysql_free_result($result);
-              mysql_close($myconn);
               if ($num > 0) {
-              //call add_user.php to crete account
-              require_once( 'add-user.php' );
-              addUserForAdmin("$row[1]","$row[4]","$row[1]","sunzhen");
-              $user = id(new PhabricatorUser())->loadOneWhere(
-                'username = %s',
-                $username_or_email); 
+                $row = mysql_fetch_row($result);
+
+                //call add_user.php to crete account
+                require_once( 'add-user.php' );
+                addUserForAdmin("$row[0]","$row[1]","$row[0]","sunzhen");
+                $user = id(new PhabricatorUser())->loadOneWhere(
+                  'username = %s',
+                  $username_or_email); 
               }
               if (!$user) {
                 $user = PhabricatorUser::loadOneWithEmailAddress(
                   $username_or_email);
               }
+
+              mysql_free_result($result);
+              mysql_close($myconn);
+
             }
           }
 
@@ -300,16 +304,19 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
             /*
              * connect to elastos.org user-database
              */
-            $myconn = mysql_connect( RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
-            mysql_select_db( RMYSQL_DB, $myconn ) or die("Could not select database");
-            $strSql = 'select user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
-            $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
+            if (empty($row) ) {
+              $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
+              mysql_select_db(RMYSQL_DB, $myconn) or die("Could not select database");
+              $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
+              $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
 
-            $num = mysql_fetch_row($result);
-            $hash = $num[0];
+              $row = mysql_fetch_row($result);
+              mysql_free_result($result);
+              mysql_close($myconn);
+            }
+            $hash = $row[2];
             $pwdcheck = $wp_hasher->CheckPassword($passwd, $hash);
-            mysql_free_result($result);
-            mysql_close($myconn);
+
 
             //if user's account exist in phabricator and elastos.org,we use elastos's passowrd
             if ($pwdcheck > 0) {
