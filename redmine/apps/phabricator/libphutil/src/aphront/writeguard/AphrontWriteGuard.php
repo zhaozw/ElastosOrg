@@ -263,7 +263,7 @@ final class AphrontWriteGuard {
     //    'allowDangerousUnguardedWrites() while a write guard is active. Use '.
      //   'beginUnguardedWrites() to temporarily allow unguarded writes.');
    // }
-  //  self::$allowUnguardedWrites = true;
+    self::$allowUnguardedWrites = true;
   }
 
 
