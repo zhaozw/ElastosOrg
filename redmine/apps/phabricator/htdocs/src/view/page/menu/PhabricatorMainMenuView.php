@@ -87,6 +87,7 @@ final class PhabricatorMainMenuView extends AphrontView {
       array(
         $app_button,
         $search_button,
+        $this->renderElastosOrgLogo(),
         $this->renderPhabricatorLogo(),
         $alerts,
         $aural,
@@ -235,6 +236,21 @@ final class PhabricatorMainMenuView extends AphrontView {
     }
 
     return $view;
+  }
+
+
+ private function renderElastosOrgLogo() {
+ 	return new PhutilSafeHTML('<a href="http://elastos.org"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;display:inline-block;"></a>');
+/*
+    return phutil_tag(
+      'a',
+      array(
+        'class' => 'phabricator-main-menu-brand',
+        'href'  => 'http://elastos.org/',
+      ),
+      '<img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;">'
+      );
+*/
   }
 
   private function renderPhabricatorLogo() {
