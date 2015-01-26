@@ -87,6 +87,7 @@ final class PhabricatorMainMenuView extends AphrontView {
       array(
         $app_button,
         $search_button,
+        //add a Elastos logo
         $this->renderElastosOrgLogo(),
         $this->renderPhabricatorLogo(),
         $alerts,
@@ -239,18 +240,29 @@ final class PhabricatorMainMenuView extends AphrontView {
   }
 
 
- private function renderElastosOrgLogo() {
- 	return new PhutilSafeHTML('<a href="http://elastos.org"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;display:inline-block;"></a>');
-/*
+private function renderElastosOrgLogo() {
+//return new PhutilSafeHTML('<a href="http://elastos.org"><img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;display:inline-block;"></a>');
+
     return phutil_tag(
       'a',
       array(
-        'class' => 'phabricator-main-menu-brand',
+        'class' => 'phabricator-main-menu-elastos',
         'href'  => 'http://elastos.org/',
       ),
-      '<img src="http://elastos.org/elorg_common/img/ElastosOrg_RedLogo.png" style="vertical-align:middle;">'
-      );
-*/
+      array(
+        javelin_tag(
+          'span',
+          array(
+            'aural' => true,
+          ),
+          pht('Elastos')),
+        phutil_tag(
+          'span',
+          array(
+            'class' => 'phabricator-main-elastos-logo',
+          ),
+          ''),
+      ));
   }
 
   private function renderPhabricatorLogo() {

@@ -7,7 +7,7 @@
  */
 return array(
   'names' => array(
-    'core.pkg.css' => 'b43bb04d',
+    'core.pkg.css' => '7e965e5b',
     'core.pkg.js' => 'e64447dc',
     'darkconsole.pkg.js' => 'df001cab',
     'differential.pkg.css' => '8af45893',
@@ -35,7 +35,7 @@ return array(
     'rsrc/css/aphront/two-column.css' => '16ab3ad2',
     'rsrc/css/aphront/typeahead.css' => 'a989b5b3',
     'rsrc/css/application/auth/auth.css' => '1e655982',
-    'rsrc/css/application/base/main-menu-view.css' => 'a8d57876',
+    'rsrc/css/application/base/main-menu-view.css' => 'dba71f1e',
     'rsrc/css/application/base/notification-menu.css' => '6aa0a74b',
     'rsrc/css/application/base/phabricator-application-launch-view.css' => '5d71008f',
     'rsrc/css/application/base/standard-page-view.css' => '3f5b9311',
@@ -227,6 +227,7 @@ return array(
     'rsrc/favicons/favicon-32x32.png' => 'b6a8150e',
     'rsrc/favicons/favicon-96x96.png' => '8f7ea177',
     'rsrc/image/BFCFDA.png' => 'd5ec91f4',
+    'rsrc/image/ElastosOrg_RedLogo.png' => 'cede6644',
     'rsrc/image/actions/edit.png' => '2fc41442',
     'rsrc/image/avatar.png' => '3eb28cd9',
     'rsrc/image/checker_dark.png' => 'd8e65881',
@@ -723,7 +724,7 @@ return array(
     'phabricator-hovercard-view-css' => '893f4783',
     'phabricator-keyboard-shortcut' => '1ae869f2',
     'phabricator-keyboard-shortcut-manager' => 'ad7a69ca',
-    'phabricator-main-menu-view' => 'a8d57876',
+    'phabricator-main-menu-view' => 'dba71f1e',
     'phabricator-nav-view-css' => '9283c2df',
     'phabricator-notification' => '0c6946e7',
     'phabricator-notification-css' => '9c279160',
@@ -1136,22 +1137,10 @@ return array(
       'javelin-stratcom',
       'javelin-dom',
     ),
-    '4e9b766b' => array(
-      'javelin-behavior',
-      'javelin-dom',
-      'javelin-util',
-      'javelin-stratcom',
-      'javelin-request',
-    ),
     '4fdb476d' => array(
       'javelin-behavior',
       'javelin-stratcom',
       'javelin-dom',
-    ),
-    '503e17fd' => array(
-      'javelin-install',
-      'javelin-typeahead-source',
-      'javelin-util',
     ),
     '519705ea' => array(
       'javelin-install',
@@ -1256,11 +1245,6 @@ return array(
       'javelin-typeahead',
       'javelin-uri',
     ),
-    '6e8cefa4' => array(
-      'javelin-install',
-      'javelin-dom',
-      'javelin-util',
-    ),
     '6eff08aa' => array(
       'javelin-install',
       'javelin-util',
@@ -1287,10 +1271,6 @@ return array(
       'javelin-util',
       'javelin-stratcom',
       'phabricator-prefab',
-    ),
-    '7319e029' => array(
-      'javelin-behavior',
-      'javelin-dom',
     ),
     '76b9fc3e' => array(
       'javelin-behavior',
@@ -1351,16 +1331,6 @@ return array(
       'javelin-uri',
       'javelin-behavior-device',
       'phabricator-title',
-    ),
-    '7e41274a' => array(
-      'javelin-install',
-    ),
-    '7e8468ae' => array(
-      'javelin-install',
-      'javelin-dom',
-      'javelin-vector',
-      'javelin-request',
-      'javelin-uri',
     ),
     '7ebaeed3' => array(
       'herald-rule-editor',
@@ -1448,16 +1418,6 @@ return array(
       'javelin-stratcom',
       'javelin-workflow',
       'javelin-util',
-    ),
-    '97258e55' => array(
-      'javelin-install',
-      'javelin-stratcom',
-      'javelin-util',
-      'javelin-behavior',
-      'javelin-json',
-      'javelin-dom',
-      'javelin-resource',
-      'javelin-routable',
     ),
     '988040b4' => array(
       'javelin-install',
@@ -1967,6 +1927,47 @@ return array(
       'javelin-stratcom',
       'javelin-workflow',
       'phabricator-draggable-list',
+    ),
+    '4e9b766b' => array(
+      'javelin-behavior',
+      'javelin-dom',
+      'javelin-util',
+      'javelin-stratcom',
+      'javelin-request',
+    ),
+    '503e17fd' => array(
+      'javelin-install',
+      'javelin-typeahead-source',
+      'javelin-util',
+    ),
+    '6e8cefa4' => array(
+      'javelin-install',
+      'javelin-dom',
+      'javelin-util',
+    ),
+    '7319e029' => array(
+      'javelin-behavior',
+      'javelin-dom',
+    ),
+    '7e41274a' => array(
+      'javelin-install',
+    ),
+    '7e8468ae' => array(
+      'javelin-install',
+      'javelin-dom',
+      'javelin-vector',
+      'javelin-request',
+      'javelin-uri',
+    ),
+    '97258e55' => array(
+      'javelin-install',
+      'javelin-stratcom',
+      'javelin-util',
+      'javelin-behavior',
+      'javelin-json',
+      'javelin-dom',
+      'javelin-resource',
+      'javelin-routable',
     ),
   ),
   'packages' => array(

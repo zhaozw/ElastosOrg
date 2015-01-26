@@ -52,7 +52,7 @@
   position: absolute;
   width: 96px;
   height: 26px;
-  left: 52px;
+  left:92px;
   top: 9px;
 }
 
@@ -61,6 +61,17 @@
   width: 40px;
   height: 40px;
   top: 2px;
+}
+
+.phabricator-main-elastos-logo {
+  float:left;
+  background-image: url(/rsrc/image/ElastosOrg_RedLogo.png);
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  background-repeat: no-repeat;
+  padding-right: 4px;
+  border-right: 1px solid #997;
 }
 
 .device-desktop .phabricator-main-menu-brand:hover {
@@ -337,6 +348,7 @@
 }
 
 
+
 /* - Core Menu -----------------------------------------------------------------
 
   Styles unique to the core menu (left button on mobile).
@@ -462,3 +474,6 @@
 !print .phabricator-main-menu {
   display: none;
 }
+
+
+
