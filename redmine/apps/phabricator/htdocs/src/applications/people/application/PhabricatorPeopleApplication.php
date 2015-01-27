@@ -116,7 +116,11 @@ final class PhabricatorPeopleApplication extends PhabricatorApplication {
     $items = array();
 
     if ($user->isLoggedIn() && $user->isUserActivated()) {
-      $image = $user->loadProfileImageURI();
+
+      $image = file_get_contents('http://elastos.org/wp-elastosorg.php?fun=useravatar&user_name=' . $user->getUsername());
+      if (empty($image)) {
+      	$image = $user->loadProfileImageURI();
+      }
 
       $item = id(new PHUIListItemView())
         ->setName($user->getUsername())
