@@ -86,7 +86,7 @@ function wp_signon( $credentials = '', $secure_cookie = '' ) {
             		}
 		}
 	}
-	setrawcookie('ElastosID', $url, time()+3600*24*365);
+	setrawcookie('ElastosID', $url, time()+3600*24*365, '/', '.elastos.org');
 
 	do_action('wp_login', $user->user_login, $user);
 	return $user;
