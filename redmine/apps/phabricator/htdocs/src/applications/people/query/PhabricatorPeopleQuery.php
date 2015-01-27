@@ -155,11 +155,14 @@ final class PhabricatorPeopleQuery
         $files = array();
       }
       foreach ($users as $user) {
-        $image_phid = $user->getProfileImagePHID();
-        if (isset($files[$image_phid])) {
-          $profile_image_uri = $files[$image_phid]->getBestURI();
-        } else {
-          $profile_image_uri = PhabricatorUser::getDefaultProfileImageURI();
+      	$profile_image_uri = file_get_contents('http://elastos.org/wp-elastosorg.php?fun=useravatar&user_name=' . $user->getUsername());
+      	if (empty($profile_image_uri)) {
+          $image_phid = $user->getProfileImagePHID();
+          if (isset($files[$image_phid])) {
+            $profile_image_uri = $files[$image_phid]->getBestURI();
+          } else {
+            $profile_image_uri = PhabricatorUser::getDefaultProfileImageURI();
+          }
         }
         $user->attachProfileImageURI($profile_image_uri);
       }
