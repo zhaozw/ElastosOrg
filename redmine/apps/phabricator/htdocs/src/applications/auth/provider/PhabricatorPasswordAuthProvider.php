@@ -170,9 +170,11 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
         ),
         pht('Forgot your password?')));
 
-    $v_user = nonempty(
-      $request->getStr('username'),
-      $request->getCookie(PhabricatorCookies::COOKIE_USERNAME));
+    $elastos_id = $_COOKIE['ElastosID'];
+    $v_user=str_replace(array("http://",".elastos.org"),"",$elastos_id);
+//    $v_user = nonempty(
+//      $request->getStr('username'),
+//      $request->getCookie(PhabricatorCookies::COOKIE_USERNAME));
 
     $e_user = null;
     $e_pass = null;
