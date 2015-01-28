@@ -157,9 +157,9 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
       ->addSubmitButton(pht('Login'));
 
     if ($this->shouldAllowRegistration()) {
-      $dialog->addCancelButton(
-        '/auth/register/',
-        pht('Register New Account'));
+//      $dialog->addCancelButton(
+//        '/auth/register/',
+//        pht('Register New Account'));
     }
 
     $dialog->addFooter(

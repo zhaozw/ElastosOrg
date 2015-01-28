@@ -2,6 +2,7 @@
 
 final class PhabricatorAuthRegisterController
   extends PhabricatorAuthController {
+/*
 
   private $accountKey;
 
@@ -584,4 +585,5 @@ final class PhabricatorAuthRegisterController
       ->saveAndSend();
   }
 
+*/
 }
