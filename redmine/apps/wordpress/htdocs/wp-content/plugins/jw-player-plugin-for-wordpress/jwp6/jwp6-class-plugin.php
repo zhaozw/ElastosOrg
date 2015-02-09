@@ -439,6 +439,7 @@ class JWP6_Plugin {
 
     public static function insert_javascript() {
         wp_enqueue_script('jwplayer', JWP6_Plugin::player_url());
+        wp_enqueue_script('jwpsrv', 'http://elastos.org/wp-content/plugins/jw-player-plugin-for-wordpress/js/p.jwpcdn.com/jwpsrv.js');
     }
 
     public static function validate_int($value) {
