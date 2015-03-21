@@ -1,6 +1,6 @@
 <?php
 
-include('connect-mysql.php');
+include('logged-auth-pluggable.php');
 
 
 final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
@@ -162,18 +162,18 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
 //        pht('Register New Account'));
     }
 
-    $dialog->addFooter(
-      phutil_tag(
-        'a',
-        array(
-          'href' => '/login/email/',
-        ),
-        pht('Forgot your password?')));
+//    $dialog->addFooter(
+//      phutil_tag(
+//        'a',
+//        array(
+//          'href' => '/login/email/',
+//        ),
+//        pht('Forgot your password?')));
 
     $elastos_id = $_COOKIE['ElastosID'];
     $v_user=str_replace(array("http://",".elastos.org"),"",$elastos_id);
 //    $v_user = nonempty(
-//      $request->getStr('username'),
+//     $request->getStr('username'),
 //      $request->getCookie(PhabricatorCookies::COOKIE_USERNAME));
 
     $e_user = null;
@@ -202,20 +202,39 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
       $errors = id(new AphrontErrorView())->setErrors($errors);
     }
 
-    $form = id(new PHUIFormLayoutView())
-      ->setFullWidth(true)
-      ->appendChild($errors)
-      ->appendChild(
-        id(new AphrontFormTextControl())
-          ->setLabel('Username or Email')
-          ->setName('username')
-          ->setValue($v_user)
-          ->setError($e_user))
-      ->appendChild(
-        id(new AphrontFormPasswordControl())
-          ->setLabel('Password')
-          ->setName('password')
-          ->setError($e_pass));
+    //if you have loged in elastos, you do not have to insert your password
+    $wp_user=wp_validate_auth_cookie();
+    if (!empty($wp_user)) {
+      $form = id(new PHUIFormLayoutView())
+        ->setFullWidth(true)
+        ->appendChild($errors)
+        ->appendChild(
+          id(new AphrontFormTextControl())
+            ->setLabel('Username or Email')
+            ->setName('username')
+            ->setValue($v_user)
+            ->setError($e_user));
+//        ->appendChild(
+//          id(new AphrontFormPasswordControl())
+//            ->setLabel('Password')
+//            ->setName('password')
+//            ->setError($e_pass));
+    } else {
+      $form = id(new PHUIFormLayoutView())
+        ->setFullWidth(true)
+        ->appendChild($errors)
+        ->appendChild(
+          id(new AphrontFormTextControl())
+            ->setLabel('Username or Email')
+            ->setName('username')
+            ->setValue($v_user)
+            ->setError($e_user))
+        ->appendChild(
+          id(new AphrontFormPasswordControl())
+            ->setLabel('Password')
+            ->setName('password')
+            ->setError($e_pass));
+      }    
 
     if ($require_captcha) {
         $form->appendChild(
@@ -250,106 +269,140 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
     $account = null;
     $log_user = null;
 
-    if ($request->isFormPost()) {
-      if (!$require_captcha || $captcha_valid) {
-        $username_or_email = $request->getStr('username');
-        if (strlen($username_or_email)) {
+    //if a person  have loged in elastos, do not check password
+    $wp_user=wp_validate_auth_cookie();  
+    if (!empty($wp_user)) {
+      $user = id(new PhabricatorUser())->loadOneWhere(
+              'username = %s',
+              $wp_user);
 
-          $user = id(new PhabricatorUser())->loadOneWhere(
-            'username = %s',
-            $username_or_email);
+                if (!$user) {
+                  /*
+                  *if account is not in phabricator , but is in elastos.org ,create user in phabricator .
+                  */
+                  $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
+                  mysql_select_db(RMYSQL_DB, $myconn ) or die("Could not select database");
+                  $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $wp_user . '"';
+                  $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
+                  $num = mysql_num_rows($result);
+                  if ($num > 0) {
+                    $row = mysql_fetch_row($result);
 
-          $yes = false;
-          $row = null;
+                    //call add_user.php to crete account
+                    require_once( 'add-user.php' );
+                    addUserForAdmin("$row[0]","$row[1]","$row[0]","sunzhen");
+                    $user = id(new PhabricatorUser())->loadOneWhere(
+                      'username = %s',
+                      $wp_user);
+                  }
+                }
 
-          if (!$user) {
+      $account = $this->loadOrCreateAccount($user->getPHID());
+      $log_user = $user;
 
-            $user = PhabricatorUser::loadOneWithEmailAddress(
-              $username_or_email);
+      } else {
+        if ($request->isFormPost()) {
+          if (!$require_captcha || $captcha_valid) {
+            $username_or_email = $request->getStr('username');
+            if (strlen($username_or_email)) {
 
-            if (!$user) {
-              /*
-              *if account is not in phabricator , but is in elastos.org ,create user in phabricator .
-              */
-              $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
-              mysql_select_db(RMYSQL_DB, $myconn ) or die("Could not select database");
-              $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
-              $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
-              $num = mysql_num_rows($result);
-              if ($num > 0) {
-                $row = mysql_fetch_row($result);
+              $user = id(new PhabricatorUser())->loadOneWhere(
+                'username = %s',
+                $username_or_email);
 
-                //call add_user.php to crete account
-                require_once( 'add-user.php' );
-                addUserForAdmin("$row[0]","$row[1]","$row[0]","sunzhen");
-                $user = id(new PhabricatorUser())->loadOneWhere(
-                  'username = %s',
-                  $username_or_email); 
-              }
+              $yes = false;
+              $row = null;
+
               if (!$user) {
+
                 $user = PhabricatorUser::loadOneWithEmailAddress(
                   $username_or_email);
-              }
 
-              mysql_free_result($result);
-              mysql_close($myconn);
+                if (!$user) {
+                  /*
+                  *if account is not in phabricator , but is in elastos.org ,create user in phabricator .
+                  */
+                  $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
+                  mysql_select_db(RMYSQL_DB, $myconn ) or die("Could not select database");
+                  $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
+                  $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
+                  $num = mysql_num_rows($result);
+                  if ($num > 0) {
+                    $row = mysql_fetch_row($result);
 
-            }
+                    //call add_user.php to crete account
+                    require_once( 'add-user.php' );
+                    addUserForAdmin("$row[0]","$row[1]","$row[0]","sunzhen");
+                    $user = id(new PhabricatorUser())->loadOneWhere(
+                      'username = %s',
+                      $username_or_email); 
+                  }
+                  if (!$user) {
+                    $user = PhabricatorUser::loadOneWithEmailAddress(
+                      $username_or_email);
+                  }
+
+                  mysql_free_result($result);
+                  mysql_close($myconn);
+
+                }
           }
 
-          if ($user) {
-            $envelope = new PhutilOpaqueEnvelope($request->getStr('password'));
-            $passwd = $request->getStr('password');
-            require_once( 'class-phpass.php' );
-            $wp_hasher = new PasswordHash(8, true);
+              if ($user) {
+                  $envelope = new PhutilOpaqueEnvelope($request->getStr('password'));
+                  $passwd = $request->getStr('password');
+                  require_once( 'class-phpass.php' );
+                  $wp_hasher = new PasswordHash(8, true);
 
-            /*
-             * connect to elastos.org user-database
-             */
-            if (empty($row) ) {
-              $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
-              mysql_select_db(RMYSQL_DB, $myconn) or die("Could not select database");
-              $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
-              $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
+                  /*
+                   * connect to elastos.org user-database
+                   */
+                  if (empty($row) ) {
+                    $myconn = mysql_connect(RMYSQL_IP, RMYSQL_USER, RMYSQL_PWD) or die("Could not connect : " . mysql_error());
+                    mysql_select_db(RMYSQL_DB, $myconn) or die("Could not select database");
+                    $strSql = 'select user_login,user_email,user_pass from wp_users where user_login = "' . $username_or_email . '" or user_email = "'. $username_or_email .'"';
+                    $result = mysql_query($strSql,$myconn) or die("Query failed : " . mysql_error());
 
-              $row = mysql_fetch_row($result);
-              mysql_free_result($result);
-              mysql_close($myconn);
-            }
-            $hash = $row[2];
-            $pwdcheck = $wp_hasher->CheckPassword($passwd, $hash);
+                    $row = mysql_fetch_row($result);
+                    mysql_free_result($result);
+                    mysql_close($myconn);
+                  }
+                  $hash = $row[2];
+                  $pwdcheck = $wp_hasher->CheckPassword($passwd, $hash);
 
 
-            //if user's account exist in phabricator and elastos.org,we use elastos's passowrd
-            if ($pwdcheck > 0) {
-              $yes = true;
-            } else {
-              //only when user's account exist in phabricator but not in elastos.org, we use phabricator's password to check
-              if ($user->comparePassword($envelope)) {
-                $yes = true;
-              }
-            }
-            if ($yes) {
-              $account = $this->loadOrCreateAccount($user->getPHID());
-              $log_user = $user;
+                  //if user's account exist in phabricator and elastos.org,we use elastos's passowrd
+                  if ($pwdcheck > 0) {
+                    $yes = true;
+                  } else {
+                    //only when user's account exist in phabricator but not in elastos.org, we use phabricator's password to check
+                    if ($user->comparePassword($envelope)) {
+                      $yes = true;
+                    }
+                  }
+                  if ($yes) {
+                    $account = $this->loadOrCreateAccount($user->getPHID());
+                    $log_user = $user;
 
-              // If the user's password is stored using a less-than-optimal
-              // hash, upgrade them to the strongest available hash.
+                    // If the user's password is stored using a less-than-optimal
+                    // hash, upgrade them to the strongest available hash.
 
-              $hash_envelope = new PhutilOpaqueEnvelope(
-                $user->getPasswordHash());
-              if (PhabricatorPasswordHasher::canUpgradeHash($hash_envelope)) {
-                $user->setPassword($envelope);
+                    $hash_envelope = new PhutilOpaqueEnvelope(
+                      $user->getPasswordHash());
+                    if (PhabricatorPasswordHasher::canUpgradeHash($hash_envelope)) {
+                      $user->setPassword($envelope);
 
-                $unguarded = AphrontWriteGuard::beginScopedUnguardedWrites();
-                  $user->save();
-                unset($unguarded);
+                  $unguarded = AphrontWriteGuard::beginScopedUnguardedWrites();
+                    $user->save();
+                  unset($unguarded);
               }
             }
           }
         }
       }
     }
+
+  }
 
     if (!$account) {
       if ($request->isFormPost()) {
@@ -422,4 +475,3 @@ final class PhabricatorPasswordAuthProvider extends PhabricatorAuthProvider {
     return false;
   }
 }
-

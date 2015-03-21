@@ -105,7 +105,7 @@ $elastos_org_main_menu = '
                 <a href="/review/"><img src="/review/favicon.ico" style="width:16px;">Code Review System</a>
                 <a href="/testlink/"><img src="/testlink/gui/themes/default/images/favicon.ico" style="width:16px;">Test and Requirements</a>
                 <a href="/jenkins/"><img src="/jenkins/static/d974b1d4/favicon.ico" style="width:16px;">Continuous Integration System</a>
-                <a href="http://phabricator.elastos.org"><img src="/wp-includes/images/phabricator-logo.png" style="width:16px;">Phabricator</a>
+                <a href="http://phabricator.elastos.org/login/"><img src="/wp-includes/images/phabricator-logo.png" style="width:16px;">Phabricator</a>
             </td>
             <td>
                 <div style="height:130px;"><img src="/wp-includes/images/elorg_resources.png" alt="bugsvoice" style="width:200px;" style="padding-top:30px"></div>
