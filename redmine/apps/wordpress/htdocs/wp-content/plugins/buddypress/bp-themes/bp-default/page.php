@@ -26,7 +26,7 @@
 					</div>
 				</div>
 
-				<script src="http://elastos.org/wp-admin/js/changePage.js"></script>
+				<?php wp_enqueue_script('changepage','/wp-admin/js/changePage.js');?>
 
 			<?php } else { ?>
 
