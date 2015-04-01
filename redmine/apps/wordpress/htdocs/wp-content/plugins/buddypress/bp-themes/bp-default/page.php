@@ -25,8 +25,7 @@
 						<?php echo get_page( $elastos_id )->post_content;?>
 					</div>
 				</div>
-				<div id="elastospage"></div>
-				<script src="http://elastos.org/wp-admin/js/jquery.js"></script>
+
 				<script src="http://elastos.org/wp-admin/js/changePage.js"></script>
 
 			<?php } else { ?>

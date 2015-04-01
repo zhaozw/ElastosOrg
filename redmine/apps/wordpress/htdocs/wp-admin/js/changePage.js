@@ -1,16 +1,16 @@
-	//alart("fewsaf");
-	var curIndex = 0;
-	var timeInterval = 3000;
-	setInterval("changePage()",timeInterval);
-	function changePage(){
-		if (curIndex == 2) {
-			$("#elastospage").html($("#post-2").html());
-			curIndex = 0;
-		} else if(curIndex == 0) {
-			$("#elastospage").html($("#post-2").html());
-			curIndex++;
-		} else {
-			$("#elastospage").html($("#post-544").html());
-			curIndex++;
-		}
+var curIndex = 0;
+var timeInterval = 3000;
+setInterval("changePage()",timeInterval);
+document.getElementById("post-2").setAttribute("style","display:inline");
+function changePage(){
+	if (curIndex == 2) {
+		document.getElementById("post-2").setAttribute("style","display:inline");
+		curIndex = 0;
+	} else if(curIndex == 0) {
+		curIndex++;	
+	} else {
+		document.getElementById("post-2").setAttribute("style","display:none");
+		document.getElementById("post-544").setAttribute("style","display:inline");
+		curIndex++;
 	}
+}
