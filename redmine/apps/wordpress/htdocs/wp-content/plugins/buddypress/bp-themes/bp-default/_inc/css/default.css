@@ -196,7 +196,14 @@ textarea {
 	font-size: 26px;
 	text-decoration: none;
 }
-
+#icon {
+	display: inline;
+	float: left;
+	margin-left: -28px;
+}
+#iconli{
+	padding-top: 10px;
+}
 
 /*--------------------------------------------------------------
 2.3 - Footer

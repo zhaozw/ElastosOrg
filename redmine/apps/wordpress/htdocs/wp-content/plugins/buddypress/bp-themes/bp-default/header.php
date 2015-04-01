@@ -59,4 +59,17 @@
 		<?php do_action( 'bp_after_header'     ); ?>
 		<?php do_action( 'bp_before_container' ); ?>
 
+	<ul id="icon">
+		<li>
+		<a href="http://elastos.org" title="elastosorg">
+			<img src="http://elastos.org/wp-admin/images/home.png" alt="home" width="25" height="28" />
+		</a>
+		</li>
+		<li id="iconli">
+		<a href="http://elastos.org/project-guide/" title="project-guide">
+			<img src="http://elastos.org/wp-admin/images/developers.png" alt="developers" width="25" height="25" />
+		</a>
+		</li>
+	</ul>
+
 		<div id="container">
