@@ -199,10 +199,17 @@ textarea {
 #icon {
 	display: inline;
 	float: left;
-	margin-left: -28px;
+	margin-left: -26px;
 }
-#iconli{
+#icon li {
 	padding-top: 10px;
+	
+}
+#iconhome {
+	opacity:1;
+}
+#icondevelopers {
+	opacity:0.2;
 }
 
 /*--------------------------------------------------------------

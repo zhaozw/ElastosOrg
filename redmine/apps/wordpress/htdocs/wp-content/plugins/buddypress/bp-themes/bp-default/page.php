@@ -11,7 +11,7 @@
 				$the_ID = $id;
 				if($the_ID == 2) {
 			?>
-				<div id="post-2" <?php post_class(); ?> style="display:none">
+				<div id="post-2" <?php post_class(); ?>>
 					<h2 class="pagetitle"><?php the_title(); ?></h2>
 					<div class="entry">
 						<?php the_content();?>
